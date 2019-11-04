@@ -5,7 +5,7 @@
       <body xmlns="http://www.w3.org/1999/xhtml">
         <div class="dc:title">Notes</div>
         <div class="dc:description">
-		This model was made by Beata Lisowska. Details can be found in her thesis. Additionally, Matteo Ferla fixed the thiamin, fatty acid, Yang cycle and the reverse transulfurylation pathway. He also added KEGG data in a semiautomated fashion, albeit unlikely errors might be present (the orginial names can be found in Log of names SBML Gthg2.4.txt). Note: Unicode encodings were used instead of HTML escapes. Due to the poor coverage of prime glyph and the HTML use of straight apostrophe glyph, the right single quotation mark was used. To preserve the difference between =&gt; and -&gt; arrows (reaction and bonding), which are normally not distinguished and use the right arrow glyph, the latter was given the dashed arrow glyph. &quot; was replaced by the curly counterparts. 
+		This model was made by Beata Lisowska. Details can be found in her thesis. Additionally, Matteo Ferla fixed the thiamin, fatty acid, Yang cycle and the reverse transulfurylation pathway. He also added KEGG data in a semiautomated fashion, albeit unlikely errors might be present (the orginial names can be found in Log of names SBML Gthg2.4.txt). Note: Unicode encodings were used instead of HTML escapes. Due to the poor coverage of prime glyph and the HTML use of straight apostrophe glyph, the right single quotation mark was used. To preserve the difference between =&gt; and -&gt; arrows (reaction and bonding), which are normally not distinguished and use the right arrow glyph, the latter was given the dashed arrow glyph. &quot; was replaced by the curly counterparts.
 		</div>
       </body>
     </notes>
@@ -40087,7 +40087,6 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X </p>
-            <p>GENE_ASSOCIATION: ( non enzymatic)</p>
             <p>KEGG_COMMENT: non enzymatic</p>
             <p>DEFINITION: L-Glutamate 5-semialdehyde ⇌ (S)-1-Pyrroline-5-carboxylate + H2O</p>
             <p>EQUATION: C01165 ⇌ C03912 + C00001</p>
@@ -42798,7 +42797,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: 00280</p>
-            <p>GENE_ASSOCIATION: (Gthg02239, Gthg02240, Gthg03320, Gthg01064)</p>
+            <p>GENE_ASSOCIATION: (Gthg02239 or Gthg02240 or Gthg03320 or Gthg01064)</p>
             <p>DEFINITION: (2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA ⇌ 2-Methylbut-2-enoyl-CoA + H2O</p>
             <p>ENZYME: 4.2.1.17</p>
             <p>EQUATION: C04405 ⇌ C03345 + C00001</p>
@@ -58329,7 +58328,6 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Butanoate metabolism </p>
-            <p>GENE_ASSOCIATION: ( spontaneous )</p>
             <p>COMMENT: non-enzymatic; flavin, nicotinamide and quinone coenzymes act as acceptor</p>
             <p>DEFINITION: (S)-2-Acetolactate + Acceptor ⇌ Diacetyl + CO2 + Reduced acceptor</p>
             <p>ENTRY: R10506 Reaction</p>
