@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false" groups:required="false">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" metaid="meta_" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false" groups:required="false">
   <model metaid="meta_GTModelBeata2015" id="GTModelBeata2015" name="Geobacillus thermoglucosidasius genome-scale model" fbc:strict="true">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
@@ -18152,6 +18152,185 @@
       <parameter sboTerm="SBO:0000626" id="cobra_0_bound" value="0" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="minus_inf" value="-INF" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="plus_inf" value="INF" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1819_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_499_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_23_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_43_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1864_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_85_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_140_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_408_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_14_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_29_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_280_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1754_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1755_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_7_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_11_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_71_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_209_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_179_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_37_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_55_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_45_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_357_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_452_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_333_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_34_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_120_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_218_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_295_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_234_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_65_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_211_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_70_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_449_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_213_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_58_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_181_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_69_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_95_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_236_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_160_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_154_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_106_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_101_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_134_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_19_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_128_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_50_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_94_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_271_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_269_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_199_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_273_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_222_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_2_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_547_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_77_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_376_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_12_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_168_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1207_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_286_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_10_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_127_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_82_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1774_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_18_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_195_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_22_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_243_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_3_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_30_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_306_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_971_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_4_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_46_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_5_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_6_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_74_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_91_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_394_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_249_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_107_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_Biomass_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_991_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_2328_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_668_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_402_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_523_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1571_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1312_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1763_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_403_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1214_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1158_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_422_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_635_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_654_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_657_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_685_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_902_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_977_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_914_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_349_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1569_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_593_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_413_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_755_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_995_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_892_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_10000_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_787_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1231_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_251_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1066_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1977_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_112_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1039_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_958_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_830_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_911_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1243_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_346_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1190_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_798_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_458_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1191_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1194_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1643_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1036_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_238_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_624_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_155_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_28_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_742_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1014_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1144_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1100_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_320_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_631_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_437_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_680_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_813_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_237_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1797_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1215_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_81_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_583_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_445_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_87_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_961_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_141_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_299_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_2466_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_136_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1304_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_578_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_496_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_18544_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1189_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_921_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1180_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_122_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_737_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_395_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1038_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_945_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_1084_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_31_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_51_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_38_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_214_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_42_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_35_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_267_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_163_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_281_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_776_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_215_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_1_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_2_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_3_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -19545,897 +19724,897 @@
       <parameter sboTerm="SBO:0000625" id="R_M_biomass_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
     </listOfParameters>
     <listOfReactions>
-      <reaction metaid="meta_R_EX_1819_e" sboTerm="SBO:0000627" id="R_EX_1819_e" name="EX_1819_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1819_e" sboTerm="SBO:0000627" id="R_EX_1819_e" name="EX_1819_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1819_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1819_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_499_e" sboTerm="SBO:0000627" id="R_EX_499_e" name="EX_499_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_499_e" sboTerm="SBO:0000627" id="R_EX_499_e" name="EX_499_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_499_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_499_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_23_e" sboTerm="SBO:0000627" id="R_EX_23_e" name="EX_23_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_23_e" sboTerm="SBO:0000627" id="R_EX_23_e" name="EX_23_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_23_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_23_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_43_e" sboTerm="SBO:0000627" id="R_EX_43_e" name="EX_43_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_43_e" sboTerm="SBO:0000627" id="R_EX_43_e" name="EX_43_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_43_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_43_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1864_e" sboTerm="SBO:0000627" id="R_EX_1864_e" name="EX_1864_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1864_e" sboTerm="SBO:0000627" id="R_EX_1864_e" name="EX_1864_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1864_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1864_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_85_e" sboTerm="SBO:0000627" id="R_EX_85_e" name="EX_85_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_85_e" sboTerm="SBO:0000627" id="R_EX_85_e" name="EX_85_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_85_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_85_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_140_e" sboTerm="SBO:0000627" id="R_EX_140_e" name="EX_140_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_140_e" sboTerm="SBO:0000627" id="R_EX_140_e" name="EX_140_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_140_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_140_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_408_e" sboTerm="SBO:0000627" id="R_EX_408_e" name="EX_408_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_408_e" sboTerm="SBO:0000627" id="R_EX_408_e" name="EX_408_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_408_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_408_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_14_e" sboTerm="SBO:0000627" id="R_EX_14_e" name="EX_14_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_14_e" sboTerm="SBO:0000627" id="R_EX_14_e" name="EX_14_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_14_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_14_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_29_e" sboTerm="SBO:0000627" id="R_EX_29_e" name="EX_29_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_29_e" sboTerm="SBO:0000627" id="R_EX_29_e" name="EX_29_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_29_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_29_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_280_e" sboTerm="SBO:0000627" id="R_EX_280_e" name="EX_280_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_280_e" sboTerm="SBO:0000627" id="R_EX_280_e" name="EX_280_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_280_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_280_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1754_e" sboTerm="SBO:0000627" id="R_EX_1754_e" name="EX_1754_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1754_e" sboTerm="SBO:0000627" id="R_EX_1754_e" name="EX_1754_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1754_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1754_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1755_e" sboTerm="SBO:0000627" id="R_EX_1755_e" name="EX_1755_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1755_e" sboTerm="SBO:0000627" id="R_EX_1755_e" name="EX_1755_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1755_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1755_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1_e" sboTerm="SBO:0000627" id="R_EX_1_e" name="EX_1_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1_e" sboTerm="SBO:0000627" id="R_EX_1_e" name="EX_1_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_7_e" sboTerm="SBO:0000627" id="R_EX_7_e" name="EX_7_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_7_e" sboTerm="SBO:0000627" id="R_EX_7_e" name="EX_7_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_7_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_7_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_11_e" sboTerm="SBO:0000627" id="R_EX_11_e" name="EX_11_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_11_e" sboTerm="SBO:0000627" id="R_EX_11_e" name="EX_11_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_11_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_11_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_71_e" sboTerm="SBO:0000627" id="R_EX_71_e" name="EX_71_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_71_e" sboTerm="SBO:0000627" id="R_EX_71_e" name="EX_71_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_71_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_71_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_209_e" sboTerm="SBO:0000627" id="R_EX_209_e" name="EX_209_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_209_e" sboTerm="SBO:0000627" id="R_EX_209_e" name="EX_209_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_209_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_209_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_179_e" sboTerm="SBO:0000627" id="R_EX_179_e" name="EX_179_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_179_e" sboTerm="SBO:0000627" id="R_EX_179_e" name="EX_179_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_179_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_179_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_37_e" sboTerm="SBO:0000627" id="R_EX_37_e" name="EX_37_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_37_e" sboTerm="SBO:0000627" id="R_EX_37_e" name="EX_37_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_37_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_37_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_55_e" sboTerm="SBO:0000627" id="R_EX_55_e" name="EX_55_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_55_e" sboTerm="SBO:0000627" id="R_EX_55_e" name="EX_55_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_55_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_55_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_45_e" sboTerm="SBO:0000627" id="R_EX_45_e" name="EX_45_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_45_e" sboTerm="SBO:0000627" id="R_EX_45_e" name="EX_45_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_45_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_45_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_357_e" sboTerm="SBO:0000627" id="R_EX_357_e" name="EX_357_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_357_e" sboTerm="SBO:0000627" id="R_EX_357_e" name="EX_357_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_357_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_357_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_452_e" sboTerm="SBO:0000627" id="R_EX_452_e" name="EX_452_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_452_e" sboTerm="SBO:0000627" id="R_EX_452_e" name="EX_452_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_452_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_452_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_333_e" sboTerm="SBO:0000627" id="R_EX_333_e" name="EX_333_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_333_e" sboTerm="SBO:0000627" id="R_EX_333_e" name="EX_333_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_333_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_333_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_34_e" sboTerm="SBO:0000627" id="R_EX_34_e" name="EX_34_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_34_e" sboTerm="SBO:0000627" id="R_EX_34_e" name="EX_34_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_34_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_34_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_120_e" sboTerm="SBO:0000627" id="R_EX_120_e" name="EX_120_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_120_e" sboTerm="SBO:0000627" id="R_EX_120_e" name="EX_120_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_120_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_120_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_218_e" sboTerm="SBO:0000627" id="R_EX_218_e" name="EX_218_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_218_e" sboTerm="SBO:0000627" id="R_EX_218_e" name="EX_218_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_218_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_218_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_295_e" sboTerm="SBO:0000627" id="R_EX_295_e" name="EX_295_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_295_e" sboTerm="SBO:0000627" id="R_EX_295_e" name="EX_295_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_295_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_295_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_234_e" sboTerm="SBO:0000627" id="R_EX_234_e" name="EX_234_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_234_e" sboTerm="SBO:0000627" id="R_EX_234_e" name="EX_234_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_234_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_234_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_65_e" sboTerm="SBO:0000627" id="R_EX_65_e" name="EX_65_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_65_e" sboTerm="SBO:0000627" id="R_EX_65_e" name="EX_65_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_65_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_65_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_211_e" sboTerm="SBO:0000627" id="R_EX_211_e" name="EX_211_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_211_e" sboTerm="SBO:0000627" id="R_EX_211_e" name="EX_211_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_211_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_211_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_70_e" sboTerm="SBO:0000627" id="R_EX_70_e" name="EX_70_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_70_e" sboTerm="SBO:0000627" id="R_EX_70_e" name="EX_70_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_70_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_70_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_449_e" sboTerm="SBO:0000627" id="R_EX_449_e" name="EX_449_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_449_e" sboTerm="SBO:0000627" id="R_EX_449_e" name="EX_449_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_449_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_449_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_213_e" sboTerm="SBO:0000627" id="R_EX_213_e" name="EX_213_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_213_e" sboTerm="SBO:0000627" id="R_EX_213_e" name="EX_213_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_213_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_213_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_58_e" sboTerm="SBO:0000627" id="R_EX_58_e" name="EX_58_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_58_e" sboTerm="SBO:0000627" id="R_EX_58_e" name="EX_58_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_58_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_58_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_181_e" sboTerm="SBO:0000627" id="R_EX_181_e" name="EX_181_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_181_e" sboTerm="SBO:0000627" id="R_EX_181_e" name="EX_181_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_181_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_181_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_69_e" sboTerm="SBO:0000627" id="R_EX_69_e" name="EX_69_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_69_e" sboTerm="SBO:0000627" id="R_EX_69_e" name="EX_69_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_69_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_69_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_95_e" sboTerm="SBO:0000627" id="R_EX_95_e" name="EX_95_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_95_e" sboTerm="SBO:0000627" id="R_EX_95_e" name="EX_95_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_95_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_95_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_236_e" sboTerm="SBO:0000627" id="R_EX_236_e" name="EX_236_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_236_e" sboTerm="SBO:0000627" id="R_EX_236_e" name="EX_236_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_236_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_236_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_160_e" sboTerm="SBO:0000627" id="R_EX_160_e" name="EX_160_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_160_e" sboTerm="SBO:0000627" id="R_EX_160_e" name="EX_160_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_160_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_160_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_154_e" sboTerm="SBO:0000627" id="R_EX_154_e" name="EX_154_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_154_e" sboTerm="SBO:0000627" id="R_EX_154_e" name="EX_154_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_154_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_154_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_106_e" sboTerm="SBO:0000627" id="R_EX_106_e" name="EX_106_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_106_e" sboTerm="SBO:0000627" id="R_EX_106_e" name="EX_106_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_106_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_106_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_101_e" sboTerm="SBO:0000627" id="R_EX_101_e" name="EX_101_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_101_e" sboTerm="SBO:0000627" id="R_EX_101_e" name="EX_101_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_101_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_101_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_134_e" sboTerm="SBO:0000627" id="R_EX_134_e" name="EX_134_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_134_e" sboTerm="SBO:0000627" id="R_EX_134_e" name="EX_134_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_134_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_134_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_19_e" sboTerm="SBO:0000627" id="R_EX_19_e" name="EX_19_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_19_e" sboTerm="SBO:0000627" id="R_EX_19_e" name="EX_19_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_19_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_19_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_128_e" sboTerm="SBO:0000627" id="R_EX_128_e" name="EX_128_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_128_e" sboTerm="SBO:0000627" id="R_EX_128_e" name="EX_128_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_128_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_128_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_50_e" sboTerm="SBO:0000627" id="R_EX_50_e" name="EX_50_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_50_e" sboTerm="SBO:0000627" id="R_EX_50_e" name="EX_50_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_50_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_50_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_94_e" sboTerm="SBO:0000627" id="R_EX_94_e" name="EX_94_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_94_e" sboTerm="SBO:0000627" id="R_EX_94_e" name="EX_94_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_94_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_94_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_271_e" sboTerm="SBO:0000627" id="R_EX_271_e" name="EX_271_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_271_e" sboTerm="SBO:0000627" id="R_EX_271_e" name="EX_271_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_271_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_271_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_269_e" sboTerm="SBO:0000627" id="R_EX_269_e" name="EX_269_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_269_e" sboTerm="SBO:0000627" id="R_EX_269_e" name="EX_269_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_269_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_269_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_199_e" sboTerm="SBO:0000627" id="R_EX_199_e" name="EX_199_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_199_e" sboTerm="SBO:0000627" id="R_EX_199_e" name="EX_199_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_199_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_199_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_273_e" sboTerm="SBO:0000627" id="R_EX_273_e" name="EX_273_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_273_e" sboTerm="SBO:0000627" id="R_EX_273_e" name="EX_273_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_273_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_273_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_222_e" sboTerm="SBO:0000627" id="R_EX_222_e" name="EX_222_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_222_e" sboTerm="SBO:0000627" id="R_EX_222_e" name="EX_222_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_222_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_222_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_2_e" sboTerm="SBO:0000627" id="R_EX_2_e" name="EX_2_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_2_e" sboTerm="SBO:0000627" id="R_EX_2_e" name="EX_2_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_2_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_547_e" sboTerm="SBO:0000627" id="R_EX_547_e" name="EX_547_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_547_e" sboTerm="SBO:0000627" id="R_EX_547_e" name="EX_547_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_547_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_547_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_77_e" sboTerm="SBO:0000627" id="R_EX_77_e" name="EX_77_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_77_e" sboTerm="SBO:0000627" id="R_EX_77_e" name="EX_77_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_77_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_77_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_376_e" sboTerm="SBO:0000627" id="R_EX_376_e" name="EX_376_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_376_e" sboTerm="SBO:0000627" id="R_EX_376_e" name="EX_376_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_376_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_376_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_12_e" sboTerm="SBO:0000627" id="R_EX_12_e" name="EX_12_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_12_e" sboTerm="SBO:0000627" id="R_EX_12_e" name="EX_12_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_12_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_12_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_168_e" sboTerm="SBO:0000627" id="R_EX_168_e" name="EX_168_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_168_e" sboTerm="SBO:0000627" id="R_EX_168_e" name="EX_168_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_168_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_168_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1207_e" sboTerm="SBO:0000627" id="R_EX_1207_e" name="EX_1207_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1207_e" sboTerm="SBO:0000627" id="R_EX_1207_e" name="EX_1207_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1207_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1207_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_286_e" sboTerm="SBO:0000627" id="R_EX_286_e" name="EX_286_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_286_e" sboTerm="SBO:0000627" id="R_EX_286_e" name="EX_286_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_286_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_286_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_10_e" sboTerm="SBO:0000627" id="R_EX_10_e" name="EX_10_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_10_e" sboTerm="SBO:0000627" id="R_EX_10_e" name="EX_10_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_10_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_10_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_127_e" sboTerm="SBO:0000627" id="R_EX_127_e" name="EX_127_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_127_e" sboTerm="SBO:0000627" id="R_EX_127_e" name="EX_127_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_127_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_127_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_82_e" sboTerm="SBO:0000627" id="R_EX_82_e" name="EX_82_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_82_e" sboTerm="SBO:0000627" id="R_EX_82_e" name="EX_82_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_82_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_82_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1774_e" sboTerm="SBO:0000627" id="R_EX_1774_e" name="EX_1774_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1774_e" sboTerm="SBO:0000627" id="R_EX_1774_e" name="EX_1774_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1774_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1774_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_18_e" sboTerm="SBO:0000627" id="R_EX_18_e" name="EX_18_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_18_e" sboTerm="SBO:0000627" id="R_EX_18_e" name="EX_18_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_18_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_18_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_195_e" sboTerm="SBO:0000627" id="R_EX_195_e" name="EX_195_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_195_e" sboTerm="SBO:0000627" id="R_EX_195_e" name="EX_195_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_195_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_195_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_22_e" sboTerm="SBO:0000627" id="R_EX_22_e" name="EX_22_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_22_e" sboTerm="SBO:0000627" id="R_EX_22_e" name="EX_22_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_22_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_22_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_243_e" sboTerm="SBO:0000627" id="R_EX_243_e" name="EX_243_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_243_e" sboTerm="SBO:0000627" id="R_EX_243_e" name="EX_243_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_243_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_243_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_3_e" sboTerm="SBO:0000627" id="R_EX_3_e" name="EX_3_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_3_e" sboTerm="SBO:0000627" id="R_EX_3_e" name="EX_3_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_3_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_30_e" sboTerm="SBO:0000627" id="R_EX_30_e" name="EX_30_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_30_e" sboTerm="SBO:0000627" id="R_EX_30_e" name="EX_30_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_30_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_30_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_306_e" sboTerm="SBO:0000627" id="R_EX_306_e" name="EX_306_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_306_e" sboTerm="SBO:0000627" id="R_EX_306_e" name="EX_306_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_306_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_306_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_971_e" sboTerm="SBO:0000627" id="R_EX_971_e" name="EX_971_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_971_e" sboTerm="SBO:0000627" id="R_EX_971_e" name="EX_971_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_971_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_971_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_4_e" sboTerm="SBO:0000627" id="R_EX_4_e" name="EX_4_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_4_e" sboTerm="SBO:0000627" id="R_EX_4_e" name="EX_4_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_4_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_46_e" sboTerm="SBO:0000627" id="R_EX_46_e" name="EX_46_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_46_e" sboTerm="SBO:0000627" id="R_EX_46_e" name="EX_46_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_46_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_46_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_5_e" sboTerm="SBO:0000627" id="R_EX_5_e" name="EX_5_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_5_e" sboTerm="SBO:0000627" id="R_EX_5_e" name="EX_5_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_5_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_5_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_6_e" sboTerm="SBO:0000627" id="R_EX_6_e" name="EX_6_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_6_e" sboTerm="SBO:0000627" id="R_EX_6_e" name="EX_6_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_6_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_6_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_74_e" sboTerm="SBO:0000627" id="R_EX_74_e" name="EX_74_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_74_e" sboTerm="SBO:0000627" id="R_EX_74_e" name="EX_74_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_74_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_74_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_91_e" sboTerm="SBO:0000627" id="R_EX_91_e" name="EX_91_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_91_e" sboTerm="SBO:0000627" id="R_EX_91_e" name="EX_91_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_91_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_91_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_394_e" sboTerm="SBO:0000627" id="R_EX_394_e" name="EX_394_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_394_e" sboTerm="SBO:0000627" id="R_EX_394_e" name="EX_394_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_394_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_394_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_249_e" sboTerm="SBO:0000627" id="R_EX_249_e" name="EX_249_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_249_e" sboTerm="SBO:0000627" id="R_EX_249_e" name="EX_249_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_249_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_249_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_107_e" sboTerm="SBO:0000627" id="R_EX_107_e" name="EX_107_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_107_e" sboTerm="SBO:0000627" id="R_EX_107_e" name="EX_107_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_107_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_107_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_Biomass_e" sboTerm="SBO:0000627" id="R_EX_Biomass_e" name="EX_Biomass_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_Biomass_e" sboTerm="SBO:0000627" id="R_EX_Biomass_e" name="EX_Biomass_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_Biomass_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_Biomass_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_991_e" sboTerm="SBO:0000627" id="R_EX_991_e" name="EX_991_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_991_e" sboTerm="SBO:0000627" id="R_EX_991_e" name="EX_991_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_991_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_991_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_2328_e" sboTerm="SBO:0000627" id="R_EX_2328_e" name="EX_2328_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_2328_e" sboTerm="SBO:0000627" id="R_EX_2328_e" name="EX_2328_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_2328_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_2328_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_668_e" sboTerm="SBO:0000627" id="R_EX_668_e" name="EX_668_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_668_e" sboTerm="SBO:0000627" id="R_EX_668_e" name="EX_668_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_668_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_668_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_402_e" sboTerm="SBO:0000627" id="R_EX_402_e" name="EX_402_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_402_e" sboTerm="SBO:0000627" id="R_EX_402_e" name="EX_402_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_402_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_402_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_523_e" sboTerm="SBO:0000627" id="R_EX_523_e" name="EX_523_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_523_e" sboTerm="SBO:0000627" id="R_EX_523_e" name="EX_523_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_523_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_523_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1571_e" sboTerm="SBO:0000627" id="R_EX_1571_e" name="EX_1571_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1571_e" sboTerm="SBO:0000627" id="R_EX_1571_e" name="EX_1571_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1571_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1571_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1312_e" sboTerm="SBO:0000627" id="R_EX_1312_e" name="EX_1312_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1312_e" sboTerm="SBO:0000627" id="R_EX_1312_e" name="EX_1312_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1312_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1312_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1763_e" sboTerm="SBO:0000627" id="R_EX_1763_e" name="EX_1763_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1763_e" sboTerm="SBO:0000627" id="R_EX_1763_e" name="EX_1763_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1763_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1763_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_403_e" sboTerm="SBO:0000627" id="R_EX_403_e" name="EX_403_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_403_e" sboTerm="SBO:0000627" id="R_EX_403_e" name="EX_403_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_403_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_403_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1214_e" sboTerm="SBO:0000627" id="R_EX_1214_e" name="EX_1214_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1214_e" sboTerm="SBO:0000627" id="R_EX_1214_e" name="EX_1214_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1214_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1214_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1158_e" sboTerm="SBO:0000627" id="R_EX_1158_e" name="EX_1158_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1158_e" sboTerm="SBO:0000627" id="R_EX_1158_e" name="EX_1158_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1158_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1158_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_422_e" sboTerm="SBO:0000627" id="R_EX_422_e" name="EX_422_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_422_e" sboTerm="SBO:0000627" id="R_EX_422_e" name="EX_422_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_422_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_422_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_635_e" sboTerm="SBO:0000627" id="R_EX_635_e" name="EX_635_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_635_e" sboTerm="SBO:0000627" id="R_EX_635_e" name="EX_635_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_635_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_635_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_654_e" sboTerm="SBO:0000627" id="R_EX_654_e" name="EX_654_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_654_e" sboTerm="SBO:0000627" id="R_EX_654_e" name="EX_654_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_654_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_654_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_657_e" sboTerm="SBO:0000627" id="R_EX_657_e" name="EX_657_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_657_e" sboTerm="SBO:0000627" id="R_EX_657_e" name="EX_657_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_657_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_657_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_685_e" sboTerm="SBO:0000627" id="R_EX_685_e" name="EX_685_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_685_e" sboTerm="SBO:0000627" id="R_EX_685_e" name="EX_685_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_685_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_685_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_902_e" sboTerm="SBO:0000627" id="R_EX_902_e" name="EX_902_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_902_e" sboTerm="SBO:0000627" id="R_EX_902_e" name="EX_902_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_902_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_902_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_977_e" sboTerm="SBO:0000627" id="R_EX_977_e" name="EX_977_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_977_e" sboTerm="SBO:0000627" id="R_EX_977_e" name="EX_977_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_977_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_977_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_914_e" sboTerm="SBO:0000627" id="R_EX_914_e" name="EX_914_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_914_e" sboTerm="SBO:0000627" id="R_EX_914_e" name="EX_914_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_914_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_914_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_349_e" sboTerm="SBO:0000627" id="R_EX_349_e" name="EX_349_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_349_e" sboTerm="SBO:0000627" id="R_EX_349_e" name="EX_349_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_349_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_349_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1569_e" sboTerm="SBO:0000627" id="R_EX_1569_e" name="EX_1569_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1569_e" sboTerm="SBO:0000627" id="R_EX_1569_e" name="EX_1569_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1569_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1569_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_593_e" sboTerm="SBO:0000627" id="R_EX_593_e" name="EX_593_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_593_e" sboTerm="SBO:0000627" id="R_EX_593_e" name="EX_593_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_593_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_593_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_413_e" sboTerm="SBO:0000627" id="R_EX_413_e" name="EX_413_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_413_e" sboTerm="SBO:0000627" id="R_EX_413_e" name="EX_413_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_413_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_413_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_755_e" sboTerm="SBO:0000627" id="R_EX_755_e" name="EX_755_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_755_e" sboTerm="SBO:0000627" id="R_EX_755_e" name="EX_755_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_755_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_755_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_995_e" sboTerm="SBO:0000627" id="R_EX_995_e" name="EX_995_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_995_e" sboTerm="SBO:0000627" id="R_EX_995_e" name="EX_995_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_995_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_995_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_892_e" sboTerm="SBO:0000627" id="R_EX_892_e" name="EX_892_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_892_e" sboTerm="SBO:0000627" id="R_EX_892_e" name="EX_892_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_892_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_892_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_10000_e" sboTerm="SBO:0000627" id="R_EX_10000_e" name="EX_10000_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_10000_e" sboTerm="SBO:0000627" id="R_EX_10000_e" name="EX_10000_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_10000_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_10000_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_787_e" sboTerm="SBO:0000627" id="R_EX_787_e" name="EX_787_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_787_e" sboTerm="SBO:0000627" id="R_EX_787_e" name="EX_787_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_787_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_787_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1231_e" sboTerm="SBO:0000627" id="R_EX_1231_e" name="EX_1231_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1231_e" sboTerm="SBO:0000627" id="R_EX_1231_e" name="EX_1231_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1231_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1231_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_251_e" sboTerm="SBO:0000627" id="R_EX_251_e" name="EX_251_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_251_e" sboTerm="SBO:0000627" id="R_EX_251_e" name="EX_251_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_251_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_251_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1066_e" sboTerm="SBO:0000627" id="R_EX_1066_e" name="EX_1066_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1066_e" sboTerm="SBO:0000627" id="R_EX_1066_e" name="EX_1066_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1066_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1066_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1977_e" sboTerm="SBO:0000627" id="R_EX_1977_e" name="EX_1977_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1977_e" sboTerm="SBO:0000627" id="R_EX_1977_e" name="EX_1977_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1977_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1977_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_112_e" sboTerm="SBO:0000627" id="R_EX_112_e" name="EX_112_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_112_e" sboTerm="SBO:0000627" id="R_EX_112_e" name="EX_112_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_112_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_112_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1039_e" sboTerm="SBO:0000627" id="R_EX_1039_e" name="EX_1039_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1039_e" sboTerm="SBO:0000627" id="R_EX_1039_e" name="EX_1039_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1039_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1039_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_958_e" sboTerm="SBO:0000627" id="R_EX_958_e" name="EX_958_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_958_e" sboTerm="SBO:0000627" id="R_EX_958_e" name="EX_958_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_958_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_958_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_830_e" sboTerm="SBO:0000627" id="R_EX_830_e" name="EX_830_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_830_e" sboTerm="SBO:0000627" id="R_EX_830_e" name="EX_830_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_830_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_830_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_911_e" sboTerm="SBO:0000627" id="R_EX_911_e" name="EX_911_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_911_e" sboTerm="SBO:0000627" id="R_EX_911_e" name="EX_911_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_911_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_911_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1243_e" sboTerm="SBO:0000627" id="R_EX_1243_e" name="EX_1243_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1243_e" sboTerm="SBO:0000627" id="R_EX_1243_e" name="EX_1243_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1243_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1243_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_346_e" sboTerm="SBO:0000627" id="R_EX_346_e" name="EX_346_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_346_e" sboTerm="SBO:0000627" id="R_EX_346_e" name="EX_346_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_346_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_346_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1190_e" sboTerm="SBO:0000627" id="R_EX_1190_e" name="EX_1190_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1190_e" sboTerm="SBO:0000627" id="R_EX_1190_e" name="EX_1190_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1190_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1190_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_798_e" sboTerm="SBO:0000627" id="R_EX_798_e" name="EX_798_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_798_e" sboTerm="SBO:0000627" id="R_EX_798_e" name="EX_798_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_798_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_798_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_458_e" sboTerm="SBO:0000627" id="R_EX_458_e" name="EX_458_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_458_e" sboTerm="SBO:0000627" id="R_EX_458_e" name="EX_458_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_458_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_458_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1191_e" sboTerm="SBO:0000627" id="R_EX_1191_e" name="EX_1191_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1191_e" sboTerm="SBO:0000627" id="R_EX_1191_e" name="EX_1191_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1191_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1191_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1194_e" sboTerm="SBO:0000627" id="R_EX_1194_e" name="EX_1194_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1194_e" sboTerm="SBO:0000627" id="R_EX_1194_e" name="EX_1194_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1194_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1194_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1643_e" sboTerm="SBO:0000627" id="R_EX_1643_e" name="EX_1643_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1643_e" sboTerm="SBO:0000627" id="R_EX_1643_e" name="EX_1643_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1643_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1643_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1036_e" sboTerm="SBO:0000627" id="R_EX_1036_e" name="EX_1036_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1036_e" sboTerm="SBO:0000627" id="R_EX_1036_e" name="EX_1036_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1036_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1036_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_238_e" sboTerm="SBO:0000627" id="R_EX_238_e" name="EX_238_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_238_e" sboTerm="SBO:0000627" id="R_EX_238_e" name="EX_238_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_238_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_238_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_624_e" sboTerm="SBO:0000627" id="R_EX_624_e" name="EX_624_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_624_e" sboTerm="SBO:0000627" id="R_EX_624_e" name="EX_624_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_624_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_624_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_155_e" sboTerm="SBO:0000627" id="R_EX_155_e" name="EX_155_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_155_e" sboTerm="SBO:0000627" id="R_EX_155_e" name="EX_155_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_155_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_155_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_28_e" sboTerm="SBO:0000627" id="R_EX_28_e" name="EX_28_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_28_e" sboTerm="SBO:0000627" id="R_EX_28_e" name="EX_28_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_28_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_28_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_742_e" sboTerm="SBO:0000627" id="R_EX_742_e" name="EX_742_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_742_e" sboTerm="SBO:0000627" id="R_EX_742_e" name="EX_742_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_742_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_742_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1014_e" sboTerm="SBO:0000627" id="R_EX_1014_e" name="EX_1014_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1014_e" sboTerm="SBO:0000627" id="R_EX_1014_e" name="EX_1014_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1014_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1014_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1144_e" sboTerm="SBO:0000627" id="R_EX_1144_e" name="EX_1144_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1144_e" sboTerm="SBO:0000627" id="R_EX_1144_e" name="EX_1144_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1144_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1144_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1100_e" sboTerm="SBO:0000627" id="R_EX_1100_e" name="EX_1100_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1100_e" sboTerm="SBO:0000627" id="R_EX_1100_e" name="EX_1100_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1100_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1100_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_320_e" sboTerm="SBO:0000627" id="R_EX_320_e" name="EX_320_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_320_e" sboTerm="SBO:0000627" id="R_EX_320_e" name="EX_320_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_320_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_320_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_631_e" sboTerm="SBO:0000627" id="R_EX_631_e" name="EX_631_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_631_e" sboTerm="SBO:0000627" id="R_EX_631_e" name="EX_631_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_631_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_631_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_437_e" sboTerm="SBO:0000627" id="R_EX_437_e" name="EX_437_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_437_e" sboTerm="SBO:0000627" id="R_EX_437_e" name="EX_437_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_437_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_437_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_680_e" sboTerm="SBO:0000627" id="R_EX_680_e" name="EX_680_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_680_e" sboTerm="SBO:0000627" id="R_EX_680_e" name="EX_680_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_680_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_680_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_813_e" sboTerm="SBO:0000627" id="R_EX_813_e" name="EX_813_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_813_e" sboTerm="SBO:0000627" id="R_EX_813_e" name="EX_813_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_813_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_813_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_237_e" sboTerm="SBO:0000627" id="R_EX_237_e" name="EX_237_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_237_e" sboTerm="SBO:0000627" id="R_EX_237_e" name="EX_237_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_237_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_237_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1797_e" sboTerm="SBO:0000627" id="R_EX_1797_e" name="EX_1797_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1797_e" sboTerm="SBO:0000627" id="R_EX_1797_e" name="EX_1797_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1797_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1797_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1215_e" sboTerm="SBO:0000627" id="R_EX_1215_e" name="EX_1215_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1215_e" sboTerm="SBO:0000627" id="R_EX_1215_e" name="EX_1215_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1215_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1215_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_81_e" sboTerm="SBO:0000627" id="R_EX_81_e" name="EX_81_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_81_e" sboTerm="SBO:0000627" id="R_EX_81_e" name="EX_81_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_81_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_81_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_583_e" sboTerm="SBO:0000627" id="R_EX_583_e" name="EX_583_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_583_e" sboTerm="SBO:0000627" id="R_EX_583_e" name="EX_583_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_583_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_583_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_445_e" sboTerm="SBO:0000627" id="R_EX_445_e" name="EX_445_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_445_e" sboTerm="SBO:0000627" id="R_EX_445_e" name="EX_445_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_445_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_445_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_87_e" sboTerm="SBO:0000627" id="R_EX_87_e" name="EX_87_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_87_e" sboTerm="SBO:0000627" id="R_EX_87_e" name="EX_87_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_87_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_87_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_961_e" sboTerm="SBO:0000627" id="R_EX_961_e" name="EX_961_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_961_e" sboTerm="SBO:0000627" id="R_EX_961_e" name="EX_961_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_961_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_961_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_141_e" sboTerm="SBO:0000627" id="R_EX_141_e" name="EX_141_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_141_e" sboTerm="SBO:0000627" id="R_EX_141_e" name="EX_141_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_141_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_141_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_299_e" sboTerm="SBO:0000627" id="R_EX_299_e" name="EX_299_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_299_e" sboTerm="SBO:0000627" id="R_EX_299_e" name="EX_299_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_299_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_299_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_2466_e" sboTerm="SBO:0000627" id="R_EX_2466_e" name="EX_2466_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_2466_e" sboTerm="SBO:0000627" id="R_EX_2466_e" name="EX_2466_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_2466_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_2466_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_136_e" sboTerm="SBO:0000627" id="R_EX_136_e" name="EX_136_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_136_e" sboTerm="SBO:0000627" id="R_EX_136_e" name="EX_136_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_136_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_136_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1304_e" sboTerm="SBO:0000627" id="R_EX_1304_e" name="EX_1304_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1304_e" sboTerm="SBO:0000627" id="R_EX_1304_e" name="EX_1304_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1304_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1304_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_578_e" sboTerm="SBO:0000627" id="R_EX_578_e" name="EX_578_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_578_e" sboTerm="SBO:0000627" id="R_EX_578_e" name="EX_578_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_578_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_578_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_496_e" sboTerm="SBO:0000627" id="R_EX_496_e" name="EX_496_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_496_e" sboTerm="SBO:0000627" id="R_EX_496_e" name="EX_496_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_496_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_496_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_18544_e" sboTerm="SBO:0000627" id="R_EX_18544_e" name="EX_18544_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_18544_e" sboTerm="SBO:0000627" id="R_EX_18544_e" name="EX_18544_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_18544_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_18544_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1189_e" sboTerm="SBO:0000627" id="R_EX_1189_e" name="EX_1189_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1189_e" sboTerm="SBO:0000627" id="R_EX_1189_e" name="EX_1189_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1189_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1189_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_921_e" sboTerm="SBO:0000627" id="R_EX_921_e" name="EX_921_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_921_e" sboTerm="SBO:0000627" id="R_EX_921_e" name="EX_921_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_921_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_921_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1180_e" sboTerm="SBO:0000627" id="R_EX_1180_e" name="EX_1180_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1180_e" sboTerm="SBO:0000627" id="R_EX_1180_e" name="EX_1180_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1180_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1180_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_122_e" sboTerm="SBO:0000627" id="R_EX_122_e" name="EX_122_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_122_e" sboTerm="SBO:0000627" id="R_EX_122_e" name="EX_122_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_122_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_122_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_737_e" sboTerm="SBO:0000627" id="R_EX_737_e" name="EX_737_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_737_e" sboTerm="SBO:0000627" id="R_EX_737_e" name="EX_737_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_737_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_737_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_395_e" sboTerm="SBO:0000627" id="R_EX_395_e" name="EX_395_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_395_e" sboTerm="SBO:0000627" id="R_EX_395_e" name="EX_395_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_395_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_395_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1038_e" sboTerm="SBO:0000627" id="R_EX_1038_e" name="EX_1038_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1038_e" sboTerm="SBO:0000627" id="R_EX_1038_e" name="EX_1038_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1038_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1038_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_945_e" sboTerm="SBO:0000627" id="R_EX_945_e" name="EX_945_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_945_e" sboTerm="SBO:0000627" id="R_EX_945_e" name="EX_945_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_945_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_945_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_1084_e" sboTerm="SBO:0000627" id="R_EX_1084_e" name="EX_1084_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_1084_e" sboTerm="SBO:0000627" id="R_EX_1084_e" name="EX_1084_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1084_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_1084_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_31_e" sboTerm="SBO:0000627" id="R_EX_31_e" name="EX_31_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_31_e" sboTerm="SBO:0000627" id="R_EX_31_e" name="EX_31_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_31_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_31_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_51_e" sboTerm="SBO:0000627" id="R_EX_51_e" name="EX_51_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_51_e" sboTerm="SBO:0000627" id="R_EX_51_e" name="EX_51_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_51_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_51_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_38_e" sboTerm="SBO:0000627" id="R_EX_38_e" name="EX_38_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_38_e" sboTerm="SBO:0000627" id="R_EX_38_e" name="EX_38_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_38_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_38_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_214_e" sboTerm="SBO:0000627" id="R_EX_214_e" name="EX_214_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_214_e" sboTerm="SBO:0000627" id="R_EX_214_e" name="EX_214_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_214_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_214_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_42_e" sboTerm="SBO:0000627" id="R_EX_42_e" name="EX_42_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_42_e" sboTerm="SBO:0000627" id="R_EX_42_e" name="EX_42_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_42_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_42_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_35_e" sboTerm="SBO:0000627" id="R_EX_35_e" name="EX_35_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_35_e" sboTerm="SBO:0000627" id="R_EX_35_e" name="EX_35_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_35_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_35_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_267_e" sboTerm="SBO:0000627" id="R_EX_267_e" name="EX_267_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_267_e" sboTerm="SBO:0000627" id="R_EX_267_e" name="EX_267_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_267_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_267_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_163_e" sboTerm="SBO:0000627" id="R_EX_163_e" name="EX_163_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_163_e" sboTerm="SBO:0000627" id="R_EX_163_e" name="EX_163_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_163_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_163_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_281_e" sboTerm="SBO:0000627" id="R_EX_281_e" name="EX_281_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_281_e" sboTerm="SBO:0000627" id="R_EX_281_e" name="EX_281_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_281_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_281_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_776_e" sboTerm="SBO:0000627" id="R_EX_776_e" name="EX_776_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_776_e" sboTerm="SBO:0000627" id="R_EX_776_e" name="EX_776_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_776_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_776_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_215_e" sboTerm="SBO:0000627" id="R_EX_215_e" name="EX_215_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_215_e" sboTerm="SBO:0000627" id="R_EX_215_e" name="EX_215_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_215_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_215_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
