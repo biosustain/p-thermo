@@ -38445,7 +38445,6 @@
 			<reaction metaid="metaid_R_805" id="R_805" name="R03314" reversible="true">
 				<notes>
           			<html:p>SUBSYSTEM: X </html:p>
-          			<html:p>GENE_ASSOCIATION: ( non enzymatic)</html:p>
       			</notes>
       			<annotation>
       				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -40627,7 +40626,7 @@
 			<reaction metaid="metaid_R_937" id="R_937" name="R04204" reversible="false">
 				<notes>
           			<html:p>SUBSYSTEM: 00280</html:p>
-          			<html:p>GENE_ASSOCIATION: (RTMO02614, RTMO02615, RTMO02306, RTMO01440)</html:p>
+          			<html:p>GENE_ASSOCIATION: RTMO02614 or RTMO02615 or RTMO02306 or RTMO01440</html:p>
       			</notes>
       			<annotation>
       				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
