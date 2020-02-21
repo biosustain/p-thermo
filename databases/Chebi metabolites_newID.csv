@@ -1,0 +1,156 @@
+Metabolite;name;new_ID
+10000_c;branched fatty acid;bcfa_c
+10000_e;C00080;bcfa_e
+1013_c;UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-_diaminopimelate_C35H51N7O26P2;uaagmd_c
+1014_c;N-Acetyl-beta-D-mannosaminyl-1,4-N-acetyl-D-_glucosaminyldiphosphoundecaprenol_C71H116N2O17P2;abmaagapc_c
+1014_e;C00080;abmaagapc_e
+102_c;D-Ribose_5-phosphate_C5H10O8P;r5p_c
+1024_c;3-Hydroxybutanoyl-CoA;hbcoa_c
+1038_c;Dodecanoyl-[acyl-carrier_protein]_C23H43N2O8PRS;dodecacp_c
+1038_e;C00080;dodecacp_e
+1039_e;C00080;acetol_e
+1052_c;Hexanoyl-CoA_C27H43N7O17P3S;hexcoa_c
+1061_c;Ferricytochrome b-561;focytB561_c
+1066_c;Selenomethionyl-tRNA(Met);selmethtrna_c
+1066_e;C00080;selmethtrna_e
+109_c;D-Galactose_C6H12O6;dgal_c
+110_c;Ferricytochrome_c_C42H52FeN8O6S2;focytCA_c
+111_c;Ferrocytochrome_c_C42H52FeN8O6S2;focytCB_c
+1157_c;O-Phosphorylhomoserine;phser_c
+1158_c;Methaneselenol;mesel_c
+1158_e;C00080;mesel_e
+1170_c;Butyryl-[acp]_C15H27N2O8PRS;butacp_c
+1172_c;(R)-3-Hydroxyhexanoyl-[acp]_C17H31N2O9PRS;hexacp_c
+1177_c;Octanoyl-[acp]_C19H35N2O8PRS;octacp_c
+1180_c;Decanoyl-[acp]_C21H39N2O8PRS;decanoylacp_c
+1180_e;C00080;decanoylacp_e
+1184_c;3-Oxotetradecanoyl-[acp]_C25H45N2O9PRS;myracp_c
+1189_c;Hexadecanoyl-[acp]_C27H51N2O8PRS;hdeacp_c
+1189_e;C00080;hdeacp_e
+1194_c;Cobinamide;cbi_c
+1194_e;C00080;cbi_e
+1213_c;2dmmq7_C45H62O2;2dmmq_c
+1214_c;Menaquinol;menqui_c
+1214_e;C00080;menqui_e
+1215_c;3-Mercaptolactate;mercplac_c
+1215_e;C00080;mercplac_e
+1231_c;UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine;uamagdgll_c
+1231_e;C00080;uamagdgll_e
+1232_c;Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-_alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine_C94H153N8O26P2;uaaagglaa_c
+1235_c;Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-_alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine_C95H152N8O28P2;uddaalagmdaa_c
+1242_c;10-Formyltetrahydrofolyl_L-glutamate_C25H27N8O10;ftethlg_c
+1243_c;10-Formyltetrahydrofolylpolyglutamate;ftethplg_c
+1243_e;C00080;ftethplg_e
+1255_c;Propionyladenylate;pamp_c
+1268_c;Pentosan;pento_c
+1270_c;D-arabino-3-Hexulose_6-phosphate_C6H12O9P;ah6p__D_c
+1340_c;Adenosyl cobyrinate a,c diamide;acda_c
+145_c;Propanoate_C3H5O2;prpnte_c
+1527_c;trans,trans,cis-Geranylgeranyl_diphosphate_C20H34O7P2;ttc__ggdp_c
+1569_c;[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol;gmagg_c
+1569_e;C00080;gmagg_e
+1708_c;alpha,beta-Dihydroxyethyl-TPP;dhettp_c
+1762_c;Precorrin 1;pc1_c
+1763_c;1,4-Dihydroxy-2-naphthoyl-CoA_C32H39N7O19P3S;14dhncoa_c
+1763_e;C00080;14dhncoa_e
+1765_c;myo-Inositol phosphate;myinp_c
+179_e;C00080;adn_e
+1818_c;Enzyme N6-(lipoyl)lysine;lpam_c
+1819_c;Dihydrolipoamide-E;edhyl_c
+1819_e;Dihydrolipoamide-E;edhyl_e
+1821_c;[Dihydrolipoyllysine-residue-(2-methylpropanoyl)transferase]-S-(3-methylbutanoyl)dihydrolipoyllysine;dhpltra_c
+1823_c;Isobutyryl-CoA_C16H25N4O8P2S;empdhll_c
+1825_c;Phosphatidylserine;smbdhlp_c
+1826_c;(S)-2-Methylbutanoyl-CoA;s2mbcoa_c
+184_c;beta-D-Glucose_C6H12O6;glc__bD_c
+1851_c;3-Oxostearoyl-[acp];oxstacp_c
+18544_c;Octadecanoyl-[acyl-carrier protein];octdecacp_c
+18544_e;C00080;octdecacp_e
+1863_c;S-Succinyldihydrolipoamide-E;ssdhlam_c
+1864_c;S-Acetyldihydrolipoamide-E;adhlam_c
+1864_e;Phosphatidylserine;adhlam_e
+1977_c;Citalopram aldehyde;capra_c
+1977_e;C00080;capra_e
+2039_c;2-Aminobut-2-enoate;amba_c
+2064_c;di-trans,poly-cis-Hexaprenyl diphosphate;dtpchexpp_c
+2065_c;di-trans,poly-cis-Pentaprenyl diphosphate;ccttpenpp_c
+2066_c;di-trans,poly-cis-Heptaprenyl diphosphate;dtpchepp_c
+2067_c;di-trans,poly-cis-Octaprenyl diphosphate;dtpcocpp_c
+2068_c;di-trans,poly-cis-Nonaprenyl diphosphate;dtpcnopp_c
+2071_c;di-trans,poly-cis-Undecaprenyl phosphate;dtpcunp_c
+217_c;L-Arabinose;larpyr_c
+2202_c;Methylselenic acid;methylseac_c
+225_c;N-Acetylneuraminate_C11H18NO9;naneura_c
+2252_c;G00275;maltose_c
+2258_c;G00370;sucrose_c
+2260_c;G00501;mantri_c
+2265_c;G01275;meli_c
+2266_c;G01318;isomalt_c
+2274_c;G09795;treh6p_c
+2277_c;G10481;cellulose_c
+2281_c;G10508;sus6p_c
+2282_c;G10512;xylan_c
+2284_c;G10518;Glycan_X_c    
+2285_c;G10519;malt6p_c
+2286_c;G10529;epimelbio_c
+23_c;L-Glutamate_C5H8NO4;glu__L_c
+232_c;HCO3-_CHO3;hco3_b_c
+238_e;C00080;dlglu_c
+2466_c;Butanoic acid;but_c
+2466_e;C00080;but_e
+267_c;(S)-3-Hydroxy-3-methylglutaryl-CoA_C27H40N7O20P3S;hmgcoa_c
+267_e;C00080;hmgcoa_e
+276_c;Starch;starch_c
+28_c;Pyridoxal_C4H5N2O3R2;pyridoxal_c
+28_e;C00080;pyridoxal_e
+280_c;Thiamin_C12H17N4OS;thm_c
+280_e;C00378;thm_e
+283_c;Carnosine;carsine_c
+286_c;Ubiquinol;qh2_c
+286_e;C00080;qh2_e
+290_c;Ubiquinone;ubiquin_c
+299_e;C00080;acon_e
+329_c;Raffinose_C18H32O16;raff_c
+350_c;Cystathionine_C7H14N2O4S;cyst_c
+370_c;2-Hydroxy-2,4-pentadienoate;op4en_c
+394_e;C00080;glc6P_e
+408_c;Chloride_Cl;cl_c
+412_c;Amylose_C30H52O26;amylose_c
+413_c;Betaine_C5H11NO2;betaine_c
+413_e;C00080;betaine_e
+42_c;RNA_C00046;RNA_c
+42_e;C00080;RNA_e
+437_c;D-Glutamine;gln__D_c
+437_e;C00080;gln__D_e
+440_c;mql7_C46H66O2;mql7_c
+441_c;Pantetheine;pant_c
+454_c;Homocarnosine;homocarn_c
+461_c;2-Acetolactate_C5H7O4;alac__S_b_c
+467_c;(R)-Lactaldehyde;lald__D_c
+526_c;Pseudouridine 5'-phosphate;psuri5p_c
+530_c;Inositol_1-phosphate_C6H12O9P;ino1p_c
+581_c;3-Cresol;cresol3_c
+583_c;Chlorous acid;chlac_c
+583_e;C00080;chlac_e
+590_c;o-Cresol;hytol_c
+641_c;L-Histidinal_C6H10N3O;lhistidi_c
+680_c;D-Phenylalanine;phe__D_c
+680_e;C00080;phe__D_e
+688_c;1,4-beta-D-Xylan;bdxyl_c
+705_c;alpha-L-Arabinan_C15H26O13;arabinan_c
+76_c;D-Fructose_6-phosphate_C6H12O9P;f6p_k_c
+812_c;L-2,3-Dihydrodipicolinate_C7H5NO4;l23dhdpico_c
+813_c;2-Amino-4-oxopentanoic acid;a4oxopent_c
+813_e;C00080;a4oxopent_e
+82_e;C00080;succcoa_c
+820_c;Aminoimidazole_ribotide;air_c
+878_c;(S)-1-Pyrroline-5-carboxylate_C5H6NO2;pyr5c_c
+888_c;2,3-Dihydroxy-3-methylbutanoate_C5H9O4;dhmb_c
+895_c;N-((R)-Pantothenoyl)-L-cysteinec;rpantholcys_c
+958_c;5-Methyltetrahydropteroyltri-L-glutamate;mthpglu_c
+958_e;C00080;mthpglu_e
+960_c;N-Acetyl-alpha-D-glucosamine 1-phosphate;aagamp_c
+961_c;alpha-D-Galactosyl-diphosphoundecaprenol;adgppuc_c
+961_e;C00080;adgppuc_e
+968_c;4-Amino-2-methyl-5-phosphomethylpyrimidine_C6H9N3O4P;ampm_c
+979_c;2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine_C8H16N3O8P;fpram_c
