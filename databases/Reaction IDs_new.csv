@@ -1,0 +1,265 @@
+;ID;Name_KEGG;Name_Notes;New ID
+276;M_biomass;biomass;-;biomass
+0;2;R00006;pyruvate:pyruvate acetaldehydetransferase (decarboxylating);PYRACTT
+1;9;R00028;-;MALHYDRO
+2;15;R00081;Ferrocytochrome-c:oxygen oxidoreductase;FOCYCTCOR
+3;16;R00082;Ferrocytochrome c2:oxygen oxidoreductase;FOCYTCCOR
+4;23;R00124;ATP:ADP phosphatransferase;ATPPT
+5;76;R00276;Carbon-monoxide:oxygen oxidoreductase;H202OR
+6;105;R00365;glycine:NAD+ oxidoreductase (deaminating);GLYOR
+7;107;R00375;Deoxyadenosine 5’-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed);DATPT
+8;108;R00376;Deoxyguanosine 5’-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed);DGTPT
+9;109;R00377;Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed);DCTPT
+10;110;R00378;deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed);DTTPT
+11;117;R00399;-;AKPTHIO
+13;124;R00416;UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase;AAGAMPT
+14;132;R00435;ATP:polynucleotide adenylyltransferase;ATPNAT
+15;133;R00437;polyribonucleotide:phosphate adenylyltransferase;PRPAT
+16;134;R00438;polyribonucleotide:phosphate uridylyltransferase;PRPUT
+17;135;R00439;polyribonucleotide:phosphate guanylyltransferase;PRPGT
+18;136;R00440;polyribonucleotide:phosphate cytidylyltransferase;PRPCT
+19;137;R00441;GTP:RNA guanylyltransferase (RNA-directed);GTPT
+20;138;R00442;CTP:RNA cytidylyltransferase (DNA-directed);CTPT
+21;139;R00443;UTP:RNA uridylyltransferase;UTPT
+22;193;R00619;ATP:thiamine diphosphotransferase;THMPT
+23;207;R00668;L-ornithine:2-oxoglutarate aminotransferase;ORNAT
+24;210;R00688;L-phenylalanine:NAD+ oxidoreductase (deaminating);PHEOR
+25;211;R00691;-;LARGNHYDRO
+26;215;R00706;3-Oxopropanoate:NADP+ oxidoreductase (decarboxylating CoA-acetylating);MSAOR
+27;217;R00708;(S)-1-pyrroline-5-carboxylate:NADP+ oxidoreductase;PYR5COR
+28;224;R00732;L-arogenate:NAD+ oxidoreductase;LARGNOR
+29;226;R00740;3-oxopropanoate:NADP+ oxidoreductase (CoA-malonylating);MALCOAOR
+30;231;R00756;ATP:D-fructose-6-phosphate 1-phosphotransferase;F6PPT
+31;232;R00758;D-Mannitol-1-phosphate:NAD+ 5-oxidoreductase;MNLOR
+32;233;R00760;ATP:D-fructose 6-phosphotransferase;FRUPT
+33;234;R00762;D-Fructose-1-6-bisphosphate 1-phosphohydrolase;FDPPH
+34;236;R00767;CTP:D-fructose-6-phosphate 1-phosphotransferase;F6PCPT
+35;237;R00768;L-glutamine:D-fructose-6-phosphate aminotransferase (hexose isomerizing);F6PISO
+36;238;R00769;UTP:D-fructose-6-phosphate 1-phosphotransferase;F6PUPT
+37;239;R00770;ITP:D-fructose-6-phosphate 1-phosphotransferase;F6PIPT
+38;240;R00771;D-glucose-6-phosphate aldose-ketose-isomerase;G6PISO
+39;241;R00772;D-mannose-6-phosphate aldose-ketose-isomerase;MANISO
+40;243;R00783;nitric-oxide:ferricytochrome-c oxidoreductase;FOCYTCNOR
+41;244;R00784;nitric-oxide:ferricytochrome-c2 oxidoreductase;FICYTCCNOR
+42;249;R00802;sucrose alpha-glucohydrolase;SUCRGH
+43;250;R00803;sucrose:phosphate alpha-D-glucosyltransferase;SUCRGT
+44;258;R00837;alpha-alpha-Trehalose-6-phosphate phosphoglucohydrolase;TRE6PGH
+45;259;R00838;Maltose-6’-phosphate 6-phosphoglucohydrolase;MALTPGH
+46;260;R00839;6-phospho-beta-D-glucosyl-(1⇢4)-D-glucose 6-phosphoglucohydrolase;CELLPGH
+47;271;R00878;alpha-D-Glucose aldose-ketose-isomerase;GLCISO
+48;277;R00896;L-cysteine:2-oxoglutarate aminotransferase;ACYSAT
+49;289;R00925;Propanoate:CoA ligase (AMP-forming);PRPNTELIG
+50;290;R00926;Propionyladenylate:CoA propionyltransferase;PAMPT
+51;323;R01030;-;G3PCHYDRO
+52;325;R01049;ATP:D-ribose-5-phosphate diphosphotransferase;R5PPPT
+53;326;R01051;ATP:D-ribose 5-phosphotransferase;R5PPT
+54;327;R01054;ADP-ribose ribophosphohydrolase;ADPRIBPH
+55;328;R01055;uracil hydro-lyase (adding D-ribose 5-phosphate;URAHL
+56;329;R01056;D-ribose-5-phosphate aldose-ketose-isomerase;R5PISO
+57;330;R01057;D-Ribose 1-5-phosphomutase;R1PISO
+58;334;R01067;D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase;F6PGT
+59;349;R01103;-;RAFFHYDRO
+60;351;R01106;nitrite:(acceptor) oxidoreductase;NITOR
+61;365;R01163;L-histidinal:NAD+ oxidoreductase;HISOR
+62;366;R01166;-;HISHYDRO
+63;368;R01173;butanal:NADP+ oxidoreductase (CoA-acylating);BTCOAOR
+64;372;R01185;-;INO1PPHYDRO
+65;375;R01194;3-O-alpha-D-Galactosyl-1D-myo-inositol galactohydrolase;DGALIGH
+66;376;R01209;2-3-Dihydroxy-3-methylbutanoate hydro-lyase;DHMBHL
+67;399;R01285;-;CYSTHI
+68;408;R01329;Epimelibiose galactohydrolase;EPMGH
+69;413;R01353;ATP:propanoate phosphotransferase;PPAPPT
+70;414;R01354;ATP:propanoate adenylyltransferase;PRPNTEAT
+71;416;R01360;(S)-3-hydroxy-3-methylglutaryl-CoA acetoacetate-lyase (acetyl-CoA-forming);HMGCOALY
+72;430;R01433;-;XYLHYDRO
+73;436;R01492;-;ADOCBLTRANS
+74;448;R01535;UDP-alpha-D-galactose:undecaprenyl-phosphate galactose phosphotransferase;UAGUDPGPTRANS
+75;455;R01579;D-Glutamine amidohydrolase;GLNAMHYDRO
+76;456;R01582;D-Phenylalanine:2-oxoglutarate aminotransferase;PHEAKGAT
+77;457;R01600;ATP:beta-D-glucose 6-phosphotransferase;GLCAPT
+78;458;R01602;D-glucose 1-epimerase;GLCEPI
+79;463;R01641;sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase;S7PG3PGT
+80;465;R01654;10-Formyltetrahydrofolate:L-glutamate ligase (ADP-forming);FTHFLIG
+270;2112;R01688;ATP:butanoate 1-phosphotransferase;BUTPT
+81;483;R01718;Isomaltose 6-alpha-D-glucanohydrolase;ISOMALHY
+82;486;R01731;L-arogenate:2-oxoglutarate aminotransferase;LARGNAT
+83;491;R01761;L-Arabinose aldose-ketose-isomerase;LARPYRISO
+84;492;R01762;alpha-L-arabinan arabinofuranohydrolase;ARABINANHY
+85;501;R01791;Dextrin 6-alpha-D-glucanohydrolase;STARCHHY
+86;505;R01800;CDP-diacylglycerol:L-serine 3-phosphatidyltransferase;CDPDAGPT
+87;507;R01804;-;NANEURATRANS
+88;510;R01821;1-4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase;AMYLOSEGT
+89;529;R01902;ATP:L-xylulose 1-phosphotransferase;XYLUPT
+90;544;R01992;-;AAMBUTHISHYDRO
+91;561;R02071;ATP:D-fructose-1-phosphate 6-phosphotransferase;F1PPT
+92;575;R02108;1-4-alpha-D-Glucan glucanohydrolase;STARCHHY2
+93;576;R02110;1-4-alpha-D-Glucan:1-4-alpha-D-glucan 6-alpha-D-(1-4-alpha-D-glucano)-transferase;AMYTRANS
+94;577;R02111;1-4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase;STARCHGT
+158;1008;R02133;Thiamin hydrolase;THY
+95;583;R02163;NADH:ubiquinone oxidoreductase;QH2OR
+12;121;R02164;succinate:quinone oxidoreductase;QUINOR
+96;584;R02165;Nitrite:(acceptor) oxidoreductase;QH2NOR
+97;588;R02196;L-Isoleucine:NAD+ oxidoreductase(deaminating);ILEOR
+98;602;R02292;-;L23DHDPICOLY
+99;612;R02320;NTP:pyruvate O2-phosphotransferase;PYRPT
+100;632;R02421;ADP-glucose:1-4-alpha-D-glucan 4-alpha-D-glucosyltransferase;ADPGLCGT
+101;643;R02508;-;CYSTT
+102;644;R02527;-;LACTAOR
+103;645;R02528;-;MEGLYPH
+104;654;R02565;-;CUMOHOR
+105;657;R02569;acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase;ACENLAT
+106;658;R02570;succinyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-succinyltransferase;SCENLAT
+107;661;R02601;4-hydroxy-2-oxopentanoate hydro-lyase (2-oxopent-4-enoate-forming);OP4ENLY
+108;662;R02602;4-Oxalocrotonate carboxy-lyase;OXALCCLY
+109;663;R02604;2-hydroxymuconate-semialdehyde formylhydrolase;HMCNSADLY
+110;665;R02630;protein-N(pi)-phosphohistidine:D-mannose 6-phosphotransferase;MANPT
+111;670;R02631;protein-N(pi)-phosphohistidine:D-glucosamine 6-phosphotransferase;GAMPT
+112;674;R02662;2-methylpropanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylpropanoyl)transferase;ENCOAT
+113;676;R02663;-;BCFASYN
+114;683;R02704;protein-N(pi)-phosphohistidine:mannitol 1-phosphotransferase;MNLPT
+115;685;R02707;N-acetyl-D-mannosamine N-acetylmannosaminohydrolase;ACMANAHY
+116;691;R02738;protein-N(pi)-phosphohistidine:D-glucose 6-phosphotransferase;GLCDPT
+117;704;R02780;-;TREPT
+118;706;R02788;UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-2-6-diaminoheptanedioate ligase (ADP-forming);UAMAGLIG
+124;754;R03066;2-amino-4-hydroxy-6-hydroxymethyl-7-8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase;HMHPTMT
+125;761;R03104;3-Mercaptolactate:NAD+ oxidoreductase;MERCPPYROR
+126;7615;R03105;3-Mercaptopyruvate:cyanide sulfurtransferase;MERCPPYRST
+144;910;R03172;(S)-2-methylbutanoyl-CoA:acceptor 2-3-oxidoreductase;SMBCOAOR
+127;769;R03174;(S)-2-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylbutanoyl)transferase;MBTCOAT
+128;770;R03175;-;BCFASYN2
+129;772;R03191;UDP-N-acetylmuramate:NADP+ oxidoreductase;UACCGOR
+130;781;R03232;protein-N(pi)-phosphohistidine:D-fructose 1-phosphotransferase;FRU1PT
+131;793;R03270;-;AHETHMPPR
+132;800;R03316;-;HC01435R
+133;808;R03381;-;MMTSAOR
+134;810;R03383;methylmalonate:CoA ligase (AMP-forming);MMALLIG
+135;819;R03471;ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase;AHMMPPT
+136;820;R03472;5-amino-1-(5-phospho-D-ribosyl)imidazole formate-lyase (decarboxylating 4-amino-2-methyl-5-phosphomethylpyrimidine-forming);AMETLY
+137;831;R03560;-;TOL23OR
+138;832;R03562;TolueneNADPH:oxogen oxidoreductase (3-hydroxylating);TOL2OR
+139;833;R03566;3-Cresol-NADPH:oxogen oxidoreductase (2-hydroxylating);CRESOLOR
+140;835;R03596;Hydrogen selenide:NADP+ oxidoreductase;SLNTOR
+141;836;R03599;L-selenocysteine selenide-lyase (L-alanine-forming);SELCYSLY
+142;838;R03608;-;OCRESOR
+143;839;R03616;-;GALGLYHYDRO
+145;912;R04097;3-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(3-methylbutanoyl)transferase;IVCOAR
+146;914;R04098;-;BCFASYN3
+147;915;R04111;protein-N(pi)-phosphohistidine:maltose 6’-phosphotransferase;MALTPT
+148;934;R04198;2345-tetrahydrodipicolinate:NAD+ 4-oxidoreductase;THDPOR
+149;935;R04199;2345-tetrahydrodipicolinate:NADP+ 4-oxidoreductase;THDPPOR
+150;939;R04208;2-(Formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming);FPRAMLIG
+151;940;R04209;1-(5-phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate carboxy-lyase;AIZCLY
+152;946;R04241;tetrahydropteroyl-gamma-polyglutamate:L-glutamate gamma-ligase (ADP-forming);THPPGLIG
+153;972;R04391;-;PANOPTRANS
+154;974;R04394;protein-N(pi)-phosphohistidine:salicin 6-phosphotransferase;SALCNPT
+254;2083;R04429;butyryl-[acp]:NAD+ trans-2-oxidoreductase;BUTACPOR
+155;989;R04463;5’-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming);FGAMALIG
+156;995;R04509;ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase;AMPMPT
+157;996;R04519;[poly-N-acetyl-D-glucosaminyl-(1⇢4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1⇢4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol polysaccharidetransferase;DTPCUDCPPR
+159;1010;R04573;-;UAMAGDGLLLIG
+160;1016;R04617;UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2-6-diaminoheptanedioate:D-alanyl-D-alanine ligase(ADP-forming);ALAALALIG
+161;1027;R04698;carbon monoxide water:cytochrome b-561 oxidoreductase;COOR
+262;2099;R04724;dodecanoyl-[acp]:NAD+ trans-2-oxidoreductase;DDECACPOR'
+263;2100;R04726;dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating);MALACPAT
+162;1043;R04747;Hexanoyl-CoA:acetyl-CoA C-acyltransferase;HEXACOAT
+163;1046;R04751;hexanoyl-CoA:electron-transfer flavoprotein 2-3-oxidoreductase;HEXOT
+164;1047;R04754;decanoyl-CoA:electron-transfer flavoprotein 2-3-oxidoreductase;DECOT
+165;1049;R04770;Selenomethionine methanethiol-lyase (deaminating);SELMELY
+166;1051;R04773;Selenomethionine:tRNAMet ligase (AMP-forming);SELMELIG
+168;1081;R04937;-;PENTOHYDROXYL
+169;1082;R04938;-;PENTOHYDROARA
+170;1085;R04944;O-phosphorylhomoserine phosphate-lyase (adding selenocysteine);PHSERT
+255;2084;R04952;butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating);BUTACPAT
+256;2087;R04955;hexanoyl-[acp]:NAD+ trans-2-oxidoreductase;HEXACPOR
+257;2088;R04957;hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating);HEXACPAT
+258;2091;R04958;octanoyl-[acp]:NAD+ trans-2-oxidoreductase;OCTACPOR
+259;2092;R04960;Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating);OCTACPAT
+260;2095;R04961;decanoyl-[acp]:NAD+ trans-2-oxidoreductase;DECACPOR
+261;2096;R04963;Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating);DECACPAT
+264;2103;R04966;tetradecanoyl-[acp]:NAD+ trans-2-oxidoreductase;MYRACPOR
+265;2104;R04968;Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating);MMACPAT
+266;2107;R04969;hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase;OPALMACPOR
+171;1119;R04993;S-adenosyl-L-methione:demethylmenaquinone methyltransferase;AMETDMMQ
+172;1123;R05032;UDP-N-acetyl-D-glucosamine:undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2-6-diaminopimeloyl-D-alanyl-D-alanine 4-beta-N-acetylglucosaminlytransferase;UACGAMT
+173;1142;R05132;protein-N(pi)-phosphohistidine:arbutin 6-phosphotransferase;ARBTPT
+174;1143;R05133;Arbutin 6-phosphate glucohydrolase;ARBT6PH
+175;1144;R05134;Salicin 6-phosphate glucohydrolase;SALCN6PH
+176;1153;R05197;-;FTETHLGPT
+177;1154;R05217;precorrin-3ANADH:oxygen oxidoreductase (20-hydroxylating);PRE3AOR
+178;1155;R05220;ATP:cob(I)yrinic acid-a-c-diamide Cobeta-adenosyltransferase;CO1DAMT
+179;1159;R05224;-;HGBYR
+180;1160;R05225;-;ACDAH
+181;1184;R05332;Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase;ACCOAT
+182;1186;R05338;D-arabino-hex-3-ulose-6-phosphate formaldehyde-lyase (D-ribulose-5-phosphate-forming);RU5PL
+183;1187;R05339;D-arabino-hex-3-ulose-6-phosphate isomerase;AH6PI
+184;1241;R05555;Farnesyl diphosphate:Isopentenyl diphosphate farnesyl cistransferase;FRDPT
+185;1242;R05566;-;UACMAMTRANS
+186;1245;R05576;(S)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase;HBCOAOR
+187;1256;R05595;-;HBCOAH
+188;1261;R05611;-;HEPDPP
+189;1266;R05617;all-trans-polyprenyl diphosphate:1-4-dihydroxy-2-naphthoate polyprenyltransferase;DHNAOCTD
+190;1268;R05627;undecaprenyl-diphosphate phosphohydrolase;DTPCUDCPPPH
+191;1269;R05629;-;DTPCUNPTRANS
+192;1270;R05630;UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2-6-diaminopimeloyl-D-alanyl-D-alanine:undecaprenyl-phosphate phospho-N-acetylmuramoyl-pentapeptide-transferase;DTPCUNPT
+193;1286;R05662;-;UAAAGGLAAP
+194;1292;R05721;chloride:oxygen oxidoreductase;CHLACOR
+195;1313;R05884;isopentenyl-diphosphate:NAD(P)+ oxidoreductase;IPDPOR
+196;1326;R06034;-;SCUGLUTRA
+197;1329;R06070;-;RAFFINHYDRO
+198;1330;R06077;1-4-beta-D-Glucan glucohydrolase;BGLUCH
+199;1331;R06080;-;ISOMALTHYDO
+200;1332;R06084;-;MALTHYDRO
+201;1333;R06087;sucrose glucohydrolase;SUCHY
+202;1334;R06088;sucrose alpha-glucohydrolase;SUCHY2
+203;1335;R06091;melibiose galactohydrolase;MELIBHY
+204;1336;R06092;cellobiose glucohydrolase;CELLBHY
+205;1339;R06096;-;MANNHY
+206;1341;R06100;Raffinose fructohydrolase;M_6DGHY
+207;1342;R06101;Stachyose fructohydrolase;STACHY
+208;1343;R06102;-;SUC6PHYDRO
+209;1344;R06112;-;MALT6PHYDRO
+210;1345;R06113;-;TRE6PHYDRO
+211;1346;R06115;-;GLYCANHYDRO
+212;1354;R06142;-;EPIMELIHYDRO
+213;1356;R06152;-;STACHY2
+214;1362;R06178;[poly-N-acetyl-D-glucosaminyl-(1⇢4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1⇢4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol polysaccharidetransferase;UAAAGGLAAT
+215;1370;R06200;1-4-(1-3;CELLOHYDRO
+216;1371;R06203;-;XYLANHYDRO
+217;1420;R06447;(2E-6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 8 isopentenyl units);FRDPPT
+218;1458;R06558;-;ADOCBIP
+219;1503;R06861;alpha-beta-dihydroxyethyl-TPP:D-glyceraldehyde-3-phosphate glycolaldehydetransferase;XU5PGT
+227;1568;R07343;-;MYOIPPH
+228;1579;R07404;5-amino-1-(5-phospho-D-ribosyl)imidazole:carbon-dioxide ligase (ADP-forming);AIRLIG
+229;1605;R07463;glycine:oxygen oxidoreductase;GLYHOR
+230;1619;R07600;-;MHOPT
+231;1621;R07602;-;MHTPPT
+232;1623;R07604;-;MHOBT
+233;1630;R07618;enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase;EN6LYOR
+267;2108;R07762;-;HDEACPT
+268;2109;R07763;-;OXSTACPOR
+269;2111;R07765;octadecanoyl-[acp]:NAD+ trans-2-oxidoreductase;TOCTDACPOR
+234;1775;R08209;isopentenyl-diphosphate:NAD+ oxidoreductase;IPPPNADHOR
+235;1776;R08210;-;DMPPOR
+236;1833;R08558;-;BETALDOR
+237;1834;R08559;protein-N(pi)-phosphohistidine:N-acetylmuramate 6-phosphotransferase;ACMUMPT
+238;1836;R08575;sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase;S7PG3PT
+239;1857;R08632;L-cystathionine cysteine-lyase;LCYSTLY
+240;1858;R08635;L-methionine methanethiol-lyase;LMETLY
+241;1860;R08637;2-Aminobut-2-enoate aminohydrolase (spontaneous);AMBALY
+242;1872;R08657;sn-glycerol 3-phosphate:ubiquinone oxidoreductase;COQOR
+243;1890;R08689;(E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase (hydrating);MECDPOR
+244;1904;R08748;geranylneryl-diphosphate:isopentenyl-diphosphate geranylnerylcistransferase;IPDPCT
+246;1906;R08750;ditrans-tricis-hexaprenyl-diphosphate:isopentenyl-diphosphate hexaprenylcistransferase;DTPCHEXPPCT
+247;1907;R08751;ditrans-tetracis-heptaprenyl-diphosphate:isopentenyl-diphosphate heptaprenylcistransferase;DTPCHEPPCT
+248;1908;R08752;ditrans-pentacis-octaprenyl-diphosphate:isopentenyl-diphosphate octaprenylcistransferase;DTPCOCPPCT
+249;1909;R08753;ditrans-hexacis-nonaprenyl-diphosphate:isopentenyl-diphosphate nonaprenylcistransferase;DTPCNOPPCT
+250;1945;R08856;UDP-N-acetyl-D-glucosamine:undecaprenyl-phosphate N-acetyl-D-glucosamine phosphotransferase;DTPCUNPPT
+251;2031;R09247;(2E-6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 4 isopentenyl units);FRDPTT
+252;2073;R09365;5-methyltetrahydropteroyltri-L-glutamate:L-selenohomocysteine Se-methyltransferase;SELHCYSMT
+253;2077;R09372;methaneselenol:NADP+ oxidoreductase;METSELOR
+275;2117;R09780;D-arabino-hex-3-ulose-6-phosphate isomerase;AH6PISO
+274;2116;R10147;L-aspartate-4-semialdehyde hydro-lyase [adding pyruvate and cyclizing;ASPSALY
+273;2115;R10305;O3-acetyl-L-serine:L-homocysteine S-(2-amino-2-carboxyethyl)transferase;ACSERT
+167;1059;R10404;-;SAM
+272;2114;R10619;aldose 1-epimerase;GALISO
+271;2113;RNGAM;-;NGAM
