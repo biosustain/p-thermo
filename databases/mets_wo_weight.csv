@@ -1,0 +1,32 @@
+Metabolite,name,formula
+selmethtrna_c,Selenomethionyl-tRNA(Met),C20H30N6O11PSeR(C5H8O6PR)n
+ps_cho_c,Phosphatidylserine,C10H18O13P2R2(C5H8O6PR)n
+smbdhlp_c,S-(2-Methylbutanoyl)-dihydrolipoamide-E,C10H18O13P2R2(C5H8O6PR)n
+lpro_c,Lipoylprotein,C10H18O13P2R2(C5H8O6PR)n
+alpro_c,Phosphatidylserine,C10H18O13P2R2(C5H8O6PR)n
+f1p_e,Phosphatidylserine,C10H18O13P2R2(C5H8O6PR)n
+adhlam_e,S-Acetyldihydrolipoamide-E,C10H18O13P2R2(C5H8O6PR)n
+edhyl_c,Dihydrolipoamide-E,C10H18O13P2R2(C5H8O6PR)n
+RNA_c,RNA_C00046,C10H18O13P2R2(C5H8O6PR)n
+dhmtp_c,"1,2-Dihydroxy-5-(methylthio)pent-1-en-3-one",C11H16N5O8P(C5H8O6PR)n(C5H8O6PR)n
+hkmpp_c,2-Hydroxy-3-keto-5-methylthiopentenyl-1-phosphate,C11H16N5O8P(C5H8O6PR)n(C5H8O6PR)n
+myinp_c,myo-Inositol phosphate,
+menqui_c,Menaquinol,C16H18O2(C5H8)n
+ftethplg_c,10-Formyltetrahydrofolylpolyglutamate,C25H30N8O10(C5H7NO3)n
+mantri_c,manninotriose,
+meli_c,melibiose,
+isomalt_c,G01318,
+qh2_c,Ubiquinol,C14H20O4(C5H8)n
+cellulose_c,cellulose,
+treh6p_c,G09795,
+ubiquin_c,Ubiquinone,C14H18O4(C5H8)n
+pento_c,Pentosan,
+starch_c,Starch,(C12H20O10)n
+focytB561_c,Ferricytochrome b-561,
+bdxyl_c,"1,4-beta-D-Xylan",(C5H8O4)n
+sus6p_c,G10508,
+gmagg_c,[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol,
+xylan_c,G10512,
+epimelbio_c,G10529,
+malt6p2_c,G10518,
+Glycan_2_c,G10519,

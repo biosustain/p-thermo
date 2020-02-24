@@ -149,31 +149,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_edhyl_e" id="M_edhyl_e" name="Dihydrolipoamide-E" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
-            <p>CHARGE: 0</p>
-            <p>KEGG: C15973</p>
-            <p>NAME: Enzyme N6-(dihydrolipoyl)lysine; Dihydrolipoamide-E</p>
-            <p>ChEBI: 80219</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_edhyl_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15973"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80219"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM96068"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_ps_cho_c" id="M_ps_cho_c" name="Phosphatidylserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
+      <species metaid="meta_M_ps_cho_c" id="M_ps_cho_c" name="Phosphatidylserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H12NO10P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
@@ -221,7 +197,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_lpro_c" id="M_lpro_c" name="Lipoylprotein" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
+      <species metaid="meta_M_lpro_c" id="M_lpro_c" name="Lipoylprotein" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H14NOS2R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
@@ -245,7 +221,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_alpro_c" id="M_alpro_c" name="Phosphatidylserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
+      <species metaid="meta_M_alpro_c" id="M_alpro_c" name="S8-aminomethyldihydrolipoylprotein" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H18NOS2R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
@@ -269,7 +245,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_f1p_e" id="M_f1p_e" name="Phosphatidylserine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
+      <species metaid="meta_M_f1p_e" id="M_f1p_e" name="D-Fructose_1-phosphate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
@@ -287,112 +263,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01094"/>
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18105 37515"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM145568"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_glu__L_e" sboTerm="SBO:0000247" id="M_glu__L_e" name="Phosphatidylserine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
-            <p>CHARGE: 0</p>
-            <p>KEGG: C00025</p>
-            <p>NAME: Glutamate; L-Glutamate; L-Glutaminic acid; L-Glutamic acid;</p>
-            <p>ChEBI: 16015</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_glu__L_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/glu__L"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Glutamates"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLT"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:76051"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21301"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29985"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:42825"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29987"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18237"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:24314"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16015"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13107"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:5431"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21304"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6224"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:14321"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29988"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00148"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB60475"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/WHUUTDBJXJRKMK-VKHMYHEASA-M"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00025"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00302"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D00007"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D04341"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM89557"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/428614"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29404"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/113552"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/210382"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/73"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/2010"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd27177"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00023"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd19002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_lys__L_e" sboTerm="SBO:0000247" id="M_lys__L_e" name="Phosphatidylserine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
-            <p>CHARGE: 0</p>
-            <p>KEGG: C00047</p>
-            <p>NAME: 2,6-Diaminohexanoic acid; L-Lysine; Lysine acid;</p>
-            <p>ChEBI: 18019</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_lys__L_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/lys__L"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:LYS"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6264"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:32564"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13135"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:32550"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21351"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18019"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:32552"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:32551"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:133538"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:32565"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:43950"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:32563"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:25094"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB03405"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00182"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB62809"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/KDXKERNSBIXSRK-YFKPBYRVSA-O"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00047"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16440"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D02304"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM78"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29444"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/351979"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/351991"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/22945"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/79"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd19182"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00039"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1388,7 +1258,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_dhmtp_c" id="M_dhmtp_c" name="1,2-Dihydroxy-5-(methylthio)pent-1-en-3-one" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C11H16N5O8P(C5H8O6PR)n(C5H8O6PR)n">
+      <species metaid="meta_M_dhmtp_c" id="M_dhmtp_c" name="1,2-Dihydroxy-5-(methylthio)pent-1-en-3-one" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H10O3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H16N5O8P(C5H8O6PR)n(C5H8O6PR)n</p>
@@ -1412,7 +1282,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_hkmpp_c" id="M_hkmpp_c" name="2-Hydroxy-3-keto-5-methylthiopentenyl-1-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C11H16N5O8P(C5H8O6PR)n(C5H8O6PR)n">
+      <species metaid="meta_M_hkmpp_c" id="M_hkmpp_c" name="2-Hydroxy-3-keto-5-methylthiopentenyl-1-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H11O6PS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H16N5O8P(C5H8O6PR)n(C5H8O6PR)n</p>
@@ -1436,7 +1306,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species id="M_myinp_c" name="myo-Inositol phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species id="M_myinp_c" name="myo-Inositol phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
@@ -2058,7 +1928,7 @@
           </html>
         </notes>
       </species>
-      <species metaid="meta_M_menqui_c" id="M_menqui_c" name="Menaquinol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H18O2(C5H8)n">
+      <species metaid="meta_M_menqui_c" id="M_menqui_c" name="Menaquinol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C46H66O2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C16H18O2(C5H8)n</p>
@@ -2266,7 +2136,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species id="M_ftethplg_c" name="10-Formyltetrahydrofolylpolyglutamate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C25H30N8O10(C5H7NO3)n">
+      <species id="M_ftethplg_c" name="10-Formyltetrahydrofolylpolyglutamate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C30H37N9O13">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H30N8O10(C5H7NO3)n</p>
@@ -2399,7 +2269,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_mantri_c" id="M_mantri_c" name="manninotriose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species metaid="meta_M_mantri_c" id="M_mantri_c" name="manninotriose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C18H32O16">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
@@ -2422,7 +2292,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_meli_c" id="M_meli_c" name="melibiose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species metaid="meta_M_meli_c" id="M_meli_c" name="melibiose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
@@ -2445,7 +2315,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species id="M_isomalt_c" name="G01318" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species id="M_isomalt_c" name="G01318" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
@@ -2572,7 +2442,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_qh2_c" id="M_qh2_c" name="Ubiquinol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C14H20O4(C5H8)n">
+      <species metaid="meta_M_qh2_c" id="M_qh2_c" name="Ubiquinol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C59H92O4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H20O4(C5H8)n</p>
@@ -2660,7 +2530,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cellulose_c" id="M_cellulose_c" name="cellulose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species metaid="meta_M_cellulose_c" id="M_cellulose_c" name="cellulose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="(C6H10O5)n">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
@@ -2681,7 +2551,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species id="M_treh6p_c" name="G09795" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species id="M_treh6p_c" name="G09795" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
@@ -4461,7 +4331,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_sus6p_c" name="G10508" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species id="M_sus6p_c" name="G10508" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
@@ -5196,21 +5066,21 @@
           </html>
         </notes>
       </species>
-      <species id="M_epimelbio_c" name="G10529" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species id="M_epimelbio_c" name="G10529" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
           </html>
         </notes>
       </species>
-      <species id="M_malt6p2_c" name="G10518" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species id="M_malt6p2_c" name="G10518" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
           </html>
         </notes>
       </species>
-      <species id="M_Glycan_2_c" name="G10519" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species id="M_Glycan_2_c" name="G10519" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
@@ -28660,26 +28530,14 @@
       <parameter sboTerm="SBO:0000625" id="R_M_biomass_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
     </listOfParameters>
     <listOfReactions>
-      <reaction metaid="meta_R_EX_1819_e" sboTerm="SBO:0000627" id="R_EX_1819_e" name="EX_1819_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1819_e_upper_bound">
-        <listOfReactants>
-          <speciesReference species="M_edhyl_e" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-      </reaction>
+      <reaction metaid="meta_R_EX_1819_e" sboTerm="SBO:0000627" id="R_EX_1819_e" name="EX_1819_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1819_e_upper_bound"/>
       <reaction metaid="meta_R_EX_499_e" sboTerm="SBO:0000627" id="R_EX_499_e" name="EX_499_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_499_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_f1p_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_23_e" sboTerm="SBO:0000627" id="R_EX_23_e" name="EX_23_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_23_e_upper_bound">
-        <listOfReactants>
-          <speciesReference species="M_glu__L_e" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-      </reaction>
-      <reaction metaid="meta_R_EX_43_e" sboTerm="SBO:0000627" id="R_EX_43_e" name="EX_43_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_43_e_upper_bound">
-        <listOfReactants>
-          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-      </reaction>
+      <reaction metaid="meta_R_EX_23_e" sboTerm="SBO:0000627" id="R_EX_23_e" name="EX_23_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_23_e_upper_bound"/>
+      <reaction metaid="meta_R_EX_43_e" sboTerm="SBO:0000627" id="R_EX_43_e" name="EX_43_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_43_e_upper_bound"/>
       <reaction metaid="meta_R_EX_1864_e" sboTerm="SBO:0000627" id="R_EX_1864_e" name="EX_1864_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_1864_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_adhlam_e" stoichiometry="1" constant="true"/>
