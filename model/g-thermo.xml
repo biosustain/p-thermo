@@ -31,6 +31,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00030"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17499"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -91,6 +92,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06504"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27937"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -113,6 +115,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16255"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80404"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -135,6 +138,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05336"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9100"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -157,6 +161,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15973"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80219"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -179,6 +184,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02737"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11750 18303"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -201,6 +207,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15979"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80224"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -223,6 +230,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02051"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15804"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -245,6 +253,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01242"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16882"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -267,6 +276,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01094"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18105 37515"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -395,6 +405,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16255"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80404"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -417,6 +428,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15972"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80218"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -439,6 +451,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16254"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80403"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -461,6 +474,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15973"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80219"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -483,6 +497,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00046"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18273"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -505,6 +520,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00039"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16991"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -664,6 +680,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16220"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80387"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -686,6 +703,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16219"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80386"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -708,6 +726,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05764"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:5697"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -779,6 +798,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05762"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1639"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -850,6 +870,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05761"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:50651"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -922,6 +943,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05757"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:325"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -944,6 +966,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05756"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1637"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -966,6 +989,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05755"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:4349"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1036,6 +1060,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05753"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1634"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1058,6 +1083,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05752"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:7725"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1127,6 +1153,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05750"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1646"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1149,6 +1176,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05747"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:326"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1171,6 +1199,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05749"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:5704"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1193,6 +1222,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05746"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1642"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1239,6 +1269,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05745"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1290,6 +1321,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00229"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18359"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1333,6 +1365,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15606"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:49252"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1355,6 +1388,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15651"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:50605"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1414,6 +1448,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00668"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17665"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1436,6 +1471,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00126"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16928"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1458,6 +1494,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00125"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15991"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1480,6 +1517,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06148"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28003"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1576,6 +1614,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02972"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16194"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1598,6 +1637,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01235"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17505"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1620,6 +1660,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01213"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15465"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1678,6 +1719,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01077"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16288"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1729,6 +1771,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15980"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80225"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1751,6 +1794,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03589"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1924,6 +1968,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C17234"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18820"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1975,6 +2020,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05819"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18151"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1997,6 +2043,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05823"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28580"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2019,6 +2066,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05378"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28013"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2041,6 +2089,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05399"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27527"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2063,6 +2112,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02336"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28645"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2085,6 +2135,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02501"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:64037"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2147,6 +2198,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01168"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18116"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2177,6 +2229,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05923"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:929"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2276,6 +2329,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04702"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:70768"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2297,6 +2351,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05404"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27387 31005"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2318,6 +2373,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05402"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28053"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2347,6 +2403,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05345"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16084"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2369,6 +2426,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05922"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27985"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2391,6 +2449,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00001"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15377"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2413,6 +2472,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02713"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21615 28881"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2435,6 +2495,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02642"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18261"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2457,6 +2518,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00390"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17976"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2519,6 +2581,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04322"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1372"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2568,6 +2631,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00399"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16389"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2681,6 +2745,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C17436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:81087"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2703,6 +2768,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C17437"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:81088"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2725,6 +2791,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C17434"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:81085"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2747,6 +2814,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C17435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:81086"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2769,6 +2837,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C17438"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:81089"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2827,6 +2896,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05688"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16633"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2879,6 +2949,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06006"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27681 49256"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2901,6 +2972,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27821"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2958,6 +3030,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06007"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27512 49258"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2980,6 +3053,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C18902"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:77012"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3002,6 +3076,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3024,6 +3099,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05401"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15754"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3046,6 +3122,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05400"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:4808"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3107,6 +3184,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00682"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17236 67110"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3273,6 +3351,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00090"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18135"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3295,6 +3374,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C17556"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:60468"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3317,6 +3397,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05993"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:37666"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3339,6 +3420,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05983"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:62415"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3361,6 +3443,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05984"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1148 50613"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3383,6 +3466,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04122"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28390"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3413,6 +3497,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04051"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:2030"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3435,6 +3520,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06320"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27513"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3478,6 +3564,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02218"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17123"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3500,6 +3587,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00429"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15901"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3522,6 +3610,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06416"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27630"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3544,6 +3633,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06408"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28629"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3566,6 +3656,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06407"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16430"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3588,6 +3679,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06406"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27711"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3610,6 +3702,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06399"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17926"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3632,6 +3725,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06505"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28531"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3654,6 +3748,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06503"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27914"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3721,6 +3816,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05335"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30021"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3743,6 +3839,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04144"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17420"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3824,6 +3921,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06506"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:2482"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3846,6 +3944,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06507"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:2483"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3898,6 +3997,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04272"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15684 49072"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3953,6 +4053,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00819"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17061"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3975,6 +4076,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05772"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28307"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3997,6 +4099,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05768"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28607"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4019,6 +4122,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05766"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28766"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4096,6 +4200,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15667"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:48000"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4126,6 +4231,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00267"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17925"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4221,6 +4327,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02265"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16998"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4258,6 +4365,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15527"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:52469"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4279,6 +4387,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11826"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:37790"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4301,6 +4410,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C13378"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:32317"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4395,6 +4505,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05893"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27692"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4417,6 +4528,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00302"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18237"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4439,6 +4551,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05699"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27760"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4491,6 +4604,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04778"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16837"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4513,6 +4627,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04823"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18319"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4535,6 +4650,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06319"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27858"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4599,6 +4715,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01542"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28054"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4621,6 +4738,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00617"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16085"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4731,6 +4849,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04501"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16446"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4753,6 +4872,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04507"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16046"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4816,6 +4936,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00259"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17535"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4878,6 +4999,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01455"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17578"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4900,6 +5022,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01467"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17231"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4922,6 +5045,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01486"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29219"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4972,6 +5096,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05702"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21969"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4994,6 +5119,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05698"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9096"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5016,6 +5142,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05703"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:64685"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5038,6 +5165,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04144"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17420"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5060,6 +5188,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03453"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:32808"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5082,6 +5211,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05116"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:37050"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5104,6 +5234,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9534"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5176,6 +5307,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00698"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17996"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5198,6 +5330,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04751"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28413"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5220,6 +5353,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05996"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:35819"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5307,6 +5441,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04752"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16629"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5329,6 +5464,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04807"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15998 73083"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5426,6 +5562,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04877"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:84805"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5631,6 +5768,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05125"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:978"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5771,6 +5909,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05258"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27402"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5793,6 +5932,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05259"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15491"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5815,6 +5955,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05260"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27466"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5837,6 +5978,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05261"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28726"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5859,6 +6001,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05262"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27668"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5881,6 +6024,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05263"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27868"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5903,6 +6047,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05264"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28325"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5925,6 +6070,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05265"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28528"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5947,6 +6093,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05266"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28632"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5969,6 +6116,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05267"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28264"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5991,6 +6139,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05268"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28276"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6013,6 +6162,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05269"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27648"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6035,6 +6185,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05270"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27540"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6329,6 +6480,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05379"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:7815"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6351,6 +6503,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05381"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1463"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6465,6 +6618,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00124"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:4139"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6536,6 +6690,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00125"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15991"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6595,6 +6750,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05539"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17355"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6617,6 +6773,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00126"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16928"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6976,6 +7133,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05817"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39564"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -6998,6 +7156,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05818"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28192"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7103,6 +7262,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05841"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27748"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7125,6 +7285,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00138"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17513"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7147,6 +7308,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05893"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27692"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7197,6 +7359,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11827"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10151"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7219,6 +7382,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00139"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17908"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7241,6 +7405,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05928"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27862"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7263,6 +7428,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00141"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11851 16530"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7315,6 +7481,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06019"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27973"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7382,6 +7549,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06142"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28885"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7528,6 +7696,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06186"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18305"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -7700,6 +7869,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06441"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28566"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8024,6 +8194,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00163"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30768"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8299,6 +8470,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00170"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17509"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8321,6 +8493,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11355"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18198 35181"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8343,6 +8516,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10698"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8365,6 +8539,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11434"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17764"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8419,6 +8594,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16578"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8441,6 +8617,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16840"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8496,6 +8673,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11453"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18425"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8789,6 +8967,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C12147"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:37525"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8859,6 +9038,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00196"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18026"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8881,6 +9061,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00197"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17794"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -8981,6 +9162,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C14463"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:34008 49257"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9472,6 +9654,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15974"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80220"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9494,6 +9677,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15975"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80221"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9516,6 +9700,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15976"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:48522"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9538,6 +9723,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15977"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80222"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9560,6 +9746,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15978"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80223"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9582,6 +9769,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00221"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15903"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9806,6 +9994,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00233"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:48430"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9828,6 +10017,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00234"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15637"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9850,6 +10040,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16519"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:50271"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9918,6 +10109,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00236"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16001"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -10904,6 +11096,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00288"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17544"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -11529,6 +11722,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00334"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16865"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -11630,6 +11824,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00345"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:48928"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -11652,6 +11847,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00349"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16256"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -12272,6 +12468,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00392"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16899"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -12531,6 +12728,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00430"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17549"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -12627,6 +12825,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00440"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15641"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13691,6 +13890,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00542"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17755"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13749,6 +13949,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00555"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17769"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13810,6 +14011,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00568"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30753"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14127,6 +14329,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00631"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17835"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14345,6 +14548,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00666"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16026"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14406,6 +14610,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00671"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15614"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14428,6 +14633,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00672"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11563 28542"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14450,6 +14656,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00673"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16132 55513"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14550,6 +14757,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00680"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16488 30308"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14774,6 +14982,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00718"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28102"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14959,6 +15168,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00826"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17530"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15422,6 +15632,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00900"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16444"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15515,6 +15726,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00944"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17947 32364"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15581,6 +15793,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00966"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11561 17094"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16363,6 +16576,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01144"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15453"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16502,6 +16716,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15999"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16524,6 +16739,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01180"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:33574"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16585,6 +16801,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01188"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11805 18064"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16745,6 +16962,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01236"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16938"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16891,6 +17109,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01268"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18337"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16913,6 +17132,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01269"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16257"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16935,6 +17155,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01279"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16892"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16986,6 +17207,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01300"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17083 44841"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17047,6 +17269,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01302"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29112"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17069,6 +17292,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01304"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29114 59546"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17283,6 +17507,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01451"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17814"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17923,6 +18148,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02323"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16464"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18085,6 +18311,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02474"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22590 28351"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18161,6 +18388,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02504"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1178 35128"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18296,6 +18524,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02631"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17275"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18318,6 +18547,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02637"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30918"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18616,6 +18846,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02923"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18404"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18638,6 +18869,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00085"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15946 61553"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18781,6 +19013,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03082"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15836"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19126,6 +19359,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03232"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30933"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19242,6 +19476,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03344"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15476"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19264,6 +19499,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03345"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15478"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19397,6 +19633,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03479"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15640"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19419,6 +19656,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03492"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15905"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19441,6 +19679,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03506"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18299 51793"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19720,6 +19959,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03912"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:371"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19869,6 +20109,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04030"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15572"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19891,6 +20132,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04039"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15689"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20057,6 +20299,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04171"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15941 48968"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20152,6 +20395,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04181"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11812 17667"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20174,6 +20418,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04188"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27859"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20268,6 +20513,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04582"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28096"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20290,6 +20536,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04236"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1467"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20359,6 +20606,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04294"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17957"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20450,6 +20698,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04327"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17857"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20548,6 +20797,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04352"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15769"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20607,6 +20857,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04390"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18317 49004"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20629,6 +20880,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04405"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15449"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20651,6 +20903,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04411"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:35121 43468"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20711,6 +20964,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04454"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20827,6 +21081,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04556"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18032"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20849,6 +21104,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00109"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30831"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -21102,6 +21358,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04691"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18150"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -21158,6 +21415,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04732"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15934"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -21585,6 +21843,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00001"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15377"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23375,6 +23634,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00267"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17925"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23397,6 +23657,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01641"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29175"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23419,6 +23680,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01236"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16938"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23487,6 +23749,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00617"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16085"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23509,6 +23772,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00018"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18405"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23561,6 +23825,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00390"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17976"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23583,6 +23848,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00010"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15346"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23605,6 +23871,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00143"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1989"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23635,6 +23902,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15672"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:24480"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23657,6 +23925,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00019"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15414 67040"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23679,6 +23948,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00234"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15637"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23701,6 +23971,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00024"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15351"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23762,6 +24033,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00003"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15846"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23818,6 +24090,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00440"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15641"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23840,6 +24113,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04574"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18197"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23862,6 +24136,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00004"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16908"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23930,6 +24205,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00005"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16474"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23952,6 +24228,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00006"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18009"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23974,6 +24251,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00083"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15531"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -23996,6 +24274,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00101"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15635 20506"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24124,6 +24403,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02170"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30860"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24146,6 +24426,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00682"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17236 67110"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24168,6 +24449,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11838"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29484"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24190,6 +24472,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06240"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:70738"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24212,6 +24495,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15547"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:52668"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24234,6 +24518,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00683"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15466"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24256,6 +24541,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05819"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18151"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24278,6 +24564,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05703"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:64685"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24300,6 +24587,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00750"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15746"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24322,6 +24610,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02323"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16464"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24344,6 +24633,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04144"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17420"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24366,6 +24656,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04631"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:68507"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24388,6 +24679,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04216"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17613"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24410,6 +24702,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00536"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18036 39949"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24432,6 +24725,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11826"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:37790"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24504,6 +24798,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02876"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:8478"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24526,6 +24821,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04734"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18381"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24548,6 +24844,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04051"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:2030"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24570,6 +24867,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05996"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:35819"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24592,6 +24890,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03114"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15890"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24622,6 +24921,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00332"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15345"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24644,6 +24944,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05336"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9100"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24722,6 +25023,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04144"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17420"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24744,6 +25046,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03479"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15640"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24766,6 +25069,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04181"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11812 17667"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24834,6 +25138,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05766"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28766"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24856,6 +25161,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03194"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15675"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24878,6 +25184,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00894"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15513"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24900,6 +25207,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05768"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28607"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24982,6 +25290,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05198"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17319"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25004,6 +25313,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00302"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18237"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25105,6 +25415,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00030"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17499"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25127,6 +25438,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02737"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11750 18303"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25306,6 +25618,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00819"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17061"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25328,6 +25641,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02265"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16998"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25358,6 +25672,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00301"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16960"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25380,6 +25695,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15809"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:53647"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25402,6 +25718,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05823"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28580"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25424,6 +25741,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00090"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18135"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25446,6 +25764,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01486"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29219"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25503,6 +25822,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00096"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15820"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25525,6 +25845,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04507"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16046"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25619,6 +25940,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00154"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15525"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25769,6 +26091,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05764"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:5697"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25812,6 +26135,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05755"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:4349"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25976,6 +26300,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04405"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15449"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25998,6 +26323,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26213,6 +26539,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00046"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18273"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26235,6 +26562,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00039"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16991"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26257,6 +26585,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15467"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26352,6 +26681,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9534"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
