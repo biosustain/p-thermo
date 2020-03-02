@@ -1,0 +1,36 @@
+,ID,KEGG,definition,equation
+0,7,R09977,"2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate ⇌ 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate",C20246 ⇌ C20247
+1,8,R10247,"1-Deoxy-D-xylulose 5-phosphate + Iminoglycine + C15814 ⇌ 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + C15810 + 2 H2O",C11437 + C15809 + C15814 ⇌ C20246 + C15810 + 2 C00001
+2,11,R07460,[Enzyme]-cysteine + L-Cysteine ⇌ [Enzyme]-S-sulfanylcysteine + L-Alanine,C15811 + C00097 ⇌ C15812 + C00041
+3,13,R07459,C15810 + ATP ⇌ C15813 + Diphosphate,C15810 + C00002 ⇌ C15813 + C00013
+4,22,R01253,L-Proline + Quinone ⇌ (S)-1-Pyrroline-5-carboxylate + Hydroquinone,C00148 + C15602 ⇌ C03912 + C15603
+5,29,R01074,ATP + Biotin ⇌ Diphosphate + Biotinyl-5’-AMP,C00002 + C00120 ⇌ C00013 + C05921
+6,30,R05145,Biotinyl-5’-AMP + Apo-[carboxylase] ⇌ AMP + Holo-[carboxylase],C05921 + C06249 ⇌ C00020 + C06250
+7,228,R00361,(S)-Malate + Quinone ⇌ Oxaloacetate + Hydroquinone,C00149 + C15602 ⇌ C00036 + C15603
+8,340,R00993,2-Oxobutanoate + Orthophosphate + Oxygen ⇌ Propanoyl phosphate + CO2 + H2O,C00109 + C00009 + C00007 ⇌ C02876 + C00011 + C00001
+9,364,R10715,--,--
+10,421,R01374,D-Phenylalanine + H2O + Acceptor ⇌ Phenylpyruvate + Ammonia + Reduced acceptor,C02265 + C00001 + C00028 ⇌ C00166 + C00014 + C00030
+11,475,R01699,Pyruvate + Enzyme N6-(lipoyl)lysine ⇌ [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine + CO2,C00022 + C15972 ⇌ C16255 + C00011
+12,489,R00360,(S)-Malate + Oxygen ⇌ Oxaloacetate + Hydrogen peroxide,C00149 + C00007 ⇌ C00036 + C00027
+13,619,R02340,Indoleglycerol phosphate ⇌ Indole + D-Glyceraldehyde 3-phosphate,C03506 ⇌ C00463 + C00118
+14,620,R07358,NADH + H+ + Quinone ⇌ NAD+ + Hydroquinone,C00004 + C00080 + C15602 ⇌ C00003 + C15603
+15,777,R02035,--,--
+16,790,R10712,2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate + 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate ⇌ Thiamin monophosphate + Diphosphate + CO2,C04752 + C20247 ⇌ C01081 + C00013 + C00011
+17,834,R01917,ATP + Glutathione + Spermidine ⇌ ADP + Orthophosphate + Glutathionylspermidine,C00002 + C00051 + C00315 ⇌ C00008 + C00009 + C05730
+18,1009,R01197,2 Reduced ferredoxin + Succinyl-CoA + CO2 + 2 H+ ⇌ 2 Oxidized ferredoxin + 2-Oxoglutarate + CoA,2 C00138 + C00091 + C00011 + 2 C00080 ⇌ 2 C00139 + C00026 + C00010
+19,1011,R10343,Succinyl-CoA + Acetate ⇌ Acetyl-CoA + Succinate,C00091 + C00033 ⇌ C00024 + C00042
+20,1838,R00851,sn-Glycerol 3-phosphate + Acyl-CoA ⇌ 1-Acyl-sn-glycerol 3-phosphate + CoA,C00093 + C00040 ⇌ C00681 + C00010
+21,1839,R02241,Phosphatidate + CoA ⇌ 1-Acyl-sn-glycerol 3-phosphate + Acyl-CoA,C00416 + C00010 ⇌ C00681 + C00040
+22,1840,R01799,CTP + Phosphatidate ⇌ Diphosphate + CDP-diacylglycerol,C00063 + C00416 ⇌ C00013 + C00269
+23,200,R00717,Glycolate + NAD+ ⇌ Glyoxylate + NADH + H+,C00160 + C00003 ⇌ C00048 + C00004 + C00080
+24,245,R02946,"(R,R)-Butane-2,3-diol + NAD+ ⇌ (R)-Acetoin + NADH + H+",C03044 + C00003 ⇌ C00810 + C00004 + C00080
+25,247,R02855,(R)-Acetoin + NAD+ ⇌ Diacetyl + NADH + H+,C00810 + C00003 ⇌ C00741 + C00004 + C00080
+26,248,R09524,Acetoin + CoA + NAD+ ⇌ Acetaldehyde + Acetyl-CoA + NADH + H+,C00466 + C00010 + C00003 ⇌ C00084 + C00024 + C00004 + C00080
+27,251,R00226,(S)-2-Acetolactate + CO2 ⇌ 2 Pyruvate,C06010 + C00011 ⇌ 2 C00022
+28,252,R10506,(S)-2-Acetolactate + Acceptor ⇌ Diacetyl + CO2 + Reduced acceptor,C06010 + C00028 ⇌ C00741 + C00011 + C00030
+29,254,R01394,Hydroxypyruvate ⇌ 2-Hydroxy-3-oxopropanoate,C00168 ⇌ C01146
+30,265,R01745,D-Glycerate + NAD+ ⇌ 2-Hydroxy-3-oxopropanoate + NADH + H+,C00258 + C00003 ⇌ C01146 + C00004 + C00080
+31,272,R01171,Butanoyl-CoA + NAD+ ⇌ Crotonoyl-CoA + NADH + H+,C00136 + C00003 ⇌ C00877 + C00004 + C00080
+32,275,R03026,(S)-3-Hydroxybutanoyl-CoA ⇌ Crotonoyl-CoA + H2O,C01144 ⇌ C00877 + C00001
+33,284,R04698,2 Ferricytochrome b-561 + CO + H2O ⇌ 2 Ferrocytochrome b-561 + CO2 + 2 H+,2 C05305 + C00237 + C00001 ⇌ 2 C05183 + C00011 + 2 C00080
+34,287,R05735,Acetone + CO2 + ATP + 2 H2O ⇌ Acetoacetate + AMP + 2 Orthophosphate,C00207 + C00011 + C00002 + 2 C00001 ⇌ C00164 + C00020 + 2 C00009
