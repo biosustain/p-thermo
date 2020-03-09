@@ -10,7 +10,7 @@
 8;SUCHMSSELCYSL;R04946;;
 9;UPP1S;R03166;;
 10;FAPNTPAH;R05046;;
-11;ARBTPT;R05132;;
+11;ARBTPT;R05132;Need to add two metabolites for this? Or just 'mimic' it with a phosphate donor?;
 12;PRE3AOR;R05217;;
 13;R05219;R05219;;
 14;GLUTRS;R05578;;
