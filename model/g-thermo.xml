@@ -125,7 +125,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_selmethtrna_c" sboTerm="SBO:0000247" id="M_selmethtrna_c" name="Selenomethionyl-tRNA(Met)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C20H30N6O11PSeR(C5H8O6PR)n">
+      <species metaid="meta_M_selmethtrna_c" sboTerm="SBO:0000247" id="M_selmethtrna_c" name="Selenomethionyl-tRNA(Met)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C25H38N6O17P2SeR2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H30N6O11PSeR(C5H8O6PR)n</p>
@@ -173,7 +173,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_smbdhlp_c" sboTerm="SBO:0000247" id="M_smbdhlp_c" name="S-(2-Methylbutanoyl)-dihydrolipoamide-E" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
+      <species metaid="meta_M_smbdhlp_c" sboTerm="SBO:0000247" id="M_smbdhlp_c" name="S-(2-Methylbutanoyl)-dihydrolipoamide-E" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H24NO2S2R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
@@ -293,7 +293,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_edhyl_c" sboTerm="SBO:0000247" id="M_edhyl_c" name="Dihydrolipoamide-E" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
+      <species metaid="meta_M_edhyl_c" sboTerm="SBO:0000247" id="M_edhyl_c" name="Dihydrolipoamide-E" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H16NOS2R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
@@ -317,7 +317,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_RNA_c" sboTerm="SBO:0000247" id="M_RNA_c" name="RNA_C00046" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18O13P2R2(C5H8O6PR)n">
+      <species metaid="meta_M_RNA_c" sboTerm="SBO:0000247" id="M_RNA_c" name="RNA_C00046" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C15H24O18P3R3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H18O13P2R2(C5H8O6PR)n</p>
@@ -2510,7 +2510,7 @@
           </html>
         </notes>
       </species>
-      <species metaid="meta_M_ubiquin_c" sboTerm="SBO:0000247" id="M_ubiquin_c" name="Ubiquinone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C14H18O4(C5H8)n">
+      <species metaid="meta_M_ubiquin_c" sboTerm="SBO:0000247" id="M_ubiquin_c" name="Ubiquinone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C19H26O4R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H18O4(C5H8)n</p>
@@ -3722,7 +3722,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_focytB561_c" sboTerm="SBO:0000247" id="M_focytB561_c" name="Ferricytochrome b-561" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species metaid="meta_M_focytB561_c" sboTerm="SBO:0000247" id="M_focytB561_c" name="Ferricytochrome b-561" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>CHARGE: 0</p>
