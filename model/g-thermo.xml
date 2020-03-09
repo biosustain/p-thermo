@@ -1928,7 +1928,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_fdp_B_c" sboTerm="SBO:0000247" id="M_fdp_B_c" name="beta-D-Fructose-1,6P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C48H74O15">
+      <species metaid="meta_M_fdp_B_c" sboTerm="SBO:0000247" id="M_fdp_B_c" name="beta-D-Fructose-1,6P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H10O12P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C48H74O15</p>
@@ -2274,7 +2274,7 @@
           </html>
         </notes>
       </species>
-      <species metaid="meta_M_f6p_B_c" sboTerm="SBO:0000247" id="M_f6p_B_c" name="beta-D-Fructose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13O9P">
+      <species metaid="meta_M_f6p_B_c" sboTerm="SBO:0000247" id="M_f6p_B_c" name="beta-D-Fructose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H11O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H13O9P</p>
@@ -4043,7 +4043,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_uppg1_c" sboTerm="SBO:0000247" id="M_uppg1_c" name="Uroporphyrinogen I" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C40H44N4O16">
+      <species metaid="meta_M_uppg1_c" sboTerm="SBO:0000247" id="M_uppg1_c" name="Uroporphyrinogen I" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C40H36N4O16">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H44N4O16</p>
@@ -53086,6 +53086,7 @@
         <listOfReactants>
           <speciesReference species="M_ahdt_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_oh1_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="6" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_HC01710_c" stoichiometry="1" constant="true"/>
@@ -53202,7 +53203,8 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_fcytb5612_c" stoichiometry="4" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -53929,6 +53931,7 @@
         <listOfProducts>
           <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="6" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO05024"/>
@@ -54032,6 +54035,7 @@
           <speciesReference species="M_2obut_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_selcys_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04263"/>
@@ -54068,6 +54072,7 @@
           <speciesReference species="M_selhcys_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -54178,6 +54183,7 @@
         <listOfProducts>
           <speciesReference species="M_selcyst_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03881"/>
@@ -54351,6 +54357,7 @@
         <listOfProducts>
           <speciesReference species="M_HC01652_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_for_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04290"/>
