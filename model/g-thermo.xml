@@ -1597,7 +1597,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cellb_c" sboTerm="SBO:0000247" id="M_cellb_c" name="G00289" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C26H42N7O19P3S">
+      <species metaid="meta_M_cellb_c" sboTerm="SBO:0000247" id="M_cellb_c" name="G00289" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C26H42N7O19P3S</p>
@@ -1850,7 +1850,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_mnt_c" sboTerm="SBO:0000247" id="M_mnt_c" name="G00278" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H8O4">
+      <species metaid="meta_M_stys_c" sboTerm="SBO:0000247" id="M_stys_c" name="G00278" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C24H42O21">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H8O4</p>
@@ -1861,7 +1861,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_mnt_c">
+            <rdf:Description rdf:about="#meta_M_stys_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G00501"/>
@@ -4361,7 +4361,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_octdp_c" sboTerm="SBO:0000247" id="M_octdp_c" name="all-trans-Octaprenyl diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C40H68O7P2">
+      <species metaid="meta_M_octdp_c" sboTerm="SBO:0000247" id="M_octdp_c" name="all-trans-Octaprenyl diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C40H65O7P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H68O7P2</p>
@@ -7133,7 +7133,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_2dmmq_c" sboTerm="SBO:0000247" id="M_2dmmq_c" name="2dmmq7_C45H62O2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C45H62O2">
+      <species metaid="meta_M_2dmmq_c" sboTerm="SBO:0000247" id="M_2dmmq_c" name="2dmmq7_C45H62O2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C50H72O2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C45H62O2</p>
@@ -7559,7 +7559,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ppi_c" sboTerm="SBO:0000247" id="M_ppi_c" name="Pyrophosphate_H2O7P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="H2O7P2">
+      <species metaid="meta_M_ppi_c" sboTerm="SBO:0000247" id="M_ppi_c" name="Pyrophosphate_H2O7P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="HO7P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O7P2</p>
@@ -9727,7 +9727,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_empdhll_c" sboTerm="SBO:0000247" id="M_empdhll_c" name="Enzyme N6-(S-[2-methylpropanoyl]dihydrolipoyl)lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H25N4O8P2S">
+      <species metaid="meta_M_empdhll_c" sboTerm="SBO:0000247" id="M_empdhll_c" name="Enzyme N6-(S-[2-methylpropanoyl]dihydrolipoyl)lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C12H22NO2S2R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C16H25N4O8P2S</p>
@@ -27770,7 +27770,7 @@
       <parameter sboTerm="SBO:0000625" id="R_HEPDPP_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_HEXTT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PPTT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_DHNAOCTD_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DHNAOT4_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DTPCUDCPPPH_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DTPCUNPT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DTPCUNPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -54903,8 +54903,8 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pre3b_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="9" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="9" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02376"/>
@@ -55160,13 +55160,14 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_pre5_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_amet_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pre6a_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ac_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
@@ -55665,7 +55666,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DHNAOCTD" sboTerm="SBO:0000176" id="R_DHNAOCTD" name="R05617" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_DHNAOCTD_upper_bound">
+      <reaction metaid="meta_R_DHNAOT4" sboTerm="SBO:0000176" id="R_DHNAOT4" name="R05617" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_DHNAOT4_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -55678,7 +55679,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DHNAOCTD">
+            <rdf:Description rdf:about="#meta_R_DHNAOT4">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05617"/>
@@ -55693,6 +55694,7 @@
         <listOfReactants>
           <speciesReference species="M_octdp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_dhna_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_2dmmq_c" stoichiometry="1" constant="true"/>
@@ -56343,8 +56345,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_6dg_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_sucr_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_glc__D_c" stoichiometry="1" constant="true"/>
@@ -56378,7 +56380,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_6dg_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_sucr_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_glc__aD_c" stoichiometry="1" constant="true"/>
@@ -56547,7 +56549,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_mnt_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_stys_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -56584,7 +56586,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_mnt_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_stys_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02513"/>
@@ -56766,6 +56768,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_thrp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_applp_c" stoichiometry="1" constant="true"/>
@@ -63463,7 +63466,7 @@
           <groups:member groups:name="R08749" groups:idRef="R_CCTTPENPP"/>
           <groups:member groups:name="R00443" groups:idRef="R_UTPT"/>
           <groups:member groups:name="R00617" groups:idRef="R_TMPK"/>
-          <groups:member groups:name="R05617" groups:idRef="R_DHNAOCTD"/>
+          <groups:member groups:name="R05617" groups:idRef="R_DHNAOT4"/>
           <groups:member groups:name="R08165" groups:idRef="R_SEPHCHCS"/>
           <groups:member groups:name="R00439" groups:idRef="R_PRPGT"/>
           <groups:member groups:name="R07237" groups:idRef="R_AMETTRANS"/>

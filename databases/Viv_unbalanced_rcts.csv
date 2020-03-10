@@ -1,23 +1,23 @@
 ;rct_id;rct_name;Done;Comments
-0;AHETDYTTPHY;R04639;;add 3 H+
-1;COOR;R04698;;fix ferricytochomre & proton
-2;SELMELIG;R04773;;not in e. coli model: includes RNA should we do that
-3;PFKh;R04779;;
-4;BFBP;R04780;;
-5;SAM;R10404;;Metabolite IDs are right, matches Kegg, cant find in e. coli
-6;SELCYSTGL;R04930;;
-7;SELCYSTL;R04941;;
-8;SUCHMSSELCYSL;R04946;;
-9;UPP1S;R03166;;
-10;FAPNTPAH;R05046;;
+0;AHETDYTTPHY;R04639;Y;add 3 H+
+1;COOR;R04698;Y;fix ferricytochomre & proton
+2;SELMELIG;R04773;not in e. coli model: includes RNA should we do that;
+3;PFKh;R04779;Y;
+4;BFBP;R04780;Y;
+5;SAM;R10404;Metabolite IDs are right, matches Kegg, cant find in e. coli;
+6;SELCYSTGL;R04930;Y;
+7;SELCYSTL;R04941;Y;
+8;SUCHMSSELCYSL;R04946;Y;
+9;UPP1S;R03166;Y;
+10;FAPNTPAH;R05046;Y;
 11;ARBTPT;R05132;Need to add two metabolites for this? Or just 'mimic' it with a phosphate donor?;
-12;PRE3AOR;R05217;;
-13;R05219;R05219;;
-14;GLUTRS;R05578;;
-15;DHNAOCTD;R05617;;
-16;BGLUCH;R06077;;
-17;SUCHY;R06087;;
-18;SUCHY2;R06088;;
+12;PRE3AOR;R05217;Y;
+13;R05219;R05219;Y;
+14;GLUTRS;R05578;Need to add tRNA(Glu) metabolite;
+15;DHNAOCTD;R05617;Y;
+16;BGLUCH;R06077;Cellulose is an issue here;
+17;SUCHY;R06087;Y;
+18;SUCHY2;R06088;Y;
 19;CELLBHY;R06092;;
 20;STACHY;R06101;;
 21;STACHY2;R06152;;
