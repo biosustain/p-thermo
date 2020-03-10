@@ -551,7 +551,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_hdeacp_c" sboTerm="SBO:0000247" id="M_hdeacp_c" name="Hexadecanoyl-[acp]_C27H51N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51N2O8PRS">
+      <species metaid="meta_M_hdeacp_c" sboTerm="SBO:0000247" id="M_hdeacp_c" name="Hexadecanoyl-[acp]_C27H51N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H31OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H51N2O8PRS</p>
@@ -575,7 +575,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_tpalm2eACP_c" sboTerm="SBO:0000247" id="M_tpalm2eACP_c" name="trans-Hexadec-2-enoyl-[acp]_C27H49N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H49N2O8PRS">
+      <species metaid="meta_M_tpalm2eACP_c" sboTerm="SBO:0000247" id="M_tpalm2eACP_c" name="trans-Hexadec-2-enoyl-[acp]_C27H49N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H29OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H49N2O8PRS</p>
@@ -625,7 +625,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3opalmACP_c" sboTerm="SBO:0000247" id="M_3opalmACP_c" name="3-Oxohexadecanoyl-[acp]_C27H49N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H49N2O9PRS">
+      <species metaid="meta_M_3opalmACP_c" sboTerm="SBO:0000247" id="M_3opalmACP_c" name="3-Oxohexadecanoyl-[acp]_C27H49N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H31OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H49N2O9PRS</p>
@@ -649,7 +649,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_tmrs2eACP_c" sboTerm="SBO:0000247" id="M_tmrs2eACP_c" name="trans-Tetradec-2-enoyl-[acp]_C25H45N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C25H45N2O8PRS">
+      <species metaid="meta_M_tmrs2eACP_c" sboTerm="SBO:0000247" id="M_tmrs2eACP_c" name="trans-Tetradec-2-enoyl-[acp]_C25H45N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C14H25OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H45N2O8PRS</p>
@@ -699,7 +699,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_myracp_c" sboTerm="SBO:0000247" id="M_myracp_c" name="3-Oxotetradecanoyl-[acp]_C25H45N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C25H45N2O9PRS">
+      <species metaid="meta_M_myracp_c" sboTerm="SBO:0000247" id="M_myracp_c" name="3-Oxotetradecanoyl-[acp]_C25H45N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C14H27OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H45N2O9PRS</p>
@@ -745,7 +745,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_tddec2eACP_c" sboTerm="SBO:0000247" id="M_tddec2eACP_c" name="trans-Dodec-2-enoyl-[acp]_C23H41N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C23H41N2O8PRS">
+      <species metaid="meta_M_tddec2eACP_c" sboTerm="SBO:0000247" id="M_tddec2eACP_c" name="trans-Dodec-2-enoyl-[acp]_C23H41N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C14H25O2SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H41N2O8PRS</p>
@@ -822,7 +822,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_decanoylacp_c" sboTerm="SBO:0000247" id="M_decanoylacp_c" name="Decanoyl-[acp]_C21H39N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H39N2O8PRS">
+      <species metaid="meta_M_decanoylacp_c" sboTerm="SBO:0000247" id="M_decanoylacp_c" name="Decanoyl-[acp]_C21H39N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H19OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H39N2O8PRS</p>
@@ -846,7 +846,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_tdec2eACP_c" sboTerm="SBO:0000247" id="M_tdec2eACP_c" name="trans-Dec-2-enoyl-[acp]_C21H37N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H37N2O8PRS">
+      <species metaid="meta_M_tdec2eACP_c" sboTerm="SBO:0000247" id="M_tdec2eACP_c" name="trans-Dec-2-enoyl-[acp]_C21H37N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H17OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H37N2O8PRS</p>
@@ -919,7 +919,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_octacp_c" sboTerm="SBO:0000247" id="M_octacp_c" name="Octanoyl-[acp]_C19H35N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C19H35N2O8PRS">
+      <species metaid="meta_M_octacp_c" sboTerm="SBO:0000247" id="M_octacp_c" name="Octanoyl-[acp]_C19H35N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H13OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H35N2O8PRS</p>
@@ -943,7 +943,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_toct2eACP_c" sboTerm="SBO:0000247" id="M_toct2eACP_c" name="trans-Oct-2-enoyl-[acp]_C19H33N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C19H33N2O8PRS">
+      <species metaid="meta_M_toct2eACP_c" sboTerm="SBO:0000247" id="M_toct2eACP_c" name="trans-Oct-2-enoyl-[acp]_C19H33N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H13OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H33N2O8PRS</p>
@@ -991,7 +991,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3ooctACP_c" sboTerm="SBO:0000247" id="M_3ooctACP_c" name="3-Oxooctanoyl-[acp]_C19H33N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C19H33N2O9PRS">
+      <species metaid="meta_M_3ooctACP_c" sboTerm="SBO:0000247" id="M_3ooctACP_c" name="3-Oxooctanoyl-[acp]_C19H33N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H13O2SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H33N2O9PRS</p>
@@ -1015,7 +1015,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3hhexACP_c" sboTerm="SBO:0000247" id="M_3hhexACP_c" name="trans-Hex-2-enoyl-[acp]_C17H29N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H29N2O8PRS">
+      <species metaid="meta_M_3hhexACP_c" sboTerm="SBO:0000247" id="M_3hhexACP_c" name="trans-Hex-2-enoyl-[acp]_C17H29N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H29N2O8PRS</p>
@@ -1039,7 +1039,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_hexacp_c" sboTerm="SBO:0000247" id="M_hexacp_c" name="(R)-3-Hydroxyhexanoyl-[acp]_C17H31N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H31N2O9PRS">
+      <species metaid="meta_M_hexacp_c" sboTerm="SBO:0000247" id="M_hexacp_c" name="(R)-3-Hydroxyhexanoyl-[acp]_C17H31N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H11OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H31N2O9PRS</p>
@@ -1087,7 +1087,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_but2eACP_c" sboTerm="SBO:0000247" id="M_but2eACP_c" name="But-2-enoyl-[acyl-carrier_protein]_C15H25N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C15H25N2O8PRS">
+      <species metaid="meta_M_but2eACP_c" sboTerm="SBO:0000247" id="M_but2eACP_c" name="But-2-enoyl-[acyl-carrier_protein]_C15H25N2O8PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C4H5OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H25N2O8PRS</p>
@@ -1164,7 +1164,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ACP_c" sboTerm="SBO:0000247" id="M_ACP_c" name="Acyl-carrier_protein_C11H21N2O7PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H21N2O7PRS">
+      <species metaid="meta_M_ACP_c" sboTerm="SBO:0000247" id="M_ACP_c" name="Acyl-carrier_protein_C11H21N2O7PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="HSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H21N2O7PRS</p>
@@ -2394,7 +2394,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_qh2_c" sboTerm="SBO:0000247" id="M_qh2_c" name="Ubiquinol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C59H92O4">
+      <species metaid="meta_M_qh2_c" sboTerm="SBO:0000247" id="M_qh2_c" name="Ubiquinol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C19H28O4R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H20O4(C5H8)n</p>
@@ -2967,7 +2967,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3omrsACP_c" sboTerm="SBO:0000247" id="M_3omrsACP_c" name="5-Hydroxy-2,4-dioxopentanoate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H6O5">
+      <species metaid="meta_M_3omrsACP_c" sboTerm="SBO:0000247" id="M_3omrsACP_c" name="5-Hydroxy-2,4-dioxopentanoate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23OSR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H6O5</p>
@@ -9679,7 +9679,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_dhpltra_c" sboTerm="SBO:0000247" id="M_dhpltra_c" name="[Dihydrolipoyllysine-residue-(2-methylpropanoyl)transferase]-S-(3-methylbutanoyl)dihydrolipoyllysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H27N4O8P2S">
+      <species metaid="meta_M_dhpltra_c" sboTerm="SBO:0000247" id="M_dhpltra_c" name="[Dihydrolipoyllysine-residue-(2-methylpropanoyl)transferase]-S-(3-methylbutanoyl)dihydrolipoyllysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H24NO2S2R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H27N4O8P2S</p>
@@ -16861,7 +16861,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_malACP_c" sboTerm="SBO:0000247" id="M_malACP_c" name="Malonyl-[acyl-carrier_protein]_C14H22N2O10PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C14H22N2O10PRS">
+      <species metaid="meta_M_malACP_c" sboTerm="SBO:0000247" id="M_malACP_c" name="Malonyl-[acyl-carrier_protein]_C14H22N2O10PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C3H3O3SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H22N2O10PRS</p>
@@ -19799,7 +19799,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_glyc3p_c" sboTerm="SBO:0000247" id="M_glyc3p_c" name="sn-Glycerol_3-phosphate_C3H8O6P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H8O6P">
+      <species metaid="meta_M_glyc3p_c" sboTerm="SBO:0000247" id="M_glyc3p_c" name="sn-Glycerol_3-phosphate_C3H8O6P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H7O6P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H8O6P</p>
@@ -21241,7 +21241,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3hbutACP_c" sboTerm="SBO:0000247" id="M_3hbutACP_c" name="(3R)-3-Hydroxybutanoyl-[acyl-carrier_protein]_C15H27N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C15H27N2O9PRS">
+      <species metaid="meta_M_3hbutACP_c" sboTerm="SBO:0000247" id="M_3hbutACP_c" name="(3R)-3-Hydroxybutanoyl-[acyl-carrier_protein]_C15H27N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C4H7O2SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H27N2O9PRS</p>
@@ -27937,8 +27937,6 @@
       <parameter sboTerm="SBO:0000625" id="R_BUTPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NGAM_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NGAM_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GALISO_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GALISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACSERT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACSERT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ASPSALY_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -57921,6 +57919,7 @@
         <listOfReactants>
           <speciesReference species="M_akg_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ichor_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
@@ -58582,6 +58581,7 @@
         <listOfReactants>
           <speciesReference species="M_glyc3p_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ubiquin_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_dhap_c" stoichiometry="1" constant="true"/>
@@ -59255,11 +59255,11 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_malcoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_3hbutACP_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_3hbutACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_but2eACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
@@ -59596,11 +59596,11 @@
         <listOfReactants>
           <speciesReference species="M_octacp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_toct2eACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gtp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
@@ -59748,8 +59748,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_3hdecACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_decanoylacp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_tdec2eACP_c" stoichiometry="1" constant="true"/>
@@ -60419,39 +60419,6 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_GALISO" sboTerm="SBO:0000176" id="R_GALISO" name="R10619" reversible="true" fast="false" fbc:lowerFluxBound="R_GALISO_lower_bound" fbc:upperFluxBound="R_GALISO_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO12345</p>
-            <p>KEGG ID: R10619</p>
-            <p>ENZYME: 5.1.3.3</p>
-            <p>NAME: aldose 1-epimerase; D-galactose 1-epimerase;</p>
-            <p>DEFINITION: D-Galactose ⇌ alpha-D-Galactose</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_GALISO">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R10619"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR113944"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_gal1p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
@@ -63572,7 +63539,6 @@
           <groups:member groups:name="R00158" groups:idRef="R_UMPK"/>
           <groups:member groups:name="R01177" groups:idRef="R_ACACT2"/>
           <groups:member groups:name="R01819" groups:idRef="R_MAN6PI"/>
-          <groups:member groups:name="R10619" groups:idRef="R_GALISO"/>
           <groups:member groups:name="R00081" groups:idRef="R_FOCYCTCOR"/>
           <groups:member groups:name="R03443" groups:idRef="R_AGGPR"/>
           <groups:member groups:name="R01130" groups:idRef="R_IMPD"/>
