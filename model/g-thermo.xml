@@ -1928,7 +1928,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_fdp_B_c" sboTerm="SBO:0000247" id="M_fdp_B_c" name="beta-D-Fructose-1,6P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H10O12P2">
+      <species metaid="meta_M_fdp_B_c" sboTerm="SBO:0000247" id="M_fdp_B_c" name="beta-D-Fructose-1,6P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C48H74O15</p>
@@ -5329,7 +5329,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_nh4_c" sboTerm="SBO:0000247" id="M_nh4_c" name="Ammonia _NH3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="NH3">
+      <species metaid="meta_M_nh4_c" sboTerm="SBO:0000247" id="M_nh4_c" name="Ammonia _NH3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="NH4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: NH3</p>
@@ -19511,7 +19511,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_l23dhdpico_c" sboTerm="SBO:0000247" id="M_l23dhdpico_c" name="L-2,3-Dihydrodipicolinate_C7H5NO4" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C7H5NO4">
+      <species metaid="meta_M_l23dhdpico_c" sboTerm="SBO:0000247" id="M_l23dhdpico_c" name="4-Hydroxy-2,3,4,5-tetrahydrodipicolinate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C7H7NO5">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H5NO4</p>
@@ -21613,7 +21613,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cl_e" sboTerm="SBO:0000247" id="M_cl_e" name="C00698" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_cl_e" sboTerm="SBO:0000247" id="M_cl_e" name="C00698" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="Cl">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -21669,7 +21669,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_nh4_e" sboTerm="SBO:0000247" id="M_nh4_e" name="C00698" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_nh4_e" sboTerm="SBO:0000247" id="M_nh4_e" name="C00698" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="NH4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -21734,7 +21734,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_glc__D_e" sboTerm="SBO:0000247" id="M_glc__D_e" name="C00029" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_glc__D_e" sboTerm="SBO:0000247" id="M_glc__D_e" name="C00029" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -21771,7 +21771,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_thm_e" sboTerm="SBO:0000247" id="M_thm_e" name="C00378" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_thm_e" sboTerm="SBO:0000247" id="M_thm_e" name="C00378" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C12H17N4OS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -21800,7 +21800,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_fe2_e" sboTerm="SBO:0000247" id="M_fe2_e" name="C14818" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_fe2_e" sboTerm="SBO:0000247" id="M_fe2_e" name="C14818" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Fe">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -21836,7 +21836,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_h2o_e" sboTerm="SBO:0000247" id="M_h2o_e" name="C00001" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_h2o_e" sboTerm="SBO:0000247" id="M_h2o_e" name="C00001" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -21860,7 +21860,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_o2_e" sboTerm="SBO:0000247" id="M_o2_e" name="C00007" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_o2_e" sboTerm="SBO:0000247" id="M_o2_e" name="C00007" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -21914,7 +21914,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_co2_e" sboTerm="SBO:0000247" id="M_co2_e" name="C00011" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_co2_e" sboTerm="SBO:0000247" id="M_co2_e" name="C00011" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CO2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -21963,7 +21963,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_h_e" sboTerm="SBO:0000247" id="M_h_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_h_e" sboTerm="SBO:0000247" id="M_h_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -23072,7 +23072,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cobalt2_e" sboTerm="SBO:0000247" id="M_cobalt2_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_cobalt2_e" sboTerm="SBO:0000247" id="M_cobalt2_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Co">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -23182,7 +23182,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_asn__L_e" sboTerm="SBO:0000247" id="M_asn__L_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_asn__L_e" sboTerm="SBO:0000247" id="M_asn__L_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H8N2O3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -23633,7 +23633,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_pydx5p_e" sboTerm="SBO:0000247" id="M_pydx5p_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_pydx5p_e" sboTerm="SBO:0000247" id="M_pydx5p_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H10NO6P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -23657,7 +23657,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_qh2_e" sboTerm="SBO:0000247" id="M_qh2_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_qh2_e" sboTerm="SBO:0000247" id="M_qh2_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C19H28O4R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -23963,7 +23963,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_gthrd_e" sboTerm="SBO:0000247" id="M_gthrd_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_gthrd_e" sboTerm="SBO:0000247" id="M_gthrd_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H16N3O6S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -25191,7 +25191,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_etoh_e" sboTerm="SBO:0000247" id="M_etoh_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_etoh_e" sboTerm="SBO:0000247" id="M_etoh_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C2H6O">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -26012,7 +26012,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ac_e" sboTerm="SBO:0000247" id="M_ac_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_ac_e" sboTerm="SBO:0000247" id="M_ac_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C2H3O2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -26115,7 +26115,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_succ_e" sboTerm="SBO:0000247" id="M_succ_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_succ_e" sboTerm="SBO:0000247" id="M_succ_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C4H4O4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -26167,7 +26167,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_lac__D_e" sboTerm="SBO:0000247" id="M_lac__D_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_lac__D_e" sboTerm="SBO:0000247" id="M_lac__D_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H5O3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -26277,7 +26277,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_lac__L_e" sboTerm="SBO:0000247" id="M_lac__L_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_lac__L_e" sboTerm="SBO:0000247" id="M_lac__L_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H5O3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -26350,7 +26350,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_thmtp_e" sboTerm="SBO:0000247" id="M_thmtp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_thmtp_e" sboTerm="SBO:0000247" id="M_thmtp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H20N4O10P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -27945,7 +27945,7 @@
       <parameter sboTerm="SBO:0000625" id="R_NH4t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GLC__Dt_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FE2t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_OH1t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_H2Ot_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_O2t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CO2t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_Ht_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -60493,6 +60493,7 @@
         <listOfProducts>
           <speciesReference species="M_l23dhdpico_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
@@ -60570,7 +60571,7 @@
           <speciesReference species="M_fe2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_OH1t" sboTerm="SBO:0000185" id="R_OH1t" name="Transport of metabolite oh1_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_OH1t_upper_bound">
+      <reaction metaid="meta_R_H2Ot" sboTerm="SBO:0000185" id="R_H2Ot" name="Transport of metabolite oh1_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_H2Ot_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -64165,7 +64166,7 @@
           <groups:member groups:name="Transport of metabolite glc__D_e" groups:idRef="R_GLC__Dt"/>
           <groups:member groups:name="Transport of metabolite o2_e" groups:idRef="R_O2t"/>
           <groups:member groups:name="Transport of metabolite thm_e" groups:idRef="R_THMt"/>
-          <groups:member groups:name="Transport of metabolite oh1_e" groups:idRef="R_OH1t"/>
+          <groups:member groups:name="Transport of metabolite oh1_e" groups:idRef="R_H2Ot"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
