@@ -625,7 +625,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3opalmACP_c" sboTerm="SBO:0000247" id="M_3opalmACP_c" name="3-Oxohexadecanoyl-[acp]_C27H49N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H31OSR">
+      <species metaid="meta_M_3opalmACP_c" sboTerm="SBO:0000247" id="M_3opalmACP_c" name="3-Oxohexadecanoyl-[acp]_C27H49N2O9PRS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H29O2SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H49N2O9PRS</p>
@@ -2274,7 +2274,7 @@
           </html>
         </notes>
       </species>
-      <species metaid="meta_M_f6p_B_c" sboTerm="SBO:0000247" id="M_f6p_B_c" name="beta-D-Fructose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H11O9P">
+      <species metaid="meta_M_f6p_B_c" sboTerm="SBO:0000247" id="M_f6p_B_c" name="beta-D-Fructose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H11O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H13O9P</p>
@@ -7466,7 +7466,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ah6p__D_c" sboTerm="SBO:0000247" id="M_ah6p__D_c" name="D-arabino-3-Hexulose_6-phosphate_C6H12O9P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
+      <species metaid="meta_M_ah6p__D_c" sboTerm="SBO:0000247" id="M_ah6p__D_c" name="D-arabino-3-Hexulose_6-phosphate_C6H12O9P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H11O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
@@ -24033,7 +24033,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_nadp_e" sboTerm="SBO:0000247" id="M_nadp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_nadp_e" sboTerm="SBO:0000247" id="M_nadp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H26N7O17P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -28113,7 +28113,6 @@
       <parameter sboTerm="SBO:0000625" id="R_HOXPRm_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACOAD1_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ECOAH1_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_COH2OOR_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACTCO2L_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CLt_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ASN__Lt_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -53226,7 +53225,7 @@
         <listOfProducts>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_fcytb5612_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_fcytb5612_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -60234,8 +60233,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_3opalmACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hdeacp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_tpalm2eACP_c" stoichiometry="1" constant="true"/>
@@ -60556,7 +60555,7 @@
           <speciesReference species="M_ah6p__D_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
@@ -62376,32 +62375,6 @@
         <listOfProducts>
           <speciesReference species="M_b2coa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_COH2OOR" name="carbon monoxide, water:cytochrome b-561 oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_COH2OOR_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: CO metabolism</p>
-            <p>GENE_ASSOCIATION: ( Gthg01057 or Gthg01058 or Gthg01059 or Gthg01060 or Gthg01061 or Gthg01062 )</p>
-            <p>DEFINITION: 2 Ferricytochrome b-561 + CO + H2O ⇌ 2 Ferrocytochrome b-561 + CO2 + 2 H+</p>
-            <p>ENTRY: R04698 Reaction</p>
-            <p>ENZYME: 1.2.2.4</p>
-            <p>EQUATION: 2 C05305 + C00237 + C00001 ⇌ 2 C05183 + C00011 + 2 C00080</p>
-            <p>EQUATION_USED_HEREIN: 2 C05305 + C00237 + C00001 ⇌ 2 C05183 + C00011 + 2 C00080</p>
-            <p>ID: R04698</p>
-            <p>NAME: carbon monoxide, water:cytochrome b-561 oxidoreductase</p>
-            <p>RPAIR: RP05806 C00011_C00237 leave [RC:RC02800]; RP05682 C00001_C00011 leave</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_fcytb5612_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_co_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_focytB561_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_ACTCO2L" name="acetone:carbon-dioxide ligase (AMP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_ACTCO2L_upper_bound">
