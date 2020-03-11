@@ -1928,7 +1928,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_fdp_B_c" sboTerm="SBO:0000247" id="M_fdp_B_c" name="beta-D-Fructose-1,6P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
+      <species metaid="meta_M_fdp_B_c" sboTerm="SBO:0000247" id="M_fdp_B_c" name="beta-D-Fructose-1,6P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H10O12P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C48H74O15</p>
@@ -2884,7 +2884,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_alac__S_c" sboTerm="SBO:0000247" id="M_alac__S_c" name="(S)-2-Acetolactate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H8O4">
+      <species metaid="meta_M_alac__S_c" sboTerm="SBO:0000247" id="M_alac__S_c" name="(S)-2-Acetolactate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H7O4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H8O4</p>
@@ -5207,7 +5207,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_coa_c" sboTerm="SBO:0000247" id="M_coa_c" name="CoA_C21H33N7O16P3S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H33N7O16P3S">
+      <species metaid="meta_M_coa_c" sboTerm="SBO:0000247" id="M_coa_c" name="CoA_C21H33N7O16P3S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C21H32N7O16P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H33N7O16P3S</p>
@@ -7559,7 +7559,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ppi_c" sboTerm="SBO:0000247" id="M_ppi_c" name="Pyrophosphate_H2O7P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="HO7P2">
+      <species metaid="meta_M_ppi_c" sboTerm="SBO:0000247" id="M_ppi_c" name="Pyrophosphate_H2O7P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="HO7P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O7P2</p>
@@ -9241,7 +9241,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_succoa_c" sboTerm="SBO:0000247" id="M_succoa_c" name="Succinyl-CoA_C25H36N7O19P3S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C25H36N7O19P3S">
+      <species metaid="meta_M_succoa_c" sboTerm="SBO:0000247" id="M_succoa_c" name="Succinyl-CoA_C25H36N7O19P3S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-5" fbc:chemicalFormula="C25H35N7O19P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H36N7O19P3S</p>
@@ -9872,7 +9872,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_amp_c" sboTerm="SBO:0000247" id="M_amp_c" name="AMP_C10H13N5O7P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H13N5O7P">
+      <species metaid="meta_M_amp_c" sboTerm="SBO:0000247" id="M_amp_c" name="AMP_C10H13N5O7P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O7P</p>
@@ -10143,7 +10143,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_co_c" sboTerm="SBO:0000247" id="M_co_c" name="CO_CHO" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="CHO">
+      <species metaid="meta_M_co_c" sboTerm="SBO:0000247" id="M_co_c" name="CO_CHO" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="CO">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: CHO</p>
@@ -10223,7 +10223,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_atp_c" sboTerm="SBO:0000247" id="M_atp_c" name="ATP_C10H13N5O13P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O13P3">
+      <species metaid="meta_M_atp_c" sboTerm="SBO:0000247" id="M_atp_c" name="ATP_C10H13N5O13P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O13P3</p>
@@ -10803,7 +10803,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_accoa_c" sboTerm="SBO:0000247" id="M_accoa_c" name="Acetyl-CoA_C23H35N7O17P3S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C23H35N7O17P3S">
+      <species metaid="meta_M_accoa_c" sboTerm="SBO:0000247" id="M_accoa_c" name="Acetyl-CoA_C23H35N7O17P3S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C23H34N7O17P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H35N7O17P3S</p>
@@ -16999,7 +16999,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_6pgl_c" sboTerm="SBO:0000247" id="M_6pgl_c" name="D-Glucono-1,5-lactone_6-phosphate_C6H10O9P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H10O9P">
+      <species metaid="meta_M_6pgl_c" sboTerm="SBO:0000247" id="M_6pgl_c" name="D-Glucono-1,5-lactone_6-phosphate_C6H10O9P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H9O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H10O9P</p>
@@ -17272,7 +17272,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ctp_c" sboTerm="SBO:0000247" id="M_ctp_c" name="CTP_C9H13N3O14P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H13N3O14P3">
+      <species metaid="meta_M_ctp_c" sboTerm="SBO:0000247" id="M_ctp_c" name="CTP_C9H13N3O14P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C9H12N3O14P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N3O14P3</p>
@@ -19290,7 +19290,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_adp_c" sboTerm="SBO:0000247" id="M_adp_c" name="ADP_C10H13N5O10P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O10P2">
+      <species metaid="meta_M_adp_c" sboTerm="SBO:0000247" id="M_adp_c" name="ADP_C10H13N5O10P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H12N5O10P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O10P2</p>
@@ -19799,7 +19799,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_glyc3p_c" sboTerm="SBO:0000247" id="M_glyc3p_c" name="sn-Glycerol_3-phosphate_C3H8O6P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H7O6P">
+      <species metaid="meta_M_glyc3p_c" sboTerm="SBO:0000247" id="M_glyc3p_c" name="sn-Glycerol_3-phosphate_C3H8O6P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C3H7O6P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H8O6P</p>
@@ -23227,7 +23227,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_amp_e" sboTerm="SBO:0000247" id="M_amp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_amp_e" sboTerm="SBO:0000247" id="M_amp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -23585,7 +23585,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_atp_e" sboTerm="SBO:0000247" id="M_atp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_atp_e" sboTerm="SBO:0000247" id="M_atp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N4O9P</p>
@@ -26537,7 +26537,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_gtspmd_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H34N6O5S">
+      <species id="M_gtspmd_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="C17H36N6O5S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C05730</p>
@@ -26552,7 +26552,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_acoa_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C22H35N7O17P3SR">
+      <species id="M_acoa_c" name="Acyl coenzyme A" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C22H35N7O17P3SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00040</p>
@@ -26566,7 +26566,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_pa_EC_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H7O8PR2">
+      <species id="M_pa_EC_c" name="Phosphatidate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C5HO8PR2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00416</p>
@@ -26579,7 +26579,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_cdpdag_cho_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C14H19N3O15P2R2">
+      <species id="M_cdpdag_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C14H17N3O15P2R2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00269</p>
@@ -26626,7 +26626,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_diact_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H6O2">
+      <species id="M_diact_c" name="Diacetyl" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H6O2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00741</p>
@@ -26669,7 +26669,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_hop_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H4O4">
+      <species id="M_hop_c" name="2-Hydroxy-3-oxopropanoate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H3O4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C01146</p>
@@ -26684,41 +26684,13 @@
           </html>
         </notes>
       </species>
-      <species id="M_fcytb561_c" name="Ferrocytochrome b-561" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="R">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C05183</p>
-            <p>NAME: Ferrocytochrome b-561</p>
-            <p>PubChem: 7592</p>
-            <p>ChEBI: 15910</p>
-          </html>
-        </notes>
-      </species>
-      <species id="M_fcytb5612_c" name="Ferricytochrome b-561" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="R">
+      <species id="M_fcytb5612_c" name="Ferricytochrome b-561" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C05305</p>
             <p>NAME: Ferricytochrome b-561</p>
             <p>PubChem: 7687</p>
             <p>ChEBI: 16078</p>
-          </html>
-        </notes>
-      </species>
-      <species id="M_N_224_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H16N5O13P3">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C00002</p>
-            <p>NAME: ATP;; Adenosine 5&apos;-triphosphate</p>
-            <p>MODULE: M00049 Adenine ribonucleotide biosynthesis, IMP =&gt; ADP,ATP</p>
-            <p>FORMULA: C10H16N5O13P3</p>
-            <p>EXACT_MASS: 506.9957</p>
-            <p>NIKKAJI: J10.680A</p>
-            <p>PubChem: 3304</p>
-            <p>ChEBI: 15422</p>
-            <p>KNApSAcK: C00001491</p>
-            <p>CAS: 56-65-5</p>
-            <p>3DMET: B01125</p>
-            <p>PDB-CCD: ATP</p>
           </html>
         </notes>
       </species>
@@ -53929,7 +53901,7 @@
         <listOfProducts>
           <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="6" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO05024"/>
@@ -61568,6 +61540,7 @@
           <speciesReference species="M_tcscp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_dxyl5p_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_dhgly_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_scpgg_c" stoichiometry="1" constant="true"/>
@@ -61615,8 +61588,8 @@
           </html>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_scpgg_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_atp_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_scpgg_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_ascp_c" stoichiometry="1" constant="true"/>
@@ -61639,11 +61612,12 @@
           </html>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_myinp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pro__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ubiquin_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pyr5c_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_BTNLIG" name="biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_BTNLIG_upper_bound">
@@ -61713,11 +61687,12 @@
           </html>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_myinp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_mal__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ubiquin_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_oaa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_OBO2OR" name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_OBO2OR_upper_bound">
@@ -61738,11 +61713,12 @@
           <speciesReference species="M_2obut_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_ppap_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_LALDPOR" name="(S)-lactaldehyde:NADP+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_LALDPOR_upper_bound">
@@ -61759,7 +61735,6 @@
         <listOfProducts>
           <speciesReference species="M_mthgxl_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_PHEAOR" name="D-phenylalanine:acceptor oxidoreductase (deaminating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_PHEAOR_upper_bound">
@@ -61784,6 +61759,7 @@
         <listOfProducts>
           <speciesReference species="M_phpyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_PYRLLOR" name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_PYRLLOR_upper_bound">
@@ -61804,6 +61780,7 @@
         <listOfReactants>
           <speciesReference species="M_lpam_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_adhlam_c" stoichiometry="1" constant="true"/>
@@ -61871,23 +61848,29 @@
           </html>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_myinp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ubiquin_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction id="R_PGLHY" name="6-Phospho-D-glucono-1,5-lactone lactonohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_PGLHY_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Pentose phosphate pathway</p>
             <p>GENE_ASSOCIATION: ( R1234567)</p>
+            <p>KEGG: R02035</p>
           </html>
         </notes>
         <listOfReactants>
           <speciesReference species="M_6pgl_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_6pgc_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_MAHMPDC" name="2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_MAHMPDC_upper_bound">
@@ -61915,7 +61898,7 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GSPMDS" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_GSPMDS_upper_bound">
+      <reaction id="R_GSPMDS" name="R01917" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_GSPMDS_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -61939,6 +61922,7 @@
           <speciesReference species="M_gtspmd_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_AKGOR" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_AKGOR_upper_bound">
@@ -61965,7 +61949,7 @@
         <listOfProducts>
           <speciesReference species="M_succoa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_fdxrd_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
@@ -62012,10 +61996,9 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_glyc3p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_accoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_acoa_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_acoa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
@@ -62037,7 +62020,6 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_acoa_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_accoa_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pa_EC_c" stoichiometry="1" constant="true"/>
@@ -62063,9 +62045,10 @@
         <listOfReactants>
           <speciesReference species="M_pa_EC_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ctp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="5" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cdpdag_cho_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cdpdag_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
@@ -62198,6 +62181,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_pyr_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_alac__S_c" stoichiometry="1" constant="true"/>
@@ -62225,10 +62209,9 @@
         <listOfProducts>
           <speciesReference species="M_diact_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pyridoxal_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_HPI" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_HPI_upper_bound">
+      <reaction id="R_HPI" name="hydroxypyruvate aldose-ketose-isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_HPI_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Glycoxylate metabolism</p>
@@ -62354,9 +62337,9 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_fcytb561_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_focytB561_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_ACTCO2L" name="acetone:carbon-dioxide ligase (AMP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_ACTCO2L_upper_bound">
@@ -62375,15 +62358,16 @@
           </html>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_N_224_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_acetone_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pi_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_acac_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_amp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_CLt" sboTerm="SBO:0000185" id="R_CLt" name="Transport of metabolite cl_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_CLt_upper_bound">
