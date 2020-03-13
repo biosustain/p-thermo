@@ -26045,7 +26045,6 @@
       <parameter sboTerm="SBO:0000625" id="R_TOCTDACPOR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_BUTPT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_BUTPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_NGAM_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NGAM_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACSERT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACSERT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -58559,7 +58558,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NGAM" sboTerm="SBO:0000176" id="R_NGAM" name="RNGAM" reversible="true" fast="false" fbc:lowerFluxBound="R_NGAM_lower_bound" fbc:upperFluxBound="R_NGAM_upper_bound">
+      <reaction metaid="meta_R_NGAM" sboTerm="SBO:0000176" id="R_NGAM" name="RNGAM" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_NGAM_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: NGAM reaction</p>
