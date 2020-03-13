@@ -1158,7 +1158,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_myinp_c" sboTerm="SBO:0000247" id="M_myinp_c" name="myo-Inositol phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13O9P"/>
       <species metaid="meta_M_air_c" sboTerm="SBO:0000247" id="M_air_c" name="Aminoimidazole" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H14N3O7P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1275,7 +1274,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_uamagdgll_c" sboTerm="SBO:0000247" id="M_uamagdgll_c" name="UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C34H55N7O24P2"/>
       <species metaid="meta_M_dc2coa_c" sboTerm="SBO:0000247" id="M_dc2coa_c" name="trans-Dec-2-enoyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C31H52N7O17P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1480,7 +1478,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_sucrose_c" sboTerm="SBO:0000247" id="M_sucrose_c" name="G00370" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C30H31O20"/>
       <species metaid="meta_M_s2mbcoa_c" sboTerm="SBO:0000247" id="M_s2mbcoa_c" name="(S)-2-Methylbutanoyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C26H44N7O17P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1600,40 +1597,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cbl1_c" sboTerm="SBO:0000247" id="M_cbl1_c" name="Cob(I)alamin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C62H89CoN13O14P">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C00853</p>
-            <p>NAME: Cob(I)alamin; Cbl; Vitamin B12s</p>
-            <p>ChEBI: 15982</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cbl1_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/cbl1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:COB-I-ALAMIN"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:60488"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:14004"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15982"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:23328"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3784"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB03429"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB06470"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/OMAOKVYASDIYQG-DSRCUDDDSA-L"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00853"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM91519"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/3159260"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/5278"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_pant_c" sboTerm="SBO:0000247" id="M_pant_c" name="Pantetheine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C11H22N2O4S"/>
       <species metaid="meta_M_acmum6p_c" sboTerm="SBO:0000247" id="M_acmum6p_c" name="N-Acetylmuramic acid 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C11H20NO11P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1703,7 +1666,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_maltose_c" sboTerm="SBO:0000247" id="M_maltose_c" name="G00275" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H8O4"/>
       <species metaid="meta_M_menqui_c" sboTerm="SBO:0000247" id="M_menqui_c" name="Menaquinol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C46H66O2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1896,7 +1858,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ftethplg_c" sboTerm="SBO:0000247" id="M_ftethplg_c" name="10-Formyltetrahydrofolylpolyglutamate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C30H37N9O13"/>
       <species metaid="meta_M_HC01652_c" sboTerm="SBO:0000247" id="M_HC01652_c" name="2,5-Diaminopyrimidine nucleoside triphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H18N5O14P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1919,7 +1880,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_homocarn_c" sboTerm="SBO:0000247" id="M_homocarn_c" name="Homocarnosine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H16N4O3"/>
       <species metaid="meta_M_prpncoa_c" sboTerm="SBO:0000247" id="M_prpncoa_c" name="Propenoyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C24H38N7O17P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1985,28 +1945,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_uAgla_c" sboTerm="SBO:0000247" id="M_uAgla_c" name="UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C40H65N9O26P2">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C04702</p>
-            <p>NAME: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine; UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine; UDPMurNAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala);</p>
-            <p>ChEBI: 70768</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_uAgla_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04702"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:70768"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM7865"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_mantri_c" sboTerm="SBO:0000247" id="M_mantri_c" name="manninotriose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C18H32O16">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2051,7 +1989,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_isomalt_c" sboTerm="SBO:0000247" id="M_isomalt_c" name="G01318" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11"/>
       <species metaid="meta_M_f6p_B_c" sboTerm="SBO:0000247" id="M_f6p_B_c" name="beta-D-Fructose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H11O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2184,33 +2121,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_carsine_c" sboTerm="SBO:0000247" id="M_carsine_c" name="Carnosine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H14N4O3"/>
-      <species metaid="meta_M_lald__D_c" sboTerm="SBO:0000247" id="M_lald__D_c" name="(R)-Lactaldehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H6O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_lald__D_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/lald__D"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-358"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11000"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:340"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17167"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18683"/>
-                  <rdf:li rdf:resource="https://identifiers.org/envipath/650babc9-9d68-4b73-9332-11972ca26f7b/compound/40a73f79-ca1a-42bb-a386-b7c5f7d72f1d"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB06949"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB06458"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/BSABBBMNWQWLLU-GSVOUGTGSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00937"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM909"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/2191"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00693"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_1pyr5c_c" sboTerm="SBO:0000247" id="M_1pyr5c_c" name="delta-1-Pyrroline-5-carboxylate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H7NO2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2253,7 +2163,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_treh6p_c" sboTerm="SBO:0000247" id="M_treh6p_c" name="G09795" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P"/>
       <species metaid="meta_M_ubiquin_c" sboTerm="SBO:0000247" id="M_ubiquin_c" name="Ubiquinone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C19H26O4R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2337,26 +2246,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1214"/>
                   <rdf:li rdf:resource="https://identifiers.org/sabiork/2196"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00706"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_pento_c" sboTerm="SBO:0000247" id="M_pento_c" name="Pentosan" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: D05428</p>
-            <p>NAME: Elmiron (TN); Pentosan polysulfate sodium (USAN/INN);</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_pento_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/D05428"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM73253"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3073,7 +2962,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_rpantholcys_c" sboTerm="SBO:0000247" id="M_rpantholcys_c" name="N-((R)-Pantothenoyl)-L-cysteinec" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22N2O6S"/>
       <species metaid="meta_M_C04051_c" sboTerm="SBO:0000247" id="M_C04051_c" name="5-Amino-4-imidazolecarboxyamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H6N4O">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -3758,7 +3646,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_capra_c" sboTerm="SBO:0000247" id="M_capra_c" name="Citalopram aldehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C18H14FNO2"/>
       <species metaid="meta_M_glc__aD_c" sboTerm="SBO:0000247" id="M_glc__aD_c" name="alpha-D-Glucose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -3872,8 +3759,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_bdxyl_c" sboTerm="SBO:0000247" id="M_bdxyl_c" name="1,4-beta-D-Xylan" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="(C5H8O4)n"/>
-      <species metaid="meta_M_sus6p_c" sboTerm="SBO:0000247" id="M_sus6p_c" name="G10508" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P"/>
       <species metaid="meta_M_pc1_c" sboTerm="SBO:0000247" id="M_pc1_c" name="Precorrin 1" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C41H46N4O16">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -4002,28 +3887,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1384"/>
                   <rdf:li rdf:resource="https://identifiers.org/sabiork/1790"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd02552"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_uaaGgla_c" sboTerm="SBO:0000247" id="M_uaaGgla_c" name="Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C86H143N7O21P2">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C05893</p>
-            <p>NAME: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine; GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol; GlcNAc-(1⇢4)-MurNAc(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol</p>
-            <p>ChEBI: 27692</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_uaaGgla_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05893"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27692"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1344"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4162,68 +4025,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06319"/>
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27858"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1497"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_gal_c" sboTerm="SBO:0000247" id="M_gal_c" name="Galactose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C00124</p>
-            <p>NAME: D-Galactose; D-Galactopyranose</p>
-            <p>ChEBI: 4139</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_gal_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/gal"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ALPHA-D-GALACTOSE"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:D-galactopyranose"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:12936"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10231"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:4139"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28061"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22373"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:42741"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB05762"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00143"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/WQZGKKKJIJFFOK-PHYPRBDBSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00984"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00124"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D04291"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM390"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1661"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/90"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1662"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00724"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00108"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_hytol_c" sboTerm="SBO:0000247" id="M_hytol_c" name="o-Cresol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H8O">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C01542</p>
-            <p>NAME: 2-Hydroxytoluene; o-Cresol; o-Methylphenol</p>
-            <p>ChEBI: 28054</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_hytol_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01542"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28054"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM5247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4379,38 +4180,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_a4oxopent_c" sboTerm="SBO:0000247" id="M_a4oxopent_c" name="2-Amino-4-oxopentanoic acid" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H9NO3"/>
-      <species metaid="meta_M_acetol_c" sboTerm="SBO:0000247" id="M_acetol_c" name="Hydroxyacetone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H6O2">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C05235</p>
-            <p>NAME: 2-Ketopropyl alcohol; Pyruvinalcohol; Acetone alcohol; Acetol; Methylketol; 1-Hydroxy-2-propanone; Hydroxyacetone; Pyruvic alcohol;</p>
-            <p>ChEBI: 27957</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_acetol_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/acetol"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ACETOL"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27957"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:5796"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:24666"/>
-                  <rdf:li rdf:resource="https://identifiers.org/envipath/650babc9-9d68-4b73-9332-11972ca26f7b/compound/090b3a12-aba4-4202-9b9c-f30232d329f0"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB06961"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/XLSMFKSTNGKWQX-UHFFFAOYSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05235"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1744"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/2727"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd03105"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_larpyr_c" sboTerm="SBO:0000247" id="M_larpyr_c" name="L-Arabinose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -4537,10 +4306,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_xylan_c" sboTerm="SBO:0000247" id="M_xylan_c" name="G10512" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
-      <species metaid="meta_M_epimelbio_c" sboTerm="SBO:0000247" id="M_epimelbio_c" name="G10529" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11"/>
-      <species metaid="meta_M_malt6p2_c" sboTerm="SBO:0000247" id="M_malt6p2_c" name="G10518" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P"/>
-      <species metaid="meta_M_Glycan_2_c" sboTerm="SBO:0000247" id="M_Glycan_2_c" name="G10519" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P"/>
       <species metaid="meta_M_phser_c" sboTerm="SBO:0000247" id="M_phser_c" name="O-Phosphorylhomoserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H10NO6P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -5009,7 +4774,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_abmaagapc_c" sboTerm="SBO:0000247" id="M_abmaagapc_c" name="N-Acetyl-beta-D-mannosaminyl-1,4-N-acetyl-D-" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C71H116N2O17P2"/>
       <species metaid="meta_M_ugmda_c" sboTerm="SBO:0000247" id="M_ugmda_c" name="UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl-" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C41H61N9O28P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10034,7 +9798,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_naneura_c" sboTerm="SBO:0000247" id="M_naneura_c" name="N-Acetylneuraminate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H18NO9"/>
       <species metaid="meta_M_man6p_c" sboTerm="SBO:0000247" id="M_man6p_c" name="D-Mannose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12441,7 +12204,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_raff_c" sboTerm="SBO:0000247" id="M_raff_c" name="Raffinose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C18H32O16"/>
       <species metaid="meta_M_oaa_c" sboTerm="SBO:0000247" id="M_oaa_c" name="Oxaloacetate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C4H2O5">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -13533,43 +13295,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_g3pc_c" sboTerm="SBO:0000247" id="M_g3pc_c" name="sn-glycero-3-Phosphocholine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H20NO6P">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C00670</p>
-            <p>NAME: sn-Glycero-3-phosphocholine; Glycerophosphocholine</p>
-            <p>ChEBI: 16870</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_g3pc_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/g3pc"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:L-1-GLYCERO-PHOSPHORYLCHOLINE"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:55397"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:76433"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26697"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:12847"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:14343"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10646"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16870"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:41458"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:12841"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/SUHOQUVVVLNYQR-MRVPVSSYSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00670"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D07349"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM367"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/1498750"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/5173"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00507"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_3mop_c" sboTerm="SBO:0000247" id="M_3mop_c" name="(S)-3-Methyl-2-oxopentanoic" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -13946,7 +13671,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_betaine_c" sboTerm="SBO:0000247" id="M_betaine_c" name="Betaine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H11NO2"/>
       <species metaid="meta_M_Dextrin" sboTerm="SBO:0000247" id="M_Dextrin" name="Dextrin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C36H62O31">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -15556,7 +15280,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ino1p_c" sboTerm="SBO:0000247" id="M_ino1p_c" name="Inositol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P"/>
       <species metaid="meta_M_34hpp_c" sboTerm="SBO:0000247" id="M_34hpp_c" name="3-(4-Hydroxyphenyl)pyruvate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H7O4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
