@@ -1458,7 +1458,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cellb_c" sboTerm="SBO:0000247" id="M_cellb_c" name="G00289" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
+      <species metaid="meta_M_cellb_c" sboTerm="SBO:0000247" id="M_cellb_c" name="Cellobiose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: G00289</p>
@@ -1597,7 +1597,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_acmum6p_c" sboTerm="SBO:0000247" id="M_acmum6p_c" name="N-Acetylmuramic acid 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C11H20NO11P">
+      <species metaid="meta_M_acmum6p_c" sboTerm="SBO:0000247" id="M_acmum6p_c" name="N-Acetylmuramic acid 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C11H17NO11P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C16698</p>
@@ -1916,7 +1916,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_glutrna_c" sboTerm="SBO:0000247" id="M_glutrna_c" name="L-Glutamyl-tRNA(Glu)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C15H19N6O6R">
+      <species metaid="meta_M_glutrna_c" sboTerm="SBO:0000247" id="M_glutrna_c" name="L-Glutamyl-tRNA(Glu)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H7NO3R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C02987</p>
@@ -2055,7 +2055,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_acmum_c" sboTerm="SBO:0000247" id="M_acmum_c" name="N-Acetylmuramate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C11H19NO8">
+      <species metaid="meta_M_acmum_c" sboTerm="SBO:0000247" id="M_acmum_c" name="N-Acetylmuramate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H18NO8">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C02713</p>
@@ -2143,7 +2143,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cellulose_c" sboTerm="SBO:0000247" id="M_cellulose_c" name="cellulose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="(C6H10O5)n">
+      <species metaid="meta_M_cellulose_c" sboTerm="SBO:0000247" id="M_cellulose_c" name="cellulose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H20O10">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: G10481</p>
@@ -3781,7 +3781,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_gmagg_c" sboTerm="SBO:0000247" id="M_gmagg_c" name="[GlcNAc-(1-&gt;4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
+      <species metaid="meta_M_gmagg_c" sboTerm="SBO:0000247" id="M_gmagg_c" name="[GlcNAc-(1-&gt;4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C39H64N8O19">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C11826</p>
@@ -4574,7 +4574,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_nh4_c" sboTerm="SBO:0000247" id="M_nh4_c" name="Ammonia " compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="NH4">
+      <species metaid="meta_M_nh4_c" sboTerm="SBO:0000247" id="M_nh4_c" name="Ammonium" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="NH4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00014</p>
@@ -4806,7 +4806,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ahdt_c" sboTerm="SBO:0000247" id="M_ahdt_c" name="2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H13N5O13P3">
+      <species metaid="meta_M_ahdt_c" sboTerm="SBO:0000247" id="M_ahdt_c" name="2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C9H12N5O13P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C04895</p>
@@ -6798,7 +6798,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_arbt6p_c" sboTerm="SBO:0000247" id="M_arbt6p_c" name="Arbutin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C12H16O10P">
+      <species metaid="meta_M_arbt6p_c" sboTerm="SBO:0000247" id="M_arbt6p_c" name="Arbutin 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C12H15O10P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C06187</p>
@@ -19904,7 +19904,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_nh4_e" sboTerm="SBO:0000247" id="M_nh4_e" name="C00698" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="NH4">
+      <species metaid="meta_M_nh4_e" sboTerm="SBO:0000247" id="M_nh4_e" name="Ammonium" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="NH4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00014</p>
@@ -22533,7 +22533,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_gmagg_e" sboTerm="SBO:0000247" id="M_gmagg_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_gmagg_e" sboTerm="SBO:0000247" id="M_gmagg_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C39H64N8O19">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C11826</p>
@@ -23780,7 +23780,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_acmum_e" sboTerm="SBO:0000247" id="M_acmum_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_acmum_e" sboTerm="SBO:0000247" id="M_acmum_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H18NO8">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C02713</p>
@@ -24362,7 +24362,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_btn_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H16N2O3S">
+      <species id="M_btn_c" name="Biotin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H15N2O3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00120</p>
@@ -24379,7 +24379,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_b5amp_c" name="Biotinyl-5-AMP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C20H28N7O9PS">
+      <species id="M_b5amp_c" name="Biotinyl-5-AMP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H27N7O9PS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C05921</p>
@@ -24422,7 +24422,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_acoa_c" name="Acyl coenzyme A" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C22H35N7O17P3SR">
+      <species id="M_acoa_c" name="Acyl coenzyme A" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C22H32N7O17P3SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00040</p>
@@ -24435,7 +24435,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_pa_EC_c" name="Phosphatidate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C5HO8PR2">
+      <species id="M_pa_EC_c" name="Phosphatidate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C5H7O8PR2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00416</p>
@@ -24571,6 +24571,36 @@
             <p>CAS: 67-64-1</p>
             <p>KNApSAcK: C00048304 C00048954</p>
             <p>3DMET: B00058</p>
+          </html>
+        </notes>
+      </species>
+      <species metaid="meta_M_trnaglu_c" sboTerm="SBO:0000247" id="M_trnaglu_c" name="TRNA (Glu)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="R">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_trnaglu_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/trnaglu"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLT-tRNAs"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15175"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29175"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10680"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01641"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM90886"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/379778"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/379754"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/3835"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd11912"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="M_aglyc3p_c" name="1-Acyl-sn-glycerol 3-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C4H7O7PR">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00681</p>
           </html>
         </notes>
       </species>
@@ -49125,6 +49155,7 @@
         <listOfProducts>
           <speciesReference species="M_glu1sa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_trnaglu_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03026"/>
@@ -50968,7 +50999,7 @@
         <listOfReactants>
           <speciesReference species="M_ahdt_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_HC01710_c" stoichiometry="1" constant="true"/>
@@ -52443,9 +52474,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_arbt_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_arbt6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -53386,6 +53419,7 @@
         <listOfReactants>
           <speciesReference species="M_glu__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_trnaglu_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_glutrna_c" stoichiometry="1" constant="true"/>
@@ -54192,11 +54226,11 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cellulose_c" stoichiometry="11" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cellulose_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glc__bD_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glc__bD_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01764"/>
@@ -54496,6 +54530,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_uaaagglaa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_gmagg_c" stoichiometry="1" constant="true"/>
@@ -54532,9 +54567,9 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cellulose_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cellulose_c" stoichiometry="10" constant="true"/>
           <speciesReference species="M_cellb_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -56092,9 +56127,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_acmum_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_acmum6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -59582,11 +59619,12 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_b5amp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_amp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_btn_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_MALQOR" name="(S)-malate:quinone oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_MALQOR_upper_bound">
@@ -59920,6 +59958,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_aglyc3p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_ACCOATT" name="acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_ACCOATT_upper_bound">
@@ -59940,6 +59979,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_acoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_aglyc3p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pa_EC_c" stoichiometry="1" constant="true"/>
@@ -60123,10 +60163,10 @@
           </html>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_hacc_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_alac__S_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_hacc_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_diact_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
