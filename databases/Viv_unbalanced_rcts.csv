@@ -1,33 +1,33 @@
 ;rct_id;rct_name;Done;Comments
-0;AHETDYTTPHY;R04639;Y;add 3 H+
+0;AHETDYTTPHY;R04639;Y;
 1;COOR;R04698;Y;fix ferricytochomre & proton
 2;SELMELIG;R04773;not in e. coli model: includes RNA should we do that;
 3;PFKh;R04779;Y;
 4;BFBP;R04780;Y;
-5;SAM;R10404;Metabolite IDs are right, matches Kegg, cant find in e. coli;
+5;SAM;R10404;Remove it? ;
 6;SELCYSTGL;R04930;Y;
 7;SELCYSTL;R04941;Y;
 8;SUCHMSSELCYSL;R04946;Y;
 9;UPP1S;R03166;Y;
 10;FAPNTPAH;R05046;Y;
-11;ARBTPT;R05132;Need to add two metabolites for this? Or just 'mimic' it with a phosphate donor?;
+11;ARBTPT;R05132;Y;
 12;PRE3AOR;R05217;Y;
 13;R05219;R05219;Y;
-14;GLUTRS;R05578;Need to add tRNA(Glu) metabolite;
+14;GLUTRS;R05578;Y;
 15;DHNAOCTD;R05617;Y;
-16;BGLUCH;R06077;Cellulose is an issue here;
+16;BGLUCH;R06077;Y;
 17;SUCHY;R06087;Y;
 18;SUCHY2;R06088;Y;
 19;CELLBHY;R06092;Y;
 20;STACHY;R06101;Y;
 21;STACHY2;R06152;Y;
-22;UAAAGGLAAT;R06178;unbalanced rct in kegg. Not in e. coli;
-23;CELLOHYDRO;R06200;include cellulose;
+22;UAAAGGLAAT;R06178;Y;
+23;CELLOHYDRO;R06200;Y;
 24;THRPD;R06530;Y;
 25;MHOPT;R07600;Y;
 26;MHTPPT;R07602;Y;
 27;SEPHCHCS;R08165;Y;
-28;ACMUMPT;R08559;Same problem here as ARBTPT;
+28;ACMUMPT;R08559;Y;
 29;COQOR;R08657;Y;
 30;3HAD40_1;R04428;Y;
 31;HEXACPOR;R04955;Y;
@@ -60,7 +60,7 @@
 58;ATPTAT;ATP:[ThiS] adenylyltransferase;Y;
 59;LPROQOR;L-proline:quinone oxidoreductase;Y;
 60;BTNLIG;biotin:CoA ligase (AMP-forming);Y;
-61;BTN5AMPL;Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming);Need to add two metabolites for this? Or just 'mimic' it with a donor group?;
+61;BTN5AMPL;Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming);Y;
 62;MALQOR;(S)-malate:quinone oxidoreductase;Y;
 63;OBO2OR;2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating);Y;
 64;LALDPOR;(S)-lactaldehyde:NADP+ oxidoreductase;Y;
@@ -70,8 +70,8 @@
 68;PGLHY;6-Phospho-D-glucono-1,5-lactone lactonohydrolase;Y;
 69;GSPMDS;;Y;
 70;AKGOR;2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating);Y;
-71;ACCOAACT;acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase;need to add a new metabolite (C00681);
-72;ACCOATT;acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase;need to add a new metabolite (C00681);
+71;ACCOAACT;acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase;Y;
+72;ACCOATT;acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase;Y;
 73;CTPPCT;CTP:phosphatidate cytidyltransferase;Y;
 74;PYRACT;pyruvate:pyruvate acetaldehydetransferase (decarboxylating);Y;
 75;ACEDIA;Acetolactate to Diacetyl;has undefined e' transport: what co-factor to use?;
