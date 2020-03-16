@@ -72,6 +72,9 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Work in progress notebooks
+/notebooks/wip/*.ipynb
+
 # pyenv
 .python-version
 
