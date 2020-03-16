@@ -1,1 +1,1 @@
-In this folder you will find all generated memote reports, organized by the date they were created.
+In this folder you will find all generated memote reports, organized by the date they were created, followed by a tail containing the commit hash of the most recent commit performed prior to creating the report.
