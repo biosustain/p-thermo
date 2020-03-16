@@ -72,6 +72,9 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Finished Notebooks I store for myself
+/notebooks/wip/*.ipynb
+
 # pyenv
 .python-version
 
