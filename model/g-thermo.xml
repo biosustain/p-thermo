@@ -1798,7 +1798,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_suc6p_c" sboTerm="SBO:0000247" id="M_suc6p_c" name="Sucrose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O14P">
+      <species metaid="meta_M_suc6p_c" sboTerm="SBO:0000247" id="M_suc6p_c" name="Sucrose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C12H21O14P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C16688</p>
@@ -2738,7 +2738,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_fru_c" sboTerm="SBO:0000247" id="M_fru_c" name="D-M" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
+      <species metaid="meta_M_fru_c" sboTerm="SBO:0000247" id="M_fru_c" name="D-Fructose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00095</p>
@@ -4180,7 +4180,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_larpyr_c" sboTerm="SBO:0000247" id="M_larpyr_c" name="L-Arabinose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
+      <species metaid="meta_M_arab__L_c" sboTerm="SBO:0000247" id="M_arab__L_c" name="L-Arabinose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00259</p>
@@ -4190,7 +4190,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_larpyr_c">
+            <rdf:Description rdf:about="#meta_M_arab__L_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00259"/>
@@ -5749,7 +5749,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_dgal_c" sboTerm="SBO:0000247" id="M_dgal_c" name="D-Galactose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
+      <species metaid="meta_M_gal_c" sboTerm="SBO:0000247" id="M_gal_c" name="D-Galactose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00124</p>
@@ -5759,7 +5759,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_dgal_c">
+            <rdf:Description rdf:about="#meta_M_gal_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00124"/>
@@ -6826,7 +6826,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_salcn6p_c" sboTerm="SBO:0000247" id="M_salcn6p_c" name="Salicin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H18O10P">
+      <species metaid="meta_M_salcn6p_c" sboTerm="SBO:0000247" id="M_salcn6p_c" name="Salicin-6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H18O10P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C06188</p>
@@ -9798,7 +9798,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_man6p_c" sboTerm="SBO:0000247" id="M_man6p_c" name="D-Mannose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
+      <species metaid="meta_M_man6p_c" sboTerm="SBO:0000247" id="M_man6p_c" name="D-Mannose-6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00275</p>
@@ -11733,7 +11733,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_gal1p_c" sboTerm="SBO:0000247" id="M_gal1p_c" name="alpha-D-Galactose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
+      <species metaid="meta_M_gal1p_c" sboTerm="SBO:0000247" id="M_gal1p_c" name="Alpha-D-Galactose 1-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00446</p>
@@ -13087,7 +13087,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_man1p_c" sboTerm="SBO:0000247" id="M_man1p_c" name="D-Mannose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
+      <species metaid="meta_M_man1p_c" sboTerm="SBO:0000247" id="M_man1p_c" name="D-Mannose-1-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00636</p>
@@ -14704,7 +14704,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_tre_c" sboTerm="SBO:0000247" id="M_tre_c" name="alpha,alpha-Trehalose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
+      <species metaid="meta_M_tre_c" sboTerm="SBO:0000247" id="M_tre_c" name="Trehalose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C01083</p>
@@ -21271,7 +21271,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_rib__D_e" sboTerm="SBO:0000247" id="M_rib__D_e" name="D-Ribose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_rib__D_e" sboTerm="SBO:0000247" id="M_rib__D_e" name="D-Ribose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00121</p>
@@ -21307,7 +21307,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_glyc_e" sboTerm="SBO:0000247" id="M_glyc_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_glyc_e" sboTerm="SBO:0000247" id="M_glyc_e" name="Glycerol" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H8O3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00116</p>
@@ -22555,7 +22555,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_gal_e" sboTerm="SBO:0000247" id="M_gal_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_gal_e" sboTerm="SBO:0000247" id="M_gal_e" name="D-Galactose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00124</p>
@@ -23465,7 +23465,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_man_e" sboTerm="SBO:0000247" id="M_man_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_man_e" sboTerm="SBO:0000247" id="M_man_e" name="D-Mannose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00159</p>
@@ -23548,7 +23548,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_arbt_e" sboTerm="SBO:0000247" id="M_arbt_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_arbt_e" sboTerm="SBO:0000247" id="M_arbt_e" name="Arbutin" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H16O7">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C06186</p>
@@ -23561,24 +23561,16 @@
             <rdf:Description rdf:about="#meta_M_arbt_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/arbt"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:HYDROQUINONE-O-BETA-D-GLUCOPYRANOSIDE"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:2806"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18305"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:14417"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB29943"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/BJRNKVDFDLYUGJ-RMPHRYRLSA-N"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06186"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18305"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM2683"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/3779"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd03696"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_salcn_e" sboTerm="SBO:0000247" id="M_salcn_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_salcn_e" sboTerm="SBO:0000247" id="M_salcn_e" name="Salicin" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H18O7">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C01451</p>
@@ -23591,25 +23583,16 @@
             <rdf:Description rdf:about="#meta_M_salcn_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/salcn"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-1142"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15058"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26591"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9002"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17814"/>
-                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB03546"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/NGFMICBWJRZIBI-UJPOAAIJSA-N"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01451"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17814"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM2561"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/3778"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd01030"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_tre_e" sboTerm="SBO:0000247" id="M_tre_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H14N4O9P">
+      <species metaid="meta_M_tre_e" sboTerm="SBO:0000247" id="M_tre_e" name="Trehalose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C01083</p>
@@ -24604,6 +24587,166 @@
           </html>
         </notes>
       </species>
+      <species id="M_fru_e" name="D-Fructose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00095</p>
+            <p>NAME: Levulose; D-Fructose; D-arabino-Hexulose; Fruit sugar;</p>
+            <p>ChEBI: 15824 37721</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_arab__L_e" name="L-arabinose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00259</p>
+            <p>NAME: L-Arabinopyranose; L-Arabinose;</p>
+            <p>ChEBI: 17535</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_xyl__D_e" name="D-xylose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00181</p>
+            <p>NAME: D-Xylose; Wood sugar</p>
+            <p>ChEBI: 15936 53455</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_mnl_e" name="Mannitol" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H14O6">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00392</p>
+            <p>NAME: D-Mannitol; Mannitol;</p>
+            <p>ChEBI: 16899</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_cellb_e" name="Cellobiose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: G00289</p>
+            <p>NAME: Glucoscilliroside; Cellobiose;</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_sucr_e" name="Sucrose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00089</p>
+            <p>NAME: Cane sugar; Sucrose; Saccharose; 1-alpha-D-Glucopyranosyl-2-beta-D-fructofuranoside</p>
+            <p>ChEBI: 17992</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_sbt__D_e" name="D-Sorbitol" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H14O6"/>
+      <species metaid="meta_M_sbt6p_c" sboTerm="SBO:0000247" id="M_sbt6p_c" name="D-Sorbitol 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H13O9P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_sbt6p_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/sbt6p"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:D-SORBITOL-6-P"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21093"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:60084"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:4247"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17044"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17116"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13021"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:45426"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15094"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9202"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/GACTWZZMVMUKNG-SLPGGIOYSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01096"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM393"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1696"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00804"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_acgam_e" sboTerm="SBO:0000247" id="M_acgam_e" name="N-Acetyl-D-glucosamine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H15NO6">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_acgam_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/acgam"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:N-acetyl-D-glucosamine"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21517"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:12455"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:506227"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:12563"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:7123"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17411"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:58134"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB62641"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00215"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB14288"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/OVRNDRQMDRJTHS-RTRLPJTCSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00140"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM143"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/2162231"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/1678743"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/95"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd27608"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00122"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_malt_e" sboTerm="SBO:0000247" id="M_malt_e" name="Maltose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00208</p>
+            <p>NAME: Maltose; Malt sugar; alpha-D-Glucopyranosyl-(1⇢4)-D-glucopyranose</p>
+            <p>ChEBI: 17306</p>
+          </html>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_malt_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/malt"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:MALTOSE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ALPHA-MALTOSE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6668"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:12340"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:43893"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22463"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10300"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:14568"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18167"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17306"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:25144"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/943ae27f-7875-4bcd-948d-1551ec9aa1ca"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/GUBGYTABKSRVRQ-PICCSMPSSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00897"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00208"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D00044"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00275"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM165"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/188986"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/868706"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/5881"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/88"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1669"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00665"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00179"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -25006,7 +25149,7 @@
       <parameter sboTerm="SBO:0000625" id="R_LLEUDr_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_LLEUDr_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_BCTA_glu_h_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GALKh_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GALKr_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GGGH_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GGGH_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NITOR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25162,8 +25305,8 @@
       <parameter sboTerm="SBO:0000625" id="R_GNK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GLYALDDr_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GLYALDDr_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_LARPYRISO_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_LARPYRISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ARAI_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ARAI_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ARABINANHY_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ARABINANHY_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_HSK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25805,7 +25948,7 @@
       <parameter sboTerm="SBO:0000625" id="R_AH6PISO_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_AH6PISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NH4t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GLC__Dt_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GLC__Dtabc_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FE2t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_H2Ot_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_O2t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -36442,7 +36585,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02713"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GALKh" sboTerm="SBO:0000176" id="R_GALKh" name="R01092" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_GALKh_upper_bound">
+      <reaction metaid="meta_R_GALKr" sboTerm="SBO:0000176" id="R_GALKr" name="R01092" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_GALKr_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -36455,7 +36598,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_GALKh">
+            <rdf:Description rdf:about="#meta_R_GALKr">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01092"/>
@@ -36468,7 +36611,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -36508,7 +36651,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_glyc_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02513"/>
@@ -37299,7 +37442,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_inost_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02513"/>
@@ -38301,7 +38444,7 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_man_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -40493,7 +40636,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_LARPYRISO" sboTerm="SBO:0000176" id="R_LARPYRISO" name="R01761" reversible="true" fast="false" fbc:lowerFluxBound="R_LARPYRISO_lower_bound" fbc:upperFluxBound="R_LARPYRISO_upper_bound">
+      <reaction metaid="meta_R_ARAI" sboTerm="SBO:0000176" id="R_ARAI" name="R01761" reversible="true" fast="false" fbc:lowerFluxBound="R_ARAI_lower_bound" fbc:upperFluxBound="R_ARAI_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -40506,7 +40649,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_LARPYRISO">
+            <rdf:Description rdf:about="#meta_R_ARAI">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01761"/>
@@ -40519,7 +40662,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_larpyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_arab__L_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_rbl__L_c" stoichiometry="1" constant="true"/>
@@ -40556,7 +40699,7 @@
           <speciesReference species="M_arabinan_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_larpyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_arab__L_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -45774,7 +45917,7 @@
           <speciesReference species="M_melt_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_sbt__D_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -54334,7 +54477,7 @@
           <speciesReference species="M_meli_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glc__D_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -54399,7 +54542,7 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_meli_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -54495,7 +54638,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_dgal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_6dg_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -58471,7 +58614,7 @@
           <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_GLC__Dt" sboTerm="SBO:0000185" id="R_GLC__Dt" name="Transport of metabolite glc__D_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_GLC__Dt_upper_bound">
+      <reaction metaid="meta_R_GLC__Dtabc" sboTerm="SBO:0000185" id="R_GLC__Dtabc" name="Transport of metabolite glc__D_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_GLC__Dtabc_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -58479,9 +58622,14 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_glc__D_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_glc__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_FE2t" sboTerm="SBO:0000185" id="R_FE2t" name="Transport of metabolite fe2_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_FE2t_upper_bound">
@@ -60409,6 +60557,232 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction id="R_GLC__Dtpts" name="D-Glucose PTS transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glc__D_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_g6p_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_FRUtpts" name="Transport of D-fructose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_fru_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_ARAB__Ltabc" name="Transport of L-arabinose via ABC transporter" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_arab__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_arab__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_XYL__Dtabc" name="Transport of D-xylose via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_xyl__D_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_xyl__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GALtabc" name="Transport of D-galactose via abc transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_gal_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_MNLtpts" name="Transport of Mannitol via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_mnl_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_mnl1p_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_CELLBtpts" name="Transport of cellobiose vis pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cellb_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cellb6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_SUCRtpts" name="Transport of sucrose via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_sucr_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_suc6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLYCt" name=" Transport of Glycerol, passive" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_RIB__Dtabc" name="Transport of D-Ribose via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_rib__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_MANtpts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_man_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_man6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_SBTtpts" name="Transport of D-sorbitol via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_sbt__D_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_sbt6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_SBTPD" sboTerm="SBO:0000176" id="R_SBTPD" name="Sorbitol-6-phosphate dehydrogenase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_SBTPD">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/SBTPD"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.140"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05607"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104285"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/19840"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/19839"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/19838"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/19837"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_sbt6p_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_ACGAMtpts" name="Transport of N-Acetyl-D-glucosamine via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_acgam_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_acgam6p_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_ARBTtpts" name="Transport of arbutin via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_arbt_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_arbt6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_SALCNtpts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_salcn_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_salcn6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_MALTtabc" name="Transport of Matlose via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_malt_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_malt_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_MALTtpts" name="Transport of Maltose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_malt_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_malt6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TREtpts" name=" Transport of Trehalose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_tre_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_tre6p_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -61577,7 +61951,7 @@
           <groups:member groups:name="R00835" groups:idRef="R_G6PDH2er"/>
           <groups:member groups:name="R03409" groups:idRef="R_GDTP"/>
           <groups:member groups:name="R00885" groups:idRef="R_MAN1PT"/>
-          <groups:member groups:name="R01092" groups:idRef="R_GALKh"/>
+          <groups:member groups:name="R01092" groups:idRef="R_GALKr"/>
           <groups:member groups:name="R00940" groups:idRef="R_THFOR2"/>
           <groups:member groups:name="R06178" groups:idRef="R_UAAAGGLAAT"/>
           <groups:member groups:name="R03777" groups:idRef="R_ACOA80OR"/>
@@ -61705,7 +62079,7 @@
           <groups:member groups:name="R02019" groups:idRef="R_RNDR2"/>
           <groups:member groups:name="R02003" groups:idRef="R_FPPSh"/>
           <groups:member groups:name="R02024" groups:idRef="R_RNDR3"/>
-          <groups:member groups:name="R01761" groups:idRef="R_LARPYRISO"/>
+          <groups:member groups:name="R01761" groups:idRef="R_ARAI"/>
           <groups:member groups:name="R07268" groups:idRef="R_ADOCBITRANS"/>
           <groups:member groups:name="R10404" groups:idRef="R_SAM"/>
           <groups:member groups:name="R07405" groups:idRef="R_AIRC3"/>
@@ -62082,7 +62456,7 @@
           <groups:member groups:name="Transport of metabolite lac__D_e" groups:idRef="R_LAC__Dt"/>
           <groups:member groups:name="Transport of metabolite succ_e" groups:idRef="R_SUCCt"/>
           <groups:member groups:name="Transport of metabolite nh4_e" groups:idRef="R_NH4t"/>
-          <groups:member groups:name="Transport of metabolite glc__D_e" groups:idRef="R_GLC__Dt"/>
+          <groups:member groups:name="Transport of metabolite glc__D_e" groups:idRef="R_GLC__Dtabc"/>
           <groups:member groups:name="Transport of metabolite o2_e" groups:idRef="R_O2t"/>
           <groups:member groups:name="Transport of metabolite thm_e" groups:idRef="R_THMt"/>
           <groups:member groups:name="Transport of metabolite oh1_e" groups:idRef="R_H2Ot"/>
