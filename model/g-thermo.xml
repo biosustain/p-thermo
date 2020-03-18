@@ -20002,7 +20002,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_thm_e" sboTerm="SBO:0000247" id="M_thm_e" name="C00378" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C12H17N4OS">
+      <species metaid="meta_M_thm_e" sboTerm="SBO:0000247" id="M_thm_e" name="Thiamin" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C12H17N4OS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00378</p>
@@ -58990,9 +58990,14 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_thm_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_thm_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_COBALT2t" sboTerm="SBO:0000185" id="R_COBALT2t" name="Transport of metabolite cobalt2_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_COBALT2t_upper_bound">
