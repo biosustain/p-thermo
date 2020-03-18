@@ -24906,6 +24906,104 @@
           </html>
         </notes>
       </species>
+      <species id="M_kdg2_e" name="2-Keto-D-gluconic acid" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C06473</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_kdg2_c" name="2-Keto-D-gluconic acid" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C06473</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_dglcn5_e" name="5-Dehydro-D-gluconate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C01062</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_dglcn5_c" name="5-Dehydro-D-gluconate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C01062</p>
+          </html>
+        </notes>
+      </species>
+      <species metaid="meta_M_meoh_c" sboTerm="SBO:0000247" id="M_meoh_c" name="Methanol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CH4O">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_meoh_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/meoh"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ALCOHOL-GROUP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:METOH"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:52090"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:25227"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:44080"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17790"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:44553"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:14588"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6816"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/650babc9-9d68-4b73-9332-11972ca26f7b/compound/2c247069-759d-4108-ba1b-b1c81678bab7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/b5522308-bb5c-41bb-a11a-e9b9ae61da85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB01875"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/OKKJLVBELUTLKV-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00132"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D02309"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM157"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5693711"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5359061"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/55"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00116"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="M_mdgp_e" name="Methyl D-glucopyranoside" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H14O6">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C03619</p>
+            <p>CheBI: 17540</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_mdgp_c" name="Methyl D-glucopyranoside" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H14O6">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C03619</p>
+            <p>CheBI: 17540</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_tag__D_e" name="D-tagatose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00795</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_tag1p__D_c" name="D-Tagatose 1-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H11O9P"/>
+      <species metaid="meta_M_tagdp__D_c" id="M_tagdp__D_c" name="D-Tagatose 1,6-bisphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H12O12P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_tagdp__D_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03785"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -26340,6 +26438,8 @@
       <parameter sboTerm="SBO:0000625" id="R_MELIBt_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GTBIt_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GTBIHY_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_TURAt_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_TURAHY_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction metaid="meta_R_IDPh" sboTerm="SBO:0000176" id="R_IDPh" name="R00004" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_IDPh_upper_bound">
@@ -53593,7 +53693,7 @@
           <speciesReference species="M_ah6p__D_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02775"/>
@@ -58780,7 +58880,7 @@
           <speciesReference species="M_ah6p__D_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
@@ -61124,7 +61224,7 @@
           <speciesReference species="M_glc__D_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TURAt" name="Turanose hydrolysis" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_TURAt" name="Turanose hydrolysis" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_TURAt_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction based on data</p>
@@ -61137,7 +61237,7 @@
           <speciesReference species="M_tura_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TURAHY" name="Hydrolysis of Turanose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_TURAHY" name="Hydrolysis of Turanose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_TURAHY_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reactions based on data</p>
@@ -61152,6 +61252,142 @@
           <speciesReference species="M_fru_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction id="R_KDG2t" name="Transport of 2-Keto-D-gluconic acid passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_kdg2_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_kdg2_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_KDG2R" name="2-Keto-D-gluconic acid reductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_glcn__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_kdg2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_DGLCN5t" name="Transport of 5-Dehydro-D-gluconate passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_dglcn5_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_dglcn5_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_DGLCN5R" name="5-dehydro-D-gluconate reductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_dglcn5_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glcn__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_MDGPt" name="Transport of Methyl D-glucopyranoside passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Assumed reaction from experimental data, though no confirmation on trasnport type</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_mdgp_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_mdgp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_BGAL" name="methyl-beta-galactosidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Assumed reaction from experimental data. This is a side reaction of the normal B-galactosidase</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_mdgp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_meoh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glc__D_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_ALCD1" name="NAD-dependent Methanol dehydrogenase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: R00605</p>
+            <p>ENZYME: 1.1.1.244</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_meoh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_fald_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TAGtpts" name="Transport of tag__D via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>COMMENTS: Assumed reaction from experimental data and bioinformatic indication.</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_tag__D_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_tag1p__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TAG1PK" name="D-Tagatose-1-phosphate kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>COMMENTS: Assumed reaction from experimental data and bioinformatic indication</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_tag1p__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_tagdp__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TGBPA" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub"/>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
