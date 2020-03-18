@@ -26450,6 +26450,23 @@
       <parameter sboTerm="SBO:0000625" id="R_TAGtpts_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TAG1PK_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TGBPA_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_fru_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_arab__L_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_xyl__D_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_mnl_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cellb_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_sucr_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_sbt__D_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_acgam_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_malt_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_rmn_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_melib_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_gtbi_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_tura_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_kdg2_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_dglcn5_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_mdgp_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_tag__D_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction metaid="meta_R_IDPh" sboTerm="SBO:0000176" id="R_IDPh" name="R00004" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_IDPh_upper_bound">
@@ -61403,87 +61420,87 @@
         </listOfProducts>
       </reaction>
       <reaction id="R_TGBPA" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_TGBPA_upper_bound"/>
-      <reaction metaid="meta_R_EX_fru_e" sboTerm="SBO:0000628" id="R_EX_fru_e" name="D-Fructose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_fru_e" sboTerm="SBO:0000628" id="R_EX_fru_e" name="D-Fructose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_fru_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_fru_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_arab__L_e" sboTerm="SBO:0000628" id="R_EX_arab__L_e" name="L-arabinose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_arab__L_e" sboTerm="SBO:0000628" id="R_EX_arab__L_e" name="L-arabinose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_arab__L_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_arab__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_xyl__D_e" sboTerm="SBO:0000628" id="R_EX_xyl__D_e" name="D-xylose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_xyl__D_e" sboTerm="SBO:0000628" id="R_EX_xyl__D_e" name="D-xylose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_xyl__D_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_xyl__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_mnl_e" sboTerm="SBO:0000628" id="R_EX_mnl_e" name="Mannitol demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_mnl_e" sboTerm="SBO:0000628" id="R_EX_mnl_e" name="Mannitol demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_mnl_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_mnl_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_cellb_e" sboTerm="SBO:0000628" id="R_EX_cellb_e" name="Cellobiose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_cellb_e" sboTerm="SBO:0000628" id="R_EX_cellb_e" name="Cellobiose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_cellb_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_cellb_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_sucr_e" sboTerm="SBO:0000628" id="R_EX_sucr_e" name="Sucrose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_sucr_e" sboTerm="SBO:0000628" id="R_EX_sucr_e" name="Sucrose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_sucr_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_sucr_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_sbt__D_e" sboTerm="SBO:0000628" id="R_EX_sbt__D_e" name="D-Sorbitol demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_sbt__D_e" sboTerm="SBO:0000628" id="R_EX_sbt__D_e" name="D-Sorbitol demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_sbt__D_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_sbt__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_acgam_e" sboTerm="SBO:0000628" id="R_EX_acgam_e" name="N-Acetyl-D-glucosamine demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_acgam_e" sboTerm="SBO:0000628" id="R_EX_acgam_e" name="N-Acetyl-D-glucosamine demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_acgam_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_acgam_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_malt_e" sboTerm="SBO:0000628" id="R_EX_malt_e" name="Maltose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_malt_e" sboTerm="SBO:0000628" id="R_EX_malt_e" name="Maltose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_malt_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_malt_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_rmn_e" sboTerm="SBO:0000628" id="R_EX_rmn_e" name="L-rhamnose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_rmn_e" sboTerm="SBO:0000628" id="R_EX_rmn_e" name="L-rhamnose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_rmn_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_rmn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_melib_e" sboTerm="SBO:0000628" id="R_EX_melib_e" name="Melibiose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_melib_e" sboTerm="SBO:0000628" id="R_EX_melib_e" name="Melibiose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_melib_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_melib_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_gtbi_e" sboTerm="SBO:0000628" id="R_EX_gtbi_e" name="Gentiobiose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_gtbi_e" sboTerm="SBO:0000628" id="R_EX_gtbi_e" name="Gentiobiose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_gtbi_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_gtbi_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_tura_e" sboTerm="SBO:0000628" id="R_EX_tura_e" name="D-Turanose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_tura_e" sboTerm="SBO:0000628" id="R_EX_tura_e" name="D-Turanose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_tura_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_tura_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_kdg2_e" sboTerm="SBO:0000628" id="R_EX_kdg2_e" name="2-Keto-D-gluconic acid demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_kdg2_e" sboTerm="SBO:0000628" id="R_EX_kdg2_e" name="2-Keto-D-gluconic acid demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_kdg2_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_kdg2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_dglcn5_e" sboTerm="SBO:0000628" id="R_EX_dglcn5_e" name="5-Dehydro-D-gluconate demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_dglcn5_e" sboTerm="SBO:0000628" id="R_EX_dglcn5_e" name="5-Dehydro-D-gluconate demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_dglcn5_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_dglcn5_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_mdgp_e" sboTerm="SBO:0000628" id="R_EX_mdgp_e" name="Methyl D-glucopyranoside demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_mdgp_e" sboTerm="SBO:0000628" id="R_EX_mdgp_e" name="Methyl D-glucopyranoside demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_mdgp_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_mdgp_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_tag__D_e" sboTerm="SBO:0000628" id="R_EX_tag__D_e" name="D-tagatose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_tag__D_e" sboTerm="SBO:0000628" id="R_EX_tag__D_e" name="D-tagatose demand" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_EX_tag__D_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_tag__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
