@@ -24861,7 +24861,6 @@
       <parameter sboTerm="SBO:0000625" id="R_SHSL4h_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_2HBO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CYSTGL_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ALKP_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TPI_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TPI_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_MGSA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -35098,7 +35097,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04263"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ALKP" sboTerm="SBO:0000176" id="R_ALKP" name="R01010" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ALKP_upper_bound">
+      <reaction metaid="meta_R_ALKP" sboTerm="SBO:0000176" id="R_ALKP" name="R01010" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -39944,9 +39943,9 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_glyald_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_glyc__R_c" stoichiometry="1" constant="true"/>
@@ -43963,7 +43962,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_dhap_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glyald_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03967"/>
