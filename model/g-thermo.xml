@@ -1967,28 +1967,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_f6p_B_c" sboTerm="SBO:0000247" id="M_f6p_B_c" name="beta-D-Fructose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H11O9P">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C05345</p>
-            <p>NAME: beta-D-Fructose 6-phosphate</p>
-            <p>ChEBI: 16084</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_f6p_B_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05345"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16084"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM89621"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_HC01651_c" sboTerm="SBO:0000247" id="M_HC01651_c" name="Formamidopyrimidine nucleoside triphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H18N5O15P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2716,7 +2694,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_fru_c" sboTerm="SBO:0000247" id="M_fru_c" name="D-M" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
+      <species metaid="meta_M_fru_c" sboTerm="SBO:0000247" id="M_fru_c" name="D-Fructose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00095</p>
@@ -17285,7 +17263,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_f6p_k_c" sboTerm="SBO:0000247" id="M_f6p_k_c" name="D-Fructose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
+      <species metaid="meta_M_f6p_c" sboTerm="SBO:0000247" id="M_f6p_c" name="D-Fructose 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00085</p>
@@ -17295,7 +17273,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_f6p_k_c">
+            <rdf:Description rdf:about="#meta_M_f6p_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00085"/>
@@ -24817,23 +24795,11 @@
       <parameter sboTerm="SBO:0000625" id="R_HOPNTAL_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ALCD2ir_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ALCD2ir_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_F6PPT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_F6PPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_MNLOR_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_MNLOR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FRUPT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FRUPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FDPPH_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_G6PDA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_G6PDA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_F6PCPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_F6PISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_F6PUPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_F6PIPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGI_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGI_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_MANISO_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_MANISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CYSDS_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CYSDS_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FOCYTCNOR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -24939,8 +24905,6 @@
       <parameter sboTerm="SBO:0000625" id="R_GAPDH_nadp_hi_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DRPA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DRPA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_F6PGT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_F6PGT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FBA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FBA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FBAf_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25523,8 +25487,8 @@
       <parameter sboTerm="SBO:0000625" id="R_SELMELY_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SELMELY_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SELMELIG_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PFKh_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_BFBP_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PFK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_FBP_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SAM_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SELCYSTGL_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SELCYSTL_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25649,7 +25613,6 @@
       <parameter sboTerm="SBO:0000625" id="R_BETALDOR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACMUMPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GLYCK2_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_S7PG3PT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACM6PH_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACM6PH_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_LCYSTLY_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25743,8 +25706,6 @@
       <parameter sboTerm="SBO:0000625" id="R_ACSERT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACSERT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ASPSALY_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_AH6PISO_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_AH6PISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NH4t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GLC__Dt_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FE2t_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -32689,156 +32650,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_F6PPT" sboTerm="SBO:0000176" id="R_F6PPT" name="R00756" reversible="true" fast="false" fbc:lowerFluxBound="R_F6PPT_lower_bound" fbc:upperFluxBound="R_F6PPT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO05024</p>
-            <p>KEGG ID: R00756</p>
-            <p>ENZYME: 2.7.1.11</p>
-            <p>NAME: ATP:D-fructose-6-phosphate 1-phosphotransferase</p>
-            <p>DEFINITION: ATP + D-Fructose 6-phosphate ⇌ ADP + D-Fructose 1,6-bisphosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_F6PPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00756"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106666"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/16109"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.1.11"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_fdp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO05024"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_MNLOR" sboTerm="SBO:0000176" id="R_MNLOR" name="R00758" reversible="true" fast="false" fbc:lowerFluxBound="R_MNLOR_lower_bound" fbc:upperFluxBound="R_MNLOR_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO01654</p>
-            <p>KEGG ID: R00758</p>
-            <p>ENZYME: 1.1.1.17</p>
-            <p>NAME: D-Mannitol-1-phosphate:NAD+ 5-oxidoreductase</p>
-            <p>DEFINITION: D-Mannitol 1-phosphate + NAD+ ⇌ D-Fructose 6-phosphate + NADH + H+</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_MNLOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00758"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106667"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/19661"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.17"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_mnl1p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO01654"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_FRUPT" sboTerm="SBO:0000176" id="R_FRUPT" name="R00760" reversible="true" fast="false" fbc:lowerFluxBound="R_FRUPT_lower_bound" fbc:upperFluxBound="R_FRUPT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO02454</p>
-            <p>KEGG ID: R00760</p>
-            <p>ENZYME: 2.7.1.1 2.7.1.4</p>
-            <p>NAME: ATP:D-fructose 6-phosphotransferase</p>
-            <p>DEFINITION: ATP + D-Fructose ⇌ ADP + D-Fructose 6-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FRUPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00760"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106668"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/16125"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/[&apos;2.7.1.1&apos;, &apos;2.7.1.4&apos;]"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_fru_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO02454"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_FDPPH" sboTerm="SBO:0000176" id="R_FDPPH" name="R00762" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_FDPPH_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO03964</p>
-            <p>KEGG ID: R00762</p>
-            <p>ENZYME: 3.1.3.11</p>
-            <p>NAME: D-Fructose-1,6-bisphosphate 1-phosphohydrolase</p>
-            <p>DEFINITION: D-Fructose 1,6-bisphosphate + H2O ⇌ D-Fructose 6-phosphate + Orthophosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FDPPH">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00762"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106670"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/11064"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.11"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_fdp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO03964"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_G6PDA" sboTerm="SBO:0000176" id="R_G6PDA" name="R00765" reversible="true" fast="false" fbc:lowerFluxBound="R_G6PDA_lower_bound" fbc:upperFluxBound="R_G6PDA_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -32870,13 +32681,13 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01048"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_F6PCPT" sboTerm="SBO:0000176" id="R_F6PCPT" name="R00767" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_F6PCPT_upper_bound">
+      <reaction metaid="meta_R_F6PCPT" sboTerm="SBO:0000176" id="R_F6PCPT" name="R00767" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -32901,7 +32712,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_ctp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -32939,7 +32750,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_gln__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_gam6p_c" stoichiometry="1" constant="true"/>
@@ -32949,7 +32760,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03239"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_F6PUPT" sboTerm="SBO:0000176" id="R_F6PUPT" name="R00769" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_F6PUPT_upper_bound">
+      <reaction metaid="meta_R_F6PUPT" sboTerm="SBO:0000176" id="R_F6PUPT" name="R00769" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -32974,7 +32785,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_utp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_fdp_c" stoichiometry="1" constant="true"/>
@@ -32984,7 +32795,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO05024"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_F6PIPT" sboTerm="SBO:0000176" id="R_F6PIPT" name="R00770" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_F6PIPT_upper_bound">
+      <reaction metaid="meta_R_F6PIPT" sboTerm="SBO:0000176" id="R_F6PIPT" name="R00770" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -33009,7 +32820,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_itp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_idp_c" stoichiometry="1" constant="true"/>
@@ -33045,7 +32856,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_g6p_c" stoichiometry="1" constant="true"/>
@@ -33054,44 +32865,6 @@
           <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO03139"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO02767"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_MANISO" sboTerm="SBO:0000176" id="R_MANISO" name="R00772" reversible="true" fast="false" fbc:lowerFluxBound="R_MANISO_lower_bound" fbc:upperFluxBound="R_MANISO_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO00243 or RTMO02851 )</p>
-            <p>KEGG ID: R00772</p>
-            <p>ENZYME: 5.3.1.8</p>
-            <p>NAME: D-mannose-6-phosphate aldose-ketose-isomerase</p>
-            <p>DEFINITION: D-Mannose 6-phosphate ⇌ D-Fructose 6-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_MANISO">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00772"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106679"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/12356"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/5.3.1.8"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_man6p_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00243"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02851"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -33811,8 +33584,8 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02454"/>
@@ -35863,41 +35636,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04143"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_F6PGT" sboTerm="SBO:0000176" id="R_F6PGT" name="R01067" reversible="true" fast="false" fbc:lowerFluxBound="R_F6PGT_lower_bound" fbc:upperFluxBound="R_F6PGT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04464</p>
-            <p>KEGG ID: R01067</p>
-            <p>ENZYME: 2.2.1.1</p>
-            <p>NAME: D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase</p>
-            <p>DEFINITION: D-Fructose 6-phosphate + D-Glyceraldehyde 3-phosphate ⇌ D-Erythrose 4-phosphate + D-Xylulose 5-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_F6PGT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01067"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106812"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_xu5p__D_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_e4p_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04464"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_FBA" sboTerm="SBO:0000176" id="R_FBA" name="R01068" reversible="true" fast="false" fbc:lowerFluxBound="R_FBA_lower_bound" fbc:upperFluxBound="R_FBA_upper_bound">
@@ -40684,7 +40422,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -40795,9 +40533,9 @@
           <speciesReference species="M_s7p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_e4p_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03966"/>
@@ -40830,8 +40568,8 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_xu5p__D_c" stoichiometry="1" constant="true"/>
@@ -44718,9 +44456,9 @@
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01654"/>
@@ -48132,8 +47870,8 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02454"/>
@@ -51417,7 +51155,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02927"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PFKh" sboTerm="SBO:0000176" id="R_PFKh" name="R04779" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_PFKh_upper_bound">
+      <reaction metaid="meta_R_PFK" sboTerm="SBO:0000176" id="R_PFK" name="R04779" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_PFK_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: 00010</p>
@@ -51430,7 +51168,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PFKh">
+            <rdf:Description rdf:about="#meta_R_PFK">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04779"/>
@@ -51442,7 +51180,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
@@ -51453,7 +51191,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO05024"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_BFBP" sboTerm="SBO:0000176" id="R_BFBP" name="R04780" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_BFBP_upper_bound">
+      <reaction metaid="meta_R_FBP" sboTerm="SBO:0000176" id="R_FBP" name="R04780" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_FBP_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -51466,7 +51204,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_BFBP">
+            <rdf:Description rdf:about="#meta_R_FBP">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04780"/>
@@ -51481,8 +51219,8 @@
           <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03964"/>
@@ -52870,7 +52608,7 @@
           <speciesReference species="M_ah6p__D_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02775"/>
@@ -55815,41 +55553,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_S7PG3PT" sboTerm="SBO:0000176" id="R_S7PG3PT" name="R08575" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_S7PG3PT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO03966</p>
-            <p>KEGG ID: R08575</p>
-            <p>ENZYME: 2.2.1.2</p>
-            <p>NAME: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase</p>
-            <p>DEFINITION: Sedoheptulose 7-phosphate + D-Glyceraldehyde 3-phosphate ⇌ D-Erythrose 4-phosphate + D-Fructose 6-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_S7PG3PT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R08575"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR112107"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_s7p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_e4p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_f6p_k_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO03966"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_ACM6PH" sboTerm="SBO:0000176" id="R_ACM6PH" name="R08555" reversible="true" fast="false" fbc:lowerFluxBound="R_ACM6PH_lower_bound" fbc:upperFluxBound="R_ACM6PH_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -58025,39 +57728,6 @@
           <speciesReference species="M_l23dhdpico_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_AH6PISO" sboTerm="SBO:0000176" id="R_AH6PISO" name="R09780" reversible="true" fast="false" fbc:lowerFluxBound="R_AH6PISO_lower_bound" fbc:upperFluxBound="R_AH6PISO_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: 00030</p>
-            <p>GENE_ASSOCIATION: RTMO12345</p>
-            <p>KEGG ID: R09780</p>
-            <p>ENZYME: 5.3.1.27</p>
-            <p>NAME: D-arabino-hex-3-ulose-6-phosphate isomerase</p>
-            <p>DEFINITION: D-arabino-Hex-3-ulose 6-phosphate ⇌ beta-D-Fructose 6-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_AH6PISO">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R09780"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR113184"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_ah6p__D_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_f6p_B_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
@@ -60819,7 +60489,6 @@
           <groups:member groups:name="R01624" groups:idRef="R_ACOATA"/>
           <groups:member groups:name="R04326" groups:idRef="R_FGFTh"/>
           <groups:member groups:name="R05705" groups:idRef="R_FMNRx"/>
-          <groups:member groups:name="R00772" groups:idRef="R_MANISO"/>
           <groups:member groups:name="R01931" groups:idRef="R_CYANST"/>
           <groups:member groups:name="R01072" groups:idRef="R_GLUPRT"/>
           <groups:member groups:name="R08751" groups:idRef="R_DTPCHEPPCT"/>
@@ -60898,13 +60567,11 @@
           <groups:member groups:name="R00838" groups:idRef="R_MALTPGH"/>
           <groups:member groups:name="R00897" groups:idRef="R_CYSS"/>
           <groups:member groups:name="R02071" groups:idRef="R_F1PPT"/>
-          <groups:member groups:name="R00762" groups:idRef="R_FDPPH"/>
           <groups:member groups:name="R01000" groups:idRef="R_2HBO"/>
           <groups:member groups:name="R01967" groups:idRef="R_DGNSK"/>
           <groups:member groups:name="R01401" groups:idRef="R_MTAN"/>
           <groups:member groups:name="R05688" groups:idRef="R_DXPRIi"/>
           <groups:member groups:name="R01569" groups:idRef="R_NTD5"/>
-          <groups:member groups:name="R08575" groups:idRef="R_S7PG3PT"/>
           <groups:member groups:name="R00765" groups:idRef="R_G6PDA"/>
           <groups:member groups:name="R00571" groups:idRef="R_CTPS1"/>
           <groups:member groups:name="R00963" groups:idRef="R_NTD2"/>
@@ -61222,7 +60889,6 @@
           <groups:member groups:name="R06863" groups:idRef="R_S7PTRANSPP"/>
           <groups:member groups:name="R00782" groups:idRef="R_CYSDS"/>
           <groups:member groups:name="R02780" groups:idRef="R_TREPT"/>
-          <groups:member groups:name="R00760" groups:idRef="R_FRUPT"/>
           <groups:member groups:name="R04738" groups:idRef="R_ECOAH7"/>
           <groups:member groups:name="R05224" groups:idRef="R_HGBYR"/>
           <groups:member groups:name="R00896" groups:idRef="R_ACYSAT"/>
@@ -61347,7 +61013,6 @@
           <groups:member groups:name="R08657" groups:idRef="R_COQOR"/>
           <groups:member groups:name="R00019" groups:idRef="R_HYDA"/>
           <groups:member groups:name="R01773" groups:idRef="R_HSDx"/>
-          <groups:member groups:name="R00758" groups:idRef="R_MNLOR"/>
           <groups:member groups:name="R01229" groups:idRef="R_GPAR"/>
           <groups:member groups:name="R02300" groups:idRef="R_FOMETRi"/>
           <groups:member groups:name="R00659" groups:idRef="R_PYK2"/>
@@ -61413,7 +61078,6 @@
           <groups:member groups:name="R05225" groups:idRef="R_ACDAH"/>
           <groups:member groups:name="R00124" groups:idRef="R_ATPPT"/>
           <groups:member groups:name="R07302" groups:idRef="R_ADCPS1"/>
-          <groups:member groups:name="R00756" groups:idRef="R_F6PPT"/>
           <groups:member groups:name="R00104" groups:idRef="R_NADK"/>
           <groups:member groups:name="R01034" groups:idRef="R_GLYCDx"/>
           <groups:member groups:name="R03348" groups:idRef="R_NNDPR"/>
@@ -61441,7 +61105,6 @@
           <groups:member groups:name="R02332" groups:idRef="R_DUTUP"/>
           <groups:member groups:name="R00939" groups:idRef="R_DHFR"/>
           <groups:member groups:name="R01639" groups:idRef="R_XYLK"/>
-          <groups:member groups:name="R01067" groups:idRef="R_F6PGT"/>
           <groups:member groups:name="R03217" groups:idRef="R_AHSL"/>
           <groups:member groups:name="R04325" groups:idRef="R_FPGFTh"/>
           <groups:member groups:name="R01655" groups:idRef="R_MTHFC"/>
@@ -61524,7 +61187,7 @@
           <groups:member groups:name="R05338" groups:idRef="R_RU5PL"/>
           <groups:member groups:name="R01512" groups:idRef="R_PGK"/>
           <groups:member groups:name="R01641" groups:idRef="R_S7PG3PGT"/>
-          <groups:member groups:name="R04780" groups:idRef="R_BFBP"/>
+          <groups:member groups:name="R04780" groups:idRef="R_FBP"/>
           <groups:member groups:name="R00405" groups:idRef="R_SUCLm"/>
           <groups:member groups:name="R02762" groups:idRef="R_HMSD"/>
           <groups:member groups:name="R01830" groups:idRef="R_TKT2"/>
@@ -61593,7 +61256,7 @@
       <groups:group groups:id="G_00010" groups:name="00010" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R01061" groups:idRef="R_GAPD"/>
-          <groups:member groups:name="R04779" groups:idRef="R_PFKh"/>
+          <groups:member groups:name="R04779" groups:idRef="R_PFK"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00280__44____32__00290" groups:name="00280, 00290" groups:kind="collection">
@@ -61605,7 +61268,6 @@
         <groups:listOfMembers>
           <groups:member groups:name="R01621" groups:idRef="R_FBA3"/>
           <groups:member groups:name="R01528" groups:idRef="R_GND"/>
-          <groups:member groups:name="R09780" groups:idRef="R_AH6PISO"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Pyrimidine__32__metabolism" groups:name="Pyrimidine metabolism" groups:kind="collection">
