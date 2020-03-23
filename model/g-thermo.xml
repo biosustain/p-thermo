@@ -24992,9 +24992,6 @@
       <parameter sboTerm="SBO:0000625" id="R_PGK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGCD_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGCD_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GLYCK_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GLYCK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ACPh_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGM_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGM_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GND_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25018,8 +25015,8 @@
       <parameter sboTerm="SBO:0000625" id="R_FBA3_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_XYLK_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_XYLK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_S7PG3PGT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_S7PG3PGT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_TKT1_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_TKT1_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ABTA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ABTA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FTHFLIG_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -38547,7 +38544,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GLYCK" sboTerm="SBO:0000176" id="R_GLYCK" name="R01514" reversible="true" fast="false" fbc:lowerFluxBound="R_GLYCK_lower_bound" fbc:upperFluxBound="R_GLYCK_upper_bound">
+      <reaction metaid="meta_R_GLYCK" sboTerm="SBO:0000176" id="R_GLYCK" name="R01514" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -38585,42 +38582,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_RTMO02852"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO00257"/>
           </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_ACPh" sboTerm="SBO:0000176" id="R_ACPh" name="R01515" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ACPh_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO00593</p>
-            <p>KEGG ID: R01515</p>
-            <p>ENZYME: 3.6.1.7</p>
-            <p>NAME: 3-Phospho-D-glyceroyl phosphate phosphohydrolase</p>
-            <p>DEFINITION: 3-Phospho-D-glyceroyl phosphate + H2O ⇌ 3-Phospho-D-glycerate + Orthophosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ACPh">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01515"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95410"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_13dpg_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_3pg_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO00593"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PGM" sboTerm="SBO:0000176" id="R_PGM" name="R01518" reversible="true" fast="false" fbc:lowerFluxBound="R_PGM_lower_bound" fbc:upperFluxBound="R_PGM_upper_bound">
@@ -39152,7 +39113,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01749"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_S7PG3PGT" sboTerm="SBO:0000176" id="R_S7PG3PGT" name="R01641" reversible="true" fast="false" fbc:lowerFluxBound="R_S7PG3PGT_lower_bound" fbc:upperFluxBound="R_S7PG3PGT_upper_bound">
+      <reaction metaid="meta_R_TKT1" sboTerm="SBO:0000176" id="R_TKT1" name="R01641" reversible="true" fast="false" fbc:lowerFluxBound="R_TKT1_lower_bound" fbc:upperFluxBound="R_TKT1_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -39165,7 +39126,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_S7PG3PGT">
+            <rdf:Description rdf:about="#meta_R_TKT1">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01641"/>
@@ -60898,7 +60859,6 @@
           <groups:member groups:name="R00908" groups:idRef="R_APAT2rm"/>
           <groups:member groups:name="R01513" groups:idRef="R_PGCD"/>
           <groups:member groups:name="R01752" groups:idRef="R_GLYALDDr"/>
-          <groups:member groups:name="R01515" groups:idRef="R_ACPh"/>
           <groups:member groups:name="R04617" groups:idRef="R_ALAALALIG"/>
           <groups:member groups:name="R00475" groups:idRef="R_GLYCTO1"/>
           <groups:member groups:name="R04144" groups:idRef="R_PPRGL"/>
@@ -61126,7 +61086,7 @@
           <groups:member groups:name="R03316" groups:idRef="R_HC01435R"/>
           <groups:member groups:name="R05338" groups:idRef="R_RU5PL"/>
           <groups:member groups:name="R01512" groups:idRef="R_PGK"/>
-          <groups:member groups:name="R01641" groups:idRef="R_S7PG3PGT"/>
+          <groups:member groups:name="R01641" groups:idRef="R_TKT1"/>
           <groups:member groups:name="R04780" groups:idRef="R_FBP"/>
           <groups:member groups:name="R00405" groups:idRef="R_SUCLm"/>
           <groups:member groups:name="R02762" groups:idRef="R_HMSD"/>
