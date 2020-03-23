@@ -3006,7 +3006,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_starch_c" sboTerm="SBO:0000247" id="M_starch_c" name="Starch" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="(C12H20O10)n">
+      <species metaid="meta_M_starch_c" sboTerm="SBO:0000247" id="M_starch_c" name="Starch" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: G10495</p>
@@ -13649,7 +13649,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_amylose_c" sboTerm="SBO:0000247" id="M_amylose_c" name="Amylose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C30H52O26">
+      <species metaid="meta_M_amylose_c" sboTerm="SBO:0000247" id="M_amylose_c" name="Amylose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C24H42O21">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00718</p>
@@ -13671,7 +13671,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_Dextrin" sboTerm="SBO:0000247" id="M_Dextrin" name="Dextrin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C36H62O31">
+      <species metaid="meta_M_dextrin_c" sboTerm="SBO:0000247" id="M_dextrin_c" name="Dextrin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: G10545</p>
@@ -13680,7 +13680,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_Dextrin">
+            <rdf:Description rdf:about="#meta_M_dextrin_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10545"/>
@@ -25004,6 +25004,8 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species id="M_amylose_e" name="Amylose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C30H52O26"/>
+      <species id="M_pyr_e" name="Pyruvate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H3O3"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -25575,13 +25577,12 @@
       <parameter sboTerm="SBO:0000625" id="R_FBA4_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FBA4_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GLUKA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_STARCHHY_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DEXHY_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CDPDAGPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_MPPM_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_MPPM_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_MAN6PI_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_MAN6PI_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_AMYLOSEGT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DDPA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TALA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TALA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25658,7 +25659,6 @@
       <parameter sboTerm="SBO:0000625" id="R_NTD1_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_STARCHHY2_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_AMYTRANS_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_STARCHGT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_XPPT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_XPPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PUNP3_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25707,7 +25707,6 @@
       <parameter sboTerm="SBO:0000625" id="R_SHKK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SHK3Dr_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SHK3Dr_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ADPGLCGT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RBK_L1_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RBK_L1_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DPR_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -26450,6 +26449,23 @@
       <parameter sboTerm="SBO:0000625" id="R_TAGtpts_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TAG1PK_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TGBPA_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_fru_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_arab__L_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_xyl__D_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_mnl_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cellb_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_sucr_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_sbt__D_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_acgam_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_malt_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_rmn_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_melib_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_gtbi_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_tura_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_kdg2_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_dglcn5_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_mdgp_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_tag__D_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction metaid="meta_R_IDPh" sboTerm="SBO:0000176" id="R_IDPh" name="R00004" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_IDPh_upper_bound">
@@ -41226,7 +41242,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_STARCHHY" sboTerm="SBO:0000176" id="R_STARCHHY" name="R01791" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_STARCHHY_upper_bound">
+      <reaction metaid="meta_R_DEXHY" sboTerm="SBO:0000176" id="R_DEXHY" name="R01791" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_DEXHY_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -41239,7 +41255,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_STARCHHY">
+            <rdf:Description rdf:about="#meta_R_DEXHY">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06199; R01791"/>
@@ -41250,10 +41266,10 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_Dextrin" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_dextrin_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glc__aD_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glc__D_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -41375,39 +41391,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_RTMO00243"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO02851"/>
           </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_AMYLOSEGT" sboTerm="SBO:0000176" id="R_AMYLOSEGT" name="R01821" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_AMYLOSEGT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO03217</p>
-            <p>KEGG ID: R01821; R06050</p>
-            <p>ENZYME: 2.4.1.1</p>
-            <p>NAME: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase; 1,4-alpha-D-glucan:phosphate alpha-D-glucosyltransferase</p>
-            <p>DEFINITION: 1,4-alpha-D-Glucan(n) + Orthophosphate ⇌ 1,4-alpha-D-Glucan(n-1) + D-Glucose 1-phosphate; Amylose + Orthophosphate ⇌ Amylose + D-Glucose 1-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_AMYLOSEGT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01821; R06050"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_amylose_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_g1p_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO03217"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DDPA" sboTerm="SBO:0000176" id="R_DDPA" name="R01826" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_DDPA_upper_bound">
@@ -43282,11 +43265,10 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_starch_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_Dextrin" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_dextrin_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02765"/>
@@ -43316,46 +43298,13 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_amylose_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_starch_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_starch_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03213"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_STARCHGT" sboTerm="SBO:0000176" id="R_STARCHGT" name="R02111" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_STARCHGT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO03217</p>
-            <p>KEGG ID: R06185; R02111</p>
-            <p>ENZYME: 2.4.1.1</p>
-            <p>NAME: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase</p>
-            <p>DEFINITION: Starch + Orthophosphate ⇌ Amylose + D-Glucose 1-phosphate; Starch + Orthophosphate ⇌ 1,4-alpha-D-Glucan + D-Glucose 1-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_STARCHGT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06185; R02111"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_starch_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_g1p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_amylose_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO03217"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_XPPT" sboTerm="SBO:0000176" id="R_XPPT" name="R02142" reversible="true" fast="false" fbc:lowerFluxBound="R_XPPT_lower_bound" fbc:upperFluxBound="R_XPPT_upper_bound">
@@ -44542,39 +44491,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04918"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_ADPGLCGT" sboTerm="SBO:0000176" id="R_ADPGLCGT" name="R02421" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ADPGLCGT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO03216</p>
-            <p>KEGG ID: R02421; R06049</p>
-            <p>ENZYME: 2.4.1.21</p>
-            <p>NAME: ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase</p>
-            <p>DEFINITION: ADP-glucose + Amylose ⇌ ADP + Amylose; 1,4-alpha-D-Glucan(n) + ADP-glucose ⇌ 1,4-alpha-D-Glucan(n+1) + ADP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ADPGLCGT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02421; R06049"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_adpglc_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_amylose_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO03216"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_RBK_L1" sboTerm="SBO:0000176" id="R_RBK_L1" name="R02439" reversible="true" fast="false" fbc:lowerFluxBound="R_RBK_L1_lower_bound" fbc:upperFluxBound="R_RBK_L1_upper_bound">
@@ -61403,90 +61319,111 @@
         </listOfProducts>
       </reaction>
       <reaction id="R_TGBPA" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_TGBPA_upper_bound"/>
-      <reaction metaid="meta_R_EX_fru_e" sboTerm="SBO:0000628" id="R_EX_fru_e" name="D-Fructose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_fru_e" sboTerm="SBO:0000628" id="R_EX_fru_e" name="D-Fructose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_fru_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_fru_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_arab__L_e" sboTerm="SBO:0000628" id="R_EX_arab__L_e" name="L-arabinose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_arab__L_e" sboTerm="SBO:0000628" id="R_EX_arab__L_e" name="L-arabinose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_arab__L_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_arab__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_xyl__D_e" sboTerm="SBO:0000628" id="R_EX_xyl__D_e" name="D-xylose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_xyl__D_e" sboTerm="SBO:0000628" id="R_EX_xyl__D_e" name="D-xylose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_xyl__D_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_xyl__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_mnl_e" sboTerm="SBO:0000628" id="R_EX_mnl_e" name="Mannitol demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_mnl_e" sboTerm="SBO:0000628" id="R_EX_mnl_e" name="Mannitol demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_mnl_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_mnl_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_cellb_e" sboTerm="SBO:0000628" id="R_EX_cellb_e" name="Cellobiose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_cellb_e" sboTerm="SBO:0000628" id="R_EX_cellb_e" name="Cellobiose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_cellb_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_cellb_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_sucr_e" sboTerm="SBO:0000628" id="R_EX_sucr_e" name="Sucrose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_sucr_e" sboTerm="SBO:0000628" id="R_EX_sucr_e" name="Sucrose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_sucr_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_sucr_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_sbt__D_e" sboTerm="SBO:0000628" id="R_EX_sbt__D_e" name="D-Sorbitol demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_sbt__D_e" sboTerm="SBO:0000628" id="R_EX_sbt__D_e" name="D-Sorbitol demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_sbt__D_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_sbt__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_acgam_e" sboTerm="SBO:0000628" id="R_EX_acgam_e" name="N-Acetyl-D-glucosamine demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_acgam_e" sboTerm="SBO:0000628" id="R_EX_acgam_e" name="N-Acetyl-D-glucosamine demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_acgam_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_acgam_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_malt_e" sboTerm="SBO:0000628" id="R_EX_malt_e" name="Maltose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_malt_e" sboTerm="SBO:0000628" id="R_EX_malt_e" name="Maltose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_malt_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_malt_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_rmn_e" sboTerm="SBO:0000628" id="R_EX_rmn_e" name="L-rhamnose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_rmn_e" sboTerm="SBO:0000628" id="R_EX_rmn_e" name="L-rhamnose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_rmn_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_rmn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_melib_e" sboTerm="SBO:0000628" id="R_EX_melib_e" name="Melibiose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_melib_e" sboTerm="SBO:0000628" id="R_EX_melib_e" name="Melibiose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_melib_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_melib_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_gtbi_e" sboTerm="SBO:0000628" id="R_EX_gtbi_e" name="Gentiobiose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_gtbi_e" sboTerm="SBO:0000628" id="R_EX_gtbi_e" name="Gentiobiose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_gtbi_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_gtbi_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_tura_e" sboTerm="SBO:0000628" id="R_EX_tura_e" name="D-Turanose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_tura_e" sboTerm="SBO:0000628" id="R_EX_tura_e" name="D-Turanose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_tura_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_tura_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_kdg2_e" sboTerm="SBO:0000628" id="R_EX_kdg2_e" name="2-Keto-D-gluconic acid demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_kdg2_e" sboTerm="SBO:0000628" id="R_EX_kdg2_e" name="2-Keto-D-gluconic acid demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_kdg2_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_kdg2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_dglcn5_e" sboTerm="SBO:0000628" id="R_EX_dglcn5_e" name="5-Dehydro-D-gluconate demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_dglcn5_e" sboTerm="SBO:0000628" id="R_EX_dglcn5_e" name="5-Dehydro-D-gluconate demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_dglcn5_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_dglcn5_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_mdgp_e" sboTerm="SBO:0000628" id="R_EX_mdgp_e" name="Methyl D-glucopyranoside demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_mdgp_e" sboTerm="SBO:0000628" id="R_EX_mdgp_e" name="Methyl D-glucopyranoside demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_mdgp_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_mdgp_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_tag__D_e" sboTerm="SBO:0000628" id="R_EX_tag__D_e" name="D-tagatose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_tag__D_e" sboTerm="SBO:0000628" id="R_EX_tag__D_e" name="D-tagatose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_tag__D_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_tag__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
+      </reaction>
+      <reaction id="R_AMYt" name="Transport of Amylose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_amylose_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_amylose_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_amylose_e" sboTerm="SBO:0000628" id="R_EX_amylose_e" name="Amylose demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_amylose_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction id="R_PYRt" name="Transport of Pyruvate" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_pyr_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
@@ -62392,7 +62329,7 @@
           <groups:member groups:name="R03314" groups:idRef="R_G5SADrm"/>
           <groups:member groups:name="R04739" groups:idRef="R_HACD6"/>
           <groups:member groups:name="R00512" groups:idRef="R_CYTK1"/>
-          <groups:member groups:name="R01791" groups:idRef="R_STARCHHY"/>
+          <groups:member groups:name="R01791" groups:idRef="R_DEXHY"/>
           <groups:member groups:name="R05032" groups:idRef="R_UACGAMT"/>
           <groups:member groups:name="R05046" groups:idRef="R_FAPNTPAH"/>
           <groups:member groups:name="R00442" groups:idRef="R_CTPT"/>
@@ -62517,7 +62454,6 @@
           <groups:member groups:name="R00586" groups:idRef="R_SAT"/>
           <groups:member groups:name="R00750" groups:idRef="R_HOPNTAL"/>
           <groups:member groups:name="R01717" groups:idRef="R_ICHORS"/>
-          <groups:member groups:name="R02111" groups:idRef="R_STARCHGT"/>
           <groups:member groups:name="R04111" groups:idRef="R_MALTPT"/>
           <groups:member groups:name="R08559" groups:idRef="R_ACMUMPT"/>
           <groups:member groups:name="R00429" groups:idRef="R_GTPDPK"/>
@@ -62720,7 +62656,6 @@
           <groups:member groups:name="R02485" groups:idRef="R_DCYTD"/>
           <groups:member groups:name="R03921" groups:idRef="R_FFSD"/>
           <groups:member groups:name="R01843" groups:idRef="R_PFK_3"/>
-          <groups:member groups:name="R02421" groups:idRef="R_ADPGLCGT"/>
           <groups:member groups:name="R01138" groups:idRef="R_DAPOP"/>
           <groups:member groups:name="R01432" groups:idRef="R_XYLI1"/>
           <groups:member groups:name="R01870" groups:idRef="R_ORPT"/>
@@ -62885,7 +62820,6 @@
           <groups:member groups:name="R01227" groups:idRef="R_GMP5N"/>
           <groups:member groups:name="R07475" groups:idRef="R_GGTT"/>
           <groups:member groups:name="R07263" groups:idRef="R_SBZCOAHYDRO"/>
-          <groups:member groups:name="R01821" groups:idRef="R_AMYLOSEGT"/>
           <groups:member groups:name="R03243" groups:idRef="R_AOOA"/>
           <groups:member groups:name="R07281" groups:idRef="R_DB4PS"/>
           <groups:member groups:name="R03018" groups:idRef="R_PNTK"/>
