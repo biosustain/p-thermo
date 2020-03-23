@@ -9173,9 +9173,7 @@
       <species metaid="meta_M_atp_c" sboTerm="SBO:0000247" id="M_atp_c" name="ATP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C01641</p>
-            <p>NAME: tRNA(Glu)</p>
-            <p>ChEBI: 29175</p>
+            <p>original_bigg_ids: [&apos;atp_c&apos;]</p>
           </html>
         </notes>
         <annotation>
@@ -9183,17 +9181,36 @@
             <rdf:Description rdf:about="#meta_M_atp_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/trnaglu"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLT-tRNAs"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15175"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29175"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10680"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01641"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM90886"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/379778"/>
-                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/379754"/>
-                  <rdf:li rdf:resource="https://identifiers.org/sabiork/3835"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd11912"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/atp"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ATP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15422"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10789"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10841"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:2359"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22249"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13236"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:237958"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30616"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:57299"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:40938"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00538"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/ZKHQWZAMYRWXGA-KQYNXXCUSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D08646"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/8878982"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/389573"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/8938081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/211579"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/113593"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/113592"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5632460"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5696069"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29358"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/8869363"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/6798184"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/34"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
