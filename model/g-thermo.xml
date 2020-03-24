@@ -25293,8 +25293,10 @@
       <parameter sboTerm="SBO:0000625" id="R_R5PISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_R1PISO_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_R1PISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GADPH_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GADPH_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GAPD_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GAPD_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GAPDH_nadp_hi_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GAPDH_nadp_hi_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DRPA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DRPA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FBA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -35962,7 +35964,49 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GADPH" sboTerm="SBO:0000176" id="R_GADPH" name="R01063" reversible="true" fast="false" fbc:lowerFluxBound="R_GADPH_lower_bound" fbc:upperFluxBound="R_GADPH_upper_bound">
+      <reaction metaid="meta_R_GAPD" sboTerm="SBO:0000176" id="R_GAPD" name="R01061" reversible="true" fast="false" fbc:lowerFluxBound="R_GAPD_lower_bound" fbc:upperFluxBound="R_GAPD_upper_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>SUBSYSTEM: 00010</p>
+            <p>GENE_ASSOCIATION: ( RTMO05021 or RTMO05090 )</p>
+            <p>KEGG ID: R01061</p>
+            <p>ENZYME: 1.2.1.12 1.2.1.59</p>
+            <p>NAME: D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating)</p>
+            <p>DEFINITION: D-Glyceraldehyde 3-phosphate + Orthophosphate + NAD+ ⇌ 3-Phospho-D-glyceroyl phosphate + NADH + H+</p>
+          </html>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_GAPD">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01061"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100040"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.12"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.59"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10300"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_13dpg_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO05021"/>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO05090"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_GAPDH_nadp_hi" sboTerm="SBO:0000176" id="R_GAPDH_nadp_hi" name="R01063" reversible="true" fast="false" fbc:lowerFluxBound="R_GAPDH_nadp_hi_lower_bound" fbc:upperFluxBound="R_GAPDH_nadp_hi_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -35975,7 +36019,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_GADPH">
+            <rdf:Description rdf:about="#meta_R_GAPDH_nadp_hi">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01063"/>
@@ -62013,7 +62057,7 @@
           <groups:member groups:name="R00268" groups:idRef="R_OAACOLY"/>
           <groups:member groups:name="R00014" groups:idRef="R_PDHam1hi"/>
           <groups:member groups:name="R01051" groups:idRef="R_R5PPT"/>
-          <groups:member groups:name="R01063" groups:idRef="R_GADPH"/>
+          <groups:member groups:name="R01063" groups:idRef="R_GAPDH_nadp_hi"/>
           <groups:member groups:name="R02749" groups:idRef="R_PPM2"/>
           <groups:member groups:name="R03270" groups:idRef="R_AHETHMPPR"/>
           <groups:member groups:name="R00200" groups:idRef="R_PYK"/>
@@ -62112,6 +62156,7 @@
       </groups:group>
       <groups:group groups:id="G_00010" groups:name="00010" groups:kind="collection">
         <groups:listOfMembers>
+          <groups:member groups:name="R01061" groups:idRef="R_GAPD"/>
           <groups:member groups:name="R04779" groups:idRef="R_PFK"/>
         </groups:listOfMembers>
       </groups:group>
