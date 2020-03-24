@@ -26269,7 +26269,7 @@
       <parameter sboTerm="SBO:0000625" id="R_MOX_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_G3PL_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NADHQOR_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PGLHY_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PGL_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_MAHMPDC_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GSPMDS_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_OOR3r_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -59268,7 +59268,7 @@
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PGLHY" name="6-Phospho-D-glucono-1,5-lactone lactonohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_PGLHY_upper_bound">
+      <reaction id="R_PGL" name="Spontaneous 6-Phospho-D-glucono-1,5-lactone lactonohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_PGL_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Pentose phosphate pathway</p>
