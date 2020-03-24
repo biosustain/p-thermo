@@ -25190,8 +25190,8 @@
       <parameter sboTerm="SBO:0000625" id="R_MALCOAOR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACCOAC_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_HOPNTAL_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ALCD2ir_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ALCD2ir_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ALCD2x_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ALCD2x_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_G6PDA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_G6PDA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_F6PISO_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25730,8 +25730,8 @@
       <parameter sboTerm="SBO:0000625" id="R_APRAUR_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_APRAUR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DHPPDA2_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PSCIT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PSCIT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PSCVT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PSCVT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_AHMMPPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_AMETLY_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_HPPK2_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -33046,7 +33046,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ALCD2ir" sboTerm="SBO:0000176" id="R_ALCD2ir" name="R00754" reversible="true" fast="false" fbc:lowerFluxBound="R_ALCD2ir_lower_bound" fbc:upperFluxBound="R_ALCD2ir_upper_bound">
+      <reaction metaid="meta_R_ALCD2x" sboTerm="SBO:0000176" id="R_ALCD2x" name="Alcohol dehydrogenase (ethanol)" reversible="true" fast="false" fbc:lowerFluxBound="R_ALCD2x_lower_bound" fbc:upperFluxBound="R_ALCD2x_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -33059,7 +33059,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ALCD2ir">
+            <rdf:Description rdf:about="#meta_R_ALCD2x">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00754"/>
@@ -47295,7 +47295,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01077"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PSCIT" sboTerm="SBO:0000176" id="R_PSCIT" name="R03460" reversible="true" fast="false" fbc:lowerFluxBound="R_PSCIT_lower_bound" fbc:upperFluxBound="R_PSCIT_upper_bound">
+      <reaction metaid="meta_R_PSCVT" sboTerm="SBO:0000176" id="R_PSCVT" name="R03460" reversible="true" fast="false" fbc:lowerFluxBound="R_PSCVT_lower_bound" fbc:upperFluxBound="R_PSCVT_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -47308,7 +47308,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PSCIT">
+            <rdf:Description rdf:about="#meta_R_PSCVT">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03460"/>
@@ -61584,7 +61584,7 @@
           <groups:member groups:name="R03596" groups:idRef="R_SLNTOR"/>
           <groups:member groups:name="R02783" groups:idRef="R_UAMAGS"/>
           <groups:member groups:name="R00967" groups:idRef="R_UTUP"/>
-          <groups:member groups:name="R03460" groups:idRef="R_PSCIT"/>
+          <groups:member groups:name="R03460" groups:idRef="R_PSCVT"/>
           <groups:member groups:name="R00899" groups:idRef="R_AMPTASECG"/>
           <groups:member groups:name="R04519" groups:idRef="R_DTPCUDCPPR"/>
           <groups:member groups:name="R01137" groups:idRef="R_NDPK8"/>
@@ -62101,7 +62101,7 @@
           <groups:member groups:name="R00200" groups:idRef="R_PYK"/>
           <groups:member groups:name="R00341" groups:idRef="R_PPCK"/>
           <groups:member groups:name="R00658" groups:idRef="R_ENO"/>
-          <groups:member groups:name="R00754" groups:idRef="R_ALCD2ir"/>
+          <groups:member groups:name="Alcohol dehydrogenase (ethanol)" groups:idRef="R_ALCD2x"/>
           <groups:member groups:name="R01015" groups:idRef="R_TPI"/>
           <groups:member groups:name="R01827" groups:idRef="R_TALA"/>
           <groups:member groups:name="R01900" groups:idRef="R_ACONTb"/>
