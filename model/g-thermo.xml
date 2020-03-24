@@ -25071,10 +25071,8 @@
       <parameter sboTerm="SBO:0000625" id="R_ALAD_L_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ALAR_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ALAR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SUCLm_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SUCLm_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_QUINOR_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_QUINOR_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SUCOAS_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SUCOAS_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_UAG2EMA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_AAGAMPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_UAG2E_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25379,8 +25377,6 @@
       <parameter sboTerm="SBO:0000625" id="R_AHHST_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SHSL2_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RHCCE_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ACONT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ACONT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACONTa_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACONTa_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EPMGH_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -26276,8 +26272,8 @@
       <parameter sboTerm="SBO:0000625" id="R_PGLHY_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_MAHMPDC_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GSPMDS_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_AKGOR_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_R_SUCOAACTr_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_OOR3r_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SUCOAACTr_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACCOAACT_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ACCOATT_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CTPPCT_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -29853,7 +29849,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00353"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_SUCLm" sboTerm="SBO:0000176" id="R_SUCLm" name="R00405" reversible="true" fast="false" fbc:lowerFluxBound="R_SUCLm_lower_bound" fbc:upperFluxBound="R_SUCLm_upper_bound">
+      <reaction metaid="meta_R_SUCOAS" sboTerm="SBO:0000176" id="R_SUCOAS" name="R00405" reversible="true" fast="false" fbc:lowerFluxBound="R_SUCOAS_lower_bound" fbc:upperFluxBound="R_SUCOAS_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -29866,7 +29862,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_SUCLm">
+            <rdf:Description rdf:about="#meta_R_SUCOAS">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00405"/>
@@ -29895,7 +29891,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_QUINOR" sboTerm="SBO:0000176" id="R_QUINOR" name="R02164" reversible="true" fast="false" fbc:lowerFluxBound="R_QUINOR_lower_bound" fbc:upperFluxBound="R_QUINOR_upper_bound">
+      <reaction metaid="meta_R_SUCDi" sboTerm="SBO:0000176" id="R_SUCDi" name="R02164" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -29908,7 +29904,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_QUINOR">
+            <rdf:Description rdf:about="#meta_R_SUCDi">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02164"/>
@@ -29922,10 +29918,12 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_fum_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_ubiquin_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -38215,41 +38213,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03304"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_ACONT" sboTerm="SBO:0000176" id="R_ACONT" name="R01324" reversible="true" fast="false" fbc:lowerFluxBound="R_ACONT_lower_bound" fbc:upperFluxBound="R_ACONT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO03752</p>
-            <p>KEGG ID: R01324</p>
-            <p>ENZYME: 4.2.1.3</p>
-            <p>NAME: citrate hydroxymutase</p>
-            <p>DEFINITION: Citrate ⇌ Isocitrate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ACONT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01324"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95384"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/10336"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.3"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_cit_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_icit_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO03752"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACONTa" sboTerm="SBO:0000176" id="R_ACONTa" name="R01325" reversible="true" fast="false" fbc:lowerFluxBound="R_ACONTa_lower_bound" fbc:upperFluxBound="R_ACONTa_upper_bound">
@@ -59374,7 +59337,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_AKGOR" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_AKGOR_upper_bound">
+      <reaction id="R_OOR3r" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_OOR3r_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -59402,7 +59365,7 @@
           <speciesReference species="M_fdxrd_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_R_SUCOAACTr" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_R_SUCOAACTr_upper_bound">
+      <reaction id="R_SUCOAACTr" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_SUCOAACTr_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: rn00020</p>
@@ -61812,7 +61775,6 @@
           <groups:member groups:name="R00582" groups:idRef="R_PSP"/>
           <groups:member groups:name="R01863" groups:idRef="R_PUNP5"/>
           <groups:member groups:name="R00160" groups:idRef="R_FADDP"/>
-          <groups:member groups:name="R01324" groups:idRef="R_ACONT"/>
           <groups:member groups:name="R02291" groups:idRef="R_ASAD"/>
           <groups:member groups:name="R02439" groups:idRef="R_RBK_L1"/>
           <groups:member groups:name="R00330" groups:idRef="R_ATGDm"/>
@@ -61849,7 +61811,7 @@
           <groups:member groups:name="R00570" groups:idRef="R_NDPK3"/>
           <groups:member groups:name="R00768" groups:idRef="R_F6PISO"/>
           <groups:member groups:name="R00895" groups:idRef="R_CYSAT"/>
-          <groups:member groups:name="R02164" groups:idRef="R_QUINOR"/>
+          <groups:member groups:name="R02164" groups:idRef="R_SUCDi"/>
           <groups:member groups:name="R00945" groups:idRef="R_GHMT"/>
           <groups:member groups:name="R01859" groups:idRef="R_PPCOAC"/>
           <groups:member groups:name="R04751" groups:idRef="R_HEXOT"/>
@@ -62128,7 +62090,7 @@
           <groups:member groups:name="R01512" groups:idRef="R_PGK"/>
           <groups:member groups:name="R01641" groups:idRef="R_TKT1"/>
           <groups:member groups:name="R04780" groups:idRef="R_FBP"/>
-          <groups:member groups:name="R00405" groups:idRef="R_SUCLm"/>
+          <groups:member groups:name="R00405" groups:idRef="R_SUCOAS"/>
           <groups:member groups:name="R02762" groups:idRef="R_HMSD"/>
           <groups:member groups:name="R01830" groups:idRef="R_TKT2"/>
           <groups:member groups:name="R05132" groups:idRef="R_ARBTPT"/>
