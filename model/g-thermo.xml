@@ -1688,28 +1688,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_fdp_B_c" sboTerm="SBO:0000247" id="M_fdp_B_c" name="beta-D-Fructose-1,6P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H10O12P2">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C05378</p>
-            <p>NAME: beta-D-Fructose 1,6-bisphosphate</p>
-            <p>ChEBI: 28013</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_fdp_B_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05378"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28013"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM90006"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_melt_c" sboTerm="SBO:0000247" id="M_melt_c" name="Melibiitol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H24O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -25326,8 +25304,6 @@
       <parameter sboTerm="SBO:0000625" id="R_DRPA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FBA_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FBA_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FBAf_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FBAf_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ATPPRT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GLUPRT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ANPRT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -25564,7 +25540,7 @@
       <parameter sboTerm="SBO:0000625" id="R_AGDC_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGAMT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FRTT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_F1PPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_FRUK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NTD6_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NTD6_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DADNK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -36146,41 +36122,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03967"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_FBAf" sboTerm="SBO:0000176" id="R_FBAf" name="R01070" reversible="true" fast="false" fbc:lowerFluxBound="R_FBAf_lower_bound" fbc:upperFluxBound="R_FBAf_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: Central Carbon Metabolism</p>
-            <p>GENE_ASSOCIATION: RTMO03967</p>
-            <p>KEGG ID: R01070</p>
-            <p>ENZYME: 4.1.2.13</p>
-            <p>NAME: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)</p>
-            <p>DEFINITION: beta-D-Fructose 1,6-bisphosphate ⇌ Glycerone phosphate + D-Glyceraldehyde 3-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FBAf">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01070"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR99464"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dhap_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO03967"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_ATPPRT" sboTerm="SBO:0000176" id="R_ATPPRT" name="R01071" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ATPPRT_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -42251,7 +42192,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_F1PPT" sboTerm="SBO:0000176" id="R_F1PPT" name="R02071" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_F1PPT_upper_bound">
+      <reaction metaid="meta_R_FRUK" sboTerm="SBO:0000176" id="R_FRUK" name="R02071" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_FRUK_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -42264,7 +42205,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_F1PPT">
+            <rdf:Description rdf:about="#meta_R_FRUK">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02071"/>
@@ -42281,9 +42222,9 @@
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_fdp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01784"/>
@@ -51519,9 +51460,9 @@
           <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_fdp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO05024"/>
@@ -51552,7 +51493,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_fdp_B_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_fdp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
@@ -61610,7 +61551,7 @@
           <groups:member groups:name="R02788" groups:idRef="R_UAMAGLIG"/>
           <groups:member groups:name="R00838" groups:idRef="R_MALTPGH"/>
           <groups:member groups:name="R00897" groups:idRef="R_CYSS"/>
-          <groups:member groups:name="R02071" groups:idRef="R_F1PPT"/>
+          <groups:member groups:name="R02071" groups:idRef="R_FRUK"/>
           <groups:member groups:name="R01000" groups:idRef="R_2HBO"/>
           <groups:member groups:name="R01967" groups:idRef="R_DGNSK"/>
           <groups:member groups:name="R01401" groups:idRef="R_MTAN"/>
@@ -62232,7 +62173,6 @@
           <groups:member groups:name="R02762" groups:idRef="R_HMSD"/>
           <groups:member groups:name="R01830" groups:idRef="R_TKT2"/>
           <groups:member groups:name="R05132" groups:idRef="R_ARBTPT"/>
-          <groups:member groups:name="R01070" groups:idRef="R_FBAf"/>
           <groups:member groups:name="R00344" groups:idRef="R_PC"/>
         </groups:listOfMembers>
       </groups:group>
