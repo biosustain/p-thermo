@@ -24998,8 +24998,6 @@
       <parameter sboTerm="SBO:0000625" id="R_NADK_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NADK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GLUS_nadph_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ATPPT_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ATPPT_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ADK1_lower_bound" value="-20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ADK1_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DPCOAK_upper_bound" value="20" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -26290,7 +26288,6 @@
       <parameter sboTerm="SBO:0000625" id="R_CMTEPISO_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DXYL5PTST_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_LCTST_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ATPTAT_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_LPROQOR_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_BTNLIG_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_BTN5AMPL_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -26387,6 +26384,7 @@
       <parameter sboTerm="SBO:0000625" id="R_AMYt_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_amylose_e_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PYRt_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ATPTAT_upper_bound" value="10000" units="mmol_per_gDW_per_hr" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction metaid="meta_R_IDPh" sboTerm="SBO:0000176" id="R_IDPh" name="R00004" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_IDPh_upper_bound">
@@ -27147,41 +27145,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_RTMO00694"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO01425"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO01424"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_ATPPT" sboTerm="SBO:0000176" id="R_ATPPT" name="R00124" reversible="true" fast="false" fbc:lowerFluxBound="R_ATPPT_lower_bound" fbc:upperFluxBound="R_ATPPT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO05248 or RTMO04294 )</p>
-            <p>KEGG ID: R00124</p>
-            <p>ENZYME: 2.7.4.6</p>
-            <p>NAME: ATP:ADP phosphatransferase</p>
-            <p>DEFINITION: ATP + ADP ⇌ ADP + ATP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ATPPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00124"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO05248"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04294"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -58974,31 +58937,6 @@
           <speciesReference species="M_ala__L_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ATPTAT" name="ATP:[ThiS] adenylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_ATPTAT_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: rn00730</p>
-            <p>GENE_ASSOCIATION: Gthg00000</p>
-            <p>DEFINITION: C15810 + ATP ⇌ C15813 + Diphosphate</p>
-            <p>ENZYME: 2.7.7.73</p>
-            <p>EQUATION: C15810 + C00002 ⇌ C15813 + C00013</p>
-            <p>ID: R07459</p>
-            <p>NAME: ATP:[ThiS] adenylyltransferase</p>
-            <p>ORTHOLOGY: K03148 sulfur carrier protein ThiS adenylyltransferase [EC:2.7.7.73]</p>
-            <p>PATHWAY: rn00730 Thiamine metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00009 C00002_C00013 leave</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_scpgg_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ascp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
       <reaction id="R_LPROQOR" name="L-proline:quinone oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_LPROQOR_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -60532,6 +60470,31 @@
           <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction id="R_ATPTAT" name="ATP:[ThiS] adenylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="R_ATPTAT_upper_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>SUBSYSTEM: rn00730</p>
+            <p>GENE_ASSOCIATION: Gthg00000</p>
+            <p>DEFINITION: C15810 + ATP ⇌ C15813 + Diphosphate</p>
+            <p>ENZYME: 2.7.7.73</p>
+            <p>EQUATION: C15810 + C00002 ⇌ C15813 + C00013</p>
+            <p>ID: R07459</p>
+            <p>NAME: ATP:[ThiS] adenylyltransferase</p>
+            <p>ORTHOLOGY: K03148 sulfur carrier protein ThiS adenylyltransferase [EC:2.7.7.73]</p>
+            <p>PATHWAY: rn00730 Thiamine metabolism; rn01100 Metabolic pathways</p>
+            <p>RPAIR: RP00009 C00002_C00013 leave</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_scpgg_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ascp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -61994,7 +61957,6 @@
           <groups:member groups:name="R00848" groups:idRef="R_G3PD"/>
           <groups:member groups:name="R03222" groups:idRef="R_PPPGO_1"/>
           <groups:member groups:name="R05225" groups:idRef="R_ACDAH"/>
-          <groups:member groups:name="R00124" groups:idRef="R_ATPPT"/>
           <groups:member groups:name="R07302" groups:idRef="R_ADCPS1"/>
           <groups:member groups:name="R00104" groups:idRef="R_NADK"/>
           <groups:member groups:name="R01034" groups:idRef="R_GLYCDx"/>
