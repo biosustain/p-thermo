@@ -14167,28 +14167,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_alac__S_b_c" sboTerm="SBO:0000247" id="M_alac__S_b_c" name="2-Acetolactate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H7O4">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C00900</p>
-            <p>NAME: 2-Acetolactate</p>
-            <p>ChEBI: 16444</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_alac__S_b_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00900"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16444"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM426"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_dhpt_c" sboTerm="SBO:0000247" id="M_dhpt_c" name="Dihydropteroate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C14H13N6O3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -21591,46 +21569,6 @@
           <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO00131"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO05104"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_PYRACTT" sboTerm="SBO:0000176" id="R_PYRACTT" name="R00006" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: 00770</p>
-            <p>GENE_ASSOCIATION: ( RTMO02719 or RTMO02716 or RTMO00549 )</p>
-            <p>KEGG ID: R00006</p>
-            <p>ENZYME: 2.2.1.6</p>
-            <p>NAME: pyruvate:pyruvate acetaldehydetransferase (decarboxylating); 2-acetolactate pyruvate-lyase (carboxylating)</p>
-            <p>DEFINITION: 2-Acetolactate + CO2 ⇌ 2 Pyruvate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PYRACTT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00006"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106335"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/20501"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pyr_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_alac__S_b_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02719"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02716"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00549"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -40817,45 +40755,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03326"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ALACPH" sboTerm="SBO:0000176" id="R_ALACPH" name="R03050" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO00549 or RTMO02719 or RTMO02716 )</p>
-            <p>KEGG ID: R03050</p>
-            <p>ENZYME: 2.2.1.6</p>
-            <p>NAME: 2-Acetolactate pyruvate-lyase (carboxylating)</p>
-            <p>DEFINITION: 2-Acetolactate + Thiamin diphosphate ⇌ 2-(alpha-Hydroxyethyl)thiamine diphosphate + Pyruvate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ALACPH">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03050"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR107912"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_alac__S_b_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_thmpp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_2ahethmpp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00549"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02719"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02716"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_DHMBISO" sboTerm="SBO:0000176" id="R_DHMBISO" name="R03051" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -40882,7 +40781,7 @@
         <listOfReactants>
           <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_alac__S_b_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_alac__S_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
@@ -44872,7 +44771,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02723"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DMORh" sboTerm="SBO:0000176" id="R_DMORh" name="R04439" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_KARA1" sboTerm="SBO:0000176" id="R_KARA1" name="R04439" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -44885,7 +44784,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DMORh">
+            <rdf:Description rdf:about="#meta_R_KARA1">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04439"/>
@@ -54016,34 +53915,6 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PYRACT" name="pyruvate:pyruvate acetaldehydetransferase (decarboxylating);; (S)-2-acetolactate pyruvate-lyase (carboxylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: Butanoate metabolism</p>
-            <p>GENE_ASSOCIATION: ( Gthg02903 or Gthg02904 )</p>
-            <p>COMMENT: TPP-dependent enzymatic reaction (R00014+R04672)</p>
-            <p>DEFINITION: (S)-2-Acetolactate + CO2 ⇌ 2 Pyruvate</p>
-            <p>ENTRY: R00226 Reaction</p>
-            <p>ENZYME: 2.2.1.6</p>
-            <p>EQUATION: C06010 + C00011 ⇌ 2 C00022</p>
-            <p>EQUATION_USED_HEREIN: C06010 + C00011 ⇌ 2 C00022</p>
-            <p>ID: R00226</p>
-            <p>MODULE: M00019 Valine/isoleucine biosynthesis, pyruvate → valine / 2-oxobutanoate → isoleucine</p>
-            <p>NAME: pyruvate:pyruvate acetaldehydetransferase (decarboxylating);; (S)-2-acetolactate pyruvate-lyase (carboxylating)</p>
-            <p>ORTHOLOGY: K11258 acetolactate synthase II small subunit [EC:2.2.1.6]; K01652 acetolactate synthase I/II/III large subunit [EC:2.2.1.6]; K01653 acetolactate synthase I/III small subunit [EC:2.2.1.6]</p>
-            <p>PATHWAY: rn01100 Metabolic pathways; rn00290 Valine, leucine and isoleucine biosynthesis; rn01210 2-Oxocarboxylic acid metabolism; rn01230 Biosynthesis of amino acids; rn01130 Biosynthesis of antibiotics; rn00650 Butanoate metabolism; rn00660 C5-Branched dibasic acid metabolism; rn01110 Biosynthesis of secondary metabolites</p>
-            <p>RPAIR: RP00291 C00022_C06010 main [RC:RC00106]; RP05698 C00011_C00022 leave; RP12734 C00022_C06010 trans</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_pyr_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_alac__S_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
       <reaction id="R_ACEDIA" name="Acetolactate to Diacetyl" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -56421,7 +56292,6 @@
           <groups:member groups:name="R01567" groups:idRef="R_TMDK1"/>
           <groups:member groups:name="R02926" groups:idRef="R_MELTGH"/>
           <groups:member groups:name="R01504" groups:idRef="R_DHBS"/>
-          <groups:member groups:name="R03050" groups:idRef="R_ALACPH"/>
           <groups:member groups:name="R04150" groups:idRef="R_NPHS"/>
           <groups:member groups:name="R06096" groups:idRef="R_MANNHY"/>
           <groups:member groups:name="R03004" groups:idRef="R_DNADDP"/>
@@ -56479,7 +56349,7 @@
           <groups:member groups:name="R04325" groups:idRef="R_FPGFTh"/>
           <groups:member groups:name="R01655" groups:idRef="R_MTHFC"/>
           <groups:member groups:name="R02372" groups:idRef="R_DUTCP"/>
-          <groups:member groups:name="R04439" groups:idRef="R_DMORh"/>
+          <groups:member groups:name="R04439" groups:idRef="R_KARA1"/>
           <groups:member groups:name="R05227" groups:idRef="R_COCHL"/>
           <groups:member groups:name="R03425" groups:idRef="R_GCCa"/>
           <groups:member groups:name="R01535" groups:idRef="R_UAGUDPGPTRANS"/>
@@ -56510,11 +56380,7 @@
           <groups:member groups:name="R01373" groups:idRef="R_PPNDH"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00770" groups:name="00770" groups:kind="collection">
-        <groups:listOfMembers>
-          <groups:member groups:name="R00006" groups:idRef="R_PYRACTT"/>
-        </groups:listOfMembers>
-      </groups:group>
+      <groups:group groups:id="G_00770" groups:name="00770" groups:kind="collection"/>
       <groups:group groups:id="G_Central__32__Carbon__32__Metabolism" groups:name="Central Carbon Metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00351" groups:idRef="R_CS"/>
