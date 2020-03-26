@@ -21517,6 +21517,7 @@
       <parameter sboTerm="SBO:0000626" id="cobra_0_bound" value="0" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="minus_inf" value="-INF" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="plus_inf" value="INF" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ATPM_lower_bound" value="1.53" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_glc__D_e_lower_bound" value="-10" units="mmol_per_gDW_per_hr" constant="true"/>
     </listOfParameters>
     <listOfReactions>
@@ -22038,7 +22039,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03024"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ATPM" sboTerm="SBO:0000176" id="R_ATPM" name="R00086" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ATPM" sboTerm="SBO:0000176" id="R_ATPM" name="R00086" reversible="false" fast="false" fbc:lowerFluxBound="R_ATPM_lower_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -52917,38 +52918,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NGAM" sboTerm="SBO:0000176" id="R_NGAM" name="RNGAM" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: NGAM reaction</p>
-            <p>GENE_ASSOCIATION: RTMO12345</p>
-            <p>KEGG ID: RNGAM</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_NGAM">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/RNGAM"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_ACSERT" sboTerm="SBO:0000176" id="R_ACSERT" name="R10305" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -56741,11 +56710,7 @@
           <groups:member groups:name="R01688" groups:idRef="R_BUTPT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_NGAM__32__reaction" groups:name="NGAM reaction" groups:kind="collection">
-        <groups:listOfMembers>
-          <groups:member groups:name="RNGAM" groups:idRef="R_NGAM"/>
-        </groups:listOfMembers>
-      </groups:group>
+      <groups:group groups:id="G_NGAM__32__reaction" groups:name="NGAM reaction" groups:kind="collection"/>
       <groups:group groups:id="G_S_" groups:name="S_" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="Transport of metabolite co2_e" groups:idRef="R_CO2t"/>
