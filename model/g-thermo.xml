@@ -4821,7 +4821,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_r5p_c" sboTerm="SBO:0000247" id="M_r5p_c" name="D-Ribose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
+      <species metaid="meta_M_r5p_c" sboTerm="SBO:0000247" id="M_r5p_c" name="D-Ribose 5-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00117</p>
@@ -4949,7 +4949,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_prpp_c" sboTerm="SBO:0000247" id="M_prpp_c" name="5-Phospho-alpha-D-ribose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C5H10O14P3">
+      <species metaid="meta_M_prpp_c" sboTerm="SBO:0000247" id="M_prpp_c" name="5-Phospho-alpha-D-ribose 1-diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C5H10O14P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00119</p>
@@ -8719,7 +8719,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_actp_c" sboTerm="SBO:0000247" id="M_actp_c" name="Acetyl" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C2H4O5P">
+      <species metaid="meta_M_actp_c" sboTerm="SBO:0000247" id="M_actp_c" name="Acetyl phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C2H4O5P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00227</p>
@@ -13268,7 +13268,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_2dr5p_c" sboTerm="SBO:0000247" id="M_2dr5p_c" name="2-Deoxy-D-ribose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O7P">
+      <species metaid="meta_M_2dr5p_c" sboTerm="SBO:0000247" id="M_2dr5p_c" name="2-Deoxy-D-ribose 5-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O7P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00673</p>
@@ -21043,7 +21043,7 @@
           </html>
         </notes>
       </species>
-      <species id="M_acetone_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H6O">
+      <species id="M_acetone_c" name="Acetone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H6O">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00207</p>
@@ -22433,7 +22433,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ANNAT" sboTerm="SBO:0000176" id="R_ANNAT" name="R00137" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NMNAT" sboTerm="SBO:0000176" id="R_NMNAT" name="R00137" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -22446,7 +22446,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ANNAT">
+            <rdf:Description rdf:about="#meta_R_NMNAT">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00137"/>
@@ -22903,7 +22903,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02286"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PYK" sboTerm="SBO:0000176" id="R_PYK" name="R00200" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PYK" sboTerm="SBO:0000176" id="R_PYK" name="R00200" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -25320,7 +25320,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04290"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GTPDPK" sboTerm="SBO:0000176" id="R_GTPDPK" name="R00429" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GTPDPK" sboTerm="SBO:0000176" id="R_GTPDPK" name="R00429" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -26256,7 +26256,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01021"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_CYTDK1" sboTerm="SBO:0000176" id="R_CYTDK1" name="R00513" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CYTDK1" sboTerm="SBO:0000176" id="R_CYTDK1" name="R00513" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -26404,7 +26404,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00678"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_RBFK" sboTerm="SBO:0000176" id="R_RBFK" name="R00549" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_RBFK" sboTerm="SBO:0000176" id="R_RBFK" name="R00549" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -26639,7 +26639,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02253"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_CTPS2" sboTerm="SBO:0000176" id="R_CTPS2" name="R00573" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CTPS2" sboTerm="SBO:0000176" id="R_CTPS2" name="R00573" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -26728,7 +26728,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ASNS1" sboTerm="SBO:0000176" id="R_ASNS1" name="R00578" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ASNS1" sboTerm="SBO:0000176" id="R_ASNS1" name="R00578" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -26961,7 +26961,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04039"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_TMPK" sboTerm="SBO:0000176" id="R_TMPK" name="R00617" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TMPK" sboTerm="SBO:0000176" id="R_TMPK" name="R00617" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -29047,7 +29047,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01003"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GLYK" sboTerm="SBO:0000176" id="R_GLYK" name="R00847" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GLYK" sboTerm="SBO:0000176" id="R_GLYK" name="R00847" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -29957,7 +29957,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02100"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_FTHFLi" sboTerm="SBO:0000176" id="R_FTHFLi" name="R00943" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_FTHFLi" sboTerm="SBO:0000176" id="R_FTHFLi" name="R00943" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -30227,7 +30227,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_URIK1" sboTerm="SBO:0000176" id="R_URIK1" name="R00964" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_URIK1" sboTerm="SBO:0000176" id="R_URIK1" name="R00964" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -30882,7 +30882,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_R5PPPT" sboTerm="SBO:0000176" id="R_R5PPPT" name="R01049" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_R5PPPT" sboTerm="SBO:0000176" id="R_R5PPPT" name="R01049" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -30919,7 +30919,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02943"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_R5PPT" sboTerm="SBO:0000176" id="R_R5PPT" name="R01051" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_R5PPT" sboTerm="SBO:0000176" id="R_R5PPT" name="R01051" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -32832,7 +32832,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GMPS" sboTerm="SBO:0000176" id="R_GMPS" name="R01230" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GMPS" sboTerm="SBO:0000176" id="R_GMPS" name="R01230" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -33945,7 +33945,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DHBS" sboTerm="SBO:0000176" id="R_DHBS" name="R01504" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DHBS" sboTerm="SBO:0000176" id="R_DHBS" name="R01504" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -34291,7 +34291,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02544"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ATDAMh" sboTerm="SBO:0000176" id="R_ATDAMh" name="R01547" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DADK" sboTerm="SBO:0000176" id="R_DADK" name="R01547" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -34304,7 +34304,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ATDAMh">
+            <rdf:Description rdf:about="#meta_R_DADK">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01547"/>
@@ -34439,7 +34439,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_TMDK1" sboTerm="SBO:0000176" id="R_TMDK1" name="R01567" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TMDK1" sboTerm="SBO:0000176" id="R_TMDK1" name="R01567" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -34634,7 +34634,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO012345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_XYLK" sboTerm="SBO:0000176" id="R_XYLK" name="R01639" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_XYLK" sboTerm="SBO:0000176" id="R_XYLK" name="R01639" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -35242,7 +35242,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NAMNPP" sboTerm="SBO:0000176" id="R_NAMNPP" name="R01724" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NAMNPP" sboTerm="SBO:0000176" id="R_NAMNPP" name="R01724" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -36005,7 +36005,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04464"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PFK_3" sboTerm="SBO:0000176" id="R_PFK_3" name="R01843" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PFK_3" sboTerm="SBO:0000176" id="R_PFK_3" name="R01843" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -36466,7 +36466,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03752"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_XYLUPT" sboTerm="SBO:0000176" id="R_XYLUPT" name="R01902" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_XYLUPT" sboTerm="SBO:0000176" id="R_XYLUPT" name="R01902" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -36582,7 +36582,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02414"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DGNSK" sboTerm="SBO:0000176" id="R_DGNSK" name="R01967" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DGNSK" sboTerm="SBO:0000176" id="R_DGNSK" name="R01967" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -37622,7 +37622,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DURIK1" sboTerm="SBO:0000176" id="R_DURIK1" name="R02099" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DURIK1" sboTerm="SBO:0000176" id="R_DURIK1" name="R02099" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -38990,7 +38990,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04918"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_RBK_L1" sboTerm="SBO:0000176" id="R_RBK_L1" name="R02439" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_RBK_L1" sboTerm="SBO:0000176" id="R_RBK_L1" name="R02439" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -40198,7 +40198,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01099"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DRBK" sboTerm="SBO:0000176" id="R_DRBK" name="R02750" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DRBK" sboTerm="SBO:0000176" id="R_DRBK" name="R02750" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -40711,7 +40711,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PNTK" sboTerm="SBO:0000176" id="R_PNTK" name="R03018" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PNTK" sboTerm="SBO:0000176" id="R_PNTK" name="R03018" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -42499,7 +42499,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HPPK2" sboTerm="SBO:0000176" id="R_HPPK2" name="R03503" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HPPK2" sboTerm="SBO:0000176" id="R_HPPK2" name="R03503" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -45025,7 +45025,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01987"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HETZK" sboTerm="SBO:0000176" id="R_HETZK" name="R04448" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HETZK" sboTerm="SBO:0000176" id="R_HETZK" name="R04448" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -45524,7 +45524,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PRAISh" sboTerm="SBO:0000176" id="R_PRAISh" name="R04591" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PRAISh" sboTerm="SBO:0000176" id="R_PRAISh" name="R04591" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -49987,7 +49987,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AIRLIG" sboTerm="SBO:0000176" id="R_AIRLIG" name="R07404" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AIRLIG" sboTerm="SBO:0000176" id="R_AIRLIG" name="R07404" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -52881,7 +52881,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_BUTPT" sboTerm="SBO:0000176" id="R_BUTPT" name="R01688" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_BUTPT" sboTerm="SBO:0000176" id="R_BUTPT" name="R01688" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Butanoate Metabolism</p>
@@ -53512,7 +53512,7 @@
           <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_BTNLIG" name="biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_BTNLIG" name="biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -53793,7 +53793,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GSPMDS" name="R01917" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_GSPMDS" name="R01917" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -54214,7 +54214,7 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACTCO2L" name="acetone:carbon-dioxide ligase (AMP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_ACTCO2L" name="acetone:carbon-dioxide ligase (AMP-forming)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Butanoate metabolism</p>
@@ -56257,7 +56257,7 @@
           <groups:member groups:name="R00551" groups:idRef="R_ARGN"/>
           <groups:member groups:name="R01016" groups:idRef="R_MGSA"/>
           <groups:member groups:name="R05222" groups:idRef="R_ACBIPGT"/>
-          <groups:member groups:name="R00137" groups:idRef="R_ANNAT"/>
+          <groups:member groups:name="R00137" groups:idRef="R_NMNAT"/>
           <groups:member groups:name="R01353" groups:idRef="R_PPAPPT"/>
           <groups:member groups:name="R00307" groups:idRef="R_XYLI2"/>
           <groups:member groups:name="R00582" groups:idRef="R_PSP"/>
@@ -56487,7 +56487,7 @@
           <groups:member groups:name="R00365" groups:idRef="R_GLYOR"/>
           <groups:member groups:name="R00243" groups:idRef="R_GDH"/>
           <groups:member groups:name="R07238" groups:idRef="R_AHCYSMETTRANS"/>
-          <groups:member groups:name="R01547" groups:idRef="R_ATDAMh"/>
+          <groups:member groups:name="R01547" groups:idRef="R_DADK"/>
           <groups:member groups:name="R00194" groups:idRef="R_AHCYSNS"/>
           <groups:member groups:name="R02601" groups:idRef="R_OP4ENLY"/>
           <groups:member groups:name="R05219" groups:idRef="R_R05219"/>
