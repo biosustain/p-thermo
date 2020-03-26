@@ -3805,28 +3805,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_glu__DL_c" sboTerm="SBO:0000247" id="M_glu__DL_c" name="DL-Glutamate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H9NO4">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C00302</p>
-            <p>NAME: Glutamate; Glutaminic acid; 2-Aminoglutaric acid</p>
-            <p>ChEBI: 18237</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_glu__DL_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00302"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18237"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM89557"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_selcyst_c" sboTerm="SBO:0000247" id="M_selcyst_c" name="L-Selenocystathionine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H14N2O4Se">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20067,7 +20045,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_h_e" sboTerm="SBO:0000247" id="M_h_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
+      <species metaid="meta_M_h_e" sboTerm="SBO:0000247" id="M_h_e" name="Proton" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00080</p>
@@ -21510,6 +21488,61 @@
       </species>
       <species id="M_amylose_e" name="Amylose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C30H52O26"/>
       <species id="M_pyr_e" name="Pyruvate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H3O3"/>
+      <species id="M_for_e" name="Formate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="CHO2"/>
+      <species metaid="meta_M_pi_e" sboTerm="SBO:0000247" id="M_pi_e" name="Phosphate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="HO4P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_pi_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/pi"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Pi"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-16459"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:PHOSPHATE-GROUP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26078"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18367"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29139"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39739"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:43470"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:35780"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:43474"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26020"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:45024"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39745"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29137"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:14791"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:7793"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/650babc9-9d68-4b73-9332-11972ca26f7b/compound/db5219ee-60cb-4370-b066-340c9faf069c"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/5882df9c-dae1-4d80-a40e-db4724271456/compound/84684967-eade-48d4-b25d-c4aede0a0836"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/5882df9c-dae1-4d80-a40e-db4724271456/compound/ad82c39b-2edb-4953-b971-79a2d2ea6e26"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/650babc9-9d68-4b73-9332-11972ca26f7b/compound/aac01fea-4223-49c1-8b12-cd50f11ebfc8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/c581b2ce-6238-45de-abc0-60ca8d47ed04"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB02105"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00973"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB01429"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB02142"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB05947"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/NBIIXXVUZAFLBC-UHFFFAOYSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00009"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D05467"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5228339"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/113550"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/8851513"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/113551"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/109277"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29372"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/8851226"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/113548"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/36"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd27787"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -22278,41 +22311,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_RTMO00694"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO01425"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO01424"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_ATPPT" sboTerm="SBO:0000176" id="R_ATPPT" name="R00124" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO05248 or RTMO04294 )</p>
-            <p>KEGG ID: R00124</p>
-            <p>ENZYME: 2.7.4.6</p>
-            <p>NAME: ATP:ADP phosphatransferase</p>
-            <p>DEFINITION: ATP + ADP ⇌ ADP + ATP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ATPPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00124"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO05248"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04294"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -23772,7 +23770,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02705"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ICDHhr" sboTerm="SBO:0000176" id="R_ICDHhr" name="R00267" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ICDHyr" sboTerm="SBO:0000176" id="R_ICDHyr" name="R00267" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -23785,7 +23783,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ICDHhr">
+            <rdf:Description rdf:about="#meta_R_ICDHyr">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00267"/>
@@ -29316,45 +29314,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ACYSAT" sboTerm="SBO:0000176" id="R_ACYSAT" name="R00896" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO04309 or RTMO03310 )</p>
-            <p>KEGG ID: R00896</p>
-            <p>ENZYME: 2.6.1.1</p>
-            <p>NAME: L-cysteine:2-oxoglutarate aminotransferase</p>
-            <p>DEFINITION: L-Cysteine + 2-Oxoglutarate ⇌ Mercaptopyruvate + Glutamate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ACYSAT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00896"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96990"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_cys__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_akg_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_mercppyr_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu__DL_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04309"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03310"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_CYSS" sboTerm="SBO:0000176" id="R_CYSS" name="R00897" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31054,7 +31013,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_R5PISO" sboTerm="SBO:0000176" id="R_R5PISO" name="R01056" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_RPI" sboTerm="SBO:0000176" id="R_RPI" name="R01056" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -31067,7 +31026,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_R5PISO">
+            <rdf:Description rdf:about="#meta_R_RPI">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01056"/>
@@ -55034,6 +54993,29 @@
           <speciesReference species="M_pyr_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction id="R_FORt" name="Transport of formate via proton symport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_for_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_for_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PIt" name="Transport of phosphate" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_pi_e" sboTerm="SBO:0000627" id="R_EX_pi_e" name="Phosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -56315,7 +56297,6 @@
           <groups:member groups:name="R02780" groups:idRef="R_TREPT"/>
           <groups:member groups:name="R04738" groups:idRef="R_ECOAH7"/>
           <groups:member groups:name="R05224" groups:idRef="R_HGBYR"/>
-          <groups:member groups:name="R00896" groups:idRef="R_ACYSAT"/>
           <groups:member groups:name="R01654" groups:idRef="R_FTHFLIG"/>
           <groups:member groups:name="R02235" groups:idRef="R_DHFOR"/>
           <groups:member groups:name="R04364" groups:idRef="R_APATi"/>
@@ -56389,7 +56370,7 @@
           <groups:member groups:name="R04420" groups:idRef="R_MTRI"/>
           <groups:member groups:name="R07394" groups:idRef="R_2OH3K5MPPISO"/>
           <groups:member groups:name="R08549" groups:idRef="R_AKGDH"/>
-          <groups:member groups:name="R00267" groups:idRef="R_ICDHhr"/>
+          <groups:member groups:name="R00267" groups:idRef="R_ICDHyr"/>
           <groups:member groups:name="R02096" groups:idRef="R_DTTGY"/>
           <groups:member groups:name="R02091" groups:idRef="R_DGTCY"/>
           <groups:member groups:name="R00260" groups:idRef="R_GLUR"/>
@@ -56497,7 +56478,6 @@
           <groups:member groups:name="R00848" groups:idRef="R_G3PD"/>
           <groups:member groups:name="R03222" groups:idRef="R_PPPGO_1"/>
           <groups:member groups:name="R05225" groups:idRef="R_ACDAH"/>
-          <groups:member groups:name="R00124" groups:idRef="R_ATPPT"/>
           <groups:member groups:name="R07302" groups:idRef="R_ADCPS1"/>
           <groups:member groups:name="R00104" groups:idRef="R_NADK"/>
           <groups:member groups:name="R01034" groups:idRef="R_GLYCDx"/>
@@ -56591,7 +56571,7 @@
           <groups:member groups:name="R04394" groups:idRef="R_SALCNPT"/>
           <groups:member groups:name="R00703" groups:idRef="R_LDH_L"/>
           <groups:member groups:name="R00235" groups:idRef="R_ACS"/>
-          <groups:member groups:name="R01056" groups:idRef="R_R5PISO"/>
+          <groups:member groups:name="R01056" groups:idRef="R_RPI"/>
           <groups:member groups:name="R02750" groups:idRef="R_DRBK"/>
           <groups:member groups:name="R01325" groups:idRef="R_ACONTa"/>
           <groups:member groups:name="R08572" groups:idRef="R_GLYCK2"/>
