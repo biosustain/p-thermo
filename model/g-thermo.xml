@@ -30090,7 +30090,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UTUP" sboTerm="SBO:0000176" id="R_UTUP" name="R00967" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UTUP" sboTerm="SBO:0000176" id="R_UTUP" name="R00967" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -30125,7 +30125,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_URIK2" sboTerm="SBO:0000176" id="R_URIK2" name="R00968" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_URIK2" sboTerm="SBO:0000176" id="R_URIK2" name="R00968" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -30161,7 +30161,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_URIK3" sboTerm="SBO:0000176" id="R_URIK3" name="R00970" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_URIK3" sboTerm="SBO:0000176" id="R_URIK3" name="R00970" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -34074,41 +34074,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DATUP" sboTerm="SBO:0000176" id="R_DATUP" name="R01549" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04933</p>
-            <p>KEGG ID: R01549</p>
-            <p>ENZYME: 2.7.1.48</p>
-            <p>NAME: dATP:uridine 5’-phosphotransferase</p>
-            <p>DEFINITION: dATP + Uridine ⇌ dADP + UMP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DATUP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01549"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97177"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_uri_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_datp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ump_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dadp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_PUNP1" sboTerm="SBO:0000176" id="R_PUNP1" name="R01561" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -36069,41 +36034,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04889"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DGTUP" sboTerm="SBO:0000176" id="R_DGTUP" name="R01880" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04933</p>
-            <p>KEGG ID: R01880</p>
-            <p>ENZYME: 2.7.1.48</p>
-            <p>NAME: dGTP:uridine 5’-phosphotransferase</p>
-            <p>DEFINITION: dGTP + Uridine ⇌ dGDP + UMP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DGTUP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01880"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97351"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_dgtp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_uri_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ump_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dgdp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_ISOCITOR" sboTerm="SBO:0000176" id="R_ISOCITOR" name="R01899" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -37253,41 +37183,6 @@
         <listOfProducts>
           <speciesReference species="M_dtdp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cmp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_DTTUP" sboTerm="SBO:0000176" id="R_DTTUP" name="R02097" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04933</p>
-            <p>KEGG ID: R02097</p>
-            <p>ENZYME: 2.7.1.48</p>
-            <p>NAME: dTTP:uridine 5’-phosphotransferase</p>
-            <p>DEFINITION: dTTP + Uridine ⇌ dTDP + UMP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DTTUP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02097"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97811"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_dttp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_uri_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ump_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dtdp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
@@ -38446,41 +38341,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DCTUP" sboTerm="SBO:0000176" id="R_DCTUP" name="R02327" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04933</p>
-            <p>KEGG ID: R02327</p>
-            <p>ENZYME: 2.7.1.48</p>
-            <p>NAME: dCTP:uridine 5’-phosphotransferase</p>
-            <p>DEFINITION: dCTP + Uridine ⇌ dCDP + UMP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DCTUP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02327"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97206"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_dctp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_uri_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ump_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dcdp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_NDPK6" sboTerm="SBO:0000176" id="R_NDPK6" name="R02331" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -38519,41 +38379,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_RTMO05248"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO04294"/>
           </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_DUTUP" sboTerm="SBO:0000176" id="R_DUTUP" name="R02332" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04933</p>
-            <p>KEGG ID: R02332</p>
-            <p>ENZYME: 2.7.1.48</p>
-            <p>NAME: dUTP:uridine 5’-phosphotransferase</p>
-            <p>DEFINITION: dUTP + Uridine ⇌ dUDP + UMP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DUTUP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02332"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97823"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_uri_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dutp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ump_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dudp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DCTCP" sboTerm="SBO:0000176" id="R_DCTCP" name="R02371" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -55830,7 +55655,6 @@
           <groups:member groups:name="R03545" groups:idRef="R_ALCD4y"/>
           <groups:member groups:name="R00230" groups:idRef="R_PTAr"/>
           <groups:member groups:name="R10305" groups:idRef="R_ACSERT"/>
-          <groups:member groups:name="R02327" groups:idRef="R_DCTUP"/>
           <groups:member groups:name="R03346" groups:idRef="R_NT5C"/>
           <groups:member groups:name="R01397" groups:idRef="R_ASPCT"/>
           <groups:member groups:name="R00485" groups:idRef="R_ASNN"/>
@@ -56061,7 +55885,6 @@
           <groups:member groups:name="R01172" groups:idRef="R_BNOR"/>
           <groups:member groups:name="R03035" groups:idRef="R_APPAT"/>
           <groups:member groups:name="R07168" groups:idRef="R_MTHFO"/>
-          <groups:member groups:name="R01549" groups:idRef="R_DATUP"/>
           <groups:member groups:name="R08750" groups:idRef="R_DTPCHEXPPCT"/>
           <groups:member groups:name="R01975" groups:idRef="R_HACD1"/>
           <groups:member groups:name="R06530" groups:idRef="R_THRPD"/>
@@ -56097,7 +55920,6 @@
           <groups:member groups:name="R00946" groups:idRef="R_METS"/>
           <groups:member groups:name="R00248" groups:idRef="R_GDH_nadp"/>
           <groups:member groups:name="R03013" groups:idRef="R_HISTP"/>
-          <groups:member groups:name="R01880" groups:idRef="R_DGTUP"/>
           <groups:member groups:name="R00494" groups:idRef="R_GGTAe2"/>
           <groups:member groups:name="R04031" groups:idRef="R_SUCBZS"/>
           <groups:member groups:name="R00036" groups:idRef="R_PPBNGS"/>
@@ -56128,7 +55950,6 @@
           <groups:member groups:name="R04208" groups:idRef="R_FPRAMLIG"/>
           <groups:member groups:name="R03544" groups:idRef="R_ALCD4"/>
           <groups:member groups:name="R04148" groups:idRef="R_NNDMBRT"/>
-          <groups:member groups:name="R02097" groups:idRef="R_DTTUP"/>
           <groups:member groups:name="R00922" groups:idRef="R_MMSAD1"/>
           <groups:member groups:name="R01398" groups:idRef="R_OCBT"/>
           <groups:member groups:name="R00366" groups:idRef="R_GLYO1"/>
@@ -56141,7 +55962,6 @@
           <groups:member groups:name="R02601" groups:idRef="R_OP4ENLY"/>
           <groups:member groups:name="R05219" groups:idRef="R_R05219"/>
           <groups:member groups:name="R00578" groups:idRef="R_ASNS1"/>
-          <groups:member groups:name="R02332" groups:idRef="R_DUTUP"/>
           <groups:member groups:name="R00939" groups:idRef="R_DHFR"/>
           <groups:member groups:name="R01639" groups:idRef="R_XYLK"/>
           <groups:member groups:name="R03217" groups:idRef="R_AHSL"/>
