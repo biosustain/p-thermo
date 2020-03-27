@@ -577,7 +577,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3opalmACP_c" sboTerm="SBO:0000247" id="M_3opalmACP_c" name="3-Oxohexadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H29O2SR">
+      <species metaid="meta_M_3oxhdacp" sboTerm="SBO:0000247" id="M_3oxhdacp" name="3-Oxohexadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H29O2SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C05762</p>
@@ -587,7 +587,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_3opalmACP_c">
+            <rdf:Description rdf:about="#meta_M_3oxhdacp">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05762"/>
@@ -8815,7 +8815,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_sucsal_c" sboTerm="SBO:0000247" id="M_sucsal_c" name="Succinate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C4H5O3">
+      <species metaid="meta_M_sucsal_c" sboTerm="SBO:0000247" id="M_sucsal_c" name="Succinate semialdehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C4H5O3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00232</p>
@@ -23747,7 +23747,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02228"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_OAACOLY" sboTerm="SBO:0000176" id="R_OAACOLY" name="R00268" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_OAACOLY" sboTerm="SBO:0000176" id="R_OAACOLY" name="R00268" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -23783,7 +23783,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02228"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_OXGDC" sboTerm="SBO:0000176" id="R_OXGDC" name="R00272" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_OXGDC" sboTerm="SBO:0000176" id="R_OXGDC" name="R00272" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -26971,7 +26971,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04039"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AKGDEHY" sboTerm="SBO:0000176" id="R_AKGDEHY" name="R00621" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AKGDEHY" sboTerm="SBO:0000176" id="R_AKGDEHY" name="R00621" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -27523,7 +27523,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MMSAD3" sboTerm="SBO:0000176" id="R_MMSAD3" name="R00705" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MMSAD3" sboTerm="SBO:0000176" id="R_MMSAD3" name="R00705" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -29457,7 +29457,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04839"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MMSAD1" sboTerm="SBO:0000176" id="R_MMSAD1" name="R00922" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MMSAD1" sboTerm="SBO:0000176" id="R_MMSAD1" name="R00922" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -33424,7 +33424,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03337"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PPNDH" sboTerm="SBO:0000176" id="R_PPNDH" name="R01373" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PPNDH" sboTerm="SBO:0000176" id="R_PPNDH" name="R01373" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -35144,7 +35144,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04408"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PPND" sboTerm="SBO:0000176" id="R_PPND" name="R01728" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PPND" sboTerm="SBO:0000176" id="R_PPND" name="R01728" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -41322,7 +41322,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UPPDC1" sboTerm="SBO:0000176" id="R_UPPDC1" name="R03197" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UPPDC1" sboTerm="SBO:0000176" id="R_UPPDC1" name="R03197" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -42393,7 +42393,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02972"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_IGPS" sboTerm="SBO:0000176" id="R_IGPS" name="R03508" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_IGPS" sboTerm="SBO:0000176" id="R_IGPS" name="R03508" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -49258,7 +49258,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04464"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_CPPPGO2" sboTerm="SBO:0000176" id="R_CPPPGO2" name="R06895" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CPPPGO2" sboTerm="SBO:0000176" id="R_CPPPGO2" name="R06895" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -51460,7 +51460,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_KAS14" sboTerm="SBO:0000176" id="R_KAS14" name="R04355" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_KAS14" sboTerm="SBO:0000176" id="R_KAS14" name="R04355" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Fatty Acid Biosynthesis</p>
@@ -51502,20 +51502,10 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_3OAR40_1" sboTerm="SBO:0000176" id="R_3OAR40_1" name="R04533" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: Fatty Acid Biosynthesis</p>
-            <p>GENE_ASSOCIATION: RTMO12345</p>
-            <p>KEGG ID: R04533</p>
-            <p>ENZYME: 1.1.1.100 2.3.1.85 2.3.1.86 2.3.1.-</p>
-            <p>NAME: (3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase</p>
-            <p>DEFINITION: (3R)-3-Hydroxybutanoyl-[acyl-carrier protein] + NADP+ ⇌ Acetoacetyl-[acp] + NADPH + H+</p>
-          </html>
-        </notes>
+      <reaction metaid="meta_R_AMACT" sboTerm="SBO:0000176" id="R_AMACT" name="R10707" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_3OAR40_1">
+            <rdf:Description rdf:about="#meta_R_AMACT">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04533"/>
@@ -51649,7 +51639,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_BUTACPAT" sboTerm="SBO:0000176" id="R_BUTACPAT" name="R04952" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_BUTACPAT" sboTerm="SBO:0000176" id="R_BUTACPAT" name="R04952" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Fatty Acid Biosynthesis</p>
@@ -51801,7 +51791,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HEXACPAT" sboTerm="SBO:0000176" id="R_HEXACPAT" name="R04957" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HEXACPAT" sboTerm="SBO:0000176" id="R_HEXACPAT" name="R04957" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Fatty Acid Biosynthesis</p>
@@ -51953,7 +51943,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_OCTACPAT" sboTerm="SBO:0000176" id="R_OCTACPAT" name="R04960" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_OCTACPAT" sboTerm="SBO:0000176" id="R_OCTACPAT" name="R04960" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Fatty Acid Biosynthesis</p>
@@ -52261,7 +52251,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MALACPAT" sboTerm="SBO:0000176" id="R_MALACPAT" name="R04726" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MALACPAT" sboTerm="SBO:0000176" id="R_MALACPAT" name="R04726" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Fatty Acid Biosynthesis</p>
@@ -52412,7 +52402,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MMACPAT" sboTerm="SBO:0000176" id="R_MMACPAT" name="R04968" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MMACPAT" sboTerm="SBO:0000176" id="R_MMACPAT" name="R04968" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Fatty Acid Biosynthesis</p>
@@ -52440,7 +52430,7 @@
           <speciesReference species="M_malACP_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_3opalmACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_3oxhdacp" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -52480,7 +52470,7 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_3opalmACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_3oxhdacp" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -52563,7 +52553,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HDEACPT" sboTerm="SBO:0000176" id="R_HDEACPT" name="R07762" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HDEACPT" sboTerm="SBO:0000176" id="R_HDEACPT" name="R07762" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Fatty Acid Biosynthesis</p>
@@ -53588,7 +53578,7 @@
           <speciesReference species="M_6pgc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MAHMPDC" name="2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_MAHMPDC" name="2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: rn00730</p>
@@ -53641,7 +53631,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_OOR3r" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_OOR3r" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -56487,7 +56477,7 @@
           <groups:member groups:name="R04954" groups:idRef="R_3HAD60"/>
           <groups:member groups:name="R04960" groups:idRef="R_OCTACPAT"/>
           <groups:member groups:name="R04534" groups:idRef="R_3OAR100"/>
-          <groups:member groups:name="R04533" groups:idRef="R_3OAR40_1"/>
+          <groups:member groups:name="R10707" groups:idRef="R_AMACT"/>
           <groups:member groups:name="R01626" groups:idRef="R_MCOATA"/>
           <groups:member groups:name="R04724" groups:idRef="R_DDECACPOR__39__"/>
           <groups:member groups:name="R04544" groups:idRef="R_3HAD160"/>
