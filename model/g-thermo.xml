@@ -32461,7 +32461,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04195"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GMP5N" sboTerm="SBO:0000176" id="R_GMP5N" name="R01227" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NTD9" sboTerm="SBO:0000176" id="R_NTD9" name="R01227" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -32474,7 +32474,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_GMP5N">
+            <rdf:Description rdf:about="#meta_R_NTD9">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01227"/>
@@ -32501,7 +32501,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GPAR" sboTerm="SBO:0000176" id="R_GPAR" name="R01229" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GUAPRT" sboTerm="SBO:0000176" id="R_GUAPRT" name="R01229" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -32514,7 +32514,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_GPAR">
+            <rdf:Description rdf:about="#meta_R_GUAPRT">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01229"/>
@@ -55861,7 +55861,7 @@
           <groups:member groups:name="R03232" groups:idRef="R_FRU1PT"/>
           <groups:member groups:name="R03778" groups:idRef="R_ACACT4m"/>
           <groups:member groups:name="R07219" groups:idRef="R_H2MB4POR"/>
-          <groups:member groups:name="R01227" groups:idRef="R_GMP5N"/>
+          <groups:member groups:name="R01227" groups:idRef="R_NTD9"/>
           <groups:member groups:name="R07475" groups:idRef="R_GGTT"/>
           <groups:member groups:name="R07263" groups:idRef="R_SBZCOAHYDRO"/>
           <groups:member groups:name="R03243" groups:idRef="R_AOOA"/>
@@ -55878,7 +55878,7 @@
           <groups:member groups:name="R08657" groups:idRef="R_COQOR"/>
           <groups:member groups:name="R00019" groups:idRef="R_HYDA"/>
           <groups:member groups:name="R01773" groups:idRef="R_HSDx"/>
-          <groups:member groups:name="R01229" groups:idRef="R_GPAR"/>
+          <groups:member groups:name="R01229" groups:idRef="R_GUAPRT"/>
           <groups:member groups:name="R02300" groups:idRef="R_FOMETRi"/>
           <groups:member groups:name="R00659" groups:idRef="R_PYK2"/>
           <groups:member groups:name="R02549" groups:idRef="R_ABUTD"/>
