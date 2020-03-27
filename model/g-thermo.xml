@@ -12483,7 +12483,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_no_c" sboTerm="SBO:0000247" id="M_no_c" name="Nitric" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="NO">
+      <species metaid="meta_M_no_c" sboTerm="SBO:0000247" id="M_no_c" name="Nitric oxide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="NO">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00533</p>
@@ -36129,11 +36129,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_dhor__S_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_fum_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_orot_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -41396,7 +41396,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03881"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PPPGO_1" sboTerm="SBO:0000176" id="R_PPPGO_1" name="R03222" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PPPGO_1" sboTerm="SBO:0000176" id="R_PPPGO_1" name="R03222" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -48507,7 +48507,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02323"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NODOy" sboTerm="SBO:0000176" id="R_NODOy" name="R05725" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NODOy" sboTerm="SBO:0000176" id="R_NODOy" name="R05725" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -51508,8 +51508,7 @@
             <rdf:Description rdf:about="#meta_R_AMACT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04533"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR94951"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R10707"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -53492,7 +53491,7 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MOX" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_MOX" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
