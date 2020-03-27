@@ -2808,28 +2808,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_aad_c" sboTerm="SBO:0000247" id="M_aad_c" name="Acetyl adenylate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H16N5O8P">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C05993</p>
-            <p>NAME: Acetyl adenylate; 5’-Acetylphosphoadenosine</p>
-            <p>ChEBI: 37666</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_aad_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05993"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:37666"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM4377"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_pamp_c" sboTerm="SBO:0000247" id="M_pamp_c" name="Propionyladenylate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H18N5O8P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -23268,47 +23246,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AADCOAT" sboTerm="SBO:0000176" id="R_AADCOAT" name="R00236" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO02238 or RTMO00940 or RTMO01624 or RTMO02405 )</p>
-            <p>KEGG ID: R00236</p>
-            <p>ENZYME: 6.2.1.1</p>
-            <p>NAME: acetyl adenylate:CoA acetyltransferase</p>
-            <p>DEFINITION: Acetyl adenylate + CoA ⇌ AMP + Acetyl-CoA</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_AADCOAT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00236"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR105304"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_aad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_amp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_accoa_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02238"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00940"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01624"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02405"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_ACACT1" sboTerm="SBO:0000176" id="R_ACACT1" name="R00238" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -24134,47 +24071,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00945"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_ATPACAT" sboTerm="SBO:0000176" id="R_ATPACAT" name="R00316" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO02238 or RTMO00940 or RTMO02405 or RTMO01624 )</p>
-            <p>KEGG ID: R00316</p>
-            <p>ENZYME: 6.2.1.1</p>
-            <p>NAME: ATP:acetate adenylyltransferase</p>
-            <p>DEFINITION: ATP + Acetate ⇌ Diphosphate + Acetyl adenylate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ATPACAT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00316"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR105307"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ac_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_aad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02238"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00940"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02405"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01624"/>
-          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACYP_2" sboTerm="SBO:0000176" id="R_ACYP_2" name="R00317" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -55693,7 +55589,6 @@
           <groups:member groups:name="R00084" groups:idRef="R_HMBS"/>
           <groups:member groups:name="R01658" groups:idRef="R_DMATT"/>
           <groups:member groups:name="R03857" groups:idRef="R_ACOA120OR"/>
-          <groups:member groups:name="R00316" groups:idRef="R_ATPACAT"/>
           <groups:member groups:name="R00965" groups:idRef="R_OMPDC"/>
           <groups:member groups:name="R02016" groups:idRef="R_TDSRh"/>
           <groups:member groups:name="R07269" groups:idRef="R_DECDPPP"/>
@@ -55718,7 +55613,6 @@
           <groups:member groups:name="R00962" groups:idRef="R_ITCY"/>
           <groups:member groups:name="R00274" groups:idRef="R_GTHPe"/>
           <groups:member groups:name="R04672" groups:idRef="R_APL"/>
-          <groups:member groups:name="R00236" groups:idRef="R_AADCOAT"/>
           <groups:member groups:name="R02788" groups:idRef="R_UAMAGLIG"/>
           <groups:member groups:name="R00838" groups:idRef="R_MALTPGH"/>
           <groups:member groups:name="R00897" groups:idRef="R_CYSS"/>
