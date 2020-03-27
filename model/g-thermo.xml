@@ -4829,7 +4829,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_2ahethmpp_c" sboTerm="SBO:0000247" id="M_2ahethmpp_c" name="2-(alpha-Hydroxyethyl)thiamine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C14H21N4O8P2S">
+      <species metaid="meta_M_2ahethmpp_c" sboTerm="SBO:0000247" id="M_2ahethmpp_c" name="2-Hydroxyethyl-ThPP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C14H21N4O8P2S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C05125</p>
@@ -16085,7 +16085,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_thmpp_c" sboTerm="SBO:0000247" id="M_thmpp_c" name="Thiamin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C12H17N4O7P2S">
+      <species metaid="meta_M_thmpp_c" sboTerm="SBO:0000247" id="M_thmpp_c" name="Thiamine diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C12H17N4O7P2S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00068</p>
@@ -21613,7 +21613,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PDHam1hi" sboTerm="SBO:0000176" id="R_PDHam1hi" name="R00014" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PDHam1hi" sboTerm="SBO:0000176" id="R_PDHam1hi" name="R00014" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: Central Carbon Metabolism</p>
@@ -22973,7 +22973,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ME1" sboTerm="SBO:0000176" id="R_ME1" name="R00214" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ME1" sboTerm="SBO:0000176" id="R_ME1" name="R00214" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -28411,7 +28411,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_CYSDS" sboTerm="SBO:0000176" id="R_CYSDS" name="R00782" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CYSDS" sboTerm="SBO:0000176" id="R_CYSDS" name="R00782" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -31821,43 +31821,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_RTMO04294"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO05248"/>
           </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_DAPOP" sboTerm="SBO:0000176" id="R_DAPOP" name="R01138" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO02253</p>
-            <p>KEGG ID: R01138</p>
-            <p>ENZYME: 2.7.1.40</p>
-            <p>NAME: dATP:pyruvate 2-O-phosphotransferase</p>
-            <p>DEFINITION: dATP + Pyruvate ⇌ dADP + Phosphoenolpyruvate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DAPOP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01138"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97145"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/30727"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.1.40"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_datp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_dadp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO02253"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ALATA_D" sboTerm="SBO:0000176" id="R_ALATA_D" name="R01148" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -45603,7 +45566,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04007"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_APLh" sboTerm="SBO:0000176" id="R_APLh" name="R04672" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_APL" sboTerm="SBO:0000176" id="R_APL" name="R04672" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -45616,7 +45579,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_APLh">
+            <rdf:Description rdf:about="#meta_R_APL">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04672"/>
@@ -53514,7 +53477,7 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PYRLLOR" name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_PYRLLOR" name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: rn00010,</p>
@@ -55810,7 +55773,7 @@
           <groups:member groups:name="R00183" groups:idRef="R_NTD7"/>
           <groups:member groups:name="R00962" groups:idRef="R_ITCY"/>
           <groups:member groups:name="R00274" groups:idRef="R_GTHPe"/>
-          <groups:member groups:name="R04672" groups:idRef="R_APLh"/>
+          <groups:member groups:name="R04672" groups:idRef="R_APL"/>
           <groups:member groups:name="R00236" groups:idRef="R_AADCOAT"/>
           <groups:member groups:name="R02788" groups:idRef="R_UAMAGLIG"/>
           <groups:member groups:name="R00838" groups:idRef="R_MALTPGH"/>
@@ -56082,7 +56045,6 @@
           <groups:member groups:name="R02485" groups:idRef="R_DCYTD"/>
           <groups:member groups:name="R03921" groups:idRef="R_FFSD"/>
           <groups:member groups:name="R01843" groups:idRef="R_PFK_3"/>
-          <groups:member groups:name="R01138" groups:idRef="R_DAPOP"/>
           <groups:member groups:name="R01432" groups:idRef="R_XYLI1"/>
           <groups:member groups:name="R01870" groups:idRef="R_ORPT"/>
           <groups:member groups:name="R05180" groups:idRef="R_PC17M"/>
