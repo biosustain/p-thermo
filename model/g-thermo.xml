@@ -31556,7 +31556,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02904"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HXPRT" sboTerm="SBO:0000176" id="R_HXPRT" name="R01132" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HXPRT" sboTerm="SBO:0000176" id="R_HXPRT" name="R01132" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -36225,7 +36225,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02910"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NTD8" sboTerm="SBO:0000176" id="R_NTD8" name="R01968" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NTD8" sboTerm="SBO:0000176" id="R_NTD8" name="R01968" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -36882,7 +36882,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01784"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NTD6" sboTerm="SBO:0000176" id="R_NTD6" name="R02088" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NTD6" sboTerm="SBO:0000176" id="R_NTD6" name="R02088" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
