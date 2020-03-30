@@ -2786,7 +2786,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_dtpcunp_c" sboTerm="SBO:0000247" id="M_dtpcunp_c" name="di-trans,poly-cis-Undecaprenyl phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C55H91O4P">
+      <species metaid="meta_M_udcpp_c" sboTerm="SBO:0000247" id="M_udcpp_c" name="di-trans,poly-cis-Undecaprenyl phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C55H91O4P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C17556</p>
@@ -2796,7 +2796,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_dtpcunp_c">
+            <rdf:Description rdf:about="#meta_M_udcpp_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C17556"/>
@@ -6323,22 +6323,23 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_uddaalagmdaa_c" sboTerm="SBO:0000247" id="M_uddaalagmdaa_c" name="Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C95H152N8O28P2">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C11827</p>
-            <p>NAME: [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol; [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n+1-diphosphoundecaprenol</p>
-            <p>ChEBI: 10151</p>
-          </html>
-        </notes>
+      <species metaid="meta_M_uaagmda_c" sboTerm="SBO:0000247" id="M_uaagmda_c" name="Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C95H152N8O28P2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_uddaalagmdaa_c">
+            <rdf:Description rdf:about="#meta_M_uaagmda_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11827"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:10151"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM94343"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/uaagmda"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:C6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28138"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:61388"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9870"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27200"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/OXJNZXDFVLDLEI-MBCYCBSHSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05898"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10555"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM722781"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd03495"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -22384,7 +22385,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04916"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NDPK2" sboTerm="SBO:0000176" id="R_NDPK2" name="R00156" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NDPK2" sboTerm="SBO:0000176" id="R_NDPK2" name="R00156" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -25269,40 +25270,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PRPUT" sboTerm="SBO:0000176" id="R_PRPUT" name="R00438" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04539</p>
-            <p>KEGG ID: R00438</p>
-            <p>ENZYME: 2.7.7.8</p>
-            <p>NAME: polyribonucleotide:phosphate uridylyltransferase</p>
-            <p>DEFINITION: RNA + Orthophosphate ⇌ RNA + UDP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PRPUT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00438"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106527"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_RNA_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_udp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04539"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_GTPT" sboTerm="SBO:0000176" id="R_GTPT" name="R00441" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -26957,7 +26924,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02318"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PYK2" sboTerm="SBO:0000176" id="R_PYK2" name="R00659" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PYK2" sboTerm="SBO:0000176" id="R_PYK2" name="R00659" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -27693,7 +27660,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PYK5" sboTerm="SBO:0000176" id="R_PYK5" name="R00724" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PYK5" sboTerm="SBO:0000176" id="R_PYK5" name="R00724" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -29910,7 +29877,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04933"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_OMPDC" sboTerm="SBO:0000176" id="R_OMPDC" name="R00965" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_OMPDC" sboTerm="SBO:0000176" id="R_OMPDC" name="R00965" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -29947,7 +29914,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04131"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UPPRT" sboTerm="SBO:0000176" id="R_UPPRT" name="R00966" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UPPRT" sboTerm="SBO:0000176" id="R_UPPRT" name="R00966" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -33888,7 +33855,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_dtpcunp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_udcpp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_udpgal_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -44556,7 +44523,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_uddaalagmdaa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_uaagmda_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_dtpcudcpp_c" stoichiometry="1" constant="true"/>
@@ -46075,7 +46042,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02388"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UACGAMT" sboTerm="SBO:0000176" id="R_UACGAMT" name="R05032" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UAGPT3" sboTerm="SBO:0000176" id="R_UAGPT3" name="R05032" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -46088,10 +46055,20 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_UACGAMT">
+            <rdf:Description rdf:about="#meta_R_UAGPT3">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06174; R05032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/UAGPT3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:NACGLCTRANS-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.4.1.227"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06174"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR139325"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/31228"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/31227"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/31229"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/31230"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn03408"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -46102,7 +46079,7 @@
           <speciesReference species="M_uacgam_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_uddaalagmdaa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_uaagmda_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_udp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -47523,7 +47500,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dtpcunp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_udcpp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -47532,7 +47509,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DTPCUNPT" sboTerm="SBO:0000176" id="R_DTPCUNPT" name="R05630" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PAPPT3" sboTerm="SBO:0000176" id="R_PAPPT3" name="R05630" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -47545,7 +47522,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DTPCUNPT">
+            <rdf:Description rdf:about="#meta_R_PAPPT3">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05630"/>
@@ -47557,7 +47534,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_dtpcunp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_udcpp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ugmda_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -50663,7 +50640,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DTPCUNPPT" sboTerm="SBO:0000176" id="R_DTPCUNPPT" name="R08856" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACGAMT" sboTerm="SBO:0000176" id="R_ACGAMT" name="R08856" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -50676,7 +50653,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DTPCUNPPT">
+            <rdf:Description rdf:about="#meta_R_ACGAMT">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R08856"/>
@@ -50689,7 +50666,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_dtpcunp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_udcpp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_uacgam_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -54224,6 +54201,40 @@
           <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction metaid="meta_R_PRPUT" sboTerm="SBO:0000176" id="R_PRPUT" name="R00438" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>SUBSYSTEM: X</p>
+            <p>GENE_ASSOCIATION: RTMO04539</p>
+            <p>KEGG ID: R00438</p>
+            <p>ENZYME: 2.7.7.8</p>
+            <p>NAME: polyribonucleotide:phosphate uridylyltransferase</p>
+            <p>DEFINITION: RNA + Orthophosphate ⇌ RNA + UDP</p>
+          </html>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_PRPUT">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00438"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106527"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_RNA_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_udp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO04539"/>
+        </fbc:geneProductAssociation>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -55097,7 +55108,6 @@
           <groups:member groups:name="R04448" groups:idRef="R_HETZK"/>
           <groups:member groups:name="R01858" groups:idRef="R_AGPOP"/>
           <groups:member groups:name="R06558" groups:idRef="R_ADOCBIP"/>
-          <groups:member groups:name="R00438" groups:idRef="R_PRPUT"/>
           <groups:member groups:name="R02165" groups:idRef="R_QH2NOR"/>
           <groups:member groups:name="R00619" groups:idRef="R_THMPT"/>
           <groups:member groups:name="R04405" groups:idRef="R_MHPGLUT"/>
@@ -55127,7 +55137,7 @@
           <groups:member groups:name="R04739" groups:idRef="R_HACD6"/>
           <groups:member groups:name="R00512" groups:idRef="R_CYTK1"/>
           <groups:member groups:name="R01791" groups:idRef="R_DEXHY"/>
-          <groups:member groups:name="R05032" groups:idRef="R_UACGAMT"/>
+          <groups:member groups:name="R05032" groups:idRef="R_UAGPT3"/>
           <groups:member groups:name="R05046" groups:idRef="R_FAPNTPAH"/>
           <groups:member groups:name="R00442" groups:idRef="R_CTPT"/>
           <groups:member groups:name="R03504" groups:idRef="R_DHNPA2r"/>
@@ -55150,7 +55160,7 @@
           <groups:member groups:name="R00178" groups:idRef="R_ADMDC"/>
           <groups:member groups:name="R00847" groups:idRef="R_GLYK"/>
           <groups:member groups:name="R01388" groups:idRef="R_GLYCDH_1"/>
-          <groups:member groups:name="R05630" groups:idRef="R_DTPCUNPT"/>
+          <groups:member groups:name="R05630" groups:idRef="R_PAPPT3"/>
           <groups:member groups:name="R00084" groups:idRef="R_HMBS"/>
           <groups:member groups:name="R01658" groups:idRef="R_DMATT"/>
           <groups:member groups:name="R03857" groups:idRef="R_ACOA120OR"/>
@@ -55584,7 +55594,7 @@
           <groups:member groups:name="R00921" groups:idRef="R_PTA2"/>
           <groups:member groups:name="R00943" groups:idRef="R_FTHFLi"/>
           <groups:member groups:name="R02722" groups:idRef="R_SERH"/>
-          <groups:member groups:name="R08856" groups:idRef="R_DTPCUNPPT"/>
+          <groups:member groups:name="R08856" groups:idRef="R_ACGAMT"/>
           <groups:member groups:name="R01163" groups:idRef="R_HISOR"/>
           <groups:member groups:name="R01230" groups:idRef="R_GMPS"/>
           <groups:member groups:name="R01771" groups:idRef="R_HSK"/>
