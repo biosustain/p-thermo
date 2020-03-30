@@ -35627,7 +35627,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AGPOP" sboTerm="SBO:0000176" id="R_AGPOP" name="R01858" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AGPOP" sboTerm="SBO:0000176" id="R_AGPOP" name="R01858" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -54234,6 +54234,33 @@
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04539"/>
         </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_RNDR4" sboTerm="SBO:0000176" id="R_RNDR4" name="Ribonucleoside-diphosphate reductase (UDP)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RNDR4">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/RNDR4"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:UDPREDUCT-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.17.4.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02018"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104066"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn06075"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_trdrd_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_udp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_dudp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_trdox_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
