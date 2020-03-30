@@ -25371,40 +25371,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04539"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PRPCT" sboTerm="SBO:0000176" id="R_PRPCT" name="R00440" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04539</p>
-            <p>KEGG ID: R00440</p>
-            <p>ENZYME: 2.7.7.8</p>
-            <p>NAME: polyribonucleotide:phosphate cytidylyltransferase</p>
-            <p>DEFINITION: RNA + Orthophosphate ⇌ RNA + CDP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PRPCT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00440"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106529"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_RNA_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cdp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04539"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_GTPT" sboTerm="SBO:0000176" id="R_GTPT" name="R00441" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -26433,7 +26399,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04823"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PYK4" sboTerm="SBO:0000176" id="R_PYK4" name="R00572" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PYK4" sboTerm="SBO:0000176" id="R_PYK4" name="R00572" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -36647,7 +36613,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_RNDR3" sboTerm="SBO:0000176" id="R_RNDR3" name="R02024" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_RNDR3" sboTerm="SBO:0000176" id="R_RNDR3" name="R02024" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -55614,7 +55580,6 @@
           <groups:member groups:name="R01731" groups:idRef="R_LARGNAT"/>
           <groups:member groups:name="R04737" groups:idRef="R_HACD7"/>
           <groups:member groups:name="R00256" groups:idRef="R_GAM"/>
-          <groups:member groups:name="R00440" groups:idRef="R_PRPCT"/>
           <groups:member groups:name="R03920" groups:idRef="R_ABFPT"/>
           <groups:member groups:name="R00926" groups:idRef="R_PAMPT"/>
           <groups:member groups:name="R03503" groups:idRef="R_HPPK2"/>
