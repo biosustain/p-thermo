@@ -24589,51 +24589,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03651"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DATPT" sboTerm="SBO:0000176" id="R_DATPT" name="R00375" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO02428 or RTMO01971 or RTMO02921 or RTMO02896 or RTMO03427 or RTMO04991 or RTMO04905 or RTMO00939 or RTMO02913 or RTMO02735 )</p>
-            <p>KEGG ID: R00375</p>
-            <p>ENZYME: 2.7.7.7</p>
-            <p>NAME: Deoxyadenosine 5’-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)</p>
-            <p>DEFINITION: dATP + DNA ⇌ Diphosphate + DNA</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DATPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00375"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106496"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_datp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dna_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02428"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01971"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02921"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02896"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03427"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04991"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04905"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00939"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02913"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02735"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_DGTPT" sboTerm="SBO:0000176" id="R_DGTPT" name="R00376" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -24721,51 +24676,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_RTMO04991"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO00939"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO02735"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_DTTPT" sboTerm="SBO:0000176" id="R_DTTPT" name="R00378" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO02428 or RTMO02921 or RTMO01971 or RTMO04991 or RTMO03427 or RTMO02735 or RTMO04905 or RTMO02896 or RTMO00939 or RTMO02913 )</p>
-            <p>KEGG ID: R00378</p>
-            <p>ENZYME: 2.7.7.7</p>
-            <p>NAME: deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)</p>
-            <p>DEFINITION: dTTP + DNA ⇌ Diphosphate + DNA</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DTTPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00378"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106499"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_dttp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dna_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02428"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02921"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01971"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04991"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03427"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02735"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04905"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02896"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00939"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02913"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -55660,8 +55570,6 @@
           <groups:member groups:name="R01535" groups:idRef="R_UAGUDPGPTRANS"/>
           <groups:member groups:name="R00114" groups:idRef="R_GLUS_nadph"/>
           <groups:member groups:name="R04639" groups:idRef="R_AHETDYTTPHY"/>
-          <groups:member groups:name="R00378" groups:idRef="R_DTTPT"/>
-          <groups:member groups:name="R00375" groups:idRef="R_DATPT"/>
           <groups:member groups:name="R01054" groups:idRef="R_ADPRDP"/>
           <groups:member groups:name="R01715" groups:idRef="R_CHORM"/>
           <groups:member groups:name="R08558" groups:idRef="R_BETALDOR"/>
