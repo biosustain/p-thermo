@@ -24589,96 +24589,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03651"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DGTPT" sboTerm="SBO:0000176" id="R_DGTPT" name="R00376" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO01971 or RTMO02428 or RTMO04905 or RTMO02896 or RTMO03427 or RTMO00939 or RTMO02913 or RTMO04991 or RTMO02735 or RTMO02921 )</p>
-            <p>KEGG ID: R00376</p>
-            <p>ENZYME: 2.7.7.7</p>
-            <p>NAME: Deoxyguanosine 5’-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)</p>
-            <p>DEFINITION: dGTP + DNA ⇌ Diphosphate + DNA</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DGTPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00376"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106497"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_dgtp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dna_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01971"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02428"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04905"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02896"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03427"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00939"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02913"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04991"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02735"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02921"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_DCTPT" sboTerm="SBO:0000176" id="R_DCTPT" name="R00377" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO01971 or RTMO02428 or RTMO02921 or RTMO02896 or RTMO04905 or RTMO03427 or RTMO02913 or RTMO04991 or RTMO00939 or RTMO02735 )</p>
-            <p>KEGG ID: R00377</p>
-            <p>ENZYME: 2.7.7.7</p>
-            <p>NAME: Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)</p>
-            <p>DEFINITION: dCTP + DNA ⇌ Diphosphate + DNA</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_DCTPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00377"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106498"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_dctp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dna_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01971"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02428"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02921"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02896"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04905"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03427"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02913"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04991"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00939"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02735"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_ALAD_L" sboTerm="SBO:0000176" id="R_ALAD_L" name="R00396" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -25135,49 +25045,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02253"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_ATPNAT" sboTerm="SBO:0000176" id="R_ATPNAT" name="R00435" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO05254 or RTMO04539 or RTMO04080 or RTMO04824 or RTMO04082 or RTMO03624 )</p>
-            <p>KEGG ID: R00435</p>
-            <p>ENZYME: 2.7.7.6 2.7.7.19 2.7.7.48</p>
-            <p>NAME: ATP:polynucleotide adenylyltransferase; ATP:RNA adenylyltransferase</p>
-            <p>DEFINITION: ATP + RNA ⇌ Diphosphate + RNA</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ATPNAT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00435"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106524"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/11332"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.7.19"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_RNA_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO05254"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04539"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04080"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04824"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04082"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03624"/>
-          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DAPDC" sboTerm="SBO:0000176" id="R_DAPDC" name="R00451" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -53991,40 +53858,6 @@
           <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_PRPUT" sboTerm="SBO:0000176" id="R_PRPUT" name="R00438" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04539</p>
-            <p>KEGG ID: R00438</p>
-            <p>ENZYME: 2.7.7.8</p>
-            <p>NAME: polyribonucleotide:phosphate uridylyltransferase</p>
-            <p>DEFINITION: RNA + Orthophosphate ⇌ RNA + UDP</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PRPUT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00438"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106527"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_RNA_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_udp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04539"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_RNDR4" sboTerm="SBO:0000176" id="R_RNDR4" name="Ribonucleoside-diphosphate reductase (UDP)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -54051,48 +53884,6 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_trdox_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
-      </reaction>
-      <reaction metaid="meta_R_UTPT" sboTerm="SBO:0000176" id="R_UTPT" name="R00443" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: ( RTMO03624 or RTMO04080 or RTMO05254 or RTMO04082 or RTMO04824 )</p>
-            <p>KEGG ID: R00443</p>
-            <p>ENZYME: 2.7.7.6 2.7.7.48 2.7.7.52</p>
-            <p>NAME: UTP:RNA uridylyltransferase</p>
-            <p>DEFINITION: UTP + RNA ⇌ Diphosphate + RNA</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_UTPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00443"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106532"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/14785"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.7.52"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_utp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_RNA_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03624"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04080"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO05254"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04082"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04824"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
       </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
@@ -55386,7 +55177,6 @@
           <groups:member groups:name="R00784" groups:idRef="R_FICYTCCNOR"/>
           <groups:member groups:name="R01505" groups:idRef="R_DHBD"/>
           <groups:member groups:name="R04620" groups:idRef="R_AKP1"/>
-          <groups:member groups:name="R00377" groups:idRef="R_DCTPT"/>
           <groups:member groups:name="R02748" groups:idRef="R_PUNP6"/>
           <groups:member groups:name="R07280" groups:idRef="R_AUS"/>
           <groups:member groups:name="R08210" groups:idRef="R_DMPPOR"/>
@@ -55421,7 +55211,6 @@
           <groups:member groups:name="R00966" groups:idRef="R_UPPRT"/>
           <groups:member groups:name="R02704" groups:idRef="R_MNLPT"/>
           <groups:member groups:name="R00905" groups:idRef="R_BUPN"/>
-          <groups:member groups:name="R00435" groups:idRef="R_ATPNAT"/>
           <groups:member groups:name="R07396" groups:idRef="R_ARAT"/>
           <groups:member groups:name="R00803" groups:idRef="R_SUCRGT"/>
           <groups:member groups:name="R01718" groups:idRef="R_ISOMALHY"/>
@@ -55586,7 +55375,6 @@
           <groups:member groups:name="R01055" groups:idRef="R_URAHL"/>
           <groups:member groups:name="R05218" groups:idRef="R_CYRDAR2"/>
           <groups:member groups:name="R08166" groups:idRef="R_SHCHCS3"/>
-          <groups:member groups:name="R00376" groups:idRef="R_DGTPT"/>
           <groups:member groups:name="R00615" groups:idRef="R_TDP"/>
           <groups:member groups:name="R05332" groups:idRef="R_ACCOAT"/>
           <groups:member groups:name="R00253" groups:idRef="R_GALh"/>
