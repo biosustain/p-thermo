@@ -52221,12 +52221,14 @@
           <speciesReference species="M_fe3_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_fe2_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_cl_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_atp_c" stoichiometry="0.029903042" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="105.027303042" constant="true"/>
           <speciesReference species="M_coa_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_qh2_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_succoa_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_accoa_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_gthrd_c" stoichiometry="0.029903042" constant="true"/>
+          <speciesReference species="M_arg__L_c" stoichiometry="0.194" constant="true"/>
+          <speciesReference species="M_gln__L_c" stoichiometry="0.683" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_Biomass_c" stoichiometry="1" constant="true"/>
