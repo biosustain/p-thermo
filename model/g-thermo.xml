@@ -16164,26 +16164,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_lhistidi_c" sboTerm="SBO:0000247" id="M_lhistidi_c" name="L-Histidinal" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H10N3O">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C01929</p>
-            <p>NAME: L-Histidinal</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_lhistidi_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01929"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM4010"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_occoa_c" sboTerm="SBO:0000247" id="M_occoa_c" name="Octanoyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C29H47N7O17P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31114,7 +31094,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HDH" sboTerm="SBO:0000176" id="R_HDH" name="R01158" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HISTD" sboTerm="SBO:0000176" id="R_HISTD" name="R01158" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -31127,7 +31107,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_HDH">
+            <rdf:Description rdf:about="#meta_R_HISTD">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01158"/>
@@ -31148,44 +31128,6 @@
           <speciesReference species="M_his__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04010"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_HISOR" sboTerm="SBO:0000176" id="R_HISOR" name="R01163" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04010</p>
-            <p>KEGG ID: R01163</p>
-            <p>ENZYME: 1.1.1.23</p>
-            <p>NAME: L-histidinal:NAD+ oxidoreductase</p>
-            <p>DEFINITION: L-Histidinal + H2O + NAD+ ⇌ L-Histidine + NADH + H+</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_HISOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01163"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106847"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/33803"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_lhistidi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_his__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04010"/>
@@ -39008,43 +38950,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04916"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HISTIOR" sboTerm="SBO:0000176" id="R_HISTIOR" name="R03012" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: X</p>
-            <p>GENE_ASSOCIATION: RTMO04010</p>
-            <p>KEGG ID: R03012</p>
-            <p>ENZYME: 1.1.1.23</p>
-            <p>NAME: L-Histidinol:NAD+ oxidoreductase</p>
-            <p>DEFINITION: L-Histidinol + NAD+ ⇌ L-Histidinal + NADH + H+</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_HISTIOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03012"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR107887"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/33799"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_histd_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_lhistidi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04010"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_HISTP" sboTerm="SBO:0000176" id="R_HISTP" name="R03013" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -41864,7 +41769,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03936"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PRADPh" sboTerm="SBO:0000176" id="R_PRADPh" name="R04035" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PRATPP" sboTerm="SBO:0000176" id="R_PRATPP" name="R04035" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -41877,7 +41782,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PRADPh">
+            <rdf:Description rdf:about="#meta_R_PRATPP">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04035"/>
@@ -41902,7 +41807,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04005"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PRACHh" sboTerm="SBO:0000176" id="R_PRACHh" name="R04037" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PRAMPC" sboTerm="SBO:0000176" id="R_PRAMPC" name="R04037" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -41915,7 +41820,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PRACHh">
+            <rdf:Description rdf:about="#meta_R_PRAMPC">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04037"/>
@@ -43915,7 +43820,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04290"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PRICIh" sboTerm="SBO:0000176" id="R_PRICIh" name="R04640" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PRMICI" sboTerm="SBO:0000176" id="R_PRMICI" name="R04640" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -43928,7 +43833,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PRICIh">
+            <rdf:Description rdf:about="#meta_R_PRMICI">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04640"/>
@@ -54234,7 +54139,7 @@
           <groups:member groups:name="R01714" groups:idRef="R_CHORS"/>
           <groups:member groups:name="R03269" groups:idRef="R_PPCDC"/>
           <groups:member groups:name="R02089" groups:idRef="R_DADNK"/>
-          <groups:member groups:name="R04037" groups:idRef="R_PRACHh"/>
+          <groups:member groups:name="R04037" groups:idRef="R_PRAMPC"/>
           <groups:member groups:name="R00086" groups:idRef="R_ATPM"/>
           <groups:member groups:name="R00985" groups:idRef="R_ANS2"/>
           <groups:member groups:name="R07411" groups:idRef="R_HEMEOS"/>
@@ -54442,7 +54347,6 @@
           <groups:member groups:name="R06200" groups:idRef="R_CELLOHYDRO"/>
           <groups:member groups:name="R00964" groups:idRef="R_URIK1"/>
           <groups:member groups:name="R02237" groups:idRef="R_DHFS"/>
-          <groups:member groups:name="R03012" groups:idRef="R_HISTIOR"/>
           <groups:member groups:name="R00214" groups:idRef="R_ME1"/>
           <groups:member groups:name="R01466" groups:idRef="R_THRS"/>
           <groups:member groups:name="R02326" groups:idRef="R_NDPK7"/>
@@ -54476,7 +54380,7 @@
           <groups:member groups:name="R02283" groups:idRef="R_ACOTA"/>
           <groups:member groups:name="R02133" groups:idRef="R_THY"/>
           <groups:member groups:name="R01582" groups:idRef="R_PHEAKGAT"/>
-          <groups:member groups:name="R01158" groups:idRef="R_HDH"/>
+          <groups:member groups:name="R01158" groups:idRef="R_HISTD"/>
           <groups:member groups:name="R01286" groups:idRef="R_CYSTL"/>
           <groups:member groups:name="R03066" groups:idRef="R_HMHPTMT"/>
           <groups:member groups:name="R03545" groups:idRef="R_ALCD4y"/>
@@ -54665,7 +54569,6 @@
           <groups:member groups:name="R00943" groups:idRef="R_FTHFLi"/>
           <groups:member groups:name="R02722" groups:idRef="R_TRPS1"/>
           <groups:member groups:name="R08856" groups:idRef="R_ACGAMT"/>
-          <groups:member groups:name="R01163" groups:idRef="R_HISOR"/>
           <groups:member groups:name="R01230" groups:idRef="R_GMPS"/>
           <groups:member groups:name="R01771" groups:idRef="R_HSK"/>
           <groups:member groups:name="R03815" groups:idRef="R_GCCc"/>
@@ -54687,7 +54590,7 @@
           <groups:member groups:name="R00944" groups:idRef="R_FTHFD"/>
           <groups:member groups:name="R01867" groups:idRef="R_DHORD6"/>
           <groups:member groups:name="R01291" groups:idRef="R_RHCCE"/>
-          <groups:member groups:name="R04640" groups:idRef="R_PRICIh"/>
+          <groups:member groups:name="R04640" groups:idRef="R_PRMICI"/>
           <groups:member groups:name="R08657" groups:idRef="R_COQOR"/>
           <groups:member groups:name="R00019" groups:idRef="R_HYDA"/>
           <groups:member groups:name="R01229" groups:idRef="R_GUAPRT"/>
@@ -54785,7 +54688,7 @@
           <groups:member groups:name="R01054" groups:idRef="R_ADPRDP"/>
           <groups:member groups:name="R01715" groups:idRef="R_CHORM"/>
           <groups:member groups:name="R08558" groups:idRef="R_BETALDOR"/>
-          <groups:member groups:name="R04035" groups:idRef="R_PRADPh"/>
+          <groups:member groups:name="R04035" groups:idRef="R_PRATPP"/>
           <groups:member groups:name="R00590" groups:idRef="R_SERHL"/>
           <groups:member groups:name="R02323" groups:idRef="R_NMNHYD"/>
           <groups:member groups:name="R05223" groups:idRef="R_ADOCBLS"/>
