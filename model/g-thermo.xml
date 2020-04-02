@@ -4620,7 +4620,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_uaagmd_c" sboTerm="SBO:0000247" id="M_uaagmd_c" name="UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C35H51N7O26P2">
+      <species metaid="meta_M_ugmd_c" sboTerm="SBO:0000247" id="M_ugmd_c" name="UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C35H51N7O26P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C04877</p>
@@ -4630,7 +4630,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_uaagmd_c">
+            <rdf:Description rdf:about="#meta_M_ugmd_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04877"/>
@@ -15384,7 +15384,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_acg5sa_c" sboTerm="SBO:0000247" id="M_acg5sa_c" name="N-Acetyl-L-glutamate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H10NO4">
+      <species metaid="meta_M_acg5sa_c" sboTerm="SBO:0000247" id="M_acg5sa_c" name="N-Acetyl-L-glutamate 5-semialdehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H10NO4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C01250</p>
@@ -22462,7 +22462,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MATm" sboTerm="SBO:0000176" id="R_MATm" name="R00177" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_METAT" sboTerm="SBO:0000176" id="R_METAT" name="R00177" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -22475,7 +22475,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_MATm">
+            <rdf:Description rdf:about="#meta_R_METAT">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00177"/>
@@ -23493,7 +23493,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02382"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ACGS" sboTerm="SBO:0000176" id="R_ACGS" name="R00259" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACGS" sboTerm="SBO:0000176" id="R_ACGS" name="R00259" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -26007,7 +26007,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03484"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_SAT" sboTerm="SBO:0000176" id="R_SAT" name="R00586" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SERAT" sboTerm="SBO:0000176" id="R_SERAT" name="R00586" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -26020,7 +26020,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_SAT">
+            <rdf:Description rdf:about="#meta_R_SERAT">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00586"/>
@@ -31626,7 +31626,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MTHFO_nadp" sboTerm="SBO:0000176" id="R_MTHFO_nadp" name="R01224" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MTHFO_nadp" sboTerm="SBO:0000176" id="R_MTHFO_nadp" name="R01224" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -38779,7 +38779,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04095"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UAMAGLIG" sboTerm="SBO:0000176" id="R_UAMAGLIG" name="R02788" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UAAGDS" sboTerm="SBO:0000176" id="R_UAAGDS" name="R02788" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -38792,7 +38792,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_UAMAGLIG">
+            <rdf:Description rdf:about="#meta_R_UAAGDS">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02788"/>
@@ -38810,7 +38810,7 @@
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_uaagmd_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ugmd_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
@@ -40510,7 +40510,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AGGPR" sboTerm="SBO:0000176" id="R_AGGPR" name="R03443" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AGPR" sboTerm="SBO:0000176" id="R_AGPR" name="R03443" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -40523,7 +40523,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_AGGPR">
+            <rdf:Description rdf:about="#meta_R_AGPR">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03443"/>
@@ -43805,7 +43805,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01029"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ALAALALIG" sboTerm="SBO:0000176" id="R_ALAALALIG" name="R04617" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UGMDDS" sboTerm="SBO:0000176" id="R_UGMDDS" name="R04617" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -43818,7 +43818,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ALAALALIG">
+            <rdf:Description rdf:about="#meta_R_UGMDDS">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04617"/>
@@ -43831,7 +43831,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_uaagmd_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ugmd_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_alaala_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -47697,7 +47697,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MTHFO" sboTerm="SBO:0000176" id="R_MTHFO" name="R07168" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MTHFO" sboTerm="SBO:0000176" id="R_MTHFO" name="R07168" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -54270,7 +54270,7 @@
           <groups:member groups:name="R00183" groups:idRef="R_NTD7"/>
           <groups:member groups:name="R00962" groups:idRef="R_ITCY"/>
           <groups:member groups:name="R00274" groups:idRef="R_GTHPe"/>
-          <groups:member groups:name="R02788" groups:idRef="R_UAMAGLIG"/>
+          <groups:member groups:name="R02788" groups:idRef="R_UAAGDS"/>
           <groups:member groups:name="R00838" groups:idRef="R_MALTPGH"/>
           <groups:member groups:name="R00897" groups:idRef="R_CYSS"/>
           <groups:member groups:name="R02071" groups:idRef="R_FRUK"/>
@@ -54307,7 +54307,7 @@
           <groups:member groups:name="R03104" groups:idRef="R_MERCPPYROR"/>
           <groups:member groups:name="R04946" groups:idRef="R_SUCHMSSELCYSL"/>
           <groups:member groups:name="R04170" groups:idRef="R_ECOAH5"/>
-          <groups:member groups:name="R00177" groups:idRef="R_MATm"/>
+          <groups:member groups:name="R00177" groups:idRef="R_METAT"/>
           <groups:member groups:name="R00189" groups:idRef="R_NADS1"/>
           <groups:member groups:name="R00401" groups:idRef="R_ALAR"/>
           <groups:member groups:name="R04742" groups:idRef="R_ACACT5r_1"/>
@@ -54334,7 +54334,7 @@
           <groups:member groups:name="R05617" groups:idRef="R_DHNAOT4"/>
           <groups:member groups:name="R08165" groups:idRef="R_SEPHCHCS"/>
           <groups:member groups:name="R07237" groups:idRef="R_AMETTRANS"/>
-          <groups:member groups:name="R00586" groups:idRef="R_SAT"/>
+          <groups:member groups:name="R00586" groups:idRef="R_SERAT"/>
           <groups:member groups:name="R00750" groups:idRef="R_HOPNTAL"/>
           <groups:member groups:name="R01717" groups:idRef="R_ICHORS"/>
           <groups:member groups:name="R04111" groups:idRef="R_MALTPT"/>
@@ -54434,7 +54434,7 @@
           <groups:member groups:name="R01177" groups:idRef="R_ACACT2"/>
           <groups:member groups:name="R01819" groups:idRef="R_MAN6PI"/>
           <groups:member groups:name="R00081" groups:idRef="R_FOCYCTCOR"/>
-          <groups:member groups:name="R03443" groups:idRef="R_AGGPR"/>
+          <groups:member groups:name="R03443" groups:idRef="R_AGPR"/>
           <groups:member groups:name="R01130" groups:idRef="R_IMPD"/>
           <groups:member groups:name="R05339" groups:idRef="R_AH6PI"/>
           <groups:member groups:name="R02017" groups:idRef="R_RNDR1"/>
@@ -54642,7 +54642,7 @@
           <groups:member groups:name="R00908" groups:idRef="R_APAT2rm"/>
           <groups:member groups:name="R01513" groups:idRef="R_PGCD"/>
           <groups:member groups:name="R01752" groups:idRef="R_GLYALDDr"/>
-          <groups:member groups:name="R04617" groups:idRef="R_ALAALALIG"/>
+          <groups:member groups:name="R04617" groups:idRef="R_UGMDDS"/>
           <groups:member groups:name="R00475" groups:idRef="R_GLYCTO1"/>
           <groups:member groups:name="R04144" groups:idRef="R_PRAGSr"/>
           <groups:member groups:name="R02413" groups:idRef="R_SHK3Dr"/>
