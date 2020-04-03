@@ -35376,7 +35376,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_TDSRh" sboTerm="SBO:0000176" id="R_TDSRh" name="R02016" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TRDR" sboTerm="SBO:0000176" id="R_TRDR" name="R02016" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -35389,7 +35389,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_TDSRh">
+            <rdf:Description rdf:about="#meta_R_TRDR">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02016"/>
@@ -53059,6 +53059,199 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_HCO3E" sboTerm="SBO:0000176" id="R_HCO3E" name="HCO3 equilibration reaction" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_HCO3E">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/HCO3E"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN0-5224"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CARBODEHYDRAT-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R10092"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00132"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1475028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-1475025"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1475026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1475022"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1475032"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-1237047"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-1237045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-1237059"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-1475436"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-1237081"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-1475017"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-1475435"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10749"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10748"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10750"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10751"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/703"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00102"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hco3_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -53987,7 +54180,7 @@
           <groups:member groups:name="R01658" groups:idRef="R_DMATT"/>
           <groups:member groups:name="R03857" groups:idRef="R_ACOAD5f"/>
           <groups:member groups:name="R00965" groups:idRef="R_OMPDC"/>
-          <groups:member groups:name="R02016" groups:idRef="R_TDSRh"/>
+          <groups:member groups:name="R02016" groups:idRef="R_TRDR"/>
           <groups:member groups:name="R07269" groups:idRef="R_DECDPPP"/>
           <groups:member groups:name="R02093" groups:idRef="R_NDPK4"/>
           <groups:member groups:name="R00767" groups:idRef="R_F6PCPT"/>
