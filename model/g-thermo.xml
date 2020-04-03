@@ -21355,6 +21355,62 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_k_c" sboTerm="SBO:0000247" id="M_k_c" name="Potassium" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="K">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_k_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/k"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:K+"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26219"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29103"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:8345"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:49685"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00586"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/NPYPAHLBTDXSSS-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00238"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D08403"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM95"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74126"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5626313"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29804"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/21"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00205"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_k_e" sboTerm="SBO:0000247" id="M_k_e" name="Potassium" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="K">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_k_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/k"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:K+"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26219"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29103"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:8345"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:49685"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00586"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/NPYPAHLBTDXSSS-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00238"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D08403"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM95"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74126"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5626313"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29804"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/21"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00205"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -50895,7 +50951,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NH4t" sboTerm="SBO:0000185" id="R_NH4t" name="Transport of metabolite nh4_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NH4t" sboTerm="SBO:0000185" id="R_NH4t" name="Transport of metabolite nh4_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -50926,7 +50982,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_FE2t" sboTerm="SBO:0000185" id="R_FE2t" name="Transport of metabolite fe2_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_FEtabc" sboTerm="SBO:0000185" id="R_FEtabc" name="Transport of metabolite fe2_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -50934,12 +50990,17 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_fe2_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_fe2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_H2Ot" sboTerm="SBO:0000185" id="R_H2Ot" name="Transport of metabolite oh1_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_H2Ot" sboTerm="SBO:0000185" id="R_H2Ot" name="Transport of metabolite oh1_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -50952,7 +51013,7 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_O2t" sboTerm="SBO:0000185" id="R_O2t" name="Transport of metabolite o2_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_O2t" sboTerm="SBO:0000185" id="R_O2t" name="Transport of metabolite o2_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -50965,7 +51026,7 @@
           <speciesReference species="M_o2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_CO2t" sboTerm="SBO:0000185" id="R_CO2t" name="Transport of metabolite co2_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CO2t" sboTerm="SBO:0000185" id="R_CO2t" name="Transport of metabolite co2_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -50976,19 +51037,6 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_co2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="meta_R_Ht" sboTerm="SBO:0000185" id="R_Ht" name="Transport of metabolite h_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: S_</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_THMt" sboTerm="SBO:0000185" id="R_THMt" name="Transport of metabolite thm_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51017,12 +51065,17 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_cobalt2_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cobalt2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_ETOHt" sboTerm="SBO:0000185" id="R_ETOHt" name="Transport of metabolite etoh_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ETOHt" sboTerm="SBO:0000185" id="R_ETOHt" name="Transport of metabolite etoh_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -51035,7 +51088,7 @@
           <speciesReference species="M_etoh_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_ACt" sboTerm="SBO:0000185" id="R_ACt" name="Transport of metabolite ac_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACt" sboTerm="SBO:0000185" id="R_ACt" name="Transport of metabolite ac_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -51048,7 +51101,7 @@
           <speciesReference species="M_ac_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_LAC__Dt" sboTerm="SBO:0000185" id="R_LAC__Dt" name="Transport of metabolite lac__D_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_LAC__Dt" sboTerm="SBO:0000185" id="R_LAC__Dt" name="Transport of metabolite lac__D_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -51056,12 +51109,14 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_lac__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_lac__D_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_SUCCt" sboTerm="SBO:0000185" id="R_SUCCt" name="Transport of metabolite succ_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SUCCt" sboTerm="SBO:0000185" id="R_SUCCt" name="Transport of metabolite succ_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -51069,12 +51124,14 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_succ_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_LAC__Lt" sboTerm="SBO:0000185" id="R_LAC__Lt" name="Transport of metabolite lac__L_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_LAC__Lt" sboTerm="SBO:0000185" id="R_LAC__Lt" name="Transport of metabolite lac__L_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -51082,9 +51139,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_lac__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_lac__L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_biomass" sboTerm="SBO:0000629" id="R_biomass" name="biomass" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -52131,7 +52190,7 @@
           <speciesReference species="M_cl_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_ASN__Lt" sboTerm="SBO:0000185" id="R_ASN__Lt" name="Transport of metabolite asn__L_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ASN__Lt" sboTerm="SBO:0000185" id="R_ASN__Lt" name="L-asparagine reversible transport via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -52139,9 +52198,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_asn__L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_asn__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_PYDX5Pt" sboTerm="SBO:0000185" id="R_PYDX5Pt" name="Transport of metabolite pydx5p_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -52196,7 +52257,7 @@
           <speciesReference species="M_Biomass_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_THMTPt" sboTerm="SBO:0000185" id="R_THMTPt" name="Transport of metabolite thmtp_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_THMTPt" sboTerm="SBO:0000185" id="R_THMTPt" name="Transport of metabolite thmtp_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: S_</p>
@@ -52313,7 +52374,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GLYCt" name=" Transport of Glycerol, passive" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_GLYCt" name=" Transport of Glycerol, passive" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -52448,7 +52509,7 @@
           <speciesReference species="M_tre6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_RMNt" name="Transport of L-rhamnose passively" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_RMNt" name="Transport of L-rhamnose passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed passive transport</p>
@@ -52456,9 +52517,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_rmn_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_rmn_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_RMI" sboTerm="SBO:0000176" id="R_RMI" name="L-rhamnose isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -52564,7 +52627,7 @@
           <speciesReference species="M_lald__L_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MELIBt" name="Transport of Melibiose via passive transport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_MELIBt" name="Transport of Melibiose via passive transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed passive transport</p>
@@ -52572,9 +52635,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_melib_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_melib_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_GTBIt" name="Transport of gentiobiose" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -52776,12 +52841,14 @@
           <speciesReference species="M_amylose_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PYRt" name="Transport of Pyruvate" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_PYRt" name="Pyruvate transport in via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_pyr_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_EX_fru_e" sboTerm="SBO:0000627" id="R_EX_fru_e" name="D-Fructose exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -52879,7 +52946,7 @@
           <speciesReference species="M_pyr_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_FORt" name="Transport of formate via proton symport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_FORt" name="Formate transport in via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_for_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
@@ -52892,9 +52959,11 @@
       <reaction id="R_PIt" name="Transport of phosphate" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_EX_pi_e" sboTerm="SBO:0000627" id="R_EX_pi_e" name="Phosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -53250,6 +53319,52 @@
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_hco3_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_ATPS4r" sboTerm="SBO:0000185" id="R_ATPS4r" name="ATP synthase (four protons for one ATP)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_ATPS4r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/ATPS4r"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ATPSYN-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.6.3.14"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96136"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn08173"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn10042"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_Kt" name="Potassium transport via antiport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_k_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_k_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_Kt2" name="Potassium transport via uniport (facilitated diffusion)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_k_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_k_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
     </listOfReactions>
@@ -54911,9 +55026,8 @@
           <groups:member groups:name="Transport of metabolite co2_e" groups:idRef="R_CO2t"/>
           <groups:member groups:name="Transport of metabolite cobalt2_e" groups:idRef="R_COBALT2t"/>
           <groups:member groups:name="Transport of metabolite etoh_e" groups:idRef="R_ETOHt"/>
-          <groups:member groups:name="Transport of metabolite h_e" groups:idRef="R_Ht"/>
           <groups:member groups:name="Transport of metabolite lac__L_e" groups:idRef="R_LAC__Lt"/>
-          <groups:member groups:name="Transport of metabolite fe2_e" groups:idRef="R_FE2t"/>
+          <groups:member groups:name="Transport of metabolite fe2_e" groups:idRef="R_FEtabc"/>
           <groups:member groups:name="Transport of metabolite ac_e" groups:idRef="R_ACt"/>
           <groups:member groups:name="biomass" groups:idRef="R_biomass"/>
           <groups:member groups:name="Transport of metabolite lac__D_e" groups:idRef="R_LAC__Dt"/>

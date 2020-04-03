@@ -1,0 +1,52 @@
+,ID,Reaction
+0,NH4t,nh4_e --> nh4_c
+1,GLC__Dtabc,atp_c + glc__D_e + h2o_c --> adp_c + glc__D_c + h_c + pi_c
+2,FE2t,fe2_e --> fe2_c
+3,H2Ot,h2o_e --> h2o_c
+4,O2t,o2_e --> o2_c
+5,CO2t,co2_c --> co2_e
+6,THMt,atp_c + h2o_c + thm_e --> adp_c + h_c + pi_c + thm_c
+7,COBALT2t,cobalt2_e --> cobalt2_c
+8,ETOHt,etoh_c --> etoh_e
+9,ACt,ac_c --> ac_e
+10,LAC__Dt,lac__D_c --> lac__D_e
+11,SUCCt,succ_c --> succ_e
+12,LAC__Lt,lac__L_c --> lac__L_e
+13,CLt,cl_e --> cl_c
+14,ASN__Lt,asn__L_e --> asn__L_c
+15,PYDX5Pt,pydx5p_c --> pydx5p_e
+16,QH2t,qh2_e --> qh2_c
+17,GTHRDt,gthrd_e --> gthrd_c
+18,BIOMASSt,Biomass_c --> Biomass_e
+19,THMTPt,thmtp_c --> thmtp_e
+20,NADPt,nadp_e --> nadp_c
+21,GLC__Dtpts,glc__D_e + pep_c --> g6p_c + pyr_c
+22,FRUtpts,fru_e + pep_c --> f6p_c + h_c + pyr_c
+23,ARAB__Ltabc,arab__L_e + atp_c + h2o_c --> adp_c + arab__L_c + h_c + pi_c
+24,XYL__Dtabc,atp_c + h2o_c + xyl__D_e --> adp_c + h_c + pi_c + xyl__D_c
+25,GALtabc,atp_c + gal_e + h2o_c --> adp_c + gal_c + h_c + pi_c
+26,MNLtpts,mnl_e + pep_c --> mnl1p_c + pyr_c
+27,CELLBtpts,cellb_e + pep_c --> cellb6p_c + pyr_c
+28,SUCRtpts,pep_c + sucr_e --> h_c + pyr_c + suc6p_c
+29,GLYCt,glyc_e --> glyc_c
+30,RIB__Dtabc,atp_c + h2o_c + rib__D_e --> adp_c + h_c + pi_c + rib__D_c
+31,MANtpts,man_e + pep_c --> man6p_c + pyr_c
+32,SBTtpts,pep_c + sbt__D_e --> h_c + pyr_c + sbt6p_c
+33,ACGAMtpts,acgam_e + pep_c --> acgam6p_c + pyr_c
+34,ARBTtpts,arbt_e + pep_c --> arbt6p_c + h_c + pyr_c
+35,SALCNtpts,pep_c + salcn_e --> pyr_c + salcn6p_c
+36,MALTtabc,atp_c + h2o_c + malt_e --> adp_c + h_c + malt_c + pi_c
+37,MALTtpts,malt_e + pep_c --> malt6p_c + pyr_c
+38,TREtpts,pep_c + tre_e --> pyr_c + tre6p_c
+39,RMNt,rmn_e <=> rmn_c
+40,MELIBt,melib_e <=> melib_c
+41,GTBIt,gtbi_e <=> gtbi_c
+42,TURAt,tura_e --> tura_c
+43,KDG2t,kdg2_e --> kdg2_c
+44,DGLCN5t,dglcn5_e --> dglcn5_c
+45,MDGPt,mdgp_e --> mdgp_c
+46,TAGtpts,pep_c + tag__D_e --> h_c + pyr_c + tag1p__D_c
+47,AMYt,amylose_e --> amylose_c
+48,PYRt,pyr_e <=> pyr_c
+49,FORt,for_e + h_e --> for_c + h_c
+50,PIt,pi_e <=> pi_c
