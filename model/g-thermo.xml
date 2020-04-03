@@ -53252,6 +53252,34 @@
           <speciesReference species="M_hco3_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_ATPS4r" sboTerm="SBO:0000185" id="R_ATPS4r" name="ATP synthase (four protons for one ATP)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_ATPS4r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/ATPS4r"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ATPSYN-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.6.3.14"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96136"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn08173"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn10042"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_e" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
