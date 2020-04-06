@@ -24460,7 +24460,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_SUCDi" sboTerm="SBO:0000176" id="R_SUCDi" name="R02164" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SUCDi" sboTerm="SBO:0000176" id="R_SUCDi" name="R02164" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -51113,11 +51113,13 @@
           <speciesReference species="M_amp_c" stoichiometry="0.113187265" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="0.029903042" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="104.9974" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_Biomass_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="104.9856" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="104.9974" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="104.9974" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_EX_cl_e" sboTerm="SBO:0000627" id="R_EX_cl_e" name="C00698 exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
