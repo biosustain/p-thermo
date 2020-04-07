@@ -8648,7 +8648,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_xu5p__D_c" sboTerm="SBO:0000247" id="M_xu5p__D_c" name="D-Xylulose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
+      <species metaid="meta_M_xu5p__D_c" sboTerm="SBO:0000247" id="M_xu5p__D_c" name="D-Xylulose 5-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C00231</p>
@@ -14626,7 +14626,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ru5p__L_c" sboTerm="SBO:0000247" id="M_ru5p__L_c" name="L-Ribulose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
+      <species metaid="meta_M_ru5p__L_c" sboTerm="SBO:0000247" id="M_ru5p__L_c" name="L-Ribulose 5-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C01101</p>
@@ -15244,7 +15244,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_6pgl_c" sboTerm="SBO:0000247" id="M_6pgl_c" name="D-Glucono-1,5-lactone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H9O9P">
+      <species metaid="meta_M_6pgl_c" sboTerm="SBO:0000247" id="M_6pgl_c" name=" D-Glucono-1,5-lactone 6-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H9O9P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C01236</p>
@@ -23009,7 +23009,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ACALD" sboTerm="SBO:0000176" id="R_ACALD" name="R00228" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACALD" sboTerm="SBO:0000176" id="R_ACALD" name="R00228" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -27794,7 +27794,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_G6PDH2r" sboTerm="SBO:0000176" id="R_G6PDH2r" name="R00835" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_G6PDH2r" sboTerm="SBO:0000176" id="R_G6PDH2r" name="R00835" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -30315,7 +30315,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00380"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ARGSL" sboTerm="SBO:0000176" id="R_ARGSL" name="R01086" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ARGSL" sboTerm="SBO:0000176" id="R_ARGSL" name="R01086" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -33141,46 +33141,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_FBA3" sboTerm="SBO:0000176" id="R_FBA3" name="R01621" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>SUBSYSTEM: 00030</p>
-            <p>GENE_ASSOCIATION: RTMO012345</p>
-            <p>KEGG ID: R01829</p>
-            <p>ENZYME: 4.1.2.13</p>
-            <p>NAME: sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase</p>
-            <p>DEFINITION: Sedoheptulose 1,7-bisphosphate ⇌ Glycerone phosphate + D-Erythrose 4-phosphate</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FBA3">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01829"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR99461"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.2.13"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.2"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/30167"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_xu5p__D_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_actp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO012345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_XYLK" sboTerm="SBO:0000176" id="R_XYLK" name="R01639" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -35589,7 +35549,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01051"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PGAMT" sboTerm="SBO:0000176" id="R_PGAMT" name="R02060" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PGAMT" sboTerm="SBO:0000176" id="R_PGAMT" name="R02060" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -36477,7 +36437,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01371"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_G1SAT" sboTerm="SBO:0000176" id="R_G1SAT" name="R02272" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_G1SAT" sboTerm="SBO:0000176" id="R_G1SAT" name="R02272" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -40125,7 +40085,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AGPR" sboTerm="SBO:0000176" id="R_AGPR" name="R03443" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AGPR" sboTerm="SBO:0000176" id="R_AGPR" name="R03443" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -43233,7 +43193,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00380"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AICART" sboTerm="SBO:0000176" id="R_AICART" name="R04560" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AICART" sboTerm="SBO:0000176" id="R_AICART" name="R04560" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -46479,7 +46439,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02323"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_RBP4E" sboTerm="SBO:0000176" id="R_RBP4E" name="R05850" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_RBP4E" sboTerm="SBO:0000176" id="R_RBP4E" name="R05850" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>SUBSYSTEM: X</p>
@@ -52558,7 +52518,15 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TGBPA" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub"/>
+      <reaction id="R_TGBPA" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_tagdp__D_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_dhap_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction id="R_AMYt" name="Transport of Amylose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_amylose_e" stoichiometry="1" constant="true"/>
@@ -54754,7 +54722,6 @@
       </groups:group>
       <groups:group groups:id="G_00030" groups:name="00030" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="R01621" groups:idRef="R_FBA3"/>
           <groups:member groups:name="R01528" groups:idRef="R_GND"/>
         </groups:listOfMembers>
       </groups:group>
