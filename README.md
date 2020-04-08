@@ -9,5 +9,5 @@ Both the cobra and cameo dependencies are required for operation of the g-thermo
 NOTE: Please pip install the following version of cobrapy (temporal):
 
 ```bash
-pip install git+git://github.com/opencobra/cobrapy.git@devel --upgrade
+pip install git+git://github.com/BenjaSanchez/cobrapy.git@refactor/sort-sbml --upgrade
 ```
