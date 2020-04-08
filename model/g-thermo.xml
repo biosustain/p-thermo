@@ -49505,7 +49505,7 @@
           <speciesReference species="M_thmtp_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_CMTEPISO" name="2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CMTEPISO" sboTerm="SBO:0000176" id="R_CMTEPISO" name="2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate ⇌ 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate</p>
@@ -49525,7 +49525,7 @@
           <speciesReference species="M_cthzp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_DXYL5PTST" name="1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DXYL5PTST" sboTerm="SBO:0000176" id="R_DXYL5PTST" name="1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: 1-Deoxy-D-xylulose 5-phosphate + Iminoglycine + C15814 ⇌ 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + C15810 + 2 H2O</p>
@@ -49550,7 +49550,7 @@
           <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_LCTST" name="L-cysteine:[ThiI] sulfurtransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_LCTST" sboTerm="SBO:0000176" id="R_LCTST" name="L-cysteine:[ThiI] sulfurtransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: [Enzyme]-cysteine + L-Cysteine ⇌ [Enzyme]-S-sulfanylcysteine + L-Alanine</p>
@@ -49572,7 +49572,7 @@
           <speciesReference species="M_ala__L_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ATPTAT" name="ATP:[ThiS] adenylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ATPTAT" sboTerm="SBO:0000176" id="R_ATPTAT" name="ATP:[ThiS] adenylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: C15810 + ATP ⇌ C15813 + Diphosphate</p>
@@ -49595,7 +49595,7 @@
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_LPROQOR" name="L-proline:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_LPROQOR" sboTerm="SBO:0000176" id="R_LPROQOR" name="L-proline:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: L-Proline + Quinone ⇌ (S)-1-Pyrroline-5-carboxylate + Hydroquinone</p>
@@ -49617,7 +49617,7 @@
           <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_BTNLIG" name="biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_BTNLIG" sboTerm="SBO:0000176" id="R_BTNLIG" name="biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG_COMMENT: first step of two-step reaction (R01075, R04562, R04563, R04582 or R04604); subsequently R05145 or R03762</p>
@@ -49641,7 +49641,7 @@
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_BTN5AMPL" name="Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_BTN5AMPL" sboTerm="SBO:0000176" id="R_BTN5AMPL" name="Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG_COMMENT: general reaction (see R04562, R04563, R04582 and R04604); following after R01074</p>
@@ -49665,7 +49665,7 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MDH2" name="(S)-malate:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MDH2" sboTerm="SBO:0000176" id="R_MDH2" name="(S)-malate:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: (S)-Malate + Quinone ⇌ Oxaloacetate + Hydroquinone</p>
@@ -49688,7 +49688,7 @@
           <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_OBO2OR" name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_OBO2OR" sboTerm="SBO:0000176" id="R_OBO2OR" name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: 2-Oxobutanoate + Orthophosphate + Oxygen ⇌ Propanoyl phosphate + CO2 + H2O</p>
@@ -49712,7 +49712,7 @@
           <speciesReference species="M_h2o2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_LALDPOR" name="(S)-lactaldehyde:NADP+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_LALDPOR" sboTerm="SBO:0000176" id="R_LALDPOR" name="(S)-lactaldehyde:NADP+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_lald__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="2" constant="true"/>
@@ -49722,7 +49722,7 @@
           <speciesReference species="M_nadh_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PHEAOR" name="D-phenylalanine:acceptor oxidoreductase (deaminating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PHEAOR" sboTerm="SBO:0000176" id="R_PHEAOR" name="D-phenylalanine:acceptor oxidoreductase (deaminating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: D-Phenylalanine + H2O + Acceptor ⇌ Phenylpyruvate + Ammonia + Reduced acceptor</p>
@@ -49745,7 +49745,7 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PYRLLOR" name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PYRLLOR" sboTerm="SBO:0000176" id="R_PYRLLOR" name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG_COMMENT: a part of multi-step reaction (see R00209, R01699+R02569+R07618); subsequently R02569; TPP-dependent enzyme (see R00014+R03270); pyruvate dehydrogenase complex: pyruvate dehydrogenase</p>
@@ -49768,7 +49768,7 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MOX" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MOX" sboTerm="SBO:0000176" id="R_MOX" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: (S)-Malate + Oxygen ⇌ Oxaloacetate + Hydrogen peroxide</p>
@@ -49789,7 +49789,7 @@
           <speciesReference species="M_h2o2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TRPS3" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TRPS3" sboTerm="SBO:0000176" id="R_TRPS3" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG_COMMENT: a part of multi-step reaction (ec 4.2.1.20, see R02722, R02340+R00674)</p>
@@ -49811,7 +49811,7 @@
           <speciesReference species="M_indole_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PGL" name="Spontaneous 6-Phospho-D-glucono-1,5-lactone lactonohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PGL" sboTerm="SBO:0000176" id="R_PGL" name="Spontaneous 6-Phospho-D-glucono-1,5-lactone lactonohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: R02035</p>
@@ -49825,7 +49825,7 @@
           <speciesReference species="M_6pgc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MAHMPDC" name="2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MAHMPDC" sboTerm="SBO:0000176" id="R_MAHMPDC" name="2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: 2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate + 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate ⇌ Thiamin monophosphate + Diphosphate + CO2</p>
@@ -49849,7 +49849,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GSPMDS" name="R01917" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GSPMDS" sboTerm="SBO:0000176" id="R_GSPMDS" name="R01917" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: ATP + Glutathione + Spermidine ⇌ ADP + Orthophosphate + Glutathionylspermidine</p>
@@ -49874,7 +49874,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_OOR3r" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_OOR3r" sboTerm="SBO:0000176" id="R_OOR3r" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: 2 Reduced ferredoxin + Succinyl-CoA + CO2 + 2 H+ ⇌ 2 Oxidized ferredoxin + 2-Oxoglutarate + CoA</p>
@@ -49900,7 +49900,7 @@
           <speciesReference species="M_fdxrd_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_SUCOAACTr" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SUCOAACTr" sboTerm="SBO:0000176" id="R_SUCOAACTr" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: Succinyl-CoA + Acetate ⇌ Acetyl-CoA + Succinate</p>
@@ -49923,7 +49923,7 @@
           <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACCOAACT" name="acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACCOAACT" sboTerm="SBO:0000176" id="R_ACCOAACT" name="acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: sn-Glycerol 3-phosphate + Acyl-CoA ⇌ 1-Acyl-sn-glycerol 3-phosphate + CoA</p>
@@ -49946,7 +49946,7 @@
           <speciesReference species="M_aglyc3p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACCOATT" name="acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACCOATT" sboTerm="SBO:0000176" id="R_ACCOATT" name="acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: Phosphatidate + CoA ⇌ 1-Acyl-sn-glycerol 3-phosphate + Acyl-CoA</p>
@@ -49969,7 +49969,7 @@
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_CTPPCT" name="CTP:phosphatidate cytidyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CTPPCT" sboTerm="SBO:0000176" id="R_CTPPCT" name="CTP:phosphatidate cytidyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: CTP + Phosphatidate ⇌ Diphosphate + CDP-diacylglycerol</p>
@@ -49993,7 +49993,7 @@
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GLYCNOR" name="Glycolate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+      <reaction metaid="meta_R_GLYCNOR" sboTerm="SBO:0000176" id="R_GLYCNOR" name="Glycolate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: Glycolate + NAD+ ⇌ Glyoxylate + NADH + H+</p>
@@ -50018,7 +50018,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_B23DONOR" name="(R,R)-Butane-2,3-diol:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_B23DONOR" sboTerm="SBO:0000176" id="R_B23DONOR" name="(R,R)-Butane-2,3-diol:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: (R,R)-Butane-2,3-diol + NAD+ ⇌ (R)-Acetoin + NADH + H+</p>
@@ -50043,7 +50043,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACTD" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACTD" sboTerm="SBO:0000176" id="R_ACTD" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: (R)-Acetoin + NAD+ ⇌ Diacetyl + NADH + H+</p>
@@ -50068,7 +50068,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACTNAT" name="acetyl-CoA:acetoin O-acetyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACTNAT" sboTerm="SBO:0000176" id="R_ACTNAT" name="acetyl-CoA:acetoin O-acetyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: Acetoin + CoA + NAD+ ⇌ Acetaldehyde + Acetyl-CoA + NADH + H+</p>
@@ -50093,7 +50093,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACEDIA" name="Acetolactate to Diacetyl" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACEDIA" sboTerm="SBO:0000176" id="R_ACEDIA" name="Acetolactate to Diacetyl" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>COMMENT: non-enzymatic; flavin, nicotinamide and quinone coenzymes act as acceptor</p>
@@ -50116,7 +50116,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_HPI" name="hydroxypyruvate aldose-ketose-isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HPI" sboTerm="SBO:0000176" id="R_HPI" name="hydroxypyruvate aldose-ketose-isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: Hydroxypyruvate ⇌ 2-Hydroxy-3-oxopropanoate</p>
@@ -50138,7 +50138,7 @@
           <speciesReference species="M_hop_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_HOXPRm" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HOXPRm" sboTerm="SBO:0000176" id="R_HOXPRm" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>COMMENT: NADP+ (see R01747)</p>
@@ -50164,7 +50164,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACOAD1" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACOAD1" sboTerm="SBO:0000176" id="R_ACOAD1" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: Butanoyl-CoA + NAD+ ⇌ Crotonoyl-CoA + NADH + H+</p>
@@ -50189,7 +50189,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ECOAH1" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ECOAH1" sboTerm="SBO:0000176" id="R_ECOAH1" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: (S)-3-Hydroxybutanoyl-CoA ⇌ Crotonoyl-CoA + H2O</p>
@@ -50213,7 +50213,7 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACTCO2L" name="acetone:carbon-dioxide ligase (AMP-forming)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACTCO2L" sboTerm="SBO:0000176" id="R_ACTCO2L" name="acetone:carbon-dioxide ligase (AMP-forming)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>DEFINITION: Acetone + CO2 + ATP + 2 H2O ⇌ Acetoacetate + AMP + 2 Orthophosphate</p>
@@ -50305,7 +50305,7 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GLC__Dtpts" name="D-Glucose PTS transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GLC__Dtpts" sboTerm="SBO:0000655" id="R_GLC__Dtpts" name="D-Glucose PTS transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glc__D_e" stoichiometry="1" constant="true"/>
@@ -50315,7 +50315,7 @@
           <speciesReference species="M_g6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_FRUtpts" name="Transport of D-fructose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_FRUtpts" sboTerm="SBO:0000655" id="R_FRUtpts" name="Transport of D-fructose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_fru_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50326,7 +50326,7 @@
           <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ARAB__Ltabc" name="Transport of L-arabinose via ABC transporter" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ARAB__Ltabc" sboTerm="SBO:0000655" id="R_ARAB__Ltabc" name="Transport of L-arabinose via ABC transporter" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
@@ -50339,7 +50339,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_XYL__Dtabc" name="Transport of D-xylose via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_XYL__Dtabc" sboTerm="SBO:0000655" id="R_XYL__Dtabc" name="Transport of D-xylose via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_xyl__D_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
@@ -50352,7 +50352,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GALtabc" name="Transport of D-galactose via abc transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GALtabc" sboTerm="SBO:0000655" id="R_GALtabc" name="Transport of D-galactose via abc transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_gal_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
@@ -50365,7 +50365,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MNLtpts" name="Transport of Mannitol via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MNLtpts" sboTerm="SBO:0000655" id="R_MNLtpts" name="Transport of Mannitol via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_mnl_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50375,7 +50375,7 @@
           <speciesReference species="M_mnl1p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_CELLBtpts" name="Transport of cellobiose vis pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CELLBtpts" sboTerm="SBO:0000655" id="R_CELLBtpts" name="Transport of cellobiose vis pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_cellb_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50385,7 +50385,7 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_SUCRtpts" name="Transport of sucrose via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SUCRtpts" sboTerm="SBO:0000655" id="R_SUCRtpts" name="Transport of sucrose via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_sucr_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50396,7 +50396,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GLYCt" name=" Transport of Glycerol, passive" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GLYCt" sboTerm="SBO:0000185" id="R_GLYCt" name=" Transport of Glycerol, passive" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -50404,7 +50404,7 @@
           <speciesReference species="M_glyc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_RIB__Dtabc" name="Transport of D-Ribose via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_RIB__Dtabc" sboTerm="SBO:0000655" id="R_RIB__Dtabc" name="Transport of D-Ribose via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
@@ -50417,7 +50417,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MANtpts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MANtpts" sboTerm="SBO:0000655" id="R_MANtpts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_man_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50427,7 +50427,7 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_SBTtpts" name="Transport of D-sorbitol via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SBTtpts" sboTerm="SBO:0000655" id="R_SBTtpts" name="Transport of D-sorbitol via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_sbt__D_e" stoichiometry="1" constant="true"/>
@@ -50467,7 +50467,7 @@
           <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ACGAMtpts" name="Transport of N-Acetyl-D-glucosamine via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACGAMtpts" sboTerm="SBO:0000655" id="R_ACGAMtpts" name="Transport of N-Acetyl-D-glucosamine via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_acgam_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50477,7 +50477,7 @@
           <speciesReference species="M_acgam6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ARBTtpts" name="Transport of arbutin via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ARBTtpts" sboTerm="SBO:0000655" id="R_ARBTtpts" name="Transport of arbutin via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_arbt_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50488,7 +50488,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_SALCNtpts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SALCNtpts" sboTerm="SBO:0000655" id="R_SALCNtpts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_salcn_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50498,7 +50498,7 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MALTtabc" name="Transport of Matlose via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MALTtabc" sboTerm="SBO:0000655" id="R_MALTtabc" name="Transport of Matlose via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_malt_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
@@ -50511,7 +50511,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MALTtpts" name="Transport of Maltose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MALTtpts" sboTerm="SBO:0000655" id="R_MALTtpts" name="Transport of Maltose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_malt_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50521,7 +50521,7 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TREtpts" name=" Transport of Trehalose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TREtpts" sboTerm="SBO:0000655" id="R_TREtpts" name=" Transport of Trehalose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_tre_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
@@ -50531,7 +50531,7 @@
           <speciesReference species="M_tre6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_RMNt" name="Transport of L-rhamnose passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_RMNt" sboTerm="SBO:0000185" id="R_RMNt" name="Transport of L-rhamnose passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed passive transport</p>
@@ -50649,7 +50649,7 @@
           <speciesReference species="M_lald__L_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MELIBt" name="Transport of Melibiose via passive transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MELIBt" sboTerm="SBO:0000185" id="R_MELIBt" name="Transport of Melibiose via passive transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed passive transport</p>
@@ -50664,7 +50664,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GTBIt" name="Transport of gentiobiose" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GTBIt" sboTerm="SBO:0000185" id="R_GTBIt" name="Transport of gentiobiose" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed passive transport</p>
@@ -50677,7 +50677,7 @@
           <speciesReference species="M_gtbi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_GTBIHY" name="Hydrolysis of Gentiobiose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GTBIHY" sboTerm="SBO:0000176" id="R_GTBIHY" name="Hydrolysis of Gentiobiose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction</p>
@@ -50691,7 +50691,7 @@
           <speciesReference species="M_glc__D_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TURAt" name="Turanose hydrolysis" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TURAt" sboTerm="SBO:0000185" id="R_TURAt" name="Turanose hydrolysis" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction based on data</p>
@@ -50704,7 +50704,7 @@
           <speciesReference species="M_tura_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TURAHY" name="Hydrolysis of Turanose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TURAHY" sboTerm="SBO:0000176" id="R_TURAHY" name="Hydrolysis of Turanose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reactions based on data</p>
@@ -50719,7 +50719,7 @@
           <speciesReference species="M_fru_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_KDG2t" name="Transport of 2-Keto-D-gluconic acid passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_KDG2t" sboTerm="SBO:0000185" id="R_KDG2t" name="Transport of 2-Keto-D-gluconic acid passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
@@ -50732,7 +50732,7 @@
           <speciesReference species="M_kdg2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_KDG2R" name="2-Keto-D-gluconic acid reductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_KDG2R" sboTerm="SBO:0000176" id="R_KDG2R" name="2-Keto-D-gluconic acid reductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
@@ -50748,7 +50748,7 @@
           <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_DGLCN5t" name="Transport of 5-Dehydro-D-gluconate passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DGLCN5t" sboTerm="SBO:0000185" id="R_DGLCN5t" name="Transport of 5-Dehydro-D-gluconate passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
@@ -50761,7 +50761,7 @@
           <speciesReference species="M_dglcn5_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_DGLCN5R" name="5-dehydro-D-gluconate reductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DGLCN5R" sboTerm="SBO:0000176" id="R_DGLCN5R" name="5-dehydro-D-gluconate reductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
@@ -50777,7 +50777,7 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_MDGPt" name="Transport of Methyl D-glucopyranoside passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MDGPt" sboTerm="SBO:0000185" id="R_MDGPt" name="Transport of Methyl D-glucopyranoside passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction from experimental data, though no confirmation on trasnport type</p>
@@ -50790,7 +50790,7 @@
           <speciesReference species="M_mdgp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_BGAL" name="methyl-beta-galactosidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_BGAL" sboTerm="SBO:0000176" id="R_BGAL" name="methyl-beta-galactosidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction from experimental data. This is a side reaction of the normal B-galactosidase</p>
@@ -50805,7 +50805,7 @@
           <speciesReference species="M_glc__D_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_ALCD1" name="NAD-dependent Methanol dehydrogenase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ALCD1" sboTerm="SBO:0000176" id="R_ALCD1" name="NAD-dependent Methanol dehydrogenase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: R00605</p>
@@ -50822,7 +50822,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TAGtpts" name="Transport of tag__D via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TAGtpts" sboTerm="SBO:0000655" id="R_TAGtpts" name="Transport of tag__D via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>COMMENTS: Assumed reaction from experimental data and bioinformatic indication.</p>
@@ -50838,7 +50838,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TAG1PK" name="D-Tagatose-1-phosphate kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TAG1PK" sboTerm="SBO:0000176" id="R_TAG1PK" name="D-Tagatose-1-phosphate kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>COMMENTS: Assumed reaction from experimental data and bioinformatic indication</p>
@@ -50854,7 +50854,7 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_TGBPA" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TGBPA" sboTerm="SBO:0000176" id="R_TGBPA" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_tagdp__D_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -50863,7 +50863,7 @@
           <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_AMYt" name="Transport of Amylose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AMYt" sboTerm="SBO:0000185" id="R_AMYt" name="Transport of Amylose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_amylose_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -50871,7 +50871,7 @@
           <speciesReference species="M_amylose_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PYRt" name="Pyruvate transport in via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PYRt" sboTerm="SBO:0000185" id="R_PYRt" name="Pyruvate transport in via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_pyr_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
@@ -50976,7 +50976,7 @@
           <speciesReference species="M_pyr_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_FORt" name="Formate transport in via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_FORt" sboTerm="SBO:0000185" id="R_FORt" name="Formate transport in via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_for_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
@@ -50986,7 +50986,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_PIt" name="Transport of phosphate" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PIt" sboTerm="SBO:0000185" id="R_PIt" name="Transport of phosphate" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
@@ -51028,7 +51028,7 @@
           <speciesReference species="M_trdox_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_SUCD5" name="Succinate dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SUCD5" sboTerm="SBO:0000176" id="R_SUCD5" name="Succinate dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_fadh2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ubiquin_c" stoichiometry="1" constant="true"/>
@@ -51379,7 +51379,7 @@
           <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_Kt" name="Potassium transport via antiport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_Kt" sboTerm="SBO:0000185" id="R_Kt" name="Potassium transport via antiport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_k_c" stoichiometry="1" constant="true"/>
@@ -51389,7 +51389,7 @@
           <speciesReference species="M_k_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_Kt2" name="Potassium transport via uniport (facilitated diffusion)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_Kt2" sboTerm="SBO:0000185" id="R_Kt2" name="Potassium transport via uniport (facilitated diffusion)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_k_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -51431,7 +51431,7 @@
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_NADHDH" id="R_NADHDH" name="NADH Dehydrogenase (ubiquinone &amp; 3.5 protons)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NADHDH" sboTerm="SBO:0000176" id="R_NADHDH" name="NADH Dehydrogenase (ubiquinone &amp; 3.5 protons)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_NADHDH">
@@ -51455,7 +51455,7 @@
           <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_CYTBO3" name="Cytochrome oxidase bo3 (ubiquinol: 2.5 protons)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CYTBO3" sboTerm="SBO:0000176" id="R_CYTBO3" name="Cytochrome oxidase bo3 (ubiquinol: 2.5 protons)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_o2_c" stoichiometry="0.5" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2.5" constant="true"/>
