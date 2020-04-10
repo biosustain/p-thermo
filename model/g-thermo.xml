@@ -1107,7 +1107,7 @@
             <rdf:Description rdf:about="#meta_M_6dg_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G01275"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G01275"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1434"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -1449,7 +1449,7 @@
             <rdf:Description rdf:about="#meta_M_cellb_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G00289"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00289"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1142"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -1637,7 +1637,7 @@
             <rdf:Description rdf:about="#meta_M_stys_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G00501"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00501"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM61111"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -2070,7 +2070,7 @@
             <rdf:Description rdf:about="#meta_M_cellulose_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10481"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10481"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM4897"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -2915,7 +2915,7 @@
             <rdf:Description rdf:about="#meta_M_starch_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10495"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10495"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM60163"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -13451,7 +13451,7 @@
             <rdf:Description rdf:about="#meta_M_dextrin_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10545"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10545"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1003"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19148,7 +19148,7 @@
             <rdf:Description rdf:about="#meta_M_cellb6p_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10518"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10518"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM4419"/>
                 </rdf:Bag>
               </bqbiol:is>
