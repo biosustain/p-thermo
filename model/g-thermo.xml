@@ -27557,7 +27557,8 @@
             <rdf:Description rdf:about="#meta_R_TRE6PGH">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00837; R06113"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00837"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06113"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27592,7 +27593,8 @@
             <rdf:Description rdf:about="#meta_R_MALTPGH">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00838; R06115"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00838"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06115"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27624,7 +27626,8 @@
             <rdf:Description rdf:about="#meta_R_CELLPGH">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00839; R06112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00839"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06112"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -30721,7 +30724,8 @@
             <rdf:Description rdf:about="#meta_R_DGALIGH">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06093; R01194"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06093"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01194"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -31536,7 +31540,8 @@
             <rdf:Description rdf:about="#meta_R_EPMGH">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01329; R06142"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01329"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06142"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -33134,7 +33139,8 @@
             <rdf:Description rdf:about="#meta_R_ISOMALHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01718; R06080"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01718"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06080"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -33603,7 +33609,8 @@
             <rdf:Description rdf:about="#meta_R_DEXHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06199; R01791"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06199"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01791"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -35325,7 +35332,8 @@
             <rdf:Description rdf:about="#meta_R_STARCHHY2">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02108; R06209"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02108"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06209"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -35355,7 +35363,8 @@
             <rdf:Description rdf:about="#meta_R_AMYTRANS">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02110; R06186"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02110"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06186"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -37476,7 +37485,8 @@
             <rdf:Description rdf:about="#meta_R_TREPT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06229; R02780"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06229"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02780"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -40603,7 +40613,8 @@
             <rdf:Description rdf:about="#meta_R_MALTPT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04111; R06236"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04111"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06236"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -41989,7 +42000,8 @@
             <rdf:Description rdf:about="#meta_R_DTPCUDCPPR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04519; R06177"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04519"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06177"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45319,7 +45331,8 @@
             <rdf:Description rdf:about="#meta_R_BGLUCH">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06077; R02887"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06077"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02887"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45350,7 +45363,8 @@
             <rdf:Description rdf:about="#meta_R_SUCHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00801; R06087"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00801"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06087"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45382,7 +45396,8 @@
             <rdf:Description rdf:about="#meta_R_MELIBHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01101; R06091"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01101"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06091"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45414,7 +45429,8 @@
             <rdf:Description rdf:about="#meta_R_CELLBHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06092; R00026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06092"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00026"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45443,7 +45459,8 @@
             <rdf:Description rdf:about="#meta_R_MANNHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05549; R06096"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05549"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06096"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45475,7 +45492,8 @@
             <rdf:Description rdf:about="#meta_R_M_6DGHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06100; R02410"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06100"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02410"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45507,7 +45525,8 @@
             <rdf:Description rdf:about="#meta_R_STACHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06101; R03635"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06101"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03635"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45537,7 +45556,8 @@
             <rdf:Description rdf:about="#meta_R_STACHY2">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06152; R03634"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06152"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03634"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45569,7 +45589,8 @@
             <rdf:Description rdf:about="#meta_R_UAAAGGLAAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06179; R06178"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06178"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -45604,7 +45625,8 @@
             <rdf:Description rdf:about="#meta_R_CELLOHYDRO">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06200; R02886"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06200"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02886"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
