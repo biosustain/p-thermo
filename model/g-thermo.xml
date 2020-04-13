@@ -51116,7 +51116,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.1.77"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reactions/R07341"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R07341"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
