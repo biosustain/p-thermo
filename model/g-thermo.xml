@@ -42078,7 +42078,7 @@
       <reaction metaid="meta_R_IG3PS" sboTerm="SBO:0000176" id="R_IG3PS" name="R04558" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ECNumbers:4.1.3.-; 4.3.2.M2; 2.4.2.-</p>
+            <p>ECNumbers: 4.1.3.-; 4.3.2.M2; 2.4.2.-</p>
             <p>KEGG ID: R04558</p>
             <p>ENZYME: 2.4.2.- 4.1.3.-</p>
           </html>
