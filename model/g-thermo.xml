@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="1" fbc:required="false">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1" fbc:required="false" groups:required="false">
   <model metaid="meta_GTModelBeata2015" id="GTModelBeata2015" name="Geobacillus thermoglucosidasius genome-scale model" fbc:strict="true">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
@@ -52461,5 +52461,73 @@
       <fbc:geneProduct metaid="meta_G_b3904" sboTerm="SBO:0000243" fbc:id="G_b3904" fbc:name="rhaB" fbc:label="G_b3904"/>
       <fbc:geneProduct metaid="meta_G_b3902" sboTerm="SBO:0000243" fbc:id="G_b3902" fbc:name="rhaD" fbc:label="G_b3902"/>
     </fbc:listOfGeneProducts>
+    <groups:listOfGroups>
+      <groups:group groups:id="G_02000" groups:name="Passive transport" groups:kind="collection">
+        <groups:listOfMembers>
+          <groups:member groups:name="Transport of metabolite nh4_e" groups:idRef="R_NH4t"/>
+          <groups:member groups:name="Transport of metabolite oh1_e" groups:idRef="R_H2Ot"/>
+          <groups:member groups:name="Transport of metabolite o2_e" groups:idRef="R_O2t"/>
+          <groups:member groups:name="Transport of metabolite co2_e" groups:idRef="R_CO2t"/>
+          <groups:member groups:name="Transport of metabolite thm_e" groups:idRef="R_THMt"/>
+          <groups:member groups:name="Transport of metabolite cobalt2_e" groups:idRef="R_COBALT2t"/>
+          <groups:member groups:name="Transport of metabolite etoh_e" groups:idRef="R_ETOHt"/>
+          <groups:member groups:name="Transport of metabolite ac_e" groups:idRef="R_ACt"/>
+          <groups:member groups:name="Transport of metabolite lac__D_e" groups:idRef="R_LAC__Dt"/>
+          <groups:member groups:name="Transport of metabolite succ_e" groups:idRef="R_SUCCt"/>
+          <groups:member groups:name="Transport of metabolite lac__L_e" groups:idRef="R_LAC__Lt"/>
+          <groups:member groups:name="Transport of metabolite cl_e" groups:idRef="R_CLt"/>
+          <groups:member groups:name="L-asparagine reversible transport via proton symport" groups:idRef="R_ASN__Lt"/>
+          <groups:member groups:name="Transport of metabolite pydx5p_e" groups:idRef="R_PYDX5Pt"/>
+          <groups:member groups:name="Transport of metabolite qh2_e" groups:idRef="R_QH2t"/>
+          <groups:member groups:name="Transport of metabolite gthrd_e" groups:idRef="R_GTHRDt"/>
+          <groups:member groups:name="Transport of metabolite Biomass_e" groups:idRef="R_BIOMASSt"/>
+          <groups:member groups:name="Transport of metabolite thmtp_e" groups:idRef="R_THMTPt"/>
+          <groups:member groups:name="Transport of metabolite nadp_e" groups:idRef="R_NADPt"/>
+          <groups:member groups:name=" Transport of Glycerol, passive" groups:idRef="R_GLYCt"/>
+          <groups:member groups:name="Transport of L-rhamnose passively" groups:idRef="R_RMNt"/>
+          <groups:member groups:name="Transport of Melibiose via passive transport" groups:idRef="R_MELIBt"/>
+          <groups:member groups:name="Transport of gentiobiose" groups:idRef="R_GTBIt"/>
+          <groups:member groups:name="Turanose hydrolysis" groups:idRef="R_TURAt"/>
+          <groups:member groups:name="Transport of 2-Keto-D-gluconic acid passively" groups:idRef="R_KDG2t"/>
+          <groups:member groups:name="Transport of 5-Dehydro-D-gluconate passively" groups:idRef="R_DGLCN5t"/>
+          <groups:member groups:name="Transport of Methyl D-glucopyranoside passively" groups:idRef="R_MDGPt"/>
+          <groups:member groups:name="Transport of Amylose" groups:idRef="R_AMYt"/>
+          <groups:member groups:name="Pyruvate transport in via proton symport" groups:idRef="R_PYRt"/>
+          <groups:member groups:name="Formate transport in via proton symport" groups:idRef="R_FORt"/>
+          <groups:member groups:name="Transport of phosphate" groups:idRef="R_PIt"/>
+          <groups:member groups:name="Potassium transport via antiport" groups:idRef="R_Kt"/>
+          <groups:member groups:name="Potassium transport via uniport (facilitated diffusion)" groups:idRef="R_Kt2"/>
+          <groups:member groups:name="Sulfate transport via proton symport" groups:idRef="R_SO4t"/>
+        </groups:listOfMembers>
+      </groups:group>
+      <groups:group groups:id="G_02010" groups:name="ABC transporters" groups:kind="collection">
+        <groups:listOfMembers>
+          <groups:member groups:name="Transport of metabolite glc__D_e" groups:idRef="R_GLC__Dtabc"/>
+          <groups:member groups:name="Transport of metabolite fe2_e" groups:idRef="R_FEtabc"/>
+          <groups:member groups:name="Transport of L-arabinose via ABC transporter" groups:idRef="R_ARAB__Ltabc"/>
+          <groups:member groups:name="Transport of D-xylose via ABC transport" groups:idRef="R_XYL__Dtabc"/>
+          <groups:member groups:name="Transport of D-galactose via abc transport" groups:idRef="R_GALtabc"/>
+          <groups:member groups:name="Transport of D-Ribose via ABC transport" groups:idRef="R_RIB__Dtabc"/>
+          <groups:member groups:name="Transport of Matlose via ABC" groups:idRef="R_MALTtabc"/>
+        </groups:listOfMembers>
+      </groups:group>
+      <groups:group groups:id="G_02060" groups:name="Phosphotransferase system (PTS)" groups:kind="collection">
+        <groups:listOfMembers>
+          <groups:member groups:name="D-Glucose PTS transport" groups:idRef="R_GLC__Dtpts"/>
+          <groups:member groups:name="Transport of D-fructose via PTS" groups:idRef="R_FRUtpts"/>
+          <groups:member groups:name="Transport of Mannitol via PTS" groups:idRef="R_MNLtpts"/>
+          <groups:member groups:name="Transport of cellobiose vis pts" groups:idRef="R_CELLBtpts"/>
+          <groups:member groups:name="Transport of sucrose via pts" groups:idRef="R_SUCRtpts"/>
+          <groups:member groups:name="R_MANtpts" groups:idRef="R_MANtpts"/>
+          <groups:member groups:name="Transport of D-sorbitol via pts" groups:idRef="R_SBTtpts"/>
+          <groups:member groups:name="Transport of N-Acetyl-D-glucosamine via pts" groups:idRef="R_ACGAMtpts"/>
+          <groups:member groups:name="Transport of arbutin via pts" groups:idRef="R_ARBTtpts"/>
+          <groups:member groups:name="R_SALCNtpts" groups:idRef="R_SALCNtpts"/>
+          <groups:member groups:name="Transport of Maltose via PTS" groups:idRef="R_MALTtpts"/>
+          <groups:member groups:name=" Transport of Trehalose via PTS" groups:idRef="R_TREtpts"/>
+          <groups:member groups:name="Transport of tag__D via PTS" groups:idRef="R_TAGtpts"/>
+        </groups:listOfMembers>
+      </groups:group>
+    </groups:listOfGroups>
   </model>
 </sbml>
