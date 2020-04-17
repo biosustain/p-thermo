@@ -52518,6 +52518,160 @@
           <groups:member groups:name="Sulfate exchange" groups:idRef="R_EX_so4_e"/>
         </groups:listOfMembers>
       </groups:group>
+      <groups:group groups:id="G_00010" groups:name="Glycolysis / Gluconeogenesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00020" groups:name="Citrate cycle (TCA cycle)" groups:kind="collection"/>
+      <groups:group groups:id="G_00030" groups:name="Pentose phosphate pathway" groups:kind="collection"/>
+      <groups:group groups:id="G_00040" groups:name="Pentose and glucuronate interconversions" groups:kind="collection"/>
+      <groups:group groups:id="G_00051" groups:name="Fructose and mannose metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00052" groups:name="Galactose metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00053" groups:name="Ascorbate and aldarate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00061" groups:name="Fatty acid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00062" groups:name="Fatty acid elongation" groups:kind="collection"/>
+      <groups:group groups:id="G_00071" groups:name="Fatty acid degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00072" groups:name="Synthesis and degradation of ketone bodies" groups:kind="collection"/>
+      <groups:group groups:id="G_00073" groups:name="Cutin, suberine and wax biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00100" groups:name="Steroid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00120" groups:name="Primary bile acid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00121" groups:name="Secondary bile acid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00130" groups:name="Ubiquinone and other terpenoid-quinone biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00140" groups:name="Steroid hormone biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00190" groups:name="Oxidative phosphorylation" groups:kind="collection"/>
+      <groups:group groups:id="G_00195" groups:name="Photosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00196" groups:name="Photosynthesis - antenna proteins" groups:kind="collection"/>
+      <groups:group groups:id="G_00220" groups:name="Arginine biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00230" groups:name="Purine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00232" groups:name="Caffeine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00240" groups:name="Pyrimidine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00250" groups:name="Alanine, aspartate and glutamate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00253" groups:name="Tetracycline biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00254" groups:name="Aflatoxin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00260" groups:name="Glycine, serine and threonine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00261" groups:name="Monobactam biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00270" groups:name="Cysteine and methionine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00280" groups:name="Valine, leucine and isoleucine degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00281" groups:name="Geraniol degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00290" groups:name="Valine, leucine and isoleucine biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00300" groups:name="Lysine biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00310" groups:name="Lysine degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00311" groups:name="Penicillin and cephalosporin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00330" groups:name="Arginine and proline metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00331" groups:name="Clavulanic acid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00332" groups:name="Carbapenem biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00333" groups:name="Prodigiosin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00340" groups:name="Histidine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00350" groups:name="Tyrosine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00360" groups:name="Phenylalanine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00361" groups:name="Chlorocyclohexane and chlorobenzene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00362" groups:name="Benzoate degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00363" groups:name="Bisphenol degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00364" groups:name="Fluorobenzoate degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00365" groups:name="Furfural degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00380" groups:name="Tryptophan metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00400" groups:name="Phenylalanine, tyrosine and tryptophan biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00401" groups:name="Novobiocin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00402" groups:name="Benzoxazinoid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00403" groups:name="Indole diterpene alkaloid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00404" groups:name="Staurosporine biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00405" groups:name="Phenazine biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00410" groups:name="beta-Alanine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00430" groups:name="Taurine and hypotaurine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00440" groups:name="Phosphonate and phosphinate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00450" groups:name="Selenocompound metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00460" groups:name="Cyanoamino acid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00471" groups:name="D-Glutamine and D-glutamate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00472" groups:name="D-Arginine and D-ornithine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00473" groups:name="D-Alanine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00480" groups:name="Glutathione metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00500" groups:name="Starch and sucrose metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00510" groups:name="N-Glycan biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00511" groups:name="Other glycan degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00512" groups:name="Mucin type O-glycan biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00513" groups:name="Various types of N-glycan biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00514" groups:name="Other types of O-glycan biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00515" groups:name="Mannose type O-glycan biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00520" groups:name="Amino sugar and nucleotide sugar metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00521" groups:name="Streptomycin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00522" groups:name="Biosynthesis of 12-, 14- and 16-membered macrolides" groups:kind="collection"/>
+      <groups:group groups:id="G_00523" groups:name="Polyketide sugar unit biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00524" groups:name="Neomycin, kanamycin and gentamicin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00525" groups:name="Acarbose and validamycin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00531" groups:name="Glycosaminoglycan degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00532" groups:name="Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate" groups:kind="collection"/>
+      <groups:group groups:id="G_00533" groups:name="Glycosaminoglycan biosynthesis - keratan sulfate" groups:kind="collection"/>
+      <groups:group groups:id="G_00534" groups:name="Glycosaminoglycan biosynthesis - heparan sulfate / heparin" groups:kind="collection"/>
+      <groups:group groups:id="G_00540" groups:name="Lipopolysaccharide biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00550" groups:name="Peptidoglycan biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00561" groups:name="Glycerolipid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00562" groups:name="Inositol phosphate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00563" groups:name="Glycosylphosphatidylinositol (GPI)-anchor biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00564" groups:name="Glycerophospholipid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00565" groups:name="Ether lipid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00571" groups:name="Lipoarabinomannan (LAM) biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00572" groups:name="Arabinogalactan biosynthesis - Mycobacterium" groups:kind="collection"/>
+      <groups:group groups:id="G_00590" groups:name="Arachidonic acid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00591" groups:name="Linoleic acid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00592" groups:name="alpha-Linolenic acid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00600" groups:name="Sphingolipid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00601" groups:name="Glycosphingolipid biosynthesis - lacto and neolacto series" groups:kind="collection"/>
+      <groups:group groups:id="G_00603" groups:name="Glycosphingolipid biosynthesis - globo and isoglobo series" groups:kind="collection"/>
+      <groups:group groups:id="G_00604" groups:name="Glycosphingolipid biosynthesis - ganglio series" groups:kind="collection"/>
+      <groups:group groups:id="G_00620" groups:name="Pyruvate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00621" groups:name="Dioxin degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00622" groups:name="Xylene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00623" groups:name="Toluene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00624" groups:name="Polycyclic aromatic hydrocarbon degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00625" groups:name="Chloroalkane and chloroalkene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00626" groups:name="Naphthalene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00627" groups:name="Aminobenzoate degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00630" groups:name="Glyoxylate and dicarboxylate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00633" groups:name="Nitrotoluene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00640" groups:name="Propanoate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00642" groups:name="Ethylbenzene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00643" groups:name="Styrene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00650" groups:name="Butanoate metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00660" groups:name="C5-Branched dibasic acid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00670" groups:name="One carbon pool by folate" groups:kind="collection"/>
+      <groups:group groups:id="G_00680" groups:name="Methane metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00710" groups:name="Carbon fixation in photosynthetic organisms" groups:kind="collection"/>
+      <groups:group groups:id="G_00720" groups:name="Carbon fixation pathways in prokaryotes" groups:kind="collection"/>
+      <groups:group groups:id="G_00730" groups:name="Thiamine metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00740" groups:name="Riboflavin metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00750" groups:name="Vitamin B6 metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00760" groups:name="Nicotinate and nicotinamide metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00770" groups:name="Pantothenate and CoA biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00780" groups:name="Biotin metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00785" groups:name="Lipoic acid metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00790" groups:name="Folate biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00791" groups:name="Atrazine degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00830" groups:name="Retinol metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00860" groups:name="Porphyrin and chlorophyll metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00900" groups:name="Terpenoid backbone biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00901" groups:name="Indole alkaloid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00902" groups:name="Monoterpenoid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00903" groups:name="Limonene and pinene degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00904" groups:name="Diterpenoid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00905" groups:name="Brassinosteroid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00906" groups:name="Carotenoid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00908" groups:name="Zeatin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00909" groups:name="Sesquiterpenoid and triterpenoid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00910" groups:name="Nitrogen metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00920" groups:name="Sulfur metabolism" groups:kind="collection"/>
+      <groups:group groups:id="G_00930" groups:name="Caprolactam degradation" groups:kind="collection"/>
+      <groups:group groups:id="G_00940" groups:name="Phenylpropanoid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00941" groups:name="Flavonoid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00942" groups:name="Anthocyanin biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00943" groups:name="Isoflavonoid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00944" groups:name="Flavone and flavonol biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00945" groups:name="Stilbenoid, diarylheptanoid and gingerol biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00950" groups:name="Isoquinoline alkaloid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00960" groups:name="Tropane, piperidine and pyridine alkaloid biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00965" groups:name="Betalain biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00966" groups:name="Glucosinolate biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00970" groups:name="Aminoacyl-tRNA biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00980" groups:name="Metabolism of xenobiotics by cytochrome P450" groups:kind="collection"/>
+      <groups:group groups:id="G_00981" groups:name="Insect hormone biosynthesis" groups:kind="collection"/>
+      <groups:group groups:id="G_00982" groups:name="Drug metabolism - cytochrome P450" groups:kind="collection"/>
+      <groups:group groups:id="G_00983" groups:name="Drug metabolism - other enzymes" groups:kind="collection"/>
       <groups:group groups:id="G_02000" groups:name="Passive transport" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="Transport of metabolite nh4_e" groups:idRef="R_NH4t"/>
