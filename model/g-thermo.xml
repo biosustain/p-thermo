@@ -52462,6 +52462,62 @@
       <fbc:geneProduct metaid="meta_G_b3902" sboTerm="SBO:0000243" fbc:id="G_b3902" fbc:name="rhaD" fbc:label="G_b3902"/>
     </fbc:listOfGeneProducts>
     <groups:listOfGroups>
+      <groups:group groups:id="G_00000" groups:name="Exchange reactions" groups:kind="collection">
+        <groups:listOfMembers>
+          <groups:member groups:name="C00698 exchange" groups:idRef="R_EX_cl_e"/>
+          <groups:member groups:name="C00698 exchange" groups:idRef="R_EX_nh4_e"/>
+          <groups:member groups:name="C00029 exchange" groups:idRef="R_EX_glc__D_e"/>
+          <groups:member groups:name="C00378 exchange" groups:idRef="R_EX_thm_e"/>
+          <groups:member groups:name="C14818 exchange" groups:idRef="R_EX_fe2_e"/>
+          <groups:member groups:name="C00001 exchange" groups:idRef="R_EX_h2o_e"/>
+          <groups:member groups:name="C00007 exchange" groups:idRef="R_EX_o2_e"/>
+          <groups:member groups:name="C00011 exchange" groups:idRef="R_EX_co2_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_h_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_cobalt2_e"/>
+          <groups:member groups:name="D-Ribose exchange" groups:idRef="R_EX_rib__D_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_glyc_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_asn__L_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_pydx5p_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_qh2_e"/>
+          <groups:member groups:name="Succinyl-CoA exchange" groups:idRef="R_EX_succcoa_c"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_gthrd_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_nadp_e"/>
+          <groups:member groups:name="Biomass exchange" groups:idRef="R_EX_Biomass_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_gal_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_dlglu_c"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_etoh_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_man_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_arbt_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_salcn_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_tre_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_ac_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_succ_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_lac__D_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_lac__L_e"/>
+          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_thmtp_e"/>
+          <groups:member groups:name="D-Fructose exchange" groups:idRef="R_EX_fru_e"/>
+          <groups:member groups:name="L-arabinose exchange" groups:idRef="R_EX_arab__L_e"/>
+          <groups:member groups:name="D-xylose exchange" groups:idRef="R_EX_xyl__D_e"/>
+          <groups:member groups:name="Mannitol exchange" groups:idRef="R_EX_mnl_e"/>
+          <groups:member groups:name="Cellobiose exchange" groups:idRef="R_EX_cellb_e"/>
+          <groups:member groups:name="Sucrose exchange" groups:idRef="R_EX_sucr_e"/>
+          <groups:member groups:name="D-Sorbitol exchange" groups:idRef="R_EX_sbt__D_e"/>
+          <groups:member groups:name="N-Acetyl-D-glucosamine exchange" groups:idRef="R_EX_acgam_e"/>
+          <groups:member groups:name="Maltose exchange" groups:idRef="R_EX_malt_e"/>
+          <groups:member groups:name="L-rhamnose exchange" groups:idRef="R_EX_rmn_e"/>
+          <groups:member groups:name="Melibiose exchange" groups:idRef="R_EX_melib_e"/>
+          <groups:member groups:name="Gentiobiose exchange" groups:idRef="R_EX_gtbi_e"/>
+          <groups:member groups:name="D-Turanose exchange" groups:idRef="R_EX_tura_e"/>
+          <groups:member groups:name="2-Keto-D-gluconic acid exchange" groups:idRef="R_EX_kdg2_e"/>
+          <groups:member groups:name="5-Dehydro-D-gluconate exchange" groups:idRef="R_EX_dglcn5_e"/>
+          <groups:member groups:name="Methyl D-glucopyranoside exchange" groups:idRef="R_EX_mdgp_e"/>
+          <groups:member groups:name="D-tagatose exchange" groups:idRef="R_EX_tag__D_e"/>
+          <groups:member groups:name="Amylose exchange" groups:idRef="R_EX_amylose_e"/>
+          <groups:member groups:name="Pyruvate exchange" groups:idRef="R_EX_pyr_e"/>
+          <groups:member groups:name="Phosphate exchange" groups:idRef="R_EX_pi_e"/>
+          <groups:member groups:name="Sulfate exchange" groups:idRef="R_EX_so4_e"/>
+        </groups:listOfMembers>
+      </groups:group>
       <groups:group groups:id="G_02000" groups:name="Passive transport" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="Transport of metabolite nh4_e" groups:idRef="R_NH4t"/>
