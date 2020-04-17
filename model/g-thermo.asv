@@ -37449,12 +37449,9 @@
         <listOfReactants>
           <speciesReference species="M_2hmcnsad_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_2hmc_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02207"/>
@@ -39831,7 +39828,6 @@
         <listOfProducts>
           <speciesReference species="M_seln_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ala__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_hacc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -41852,7 +41848,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_4met2obut_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_for_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01876"/>
