@@ -18501,29 +18501,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3hmoa_c" sboTerm="SBO:0000247" id="M_3hmoa_c" name="3-Hydroxy-3-methyl-2-oxobutanoic" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H7O4">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: C04181</p>
-            <p>NAME: 3-Hydroxy-3-methyl-2-oxobutanoic acid; 2-Oxo-3-hydroxyisovalerate; 3-Hydroxy-3-methyl-2-oxobutanoate;</p>
-            <p>ChEBI: 11812 17667</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_3hmoa_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:11812"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17667"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04181"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1638"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_5mdr1p_c" sboTerm="SBO:0000247" id="M_5mdr1p_c" name="S-Methyl-5-thio-D-ribose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O7PS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -41839,41 +41816,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02720"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_KARI_23dhmb" sboTerm="SBO:0000176" id="R_KARI_23dhmb" name="R04440" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG ID: R04440</p>
-            <p>ENZYME: 1.1.1.86</p>
-            <p>NAME: (R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)</p>
-            <p>DEFINITION: (R)-2,3-Dihydroxy-3-methylbutanoate + NADP+ ⇌ 3-Hydroxy-3-methyl-2-oxobutanoic acid + NADPH + H+</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_KARI_23dhmb">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04440"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100904"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/31139"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_3hmoa_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_23dhmb_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO02720"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_DHAD1" sboTerm="SBO:0000176" id="R_DHAD1" name="R04441" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -43799,38 +43741,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01987"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_KARI_3hmoa" sboTerm="SBO:0000176" id="R_KARI_3hmoa" name="R05071" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG ID: R05071</p>
-            <p>ENZYME: 1.1.1.86 5.4.99.3</p>
-            <p>NAME: (S)-2-Acetolactate methylmutase</p>
-            <p>DEFINITION: (S)-2-Acetolactate ⇌ 3-Hydroxy-3-methyl-2-oxobutanoic acid</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_KARI_3hmoa">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05071"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100906"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/31255"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_alac__S_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_3hmoa_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO02720"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ARBTPT" sboTerm="SBO:0000176" id="R_ARBTPT" name="R05132" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -52610,12 +52520,10 @@
           <groups:member groups:name="R03968" groups:idRef="R_IPPMIb"/>
           <groups:member groups:name="R04001" groups:idRef="R_IPPMIa"/>
           <groups:member groups:name="R04426" groups:idRef="R_IPMD"/>
-          <groups:member groups:name="R04440" groups:idRef="R_KARI_23dhmb"/>
           <groups:member groups:name="R04441" groups:idRef="R_DHAD1"/>
           <groups:member groups:name="R05068" groups:idRef="R_KARI_23dhmp"/>
           <groups:member groups:name="R05069" groups:idRef="R_KARI"/>
           <groups:member groups:name="R05070" groups:idRef="R_DHAD2"/>
-          <groups:member groups:name="R05071" groups:idRef="R_KARI_3hmoa"/>
           <groups:member groups:name="R08648" groups:idRef="R_ACHBS"/>
         </groups:listOfMembers>
       </groups:group>
