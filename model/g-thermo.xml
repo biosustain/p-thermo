@@ -19449,7 +19449,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_lald__L_c" id="M_lald__L_c" name="M_lald__L_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H6O2">
+      <species metaid="meta_M_lald__L_c" id="M_lald__L_c" name="L-Lactaldehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H6O2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-Lactaldehyde; L-2-Hydroxypropionaldehyde; L-Lactaldehyde;</p>
@@ -19468,7 +19468,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_gtspmd_c" id="M_gtspmd_c" name="M_gtspmd_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="C17H36N6O5S">
+      <species metaid="meta_M_gtspmd_c" id="M_gtspmd_c" name="Glutathionylspermidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="C17H36N6O5S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N1-(gamma-L-Glutamyl-L-cysteinyl-glycyl)-spermidine; Glutathionylspermidine;</p>
@@ -19525,7 +19525,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cdpdag_c" id="M_cdpdag_c" name="M_cdpdag_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C14H17N3O15P2R2">
+      <species metaid="meta_M_cdpdag_c" id="M_cdpdag_c" name="CDP-1,2-diacylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C14H17N3O15P2R2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate; CDP-diacylglycerol;</p>
@@ -19563,7 +19563,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_actn__R_c" id="M_actn__R_c" name="M_actn__R_c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H8O2">
+      <species metaid="meta_M_actn__R_c" id="M_actn__R_c" name="(R)-Acetoin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H8O2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-3-Hydroxy-2-butanone;; (R)-Dimethylketol;; (R)-3-Hydroxybutan-2-one; (R)-Acetoin;; (R)-2-Acetoin;</p>
@@ -46983,7 +46983,7 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_MOX" sboTerm="SBO:0000176" id="R_MOX" name="R_MOX" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MOX" sboTerm="SBO:0000176" id="R_MOX" name="(S)-Malate:oxygen oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-Malate:oxygen oxidoreductase</p>
@@ -47010,7 +47010,7 @@
           <speciesReference species="M_oaa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_TRPS3" sboTerm="SBO:0000176" id="R_TRPS3" name="R_TRPS3" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TRPS3" sboTerm="SBO:0000176" id="R_TRPS3" name="Tryptophan synthase (indoleglycerol phosphate)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase</p>
@@ -47171,7 +47171,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_SUCOAACTr" sboTerm="SBO:0000176" id="R_SUCOAACTr" name="R_SUCOAACTr" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SUCOAACTr" sboTerm="SBO:0000176" id="R_SUCOAACTr" name="succinyl-CoA:acetate CoA-transferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: succinyl-CoA:acetate CoA-transferase</p>
@@ -47336,7 +47336,7 @@
           <speciesReference species="M_actn__R_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_ACTD" sboTerm="SBO:0000176" id="R_ACTD" name="R_ACTD" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACTD" sboTerm="SBO:0000176" id="R_ACTD" name="(R)-Acetoin:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-Acetoin:NAD+ oxidoreductase</p>
@@ -47446,7 +47446,7 @@
           <speciesReference species="M_hop_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_HOXPRm" sboTerm="SBO:0000176" id="R_HOXPRm" name="R_HOXPRm" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HOXPRm" sboTerm="SBO:0000176" id="R_HOXPRm" name="(R)-Glycerate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-Glycerate:NAD+ oxidoreductase</p>
@@ -47475,7 +47475,7 @@
           <speciesReference species="M_hop_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_ACOAD1" sboTerm="SBO:0000176" id="R_ACOAD1" name="R_ACOAD1" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACOAD1" sboTerm="SBO:0000176" id="R_ACOAD1" name="butanoyl-CoA:NAD+ trans-2-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: butanoyl-CoA:NAD+ trans-2-oxidoreductase</p>
@@ -47503,7 +47503,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_ECOAH1" sboTerm="SBO:0000176" id="R_ECOAH1" name="R_ECOAH1" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ECOAH1" sboTerm="SBO:0000176" id="R_ECOAH1" name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-3-hydroxybutanoyl-CoA hydro-lyase</p>
@@ -47892,7 +47892,7 @@
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_MANtpts" sboTerm="SBO:0000655" id="R_MANtpts" name="R_MANtpts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MANtpts" sboTerm="SBO:0000655" id="R_MANtpts" name="Mannose transport via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MANtpts">
@@ -48011,7 +48011,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_SALCNtpts" sboTerm="SBO:0000655" id="R_SALCNtpts" name="R_SALCNtpts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SALCNtpts" sboTerm="SBO:0000655" id="R_SALCNtpts" name="Salicin transport via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_SALCNtpts">
@@ -50292,7 +50292,7 @@
           <groups:member groups:name="R07618" groups:idRef="R_EN6LYOR"/>
           <groups:member groups:name="(S)-malate:quinone oxidoreductase" groups:idRef="R_MDH2"/>
           <groups:member groups:name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" groups:idRef="R_OOR3r"/>
-          <groups:member groups:name="R_SUCOAACTr" groups:idRef="R_SUCOAACTr"/>
+          <groups:member groups:name="succinyl-CoA:acetate CoA-transferase" groups:idRef="R_SUCOAACTr"/>
           <groups:member groups:name="Succinate dehydrogenase" groups:idRef="R_SUCD5"/>
         </groups:listOfMembers>
       </groups:group>
@@ -50467,7 +50467,7 @@
           <groups:member groups:name="R04749" groups:idRef="R_ECOAH2"/>
           <groups:member groups:name="R04751" groups:idRef="R_ACOAD2f"/>
           <groups:member groups:name="R04754" groups:idRef="R_ACOAD4f"/>
-          <groups:member groups:name="R_ECOAH1" groups:idRef="R_ECOAH1"/>
+          <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00072" groups:name="Synthesis and degradation of ketone bodies" groups:kind="collection">
@@ -50824,8 +50824,8 @@
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R01975" groups:idRef="R_HACD1"/>
-          <groups:member groups:name="R_ACOAD1" groups:idRef="R_ACOAD1"/>
-          <groups:member groups:name="R_ECOAH1" groups:idRef="R_ECOAH1"/>
+          <groups:member groups:name="butanoyl-CoA:NAD+ trans-2-oxidoreductase" groups:idRef="R_ACOAD1"/>
+          <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00311" groups:name="Penicillin and cephalosporin biosynthesis" groups:kind="collection"/>
@@ -50902,7 +50902,7 @@
           <groups:member groups:name="R02604" groups:idRef="R_HMCNSADLY"/>
           <groups:member groups:name="R02762" groups:idRef="R_HMSD"/>
           <groups:member groups:name="R03966" groups:idRef="R_4OT"/>
-          <groups:member groups:name="R_ECOAH1" groups:idRef="R_ECOAH1"/>
+          <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00363" groups:name="Bisphenol degradation" groups:kind="collection"/>
@@ -50912,7 +50912,7 @@
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R01975" groups:idRef="R_HACD1"/>
-          <groups:member groups:name="R_ECOAH1" groups:idRef="R_ECOAH1"/>
+          <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00400" groups:name="Phenylalanine, tyrosine and tryptophan biosynthesis" groups:kind="collection">
@@ -50939,7 +50939,7 @@
           <groups:member groups:name="R03460" groups:idRef="R_PSCVT"/>
           <groups:member groups:name="R03508" groups:idRef="R_IGPS"/>
           <groups:member groups:name="R03509" groups:idRef="R_PRAI"/>
-          <groups:member groups:name="R_TRPS3" groups:idRef="R_TRPS3"/>
+          <groups:member groups:name="Tryptophan synthase (indoleglycerol phosphate)" groups:idRef="R_TRPS3"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00401" groups:name="Novobiocin biosynthesis" groups:kind="collection">
@@ -50950,7 +50950,7 @@
       </groups:group>
       <groups:group groups:id="G_00402" groups:name="Benzoxazinoid biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="R_TRPS3" groups:idRef="R_TRPS3"/>
+          <groups:member groups:name="Tryptophan synthase (indoleglycerol phosphate)" groups:idRef="R_TRPS3"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00403" groups:name="Indole diterpene alkaloid biosynthesis" groups:kind="collection"/>
@@ -51185,7 +51185,7 @@
           <groups:member groups:name="R03270" groups:idRef="R_AHETHMPPR"/>
           <groups:member groups:name="R07618" groups:idRef="R_EN6LYOR"/>
           <groups:member groups:name="(S)-lactaldehyde:NADP+ oxidoreductase" groups:idRef="R_LALDO2x"/>
-          <groups:member groups:name="R_SUCOAACTr" groups:idRef="R_SUCOAACTr"/>
+          <groups:member groups:name="succinyl-CoA:acetate CoA-transferase" groups:idRef="R_SUCOAACTr"/>
           <groups:member groups:name="Succinate dehydrogenase" groups:idRef="R_SUCD5"/>
         </groups:listOfMembers>
       </groups:group>
@@ -51216,7 +51216,7 @@
       <groups:group groups:id="G_00626" groups:name="Naphthalene degradation" groups:kind="collection"/>
       <groups:group groups:id="G_00627" groups:name="Aminobenzoate degradation" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="R_ECOAH1" groups:idRef="R_ECOAH1"/>
+          <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00630" groups:name="Glyoxylate and dicarboxylate metabolism" groups:kind="collection">
@@ -51247,7 +51247,7 @@
           <groups:member groups:name="R08572" groups:idRef="R_GLYCK2"/>
           <groups:member groups:name="Glycolate:NAD+ oxidoreductase" groups:idRef="R_GLYCNOR"/>
           <groups:member groups:name="hydroxypyruvate aldose-ketose-isomerase" groups:idRef="R_HPI"/>
-          <groups:member groups:name="R_HOXPRm" groups:idRef="R_HOXPRm"/>
+          <groups:member groups:name="(R)-Glycerate:NAD+ oxidoreductase" groups:idRef="R_HOXPRm"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00633" groups:name="Nitrotoluene degradation" groups:kind="collection"/>
@@ -51298,12 +51298,12 @@
           <groups:member groups:name="R03544" groups:idRef="R_ALCD4"/>
           <groups:member groups:name="R03545" groups:idRef="R_ALCD4y"/>
           <groups:member groups:name="R01688" groups:idRef="R_BUTPT"/>
-          <groups:member groups:name="R_SUCOAACTr" groups:idRef="R_SUCOAACTr"/>
+          <groups:member groups:name="succinyl-CoA:acetate CoA-transferase" groups:idRef="R_SUCOAACTr"/>
           <groups:member groups:name="(R,R)-Butane-2,3-diol:NAD+ oxidoreductase" groups:idRef="R_B23DONOR"/>
-          <groups:member groups:name="R_ACTD" groups:idRef="R_ACTD"/>
+          <groups:member groups:name="(R)-Acetoin:NAD+ oxidoreductase" groups:idRef="R_ACTD"/>
           <groups:member groups:name="Acetolactate to Diacetyl" groups:idRef="R_ACEDIA"/>
-          <groups:member groups:name="R_ACOAD1" groups:idRef="R_ACOAD1"/>
-          <groups:member groups:name="R_ECOAH1" groups:idRef="R_ECOAH1"/>
+          <groups:member groups:name="butanoyl-CoA:NAD+ trans-2-oxidoreductase" groups:idRef="R_ACOAD1"/>
+          <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
           <groups:member groups:name="Succinate dehydrogenase" groups:idRef="R_SUCD5"/>
         </groups:listOfMembers>
       </groups:group>
@@ -51400,7 +51400,7 @@
           <groups:member groups:name="R02765" groups:idRef="R_MME"/>
           <groups:member groups:name="R07168" groups:idRef="R_MTHFO"/>
           <groups:member groups:name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" groups:idRef="R_OOR3r"/>
-          <groups:member groups:name="R_ECOAH1" groups:idRef="R_ECOAH1"/>
+          <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
           <groups:member groups:name="Succinate dehydrogenase" groups:idRef="R_SUCD5"/>
         </groups:listOfMembers>
       </groups:group>
@@ -51710,11 +51710,11 @@
           <groups:member groups:name="Transport of Mannitol via PTS" groups:idRef="R_MNLtpts"/>
           <groups:member groups:name="Transport of cellobiose vis pts" groups:idRef="R_CELLBtpts"/>
           <groups:member groups:name="Transport of sucrose via pts" groups:idRef="R_SUCRtpts"/>
-          <groups:member groups:name="R_MANtpts" groups:idRef="R_MANtpts"/>
+          <groups:member groups:name="Mannose transport via PTS" groups:idRef="R_MANtpts"/>
           <groups:member groups:name="Transport of D-sorbitol via pts" groups:idRef="R_SBTtpts"/>
           <groups:member groups:name="Transport of N-Acetyl-D-glucosamine via pts" groups:idRef="R_ACGAMtpts"/>
           <groups:member groups:name="Transport of arbutin via pts" groups:idRef="R_ARBTtpts"/>
-          <groups:member groups:name="R_SALCNtpts" groups:idRef="R_SALCNtpts"/>
+          <groups:member groups:name="Salicin transport via PTS" groups:idRef="R_SALCNtpts"/>
           <groups:member groups:name="Transport of Maltose via PTS" groups:idRef="R_MALTtpts"/>
           <groups:member groups:name=" Transport of Trehalose via PTS" groups:idRef="R_TREtpts"/>
           <groups:member groups:name="Transport of tag__D via PTS" groups:idRef="R_TAGtpts"/>
@@ -51812,7 +51812,7 @@
           <groups:member groups:name="R08753" groups:idRef="R_DTPCNOPPCT"/>
           <groups:member groups:name="R08856" groups:idRef="R_ACGAMT"/>
           <groups:member groups:name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" groups:idRef="R_PYRLLOR"/>
-          <groups:member groups:name="R_MOX" groups:idRef="R_MOX"/>
+          <groups:member groups:name="(S)-Malate:oxygen oxidoreductase" groups:idRef="R_MOX"/>
           <groups:member groups:name="acetyl-CoA:acetoin O-acetyltransferase" groups:idRef="R_ACTNAT"/>
           <groups:member groups:name="acetone:carbon-dioxide ligase (AMP-forming)" groups:idRef="R_ACTCO2L"/>
           <groups:member groups:name="Hydrolysis of Gentiobiose" groups:idRef="R_GTBIHY"/>
