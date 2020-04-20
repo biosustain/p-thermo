@@ -20783,7 +20783,9 @@
             <rdf:Description rdf:about="#meta_R_PDHam1hi">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.4.1 2.2.1.6 4.1.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.4.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.2.1.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.1.1"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00014"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR102428"/>
                 </rdf:Bag>
@@ -21055,7 +21057,8 @@
             <rdf:Description rdf:about="#meta_R_FOCYTCCOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.7.2.1 1.9.3.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.7.2.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.9.3.1"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00082"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106381"/>
                 </rdf:Bag>
@@ -23207,7 +23210,8 @@
             <rdf:Description rdf:about="#meta_R_ASPO1">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.4.3.2 1.4.3.16"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.4.3.2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.4.3.16"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00357"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96088"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/19025"/>
@@ -25117,7 +25121,8 @@
             <rdf:Description rdf:about="#meta_R_ORNAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.13 2.6.1.68"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.13"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.68"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00668"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106635"/>
                 </rdf:Bag>
@@ -26364,7 +26369,8 @@
             <rdf:Description rdf:about="#meta_R_TRE6PGH">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.93 3.2.1.122"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.93"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.122"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00837"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06113"/>
                 </rdf:Bag>
@@ -26660,7 +26666,8 @@
             <rdf:Description rdf:about="#meta_R_SBTD_D2">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.14 1.1.1.15"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.14"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.15"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00875"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104283"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/33031"/>
@@ -26878,7 +26885,8 @@
             <rdf:Description rdf:about="#meta_R_APAT2rm">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.19 2.6.1.55"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.19"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.55"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00908"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95862"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30699"/>
@@ -27018,7 +27026,8 @@
             <rdf:Description rdf:about="#meta_R_PAMPT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.1 6.2.1.17"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.17"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00926"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106754"/>
                 </rdf:Bag>
@@ -27055,7 +27064,8 @@
             <rdf:Description rdf:about="#meta_R_ACACT10m">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.9 2.3.1.16"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.16"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00927"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95195"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30719"/>
@@ -29264,7 +29274,8 @@
             <rdf:Description rdf:about="#meta_R_ACACT2">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.9 2.3.1.16"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.16"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01177"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95196"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/31111"/>
@@ -29847,7 +29858,11 @@
             <rdf:Description rdf:about="#meta_R_ACOAD7f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-; 1.3.3.6 1.3.8.7 1.3.8.8 1.3.8.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.9"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01279"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95301"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30747"/>
@@ -29958,7 +29973,8 @@
             <rdf:Description rdf:about="#meta_R_SHSL2">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.48 2.5.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.48"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01288"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104382"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/27826"/>
@@ -30121,7 +30137,8 @@
             <rdf:Description rdf:about="#meta_R_PRPNTEAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.1 6.2.1.17"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.17"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01354"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106947"/>
                 </rdf:Bag>
@@ -31130,7 +31147,8 @@
             <rdf:Description rdf:about="#meta_R_FTHFLIG">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.2.12 6.3.2.17"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.2.12"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.2.17"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01654"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR139056"/>
                 </rdf:Bag>
@@ -31963,7 +31981,8 @@
             <rdf:Description rdf:about="#meta_R_DEXHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.3 3.2.1.10"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.10"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06199"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01791"/>
                 </rdf:Bag>
@@ -32399,7 +32418,8 @@
             <rdf:Description rdf:about="#meta_R_DHORD6">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/EC 1.3.1.14"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/EC"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.14"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01869"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -33420,7 +33440,8 @@
             <rdf:Description rdf:about="#meta_R_URIDK2m">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.4.4 2.7.4.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.4.4"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.4.9"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02098"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR105160"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30655"/>
@@ -34259,7 +34280,8 @@
             <rdf:Description rdf:about="#meta_R_NMNHYD">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.5 3.1.3.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.5"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02323"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR101970"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30815"/>
@@ -35160,7 +35182,8 @@
             <rdf:Description rdf:about="#meta_R_ACMANAHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.- 5.1.3.14"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/5.1.3.14"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02707"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR143489"/>
                 </rdf:Bag>
@@ -35777,7 +35800,8 @@
             <rdf:Description rdf:about="#meta_R_DNADDP">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.6.1.9 3.6.1.22"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.6.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.6.1.22"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03004"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97624"/>
                 </rdf:Bag>
@@ -36889,7 +36913,8 @@
             <rdf:Description rdf:about="#meta_R_NT5C">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.5 3.1.3.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.5"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03346"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR102027"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30935"/>
@@ -37747,7 +37772,10 @@
             <rdf:Description rdf:about="#meta_R_ACOAD3f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6 1.3.8.7 1.3.8.8 1.3.99.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03777"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95304"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30943"/>
@@ -37858,7 +37886,10 @@
             <rdf:Description rdf:about="#meta_R_ACOAD5f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6 1.3.8.7 1.3.8.8 1.3.99.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03857"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95299"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/31039"/>
@@ -38102,7 +38133,11 @@
             <rdf:Description rdf:about="#meta_R_ACOAD6f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-; 1.3.3.6 1.3.8.7 1.3.8.8 1.3.8.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.9"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03990"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95300"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/28358"/>
@@ -38343,7 +38378,9 @@
             <rdf:Description rdf:about="#meta_R_SMBCOAOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.1 1.3.8.7 1.3.99.12"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.12"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03172"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR108000"/>
                 </rdf:Bag>
@@ -40565,7 +40602,11 @@
             <rdf:Description rdf:about="#meta_R_ACOAD2f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-; 1.3.3.6 1.3.8.1 1.3.8.7 1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04751"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109093"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/31207"/>
@@ -40603,7 +40644,10 @@
             <rdf:Description rdf:about="#meta_R_ACOAD4f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6 1.3.8.7 1.3.8.8 1.3.99.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04754"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109095"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/28354"/>
@@ -40642,7 +40686,8 @@
             <rdf:Description rdf:about="#meta_R_SELMELY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.4.1.1 4.4.1.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.4.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.4.1.11"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04770"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109104"/>
                 </rdf:Bag>
@@ -42729,7 +42774,10 @@
             <rdf:Description rdf:about="#meta_R_SUCHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.20 3.2.1.48; 3.2.1.10 3.2.1.20 3.2.1.48"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.20"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.48;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.10"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.48"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00801"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06087"/>
                 </rdf:Bag>
@@ -42969,7 +43017,8 @@
             <rdf:Description rdf:about="#meta_R_CELLOHYDRO">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.4 3.2.1.91"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.4"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.91"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06200"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02886"/>
                 </rdf:Bag>
@@ -43130,7 +43179,8 @@
             <rdf:Description rdf:about="#meta_R_XU5PGT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.2.1.1 2.2.1.3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.2.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.2.1.3"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06861"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR110598"/>
                 </rdf:Bag>
@@ -45106,7 +45156,10 @@
             <rdf:Description rdf:about="#meta_R_3HAD40_1">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85 2.3.1.86 2.3.1.- 4.2.1.59"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.59"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04428"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR94886"/>
                 </rdf:Bag>
@@ -45136,7 +45189,8 @@
             <rdf:Description rdf:about="#meta_R_BUTACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04429"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR108883"/>
                 </rdf:Bag>
@@ -45168,7 +45222,11 @@
             <rdf:Description rdf:about="#meta_R_BUTACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04952"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109245"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/42248"/>
@@ -45270,7 +45328,8 @@
             <rdf:Description rdf:about="#meta_R_HEXACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04955"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109246"/>
                 </rdf:Bag>
@@ -45302,7 +45361,11 @@
             <rdf:Description rdf:about="#meta_R_HEXACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04957"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109248"/>
                 </rdf:Bag>
@@ -45404,7 +45467,8 @@
             <rdf:Description rdf:about="#meta_R_OCTACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04958"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109249"/>
                 </rdf:Bag>
@@ -45436,7 +45500,11 @@
             <rdf:Description rdf:about="#meta_R_OCTACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04960"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109251"/>
                 </rdf:Bag>
@@ -45540,7 +45608,8 @@
             <rdf:Description rdf:about="#meta_R_DECACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04961"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109252"/>
                 </rdf:Bag>
@@ -45572,7 +45641,11 @@
             <rdf:Description rdf:about="#meta_R_DECACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04963"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109254"/>
                 </rdf:Bag>
@@ -45676,7 +45749,8 @@
             <rdf:Description rdf:about="#meta_R_DDECACPOR__39__">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04724"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109080"/>
                 </rdf:Bag>
@@ -45708,7 +45782,11 @@
             <rdf:Description rdf:about="#meta_R_MALACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04726"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109082"/>
                 </rdf:Bag>
@@ -45809,7 +45887,8 @@
             <rdf:Description rdf:about="#meta_R_MYRACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04966"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109255"/>
                 </rdf:Bag>
@@ -45841,7 +45920,11 @@
             <rdf:Description rdf:about="#meta_R_MMACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04968"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109257"/>
                 </rdf:Bag>
@@ -45942,7 +46025,8 @@
             <rdf:Description rdf:about="#meta_R_OPALMACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04969"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109258"/>
                 </rdf:Bag>
@@ -45969,7 +46053,10 @@
             <rdf:Description rdf:about="#meta_R_HDEACPT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41 2.3.1.179 2.3.1.199 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.199"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R07762"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR111351"/>
                 </rdf:Bag>
@@ -45996,7 +46083,8 @@
             <rdf:Description rdf:about="#meta_R_OXSTACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.100 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.100"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R07763"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR111352"/>
                 </rdf:Bag>
@@ -46055,7 +46143,9 @@
             <rdf:Description rdf:about="#meta_R_TOCTDACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 1.3.1.- 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R07765"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR111353"/>
                 </rdf:Bag>
@@ -46793,7 +46883,11 @@
             <rdf:Description rdf:about="#meta_R_BTNLIG">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.15; 6.2.1.11 6.3.4.9 6.3.4.10 6.3.4.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.15;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.10"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.11"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01074"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -46821,7 +46915,10 @@
             <rdf:Description rdf:about="#meta_R_BTN5AMPL">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.9 6.3.4.10 6.3.4.11 6.3.4.15"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.10"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.15"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05145"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -47021,7 +47118,8 @@
             <rdf:Description rdf:about="#meta_R_TRPS3">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.2.8 4.2.1.20"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.2.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.20"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02340"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -47122,7 +47220,8 @@
             <rdf:Description rdf:about="#meta_R_GSPMDS">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.1.8 6.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.1.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.1.9"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01917"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -47291,7 +47390,8 @@
             <rdf:Description rdf:about="#meta_R_GLYCNOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.26 1.1.1.29"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.26"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.29"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00717"/>
                 </rdf:Bag>
               </bqbiol:is>
