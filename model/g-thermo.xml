@@ -53563,12 +53563,103 @@
       </groups:group>
       <groups:group groups:id="G_Other" groups:name="Other reactions, without KEGG" groups:kind="collection">
         <groups:listOfMembers>
+          <groups:member groups:name="R00004" groups:idRef="R_IDPh"/>
+          <groups:member groups:name="R00017" groups:idRef="R_CCP"/>
+          <groups:member groups:name="R00019" groups:idRef="R_HYDA"/>
+          <groups:member groups:name="R00081" groups:idRef="R_FOCYCTCOR"/>
+          <groups:member groups:name="R00082" groups:idRef="R_FOCYTCCOR"/>
+          <groups:member groups:name="R00209" groups:idRef="R_PDH"/>
+          <groups:member groups:name="R00272" groups:idRef="R_OXGDC"/>
+          <groups:member groups:name="R00276" groups:idRef="R_H202OR"/>
+          <groups:member groups:name="R00307" groups:idRef="R_XYLI2"/>
+          <groups:member groups:name="R00365" groups:idRef="R_GLYOR"/>
+          <groups:member groups:name="R00424" groups:idRef="R_GTPCI"/>
+          <groups:member groups:name="R00572" groups:idRef="R_PYK4"/>
+          <groups:member groups:name="R00651" groups:idRef="R_AHSERL"/>
+          <groups:member groups:name="R00659" groups:idRef="R_PYK2"/>
+          <groups:member groups:name="R00668" groups:idRef="R_ORNAT"/>
+          <groups:member groups:name="R00724" groups:idRef="R_PYK5"/>
+          <groups:member groups:name="R00767" groups:idRef="R_F6PCPT"/>
+          <groups:member groups:name="R00769" groups:idRef="R_F6PUPT"/>
+          <groups:member groups:name="R00770" groups:idRef="R_F6PIPT"/>
+          <groups:member groups:name="R00784" groups:idRef="R_FICYTCCNOR"/>
+          <groups:member groups:name="R00835" groups:idRef="R_G6PDH2r"/>
+          <groups:member groups:name="R00924" groups:idRef="R_PPCOAOm"/>
+          <groups:member groups:name="R01010" groups:idRef="R_ALKP"/>
+          <groups:member groups:name="R01106" groups:idRef="R_NITOR"/>
+          <groups:member groups:name="R01158" groups:idRef="R_HISTD"/>
+          <groups:member groups:name="R01194" groups:idRef="R_DGALIGH"/>
+          <groups:member groups:name="R01216" groups:idRef="R_2DHPFALDL"/>
+          <groups:member groups:name="R01504" groups:idRef="R_DHBS"/>
+          <groups:member groups:name="R01505" groups:idRef="R_DHBD"/>
+          <groups:member groups:name="R01535" groups:idRef="R_UAGUDPGPTRANS"/>
+          <groups:member groups:name="R01654" groups:idRef="R_FTHFLIG"/>
+          <groups:member groups:name="R01791" groups:idRef="R_DEXHY"/>
+          <groups:member groups:name="R01843" groups:idRef="R_PFK_3"/>
+          <groups:member groups:name="R02016" groups:idRef="R_TRDR"/>
+          <groups:member groups:name="R02047" groups:idRef="R_HIBDm"/>
+          <groups:member groups:name="R02108" groups:idRef="R_STARCHHY2"/>
+          <groups:member groups:name="R02165" groups:idRef="R_QH2NOR"/>
+          <groups:member groups:name="R02707" groups:idRef="R_ACMANAHY"/>
+          <groups:member groups:name="R02780" groups:idRef="R_TREPT"/>
+          <groups:member groups:name="R03037" groups:idRef="R_ICHORT"/>
+          <groups:member groups:name="R03601" groups:idRef="R_ACSERL"/>
+          <groups:member groups:name="R04150" groups:idRef="R_NPHS"/>
+          <groups:member groups:name="R04519" groups:idRef="R_DTPCUDCPPR"/>
+          <groups:member groups:name="R04698" groups:idRef="R_COOR"/>
+          <groups:member groups:name="R04930" groups:idRef="R_SELCYSTGL"/>
+          <groups:member groups:name="R04945" groups:idRef="R_ACHMSSELCYSL"/>
+          <groups:member groups:name="R04993" groups:idRef="R_AMETDMMQ"/>
+          <groups:member groups:name="R05555" groups:idRef="R_FRDPT"/>
+          <groups:member groups:name="R05576" groups:idRef="R_HBCOAOR"/>
+          <groups:member groups:name="R05595" groups:idRef="R_HBCOAH"/>
+          <groups:member groups:name="R05611" groups:idRef="R_HEPDPP"/>
+          <groups:member groups:name="R05612" groups:idRef="R_HEXTT"/>
+          <groups:member groups:name="R05613" groups:idRef="R_PPTT"/>
+          <groups:member groups:name="R05617" groups:idRef="R_DHNAOT4"/>
+          <groups:member groups:name="R05721" groups:idRef="R_CHLACOR"/>
+          <groups:member groups:name="R05724" groups:idRef="R_NODOx"/>
+          <groups:member groups:name="R05725" groups:idRef="R_NODOy"/>
+          <groups:member groups:name="R05861" groups:idRef="R_DALAOX"/>
+          <groups:member groups:name="R06077" groups:idRef="R_BGLUCH"/>
+          <groups:member groups:name="R06092" groups:idRef="R_CELLBHY"/>
+          <groups:member groups:name="R06100" groups:idRef="R_M_6DGHY"/>
+          <groups:member groups:name="R06101" groups:idRef="R_STACHY"/>
+          <groups:member groups:name="R06152" groups:idRef="R_STACHY2"/>
+          <groups:member groups:name="R06178" groups:idRef="R_UAAAGGLAAT"/>
+          <groups:member groups:name="R06200" groups:idRef="R_CELLOHYDRO"/>
+          <groups:member groups:name="R06861" groups:idRef="R_XU5PGT"/>
+          <groups:member groups:name="R06863" groups:idRef="R_S7PTRANSPP"/>
+          <groups:member groups:name="R07219" groups:idRef="R_H2MB4POR"/>
+          <groups:member groups:name="R07237" groups:idRef="R_AMETTRANS"/>
+          <groups:member groups:name="R07238" groups:idRef="R_AHCYSMETTRANS"/>
+          <groups:member groups:name="R07269" groups:idRef="R_DECDPPP"/>
+          <groups:member groups:name="R07475" groups:idRef="R_GGTT"/>
+          <groups:member groups:name="R07641" groups:idRef="R_CBMKr"/>
+          <groups:member groups:name="R08209" groups:idRef="R_IPPPNADHOR"/>
+          <groups:member groups:name="R08549" groups:idRef="R_AKGDH"/>
+          <groups:member groups:name="R08657" groups:idRef="R_COQOR"/>
+          <groups:member groups:name="R08698" groups:idRef="R_2AMACHYD"/>
+          <groups:member groups:name="R08748" groups:idRef="R_IPDPCT"/>
+          <groups:member groups:name="R08749" groups:idRef="R_CCTTPENPP"/>
+          <groups:member groups:name="R08750" groups:idRef="R_DTPCHEXPPCT"/>
+          <groups:member groups:name="R08751" groups:idRef="R_DTPCHEPPCT"/>
+          <groups:member groups:name="R08752" groups:idRef="R_DTPCOCPPCT"/>
+          <groups:member groups:name="R08753" groups:idRef="R_DTPCNOPPCT"/>
+          <groups:member groups:name="R08856" groups:idRef="R_ACGAMT"/>
+          <groups:member groups:name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" groups:idRef="R_PYRLLOR"/>
+          <groups:member groups:name="R_MOX" groups:idRef="R_MOX"/>
+          <groups:member groups:name="acetyl-CoA:acetoin O-acetyltransferase" groups:idRef="R_ACTNAT"/>
+          <groups:member groups:name="acetone:carbon-dioxide ligase (AMP-forming)" groups:idRef="R_ACTCO2L"/>
           <groups:member groups:name="Hydrolysis of Gentiobiose" groups:idRef="R_GTBIHY"/>
           <groups:member groups:name="Hydrolysis of Turanose" groups:idRef="R_TURAHY"/>
+          <groups:member groups:name="5-dehydro-D-gluconate reductase" groups:idRef="R_DGLCN5R"/>
           <groups:member groups:name="methyl-beta-galactosidase" groups:idRef="R_BGAL"/>
           <groups:member groups:name="D-Tagatose-1-phosphate kinase" groups:idRef="R_TAG1PK"/>
           <groups:member groups:name="ATP synthase (four protons for one ATP)" groups:idRef="R_ATPS4r"/>
+          <groups:member groups:name="NADH Dehydrogenase (ubiquinone &amp; 3.5 protons)" groups:idRef="R_NADHDH"/>
           <groups:member groups:name="Cytochrome oxidase bo3 (ubiquinol: 2.5 protons)" groups:idRef="R_CYTBO3"/>
+          <groups:member groups:name="3,5-bisphosphate nucleotidase" groups:idRef="R_BPNT"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
