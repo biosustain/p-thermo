@@ -19,7 +19,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Reduced acceptor; AH2; Hydrogen-donor; Donor</p>
-            <p>ChEBI: 17499</p>
           </html>
         </notes>
         <annotation>
@@ -40,7 +39,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Pyridoxal 5’-phosphate; Pyridoxal phosphate; PLP; Pyridoxal 5-phosphate;</p>
-            <p>ChEBI: 18405</p>
           </html>
         </notes>
         <annotation>
@@ -75,7 +73,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cobyrinate a,c-diamide; Cob(II)yrinate a,c diamide; Cob(II)yrinate diamide; Cob(II)yrinic acid a,c-diamide; Cobyrinic acid a,c-diamide</p>
-            <p>ChEBI: 27937</p>
           </html>
         </notes>
         <annotation>
@@ -96,7 +93,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-Acetyldihydrolipoamide-E; [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine;</p>
-            <p>ChEBI: 80404</p>
           </html>
         </notes>
         <annotation>
@@ -117,7 +113,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Selenomethionyl-tRNA(Met)</p>
-            <p>ChEBI: 9100</p>
           </html>
         </notes>
         <annotation>
@@ -138,7 +133,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-1-Phosphatidylserine; 1,2-Diacyl-sn-glycerol 3-phospho-L-serine; O3-Phosphatidyl-L-serine; Phosphatidylserine; Phosphatidyl-L-serine; 3-O-sn-Phosphatidyl-L-serine;</p>
-            <p>ChEBI: 11750 18303</p>
           </html>
         </notes>
         <annotation>
@@ -160,7 +154,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-(2-Methylbutanoyl)-dihydrolipoamide-E; [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylbutanoyl)dihydrolipoyllysine;</p>
-            <p>ChEBI: 80224</p>
           </html>
         </notes>
         <annotation>
@@ -181,7 +174,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: H-Protein-lipoyllysine; Lipoylprotein;</p>
-            <p>ChEBI: 15804</p>
           </html>
         </notes>
         <annotation>
@@ -202,7 +194,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-Aminomethyldihydrolipoylprotein; [Protein]-S8-aminomethyldihydrolipoyllysine; H-Protein-S-aminomethyldihydrolipoyllysine</p>
-            <p>ChEBI: 16882</p>
           </html>
         </notes>
         <annotation>
@@ -223,7 +214,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Lipoamide-E; Enzyme N6-(lipoyl)lysine;</p>
-            <p>ChEBI: 80218</p>
           </html>
         </notes>
         <annotation>
@@ -244,7 +234,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: [Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine; S-Succinyldihydrolipoamide-E</p>
-            <p>ChEBI: 80403</p>
           </html>
         </notes>
         <annotation>
@@ -265,7 +254,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Enzyme N6-(dihydrolipoyl)lysine; Dihydrolipoamide-E</p>
-            <p>ChEBI: 80219</p>
           </html>
         </notes>
         <annotation>
@@ -286,7 +274,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (Ribonucleotide)n+m; (Ribonucleotide)n; RNA(linear); Ribonucleic acid; RNA; (Ribonucleotide)m; RNAn; RNAn+1;</p>
-            <p>ChEBI: 18273</p>
           </html>
         </notes>
         <annotation>
@@ -307,7 +294,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (Deoxyribonucleotide)n+m; Deoxyribonucleic acid; DNA; DNAn+1; (Deoxyribonucleotide)m; (Deoxyribonucleotide)n; DNAn;</p>
-            <p>ChEBI: 16991</p>
           </html>
         </notes>
         <annotation>
@@ -328,7 +314,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thioredoxin; Reduced thioredoxin</p>
-            <p>ChEBI: 15033 15967</p>
           </html>
         </notes>
         <annotation>
@@ -356,7 +341,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Oxidized thioredoxin; Thioredoxin sulfide; Thioredoxin disulfide;</p>
-            <p>ChEBI: 18191</p>
           </html>
         </notes>
         <annotation>
@@ -387,7 +371,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Butanoate; Butanoic acid; Butyrate; Butyric acid</p>
-            <p>ChEBI: 30772</p>
           </html>
         </notes>
         <annotation>
@@ -396,6 +379,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/but"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/30772"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00246"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM162281"/>
                 </rdf:Bag>
@@ -427,7 +411,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2E)-Octadecenoyl-[acp]; trans-Octadec-2-enoyl-[acp]</p>
-            <p>ChEBI: 80388</p>
           </html>
         </notes>
         <annotation>
@@ -452,7 +435,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein]; (R)-3-Hydroxystearoyl-[acyl-carrier protein]; (R)-3-Hydroxystearoyl-[acp]; (R)-3-Hydroxyoctadecanoyl-[acp];</p>
-            <p>ChEBI: 80387</p>
           </html>
         </notes>
         <annotation>
@@ -473,7 +455,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxostearoyl-[acp]; 3-Oxooctadecanoyl-[acp]; 3-Ketostearoyl-[acp]; beta-Ketostearoyl-[acp];</p>
-            <p>ChEBI: 80386</p>
           </html>
         </notes>
         <annotation>
@@ -494,7 +475,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hexadecanoyl-[acyl-carrier protein]; Hexadecanoyl-[acp];</p>
-            <p>ChEBI: 5697</p>
           </html>
         </notes>
         <annotation>
@@ -515,7 +495,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-Hexadec-2-enoyl-[acyl-carrier protein]; (2E)-Hexadecenoyl-[acp]; trans-Hexadec-2-enoyl-[acp];</p>
-            <p>ChEBI: 10729</p>
           </html>
         </notes>
         <annotation>
@@ -559,7 +538,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxohexadecanoyl-[acp]; 3-Oxohexadecanoyl-[acyl-carrier protein]</p>
-            <p>ChEBI: 1639</p>
           </html>
         </notes>
         <annotation>
@@ -580,7 +558,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-Tetradec-2-enoyl-[acyl-carrier protein]; trans-Tetradec-2-enoyl-[acp]; (2E)-Tetradecenoyl-[acp]</p>
-            <p>ChEBI: 10735</p>
           </html>
         </notes>
         <annotation>
@@ -624,7 +601,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Myristoyl-[acyl-carrier protein]; Tetradecanoyl-[acp]; Tetradecanoyl-[acyl-carrier protein];</p>
-            <p>ChEBI: 50651</p>
           </html>
         </notes>
         <annotation>
@@ -664,7 +640,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-Dodec-2-enoyl-[acp]; trans-Dodec-2-enoyl-[acyl-carrier protein]; (2E)-Dodecenoyl-[acp]</p>
-            <p>ChEBI: 10725</p>
           </html>
         </notes>
         <annotation>
@@ -690,7 +665,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-3-Hydroxydodecanoyl-[acp]; D-3-Hydroxydodecanoyl-[acp]; D-3-Hydroxydodecanoyl-[acyl-carrier protein]; (R)-3-Hydroxydodecanoyl-[acyl-carrier protein];</p>
-            <p>ChEBI: 325</p>
           </html>
         </notes>
         <annotation>
@@ -711,7 +685,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxododecanoyl-[acp]; 3-Oxododecanoyl-[acyl-carrier protein]</p>
-            <p>ChEBI: 1637</p>
           </html>
         </notes>
         <annotation>
@@ -732,7 +705,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Decanoyl-[acyl-carrier protein]; Decanoyl-[acp];</p>
-            <p>ChEBI: 4349</p>
           </html>
         </notes>
         <annotation>
@@ -753,7 +725,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-2-Decenoyl-[acyl-carrier protein]; trans-Dec-2-enoyl-[acp]; trans-Dec-2-enoyl-[acyl-carrier protein]; (2E)-Decenoyl-[acp]</p>
-            <p>ChEBI: 10724</p>
           </html>
         </notes>
         <annotation>
@@ -796,7 +767,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxodecanoyl-[acyl-carrier protein]; 3-Oxodecanoyl-[acp];</p>
-            <p>ChEBI: 1634</p>
           </html>
         </notes>
         <annotation>
@@ -817,7 +787,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Octanoyl-[acp]; Octanoyl-[acyl-carrier protein]</p>
-            <p>ChEBI: 7725</p>
           </html>
         </notes>
         <annotation>
@@ -880,7 +849,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxooctanoyl-[acyl-carrier protein]; 3-Oxooctanoyl-[acp];</p>
-            <p>ChEBI: 1646</p>
           </html>
         </notes>
         <annotation>
@@ -901,7 +869,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-3-Hydroxyhexanoyl-[acyl-carrier protein]; (R)-3-Hydroxyhexanoyl-[acyl-carrier protein]; D-3-Hydroxyhexanoyl-[acp]; (R)-3-Hydroxyhexanoyl-[acp];</p>
-            <p>ChEBI: 326</p>
           </html>
         </notes>
         <annotation>
@@ -922,7 +889,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hexanoyl-[acp]; Hexanoyl-[acyl-carrier protein]</p>
-            <p>ChEBI: 5704</p>
           </html>
         </notes>
         <annotation>
@@ -943,7 +909,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxohexanoyl-[acyl-carrier protein]; 3-Oxohexanoyl-[acp];</p>
-            <p>ChEBI: 1642</p>
           </html>
         </notes>
         <annotation>
@@ -985,7 +950,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Butanoyl-[acp]; Butyryl-[acyl-carrier protein]; Butyryl-[acp];</p>
-            <p>ChEBI: 3247</p>
           </html>
         </notes>
         <annotation>
@@ -1006,7 +970,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acetoacetyl-[acp]; Acetoacetyl-[acyl-carrier protein]</p>
-            <p>ChEBI: 2393</p>
           </html>
         </notes>
         <annotation>
@@ -1032,7 +995,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: [Acyl-carrier protein]; Acyl-carrier protein; ACP; Holo-[acyl-carrier protein]</p>
-            <p>ChEBI: 18359</p>
           </html>
         </notes>
         <annotation>
@@ -1073,7 +1035,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1,2-Dihydroxy-5-(methylthio)pent-1-en-3-one</p>
-            <p>ChEBI: 49252</p>
           </html>
         </notes>
         <annotation>
@@ -1094,7 +1055,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Hydroxy-5-(methylthio)-3-oxopent-1-enyl phosphate; 2-Hydroxy-3-keto-5-methylthiopentenyl-1-phosphate;</p>
-            <p>ChEBI: 50605</p>
           </html>
         </notes>
         <annotation>
@@ -1115,7 +1075,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1-(5-Phospho-D-ribosyl)-5-aminoimidazole; 5-Amino-1-(5-phospho-D-ribosyl)imidazole; Aminoimidazole ribotide; AIR; 1-(5’-Phosphoribosyl)-5-aminoimidazole; 5’-Phosphoribosyl-5-aminoimidazole;</p>
-            <p>ChEBI: 28843</p>
           </html>
         </notes>
         <annotation>
@@ -1143,7 +1102,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ferrocytochrome c; Reduced cytochrome c; Cytochrome c2+;</p>
-            <p>ChEBI: 16928</p>
           </html>
         </notes>
         <annotation>
@@ -1164,7 +1122,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cytochrome c3+; Ferricytochrome c;</p>
-            <p>ChEBI: 15991</p>
           </html>
         </notes>
         <annotation>
@@ -1185,7 +1142,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2,5-Diamino-6-(5’-triphosphoryl-3’,4’-trihydroxy-2’-oxopentyl)-amino-4-oxopyrimidine</p>
-            <p>ChEBI: 28003</p>
           </html>
         </notes>
         <annotation>
@@ -1206,7 +1162,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-Dec-2-enoyl-CoA; (2E)-Decenoyl-CoA</p>
-            <p>ChEBI: 10723</p>
           </html>
         </notes>
         <annotation>
@@ -1239,7 +1194,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5’-Deoxy-5’-adenosylcobalamin; 5,6-Dimethylbenzimidazolyl-5-deoxyadenosyl-cobamide; Cobalamin coenzyme; DMBC coenzyme; Vitamin B12 coenzyme; (5’-Deoxy-5’-adenosyl)cobamide coenzyme; Coenzyme B12; Funacomide; Adenosylcob(III)alamin; 5’-Deoxy-5’-adenosyl vitamin B12; 5’-Deoxy-5’-adenosyl-5,6-dimethylbenzimidazolylcobamide; Calomide; Deoxyadenosylcobalamin; (5,6-Dimethylbenzimidazolyl)cobamide coenzyme; 5,6-Dimethylbenzimidazolyl-Co-5’-deoxy-5’-adenosylcobamide; Cobamide coenzyme; Cobamamide; alpha-(5,6-Dimethylbenzimidazolyl)cobamide coenzyme; Dibencozide; Adenosylcobalamin;</p>
-            <p>ChEBI: 18408</p>
           </html>
         </notes>
         <annotation>
@@ -1249,6 +1203,7 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/adocbl"/>
                   <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ADENOSYLCOBALAMIN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/18408"/>
                   <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB02086"/>
                   <rdf:li rdf:resource="https://identifiers.org/inchi_key/ZIHHMGTYZOSFRC-QRVZQHAISA-N"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00194"/>
@@ -1266,7 +1221,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: [H Protein]-dihydrolipoyllysine; Dihydrolipoylprotein;</p>
-            <p>ChEBI: 16194</p>
           </html>
         </notes>
         <annotation>
@@ -1287,7 +1241,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-O-alpha-D-Galactosyl-1D-myo-inositol; alpha-D-Galactosyl-(1⇢3)-1D-myo-inositol; O-alpha-D-Galactosyl-(1⇢3)-1D-myo-inositol; 1-alpha-D-Galactosyl-myo-inositol; Galactinol</p>
-            <p>ChEBI: 17505</p>
           </html>
         </notes>
         <annotation>
@@ -1308,7 +1261,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Methylmalonyl-CoA; (R)-Methylmalonyl-CoA;</p>
-            <p>ChEBI: 15465</p>
           </html>
         </notes>
         <annotation>
@@ -1329,7 +1281,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Guanosine 5’-diphosphate,3’-diphosphate; Guanosine 3’,5’-bis(diphosphate); Guanosine 3’-diphosphate 5’-diphosphate;</p>
-            <p>ChEBI: 17633</p>
           </html>
         </notes>
         <annotation>
@@ -1362,7 +1313,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O-Acetyl-L-homoserine; O-Acetylhomoserine</p>
-            <p>ChEBI: 16288</p>
           </html>
         </notes>
         <annotation>
@@ -1403,7 +1353,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-2-Methylbutanoyl-CoA</p>
-            <p>ChEBI: 80225</p>
           </html>
         </notes>
         <annotation>
@@ -1424,7 +1373,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Hydroxy-2-oxopentanoate; 4-Hydroxy-2-oxovalerate</p>
-            <p>ChEBI: 17655</p>
           </html>
         </notes>
         <annotation>
@@ -1445,7 +1393,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiocyanate; Thiocyanic acid</p>
-            <p>ChEBI: 29200</p>
           </html>
         </notes>
         <annotation>
@@ -1481,7 +1428,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogen cyanide; Cyanide; HCN;</p>
-            <p>ChEBI: 18407</p>
           </html>
         </notes>
         <annotation>
@@ -1518,7 +1464,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Acetylmuramate 6-phosphate; MurNAc 6-phosphate; N-Acetylmuramic acid 6-phosphate;</p>
-            <p>ChEBI: 47968</p>
           </html>
         </notes>
         <annotation>
@@ -1544,7 +1489,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Ammoniobut-2-enoate; 2-Aminobut-2-enoate; (2Z)-2-Aminobut-2-enoic acid;</p>
-            <p>ChEBI: 18820</p>
           </html>
         </notes>
         <annotation>
@@ -1585,7 +1529,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Reduced menaquinone; Menaquinol; Reduced vitamin K2; Vitamin K2 hydroquinone;</p>
-            <p>ChEBI: 18151</p>
           </html>
         </notes>
         <annotation>
@@ -1606,7 +1549,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-3-Mercaptolactate; 3-Mercaptolactate; (R)-3-Mercaptolactate</p>
-            <p>ChEBI: 28580</p>
           </html>
         </notes>
         <annotation>
@@ -1627,7 +1569,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Melibiitol; 6-O-alpha-D-Galactosyl-D-glucitol</p>
-            <p>ChEBI: 27527</p>
           </html>
         </notes>
         <annotation>
@@ -1648,7 +1589,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Hydroxymuconate</p>
-            <p>ChEBI: 64037</p>
           </html>
         </notes>
         <annotation>
@@ -1669,7 +1609,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 6-Phosphosucrose; Sucrose 6-phosphate; beta-D-Fructofuranosyl-6-O-phosphono-alpha-D-glucopyranoside; 6-O-Phosphonosucrose;</p>
-            <p>ChEBI: 16308</p>
           </html>
         </notes>
         <annotation>
@@ -1706,7 +1645,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Pseudouridine 5’-phosphate</p>
-            <p>ChEBI: 18116</p>
           </html>
         </notes>
         <annotation>
@@ -1727,7 +1665,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2,5-Diaminopyrimidine nucleoside triphosphate</p>
-            <p>ChEBI: 929</p>
           </html>
         </notes>
         <annotation>
@@ -1748,7 +1685,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Propenoyl-CoA; Acryloyl-CoA; Acrylyl-CoA</p>
-            <p>ChEBI: 15513</p>
           </html>
         </notes>
         <annotation>
@@ -1783,7 +1719,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Glutamyl-tRNA(Glu)</p>
-            <p>ChEBI: 29157</p>
           </html>
         </notes>
         <annotation>
@@ -1811,7 +1746,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Gal-alpha1⇢6D-Gal-alpha1⇢6D-Glucose; D-Gal alpha 1⇢6D-Gal alpha 1⇢6D-Glucose; Manninotriose</p>
-            <p>ChEBI: 27387 31005</p>
           </html>
         </notes>
         <annotation>
@@ -1833,7 +1767,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 6-O-(alpha-D-Galactopyranosyl)-D-glucopyranose; D-Gal-alpha1⇢6D-Glucose; Melibiose;</p>
-            <p>ChEBI: 28053</p>
           </html>
         </notes>
         <annotation>
@@ -1854,7 +1787,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Formamidopyrimidine nucleoside triphosphate</p>
-            <p>ChEBI: 27985</p>
           </html>
         </notes>
         <annotation>
@@ -1875,7 +1807,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: H2O; Water</p>
-            <p>ChEBI: 15377</p>
           </html>
         </notes>
         <annotation>
@@ -1896,7 +1827,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Acetylmuramate; N-Acetyl-D-muramoate; N-Acetylmuramic acid;</p>
-            <p>ChEBI: 21615 28881</p>
           </html>
         </notes>
         <annotation>
@@ -1918,7 +1848,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Ureidopropanoate; N-Carbamoyl-beta-alanine; 3-Ureidopropionate; beta-Ureidopropionic acid;</p>
-            <p>ChEBI: 18261</p>
           </html>
         </notes>
         <annotation>
@@ -1939,7 +1868,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ubiquinol; QH2; CoQH2</p>
-            <p>ChEBI: 17976</p>
           </html>
         </notes>
         <annotation>
@@ -1960,7 +1888,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: delta-1-Pyrroline-5-carboxylate; 3,4-Dihydro-2H-Pyrrole-2-carboxylate</p>
-            <p>ChEBI: 1372</p>
           </html>
         </notes>
         <annotation>
@@ -2001,7 +1928,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Coenzyme Q; CoQ; Ubiquinone; Q</p>
-            <p>ChEBI: 16389</p>
           </html>
         </notes>
         <annotation>
@@ -2022,7 +1948,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Methylmercaptan; Methanethiol;</p>
-            <p>ChEBI: 16007</p>
           </html>
         </notes>
         <annotation>
@@ -2053,7 +1978,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Mercaptopyruvate; 3-Mercaptopyruvic acid; Mercaptopyruvate;</p>
-            <p>ChEBI: 16208</p>
           </html>
         </notes>
         <annotation>
@@ -2087,7 +2011,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: di-trans,poly-cis-Heptaprenyl diphosphate; ditrans,tetracis-Heptaprenyl diphosphate</p>
-            <p>ChEBI: 81087</p>
           </html>
         </notes>
         <annotation>
@@ -2108,7 +2031,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: di-trans,poly-cis-Octaprenyl diphosphate; ditrans,pentacis-Octaprenyl diphosphate</p>
-            <p>ChEBI: 81088</p>
           </html>
         </notes>
         <annotation>
@@ -2129,7 +2051,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: di-trans,poly-cis-Hexaprenyl diphosphate; ditrans,tricis-Hexaprenyl diphosphate</p>
-            <p>ChEBI: 81085</p>
           </html>
         </notes>
         <annotation>
@@ -2150,7 +2071,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-cis,6-cis,10-trans,14-trans-Pentaprenyl diphosphate; di-trans,poly-cis-Pentaprenyl diphosphate; 2-cis,6-cis,10-trans,14-trans-Geranylfarnesyl diphosphate; ditrans,dicis-Pentaprenyl diphosphate;</p>
-            <p>ChEBI: 81086</p>
           </html>
         </notes>
         <annotation>
@@ -2171,7 +2091,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: di-trans,poly-cis-Nonaprenyl diphosphate; ditrans,hexacis-Nonaprenyl diphosphate</p>
-            <p>ChEBI: 81089</p>
           </html>
         </notes>
         <annotation>
@@ -2192,7 +2111,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Selenite</p>
-            <p>ChEBI: 18212</p>
           </html>
         </notes>
         <annotation>
@@ -2225,7 +2143,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Selenocysteine</p>
-            <p>ChEBI: 16633</p>
           </html>
         </notes>
         <annotation>
@@ -2246,7 +2163,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Iminoglycine; Iminoacetic acid; 2-Iminoacetate</p>
-            <p>ChEBI: 53647</p>
           </html>
         </notes>
         <annotation>
@@ -2273,7 +2189,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-2-Aceto-2-hydroxybutanoate; (S)-2-Hydroxy-2-ethyl-3-oxobutanoate</p>
-            <p>ChEBI: 27681 49256</p>
           </html>
         </notes>
         <annotation>
@@ -2295,7 +2210,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-Methylmalonate semialdehyde</p>
-            <p>ChEBI: 27821</p>
           </html>
         </notes>
         <annotation>
@@ -2316,7 +2230,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2S)-2-Hydroxy-2-methyl-3-oxobutanoate; (S)-2-Acetolactate; (S)-2-Hydroxy-2-methyl-3-oxobutanoate;</p>
-            <p>ChEBI: 18409</p>
           </html>
         </notes>
         <annotation>
@@ -2348,7 +2261,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-2,3-Dihydroxy-3-methylpentanoate; (R)-2,3-Dihydroxy-3-methylvalerate; (2R,3R)-2,3-Dihydroxy-3-methylpentanoate</p>
-            <p>ChEBI: 27512 49258</p>
           </html>
         </notes>
         <annotation>
@@ -2370,7 +2282,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Methylseleninate; Methylselenic acid;</p>
-            <p>ChEBI: 77012</p>
           </html>
         </notes>
         <annotation>
@@ -2391,7 +2302,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxotetradecanoyl-[acp]; 3-Oxotetradecanoyl-[acyl-carrier protein]</p>
-            <p>ChEBI: 1655</p>
           </html>
         </notes>
         <annotation>
@@ -2412,7 +2322,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-beta-D-Galactosyl-sn-glycerol; Galactosylglycerol</p>
-            <p>ChEBI: 15754</p>
           </html>
         </notes>
         <annotation>
@@ -2433,7 +2342,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Epimelibiose; 6-O-(alpha-D-Galactopyranosyl)-D-mannopyranose</p>
-            <p>ChEBI: 4808</p>
           </html>
         </notes>
         <annotation>
@@ -2454,7 +2362,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Methylmalonic acid; Methylmalonate;</p>
-            <p>ChEBI: 30860</p>
           </html>
         </notes>
         <annotation>
@@ -2490,7 +2397,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Hydroxymuconate semialdehyde; 2-Hydroxymuconate-6-semialdehyde; 2-Hydroxymuconic semialdehyde;</p>
-            <p>ChEBI: 17236 67110</p>
           </html>
         </notes>
         <annotation>
@@ -2512,7 +2418,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Sulfurous acid; Sulfite;</p>
-            <p>ChEBI: 48854</p>
           </html>
         </notes>
         <annotation>
@@ -2557,7 +2462,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Levulose; D-Fructose; D-arabino-Hexulose; Fruit sugar;</p>
-            <p>ChEBI: 15824 37721</p>
           </html>
         </notes>
         <annotation>
@@ -2609,7 +2513,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: GDP-mannose; GDP-alpha-D-mannose; GDP-D-mannose;</p>
-            <p>ChEBI: 15820</p>
           </html>
         </notes>
         <annotation>
@@ -2647,7 +2550,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Catechol; 1,2-Benzenediol; Brenzcatechin; o-Benzenediol; 1,2-Dihydroxybenzene; Pyrocatechol</p>
-            <p>ChEBI: 18135</p>
           </html>
         </notes>
         <annotation>
@@ -2668,7 +2570,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: di-trans,poly-cis-Undecaprenyl phosphate; Undecaprenyl phosphate; ditrans,octacis-Undecaprenyl phosphate</p>
-            <p>ChEBI: 60468</p>
           </html>
         </notes>
         <annotation>
@@ -2689,7 +2590,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Propionyl-adenosine monophosphate; Propionyladenylate;</p>
-            <p>ChEBI: 62415</p>
           </html>
         </notes>
         <annotation>
@@ -2710,7 +2610,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Hydroxybutanoic acid; 2-Hydroxybutyrate; 2-Hydroxybutyric acid</p>
-            <p>ChEBI: 1148 50613</p>
           </html>
         </notes>
         <annotation>
@@ -2732,7 +2631,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-1-Aminopropan-2-yl phosphate; D-1-Aminopropan-2-ol O-phosphate;</p>
-            <p>ChEBI: 28390</p>
           </html>
         </notes>
         <annotation>
@@ -2753,7 +2651,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Amino-4-imidazolecarboxyamide</p>
-            <p>ChEBI: 2030</p>
           </html>
         </notes>
         <annotation>
@@ -2774,7 +2671,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 6X; Precorrin 6A</p>
-            <p>ChEBI: 27513</p>
           </html>
         </notes>
         <annotation>
@@ -2815,7 +2711,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Dehydroalanine; 2-Aminoacrylate; 2-Aminoprop-2-enoate</p>
-            <p>ChEBI: 17123</p>
           </html>
         </notes>
         <annotation>
@@ -2836,7 +2731,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2,4-Dioxotetrahydropyrimidine; 5,6-Dihydrouracil; Dihydrouracile; 5,6-Dihydro-2,4-dihydroxypyrimidine; Dihydro-2,4(1H,3H)-pyrimidinedione; Dihydrouracil; Hydrouracil;</p>
-            <p>ChEBI: 15901</p>
           </html>
         </notes>
         <annotation>
@@ -2857,7 +2751,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 5</p>
-            <p>ChEBI: 27630</p>
           </html>
         </notes>
         <annotation>
@@ -2878,7 +2771,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin-8X; Precorrin 8; Precorrin 8X;</p>
-            <p>ChEBI: 28629</p>
           </html>
         </notes>
         <annotation>
@@ -2899,7 +2791,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 4</p>
-            <p>ChEBI: 16430</p>
           </html>
         </notes>
         <annotation>
@@ -2920,7 +2811,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 3B</p>
-            <p>ChEBI: 27711</p>
           </html>
         </notes>
         <annotation>
@@ -2941,7 +2831,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogenobyrinate; Hydrogenobyrinic acid</p>
-            <p>ChEBI: 17926</p>
           </html>
         </notes>
         <annotation>
@@ -2962,7 +2851,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cob(I)yrinic acid a,c-diamide; Cob(I)yrinate a,c diamide; Cob(I)yrinate diamide;</p>
-            <p>ChEBI: 28531</p>
           </html>
         </notes>
         <annotation>
@@ -2983,7 +2871,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogenobyrinate a,c diamide; Hydrogenobyrinate diamide; Hydrogenobyrinic acid a,c-diamide</p>
-            <p>ChEBI: 27914</p>
           </html>
         </notes>
         <annotation>
@@ -3004,7 +2891,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-1-Aminopropan-2-ol; (R)-1-Amino-2-propanol</p>
-            <p>ChEBI: 15675</p>
           </html>
         </notes>
         <annotation>
@@ -3052,7 +2938,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Selenomethionine</p>
-            <p>ChEBI: 30021</p>
           </html>
         </notes>
         <annotation>
@@ -3073,7 +2958,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Tetrahydropteroyltri-L-glutamate; (6S)-H4PteGlu3</p>
-            <p>ChEBI: 17420</p>
           </html>
         </notes>
         <annotation>
@@ -3094,7 +2978,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosyl cobinamide; Adenosylcobinamide</p>
-            <p>ChEBI: 2480</p>
           </html>
         </notes>
         <annotation>
@@ -3104,6 +2987,7 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/adocbi"/>
                   <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ADENOSYLCOBINAMIDE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/2480"/>
                   <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB06964"/>
                   <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB06903"/>
                   <rdf:li rdf:resource="https://identifiers.org/inchi_key/KQXSPGAEBZWHMC-OCUXTBADSA-N"/>
@@ -3120,7 +3004,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosyl cobinamide phosphate; Adenosylcobinamide phosphate</p>
-            <p>ChEBI: 2481</p>
           </html>
         </notes>
         <annotation>
@@ -3147,7 +3030,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosyl cobyrinate diamide; Adenosylcob(III)yrinic acid a,c-diamide; Adenosyl cobyrinate a,c diamide; Adenosylcobyrinic acid a,c-diamide</p>
-            <p>ChEBI: 2482</p>
           </html>
         </notes>
         <annotation>
@@ -3168,7 +3050,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosylcobyric acid; Adenosyl cobyrinate hexaamide;</p>
-            <p>ChEBI: 2483</p>
           </html>
         </notes>
         <annotation>
@@ -3189,7 +3070,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosine-GDP-cobinamide; Adenosylcobinamide-GDP</p>
-            <p>ChEBI: 2479</p>
           </html>
         </notes>
         <annotation>
@@ -3216,7 +3096,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2R)-2,3-Dihydroxy-3-methylbutanoate; (R)-2,3-Dihydroxy-isovalerate; (R)-2,3-Dihydroxy-3-methylbutanoate; (R)-2,3-Dihydroxy-isovaleric acid;</p>
-            <p>ChEBI: 15684 49072</p>
           </html>
         </notes>
         <annotation>
@@ -3238,7 +3117,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Dimethylbenzimidazole; 5,6-Dimethylbenzimidazole</p>
-            <p>ChEBI: 15890</p>
           </html>
         </notes>
         <annotation>
@@ -3268,7 +3146,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 3A</p>
-            <p>ChEBI: 28307</p>
           </html>
         </notes>
         <annotation>
@@ -3289,7 +3166,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Coproporphyrinogen I</p>
-            <p>ChEBI: 28607</p>
           </html>
         </notes>
         <annotation>
@@ -3310,7 +3186,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Uroporphyrinogen I</p>
-            <p>ChEBI: 28766</p>
           </html>
         </notes>
         <annotation>
@@ -3331,7 +3206,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha-Ribazole; N1-(alpha-D-Ribosyl)-5,6-dimethylbenzimidazole</p>
-            <p>ChEBI: 10329</p>
           </html>
         </notes>
         <annotation>
@@ -3357,7 +3231,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cobinamide; Cob(I)inamide</p>
-            <p>ChEBI: 28956</p>
           </html>
         </notes>
         <annotation>
@@ -3381,7 +3254,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Carboxyamino-1-(5-phospho-D-ribosyl)imidazole</p>
-            <p>ChEBI: 48000</p>
           </html>
         </notes>
         <annotation>
@@ -3402,7 +3274,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: H2; Hydrogen;</p>
-            <p>ChEBI: 18276</p>
           </html>
         </notes>
         <annotation>
@@ -3436,7 +3307,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Cystathionine</p>
-            <p>ChEBI: 17482</p>
           </html>
         </notes>
         <annotation>
@@ -3469,7 +3339,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Phenylalanine; D-alpha-Amino-beta-phenylpropionic acid</p>
-            <p>ChEBI: 16998</p>
           </html>
         </notes>
         <annotation>
@@ -3490,7 +3359,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 1</p>
-            <p>ChEBI: 52469</p>
           </html>
         </notes>
         <annotation>
@@ -3511,7 +3379,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol; [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol; [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol; [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol</p>
-            <p>ChEBI: 37790</p>
           </html>
         </notes>
         <annotation>
@@ -3532,7 +3399,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha,beta-Dihydroxyethyl-TPP; 2-(1,2-Dihydroxyethyl)-TPP; alpha,beta-Dihydroxyethyl-ThDP;</p>
-            <p>ChEBI: 32317</p>
           </html>
         </notes>
         <annotation>
@@ -3553,7 +3419,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: all-trans-Octaprenyl diphosphate; Farnesylfarnesylgeraniol</p>
-            <p>ChEBI: 16275</p>
           </html>
         </notes>
         <annotation>
@@ -3587,7 +3452,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Acetyl-L-glutamyl 5-phosphate; N-Acetyl-L-glutamate 5-phosphate;</p>
-            <p>ChEBI: 16878</p>
           </html>
         </notes>
         <annotation>
@@ -3619,7 +3483,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Selenocystathionine</p>
-            <p>ChEBI: 27760</p>
           </html>
         </notes>
         <annotation>
@@ -3640,7 +3503,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (4S)-4,5-Dihydroxypentan-2,3-dione</p>
-            <p>ChEBI: 29484</p>
           </html>
         </notes>
         <annotation>
@@ -3667,7 +3529,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha-Ribazole 5’-phosphate; N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole;</p>
-            <p>ChEBI: 16837</p>
           </html>
         </notes>
         <annotation>
@@ -3688,7 +3549,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1-(5’-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole; 5’-Phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole; (S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate; SAICAR; 1-(5’-Phosphoribosyl)-4-(N-succinocarboxamide)-5-aminoimidazole;</p>
-            <p>ChEBI: 18319</p>
           </html>
         </notes>
         <annotation>
@@ -3709,7 +3569,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 6Y; Precorrin 6B</p>
-            <p>ChEBI: 27858</p>
           </html>
         </notes>
         <annotation>
@@ -3730,7 +3589,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDPgalacturonate; UDP-D-galacturonate;</p>
-            <p>ChEBI: 16085</p>
           </html>
         </notes>
         <annotation>
@@ -3751,7 +3609,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Oxopent-4-enoate; cis-2-Hydroxypenta-2,4-dienoate; Oxopent-4-enoate; 2-Hydroxypenta-2,4-dienoate; 2-Hydroxy-2,4-pentadienoate;</p>
-            <p>ChEBI: 1113 11641 37319</p>
           </html>
         </notes>
         <annotation>
@@ -3783,7 +3640,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetyl-D-mannosaminouronate; UDP-N-acetyl-alpha-D-mannosaminuronate; UDP-N-acetyl-D-mannosaminuronic acid; UDP-N-acetyl-2-amino-2-deoxy-D-mannuronate;</p>
-            <p>ChEBI: 70738</p>
           </html>
         </notes>
         <annotation>
@@ -3832,7 +3688,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Acetyl-alpha-D-glucosamine 1-phosphate</p>
-            <p>ChEBI: 16446</p>
           </html>
         </notes>
         <annotation>
@@ -3853,7 +3708,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha-D-Galactosyl-diphosphoundecaprenol</p>
-            <p>ChEBI: 16046</p>
           </html>
         </notes>
         <annotation>
@@ -3874,7 +3728,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Arabinopyranose; L-Arabinose;</p>
-            <p>ChEBI: 17535</p>
           </html>
         </notes>
         <annotation>
@@ -3895,7 +3748,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogen selenide; Selenide</p>
-            <p>ChEBI: 16503</p>
           </html>
         </notes>
         <annotation>
@@ -3932,7 +3784,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Toluene; Toluol; Methylbenzene;</p>
-            <p>ChEBI: 17578</p>
           </html>
         </notes>
         <annotation>
@@ -3953,7 +3804,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Cresol; m-Cresol; 3-Hydroxytoluene</p>
-            <p>ChEBI: 17231</p>
           </html>
         </notes>
         <annotation>
@@ -3974,7 +3824,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Chlorous acid; Chlorite</p>
-            <p>ChEBI: 29219</p>
           </html>
         </notes>
         <annotation>
@@ -3995,7 +3844,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O-Phosphorylhomoserine</p>
-            <p>ChEBI: 21969</p>
           </html>
         </notes>
         <annotation>
@@ -4016,7 +3864,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Selenohomocysteine</p>
-            <p>ChEBI: 9096</p>
           </html>
         </notes>
         <annotation>
@@ -4037,7 +3884,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Methylselenol; Methaneselenol;</p>
-            <p>ChEBI: 64685</p>
           </html>
         </notes>
         <annotation>
@@ -4058,7 +3904,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Tetrahydropteroyltri-L-glutamate; (6S)-H4PteGlu3</p>
-            <p>ChEBI: 17420</p>
           </html>
         </notes>
         <annotation>
@@ -4079,7 +3924,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (Z)-5-Oxohex-2-enedioate; 4-Oxalocrotonate; gamma-Oxalocrotonate;</p>
-            <p>ChEBI: 32808</p>
           </html>
         </notes>
         <annotation>
@@ -4100,7 +3944,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Hydroxybutanoyl-CoA; 3-Hydroxybutyryl-CoA</p>
-            <p>ChEBI: 37050</p>
           </html>
         </notes>
         <annotation>
@@ -4121,7 +3964,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiamin triphosphate; Thiamine triphosphate</p>
-            <p>ChEBI: 9534</p>
           </html>
         </notes>
         <annotation>
@@ -4142,7 +3984,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: CoA-SH; CoA; Coenzyme A;</p>
-            <p>ChEBI: 15346</p>
           </html>
         </notes>
         <annotation>
@@ -4189,7 +4030,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Chloride ion; Chloride; Cl-;</p>
-            <p>ChEBI: 17996</p>
           </html>
         </notes>
         <annotation>
@@ -4210,7 +4050,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate; 5’-Phosphoribosyl-5-amino-4-imidazolecarboxylate; 1-(5’-Phosphoribosyl)-5-amino-4-carboxyimidazole; 5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate; 1-(5’-Phosphoribosyl)-5-amino-4-imidazolecarboxylate; 1-(5’-Phosphoribosyl)-4-carboxy-5-aminoimidazole; 5’-Phosphoribosyl-4-carboxy-5-aminoimidazole;</p>
-            <p>ChEBI: 28413</p>
           </html>
         </notes>
         <annotation>
@@ -4231,7 +4070,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Branched chain fatty acid</p>
-            <p>ChEBI: 35819</p>
           </html>
         </notes>
         <annotation>
@@ -4252,7 +4090,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ammonia; NH3</p>
-            <p>ChEBI: 16134</p>
           </html>
         </notes>
         <annotation>
@@ -4314,7 +4151,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Amino-2-methyl-5-diphosphomethylpyrimidine; 2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate;</p>
-            <p>ChEBI: 16629</p>
           </html>
         </notes>
         <annotation>
@@ -4335,7 +4171,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 7,8-Dihydropterin pyrophosphate; 2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine diphosphate; 2-Amino-7,8-dihydro-4-hydroxy-6-(diphosphooxymethyl)pteridine;</p>
-            <p>ChEBI: 15998 73083</p>
           </html>
         </notes>
         <annotation>
@@ -4357,7 +4192,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1,2,3-Propanetriol; 1,2,3-Trihydroxypropane; Glycerin; Glycerol;</p>
-            <p>ChEBI: 17754</p>
           </html>
         </notes>
         <annotation>
@@ -4394,7 +4228,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Dihydroneopterin; 2-Amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropteridine; 7,8-Dihydroneopterin</p>
-            <p>ChEBI: 17001</p>
           </html>
         </notes>
         <annotation>
@@ -4426,7 +4259,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminoheptanedioate; UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminoheptanedioate; UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate; UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diamino-heptanedioate; UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate;</p>
-            <p>ChEBI: 84805</p>
           </html>
         </notes>
         <annotation>
@@ -4447,7 +4279,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-6-carboxy-L-lysyl-D-alanyl-D-alanine; UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine; UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl-D-alanine;</p>
-            <p>ChEBI: 18199</p>
           </html>
         </notes>
         <annotation>
@@ -4478,7 +4309,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 7,8-Dihydroneopterin 3’-triphosphate; 2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate; 6-[(1S,2R)-1,2-Dihydroxy-3-triphosphooxypropyl]-7,8-dihydropterin; 6-(L-erythro-1,2-Dihydroxypropyl 3-triphosphate)-7,8-dihydropterin;</p>
-            <p>ChEBI: 18372</p>
           </html>
         </notes>
         <annotation>
@@ -4516,7 +4346,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-(5’-Phosphoribosylformimino)-5-amino-1-(5’’-phosphoribosyl)-4-imidazolecarboxamide; N-(5’-Phospho-D-ribosylformimino)-5-amino-1-(5’’-phospho-D-ribosyl)-4-imidazolecarboxamide; Phosphoribosyl-formimino-AICAR-phosphate; 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide; 1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide; 1-(5-Phospho-beta-D-ribosyl)-5-[(5-phospho-beta-D-ribosylamino)methylideneamino]imidazole-4-carboxamide</p>
-            <p>ChEBI: 18302</p>
           </html>
         </notes>
         <annotation>
@@ -4547,7 +4376,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Phosphoribulosyl-formimino-AICAR-phosphate; 5-[(5-Phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide; N-(5’-Phospho-D-1’-ribulosylformimino)-5-amino-1-(5’’-phospho-D-ribosyl)-4-imidazolecarboxamide; 5-[(5-Phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide</p>
-            <p>ChEBI: 27735</p>
           </html>
         </notes>
         <annotation>
@@ -4578,7 +4406,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Ribose 5-phosphate; Ribose 5-phosphate</p>
-            <p>ChEBI: 17797 52742</p>
           </html>
         </notes>
         <annotation>
@@ -4607,7 +4434,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Hydroxyethyl-ThPP; 2-(alpha-Hydroxyethyl)thiamine diphosphate;</p>
-            <p>ChEBI: 978</p>
           </html>
         </notes>
         <annotation>
@@ -4628,7 +4454,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Glyceraldehyde 3-phosphate; (2R)-2-Hydroxy-3-(phosphonooxy)-propanal; D-Glyceraldehyde 3-phosphate;</p>
-            <p>ChEBI: 29052</p>
           </html>
         </notes>
         <annotation>
@@ -4669,7 +4494,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5’-Deoxyadenosine</p>
-            <p>ChEBI: 17319</p>
           </html>
         </notes>
         <annotation>
@@ -4702,7 +4526,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Phosphoribosyl 1-pyrophosphate; 5-Phospho-alpha-D-ribose 1-diphosphate; 5-Phosphoribosyl diphosphate; PRPP</p>
-            <p>ChEBI: 17111</p>
           </html>
         </notes>
         <annotation>
@@ -4737,7 +4560,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-3-Hydroxyhexadecanoyl-CoA</p>
-            <p>ChEBI: 27402</p>
           </html>
         </notes>
         <annotation>
@@ -4758,7 +4580,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxopalmitoyl-CoA; 3-Ketopalmitoyl-CoA; 3-Oxohexadecanoyl-CoA</p>
-            <p>ChEBI: 15491</p>
           </html>
         </notes>
         <annotation>
@@ -4779,7 +4600,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-3-Hydroxytetradecanoyl-CoA</p>
-            <p>ChEBI: 27466</p>
           </html>
         </notes>
         <annotation>
@@ -4800,7 +4620,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxotetradecanoyl-CoA</p>
-            <p>ChEBI: 28726</p>
           </html>
         </notes>
         <annotation>
@@ -4821,7 +4640,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-3-Hydroxydodecanoyl-CoA</p>
-            <p>ChEBI: 27668</p>
           </html>
         </notes>
         <annotation>
@@ -4842,7 +4660,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxododecanoyl-CoA</p>
-            <p>ChEBI: 27868</p>
           </html>
         </notes>
         <annotation>
@@ -4863,7 +4680,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-Hydroxydecanoyl-CoA; (S)-3-Hydroxydecanoyl-CoA</p>
-            <p>ChEBI: 28325</p>
           </html>
         </notes>
         <annotation>
@@ -4884,7 +4700,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxodecanoyl-CoA</p>
-            <p>ChEBI: 28528</p>
           </html>
         </notes>
         <annotation>
@@ -4905,7 +4720,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-3-Hydroxycapryloyl-CoA; (S)-Hydroxyoctanoyl-CoA; (S)-3-Hydroxyoctanoyl-CoA;</p>
-            <p>ChEBI: 28632</p>
           </html>
         </notes>
         <annotation>
@@ -4926,7 +4740,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxooctanoyl-CoA</p>
-            <p>ChEBI: 28264</p>
           </html>
         </notes>
         <annotation>
@@ -4947,7 +4760,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-Hydroxyhexanoyl-CoA; (S)-3-Hydroxyhexanoyl-CoA</p>
-            <p>ChEBI: 28276</p>
           </html>
         </notes>
         <annotation>
@@ -4968,7 +4780,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Ketohexanoyl-CoA; 3-Oxohexanoyl-CoA;</p>
-            <p>ChEBI: 27648</p>
           </html>
         </notes>
         <annotation>
@@ -4989,7 +4800,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hexanoyl-CoA</p>
-            <p>ChEBI: 27540</p>
           </html>
         </notes>
         <annotation>
@@ -5010,7 +4820,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-Hex-2-enoyl-CoA; (2E)-Hexenoyl-CoA</p>
-            <p>ChEBI: 28706</p>
           </html>
         </notes>
         <annotation>
@@ -5043,7 +4852,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-Hexadec-2-enoyl-CoA; (2E)-Hexadecenoyl-CoA; trans-2-Hexadecenoyl-CoA;</p>
-            <p>ChEBI: 28935</p>
           </html>
         </notes>
         <annotation>
@@ -5079,7 +4887,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-Tetradec-2-enoyl-CoA; (2E)-Tetradecenoyl-CoA</p>
-            <p>ChEBI: 27721</p>
           </html>
         </notes>
         <annotation>
@@ -5114,7 +4921,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Decanoyl-CoA</p>
-            <p>ChEBI: 28493</p>
           </html>
         </notes>
         <annotation>
@@ -5147,7 +4953,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2E)-Octenoyl-CoA; trans-Oct-2-enoyl-CoA;</p>
-            <p>ChEBI: 27537</p>
           </html>
         </notes>
         <annotation>
@@ -5182,7 +4987,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Ribose</p>
-            <p>ChEBI: 47013</p>
           </html>
         </notes>
         <annotation>
@@ -5217,7 +5021,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Fumarate; Fumaric acid; trans-Butenedioic acid</p>
-            <p>ChEBI: 18012</p>
           </html>
         </notes>
         <annotation>
@@ -5261,7 +5064,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Carboxy-1-hydroxypropyl-ThPP</p>
-            <p>ChEBI: 1463</p>
           </html>
         </notes>
         <annotation>
@@ -5282,7 +5084,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Sedoheptulose 7-phosphate; D-Sedoheptulose 7-phosphate; altro-Heptulose 7-phosphate; D-altro-Heptulose 7-phosphate;</p>
-            <p>ChEBI: 15721</p>
           </html>
         </notes>
         <annotation>
@@ -5318,7 +5119,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Leucine; 2-Amino-4-methylvaleric acid; (2S)-alpha-2-Amino-4-methylvaleric acid; (2S)-alpha-Leucine</p>
-            <p>ChEBI: 15603</p>
           </html>
         </notes>
         <annotation>
@@ -5368,7 +5168,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Galactose; D-Galactopyranose</p>
-            <p>ChEBI: 4139</p>
           </html>
         </notes>
         <annotation>
@@ -5389,7 +5188,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Carbon dioxide; CO2;</p>
-            <p>ChEBI: 16526</p>
           </html>
         </notes>
         <annotation>
@@ -5435,7 +5233,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cytochrome c3+; Ferricytochrome c;</p>
-            <p>ChEBI: 15991</p>
           </html>
         </notes>
         <annotation>
@@ -5456,7 +5253,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deoxyinosine</p>
-            <p>ChEBI: 28997</p>
           </html>
         </notes>
         <annotation>
@@ -5490,7 +5286,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-2-Acetamido-6-oxoheptanedioate; L-2-Acetamido-6-oxopimelate; N-Acetyl-L-2-amino-6-oxopimelate;</p>
-            <p>ChEBI: 17355</p>
           </html>
         </notes>
         <annotation>
@@ -5511,7 +5306,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ferrocytochrome c; Reduced cytochrome c; Cytochrome c2+;</p>
-            <p>ChEBI: 16928</p>
           </html>
         </notes>
         <annotation>
@@ -5532,7 +5326,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Oxidized glutathione; Glutathione disulfide; Oxiglutatione; GSSG;</p>
-            <p>ChEBI: 17858</p>
           </html>
         </notes>
         <annotation>
@@ -5569,7 +5362,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: delta3-Methyl-3-butenyl diphosphate; delta3-Isopentenyl diphosphate; Isopentenyl diphosphate;</p>
-            <p>ChEBI: 16584</p>
           </html>
         </notes>
         <annotation>
@@ -5604,7 +5396,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Inosine monophosphate; 5’-Inosinic acid; Inosine 5’-monophosphate; 5’-Inosinate; 5’-IMP; 5’-Inosine monophosphate; Inosinic acid; IMP; Inosine 5’-phosphate;</p>
-            <p>ChEBI: 17202</p>
           </html>
         </notes>
         <annotation>
@@ -5648,7 +5439,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: dATP; 2’-Deoxyadenosine 5’-triphosphate; Deoxyadenosine 5’-triphosphate; Deoxyadenosine triphosphate</p>
-            <p>ChEBI: 16284</p>
           </html>
         </notes>
         <annotation>
@@ -5682,7 +5472,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-2-Aminopropionic acid; D-Ala; D-Alanine;</p>
-            <p>ChEBI: 15570</p>
           </html>
         </notes>
         <annotation>
@@ -5720,7 +5509,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1,4-Diaminobutane; Putrescine; Butane-1,4-diamine; Tetramethylenediamine; 1,4-Butanediamine;</p>
-            <p>ChEBI: 17148</p>
           </html>
         </notes>
         <annotation>
@@ -5809,7 +5597,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Butyryl-CoA; Butanoyl-CoA;</p>
-            <p>ChEBI: 15517</p>
           </html>
         </notes>
         <annotation>
@@ -5845,7 +5632,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (1R,6R)-6-Hydroxy-2-succinylcyclohexa-2,4-diene-1-carboxylate; (1R,6R)-2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate; SHCHC</p>
-            <p>ChEBI: 39564</p>
           </html>
         </notes>
         <annotation>
@@ -5866,7 +5652,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Demethylmenaquinone</p>
-            <p>ChEBI: 28192</p>
           </html>
         </notes>
         <annotation>
@@ -5887,7 +5672,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Inositol; 1D-myo-Inositol; Dambose; Bios I; L-myo-Inositol; 1L-myo-Inositol; Meat sugar; myo-Inositol; D-myo-Inositol; Cyclohexitol; meso-Inositol;</p>
-            <p>ChEBI: 17268</p>
           </html>
         </notes>
         <annotation>
@@ -5933,7 +5717,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Iminoaspartate; Iminosuccinate; Iminoaspartic acid;</p>
-            <p>ChEBI: 50616</p>
           </html>
         </notes>
         <annotation>
@@ -5964,7 +5747,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Nicotinate D-ribonucleoside; beta-D-Ribosylnicotinate</p>
-            <p>ChEBI: 27748</p>
           </html>
         </notes>
         <annotation>
@@ -5985,7 +5767,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Reduced ferredoxin</p>
-            <p>ChEBI: 17513</p>
           </html>
         </notes>
         <annotation>
@@ -6006,7 +5787,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine; GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol; GlcNAc-(1⇢4)-MurNAc(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol</p>
-            <p>ChEBI: 27692</p>
           </html>
         </notes>
         <annotation>
@@ -6071,7 +5851,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Oxidized ferredoxin</p>
-            <p>ChEBI: 17908</p>
           </html>
         </notes>
         <annotation>
@@ -6092,7 +5871,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (6R)-10-HCO-H4PteGlu2; (6R)-10-Formyltetrahydropteroyldiglutamate; 10-Formyl-THF-L-glutamate;</p>
-            <p>ChEBI: 27862</p>
           </html>
         </notes>
         <annotation>
@@ -6113,7 +5891,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Methyl-2-oxobutyric acid; 2-Oxo-3-methylbutanoate; 2-Oxoisovalerate; 3-Methyl-2-oxobutanoate; 2-Oxoisopentanoate; 2-Keto-3-methylbutyric acid; 3-Methyl-2-oxobutanoic acid; alpha-Ketovaline; 2-Ketovaline;</p>
-            <p>ChEBI: 11851 16530</p>
           </html>
         </notes>
         <annotation>
@@ -6135,7 +5912,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5,10-Methylene-THF; 5,10-Methylenetetrahydrofolate; (6R)-5,10-Methylenetetrahydrofolate;</p>
-            <p>ChEBI: 1989</p>
           </html>
         </notes>
         <annotation>
@@ -6162,7 +5938,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-arabino-3-Hexulose 6-phosphate; D-arabino-6-Phospho-hex-3-ulose; D-arabino-Hex-3-ulose 6-phosphate;</p>
-            <p>ChEBI: 27973</p>
           </html>
         </notes>
         <annotation>
@@ -6183,7 +5958,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Guanosine 5’-phosphate; Guanosine monophosphate; Guanylic acid; GMP; Guanosine 5’-monophosphate;</p>
-            <p>ChEBI: 17345</p>
           </html>
         </notes>
         <annotation>
@@ -6225,7 +5999,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: n-Butanol; 1-Butanol;</p>
-            <p>ChEBI: 28885</p>
           </html>
         </notes>
         <annotation>
@@ -6246,7 +6019,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Diphosphoric acid; Pyrophosphoric acid; PPi; Pyrophosphate; Diphosphate;</p>
-            <p>ChEBI: 18361 29888</p>
           </html>
         </notes>
         <annotation>
@@ -6295,7 +6067,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 6-Aminopurine; Adenine;</p>
-            <p>ChEBI: 16708</p>
           </html>
         </notes>
         <annotation>
@@ -6330,7 +6101,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha-D-Glucosamine 1-phosphate; D-Glucosamine 1-phosphate</p>
-            <p>ChEBI: 27625</p>
           </html>
         </notes>
         <annotation>
@@ -6361,7 +6131,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Arbutin; Uvasol; Hydroquinone-O-beta-D-glucopyranoside; Ursin;</p>
-            <p>ChEBI: 18305</p>
           </html>
         </notes>
         <annotation>
@@ -6382,7 +6151,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Arbutin 6-phosphate; Arbutin-6P</p>
-            <p>ChEBI: 2807</p>
           </html>
         </notes>
         <annotation>
@@ -6409,7 +6177,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Salicin-6P; Salicin 6-phosphate;</p>
-            <p>ChEBI: 9003</p>
           </html>
         </notes>
         <annotation>
@@ -6436,7 +6203,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Pyrrolidinecarboxylic acid; L-Proline;</p>
-            <p>ChEBI: 17203</p>
           </html>
         </notes>
         <annotation>
@@ -6485,7 +6251,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Malic acid; (S)-Malate; Malate; L-Apple acid; L-2-Hydroxybutanedioic acid; L-Malic acid; L-Malate;</p>
-            <p>ChEBI: 30797</p>
           </html>
         </notes>
         <annotation>
@@ -6520,7 +6285,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Xylulose 1-phosphate</p>
-            <p>ChEBI: 28566</p>
           </html>
         </notes>
         <annotation>
@@ -6541,7 +6305,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Aminosuccinamic acid; L-Asparagine;</p>
-            <p>ChEBI: 17196</p>
           </html>
         </notes>
         <annotation>
@@ -6583,7 +6346,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Niacinamide; Nicotinic acid amide; Vitamin PP; Nicotinamide;</p>
-            <p>ChEBI: 17154</p>
           </html>
         </notes>
         <annotation>
@@ -6617,7 +6379,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Palmitoyl-CoA; Hexadecanoyl-CoA</p>
-            <p>ChEBI: 15525</p>
           </html>
         </notes>
         <annotation>
@@ -6654,7 +6415,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-2-Amino-4-mercaptobutyric acid; L-Homocysteine; Homocysteine</p>
-            <p>ChEBI: 17588</p>
           </html>
         </notes>
         <annotation>
@@ -6697,7 +6457,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Hydroxy-1,2,3-propanetricarboxylic acid; 2-Hydroxytricarballylic acid; Citrate; Citric acid;</p>
-            <p>ChEBI: 30769</p>
           </html>
         </notes>
         <annotation>
@@ -6744,7 +6503,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Mannose; Seminose; Carubinose; D-Mannose;</p>
-            <p>ChEBI: 4208</p>
           </html>
         </notes>
         <annotation>
@@ -6782,7 +6540,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Glycolate; Hydroxyacetic acid; Glycolic acid;</p>
-            <p>ChEBI: 17497</p>
           </html>
         </notes>
         <annotation>
@@ -6822,7 +6579,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Propanoate; Propionate; Propanoic acid; Propionic acid</p>
-            <p>ChEBI: 30768</p>
           </html>
         </notes>
         <annotation>
@@ -6843,7 +6599,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acetoacetate; 3-Oxobutanoic acid; Acetoacetic acid; beta-Ketobutyric acid;</p>
-            <p>ChEBI: 13705 15344</p>
           </html>
         </notes>
         <annotation>
@@ -6883,7 +6638,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Phenylpyruvic acid; Phenylpyruvate; keto-Phenylpyruvate; alpha-Ketohydrocinnamic acid; 3-Phenyl-2-oxopropanoate; 2-Oxo-3-phenylpropanoate</p>
-            <p>ChEBI: 30851</p>
           </html>
         </notes>
         <annotation>
@@ -6916,7 +6670,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-D-glucuronate; UDP-alpha-D-glucuronate; UDP-glucuronate; UDPglucuronate;</p>
-            <p>ChEBI: 17200</p>
           </html>
         </notes>
         <annotation>
@@ -6955,7 +6708,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP; Uridine 5’-diphosphate</p>
-            <p>ChEBI: 17659</p>
           </html>
         </notes>
         <annotation>
@@ -6992,7 +6744,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydroxypyruvic acid; Hydroxypyruvate; 3-Hydroxypyruvic acid; 3-Hydroxypyruvate;</p>
-            <p>ChEBI: 30841</p>
           </html>
         </notes>
         <annotation>
@@ -7056,7 +6807,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5’-Methylthioadenosine; Methylthioadenosine; MTA; Thiomethyladenosine; 5-Methylthioadenosine; 5’-Deoxy-5’-(methylthio)adenosine; S-Methyl-5’-thioadenosine;</p>
-            <p>ChEBI: 17509</p>
           </html>
         </notes>
         <annotation>
@@ -7077,7 +6827,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Amino-4-deoxychorismate; ADC</p>
-            <p>ChEBI: 18198 35181</p>
           </html>
         </notes>
         <annotation>
@@ -7099,7 +6848,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans,trans,cis-Geranylgeranyl diphosphate; trans,trans,cis-Geranylgeranyl pyrophosphate; Geranylneryl diphosphate; 2-cis,6-trans,10-trans-Geranylgeranyl diphosphate</p>
-            <p>ChEBI: 10698</p>
           </html>
         </notes>
         <annotation>
@@ -7120,7 +6868,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-C-Methyl-D-erythritol 4-phosphate</p>
-            <p>ChEBI: 17764</p>
           </html>
         </notes>
         <annotation>
@@ -7141,7 +6888,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Co(II); Cobalt ion; Co2+; Cobalt(2+);</p>
-            <p>ChEBI: 27638 48828</p>
           </html>
         </notes>
         <annotation>
@@ -7170,7 +6916,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-(Cytidine 5’-diphospho)-2-C-methyl-D-erythritol</p>
-            <p>ChEBI: 16578</p>
           </html>
         </notes>
         <annotation>
@@ -7191,7 +6936,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Phospho-4-(cytidine 5’-diphospho)-2-C-methyl-D-erythritol</p>
-            <p>ChEBI: 16840</p>
           </html>
         </notes>
         <annotation>
@@ -7212,7 +6956,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1-Deoxy-D-xylulose 5-phosphate</p>
-            <p>ChEBI: 16493</p>
           </html>
         </notes>
         <annotation>
@@ -7242,7 +6985,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-C-Methyl-D-erythritol 2,4-cyclodiphosphate; 3-Methyl-1,2,3,4-tetrahydroxybutane-1,3-cyclic bisphosphate</p>
-            <p>ChEBI: 18425</p>
           </html>
         </notes>
         <annotation>
@@ -7263,7 +7005,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (E)-4-Hydroxy-3-methylbut-2-en-1-yl diphosphate; (E)-4-Hydroxy-3-methyl-but-2-enyl diphosphate; 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate;</p>
-            <p>ChEBI: 15664</p>
           </html>
         </notes>
         <annotation>
@@ -7293,7 +7034,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Agmatine; (4-Aminobutyl) guanidine</p>
-            <p>ChEBI: 17431</p>
           </html>
         </notes>
         <annotation>
@@ -7327,7 +7067,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Xylose; Wood sugar</p>
-            <p>ChEBI: 15936 53455</p>
           </html>
         </notes>
         <annotation>
@@ -7357,7 +7096,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: FAD; Flavin adenine dinucleotide</p>
-            <p>ChEBI: 16238</p>
           </html>
         </notes>
         <annotation>
@@ -7393,7 +7131,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Amino-3-methylbutyric acid; L-Valine;</p>
-            <p>ChEBI: 16414</p>
           </html>
         </notes>
         <annotation>
@@ -7444,7 +7181,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1,3-Dihydroxyacetone; 1,3-Dihydroxy-2-propanone; Glycerone; 1,3-Dihydroxypropan-2-one; Dihydroxyacetone;</p>
-            <p>ChEBI: 16016</p>
           </html>
         </notes>
         <annotation>
@@ -7477,7 +7213,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-Lactate; L-Lactate; L-Lactic acid</p>
-            <p>ChEBI: 422</p>
           </html>
         </notes>
         <annotation>
@@ -7513,7 +7248,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Threonine O-3-phosphate; L-Threonine phosphate; O-Phospho-L-threonine</p>
-            <p>ChEBI: 37525</p>
           </html>
         </notes>
         <annotation>
@@ -7534,7 +7268,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Amino-3-hydroxybutyric acid; L-Threonine;</p>
-            <p>ChEBI: 16857</p>
           </html>
         </notes>
         <annotation>
@@ -7579,7 +7312,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2,3-Dihydroxybenzoic acid; 2,3-Dihydroxybenzoate;</p>
-            <p>ChEBI: 18026</p>
           </html>
         </notes>
         <annotation>
@@ -7600,7 +7332,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Phosphoglycerate; 3-Phospho-(R)-glycerate; 3-Phospho-D-glycerate; D-Glycerate 3-phosphate;</p>
-            <p>ChEBI: 17794</p>
           </html>
         </notes>
         <annotation>
@@ -7621,7 +7352,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Ribulose 5-phosphate</p>
-            <p>ChEBI: 17363</p>
           </html>
         </notes>
         <annotation>
@@ -7660,7 +7390,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: dADP; 2’-Deoxyadenosine 5’-diphosphate</p>
-            <p>ChEBI: 16174</p>
           </html>
         </notes>
         <annotation>
@@ -7693,7 +7422,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-3-Hydroxy-3-methyl-2-oxopentanoate</p>
-            <p>ChEBI: 34008 49257</p>
           </html>
         </notes>
         <annotation>
@@ -7715,7 +7443,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-alpha-Amino-beta-phenylpropionic acid; L-Phenylalanine;</p>
-            <p>ChEBI: 17295</p>
           </html>
         </notes>
         <annotation>
@@ -7767,7 +7494,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Succinyl coenzyme A; Succinyl-CoA;</p>
-            <p>ChEBI: 15380</p>
           </html>
         </notes>
         <annotation>
@@ -7803,7 +7529,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Fe(II); Fe2+; Iron(2+); Ferrous ion;</p>
-            <p>ChEBI: 29033</p>
           </html>
         </notes>
         <annotation>
@@ -7836,7 +7561,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ferric ion; Fe3+; Fe(III); Iron(3+)</p>
-            <p>ChEBI: 29034</p>
           </html>
         </notes>
         <annotation>
@@ -7873,7 +7597,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1,4-Dihydroxy-2-naphthoyl-CoA</p>
-            <p>ChEBI: 52668</p>
           </html>
         </notes>
         <annotation>
@@ -7882,6 +7605,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/14dhncoa"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/52668"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15547"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM147663"/>
                 </rdf:Bag>
@@ -7894,7 +7618,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1-Deoxy-L-glycero-tetrulose 4-phosphate; L-3,4-Dihydroxybutan-2-one 4-phosphate; 2-Hydroxy-3-oxobutyl phosphate</p>
-            <p>ChEBI: 50606</p>
           </html>
         </notes>
         <annotation>
@@ -7919,7 +7642,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Maltose; Malt sugar; alpha-D-Glucopyranosyl-(1⇢4)-D-glucopyranose</p>
-            <p>ChEBI: 17306</p>
           </html>
         </notes>
         <annotation>
@@ -7963,7 +7685,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Heme O</p>
-            <p>ChEBI: 24480</p>
           </html>
         </notes>
         <annotation>
@@ -7994,7 +7715,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosine</p>
-            <p>ChEBI: 16335</p>
           </html>
         </notes>
         <annotation>
@@ -8035,7 +7755,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-Adenosylmethionine; AdoMet; S-Adenosyl-L-methionine; SAM</p>
-            <p>ChEBI: 15414 67040</p>
           </html>
         </notes>
         <annotation>
@@ -8080,7 +7799,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deoxythymidine; Thymidine;</p>
-            <p>ChEBI: 17748</p>
           </html>
         </notes>
         <annotation>
@@ -8116,7 +7834,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-2-Aminoglutaric acid; D-Glutamate; D-Glutamic acid; D-Glutaminic acid;</p>
-            <p>ChEBI: 15966</p>
           </html>
         </notes>
         <annotation>
@@ -8149,7 +7866,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Methyl-1-hydroxybutyl-TPP; 3-Methyl-1-hydroxybutyl-ThPP;</p>
-            <p>ChEBI: 80220</p>
           </html>
         </notes>
         <annotation>
@@ -8170,7 +7886,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-(3-Methylbutanoyl)-dihydrolipoamide-E; [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine;</p>
-            <p>ChEBI: 80221</p>
           </html>
         </notes>
         <annotation>
@@ -8191,7 +7906,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Methyl-1-hydroxypropyl-TPP; 2-Methyl-1-hydroxypropyl-ThPP;</p>
-            <p>ChEBI: 48522</p>
           </html>
         </notes>
         <annotation>
@@ -8212,7 +7926,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Enzyme N6-(S-[2-methylpropanoyl]dihydrolipoyl)lysine; [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylpropanoyl)dihydrolipoyllysine; S-(2-Methylpropionyl)-dihydrolipoamide-E; S-(2-Methylpropanoyl)-dihydrolipoamide-E;</p>
-            <p>ChEBI: 80222</p>
           </html>
         </notes>
         <annotation>
@@ -8233,7 +7946,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Methyl-1-hydroxybutyl-ThPP; 2-Methyl-1-hydroxybutyl-TPP</p>
-            <p>ChEBI: 80223</p>
           </html>
         </notes>
         <annotation>
@@ -8254,7 +7966,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxopropanoate; Malonate semialdehyde</p>
-            <p>ChEBI: 17960</p>
           </html>
         </notes>
         <annotation>
@@ -8290,7 +8001,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acetyl phosphate</p>
-            <p>ChEBI: 15350</p>
           </html>
         </notes>
         <annotation>
@@ -8321,7 +8031,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosine 5’-monophosphate; Adenylic acid; Adenylate; AMP; 5’-Adenylic acid; 5’-AMP; Adenosine 5’-phosphate; 5’-Adenosine monophosphate;</p>
-            <p>ChEBI: 16027</p>
           </html>
         </notes>
         <annotation>
@@ -8371,7 +8080,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Xylulose 5-phosphate</p>
-            <p>ChEBI: 16332</p>
           </html>
         </notes>
         <annotation>
@@ -8405,7 +8113,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Oxobutanoate; Succinate semialdehyde; Succinic semialdehyde;</p>
-            <p>ChEBI: 16265</p>
           </html>
         </notes>
         <annotation>
@@ -8441,7 +8148,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Methyl-2-oxopentanoate; 2-Oxoisocaproate</p>
-            <p>ChEBI: 48430</p>
           </html>
         </notes>
         <annotation>
@@ -8462,7 +8168,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 10-Formyltetrahydrofolate; 10-Formyl-THF</p>
-            <p>ChEBI: 15637</p>
           </html>
         </notes>
         <annotation>
@@ -8483,7 +8188,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Enolpyruvoyl-6-hydroxy-2-succinylcyclohex-3-ene-1-carboxylate; 2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate;</p>
-            <p>ChEBI: 50271</p>
           </html>
         </notes>
         <annotation>
@@ -8504,7 +8208,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Prenyl diphosphate; 2-Isopentenyl diphosphate; DMAPP; Dimethylallyl pyrophosphate; Monoprenyl diphosphate; Dimethylallyl diphosphate; delta2-Isopentenyl diphosphate;</p>
-            <p>ChEBI: 16057</p>
           </html>
         </notes>
         <annotation>
@@ -8547,7 +8250,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Glycerate 1,3-diphosphate; 3-Phospho-D-glyceroyl phosphate; 1,3-Bisphospho-D-glycerate; (R)-2-Hydroxy-3-(phosphonooxy)-1-monoanhydride with phosphoric propanoic acid;</p>
-            <p>ChEBI: 16001</p>
           </html>
         </notes>
         <annotation>
@@ -8568,7 +8270,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: CO; Carbon monoxide</p>
-            <p>ChEBI: 17245</p>
           </html>
         </notes>
         <annotation>
@@ -8604,7 +8305,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deoxycytidylate; dCMP; Deoxycytidylic acid; Deoxycytidine monophosphate; 2’-Deoxycytidine 5’-monophosphate</p>
-            <p>ChEBI: 15918</p>
           </html>
         </notes>
         <annotation>
@@ -8689,7 +8389,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-Adenosylhomocysteine; S-Adenosyl-L-homocysteine;</p>
-            <p>ChEBI: 16680</p>
           </html>
         </notes>
         <annotation>
@@ -8728,7 +8427,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Guanine; 2-Amino-6-hydroxypurine</p>
-            <p>ChEBI: 16235</p>
           </html>
         </notes>
         <annotation>
@@ -8762,7 +8460,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Nitric acid; Nitrate;</p>
-            <p>ChEBI: 48107</p>
           </html>
         </notes>
         <annotation>
@@ -8799,7 +8496,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (3R,4R)-3-[(1-Carboxyethenyl)oxy]-4-hydroxycyclohexa-1,5-diene-1-carboxylate; Chorismate; Chorismic acid;</p>
-            <p>ChEBI: 17333</p>
           </html>
         </notes>
         <annotation>
@@ -8832,7 +8528,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Pyruvic acid; 2-Oxopropanoate; Pyroracemic acid; Pyruvate; 2-Oxopropanoic acid;</p>
-            <p>ChEBI: 32816</p>
           </html>
         </notes>
         <annotation>
@@ -8903,7 +8598,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Niacin; Nicotinic acid; Nicotinate; 3-Pyridinecarboxylic acid</p>
-            <p>ChEBI: 15940</p>
           </html>
         </notes>
         <annotation>
@@ -8942,7 +8636,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Prephenic acid; Prephenate;</p>
-            <p>ChEBI: 84387</p>
           </html>
         </notes>
         <annotation>
@@ -8977,7 +8670,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 7,8-Dimethyl-10-ribitylisoalloxazine; Lactoflavin; Vitamin B2; Riboflavin;</p>
-            <p>ChEBI: 17015</p>
           </html>
         </notes>
         <annotation>
@@ -9013,7 +8705,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Lactic acid; (R)-Lactate; D-2-Hydroxypropanoic acid; D-2-Hydroxypropionic acid; D-Lactate;</p>
-            <p>ChEBI: 42111</p>
           </html>
         </notes>
         <annotation>
@@ -9048,7 +8739,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Gluconic acid; D-Gluconate; D-gluco-Hexonic acid</p>
-            <p>ChEBI: 33198</p>
           </html>
         </notes>
         <annotation>
@@ -9086,7 +8776,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Glycerate; (R)-Glycerate; D-Glycerate; Glyceric acid</p>
-            <p>ChEBI: 32398</p>
           </html>
         </notes>
         <annotation>
@@ -9130,7 +8819,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hypoxanthine; Purine-6-ol</p>
-            <p>ChEBI: 17368</p>
           </html>
         </notes>
         <annotation>
@@ -9163,7 +8851,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Amino-4-hydroxybutyric acid; L-Homoserine;</p>
-            <p>ChEBI: 15699</p>
           </html>
         </notes>
         <annotation>
@@ -9195,7 +8882,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acetyl-CoA; Acetyl coenzyme A</p>
-            <p>ChEBI: 15351</p>
           </html>
         </notes>
         <annotation>
@@ -9236,7 +8922,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydroxyacetaldehyde; Glycolaldehyde;</p>
-            <p>ChEBI: 17071</p>
           </html>
         </notes>
         <annotation>
@@ -9271,7 +8956,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Mannose 6-phosphate</p>
-            <p>ChEBI: 17369 48066</p>
           </html>
         </notes>
         <annotation>
@@ -9306,7 +8990,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Erythrose 4-phosphate</p>
-            <p>ChEBI: 48153</p>
           </html>
         </notes>
         <annotation>
@@ -9339,7 +9022,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Glutamate; L-Glutamate; L-Glutaminic acid; L-Glutamic acid;</p>
-            <p>ChEBI: 16015</p>
           </html>
         </notes>
         <annotation>
@@ -9391,7 +9073,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogen sulfide; Hydrogen-sulfide; Sulfide; H2S;</p>
-            <p>ChEBI: 16136</p>
           </html>
         </notes>
         <annotation>
@@ -9438,7 +9119,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deoxyguanosine triphosphate; dGTP; 2’-Deoxyguanosine 5’-triphosphate; Deoxyguanosine 5’-triphosphate;</p>
-            <p>ChEBI: 16497</p>
           </html>
         </notes>
         <annotation>
@@ -9470,7 +9150,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: HCO3-; Bicarbonate; Hydrogen carbonate; Acid carbonate</p>
-            <p>ChEBI: 17544</p>
           </html>
         </notes>
         <annotation>
@@ -9491,7 +9170,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Inosine</p>
-            <p>ChEBI: 17596</p>
           </html>
         </notes>
         <annotation>
@@ -9525,7 +9203,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Uracil-6-carboxylic acid; Orotic acid; Orotate;</p>
-            <p>ChEBI: 16742</p>
           </html>
         </notes>
         <annotation>
@@ -9560,7 +9237,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Uridine</p>
-            <p>ChEBI: 16704</p>
           </html>
         </notes>
         <annotation>
@@ -9594,7 +9270,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: ADP-ribose; ADP-D-ribose; Adenosine diphosphate ribose</p>
-            <p>ChEBI: 16960</p>
           </html>
         </notes>
         <annotation>
@@ -9631,7 +9306,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Oxoglutaric acid; 2-Ketoglutaric acid; alpha-Ketoglutaric acid; 2-Oxoglutarate;</p>
-            <p>ChEBI: 30915</p>
           </html>
         </notes>
         <annotation>
@@ -9675,7 +9349,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Lyxulose; D-threo-Pentulose; D-Xylulose;</p>
-            <p>ChEBI: 17140</p>
           </html>
         </notes>
         <annotation>
@@ -9708,7 +9381,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1-Hydroxypropane-1,2,3-tricarboxylic acid; Isocitrate; Isocitric acid; 1-Hydroxytricarballylic acid;</p>
-            <p>ChEBI: 30887</p>
           </html>
         </notes>
         <annotation>
@@ -9741,7 +9413,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Xylulose; L-threo-Pentulose; L-Lyxulose</p>
-            <p>ChEBI: 17399</p>
           </html>
         </notes>
         <annotation>
@@ -9775,7 +9446,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Spermidine; N-(3-Aminopropyl)-1,4-butane-diamine</p>
-            <p>ChEBI: 16610</p>
           </html>
         </notes>
         <annotation>
@@ -9811,7 +9481,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiosulfate; Hyposulfite</p>
-            <p>ChEBI: 33539 33541</p>
           </html>
         </notes>
         <annotation>
@@ -9852,7 +9521,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Citrulline; Citrulline; 2-Amino-5-ureidovaleric acid;</p>
-            <p>ChEBI: 16349</p>
           </html>
         </notes>
         <annotation>
@@ -9891,7 +9559,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Amino-2-deoxy-D-glucose; Chitosamine; D-Glucosamine;</p>
-            <p>ChEBI: 47977</p>
           </html>
         </notes>
         <annotation>
@@ -9931,7 +9598,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Oxydol; Hydrogen peroxide; H2O2;</p>
-            <p>ChEBI: 16240</p>
           </html>
         </notes>
         <annotation>
@@ -9975,7 +9641,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deoxyguanosine; 2’-Deoxyguanosine</p>
-            <p>ChEBI: 17172</p>
           </html>
         </notes>
         <annotation>
@@ -10010,7 +9675,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acetoacetyl coenzyme A; 3-Acetoacetyl-CoA; Acetoacetyl-CoA;</p>
-            <p>ChEBI: 15345</p>
           </html>
         </notes>
         <annotation>
@@ -10049,7 +9713,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Aminobutanoic acid; 4-Aminobutanoate; 4-Aminobutyrate; gamma-Aminobutyric acid; GABA; 4-Aminobutyric acid;</p>
-            <p>ChEBI: 16865</p>
           </html>
         </notes>
         <annotation>
@@ -10070,7 +9733,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-4,5-Dihydroorotate; L-Dihydroorotic acid; (S)-Dihydroorotate; L-Dihydroorotate; Dihydro-L-orotic acid</p>
-            <p>ChEBI: 17025</p>
           </html>
         </notes>
         <annotation>
@@ -10104,7 +9766,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Geranyl diphosphate</p>
-            <p>ChEBI: 17211</p>
           </html>
         </notes>
         <annotation>
@@ -10143,7 +9804,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 6-Phospho-D-gluconate</p>
-            <p>ChEBI: 48928</p>
           </html>
         </notes>
         <annotation>
@@ -10164,7 +9824,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxo-2-methylpropanoate; Methylmalonate semialdehyde; 2-Methyl-3-oxopropanoate;</p>
-            <p>ChEBI: 16256</p>
           </html>
         </notes>
         <annotation>
@@ -10185,7 +9844,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Glucosamine phosphate; D-Glucosamine 6-phosphate;</p>
-            <p>ChEBI: 15873 47987</p>
           </html>
         </notes>
         <annotation>
@@ -10213,7 +9871,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2E,6E,10E)-3,7,11,15-Tetramethylhexadeca-2,6,10,14-tetraen-1-yl diphosphate; all-trans-Geranylgeranyl diphosphate; Geranylgeranyl diphosphate; Geranylgeranyl pyrophosphate; all-trans-Geranylgeranyl pyrophosphate;</p>
-            <p>ChEBI: 48861</p>
           </html>
         </notes>
         <annotation>
@@ -10251,7 +9908,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Fructose 1,6-bisphosphate</p>
-            <p>ChEBI: 16905 37736</p>
           </html>
         </notes>
         <annotation>
@@ -10277,7 +9933,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: HMG-CoA; Hydroxymethylglutaroyl coenzyme A; 3-Hydroxy-3-methylglutaryl-CoA; (S)-3-Hydroxy-3-methylglutaryl-CoA; Hydroxymethylglutaryl-CoA;</p>
-            <p>ChEBI: 15467</p>
           </html>
         </notes>
         <annotation>
@@ -10303,7 +9958,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Acetyl-D-glucosamine 6-phosphate</p>
-            <p>ChEBI: 15784</p>
           </html>
         </notes>
         <annotation>
@@ -10341,7 +9995,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2’-Deoxyadenosine 5’-phosphate; dAMP; 2’-Deoxyadenosine 5’-monophosphate; Deoxyadenylic acid; Deoxyadenosine monophosphate</p>
-            <p>ChEBI: 17713</p>
           </html>
         </notes>
         <annotation>
@@ -10383,7 +10036,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-glucose; UDPglucose; Uridine diphosphate glucose; UDP-D-glucose; UDP-alpha-D-glucose</p>
-            <p>ChEBI: 18066 46229</p>
           </html>
         </notes>
         <annotation>
@@ -10429,7 +10081,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2’-Deoxyguanosine 5’-diphosphate; dGDP;</p>
-            <p>ChEBI: 28862</p>
           </html>
         </notes>
         <annotation>
@@ -10461,7 +10112,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deoxyguanylic acid; Deoxyguanosine monophosphate; dGMP; 2’-Deoxyguanosine 5’-monophosphate; 2’-Deoxyguanosine 5’-phosphate;</p>
-            <p>ChEBI: 16192</p>
           </html>
         </notes>
         <annotation>
@@ -10500,7 +10150,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deoxythymidine 5’-diphosphate; dTDP;</p>
-            <p>ChEBI: 18075</p>
           </html>
         </notes>
         <annotation>
@@ -10532,7 +10181,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thymidylic acid; Thymidylate; Deoxythymidylic acid; 5’-Thymidylic acid; Thymidine monophosphate; Thymidine 5’-phosphate; Deoxythymidine 5’-phosphate; dTMP;</p>
-            <p>ChEBI: 17013</p>
           </html>
         </notes>
         <annotation>
@@ -10574,7 +10222,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deoxyuridine 5’-phosphate; dUMP; Deoxyuridine monophosphate; 2’-Deoxyuridine 5’-phosphate; Deoxyuridylic acid;</p>
-            <p>ChEBI: 17622</p>
           </html>
         </notes>
         <annotation>
@@ -10611,7 +10258,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiamine; Thiamin; Vitamin B1; Antiberiberi factor; Aneurin;</p>
-            <p>ChEBI: 18385</p>
           </html>
         </notes>
         <annotation>
@@ -10638,7 +10284,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cytosine</p>
-            <p>ChEBI: 16040</p>
           </html>
         </notes>
         <annotation>
@@ -10669,7 +10314,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Xanthine</p>
-            <p>ChEBI: 17712 48517</p>
           </html>
         </notes>
         <annotation>
@@ -10703,7 +10347,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Guanosine</p>
-            <p>ChEBI: 16750</p>
           </html>
         </notes>
         <annotation>
@@ -10737,7 +10380,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Mannitol; Mannitol;</p>
-            <p>ChEBI: 16899</p>
           </html>
         </notes>
         <annotation>
@@ -10758,7 +10400,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Grape sugar; Dextrose; D-Glucopyranose; D-Glucose; Glucose;</p>
-            <p>ChEBI: 4167</p>
           </html>
         </notes>
         <annotation>
@@ -10792,7 +10433,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Amino-3-methylvaleric acid; L-Isoleucine;</p>
-            <p>ChEBI: 17191</p>
           </html>
         </notes>
         <annotation>
@@ -10836,7 +10476,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 7,8-Dihydrofolic acid; Dihydrofolic acid; 7,8-Dihydrofolate; 7,8-Dihydropteroylglutamate; Dihydrofolate;</p>
-            <p>ChEBI: 15633</p>
           </html>
         </notes>
         <annotation>
@@ -10870,7 +10509,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: cis-Aconitate; cis-Aconitic acid</p>
-            <p>ChEBI: 32805</p>
           </html>
         </notes>
         <annotation>
@@ -10904,7 +10542,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Nadide; DPN; beta-NAD+; NAD; NAD+; Diphosphopyridine nucleotide; Nicotinamide adenine dinucleotide;</p>
-            <p>ChEBI: 15846</p>
           </html>
         </notes>
         <annotation>
@@ -10946,7 +10583,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Protoheme IX; Protoheme; Haem; Heme B; Heme;</p>
-            <p>ChEBI: 17627 26355</p>
           </html>
         </notes>
         <annotation>
@@ -10977,7 +10613,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Amino-4-oxovaleric acid; 5-Aminolevulinate; 5-Amino-4-oxopentanoate;</p>
-            <p>ChEBI: 17549</p>
           </html>
         </notes>
         <annotation>
@@ -10998,7 +10633,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N2-Acetyl-L-ornithine; N-Acetylornithine;</p>
-            <p>ChEBI: 16543</p>
           </html>
         </notes>
         <annotation>
@@ -11031,7 +10665,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Carbamoyl-L-aspartate</p>
-            <p>ChEBI: 15859</p>
           </html>
         </notes>
         <annotation>
@@ -11066,7 +10699,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Methyltetrahydrofolate</p>
-            <p>ChEBI: 15641</p>
           </html>
         </notes>
         <annotation>
@@ -11087,7 +10719,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Aspartate beta-semialdehyde; L-Aspartic 4-semialdehyde; L-Aspartate 4-semialdehyde;</p>
-            <p>ChEBI: 13086 18051</p>
           </html>
         </notes>
         <annotation>
@@ -11120,7 +10751,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5,10-Methenyltetrahydrofolate</p>
-            <p>ChEBI: 15638</p>
           </html>
         </notes>
         <annotation>
@@ -11153,7 +10783,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha-D-Galactose 1-phosphate; alpha-D-Galactopyranose 1-phosphate</p>
-            <p>ChEBI: 17973</p>
           </html>
         </notes>
         <annotation>
@@ -11197,7 +10826,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ethanoic acid; Acetic acid; Acetate;</p>
-            <p>ChEBI: 15366</p>
           </html>
         </notes>
         <annotation>
@@ -11245,7 +10873,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-altro-Heptulose 1,7-biphosphate; Sedoheptulose 1,7-bisphosphate; D-Sedoheptulose 1,7-bisphosphate;</p>
-            <p>ChEBI: 17969</p>
           </html>
         </notes>
         <annotation>
@@ -11276,7 +10903,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2E,6E)-Farnesyl diphosphate; Farnesyl diphosphate; Farnesyl pyrophosphate; trans,trans-Farnesyl diphosphate; 2-trans,6-trans-Farnesyl diphosphate;</p>
-            <p>ChEBI: 17407</p>
           </html>
         </notes>
         <annotation>
@@ -11319,7 +10945,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Nicotinamide D-ribonucleotide; beta-Nicotinamide D-ribonucleotide; Nicotinamide mononucleotide; NMN; Nicotinamide nucleotide; Nicotinamide ribonucleotide; beta-Nicotinamide mononucleotide; beta-Nicotinamide ribonucleotide;</p>
-            <p>ChEBI: 16171</p>
           </html>
         </notes>
         <annotation>
@@ -11361,7 +10986,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: dCTP; Deoxycytidine triphosphate; 2’-Deoxycytidine 5’-triphosphate; Deoxycytidine 5’-triphosphate;</p>
-            <p>ChEBI: 16311</p>
           </html>
         </notes>
         <annotation>
@@ -11393,7 +11017,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: dTTP; TTP; Deoxythymidine triphosphate; Deoxythymidine 5’-triphosphate;</p>
-            <p>ChEBI: 18077</p>
           </html>
         </notes>
         <annotation>
@@ -11426,7 +11049,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2’-Deoxyuridine 5’-triphosphate; dUTP;</p>
-            <p>ChEBI: 17625</p>
           </html>
         </notes>
         <annotation>
@@ -11459,7 +11081,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2,3-Benzopyrrole; Indole;</p>
-            <p>ChEBI: 16881</p>
           </html>
         </notes>
         <annotation>
@@ -11493,7 +11114,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Guanosine 5’-diphosphate; GDP; Guanosine diphosphate</p>
-            <p>ChEBI: 17552</p>
           </html>
         </notes>
         <annotation>
@@ -11532,7 +11152,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Methylcarbinol; Ethanol; Ethyl alcohol;</p>
-            <p>ChEBI: 16236</p>
           </html>
         </notes>
         <annotation>
@@ -11577,7 +11196,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cytidine</p>
-            <p>ChEBI: 17562</p>
           </html>
         </notes>
         <annotation>
@@ -11612,7 +11230,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: keto-Oxaloacetate; 2-Oxosuccinic acid; Oxalacetic acid; 2-Oxobutanedioic acid; Oxaloacetic acid; Oxaloacetate;</p>
-            <p>ChEBI: 30744</p>
           </html>
         </notes>
         <annotation>
@@ -11655,7 +11272,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3,4,5-Trihydroxy-1-cyclohexenecarboxylic acid; Shikimate; Shikimic acid;</p>
-            <p>ChEBI: 16119</p>
           </html>
         </notes>
         <annotation>
@@ -11690,7 +11306,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosine diphosphoglucose; ADP-glucose;</p>
-            <p>ChEBI: 15751</p>
           </html>
         </notes>
         <annotation>
@@ -11725,7 +11340,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Folate; Folic acid; Pteroylglutamic acid;</p>
-            <p>ChEBI: 27470</p>
           </html>
         </notes>
         <annotation>
@@ -11760,7 +11374,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-erythro-Pentulose; L-Arabinoketose; L-Ribulose; L-Riboketose; L-Arabinulose;</p>
-            <p>ChEBI: 16880</p>
           </html>
         </notes>
         <annotation>
@@ -11789,7 +11402,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: CDP-glycerol</p>
-            <p>ChEBI: 17885</p>
           </html>
         </notes>
         <annotation>
@@ -11823,7 +11435,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Gly; Aminoacetic acid; Glycine;</p>
-            <p>ChEBI: 15428</p>
           </html>
         </notes>
         <annotation>
@@ -11866,7 +11477,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Pantoate; Pantoic acid; (R)-Pantoate;</p>
-            <p>ChEBI: 14737 15980 18697</p>
           </html>
         </notes>
         <annotation>
@@ -11900,7 +11510,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Deoxyuridine; 2’-Deoxyuridine; Deoxyuridine;</p>
-            <p>ChEBI: 16450</p>
           </html>
         </notes>
         <annotation>
@@ -11939,7 +11548,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Hydroxyphenol; Quinol; Hydroquinone; 1,4-Benzenediol; p-Benzenediol; 1,4-Dihydroxybenzene; Benzene-1,4-diol;</p>
-            <p>ChEBI: 17594</p>
           </html>
         </notes>
         <annotation>
@@ -11974,7 +11582,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: NO; Nitrogen monoxide; Nitric oxide;</p>
-            <p>ChEBI: 16480</p>
           </html>
         </notes>
         <annotation>
@@ -12004,7 +11611,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Inorganic triphosphate; Triphosphoric acid; Tripolyphosphate; Triphosphate;</p>
-            <p>ChEBI: 18036 39949</p>
           </html>
         </notes>
         <annotation>
@@ -12043,7 +11649,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Ketopropionaldehyde; 2-Oxopropanal; Methylglyoxal; Pyruvic aldehyde; Pyruvaldehyde;</p>
-            <p>ChEBI: 17158</p>
           </html>
         </notes>
         <annotation>
@@ -12076,7 +11681,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Aminobutanal; 4-Aminobutyraldehyde;</p>
-            <p>ChEBI: 17769</p>
           </html>
         </notes>
         <annotation>
@@ -12097,7 +11701,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2’-Deoxyadenosine; Deoxyadenosine;</p>
-            <p>ChEBI: 17256</p>
           </html>
         </notes>
         <annotation>
@@ -12133,7 +11736,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: p-Aminobenzoate; 4-Aminobenzoic acid; 4-Aminobenzoate; ABEE;</p>
-            <p>ChEBI: 30753</p>
           </html>
         </notes>
         <annotation>
@@ -12154,7 +11756,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Betaine aldehyde</p>
-            <p>ChEBI: 15710</p>
           </html>
         </notes>
         <annotation>
@@ -12186,7 +11787,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Glyceraldehyde</p>
-            <p>ChEBI: 17378</p>
           </html>
         </notes>
         <annotation>
@@ -12217,7 +11817,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Alanine; L-alpha-Alanine; L-2-Aminopropionic acid;</p>
-            <p>ChEBI: 16977</p>
           </html>
         </notes>
         <annotation>
@@ -12272,7 +11871,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ribose 1-phosphate; alpha-D-Ribose 1-phosphate; D-Ribose 1-phosphate</p>
-            <p>ChEBI: 16300</p>
           </html>
         </notes>
         <annotation>
@@ -12308,7 +11906,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Acetyl-L-glutamate; N-Acetyl-L-glutamic acid</p>
-            <p>ChEBI: 17533 44337</p>
           </html>
         </notes>
         <annotation>
@@ -12343,7 +11940,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Butanedionic acid; Ethylenesuccinic acid; Succinate; Succinic acid;</p>
-            <p>ChEBI: 15741</p>
           </html>
         </notes>
         <annotation>
@@ -12392,7 +11988,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Methylpropanoyl-CoA; 2-Methylpropionyl-CoA; Isobutyryl-CoA</p>
-            <p>ChEBI: 15479</p>
           </html>
         </notes>
         <annotation>
@@ -12428,7 +12023,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Glycerate 2-phosphate; 2-Phospho-D-glycerate; 2-Phospho-(R)-glycerate</p>
-            <p>ChEBI: 17835</p>
           </html>
         </notes>
         <annotation>
@@ -12449,7 +12043,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Mannose 1-phosphate; alpha-D-Mannose 1-phosphate</p>
-            <p>ChEBI: 18205 35374</p>
           </html>
         </notes>
         <annotation>
@@ -12486,7 +12079,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Mannitol 1-phosphate</p>
-            <p>ChEBI: 16298</p>
           </html>
         </notes>
         <annotation>
@@ -12519,7 +12111,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Acetamido-2-deoxy-D-mannose; N-Acetyl-D-mannosamine;</p>
-            <p>ChEBI: 17122 63153</p>
           </html>
         </notes>
         <annotation>
@@ -12554,7 +12145,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetyl-alpha-D-glucosamine; UDP-N-acetyl-D-glucosamine; UDP-N-acetylglucosamine</p>
-            <p>ChEBI: 16264</p>
           </html>
         </notes>
         <annotation>
@@ -12596,7 +12186,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Xanthylic acid; XMP; (9-D-Ribosylxanthine)-5’-phosphate; Xanthosine 5’-phosphate;</p>
-            <p>ChEBI: 15652</p>
           </html>
         </notes>
         <annotation>
@@ -12630,7 +12219,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: LL-2,6-Diaminoheptanedioate; LL-2,6-Diaminopimelic acid; LL-2,6-Diaminopimelate;</p>
-            <p>ChEBI: 16026</p>
           </html>
         </notes>
         <annotation>
@@ -12651,7 +12239,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (3S)-3-Methyl-2-oxopentanoate; (S)-3-Methyl-2-oxopentanoic acid; (S)-3-Methyl-2-oxopentanoate; (3S)-3-Methyl-2-oxopentanoic acid;</p>
-            <p>ChEBI: 15614</p>
           </html>
         </notes>
         <annotation>
@@ -12672,7 +12259,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Deoxy-D-ribose 1-phosphate; 2-Deoxy-alpha-D-ribose 1-phosphate</p>
-            <p>ChEBI: 11563 28542</p>
           </html>
         </notes>
         <annotation>
@@ -12694,7 +12280,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Deoxy-D-ribose 5-phosphate</p>
-            <p>ChEBI: 16132 55513</p>
           </html>
         </notes>
         <annotation>
@@ -12716,7 +12301,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Reduced nicotinamide adenine dinucleotide; NADH; DPNH;</p>
-            <p>ChEBI: 16908</p>
           </html>
         </notes>
         <annotation>
@@ -12753,7 +12337,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: GTP; Guanosine 5’-triphosphate</p>
-            <p>ChEBI: 15996</p>
           </html>
         </notes>
         <annotation>
@@ -12788,7 +12371,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: meso-Diaminoheptanedioate; meso-2,6-Diaminoheptanedioate; meso-2,6-Diaminopimelate; meso-2,6-Diaminopimelic acid;</p>
-            <p>ChEBI: 16488 30308</p>
           </html>
         </notes>
         <annotation>
@@ -12810,7 +12392,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Methylmalonyl-CoA; (S)-Methylmalonyl-coenzyme A; (S)-Methylmalonyl-CoA; (2S)-Methylmalonyl-CoA;</p>
-            <p>ChEBI: 15466</p>
           </html>
         </notes>
         <annotation>
@@ -12846,7 +12427,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha,alpha’-Trehalose 6-phosphate; Trehalose 6-phosphate</p>
-            <p>ChEBI: 18283</p>
           </html>
         </notes>
         <annotation>
@@ -12880,7 +12460,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetylmuramoyl-L-alanyl-D-glutamate; UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-glutamate</p>
-            <p>ChEBI: 16970 46143</p>
           </html>
         </notes>
         <annotation>
@@ -12913,7 +12492,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Chloride ion; Chloride; Cl-;</p>
-            <p>ChEBI: 17996</p>
           </html>
         </notes>
         <annotation>
@@ -12966,7 +12544,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2’-Deoxycytidine diphosphate; dCDP; 2’-Deoxycytidine 5’-diphosphate</p>
-            <p>ChEBI: 28846</p>
           </html>
         </notes>
         <annotation>
@@ -12997,7 +12574,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (1,4-alpha-D-Glucosyl)n+1; (1,4-alpha-D-Glucosyl)n-1; Amylose chain; 4-{(1,4)-alpha-D-Glucosyl}(n-1)-D-glucose; Amylose; 1,4-alpha-D-Glucan; (1,4-alpha-D-Glucosyl)n;</p>
-            <p>ChEBI: 28102</p>
           </html>
         </notes>
         <annotation>
@@ -13038,7 +12614,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Spermine; N,N’-Bis(3-aminopropyl)-1,4-butanediamine</p>
-            <p>ChEBI: 15746</p>
           </html>
         </notes>
         <annotation>
@@ -13072,7 +12647,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2,6-Diaminohexanoic acid; L-Lysine; Lysine acid;</p>
-            <p>ChEBI: 18019</p>
           </html>
         </notes>
         <annotation>
@@ -13120,7 +12694,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Glucitol; L-Gulitol; Sorbitol; D-Sorbitol;</p>
-            <p>ChEBI: 17924</p>
           </html>
         </notes>
         <annotation>
@@ -13163,7 +12736,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Arogenate; L-Arogenic acid; Pretyrosine</p>
-            <p>ChEBI: 17530</p>
           </html>
         </notes>
         <annotation>
@@ -13184,7 +12756,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Glyoxalate; Glyoxylic acid; Glyoxylate;</p>
-            <p>ChEBI: 16891</p>
           </html>
         </notes>
         <annotation>
@@ -13224,7 +12795,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Menaquinone; Vitamin K2;</p>
-            <p>ChEBI: 16374</p>
           </html>
         </notes>
         <annotation>
@@ -13249,7 +12819,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Deamido-NAD; Deamino-NAD+; Deamido-NAD+;</p>
-            <p>ChEBI: 18304</p>
           </html>
         </notes>
         <annotation>
@@ -13285,7 +12854,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Histidinol</p>
-            <p>ChEBI: 16255</p>
           </html>
         </notes>
         <annotation>
@@ -13316,7 +12884,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-Pantothenate; Pantothenic acid; Pantothenate;</p>
-            <p>ChEBI: 29032 46905 7916</p>
           </html>
         </notes>
         <annotation>
@@ -13356,7 +12923,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Aminosuccinic acid; L-Aspartate; L-Aspartic acid; L-Asp</p>
-            <p>ChEBI: 17053</p>
           </html>
         </notes>
         <annotation>
@@ -13407,7 +12973,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: trans-But-2-enoyl-CoA; Crotonyl-CoA; But-2-enoyl-CoA; (E)-But-2-enoyl-CoA; Crotonoyl-CoA; 2-Butenoyl-CoA;</p>
-            <p>ChEBI: 15473 36926</p>
           </html>
         </notes>
         <annotation>
@@ -13450,7 +13015,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2’-Deoxycytidine; Deoxycytidine;</p>
-            <p>ChEBI: 15698</p>
           </html>
         </notes>
         <annotation>
@@ -13484,7 +13048,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3’-Dephospho-CoA; Dephospho-CoA; Dephosphocoenzyme A;</p>
-            <p>ChEBI: 15468</p>
           </html>
         </notes>
         <annotation>
@@ -13520,7 +13083,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Isochorismic acid; Isochorismate;</p>
-            <p>ChEBI: 17582 29780</p>
           </html>
         </notes>
         <annotation>
@@ -13550,7 +13112,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: GSH; gamma-L-Glutamyl-L-cysteinyl-glycine; 5-L-Glutamyl-L-cysteinylglycine; Glutathione; N-(N-gamma-L-Glutamyl-L-cysteinyl)glycine; Reduced glutathione</p>
-            <p>ChEBI: 16856</p>
           </html>
         </notes>
         <annotation>
@@ -13593,7 +13154,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 7,8-Dihydropteroate; Dihydropteroate;</p>
-            <p>ChEBI: 4581</p>
           </html>
         </notes>
         <annotation>
@@ -13625,7 +13185,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Porphobilinogen</p>
-            <p>ChEBI: 17381</p>
           </html>
         </notes>
         <annotation>
@@ -13658,7 +13217,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Dehydroquinic acid; 5-Dehydroquinate; 5-Dehydroquinic acid; 3-Dehydroquinate;</p>
-            <p>ChEBI: 17947 32364</p>
           </html>
         </notes>
         <annotation>
@@ -13680,7 +13238,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-D-galactopyranose; UDP-alpha-D-galactopyranose; UDP-D-galactose; UDP-alpha-D-galactose; UDP-galactose;</p>
-            <p>ChEBI: 18307 67119</p>
           </html>
         </notes>
         <annotation>
@@ -13721,7 +13278,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Dehydropantoate</p>
-            <p>ChEBI: 11561 17094</p>
           </html>
         </notes>
         <annotation>
@@ -13743,7 +13299,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O3-Acetyl-L-serine; O-Acetyl-L-serine;</p>
-            <p>ChEBI: 17981</p>
           </html>
         </notes>
         <annotation>
@@ -13778,7 +13333,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Alanyl-D-alanine; D-Ala-D-Ala</p>
-            <p>ChEBI: 16576</p>
           </html>
         </notes>
         <annotation>
@@ -13810,7 +13364,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O-Phospho-L-serine; 3-Phosphoserine; Dexfosfoserine; L-O-Phosphoserine;</p>
-            <p>ChEBI: 15811</p>
           </html>
         </notes>
         <annotation>
@@ -13842,7 +13395,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydroxymethylbilane</p>
-            <p>ChEBI: 16645</p>
           </html>
         </notes>
         <annotation>
@@ -13874,7 +13426,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetylmuramate; UDP-N-acetyl-alpha-D-muramate; UDP-N-acetylmuramic acid; UDP-MurNAc</p>
-            <p>ChEBI: 70765</p>
           </html>
         </notes>
         <annotation>
@@ -13907,7 +13458,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Uroporphyrinogen III</p>
-            <p>ChEBI: 15437</p>
           </html>
         </notes>
         <annotation>
@@ -13938,7 +13488,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Protoporphyrinogen IX</p>
-            <p>ChEBI: 15435</p>
           </html>
         </notes>
         <annotation>
@@ -13971,7 +13520,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiamin monophosphate; Thiamine phosphate; Thiamin phosphate; TMP; Thiamine monophosphate;</p>
-            <p>ChEBI: 9533</p>
           </html>
         </notes>
         <annotation>
@@ -14004,7 +13552,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha,alpha-Trehalose; Trehalose; alpha,alpha’-Trehalose;</p>
-            <p>ChEBI: 16551</p>
           </html>
         </notes>
         <annotation>
@@ -14043,7 +13590,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Fructose 1-phosphate</p>
-            <p>ChEBI: 18105 37515</p>
           </html>
         </notes>
         <annotation>
@@ -14073,7 +13619,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Reduced nicotinamide adenine dinucleotide phosphate; NADPH; TPNH;</p>
-            <p>ChEBI: 16474</p>
           </html>
         </notes>
         <annotation>
@@ -14117,7 +13662,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cytidine-5’-monophosphate; Cytidylic acid; CMP;</p>
-            <p>ChEBI: 17361</p>
           </html>
         </notes>
         <annotation>
@@ -14159,7 +13703,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Histidinol phosphate</p>
-            <p>ChEBI: 16996</p>
           </html>
         </notes>
         <annotation>
@@ -14190,7 +13733,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Ribulose 5-phosphate</p>
-            <p>ChEBI: 17666</p>
           </html>
         </notes>
         <annotation>
@@ -14220,7 +13762,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O-Phospho-L-homoserine</p>
-            <p>ChEBI: 15961</p>
           </html>
         </notes>
         <annotation>
@@ -14254,7 +13795,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Orotidylic acid; Orotidine 5’-phosphate;</p>
-            <p>ChEBI: 15842</p>
           </html>
         </notes>
         <annotation>
@@ -14286,7 +13826,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O4-Succinyl-L-homoserine; O-Succinyl-L-homoserine; O-Succinylhomoserine</p>
-            <p>ChEBI: 16160</p>
           </html>
         </notes>
         <annotation>
@@ -14317,7 +13856,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Formic acid; Methanoic acid; Formate;</p>
-            <p>ChEBI: 15740 30751</p>
           </html>
         </notes>
         <annotation>
@@ -14366,7 +13904,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Phosphopantetheine; D-Pantetheine 4’-phosphate; Pantetheine 4’-phosphate; 4’-Phosphopantetheine;</p>
-            <p>ChEBI: 16858 4222</p>
           </html>
         </notes>
         <annotation>
@@ -14410,7 +13947,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (5-Deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium cation; S-Adenosyl 3-(methylthio)propylamine; S-Adenosylmethioninamine; S-Adenosyl-(5’)-3-methylthiopropylamine; (5-Deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium; Decarboxy-AdoMet</p>
-            <p>ChEBI: 15625</p>
           </html>
         </notes>
         <annotation>
@@ -14443,7 +13979,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-3-Hydroxybutyryl-CoA; (S)-3-Hydroxybutanoyl-CoA;</p>
-            <p>ChEBI: 15453</p>
           </html>
         </notes>
         <annotation>
@@ -14464,7 +13999,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Glutamate 5-semialdehyde; L-Glutamate gamma-semialdehyde</p>
-            <p>ChEBI: 17232</p>
           </html>
         </notes>
         <annotation>
@@ -14496,7 +14030,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetyl-D-mannosamine; UDP-N-acetyl-alpha-D-mannosamine</p>
-            <p>ChEBI: 68678</p>
           </html>
         </notes>
         <annotation>
@@ -14531,7 +14064,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: beta-D-Glucose 6-phosphate</p>
-            <p>ChEBI: 17719</p>
           </html>
         </notes>
         <annotation>
@@ -14564,7 +14096,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: p-Hydroxyphenylpyruvic acid; 4-Hydroxyphenylpyruvate; 3-(4-Hydroxyphenyl)pyruvate;</p>
-            <p>ChEBI: 15999</p>
           </html>
         </notes>
         <annotation>
@@ -14585,7 +14116,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Methylthio-2-oxobutanoate; 2-Oxo-4-methylthiobutanoate; 4-Methylthio-2-oxobutanoic acid; 2-Oxo-4-methylthiobutanoic acid; 2-Keto-4-methylthiobutyric acid;</p>
-            <p>ChEBI: 33574</p>
           </html>
         </notes>
         <annotation>
@@ -14606,7 +14136,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Nicotinic acid ribonucleotide; beta-Nicotinate D-ribonucleotide; Nicotinate D-ribonucleotide; Nicotinate ribonucleotide;</p>
-            <p>ChEBI: 15763</p>
           </html>
         </notes>
         <annotation>
@@ -14642,7 +14171,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Hydroxyisobutyrate; 3-Hydroxyisobutyric acid; 3-Hydroxy-2-methylpropanoate;</p>
-            <p>ChEBI: 11805 18064</p>
           </html>
         </notes>
         <annotation>
@@ -14664,7 +14192,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Malonyl-[acyl-carrier protein]; Malonyl-[acp]</p>
-            <p>ChEBI: 17330</p>
           </html>
         </notes>
         <annotation>
@@ -14691,7 +14218,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: FMN; Flavin mononucleotide; Riboflavin-5-phosphate;</p>
-            <p>ChEBI: 17621</p>
           </html>
         </notes>
         <annotation>
@@ -14724,7 +14250,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetylmuramoyl-L-alanine; UDP-N-acetyl-alpha-D-muramoyl-L-alanine</p>
-            <p>ChEBI: 84726</p>
           </html>
         </notes>
         <annotation>
@@ -14758,7 +14283,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: all-trans-Hexaprenyl diphosphate</p>
-            <p>ChEBI: 17528</p>
           </html>
         </notes>
         <annotation>
@@ -14790,7 +14314,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 6-Phospho-D-glucono-1,5-lactone; D-Glucono-1,5-lactone 6-phosphate;</p>
-            <p>ChEBI: 16938</p>
           </html>
         </notes>
         <annotation>
@@ -14811,7 +14334,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Arginine; L-Arg; (S)-2-Amino-5-guanidinovaleric acid;</p>
-            <p>ChEBI: 16467</p>
           </html>
         </notes>
         <annotation>
@@ -14862,7 +14384,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Acetamido-5-oxopentanoate; N-Acetyl-L-glutamate 5-semialdehyde;</p>
-            <p>ChEBI: 16319 29123</p>
           </html>
         </notes>
         <annotation>
@@ -14895,7 +14416,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Imidazole-acetol phosphate; 3-(Imidazol-4-yl)-2-oxopropyl phosphate;</p>
-            <p>ChEBI: 16426</p>
           </html>
         </notes>
         <annotation>
@@ -14926,7 +14446,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Amino-6-(5’-phosphoribosylamino)uracil; 5-Amino-6-(ribosylamino)-2,4-(1H,3H)-pyrimidinedione 5’-phosphate; 5-Amino-6-(5-phosphoribosylamino)uracil</p>
-            <p>ChEBI: 18337</p>
           </html>
         </notes>
         <annotation>
@@ -14947,7 +14466,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O5-(1-Carboxyvinyl)-3-phosphoshikimate; 5-O-(1-Carboxyvinyl)-3-phosphoshikimate;</p>
-            <p>ChEBI: 16257</p>
           </html>
         </notes>
         <annotation>
@@ -14968,7 +14486,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Amino-2-methyl-5-pyrimidinemethanol; 4-Amino-5-hydroxymethyl-2-methylpyrimidine; Toxopyrimidine;</p>
-            <p>ChEBI: 16892</p>
           </html>
         </notes>
         <annotation>
@@ -14989,7 +14506,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Acetyl-D-glucosaminyldiphosphoundecaprenol; N-Acetyl-alpha-D-glucosaminyl-diphospho-ditrans,octacis-undecaprenol; Lipid I; N-Acetyl-D-glucosaminyldiphospho-ditrans,octacis-undecaprenol;</p>
-            <p>ChEBI: 16511</p>
           </html>
         </notes>
         <annotation>
@@ -15015,7 +14531,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine</p>
-            <p>ChEBI: 17083 44841</p>
           </html>
         </notes>
         <annotation>
@@ -15037,7 +14552,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: CTP; Cytidine triphosphate; Cytidine 5’-triphosphate;</p>
-            <p>ChEBI: 17677</p>
           </html>
         </notes>
         <annotation>
@@ -15073,7 +14587,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate</p>
-            <p>ChEBI: 29112</p>
           </html>
         </notes>
         <annotation>
@@ -15094,7 +14607,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one; 2,5-Diamino-6-(1-D-ribosylamino)pyrimidin-4(3H)-one 5’-phosphate</p>
-            <p>ChEBI: 29114 59546</p>
           </html>
         </notes>
         <annotation>
@@ -15116,7 +14628,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2’-Deoxyuridine 5’-diphosphate; dUDP;</p>
-            <p>ChEBI: 28850</p>
           </html>
         </notes>
         <annotation>
@@ -15146,7 +14657,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: FADH2</p>
-            <p>ChEBI: 17877</p>
           </html>
         </notes>
         <annotation>
@@ -15182,7 +14692,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Glutamine; L-2-Aminoglutaramic acid</p>
-            <p>ChEBI: 18050</p>
           </html>
         </notes>
         <annotation>
@@ -15231,7 +14740,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Butyraldehyde; Butanal;</p>
-            <p>ChEBI: 15743</p>
           </html>
         </notes>
         <annotation>
@@ -15262,7 +14770,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cys-Gly; L-Cysteinylglycine</p>
-            <p>ChEBI: 4047</p>
           </html>
         </notes>
         <annotation>
@@ -15293,7 +14800,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Salicin; Salicoside</p>
-            <p>ChEBI: 17814</p>
           </html>
         </notes>
         <annotation>
@@ -15314,7 +14820,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-2-Amino-3-hydroxypropionic acid; L-3-Hydroxy-alanine; L-Serine; Serine</p>
-            <p>ChEBI: 17115</p>
           </html>
         </notes>
         <annotation>
@@ -15373,7 +14878,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: NADP+; NADP; Triphosphopyridine nucleotide; beta-NADP+; TPN; Nicotinamide adenine dinucleotide phosphate; beta-Nicotinamide adenine dinucleotide phosphate;</p>
-            <p>ChEBI: 18009</p>
           </html>
         </notes>
         <annotation>
@@ -15418,7 +14922,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Formalin; Oxomethane; Oxomethylene; Formaldehyde; Methanal; Methylene oxide;</p>
-            <p>ChEBI: 16842</p>
           </html>
         </notes>
         <annotation>
@@ -15458,7 +14961,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiamin pyrophosphate; ThPP; Thiamine diphosphate; TPP; Thiamin diphosphate;</p>
-            <p>ChEBI: 9532</p>
           </html>
         </notes>
         <annotation>
@@ -15493,7 +14995,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Xanthosine</p>
-            <p>ChEBI: 18107</p>
           </html>
         </notes>
         <annotation>
@@ -15523,7 +15024,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Deoxy-D-erythro-pentose; 2-Deoxy-D-ribose; Deoxyribose; Thyminose;</p>
-            <p>ChEBI: 28816</p>
           </html>
         </notes>
         <annotation>
@@ -15548,7 +15048,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Lauroyl-CoA; Lauroyl coenzyme A; Dodecanoyl-CoA</p>
-            <p>ChEBI: 15521</p>
           </html>
         </notes>
         <annotation>
@@ -15586,7 +15085,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: FMNH2; Reduced FMN;</p>
-            <p>ChEBI: 16048</p>
           </html>
         </notes>
         <annotation>
@@ -15620,7 +15118,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Octanoyl-CoA</p>
-            <p>ChEBI: 15533</p>
           </html>
         </notes>
         <annotation>
@@ -15658,7 +15155,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Methionine; L-Methionine; L-2-Amino-4methylthiobutyric acid</p>
-            <p>ChEBI: 16643</p>
           </html>
         </notes>
         <annotation>
@@ -15710,7 +15206,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Phosphoenolpyruvic acid; Phosphoenolpyruvate; PEP</p>
-            <p>ChEBI: 18021 44897</p>
           </html>
         </notes>
         <annotation>
@@ -15746,7 +15241,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Uridine triphosphate; UTP; Uridine 5’-triphosphate;</p>
-            <p>ChEBI: 15713</p>
           </html>
         </notes>
         <annotation>
@@ -15781,7 +15275,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Protoporphyrin IX; Porphyrinogen IX; Protoporphyrin;</p>
-            <p>ChEBI: 15430</p>
           </html>
         </notes>
         <annotation>
@@ -15817,7 +15310,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-2,5-Diaminovaleric acid; L-Ornithine; (S)-2,5-Diaminopentanoic acid; (S)-2,5-Diaminopentanoate</p>
-            <p>ChEBI: 15729</p>
           </html>
         </notes>
         <annotation>
@@ -15869,7 +15361,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Hydroxybenzyl alcohol; 2-(Hydroxymethyl)phenol; Salicyl alcohol; Saligenin;</p>
-            <p>ChEBI: 16464</p>
           </html>
         </notes>
         <annotation>
@@ -15890,7 +15381,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Tryptophan; L-Tryptophan; (S)-alpha-Amino-beta-(3-indolyl)-propionic acid</p>
-            <p>ChEBI: 16828</p>
           </html>
         </notes>
         <annotation>
@@ -15942,7 +15432,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Oxygen; O2</p>
-            <p>ChEBI: 15379</p>
           </html>
         </notes>
         <annotation>
@@ -15993,7 +15482,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 2; Dihydrosirohydrochlorin</p>
-            <p>ChEBI: 50602</p>
           </html>
         </notes>
         <annotation>
@@ -16021,7 +15509,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Arabinan; alpha-L-Arabinan; alpha-L-Araban</p>
-            <p>ChEBI: 22590 28351</p>
           </html>
         </notes>
         <annotation>
@@ -16043,7 +15530,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: H+; Hydron</p>
-            <p>ChEBI: 15378</p>
           </html>
         </notes>
         <annotation>
@@ -16094,7 +15580,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2S)-2-Hydroxy-2-isopropylsuccinic acid; alpha-Isopropylmalate; 3-Carboxy-3-hydroxy-4-methylpentanoate; (2S)-2-Isopropylmalate; 3-Carboxy-3-hydroxyisocaproate; 2-Isopropylmalic acid;</p>
-            <p>ChEBI: 1178 35128</p>
           </html>
         </notes>
         <annotation>
@@ -16116,7 +15601,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Butanoylphosphate; Butanoyl phosphate</p>
-            <p>ChEBI: 17260</p>
           </html>
         </notes>
         <annotation>
@@ -16147,7 +15631,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Inosine tripolyphosphate; Inosine 5’-triphosphate; Inosine triphosphate; ITP;</p>
-            <p>ChEBI: 16039</p>
           </html>
         </notes>
         <annotation>
@@ -16181,7 +15664,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Myristoyl-CoA; Tetradecanoyl-CoA;</p>
-            <p>ChEBI: 15532</p>
           </html>
         </notes>
         <annotation>
@@ -16220,7 +15702,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Isopropylmaleate; beta-Isopropylmaleate</p>
-            <p>ChEBI: 17275</p>
           </html>
         </notes>
         <annotation>
@@ -16241,7 +15722,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Dehydroshikimate</p>
-            <p>ChEBI: 30918</p>
           </html>
         </notes>
         <annotation>
@@ -16262,7 +15742,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Tyrosine; (S)-2-Amino-3-(p-hydroxyphenyl)propionic acid; L-Tyrosine; (S)-3-(p-Hydroxyphenyl)alanine;</p>
-            <p>ChEBI: 17895</p>
           </html>
         </notes>
         <annotation>
@@ -16315,7 +15794,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Malonyl-CoA; Malonyl coenzyme A</p>
-            <p>ChEBI: 15531</p>
           </html>
         </notes>
         <annotation>
@@ -16353,7 +15831,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Succinylbenzoate; Succinylbenzoate; o-Succinylbenzoate;</p>
-            <p>ChEBI: 18325 44788</p>
           </html>
         </notes>
         <annotation>
@@ -16385,7 +15862,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N1-(5-Phospho-D-ribosyl)-ATP; Phosphoribosyl-ATP; 1-(5-Phosphoribosyl)-ATP; 1-(5-Phospho-beta-D-ribosyl)-ATP; 1-(5-Phospho-D-ribosyl)-ATP;</p>
-            <p>ChEBI: 73200</p>
           </html>
         </notes>
         <annotation>
@@ -16419,7 +15895,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Phosphoribosyl-AMP; 1-(5-Phosphoribosyl)-AMP; N1-(5-Phospho-D-ribosyl)-AMP; 1-(5-Phospho-beta-D-ribosyl)-AMP</p>
-            <p>ChEBI: 18374</p>
           </html>
         </notes>
         <annotation>
@@ -16451,7 +15926,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acetaldehyde; Ethanal</p>
-            <p>ChEBI: 15343</p>
           </html>
         </notes>
         <annotation>
@@ -16490,7 +15964,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Propionyl phosphate; Propanoyl phosphate;</p>
-            <p>ChEBI: 8478</p>
           </html>
         </notes>
         <annotation>
@@ -16517,7 +15990,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Methylcatechol; 2,3-Dihydroxytoluene;</p>
-            <p>ChEBI: 18404</p>
           </html>
         </notes>
         <annotation>
@@ -16538,7 +16010,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Neuberg ester; D-Fructose 6-phosphate; D-Fructose 6-phosphoric acid;</p>
-            <p>ChEBI: 15946 61553</p>
           </html>
         </notes>
         <annotation>
@@ -16560,7 +16031,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Isovaleryl-CoA; 3-Methylbutanoyl-CoA;</p>
-            <p>ChEBI: 15487</p>
           </html>
         </notes>
         <annotation>
@@ -16594,7 +16064,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Carbamide; Urea;</p>
-            <p>ChEBI: 16199</p>
           </html>
         </notes>
         <annotation>
@@ -16637,7 +16106,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Maltose 6’-phosphate</p>
-            <p>ChEBI: 15703</p>
           </html>
         </notes>
         <annotation>
@@ -16672,7 +16140,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-4-Aspartyl phosphate; 4-Phospho-L-aspartate;</p>
-            <p>ChEBI: 15836</p>
           </html>
         </notes>
         <annotation>
@@ -16712,7 +16179,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Phospho-D-ribosylamine; 5-Phosphoribosylamine; 5-Phosphoribosyl-1-amine; 5-Phospho-beta-D-ribosylamine;</p>
-            <p>ChEBI: 37737</p>
           </html>
         </notes>
         <annotation>
@@ -16747,7 +16213,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Nitrite</p>
-            <p>ChEBI: 16301 25567</p>
           </html>
         </notes>
         <annotation>
@@ -16780,7 +16245,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Ribosylnicotinamide; Nicotinamide-beta-riboside; 1-(beta-D-Ribofuranosyl)nicotinamide</p>
-            <p>ChEBI: 15927</p>
           </html>
         </notes>
         <annotation>
@@ -16813,7 +16277,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Succinylbenzoyl-CoA; o-Succinylbenzoyl-CoA; Succinylbenzoyl-CoA; 4-(2-Carboxyphenyl)-4-oxobutanoyl-CoA</p>
-            <p>ChEBI: 15509</p>
           </html>
         </notes>
         <annotation>
@@ -16843,7 +16306,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Shikimate 5-phosphate; Shikimate 3-phosphate;</p>
-            <p>ChEBI: 17052</p>
           </html>
         </notes>
         <annotation>
@@ -16875,7 +16337,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: ADP; Adenosine 5’-diphosphate</p>
-            <p>ChEBI: 16761</p>
           </html>
         </notes>
         <annotation>
@@ -16919,7 +16380,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cane sugar; Sucrose; Saccharose; 1-alpha-D-Glucopyranosyl-2-beta-D-fructofuranoside</p>
-            <p>ChEBI: 17992</p>
           </html>
         </notes>
         <annotation>
@@ -16953,7 +16413,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2E)-Dodec-2-enoyl-CoA; 2-trans-Dodecenoyl-CoA; (2E)-Dodecenoyl-CoA</p>
-            <p>ChEBI: 15471</p>
           </html>
         </notes>
         <annotation>
@@ -16990,7 +16449,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Phosphonooxypyruvic acid; 3-Phosphonooxypyruvate; 3-Phosphohydroxypyruvate; 3-Phosphohydroxypyruvic acid</p>
-            <p>ChEBI: 30933</p>
           </html>
         </notes>
         <annotation>
@@ -17011,7 +16469,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Coproporphyrinogen III</p>
-            <p>ChEBI: 15439</p>
           </html>
         </notes>
         <annotation>
@@ -17046,7 +16503,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Glutamate 5-phosphate; L-Glutamyl 5-phosphate;</p>
-            <p>ChEBI: 17798</p>
           </html>
         </notes>
         <annotation>
@@ -17106,7 +16562,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Methyl-3-acetoacetyl-CoA; 2-Methylacetoacetyl-CoA;</p>
-            <p>ChEBI: 15476</p>
           </html>
         </notes>
         <annotation>
@@ -17127,7 +16582,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (E)-2-Methylcrotonoyl-CoA; 2-Methylcrotanoyl-CoA; Tiglyl-CoA; 2-Methylbut-2-enoyl-CoA; trans-2-Methylbut-2-enoyl-CoA; Methylcrotonyl-CoA; Tigloyl-CoA; Methylcrotonoyl-CoA;</p>
-            <p>ChEBI: 15478</p>
           </html>
         </notes>
         <annotation>
@@ -17148,7 +16602,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Argininosuccinic acid; 2-(Nomega-L-Arginino)succinate; N-(L-Arginino)succinate; L-Argininosuccinate; L-Arginosuccinic acid</p>
-            <p>ChEBI: 15682</p>
           </html>
         </notes>
         <annotation>
@@ -17182,7 +16635,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-S-Lactoylglutathione; S-D-Lactoylglutathione</p>
-            <p>ChEBI: 15694</p>
           </html>
         </notes>
         <annotation>
@@ -17216,7 +16668,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Glucose 6-phosphate; D-Glucose 6-phosphate; Robison ester</p>
-            <p>ChEBI: 4170</p>
           </html>
         </notes>
         <annotation>
@@ -17250,7 +16701,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L(-)-5-Formyl-5,6,7,8-tetrahydrofolic acid; Folinic acid; Leucovorin; 5-Formyltetrahydrofolate;</p>
-            <p>ChEBI: 15640</p>
           </html>
         </notes>
         <annotation>
@@ -17271,7 +16721,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-4’-Phosphopantothenate; (R)-4’-Phosphopantothenate</p>
-            <p>ChEBI: 15905</p>
           </html>
         </notes>
         <annotation>
@@ -17292,7 +16741,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (1S,2R)-1-C-(Indol-3-yl)glycerol 3-phosphate; Indoleglycerol phosphate; C1-(3-Indolyl)-glycerol 3-phosphate; Indole-3-glycerol phosphate; 1-C-(Indol-3-yl)glycerol 3-phosphate; (3-Indolyl)-glycerol phosphate;</p>
-            <p>ChEBI: 18299 51793</p>
           </html>
         </notes>
         <annotation>
@@ -17314,7 +16762,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-D-Ribosyl-L-homocysteine; S-Ribosyl-L-homocysteine; Ribose-5-S-homocysteine; S-Ribosylhomocysteine; S-(5-Deoxy-D-ribos-5-yl)-L-homocysteine</p>
-            <p>ChEBI: 17575 45383</p>
           </html>
         </notes>
         <annotation>
@@ -17346,7 +16793,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Glycerol 1-phosphate; sn-Glycerol 3-phosphate; Glycerophosphoric acid;</p>
-            <p>ChEBI: 15978</p>
           </html>
         </notes>
         <annotation>
@@ -17382,7 +16828,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1,4-Dihydroxy-2-naphthoate; 1,4-Dihydroxy-2-naphthoic acid</p>
-            <p>ChEBI: 18094</p>
           </html>
         </notes>
         <annotation>
@@ -17410,7 +16855,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Pyridine-2,3-dicarboxylate; 2,3-Pyridinedicarboxylic acid; Quinolinic acid; Quinolinate;</p>
-            <p>ChEBI: 16675</p>
           </html>
         </notes>
         <annotation>
@@ -17448,7 +16892,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-4-Amino-5-oxopentanoate; L-Glutamate 1-semialdehyde</p>
-            <p>ChEBI: 15757</p>
           </html>
         </notes>
         <annotation>
@@ -17481,7 +16924,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N6-(1,2-Dicarboxyethyl)AMP; N6-(1,2-Dicarboxyethyl)-AMP; Adenylosuccinic acid; Adenylosuccinate;</p>
-            <p>ChEBI: 15919</p>
           </html>
         </notes>
         <annotation>
@@ -17519,7 +16961,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N1-(5-Phospho-D-ribosyl)glycinamide; Glycinamide ribonucleotide; 5’-Phosphoribosylglycinamide; GAR;</p>
-            <p>ChEBI: 18349</p>
           </html>
         </notes>
         <annotation>
@@ -17550,7 +16991,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-1-Pyrroline-5-carboxylate; 1-Pyrroline-5-carboxylate; L-1-Pyrroline-5-carboxylate;</p>
-            <p>ChEBI: 371</p>
           </html>
         </notes>
         <annotation>
@@ -17571,7 +17011,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Cysteine; L-2-Amino-3-mercaptopropionic acid</p>
-            <p>ChEBI: 17561</p>
           </html>
         </notes>
         <annotation>
@@ -17628,7 +17067,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acetyl-[acyl-carrier protein]</p>
-            <p>ChEBI: 17093</p>
           </html>
         </notes>
         <annotation>
@@ -17654,7 +17092,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: delta1-Piperidine-2,6-dicarboxylate; (S)-2,3,4,5-Tetrahydropyridine-2,6-dicarboxylate; 2,3,4,5-Tetrahydrodipicolinate; L-2,3,4,5-Tetrahydrodipicolinate;</p>
-            <p>ChEBI: 864</p>
           </html>
         </notes>
         <annotation>
@@ -17689,7 +17126,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2,3-Dihydroxybenzoyl)adenylate</p>
-            <p>ChEBI: 15572</p>
           </html>
         </notes>
         <annotation>
@@ -17710,7 +17146,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Aminopropionic acid; 3-Aminopropanoate; beta-Alanine;</p>
-            <p>ChEBI: 16958</p>
           </html>
         </notes>
         <annotation>
@@ -17747,7 +17182,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Orthophosphoric acid; Phosphoric acid; Orthophosphate; Phosphate;</p>
-            <p>ChEBI: 18367 26078</p>
           </html>
         </notes>
         <annotation>
@@ -17807,7 +17241,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Propionyl coenzyme A; Propionyl-CoA; Propanoyl-CoA;</p>
-            <p>ChEBI: 15539</p>
           </html>
         </notes>
         <annotation>
@@ -17845,7 +17278,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2S,3S)-2,3-Dihydro-2,3-dihydroxybenzoate; (2S,3S)-2,3-Dihydroxy-2,3-dihydroxybenzoate</p>
-            <p>ChEBI: 15941 48968</p>
           </html>
         </notes>
         <annotation>
@@ -17867,7 +17299,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Tetrahydrofolate; Tetrahydrofolic acid; 5,6,7,8-Tetrahydrofolate; THF; (6S)-Tetrahydrofolate; (6S)-THFA; (6S)-Tetrahydrofolic acid;</p>
-            <p>ChEBI: 15635 20506</p>
           </html>
         </notes>
         <annotation>
@@ -17904,7 +17335,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2,3-Diketo-5-methylthiopentyl-1-phosphate; 5-(Methylthio)-2,3-dioxopentyl phosphate</p>
-            <p>ChEBI: 50604</p>
           </html>
         </notes>
         <annotation>
@@ -17934,7 +17364,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-Methyl-5-thio-5-deoxy-D-ribose 1-phosphate; S-Methyl-5-thio-D-ribose 1-phosphate; S-Methyl-5-thio-alpha-D-ribose 1-phosphate;</p>
-            <p>ChEBI: 27859</p>
           </html>
         </notes>
         <annotation>
@@ -17955,7 +17384,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: all-trans-Heptaprenyl diphosphate</p>
-            <p>ChEBI: 17613</p>
           </html>
         </notes>
         <annotation>
@@ -17988,7 +17416,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: all-trans-Pentaprenyl diphosphate; (2E,6E,10E,14E)-Geranylfarnesyl diphosphate; Geranylfarnesyl diphosphate;</p>
-            <p>ChEBI: 16818</p>
           </html>
         </notes>
         <annotation>
@@ -18021,7 +17448,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-Methyl-5-thio-D-ribulose 1-phosphate</p>
-            <p>ChEBI: 28096</p>
           </html>
         </notes>
         <annotation>
@@ -18042,7 +17468,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Oxo-4-methyl-3-carboxypentanoate; (2S)-2-Isopropyl-3-oxosuccinate; 3-Carboxy-4-methyl-2-oxopentanoate;</p>
-            <p>ChEBI: 1467</p>
           </html>
         </notes>
         <annotation>
@@ -18063,7 +17488,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha-D-Glucose 1-phosphate; Cori ester; D-Glucose alpha-1-phosphate; D-Glucose 1-phosphate;</p>
-            <p>ChEBI: 29042</p>
           </html>
         </notes>
         <annotation>
@@ -18107,7 +17531,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Methyl-5-(2’-hydroxyethyl)-thiazole; 5-(2-Hydroxyethyl)-4-methylthiazole; 4-Methyl-5-(2-hydroxyethyl)-thiazole</p>
-            <p>ChEBI: 17957</p>
           </html>
         </notes>
         <annotation>
@@ -18128,7 +17551,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Inosine 5’-diphosphate; Inosine diphosphate; IDP;</p>
-            <p>ChEBI: 17808</p>
           </html>
         </notes>
         <annotation>
@@ -18161,7 +17583,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-(5-Phosphoribosyl)anthranilic acid; N-(5-Phospho-beta-D-ribosyl)anthranilate; N-(5-Phospho-D-ribosyl)anthranilate;</p>
-            <p>ChEBI: 7091</p>
           </html>
         </notes>
         <annotation>
@@ -18191,7 +17612,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Methyl-5-(2-phosphono-oxyethyl)thiazole; 4-Methyl-5-(2-phosphoethyl)thiazole;</p>
-            <p>ChEBI: 17857</p>
           </html>
         </notes>
         <annotation>
@@ -18212,7 +17632,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 6,7-Dimethyl-8-(D-ribityl)lumazine</p>
-            <p>ChEBI: 17601</p>
           </html>
         </notes>
         <annotation>
@@ -18243,7 +17662,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UMP; 5’Uridylic acid; Uridylic acid; Uridine 5’-monophosphate; Uridine monophosphate;</p>
-            <p>ChEBI: 16695</p>
           </html>
         </notes>
         <annotation>
@@ -18282,7 +17700,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-4’-Phosphopantothenoyl-L-cysteine; N-[(R)-4’-Phosphopantothenoyl]-L-cysteine</p>
-            <p>ChEBI: 15769</p>
           </html>
         </notes>
         <annotation>
@@ -18303,7 +17720,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Formyl-GAR; N-Formylglycinamide ribonucleotide; N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide; 5’-Phosphoribosyl-N-formylglycinamide;</p>
-            <p>ChEBI: 18272 42411</p>
           </html>
         </notes>
         <annotation>
@@ -18337,7 +17753,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N2-Acetyl-LL-2,6-diaminopimelate; N6-Acetyl-LL-2,6-diaminoheptanedioate; N6-Acetyl-L-2,6-diaminoheptanedioate; N6-Acetyl-LL-2,6-diaminopimelate; N2-Acetyl-LL-2,6-diaminoheptanedioate; N-Acetyl-LL-2,6-diaminoheptanedioate; N6-Acetyl-L-2,6-diaminopimelate;</p>
-            <p>ChEBI: 18317 49004</p>
           </html>
         </notes>
         <annotation>
@@ -18359,7 +17774,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA; (S)-3-Hydroxy-2-methylbutyryl-CoA</p>
-            <p>ChEBI: 15449</p>
           </html>
         </notes>
         <annotation>
@@ -18380,7 +17794,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-D-threo-Hydroxy-3-carboxy-isocaproate; (2R,3S)-3-Isopropylmalate; 3-Isopropylmalate; 3-Carboxy-2-hydroxy-4-methylpentanoate;</p>
-            <p>ChEBI: 35121 43468</p>
           </html>
         </notes>
         <annotation>
@@ -18402,7 +17815,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Uracil</p>
-            <p>ChEBI: 17568</p>
           </html>
         </notes>
         <annotation>
@@ -18437,7 +17849,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5-Amino-6-(5-phospho-D-ribitylamino)uracil; 5-Amino-6-(5’-phospho-D-ribitylamino)uracil; 5-Amino-2,6-dioxy-4-(5’-phospho-D-ribitylamino)pyrimidine;</p>
-            <p>ChEBI: 18247</p>
           </html>
         </notes>
         <annotation>
@@ -18458,7 +17869,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Guanosine 5’-triphosphate,3’-diphosphate; Guanosine 3’-diphosphate 5’-triphosphate;</p>
-            <p>ChEBI: 16690</p>
           </html>
         </notes>
         <annotation>
@@ -18491,7 +17901,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Anthranilate; Anthranilic acid; Vitamin L1; o-Aminobenzoic acid; 2-Aminobenzoate</p>
-            <p>ChEBI: 30754</p>
           </html>
         </notes>
         <annotation>
@@ -18541,7 +17950,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 4-Amino-5-phosphomethyl-2-methylpyrimidine; 4-Amino-2-methyl-5-phosphomethylpyrimidine;</p>
-            <p>ChEBI: 18032</p>
           </html>
         </notes>
         <annotation>
@@ -18562,7 +17970,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Oxobutyric acid; alpha-Ketobutyrate; 2-Oxobutanoate; 2-Oxobutyrate; alpha-Ketobutyric acid; 2-Oxobutanoic acid; 2-Ketobutyric acid;</p>
-            <p>ChEBI: 30831</p>
           </html>
         </notes>
         <annotation>
@@ -18583,7 +17990,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: di-trans,poly-cis-Undecaprenyl diphosphate; Undecaprenyl diphosphate; ditrans,octacis-Undecaprenyl diphosphate; Bactoprenyl diphosphate;</p>
-            <p>ChEBI: 18197</p>
           </html>
         </notes>
         <annotation>
@@ -18633,7 +18039,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine; UDP-N-acetylglucosamine enolpyruvate; UDP-N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine; UDP-N-acetylglucosamine-3-O-pyruvateether; UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine;</p>
-            <p>ChEBI: 68507</p>
           </html>
         </notes>
         <annotation>
@@ -18666,7 +18071,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine; 5’-Phosphoribosyl-N-formylglycinamidine; 2-(Formamido)-N1-(5’-phosphoribosyl)acetamidine; 1-(5’-Phosphoribosyl)-N-formylglycinamidine; 5’-Phosphoribosylformylglycinamidine;</p>
-            <p>ChEBI: 18413</p>
           </html>
         </notes>
         <annotation>
@@ -18694,7 +18098,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Hydroxy-2-oxopropyl phosphate; Glycerone phosphate; Dihydroxyacetone phosphate;</p>
-            <p>ChEBI: 16108</p>
           </html>
         </notes>
         <annotation>
@@ -18731,7 +18134,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate; D-erythro-Imidazole-glycerol 3-phosphate; D-erythro-Imidazole-glycerol phosphate</p>
-            <p>ChEBI: 17805</p>
           </html>
         </notes>
         <annotation>
@@ -18762,7 +18164,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1-(5’-Phosphoribosyl)-5-amino-4-imidazolecarboxamide; 5’-Phospho-ribosyl-5-amino-4-imidazole carboxamide; AICAR; 5-Aminoimidazole-4-carboxamide ribotide; 5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide; 5’-Phosphoribosyl-5-amino-4-imidazolecarboxamide; 5-Phosphoribosyl-4-carbamoyl-5-aminoimidazole;</p>
-            <p>ChEBI: 18406</p>
           </html>
         </notes>
         <annotation>
@@ -18795,7 +18196,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Deoxy-D-arabino-hept-2-ulosonate 7-phosphate; 3-Deoxy-D-arabino-heptulosonic acid 7-phosphate; 2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate; DAHP; 3-Deoxy-arabino-heptulonate 7-phosphate; 2-Dahp</p>
-            <p>ChEBI: 18150</p>
           </html>
         </notes>
         <annotation>
@@ -18816,7 +18216,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cytidine diphosphate; Cytidine 5’-diphosphate; CDP;</p>
-            <p>ChEBI: 17239</p>
           </html>
         </notes>
         <annotation>
@@ -18847,7 +18246,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 6-(1-D-Ribitylamino)-5-aminouracil; 6-(1-D-Ribitylamino)-5-amino-2,4-dihydroxypyrimidine; 5-Amino-6-(1-D-ribitylamino)uracil; 4-(1-D-Ribitylamino)-5-amino-2,6-dihydroxypyrimidine; 5-Amino-6-(D-ribitylamino)uracil;</p>
-            <p>ChEBI: 15934</p>
           </html>
         </notes>
         <annotation>
@@ -18868,7 +18266,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5’-Phosphoribosyl-5-formamido-4-imidazolecarboxamide; 5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide; FAICAR; 5-Formamido-1-(5-phosphoribosyl)imidazole-4-carboxamide; 1-(5’-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide;</p>
-            <p>ChEBI: 18381</p>
           </html>
         </notes>
         <annotation>
@@ -18902,7 +18299,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Chloride ion; Chloride; Cl-;</p>
-            <p>ChEBI: 17996</p>
           </html>
         </notes>
         <annotation>
@@ -18955,7 +18351,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ammonia; NH3</p>
-            <p>ChEBI: 16134</p>
           </html>
         </notes>
         <annotation>
@@ -19017,7 +18412,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Grape sugar; Dextrose; D-Glucopyranose; D-Glucose; Glucose;</p>
-            <p>ChEBI: 4167</p>
           </html>
         </notes>
         <annotation>
@@ -19051,7 +18445,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiamine; Thiamin; Vitamin B1; Antiberiberi factor; Aneurin;</p>
-            <p>ChEBI: 18385</p>
           </html>
         </notes>
         <annotation>
@@ -19078,7 +18471,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Fe(II); Fe2+; Iron(2+); Ferrous ion;</p>
-            <p>ChEBI: 29033</p>
           </html>
         </notes>
         <annotation>
@@ -19111,7 +18503,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: H2O; Water</p>
-            <p>ChEBI: 15377</p>
           </html>
         </notes>
         <annotation>
@@ -19132,7 +18523,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Oxygen; O2</p>
-            <p>ChEBI: 15379</p>
           </html>
         </notes>
         <annotation>
@@ -19183,7 +18573,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Carbon dioxide; CO2;</p>
-            <p>ChEBI: 16526</p>
           </html>
         </notes>
         <annotation>
@@ -19229,7 +18618,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: H+; Hydron</p>
-            <p>ChEBI: 15378</p>
           </html>
         </notes>
         <annotation>
@@ -19280,7 +18668,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Co(II); Cobalt ion; Co2+; Cobalt(2+);</p>
-            <p>ChEBI: 27638 48828</p>
           </html>
         </notes>
         <annotation>
@@ -19309,7 +18696,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Ribose</p>
-            <p>ChEBI: 47013</p>
           </html>
         </notes>
         <annotation>
@@ -19344,7 +18730,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 1,2,3-Propanetriol; 1,2,3-Trihydroxypropane; Glycerin; Glycerol;</p>
-            <p>ChEBI: 17754</p>
           </html>
         </notes>
         <annotation>
@@ -19381,7 +18766,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Aminosuccinamic acid; L-Asparagine;</p>
-            <p>ChEBI: 17196</p>
           </html>
         </notes>
         <annotation>
@@ -19423,7 +18807,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Pyridoxal 5’-phosphate; Pyridoxal phosphate; PLP; Pyridoxal 5-phosphate;</p>
-            <p>ChEBI: 18405</p>
           </html>
         </notes>
         <annotation>
@@ -19444,7 +18827,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ubiquinol; QH2; CoQH2</p>
-            <p>ChEBI: 17976</p>
           </html>
         </notes>
         <annotation>
@@ -19465,7 +18847,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: GSH; gamma-L-Glutamyl-L-cysteinyl-glycine; 5-L-Glutamyl-L-cysteinylglycine; Glutathione; N-(N-gamma-L-Glutamyl-L-cysteinyl)glycine; Reduced glutathione</p>
-            <p>ChEBI: 16856</p>
           </html>
         </notes>
         <annotation>
@@ -19508,7 +18889,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: NADP+; NADP; Triphosphopyridine nucleotide; beta-NADP+; TPN; Nicotinamide adenine dinucleotide phosphate; beta-Nicotinamide adenine dinucleotide phosphate;</p>
-            <p>ChEBI: 18009</p>
           </html>
         </notes>
         <annotation>
@@ -19530,7 +18910,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Galactose; D-Galactopyranose</p>
-            <p>ChEBI: 4139</p>
           </html>
         </notes>
         <annotation>
@@ -19569,7 +18948,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Methylcarbinol; Ethanol; Ethyl alcohol;</p>
-            <p>ChEBI: 16236</p>
           </html>
         </notes>
         <annotation>
@@ -19614,7 +18992,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Mannose; Seminose; Carubinose; D-Mannose;</p>
-            <p>ChEBI: 4208</p>
           </html>
         </notes>
         <annotation>
@@ -19652,7 +19029,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Arbutin; Uvasol; Hydroquinone-O-beta-D-glucopyranoside; Ursin;</p>
-            <p>ChEBI: 18305</p>
           </html>
         </notes>
         <annotation>
@@ -19673,7 +19049,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Salicin; Salicoside</p>
-            <p>ChEBI: 17814</p>
           </html>
         </notes>
         <annotation>
@@ -19694,7 +19069,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: alpha,alpha-Trehalose; Trehalose; alpha,alpha’-Trehalose;</p>
-            <p>ChEBI: 16551</p>
           </html>
         </notes>
         <annotation>
@@ -19733,7 +19107,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ethanoic acid; Acetic acid; Acetate;</p>
-            <p>ChEBI: 15366</p>
           </html>
         </notes>
         <annotation>
@@ -19781,7 +19154,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Butanedionic acid; Ethylenesuccinic acid; Succinate; Succinic acid;</p>
-            <p>ChEBI: 15741</p>
           </html>
         </notes>
         <annotation>
@@ -19830,7 +19202,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Lactic acid; (R)-Lactate; D-2-Hydroxypropanoic acid; D-2-Hydroxypropionic acid; D-Lactate;</p>
-            <p>ChEBI: 42111</p>
           </html>
         </notes>
         <annotation>
@@ -19865,7 +19236,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-Lactate; L-Lactate; L-Lactic acid</p>
-            <p>ChEBI: 422</p>
           </html>
         </notes>
         <annotation>
@@ -19901,7 +19271,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiamin triphosphate; Thiamine triphosphate</p>
-            <p>ChEBI: 9534</p>
           </html>
         </notes>
         <annotation>
@@ -19964,7 +19333,6 @@
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: C15814; Thiamine biosynthesis intermediate 5</p>
             <p>PubChem: 47205139</p>
-            <p>ChEBI: 80102</p>
           </html>
         </notes>
         <annotation>
@@ -19972,6 +19340,7 @@
             <rdf:Description rdf:about="#meta_M_tcscp_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/80102"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15814"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19984,7 +19353,6 @@
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: C15810; Thiamine biosynthesis intermediate 1</p>
             <p>PubChem: 47205135</p>
-            <p>ChEBI: 80100</p>
           </html>
         </notes>
         <annotation>
@@ -19992,6 +19360,7 @@
             <rdf:Description rdf:about="#meta_M_scpgg_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/80100"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15810"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20042,7 +19411,6 @@
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: C15813; Thiamine biosynthesis intermediate 4</p>
             <p>PubChem: 47205138</p>
-            <p>ChEBI: 80101</p>
           </html>
         </notes>
         <annotation>
@@ -20050,6 +19418,7 @@
             <rdf:Description rdf:about="#meta_M_ascp_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/80101"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15813"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20067,7 +19436,6 @@
             <p>KNApSAcK: C00000756</p>
             <p>3DMET: B01165</p>
             <p>NIKKAJI: J94.599D</p>
-            <p>ChEBI: 15956</p>
             <p>CAS: 58-85-5</p>
             <p>PDB-CCD: BTN</p>
           </html>
@@ -20077,6 +19445,7 @@
             <rdf:Description rdf:about="#meta_M_btn_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/15956"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00120"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20092,7 +19461,6 @@
             <p>PDB-CCD: BT5</p>
             <p>3DMET: B05138</p>
             <p>PubChem: 8209</p>
-            <p>ChEBI: 3110</p>
             <p>NIKKAJI: J734.022B</p>
           </html>
         </notes>
@@ -20101,6 +19469,7 @@
             <rdf:Description rdf:about="#meta_M_b5amp_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/3110"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05921"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20114,7 +19483,6 @@
             <p>NAME: (S)-Lactaldehyde; L-2-Hydroxypropionaldehyde; L-Lactaldehyde;</p>
             <p>EXACT_MASS: 74.0368</p>
             <p>CAS: 3913-64-2</p>
-            <p>ChEBI: 18041</p>
             <p>PubChem: 3714</p>
             <p>3DMET: B01242</p>
             <p>KNApSAcK: C00019649</p>
@@ -20126,6 +19494,7 @@
             <rdf:Description rdf:about="#meta_M_lald__L_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/18041"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00424"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20141,7 +19510,6 @@
             <p>PubChem: 8032</p>
             <p>PDB-CCD: TS5</p>
             <p>CAS: 33932-35-3</p>
-            <p>ChEBI: 16613</p>
             <p>3DMET: B01889</p>
           </html>
         </notes>
@@ -20150,6 +19518,7 @@
             <rdf:Description rdf:about="#meta_M_gtspmd_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/16613"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05730"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20162,7 +19531,6 @@
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acyl coenzyme A; Acyl-CoA;</p>
             <p>MODULE: M00085 Fatty acid biosynthesis, elongation, mitochondria</p>
-            <p>ChEBI: 17984</p>
             <p>CAS: 9029-97-4</p>
             <p>PubChem: 3342</p>
             <p>LIPIDMAPS: LMFA07050000</p>
@@ -20173,6 +19541,7 @@
             <rdf:Description rdf:about="#meta_M_acoa_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/17984"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00040"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20186,7 +19555,6 @@
             <p>NAME: Phosphatidic acid; 3-sn-Phosphatidate; Phosphatidate; 1,2-Diacyl-sn-glycerol 3-phosphate;</p>
             <p>MODULE: M00093 Phosphatidylethanolamine (PE) biosynthesis, PA → PS → PE; M00089 Triacylglycerol biosynthesis</p>
             <p>PubChem: 3706</p>
-            <p>ChEBI: 16337</p>
             <p>LIPIDMAPS: LMGP10010000</p>
           </html>
         </notes>
@@ -20195,6 +19563,7 @@
             <rdf:Description rdf:about="#meta_M_pa_EC_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/16337"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00416"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20209,7 +19578,6 @@
             <p>MODULE: M00093 Phosphatidylethanolamine (PE) biosynthesis, PA → PS → PE</p>
             <p>LIPIDMAPS: LMGP13010000</p>
             <p>PubChem: 3567</p>
-            <p>ChEBI: 17962</p>
           </html>
         </notes>
         <annotation>
@@ -20217,6 +19585,7 @@
             <rdf:Description rdf:about="#meta_M_cdpdag_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/17962"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00269"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20230,7 +19599,6 @@
             <p>NAME: (R,R)-2,3-Butylene glycol; (R,R)-Butane-2,3-diol;; (R,R)-2,3-Butanediol;</p>
             <p>EXACT_MASS: 90.0681</p>
             <p>PubChem: 5947</p>
-            <p>ChEBI: 16982</p>
             <p>3DMET: B01625</p>
             <p>PDB-CCD: BU3</p>
             <p>CAS: 24347-58-8</p>
@@ -20242,6 +19610,7 @@
             <rdf:Description rdf:about="#meta_M_rr23bdo_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/16982"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03044"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20258,7 +19627,6 @@
             <p>NIKKAJI: J2.623I</p>
             <p>LIPIDMAPS: LMFA12000064</p>
             <p>3DMET: B00180</p>
-            <p>ChEBI: 15686</p>
             <p>PubChem: 4068</p>
             <p>CAS: 53584-56-8</p>
             <p>PDB-CCD: HBR</p>
@@ -20269,6 +19637,7 @@
             <rdf:Description rdf:about="#meta_M_actn__R_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/15686"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00810"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20286,7 +19655,6 @@
             <p>3DMET: B00164</p>
             <p>PubChem: 4004</p>
             <p>CAS: 431-03-8</p>
-            <p>ChEBI: 16583</p>
           </html>
         </notes>
         <annotation>
@@ -20294,6 +19662,7 @@
             <rdf:Description rdf:about="#meta_M_diact_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/16583"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00741"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20311,7 +19680,6 @@
             <p>CAS: 513-86-0</p>
             <p>LIPIDMAPS: LMFA12000020</p>
             <p>NIKKAJI: J2.623I</p>
-            <p>ChEBI: 15688</p>
           </html>
         </notes>
         <annotation>
@@ -20319,6 +19687,7 @@
             <rdf:Description rdf:about="#meta_M_actn_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/15688"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00466"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20331,7 +19700,6 @@
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogen-acceptor;; Oxidized donor; Acceptor;; A;</p>
             <p>KEGG_COMMENT: Generic compound in reaction hierarchy</p>
-            <p>ChEBI: 15339</p>
             <p>PubChem: 3330</p>
           </html>
         </notes>
@@ -20340,6 +19708,7 @@
             <rdf:Description rdf:about="#meta_M_hacc_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/15339"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00028"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20354,7 +19723,6 @@
             <p>EXACT_MASS: 104.011</p>
             <p>PubChem: 4376</p>
             <p>NIKKAJI: J1.397.673B</p>
-            <p>ChEBI: 16992</p>
             <p>CAS: 2480-77-5</p>
             <p>3DMET: B04777</p>
           </html>
@@ -20364,6 +19732,7 @@
             <rdf:Description rdf:about="#meta_M_hop_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/16992"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01146"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20376,7 +19745,6 @@
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ferricytochrome b-561</p>
             <p>PubChem: 7687</p>
-            <p>ChEBI: 16078</p>
           </html>
         </notes>
         <annotation>
@@ -20384,6 +19752,7 @@
             <rdf:Description rdf:about="#meta_M_fcytb5612_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/16078"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05305"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20398,7 +19767,6 @@
             <p>MODULE: M00088 Ketone body biosynthesis, acetyl-CoA =&gt; acetoacetate/3-hydroxybutyrate/acetone</p>
             <p>EXACT_MASS: 58.0419</p>
             <p>PubChem: 3507</p>
-            <p>ChEBI: 15347</p>
             <p>LIPIDMAPS: LMFA12000057</p>
             <p>NIKKAJI: J2.365E</p>
             <p>PDB-CCD: ACN</p>
@@ -20412,6 +19780,7 @@
             <rdf:Description rdf:about="#meta_M_acetone_c">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/15347"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00207"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20459,7 +19828,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Levulose; D-Fructose; D-arabino-Hexulose; Fruit sugar;</p>
-            <p>ChEBI: 15824 37721</p>
           </html>
         </notes>
         <annotation>
@@ -20467,6 +19835,7 @@
             <rdf:Description rdf:about="#meta_M_fru_e">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/15824 37721"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00095"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20478,7 +19847,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Arabinopyranose; L-Arabinose;</p>
-            <p>ChEBI: 17535</p>
           </html>
         </notes>
         <annotation>
@@ -20486,6 +19854,7 @@
             <rdf:Description rdf:about="#meta_M_arab__L_e">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/17535"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00259"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20497,7 +19866,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Xylose; Wood sugar</p>
-            <p>ChEBI: 15936 53455</p>
           </html>
         </notes>
         <annotation>
@@ -20505,6 +19873,7 @@
             <rdf:Description rdf:about="#meta_M_xyl__D_e">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/15936 53455"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00181"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20516,7 +19885,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-Mannitol; Mannitol;</p>
-            <p>ChEBI: 16899</p>
           </html>
         </notes>
         <annotation>
@@ -20524,6 +19892,7 @@
             <rdf:Description rdf:about="#meta_M_mnl_e">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/16899"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00392"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20553,7 +19922,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cane sugar; Sucrose; Saccharose; 1-alpha-D-Glucopyranosyl-2-beta-D-fructofuranoside</p>
-            <p>ChEBI: 17992</p>
           </html>
         </notes>
         <annotation>
@@ -20561,6 +19929,7 @@
             <rdf:Description rdf:about="#meta_M_sucr_e">
               <bqbiol:is>
                 <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/17992"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00089"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20670,7 +20039,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Maltose; Malt sugar; alpha-D-Glucopyranosyl-(1⇢4)-D-glucopyranose</p>
-            <p>ChEBI: 17306</p>
           </html>
         </notes>
         <annotation>
