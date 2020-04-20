@@ -32413,7 +32413,6 @@
             <rdf:Description rdf:about="#meta_R_DHORD6">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/EC"/>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.14"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01869"/>
                 </rdf:Bag>
@@ -47543,8 +47542,8 @@
       <reaction metaid="meta_R_HOXPRm" sboTerm="SBO:0000176" id="R_HOXPRm" name="(R)-Glycerate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: (R)-Glycerate:NAD+ oxidoreductase</p>
             <p>NOTES: NADP+ (see R01747)</p>
+            <p>NAME: (R)-Glycerate:NAD+ oxidoreductase</p>
           </html>
         </notes>
         <annotation>
@@ -47680,7 +47679,7 @@
             <rdf:Description rdf:about="#meta_R_ASN__Lt">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96066 "/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96066"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn05508"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn11321"/>
                 </rdf:Bag>
@@ -48561,19 +48560,9 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
+            <p>ECNumbers: 2.7.1.B6</p>
           </html>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_TAG1PK">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.1.B6"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
         <listOfReactants>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
@@ -48639,7 +48628,7 @@
             <rdf:Description rdf:about="#meta_R_PYRt">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR103385 "/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR103385"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn05469"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -50567,10 +50556,6 @@
           <groups:member groups:name="R01360" groups:idRef="R_HMGCOALY"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00073__32____45____32__Cutin__44____32__suberine__32__and__32__wax__32__biosynthesis" groups:name="00073 - Cutin, suberine and wax biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00100__32____45____32__Steroid__32__biosynthesis" groups:name="00100 - Steroid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00120__32____45____32__Primary__32__bile__32__acid__32__biosynthesis" groups:name="00120 - Primary bile acid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00121__32____45____32__Secondary__32__bile__32__acid__32__biosynthesis" groups:name="00121 - Secondary bile acid biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00130__32____45____32__Ubiquinone__32__and__32__other__32__terpenoid__45__quinone__32__biosynthesis" groups:name="00130 - Ubiquinone and other terpenoid-quinone biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00734" groups:idRef="R_TYRTA"/>
@@ -50583,10 +50568,6 @@
           <groups:member groups:name="R08166" groups:idRef="R_SHCHCS3"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00140__32____45____32__Steroid__32__hormone__32__biosynthesis" groups:name="00140 - Steroid hormone biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00190__32____45____32__Oxidative__32__phosphorylation" groups:name="00190 - Oxidative phosphorylation" groups:kind="collection"/>
-      <groups:group groups:id="G_00195__32____45____32__Photosynthesis" groups:name="00195 - Photosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00196__32____45____32__Photosynthesis__32____45____32__antenna__32__proteins" groups:name="00196 - Photosynthesis - antenna proteins" groups:kind="collection"/>
       <groups:group groups:id="G_00220__32____45____32__Arginine__32__biosynthesis" groups:name="00220 - Arginine biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00131" groups:idRef="R_UREA"/>
@@ -50672,7 +50653,6 @@
           <groups:member groups:name="Adenylyl-sulfate kinase" groups:idRef="R_ADSK"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00232__32____45____32__Caffeine__32__metabolism" groups:name="00232 - Caffeine metabolism" groups:kind="collection"/>
       <groups:group groups:id="G_00240__32____45____32__Pyrimidine__32__metabolism" groups:name="00240 - Pyrimidine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00156" groups:idRef="R_NDPK2"/>
@@ -50750,7 +50730,6 @@
           <groups:member groups:name="L-alanine transaminase" groups:idRef="R_ALATA_L"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00253__32____45____32__Tetracycline__32__biosynthesis" groups:name="00253 - Tetracycline biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00254__32____45____32__Aflatoxin__32__biosynthesis" groups:name="00254 - Aflatoxin biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00742" groups:idRef="R_ACCOAC"/>
@@ -50872,7 +50851,6 @@
           <groups:member groups:name="R07618" groups:idRef="R_EN6LYOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00281__32____45____32__Geraniol__32__degradation" groups:name="00281 - Geraniol degradation" groups:kind="collection"/>
       <groups:group groups:id="G_00290__32____45____32__Valine__44____32__leucine__32__and__32__isoleucine__32__biosynthesis" groups:name="00290 - Valine, leucine and isoleucine biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00226" groups:idRef="R_ACLS"/>
@@ -50919,7 +50897,6 @@
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00311__32____45____32__Penicillin__32__and__32__cephalosporin__32__biosynthesis" groups:name="00311 - Penicillin and cephalosporin biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00330__32____45____32__Arginine__32__and__32__proline__32__metabolism" groups:name="00330 - Arginine and proline metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00178" groups:idRef="R_ADMDC"/>
@@ -50941,7 +50918,6 @@
           <groups:member groups:name="L-proline:quinone oxidoreductase" groups:idRef="R_LPROQOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00331__32____45____32__Clavulanic__32__acid__32__biosynthesis" groups:name="00331 - Clavulanic acid biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00332__32____45____32__Carbapenem__32__biosynthesis" groups:name="00332 - Carbapenem biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00239" groups:idRef="R_GLU5K"/>
@@ -50949,7 +50925,6 @@
           <groups:member groups:name="R03314" groups:idRef="R_G5SADs"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00333__32____45____32__Prodigiosin__32__biosynthesis" groups:name="00333 - Prodigiosin biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00340__32____45____32__Histidine__32__metabolism" groups:name="00340 - Histidine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R01071" groups:idRef="R_ATPPRT"/>
@@ -50980,7 +50955,6 @@
           <groups:member groups:name="D-phenylalanine:acceptor oxidoreductase (deaminating)" groups:idRef="R_PHEAOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00361__32____45____32__Chlorocyclohexane__32__and__32__chlorobenzene__32__degradation" groups:name="00361 - Chlorocyclohexane and chlorobenzene degradation" groups:kind="collection"/>
       <groups:group groups:id="G_00362__32____45____32__Benzoate__32__degradation" groups:name="00362 - Benzoate degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00228" groups:idRef="R_ACALD"/>
@@ -50996,9 +50970,6 @@
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00363__32____45____32__Bisphenol__32__degradation" groups:name="00363 - Bisphenol degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00364__32____45____32__Fluorobenzoate__32__degradation" groups:name="00364 - Fluorobenzoate degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00365__32____45____32__Furfural__32__degradation" groups:name="00365 - Furfural degradation" groups:kind="collection"/>
       <groups:group groups:id="G_00380__32____45____32__Tryptophan__32__metabolism" groups:name="00380 - Tryptophan metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
@@ -51044,8 +51015,6 @@
           <groups:member groups:name="Tryptophan synthase (indoleglycerol phosphate)" groups:idRef="R_TRPS3"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00403__32____45____32__Indole__32__diterpene__32__alkaloid__32__biosynthesis" groups:name="00403 - Indole diterpene alkaloid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00404__32____45____32__Staurosporine__32__biosynthesis" groups:name="00404 - Staurosporine biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00405__32____45____32__Phenazine__32__biosynthesis" groups:name="00405 - Phenazine biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00986" groups:idRef="R_ANS"/>
@@ -51072,7 +51041,6 @@
           <groups:member groups:name="R00396" groups:idRef="R_ALAD_L"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00440__32____45____32__Phosphonate__32__and__32__phosphinate__32__metabolism" groups:name="00440 - Phosphonate and phosphinate metabolism" groups:kind="collection"/>
       <groups:group groups:id="G_00450__32____45____32__Selenocompound__32__metabolism" groups:name="00450 - Selenocompound metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R03596" groups:idRef="R_SLNTOR"/>
@@ -51100,7 +51068,6 @@
           <groups:member groups:name="R03193" groups:idRef="R_UAMAS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00472__32____45____32__D__45__Arginine__32__and__32__D__45__ornithine__32__metabolism" groups:name="00472 - D-Arginine and D-ornithine metabolism" groups:kind="collection"/>
       <groups:group groups:id="G_00473__32____45____32__D__45__Alanine__32__metabolism" groups:name="00473 - D-Alanine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00401" groups:idRef="R_ALAR"/>
@@ -51136,12 +51103,6 @@
           <groups:member groups:name="R08639" groups:idRef="R_PGMT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00510__32____45____32__N__45__Glycan__32__biosynthesis" groups:name="00510 - N-Glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00511__32____45____32__Other__32__glycan__32__degradation" groups:name="00511 - Other glycan degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00512__32____45____32__Mucin__32__type__32__O__45__glycan__32__biosynthesis" groups:name="00512 - Mucin type O-glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00513__32____45____32__Various__32__types__32__of__32__N__45__glycan__32__biosynthesis" groups:name="00513 - Various types of N-glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00514__32____45____32__Other__32__types__32__of__32__O__45__glycan__32__biosynthesis" groups:name="00514 - Other types of O-glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00515__32____45____32__Mannose__32__type__32__O__45__glycan__32__biosynthesis" groups:name="00515 - Mannose type O-glycan biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00520__32____45____32__Amino__32__sugar__32__and__32__nucleotide__32__sugar__32__metabolism" groups:name="00520 - Amino sugar and nucleotide sugar metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00286" groups:idRef="R_UDPGD"/>
@@ -51180,15 +51141,6 @@
           <groups:member groups:name="R08639" groups:idRef="R_PGMT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00522__32____45____32__Biosynthesis__32__of__32__12__45____44____32__14__45____32__and__32__16__45__membered__32__macrolides" groups:name="00522 - Biosynthesis of 12-, 14- and 16-membered macrolides" groups:kind="collection"/>
-      <groups:group groups:id="G_00523__32____45____32__Polyketide__32__sugar__32__unit__32__biosynthesis" groups:name="00523 - Polyketide sugar unit biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00524__32____45____32__Neomycin__44____32__kanamycin__32__and__32__gentamicin__32__biosynthesis" groups:name="00524 - Neomycin, kanamycin and gentamicin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00525__32____45____32__Acarbose__32__and__32__validamycin__32__biosynthesis" groups:name="00525 - Acarbose and validamycin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00531__32____45____32__Glycosaminoglycan__32__degradation" groups:name="00531 - Glycosaminoglycan degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00532__32____45____32__Glycosaminoglycan__32__biosynthesis__32____45____32__chondroitin__32__sulfate__32____47____32__dermatan__32__sulfate" groups:name="00532 - Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate" groups:kind="collection"/>
-      <groups:group groups:id="G_00533__32____45____32__Glycosaminoglycan__32__biosynthesis__32____45____32__keratan__32__sulfate" groups:name="00533 - Glycosaminoglycan biosynthesis - keratan sulfate" groups:kind="collection"/>
-      <groups:group groups:id="G_00534__32____45____32__Glycosaminoglycan__32__biosynthesis__32____45____32__heparan__32__sulfate__32____47____32__heparin" groups:name="00534 - Glycosaminoglycan biosynthesis - heparan sulfate / heparin" groups:kind="collection"/>
-      <groups:group groups:id="G_00540__32____45____32__Lipopolysaccharide__32__biosynthesis" groups:name="00540 - Lipopolysaccharide biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00550__32____45____32__Peptidoglycan__32__biosynthesis" groups:name="00550 - Peptidoglycan biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00660" groups:idRef="R_UAGCVT"/>
@@ -51224,7 +51176,6 @@
           <groups:member groups:name="R01015" groups:idRef="R_TPI"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00563__32____45____32__Glycosylphosphatidylinositol__32____40__GPI__41____45__anchor__32__biosynthesis" groups:name="00563 - Glycosylphosphatidylinositol (GPI)-anchor biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00564__32____45____32__Glycerophospholipid__32__metabolism" groups:name="00564 - Glycerophospholipid metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00842" groups:idRef="R_G3PD1"/>
@@ -51237,16 +51188,6 @@
           <groups:member groups:name="CTP:phosphatidate cytidyltransferase" groups:idRef="R_CTPPCT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00565__32____45____32__Ether__32__lipid__32__metabolism" groups:name="00565 - Ether lipid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00571__32____45____32__Lipoarabinomannan__32____40__LAM__41____32__biosynthesis" groups:name="00571 - Lipoarabinomannan (LAM) biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00572__32____45____32__Arabinogalactan__32__biosynthesis__32____45____32__Mycobacterium" groups:name="00572 - Arabinogalactan biosynthesis - Mycobacterium" groups:kind="collection"/>
-      <groups:group groups:id="G_00590__32____45____32__Arachidonic__32__acid__32__metabolism" groups:name="00590 - Arachidonic acid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00591__32____45____32__Linoleic__32__acid__32__metabolism" groups:name="00591 - Linoleic acid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00592__32____45____32__alpha__45__Linolenic__32__acid__32__metabolism" groups:name="00592 - alpha-Linolenic acid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00600__32____45____32__Sphingolipid__32__metabolism" groups:name="00600 - Sphingolipid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00601__32____45____32__Glycosphingolipid__32__biosynthesis__32____45____32__lacto__32__and__32__neolacto__32__series" groups:name="00601 - Glycosphingolipid biosynthesis - lacto and neolacto series" groups:kind="collection"/>
-      <groups:group groups:id="G_00603__32____45____32__Glycosphingolipid__32__biosynthesis__32____45____32__globo__32__and__32__isoglobo__32__series" groups:name="00603 - Glycosphingolipid biosynthesis - globo and isoglobo series" groups:kind="collection"/>
-      <groups:group groups:id="G_00604__32____45____32__Glycosphingolipid__32__biosynthesis__32____45____32__ganglio__32__series" groups:name="00604 - Glycosphingolipid biosynthesis - ganglio series" groups:kind="collection"/>
       <groups:group groups:id="G_00620__32____45____32__Pyruvate__32__metabolism" groups:name="00620 - Pyruvate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00014" groups:idRef="R_PDHam1hi"/>
@@ -51302,9 +51243,6 @@
           <groups:member groups:name="R03566" groups:idRef="R_CRESOLOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00624__32____45____32__Polycyclic__32__aromatic__32__hydrocarbon__32__degradation" groups:name="00624 - Polycyclic aromatic hydrocarbon degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00625__32____45____32__Chloroalkane__32__and__32__chloroalkene__32__degradation" groups:name="00625 - Chloroalkane and chloroalkene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00626__32____45____32__Naphthalene__32__degradation" groups:name="00626 - Naphthalene degradation" groups:kind="collection"/>
       <groups:group groups:id="G_00627__32____45____32__Aminobenzoate__32__degradation" groups:name="00627 - Aminobenzoate degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
@@ -51341,7 +51279,6 @@
           <groups:member groups:name="(R)-Glycerate:NAD+ oxidoreductase" groups:idRef="R_HOXPRm"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00633__32____45____32__Nitrotoluene__32__degradation" groups:name="00633 - Nitrotoluene degradation" groups:kind="collection"/>
       <groups:group groups:id="G_00640__32____45____32__Propanoate__32__metabolism" groups:name="00640 - Propanoate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
@@ -51367,8 +51304,6 @@
           <groups:member groups:name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" groups:idRef="R_OBO2OR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00642__32____45____32__Ethylbenzene__32__degradation" groups:name="00642 - Ethylbenzene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00643__32____45____32__Styrene__32__degradation" groups:name="00643 - Styrene degradation" groups:kind="collection"/>
       <groups:group groups:id="G_00650__32____45____32__Butanoate__32__metabolism" groups:name="00650 - Butanoate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00212" groups:idRef="R_PFL"/>
@@ -51588,7 +51523,6 @@
           <groups:member groups:name="Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)" groups:idRef="R_BTN5AMPL"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00785__32____45____32__Lipoic__32__acid__32__metabolism" groups:name="00785 - Lipoic acid metabolism" groups:kind="collection"/>
       <groups:group groups:id="G_00790__32____45____32__Folate__32__biosynthesis" groups:name="00790 - Folate biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00425" groups:idRef="R_GTPCII2"/>
@@ -51617,7 +51551,6 @@
           <groups:member groups:name="R00131" groups:idRef="R_UREA"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00830__32____45____32__Retinol__32__metabolism" groups:name="00830 - Retinol metabolism" groups:kind="collection"/>
       <groups:group groups:id="G_00860__32____45____32__Porphyrin__32__and__32__chlorophyll__32__metabolism" groups:name="00860 - Porphyrin and chlorophyll metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00036" groups:idRef="R_PPBNGS"/>
@@ -51680,14 +51613,6 @@
           <groups:member groups:name="R09247" groups:idRef="R_FRDPTT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00901__32____45____32__Indole__32__alkaloid__32__biosynthesis" groups:name="00901 - Indole alkaloid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00902__32____45____32__Monoterpenoid__32__biosynthesis" groups:name="00902 - Monoterpenoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00903__32____45____32__Limonene__32__and__32__pinene__32__degradation" groups:name="00903 - Limonene and pinene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00904__32____45____32__Diterpenoid__32__biosynthesis" groups:name="00904 - Diterpenoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00905__32____45____32__Brassinosteroid__32__biosynthesis" groups:name="00905 - Brassinosteroid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00906__32____45____32__Carotenoid__32__biosynthesis" groups:name="00906 - Carotenoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00908__32____45____32__Zeatin__32__biosynthesis" groups:name="00908 - Zeatin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00909__32____45____32__Sesquiterpenoid__32__and__32__triterpenoid__32__biosynthesis" groups:name="00909 - Sesquiterpenoid and triterpenoid biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00910__32____45____32__Nitrogen__32__metabolism" groups:name="00910 - Nitrogen metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00114" groups:idRef="R_GLUSy"/>
@@ -51711,13 +51636,6 @@
           <groups:member groups:name="Phosphoadenylyl-sulfate reductase (thioredoxin)" groups:idRef="R_PAPSR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00930__32____45____32__Caprolactam__32__degradation" groups:name="00930 - Caprolactam degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00940__32____45____32__Phenylpropanoid__32__biosynthesis" groups:name="00940 - Phenylpropanoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00941__32____45____32__Flavonoid__32__biosynthesis" groups:name="00941 - Flavonoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00942__32____45____32__Anthocyanin__32__biosynthesis" groups:name="00942 - Anthocyanin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00943__32____45____32__Isoflavonoid__32__biosynthesis" groups:name="00943 - Isoflavonoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00944__32____45____32__Flavone__32__and__32__flavonol__32__biosynthesis" groups:name="00944 - Flavone and flavonol biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00945__32____45____32__Stilbenoid__44____32__diarylheptanoid__32__and__32__gingerol__32__biosynthesis" groups:name="00945 - Stilbenoid, diarylheptanoid and gingerol biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00950__32____45____32__Isoquinoline__32__alkaloid__32__biosynthesis" groups:name="00950 - Isoquinoline alkaloid biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00734" groups:idRef="R_TYRTA"/>
@@ -51728,7 +51646,6 @@
           <groups:member groups:name="R00694" groups:idRef="R_PHETA1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00965__32____45____32__Betalain__32__biosynthesis" groups:name="00965 - Betalain biosynthesis" groups:kind="collection"/>
       <groups:group groups:id="G_00966__32____45____32__Glucosinolate__32__biosynthesis" groups:name="00966 - Glucosinolate biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R01090" groups:idRef="R_LEUTAi"/>
@@ -51741,10 +51658,6 @@
           <groups:member groups:name="R05578" groups:idRef="R_GLUTRS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00980__32____45____32__Metabolism__32__of__32__xenobiotics__32__by__32__cytochrome__32__P450" groups:name="00980 - Metabolism of xenobiotics by cytochrome P450" groups:kind="collection"/>
-      <groups:group groups:id="G_00981__32____45____32__Insect__32__hormone__32__biosynthesis" groups:name="00981 - Insect hormone biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00982__32____45____32__Drug__32__metabolism__32____45____32__cytochrome__32__P450" groups:name="00982 - Drug metabolism - cytochrome P450" groups:kind="collection"/>
-      <groups:group groups:id="G_00983__32____45____32__Drug__32__metabolism__32____45____32__other__32__enzymes" groups:name="00983 - Drug metabolism - other enzymes" groups:kind="collection"/>
       <groups:group groups:id="G_02000__32____45____32__Passive__32__transport" groups:name="02000 - Passive transport" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="Transport of metabolite nh4_e" groups:idRef="R_NH4t"/>
