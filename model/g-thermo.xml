@@ -50187,9 +50187,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO03840" sboTerm="SBO:0000243" fbc:id="G_RTMO03840" fbc:name="RTMO03840" fbc:label="G_RTMO03840"/>
       <fbc:geneProduct metaid="meta_G_RTMO02554" sboTerm="SBO:0000243" fbc:id="G_RTMO02554" fbc:name="RTMO02554" fbc:label="G_RTMO02554"/>
       <fbc:geneProduct metaid="meta_G_RTMO04293" sboTerm="SBO:0000243" fbc:id="G_RTMO04293" fbc:name="RTMO04293" fbc:label="G_RTMO04293"/>
-      <fbc:geneProduct metaid="meta_G_b3903" sboTerm="SBO:0000243" fbc:id="G_b3903" fbc:name="rhaA" fbc:label="G_b3903"/>
-      <fbc:geneProduct metaid="meta_G_b3904" sboTerm="SBO:0000243" fbc:id="G_b3904" fbc:name="rhaB" fbc:label="G_b3904"/>
-      <fbc:geneProduct metaid="meta_G_b3902" sboTerm="SBO:0000243" fbc:id="G_b3902" fbc:name="rhaD" fbc:label="G_b3902"/>
     </fbc:listOfGeneProducts>
     <groups:listOfGroups>
       <groups:group groups:id="G_00000" groups:name="Exchange reactions" groups:kind="collection">
