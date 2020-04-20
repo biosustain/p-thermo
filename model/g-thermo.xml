@@ -8339,11 +8339,6 @@
         </annotation>
       </species>
       <species metaid="meta_M_atp_c" sboTerm="SBO:0000247" id="M_atp_c" name="ATP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>original_bigg_ids: [&apos;atp_c&apos;]</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M_atp_c">
@@ -19291,8 +19286,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate</p>
-            <p>EXACT_MASS: 266.9966</p>
-            <p>PubChem: 163311989</p>
           </html>
         </notes>
         <annotation>
@@ -19311,9 +19304,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: cThz-P; 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate; 4-Methyl-5-[2-(phosphonooxy)ethyl]-1,3-thiazole-2-carboxylate;</p>
-            <p>EXACT_MASS: 266.9966</p>
-            <p>PubChem: 163311990</p>
-            <p>PDB-CCD: 3NM</p>
           </html>
         </notes>
         <annotation>
@@ -19332,7 +19322,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: C15814; Thiamine biosynthesis intermediate 5</p>
-            <p>PubChem: 47205139</p>
           </html>
         </notes>
         <annotation>
@@ -19352,7 +19341,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: C15810; Thiamine biosynthesis intermediate 1</p>
-            <p>PubChem: 47205135</p>
           </html>
         </notes>
         <annotation>
@@ -19372,7 +19360,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: [Enzyme]-cysteine; Thiamine biosynthesis intermediate 2</p>
-            <p>PubChem: 47205136</p>
           </html>
         </notes>
         <annotation>
@@ -19391,7 +19378,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: [Enzyme]-S-sulfanylcysteine; Thiamine biosynthesis intermediate 3</p>
-            <p>PubChem: 47205137</p>
           </html>
         </notes>
         <annotation>
@@ -19410,7 +19396,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: C15813; Thiamine biosynthesis intermediate 4</p>
-            <p>PubChem: 47205138</p>
           </html>
         </notes>
         <annotation>
@@ -19430,14 +19415,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Biotin; Vitamin H; Coenzyme R; D-Biotin;</p>
-            <p>MODULE: M00123 Biotin biosynthesis, pimeloyl-ACP/CoA → biotin; M00573 Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP → pimeloyl-ACP → biotin; M00577 Biotin biosynthesis, BioW pathway, pimelate → pimeloyl-CoA → biotin</p>
-            <p>EXACT_MASS: 244.0882</p>
-            <p>PubChem: 3420</p>
-            <p>KNApSAcK: C00000756</p>
-            <p>3DMET: B01165</p>
-            <p>NIKKAJI: J94.599D</p>
-            <p>CAS: 58-85-5</p>
-            <p>PDB-CCD: BTN</p>
           </html>
         </notes>
         <annotation>
@@ -19457,11 +19434,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Biotinyl-5’-AMP</p>
-            <p>EXACT_MASS: 573.1407</p>
-            <p>PDB-CCD: BT5</p>
-            <p>3DMET: B05138</p>
-            <p>PubChem: 8209</p>
-            <p>NIKKAJI: J734.022B</p>
           </html>
         </notes>
         <annotation>
@@ -19481,12 +19453,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (S)-Lactaldehyde; L-2-Hydroxypropionaldehyde; L-Lactaldehyde;</p>
-            <p>EXACT_MASS: 74.0368</p>
-            <p>CAS: 3913-64-2</p>
-            <p>PubChem: 3714</p>
-            <p>3DMET: B01242</p>
-            <p>KNApSAcK: C00019649</p>
-            <p>NIKKAJI: J2.715D</p>
           </html>
         </notes>
         <annotation>
@@ -19506,11 +19472,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N1-(gamma-L-Glutamyl-L-cysteinyl-glycyl)-spermidine; Glutathionylspermidine;</p>
-            <p>EXACT_MASS: 434.2311</p>
-            <p>PubChem: 8032</p>
-            <p>PDB-CCD: TS5</p>
-            <p>CAS: 33932-35-3</p>
-            <p>3DMET: B01889</p>
           </html>
         </notes>
         <annotation>
@@ -19530,10 +19491,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acyl coenzyme A; Acyl-CoA;</p>
-            <p>MODULE: M00085 Fatty acid biosynthesis, elongation, mitochondria</p>
-            <p>CAS: 9029-97-4</p>
-            <p>PubChem: 3342</p>
-            <p>LIPIDMAPS: LMFA07050000</p>
           </html>
         </notes>
         <annotation>
@@ -19553,9 +19510,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Phosphatidic acid; 3-sn-Phosphatidate; Phosphatidate; 1,2-Diacyl-sn-glycerol 3-phosphate;</p>
-            <p>MODULE: M00093 Phosphatidylethanolamine (PE) biosynthesis, PA → PS → PE; M00089 Triacylglycerol biosynthesis</p>
-            <p>PubChem: 3706</p>
-            <p>LIPIDMAPS: LMGP10010000</p>
           </html>
         </notes>
         <annotation>
@@ -19575,9 +19529,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate; CDP-diacylglycerol;</p>
-            <p>MODULE: M00093 Phosphatidylethanolamine (PE) biosynthesis, PA → PS → PE</p>
-            <p>LIPIDMAPS: LMGP13010000</p>
-            <p>PubChem: 3567</p>
           </html>
         </notes>
         <annotation>
@@ -19597,12 +19548,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R,R)-2,3-Butylene glycol; (R,R)-Butane-2,3-diol;; (R,R)-2,3-Butanediol;</p>
-            <p>EXACT_MASS: 90.0681</p>
-            <p>PubChem: 5947</p>
-            <p>3DMET: B01625</p>
-            <p>PDB-CCD: BU3</p>
-            <p>CAS: 24347-58-8</p>
-            <p>NIKKAJI: J9.308D</p>
           </html>
         </notes>
         <annotation>
@@ -19622,14 +19567,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-3-Hydroxy-2-butanone;; (R)-Dimethylketol;; (R)-3-Hydroxybutan-2-one; (R)-Acetoin;; (R)-2-Acetoin;</p>
-            <p>EXACT_MASS: 88.0524</p>
-            <p>KEGG_COMMENT: (S)-Acetoin [CPD:C01769]; Acetoin [CPD:C00466]</p>
-            <p>NIKKAJI: J2.623I</p>
-            <p>LIPIDMAPS: LMFA12000064</p>
-            <p>3DMET: B00180</p>
-            <p>PubChem: 4068</p>
-            <p>CAS: 53584-56-8</p>
-            <p>PDB-CCD: HBR</p>
           </html>
         </notes>
         <annotation>
@@ -19649,12 +19586,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Diacetyl;; Dimethylglyoxal;; 2,3-Butanedione; Biacetyl;</p>
-            <p>EXACT_MASS: 86.0368</p>
-            <p>LIPIDMAPS: LMFA12000012</p>
-            <p>NIKKAJI: J2.586K</p>
-            <p>3DMET: B00164</p>
-            <p>PubChem: 4004</p>
-            <p>CAS: 431-03-8</p>
           </html>
         </notes>
         <annotation>
@@ -19674,12 +19605,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Hydroxy-2-butanone;; Dimethylketol; 3-Hydroxybutan-2-one;; Acetoin;; 2-Acetoin;</p>
-            <p>EXACT_MASS: 88.0524</p>
-            <p>KEGG_COMMENT: (R)-Acetoin [CPD:C00810]; (S)-Acetoin [CPD:C01769]</p>
-            <p>PubChem: 3750</p>
-            <p>CAS: 513-86-0</p>
-            <p>LIPIDMAPS: LMFA12000020</p>
-            <p>NIKKAJI: J2.623I</p>
           </html>
         </notes>
         <annotation>
@@ -19699,8 +19624,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogen-acceptor;; Oxidized donor; Acceptor;; A;</p>
-            <p>KEGG_COMMENT: Generic compound in reaction hierarchy</p>
-            <p>PubChem: 3330</p>
           </html>
         </notes>
         <annotation>
@@ -19720,11 +19643,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Hydroxy-3-oxopropanoate;; Tartronate semialdehyde</p>
-            <p>EXACT_MASS: 104.011</p>
-            <p>PubChem: 4376</p>
-            <p>NIKKAJI: J1.397.673B</p>
-            <p>CAS: 2480-77-5</p>
-            <p>3DMET: B04777</p>
           </html>
         </notes>
         <annotation>
@@ -19744,7 +19662,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Ferricytochrome b-561</p>
-            <p>PubChem: 7687</p>
           </html>
         </notes>
         <annotation>
@@ -19764,15 +19681,6 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Dimethyl ketone;; Acetone;; 2-Propanone</p>
-            <p>MODULE: M00088 Ketone body biosynthesis, acetyl-CoA =&gt; acetoacetate/3-hydroxybutyrate/acetone</p>
-            <p>EXACT_MASS: 58.0419</p>
-            <p>PubChem: 3507</p>
-            <p>LIPIDMAPS: LMFA12000057</p>
-            <p>NIKKAJI: J2.365E</p>
-            <p>PDB-CCD: ACN</p>
-            <p>CAS: 67-64-1</p>
-            <p>KNApSAcK: C00048304 C00048954</p>
-            <p>3DMET: B00058</p>
           </html>
         </notes>
         <annotation>
@@ -20344,11 +20252,6 @@
         </annotation>
       </species>
       <species metaid="meta_M_mdgp_e" id="M_mdgp_e" name="Methyl D-glucopyranoside" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H14O6">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>CheBI: 17540</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M_mdgp_e">
@@ -20362,11 +20265,6 @@
         </annotation>
       </species>
       <species metaid="meta_M_mdgp_c" id="M_mdgp_c" name="Methyl D-glucopyranoside" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H14O6">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>CheBI: 17540</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M_mdgp_c">
