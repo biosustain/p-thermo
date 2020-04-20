@@ -33669,6 +33669,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_ser__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cdpdag_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_ps_cho_c" stoichiometry="1" constant="true"/>
