@@ -36915,11 +36915,6 @@
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_G5SADs" sboTerm="SBO:0000176" id="R_G5SADs" name="R03314" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG ID: R03314</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_G5SADs">
@@ -37818,8 +37813,6 @@
       <reaction metaid="meta_R_GCCc" sboTerm="SBO:0000176" id="R_GCCc" name="R03815" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG ID: R03815</p>
-            <p>ENZYME: 1.8.1.4</p>
             <p>NAME: dihydrolipoylprotein:NAD+ oxidoreductase</p>
           </html>
         </notes>
@@ -39741,11 +39734,6 @@
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_IG3PS" sboTerm="SBO:0000176" id="R_IG3PS" name="R04558" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ECNumbers: 4.1.3.-; 4.3.2.M2; 2.4.2.-</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_IG3PS">
@@ -46660,11 +46648,7 @@
       <reaction metaid="meta_R_CMTEPISO" sboTerm="SBO:0000176" id="R_CMTEPISO" name="2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C20246 ⇌ C20247</p>
             <p>NAME: 2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate isomerase</p>
-            <p>ORTHOLOGY: K10810 thiazole tautomerase (transcriptional regulator TenI) [EC:5.3.99.10]</p>
-            <p>PATHWAY: rn00730 Thiamine metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP15638 C20246_C20247 main [RC:RC02766]</p>
           </html>
         </notes>
         <annotation>
@@ -46689,11 +46673,7 @@
       <reaction metaid="meta_R_DXYL5PTST" sboTerm="SBO:0000176" id="R_DXYL5PTST" name="1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C11437 + C15809 + C15814 ⇌ C20246 + C15810 + 2 C00001</p>
             <p>NAME: 1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase</p>
-            <p>ORTHOLOGY: K03149 thiazole synthase [EC:2.8.1.10]</p>
-            <p>PATHWAY: rn00730 Thiamine metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP08892 C00001_C11437 leave; RP16122 C11437_C20246 main [RC:RC03096]; RP16124 C00001_C11437 leave; RP16123 C15809_C20246 main [RC:RC03097]</p>
           </html>
         </notes>
         <annotation>
@@ -46723,11 +46703,7 @@
       <reaction metaid="meta_R_LCTST" sboTerm="SBO:0000176" id="R_LCTST" name="L-cysteine:[ThiI] sulfurtransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C15811 + C00097 ⇌ C15812 + C00041</p>
             <p>NAME: L-cysteine:[ThiI] sulfurtransferase</p>
-            <p>ORTHOLOGY: K04487 cysteine desulfurase [EC:2.8.1.7]</p>
-            <p>PATHWAY: rn00730 Thiamine metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP13464 C00097_C15812 trans; RP10822 C00041_C00097 main [RC:RC01789]; RP13463 C15811_C15812 main [RC:RC02313]</p>
           </html>
         </notes>
         <annotation>
@@ -46754,11 +46730,7 @@
       <reaction metaid="meta_R_ATPTAT" sboTerm="SBO:0000176" id="R_ATPTAT" name="ATP:[ThiS] adenylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C15810 + C00002 ⇌ C15813 + C00013</p>
             <p>NAME: ATP:[ThiS] adenylyltransferase</p>
-            <p>ORTHOLOGY: K03148 sulfur carrier protein ThiS adenylyltransferase [EC:2.7.7.73]</p>
-            <p>PATHWAY: rn00730 Thiamine metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00009 C00002_C00013 leave</p>
           </html>
         </notes>
         <annotation>
@@ -46786,11 +46758,7 @@
       <reaction metaid="meta_R_LPROQOR" sboTerm="SBO:0000176" id="R_LPROQOR" name="L-proline:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00148 + C15602 ⇌ C03912 + C15603</p>
             <p>NAME: L-proline:quinone oxidoreductase</p>
-            <p>ORTHOLOGY: K13821 RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]</p>
-            <p>PATHWAY: rn01130 Biosynthesis of antibiotics; rn01110 Biosynthesis of secondary metabolites; rn01100 Metabolic pathways; rn00330 Arginine and proline metabolism</p>
-            <p>RPAIR: RP00228 C00148_C03912 main [RC:RC00083]</p>
           </html>
         </notes>
         <annotation>
@@ -46817,12 +46785,7 @@
       <reaction metaid="meta_R_BTNLIG" sboTerm="SBO:0000176" id="R_BTNLIG" name="biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG_COMMENT: first step of two-step reaction (R01075, R04562, R04563, R04582 or R04604); subsequently R05145 or R03762</p>
-            <p>EQUATION: C00002 + C00120 ⇌ C00013 + C05921</p>
             <p>NAME: biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase</p>
-            <p>ORTHOLOGY: K01942 biotin--protein ligase [EC:6.3.4.9 6.3.4.10 6.3.4.11 6.3.4.15]; K03524 BirA family transcriptional regulator, biotin operon repressor / biotin-[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]; K01947 biotin-[acetyl-CoA-carboxylase] ligase / type III pantothenate kinase [EC:6.3.4.15 2.7.1.33]</p>
-            <p>PATHWAY: rn00780 Biotin metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00009 C00002_C00013 leave; RP01282 C00120_C05921 main [RC:RC00043]; RP01281 C00002_C05921 trans</p>
           </html>
         </notes>
         <annotation>
@@ -46850,12 +46813,7 @@
       <reaction metaid="meta_R_BTN5AMPL" sboTerm="SBO:0000176" id="R_BTN5AMPL" name="Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG_COMMENT: general reaction (see R04562, R04563, R04582 and R04604); following after R01074</p>
-            <p>EQUATION: C05921 + C06249 ⇌ C00020 + C06250</p>
             <p>NAME: Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)</p>
-            <p>ORTHOLOGY: K01942 biotin--protein ligase [EC:6.3.4.9 6.3.4.10 6.3.4.11 6.3.4.15]; K03524 BirA family transcriptional regulator, biotin operon repressor / biotin-[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]; K01947 biotin-[acetyl-CoA-carboxylase] ligase / type III pantothenate kinase [EC:6.3.4.15 2.7.1.33]</p>
-            <p>PATHWAY: rn00780 Biotin metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00709 C00020_C05921 main [RC:RC00070]; RP08478 C05921_C06250 main [RC:RC02896]; RP12428 C06249_C06250 main [RC:RC00096]</p>
           </html>
         </notes>
         <annotation>
@@ -46883,12 +46841,7 @@
       <reaction metaid="meta_R_MDH2" sboTerm="SBO:0000176" id="R_MDH2" name="(S)-malate:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00149 + C15602 ⇌ C00036 + C15603</p>
-            <p>MODULE: M00011 Citrate cycle, second carbon oxidation, 2-oxoglutarate → oxaloacetate; M00009 Citrate cycle (TCA cycle, Krebs cycle)</p>
             <p>NAME: (S)-malate:quinone oxidoreductase</p>
-            <p>ORTHOLOGY: K00116 malate dehydrogenase (quinone) [EC:1.1.5.4]</p>
-            <p>PATHWAY: rn01130 Biosynthesis of antibiotics; rn01200 Carbon metabolism; rn01120 Microbial metabolism in diverse environments; rn00020 Citrate cycle (TCA cycle); rn01110 Biosynthesis of secondary metabolites; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00079 C00036_C00149 main [RC:RC00031]</p>
           </html>
         </notes>
         <annotation>
@@ -46915,10 +46868,7 @@
       <reaction metaid="meta_R_OBO2OR" sboTerm="SBO:0000176" id="R_OBO2OR" name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00109 + C00009 + C00007 ⇌ C02876 + C00011 + C00001</p>
             <p>NAME: 2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)</p>
-            <p>PATHWAY: rn00640 Propanoate metabolism; rn00660 C5-Branched dibasic acid metabolism</p>
-            <p>RPAIR: RP00013 C00001_C00007 cofac; RP01223 C00109_C02876 main [RC:RC02818]; RP05907 C00011_C00109 leave; RP05965 C00009_C02876 leave</p>
           </html>
         </notes>
         <annotation>
@@ -46980,11 +46930,7 @@
       <reaction metaid="meta_R_PHEAOR" sboTerm="SBO:0000176" id="R_PHEAOR" name="D-phenylalanine:acceptor oxidoreductase (deaminating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C02265 + C00001 + C00028 ⇌ C00166 + C00014 + C00030</p>
             <p>NAME: D-phenylalanine:acceptor oxidoreductase (deaminating)</p>
-            <p>ORTHOLOGY: K00285 D-amino-acid dehydrogenase [EC:1.4.99.1]</p>
-            <p>PATHWAY: rn00360 Phenylalanine metabolism</p>
-            <p>RPAIR: RP05820 C00001_C00166 leave; RP06545 C00014_C02265 leave; RP00289 C00166_C02265 main [RC:RC00006]</p>
           </html>
         </notes>
         <annotation>
@@ -47012,11 +46958,7 @@
       <reaction metaid="meta_R_PYRLLOR" sboTerm="SBO:0000176" id="R_PYRLLOR" name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG_COMMENT: a part of multi-step reaction (see R00209, R01699+R02569+R07618); subsequently R02569; TPP-dependent enzyme (see R00014+R03270); pyruvate dehydrogenase complex: pyruvate dehydrogenase</p>
-            <p>EQUATION: C00022 + C15972 ⇌ C16255 + C00011</p>
             <p>NAME: pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)</p>
-            <p>ORTHOLOGY: K00161 pyruvate dehydrogenase E1 component alpha subunit [EC:1.2.4.1]; K00163 pyruvate dehydrogenase E1 component [EC:1.2.4.1]; K00162 pyruvate dehydrogenase E1 component beta subunit [EC:1.2.4.1]</p>
-            <p>RPAIR: RP05698 C00011_C00022 leave; RP12061 C15972_C16255 main [RC:RC00627]; RP10730 C00022_C16255 trans</p>
           </html>
         </notes>
         <annotation>
@@ -47044,10 +46986,7 @@
       <reaction metaid="meta_R_MOX" sboTerm="SBO:0000176" id="R_MOX" name="R_MOX" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00149 + C00007 ⇌ C00036 + C00027</p>
             <p>NAME: (S)-Malate:oxygen oxidoreductase</p>
-            <p>ORTHOLOGY: K00116 malate dehydrogenase (quinone) [EC:1.1.5.4]</p>
-            <p>RPAIR: RP00079 C00036_C00149 main [RC:RC00031]; RP00006 C00007_C00027 cofac [RC:RC02755]</p>
           </html>
         </notes>
         <annotation>
@@ -47074,12 +47013,7 @@
       <reaction metaid="meta_R_TRPS3" sboTerm="SBO:0000176" id="R_TRPS3" name="R_TRPS3" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG_COMMENT: a part of multi-step reaction (ec 4.2.1.20, see R02722, R02340+R00674)</p>
-            <p>EQUATION: C03506 ⇌ C00463 + C00118</p>
             <p>NAME: (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase</p>
-            <p>ORTHOLOGY: K06001 tryptophan synthase beta chain [EC:4.2.1.20]; K01695 tryptophan synthase alpha chain [EC:4.2.1.20]; K13222 indole-3-glycerol-phosphate lyase [EC:4.1.2.8]; K01696 tryptophan synthase beta chain [EC:4.2.1.20]</p>
-            <p>PATHWAY: rn01110 Biosynthesis of secondary metabolites; rn00402 Benzoxazinoid biosynthesis; rn00400 Phenylalanine, tyrosine and tryptophan biosynthesis; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP02139 C00118_C03506 main [RC:RC00700]; RP02140 C00463_C03506 main [RC:RC00701]</p>
           </html>
         </notes>
         <annotation>
@@ -47103,11 +47037,6 @@
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_PGL" sboTerm="SBO:0000176" id="R_PGL" name="Spontaneous 6-Phospho-D-glucono-1,5-lactone lactonohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG: R02035</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_PGL">
@@ -47156,11 +47085,7 @@
       <reaction metaid="meta_R_MAHMPDC" sboTerm="SBO:0000176" id="R_MAHMPDC" name="2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C04752 + C20247 ⇌ C01081 + C00013 + C00011</p>
             <p>NAME: 2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase</p>
-            <p>ORTHOLOGY: K14154 thiamine-phosphate diphosphorylase / hydroxyethylthiazole kinase [EC:2.5.1.3 2.7.1.50]; K14153 hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase [EC:2.7.1.49 2.7.4.7 2.5.1.3]; K00788 thiamine-phosphate pyrophosphorylase [EC:2.5.1.3]</p>
-            <p>PATHWAY: rn00730 Thiamine metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP02857 C01081_C04752 trans; RP16922 C01081_C20247 main [RC:RC03255]; RP07413 C00013_C04752 leave; RP16923 C00011_C20247 leave</p>
           </html>
         </notes>
         <annotation>
@@ -47189,11 +47114,7 @@
       <reaction metaid="meta_R_GSPMDS" sboTerm="SBO:0000176" id="R_GSPMDS" name="R01917" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00002 + C00051 + C00315 ⇌ C00008 + C00009 + C05730</p>
             <p>NAME: gamma-L-glutamyl-L-cysteinyl-glycine:spermidine ligase (ADP-forming)</p>
-            <p>ORTHOLOGY: K01460 glutathionylspermidine amidase/synthetase [EC:3.5.1.78 6.3.1.8]; K01917 glutathionylspermidine synthase [EC:6.3.1.8]; K01833 trypanothione synthetase/amidase [EC:6.3.1.9 3.5.1.-]</p>
-            <p>PATHWAY: rn00480 Glutathione metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00445 C00051_C05730 main [RC:RC00090]; RP00010 C00002_C00009 ligase; RP00003 C00002_C00008 ligase [RC:RC00002]; RP00450 C00315_C05730 main [RC:RC00096]</p>
           </html>
         </notes>
         <annotation>
@@ -47223,12 +47144,7 @@
       <reaction metaid="meta_R_OOR3r" sboTerm="SBO:0000176" id="R_OOR3r" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: 2 C00138 + C00091 + C00011 + 2 C00080 ⇌ 2 C00139 + C00026 + C00010</p>
-            <p>MODULE: M00011 Citrate cycle, second carbon oxidation, 2-oxoglutarate → oxaloacetate; M00009 Citrate cycle (TCA cycle, Krebs cycle); M00173 Reductive citrate cycle (Arnon-Buchanan cycle); M00620 Incomplete reductive citrate cycle, acetyl-CoA → oxoglutarate</p>
             <p>NAME: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)</p>
-            <p>ORTHOLOGY: K00176 2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3]; K00177 2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3]; K00174 2-oxoglutarate ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3]; K00175 2-oxoglutarate ferredoxin oxidoreductase subunit beta [EC:1.2.7.3]</p>
-            <p>PATHWAY: rn00020 Citrate cycle (TCA cycle); rn01120 Microbial metabolism in diverse environments; rn00720 Carbon fixation pathways in prokaryotes; rn01200 Carbon metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00304 C00026_C00091 main [RC:RC02833]; RP00035 C00010_C00091 main [RC:RC00004]; RP05677 C00011_C00026 leave</p>
           </html>
         </notes>
         <annotation>
@@ -47258,12 +47174,7 @@
       <reaction metaid="meta_R_SUCOAACTr" sboTerm="SBO:0000176" id="R_SUCOAACTr" name="R_SUCOAACTr" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00091 + C00033 ⇌ C00024 + C00042</p>
-            <p>MODULE: M00011 Citrate cycle, second carbon oxidation, 2-oxoglutarate → oxaloacetate; M00009 Citrate cycle (TCA cycle, Krebs cycle)</p>
             <p>NAME: succinyl-CoA:acetate CoA-transferase</p>
-            <p>ORTHOLOGY: K18118 succinyl-CoA:acetate CoA-transferase [EC:2.8.3.18]</p>
-            <p>PATHWAY: rn01130 Biosynthesis of antibiotics; rn01200 Carbon metabolism; rn00650 Butanoate metabolism; rn00620 Pyruvate metabolism; rn01120 Microbial metabolism in diverse environments; rn00020 Citrate cycle (TCA cycle); rn01110 Biosynthesis of secondary metabolites; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00026 C00024_C00033 main [RC:RC00012]; RP16294 C00024_C00091 trans; RP00032 C00042_C00091 main [RC:RC00014]</p>
           </html>
         </notes>
         <annotation>
@@ -47290,12 +47201,7 @@
       <reaction metaid="meta_R_ACCOAACT" sboTerm="SBO:0000176" id="R_ACCOAACT" name="acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00093 + C00040 ⇌ C00681 + C00010</p>
-            <p>MODULE: M00089 Triacylglycerol biosynthesis</p>
             <p>NAME: acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase</p>
-            <p>ORTHOLOGY: K00629 glycerol-3-phosphate O-acyltransferase 1/2 [EC:2.3.1.15]; K00630 glycerol-3-phosphate O-acyltransferase [EC:2.3.1.15]; K13507 glycerol-3-phosphate O-acyltransferase / dihydroxyacetone phosphate acyltransferase [EC:2.3.1.15 2.3.1.42]; K00631 glycerol-3-phosphate O-acyltransferase [EC:2.3.1.15]; K13508 glycerol-3-phosphate acyltransferase [EC:2.3.1.15]; K13506 glycerol-3-phosphate O-acyltransferase 3/4 [EC:2.3.1.15]; K03621 glycerol-3-phosphate acyltransferase PlsX [EC:2.3.1.15]; K08591 glycerol-3-phosphate acyltransferase PlsY [EC:2.3.1.15]</p>
-            <p>PATHWAY: rn00564 Glycerophospholipid metabolism; rn01110 Biosynthesis of secondary metabolites; rn00561 Glycerolipid metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP06337 C00040_C00681 trans; RP00019 C00010_C00040 main [RC:RC00004]; RP00605 C00093_C00681 main [RC:RC00041]</p>
           </html>
         </notes>
         <annotation>
@@ -47322,12 +47228,7 @@
       <reaction metaid="meta_R_ACCOATT" sboTerm="SBO:0000176" id="R_ACCOATT" name="acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00416 + C00010 ⇌ C00681 + C00040</p>
-            <p>MODULE: M00089 Triacylglycerol biosynthesis</p>
             <p>NAME: acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase</p>
-            <p>ORTHOLOGY: K00655 1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51]; K13523 lysophosphatidic acid acyltransferase / lysophosphatidylinositol acyltransferase [EC:2.3.1.51 2.3.1.-]; K13509 lysophosphatidate acyltransferase [EC:2.3.1.51]; K13513 lysocardiolipin and lysophospholipid acyltransferase [EC:2.3.1.- 2.3.1.51]; K13519 lysophospholipid acyltransferase [EC:2.3.1.51 2.3.1.23 2.3.1.-]; K19007 lysophosphatidiate acyltransferase [EC:2.3.1.51]; K14674 TAG lipase / steryl ester hydrolase / phospholipase A2 / LPA acyltransferase [EC:3.1.1.3 3.1.1.13 3.1.1.4 2.3.1.51]; K13517 lysophospholipid acyltransferase 1/2 [EC:2.3.1.51 2.3.1.-]</p>
-            <p>PATHWAY: rn00564 Glycerophospholipid metabolism; rn01110 Biosynthesis of secondary metabolites; rn00561 Glycerolipid metabolism; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP00443 C00416_C00681 main [RC:RC00037]; RP00019 C00010_C00040 main [RC:RC00004]; RP05920 C00040_C00416 trans</p>
           </html>
         </notes>
         <annotation>
@@ -47354,12 +47255,7 @@
       <reaction metaid="meta_R_CTPPCT" sboTerm="SBO:0000176" id="R_CTPPCT" name="CTP:phosphatidate cytidyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EQUATION: C00063 + C00416 ⇌ C00013 + C00269</p>
-            <p>MODULE: M00093 Phosphatidylethanolamine (PE) biosynthesis, PA → PS → PE</p>
             <p>NAME: CTP:phosphatidate cytidyltransferase</p>
-            <p>ORTHOLOGY: K00981 phosphatidate cytidylyltransferase [EC:2.7.7.41]</p>
-            <p>PATHWAY: rn00564 Glycerophospholipid metabolism; rn01110 Biosynthesis of secondary metabolites; rn01100 Metabolic pathways</p>
-            <p>RPAIR: RP06712 C00063_C00269 trans; RP00411 C00269_C00416 main [RC:RC00002]; RP01194 C00013_C00063 leave</p>
           </html>
         </notes>
         <annotation>
@@ -47387,13 +47283,7 @@
       <reaction metaid="meta_R_GLYCNOR" sboTerm="SBO:0000176" id="R_GLYCNOR" name="Glycolate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ENTRY: R00717 Reaction</p>
-            <p>EQUATION: C00160 + C00003 ⇌ C00048 + C00004 + C00080</p>
-            <p>EQUATION_USED_HEREIN: C00160 + C00003 ⇌ C00048 + C00004 + C00080</p>
             <p>NAME: Glycolate:NAD+ oxidoreductase</p>
-            <p>ORTHOLOGY: K00015 glyoxylate reductase [EC:1.1.1.26]; K00018 glycerate dehydrogenase [EC:1.1.1.29]</p>
-            <p>PATHWAY: rn01100 Metabolic pathways; rn00630 Glyoxylate and dicarboxylate metabolism; rn01120 Microbial metabolism in diverse environments</p>
-            <p>RPAIR: RP00002 C00003_C00004 cofac [RC:RC00001]; RP00112 C00048_C00160 main [RC:RC00042]</p>
           </html>
         </notes>
         <annotation>
@@ -47421,13 +47311,7 @@
       <reaction metaid="meta_R_B23DONOR" sboTerm="SBO:0000176" id="R_B23DONOR" name="(R,R)-Butane-2,3-diol:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ENTRY: R02946 Reaction</p>
-            <p>EQUATION: C03044 + C00003 ⇌ C00810 + C00004 + C00080</p>
-            <p>EQUATION_USED_HEREIN: C03044 + C00003 ⇌ C00810 + C00004 + C00080</p>
             <p>NAME: (R,R)-Butane-2,3-diol:NAD+ oxidoreductase</p>
-            <p>ORTHOLOGY: K00004 (R,R)-butanediol dehydrogenase / meso-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.4 1.1.1.- 1.1.1.303]; K03366 meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.- 1.1.1.76 1.1.1.304]</p>
-            <p>PATHWAY: rn00650 Butanoate metabolism</p>
-            <p>RPAIR: RP02625 C00810_C03044 main [RC:RC00525]; RP00002 C00003_C00004 cofac [RC:RC00001]</p>
           </html>
         </notes>
         <annotation>
@@ -47455,13 +47339,7 @@
       <reaction metaid="meta_R_ACTD" sboTerm="SBO:0000176" id="R_ACTD" name="R_ACTD" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ENTRY: R02855 Reaction</p>
-            <p>EQUATION: C00810 + C00003 ⇌ C00741 + C00004 + C00080</p>
-            <p>EQUATION_USED_HEREIN: C00810 + C00003 ⇌ C00741 + C00004 + C00080</p>
             <p>NAME: (R)-Acetoin:NAD+ oxidoreductase</p>
-            <p>ORTHOLOGY: K00004 (R,R)-butanediol dehydrogenase / meso-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.4 1.1.1.- 1.1.1.303]; K03366 meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.- 1.1.1.76 1.1.1.304]</p>
-            <p>PATHWAY: rn00650 Butanoate metabolism</p>
-            <p>RPAIR: RP00002 C00003_C00004 cofac [RC:RC00001]; RP00574 C00741_C00810 main [RC:RC00205]</p>
           </html>
         </notes>
         <annotation>
@@ -47489,11 +47367,7 @@
       <reaction metaid="meta_R_ACTNAT" sboTerm="SBO:0000176" id="R_ACTNAT" name="acetyl-CoA:acetoin O-acetyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ENTRY: R09524 Reaction</p>
-            <p>EQUATION: C00466 + C00010 + C00003 ⇌ C00084 + C00024 + C00004 + C00080</p>
-            <p>EQUATION_USED_HEREIN: C00466 + C00010 + C00003 ⇌ C00084 + C00024 + C00004 + C00080</p>
             <p>NAME: acetyl-CoA:acetoin O-acetyltransferase</p>
-            <p>RPAIR: RP02145 C00084_C00466 main [RC:RC02641]; RP00002 C00003_C00004 cofac [RC:RC00001]; RP00007 C00010_C00024 main [RC:RC00004]; RP14887 C00024_C00466 trans</p>
           </html>
         </notes>
         <annotation>
@@ -47523,12 +47397,7 @@
       <reaction metaid="meta_R_ACEDIA" sboTerm="SBO:0000176" id="R_ACEDIA" name="Acetolactate to Diacetyl" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>COMMENT: non-enzymatic; flavin, nicotinamide and quinone coenzymes act as acceptor</p>
-            <p>ENTRY: R10506 Reaction</p>
-            <p>EQUATION: C06010 + C00028 ⇌ C00741 + C00011 + C00030</p>
-            <p>EQUATION_USED_HEREIN: C06010 + C00028 ⇌ C00741 + C00011 + C00030</p>
-            <p>PATHWAY: rn00650 Butanoate metabolism</p>
-            <p>RPAIR: RP16511 C00741_C06010 main [RC:RC03178]; RP07259 C00011_C06010 leave</p>
+            <p>NOTES: non-enzymatic; flavin, nicotinamide and quinone coenzymes act as acceptor</p>
           </html>
         </notes>
         <annotation>
@@ -47555,13 +47424,7 @@
       <reaction metaid="meta_R_HPI" sboTerm="SBO:0000176" id="R_HPI" name="hydroxypyruvate aldose-ketose-isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ENTRY: R01394 Reaction</p>
-            <p>EQUATION: C00168 ⇌ C01146</p>
-            <p>EQUATION_USED_HEREIN: C00168 ⇌ C01146</p>
             <p>NAME: hydroxypyruvate aldose-ketose-isomerase</p>
-            <p>ORTHOLOGY: K01816 hydroxypyruvate isomerase [EC:5.3.1.22]</p>
-            <p>PATHWAY: rn01100 Metabolic pathways; rn00630 Glyoxylate and dicarboxylate metabolism</p>
-            <p>RPAIR: RP01476 C00168_C01146 main [RC:RC00511]</p>
           </html>
         </notes>
         <annotation>
@@ -47586,14 +47449,8 @@
       <reaction metaid="meta_R_HOXPRm" sboTerm="SBO:0000176" id="R_HOXPRm" name="R_HOXPRm" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>COMMENT: NADP+ (see R01747)</p>
-            <p>ENTRY: R01745 Reaction</p>
-            <p>EQUATION: C00258 + C00003 ⇌ C01146 + C00004 + C00080</p>
-            <p>EQUATION_USED_HEREIN: C00258 + C00003 ⇌ C01146 + C00004 + C00080</p>
             <p>NAME: (R)-Glycerate:NAD+ oxidoreductase</p>
-            <p>ORTHOLOGY: K00042 2-hydroxy-3-oxopropionate reductase [EC:1.1.1.60]</p>
-            <p>PATHWAY: rn01100 Metabolic pathways; rn00630 Glyoxylate and dicarboxylate metabolism</p>
-            <p>RPAIR: RP00002 C00003_C00004 cofac [RC:RC00001]; RP00349 C00258_C01146 main [RC:RC00099]</p>
+            <p>NOTES: NADP+ (see R01747)</p>
           </html>
         </notes>
         <annotation>
@@ -47621,13 +47478,7 @@
       <reaction metaid="meta_R_ACOAD1" sboTerm="SBO:0000176" id="R_ACOAD1" name="R_ACOAD1" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ENTRY: R01171 Reaction</p>
-            <p>EQUATION: C00136 + C00003 ⇌ C00877 + C00004 + C00080</p>
-            <p>EQUATION_USED_HEREIN: C00136 + C00003 ⇌ C00877 + C00004 + C00080</p>
             <p>NAME: butanoyl-CoA:NAD+ trans-2-oxidoreductase</p>
-            <p>ORTHOLOGY: K00209 enoyl-[acyl-carrier protein] reductase / trans-2-enoyl-CoA reductase (NAD+) [EC:1.3.1.9 1.3.1.44]</p>
-            <p>PATHWAY: rn01100 Metabolic pathways; rn00650 Butanoate metabolism; rn00310 Lysine degradation; rn01200 Carbon metabolism</p>
-            <p>RPAIR: RP00002 C00003_C00004 cofac [RC:RC00001]; RP00203 C00136_C00877 main [RC:RC00076]</p>
           </html>
         </notes>
         <annotation>
@@ -47655,14 +47506,7 @@
       <reaction metaid="meta_R_ECOAH1" sboTerm="SBO:0000176" id="R_ECOAH1" name="R_ECOAH1" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ENTRY: R03026 Reaction</p>
-            <p>EQUATION: C01144 ⇌ C00877 + C00001</p>
-            <p>EQUATION_USED_HEREIN: C01144 ⇌ C00877 + C00001</p>
-            <p>MODULE: M00032 Lysine degradation, lysine → saccharopine → acetoacetyl-CoA; M00375 Hydroxypropionate-hydroxybutylate cycle; M00374 Dicarboxylate-hydroxybutyrate cycle</p>
             <p>NAME: (S)-3-hydroxybutanoyl-CoA hydro-lyase</p>
-            <p>ORTHOLOGY: K07515 enoyl-CoA hydratase / long-chain 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.211]; K01825 3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl-CoA isomerase [EC:1.1.1.35 4.2.1.17 5.1.2.3 5.3.3.8]; K01692 enoyl-CoA hydratase [EC:4.2.1.17]; K10527 enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35 1.1.1.211]; K01782 3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1.1.35 4.2.1.17 5.1.2.3]; K15016 enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35]; K07514 enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase / 3,2-trans-enoyl-CoA isomerase [EC:4.2.1.17 1.1.1.35 5.3.3.8]; K01715 enoyl-CoA hydratase [EC:4.2.1.17]; K13767 enoyl-CoA hydratase [EC:4.2.1.17]; K07511 enoyl-CoA hydratase [EC:4.2.1.17]</p>
-            <p>PATHWAY: rn00650 Butanoate metabolism; rn00380 Tryptophan metabolism; rn01100 Metabolic pathways; rn00720 Carbon fixation pathways in prokaryotes; rn01120 Microbial metabolism in diverse environments; rn00310 Lysine degradation; rn00627 Aminobenzoate degradation; rn00071 Fatty acid degradation; rn01130 Biosynthesis of antibiotics; rn01200 Carbon metabolism; rn01212 Fatty acid metabolism; rn00362 Benzoate degradation</p>
-            <p>RPAIR: RP02697 C00877_C01144 main [RC:RC00831]; RP07304 C00001_C01144 leave</p>
           </html>
         </notes>
         <annotation>
@@ -47688,11 +47532,7 @@
       <reaction metaid="meta_R_ACTCO2L" sboTerm="SBO:0000176" id="R_ACTCO2L" name="acetone:carbon-dioxide ligase (AMP-forming)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ENTRY: R05735 Reaction</p>
-            <p>EQUATION: C00207 + C00011 + C00002 + 2 C00001 ⇌ C00164 + C00020 + 2 C00009</p>
-            <p>EQUATION_USED_HEREIN: C00207 + C00011 + C00002 + 2 C00001 ⇌ C00164 + C00020 + 2 C00009</p>
             <p>NAME: acetone:carbon-dioxide ligase (AMP-forming)</p>
-            <p>RPAIR: RP00010 C00002_C00009 ligase; RP05804 C00011_C00164 leave; RP00274 C00164_C00207 main [RC:RC00040]; RP12391 C00002_C00009 ligase; RP05676 C00001_C00009 leave; RP12346 C00002_C00020 ligase [RC:RC00002]</p>
           </html>
         </notes>
         <annotation>
@@ -48290,11 +48130,6 @@
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_RMI" sboTerm="SBO:0000176" id="R_RMI" name="L-rhamnose isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>original_bigg_ids: [&apos;RMI&apos;]</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_RMI">
@@ -48323,11 +48158,6 @@
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_RMK" sboTerm="SBO:0000176" id="R_RMK" name="Rhamnulokinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>original_bigg_ids: [&apos;RMK&apos;]</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_RMK">
@@ -48359,11 +48189,6 @@
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_RMPA" sboTerm="SBO:0000176" id="R_RMPA" name="Rhamnulose-1-phosphate aldolase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>original_bigg_ids: [&apos;RMPA&apos;]</p>
-          </html>
-        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_RMPA">
@@ -48625,7 +48450,7 @@
       <reaction metaid="meta_R_TAGtpts" sboTerm="SBO:0000655" id="R_TAGtpts" name="Transport of tag__D via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>COMMENTS: Assumed reaction from experimental data and bioinformatic indication.</p>
+            <p>NOTES: Assumed reaction from experimental data and bioinformatic indication.</p>
           </html>
         </notes>
         <listOfReactants>
@@ -48641,7 +48466,7 @@
       <reaction metaid="meta_R_TAG1PK" sboTerm="SBO:0000176" id="R_TAG1PK" name="D-Tagatose-1-phosphate kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>COMMENTS: Assumed reaction from experimental data and bioinformatic indication</p>
+            <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
           </html>
         </notes>
         <annotation>
