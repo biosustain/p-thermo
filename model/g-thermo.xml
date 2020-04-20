@@ -19812,7 +19812,7 @@
             <rdf:Description rdf:about="#meta_M_cellb_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G00289"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00289"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
