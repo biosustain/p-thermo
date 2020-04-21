@@ -20685,6 +20685,132 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_mg2_c" sboTerm="SBO:0000247" id="M_mg2_c" name="Magnesium" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Mg">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_mg2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/mg2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:MG+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6635"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18420"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13379"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39127"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:25112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:49736"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00547"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/JLVVSXFLKOJNIY-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00305"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM653"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29926"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/114632"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5336432"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/109496"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1327"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00254"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_mg2_e" sboTerm="SBO:0000247" id="M_mg2_e" name="Magnesium" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Mg">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_mg2_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/mg2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:MG+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6635"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18420"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13379"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39127"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:25112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:49736"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00547"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/JLVVSXFLKOJNIY-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00305"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM653"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29926"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/114632"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5336432"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/109496"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1327"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00254"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ca2_c" sboTerm="SBO:0000247" id="M_ca2_c" name="Calcium" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Ca">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ca2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/ca2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CA+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29108"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:48760"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39123"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22988"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3308"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00464"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM128"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/111875"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/167012"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/139827"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74016"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/1606834"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/2855229"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1289"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd29674"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00063"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ca2_e" sboTerm="SBO:0000247" id="M_ca2_e" name="Calcium" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Ca">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ca2_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/ca2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CA+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29108"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:48760"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39123"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22988"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3308"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00464"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM128"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/111875"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/167012"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/139827"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74016"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/1606834"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/2855229"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1289"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd29674"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00063"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -46535,6 +46661,7 @@
           <speciesReference species="M_ptrc_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_his__L_c" stoichiometry="0.08256969" constant="true"/>
           <speciesReference species="M_gmp_c" stoichiometry="0.145952" constant="true"/>
+          <speciesReference species="M_ppi_c" stoichiometry="0.0012" constant="true"/>
           <speciesReference species="M_pro__L_c" stoichiometry="0.17668818" constant="true"/>
           <speciesReference species="M_asn__L_c" stoichiometry="0.42971812" constant="true"/>
           <speciesReference species="M_fad_c" stoichiometry="0.029903042" constant="true"/>
@@ -46542,8 +46669,7 @@
           <speciesReference species="M_thr__L_c" stoichiometry="0.2851532" constant="true"/>
           <speciesReference species="M_phe__L_c" stoichiometry="0.15396106" constant="true"/>
           <speciesReference species="M_succoa_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_fe2_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_fe3_c" stoichiometry="0.029903042" constant="true"/>
+          <speciesReference species="M_fe3_c" stoichiometry="0.034003042" constant="true"/>
           <speciesReference species="M_amp_c" stoichiometry="0.113187265" constant="true"/>
           <speciesReference species="M_dcmp_c" stoichiometry="0.023333636" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="105.027303042" constant="true"/>
@@ -46559,7 +46685,6 @@
           <speciesReference species="M_gly_c" stoichiometry="0.43255958" constant="true"/>
           <speciesReference species="M_ala__L_c" stoichiometry="0.54554044" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_cl_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_lys__L_c" stoichiometry="0.336492138" constant="true"/>
           <speciesReference species="M_asp__L_c" stoichiometry="0.23547196" constant="true"/>
           <speciesReference species="M_gthrd_c" stoichiometry="0.029903042" constant="true"/>
@@ -46575,6 +46700,9 @@
           <speciesReference species="M_tyr__L_c" stoichiometry="0.176105203" constant="true"/>
           <speciesReference species="M_cys__L_c" stoichiometry="0.11444242" constant="true"/>
           <speciesReference species="M_ump_c" stoichiometry="0.0868052716" constant="true"/>
+          <speciesReference species="M_k_c" stoichiometry="0.7082" constant="true"/>
+          <speciesReference species="M_mg2_c" stoichiometry="0.098" constant="true"/>
+          <speciesReference species="M_ca2_c" stoichiometry="0.00315" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="104.9974" constant="true"/>
@@ -49500,6 +49628,39 @@
           <speciesReference species="M_amp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_k_e" sboTerm="SBO:0000627" id="R_EX_k_e" name="Potassium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_k_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_MG2t" sboTerm="SBO:0000185" id="R_MG2t" name="Magnesium transport via channel" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_mg2_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_mg2_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_mg2_e" sboTerm="SBO:0000627" id="R_EX_mg2_e" name="Magnesium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_mg2_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_CA2t" sboTerm="SBO:0000185" id="R_CA2t" name="Transport of calcium via antiport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ca2_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ca2_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_ca2_e" sboTerm="SBO:0000627" id="R_EX_ca2_e" name="Calcium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_ca2_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
       </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
