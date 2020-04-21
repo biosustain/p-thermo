@@ -379,7 +379,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/but"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/30772"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30772"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00246"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM162281"/>
                 </rdf:Bag>
@@ -1022,7 +1022,6 @@
             <rdf:Description rdf:about="#meta_M_6dg_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G01275"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G01275"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1434"/>
                 </rdf:Bag>
@@ -1203,7 +1202,7 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/adocbl"/>
                   <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ADENOSYLCOBALAMIN"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/18408"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18408"/>
                   <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB02086"/>
                   <rdf:li rdf:resource="https://identifiers.org/inchi_key/ZIHHMGTYZOSFRC-QRVZQHAISA-N"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00194"/>
@@ -1340,7 +1339,6 @@
             <rdf:Description rdf:about="#meta_M_cellb_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G00289"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00289"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1142"/>
                 </rdf:Bag>
@@ -1516,7 +1514,6 @@
             <rdf:Description rdf:about="#meta_M_stys_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G00501"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00501"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM61111"/>
                 </rdf:Bag>
@@ -1915,7 +1912,6 @@
             <rdf:Description rdf:about="#meta_M_cellulose_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10481"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10481"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM4897"/>
                 </rdf:Bag>
@@ -2698,7 +2694,6 @@
             <rdf:Description rdf:about="#meta_M_starch_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10495"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10495"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM60163"/>
                 </rdf:Bag>
@@ -2987,7 +2982,7 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/adocbi"/>
                   <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ADENOSYLCOBINAMIDE"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/2480"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:2480"/>
                   <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB06964"/>
                   <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB06903"/>
                   <rdf:li rdf:resource="https://identifiers.org/inchi_key/KQXSPGAEBZWHMC-OCUXTBADSA-N"/>
@@ -7605,7 +7600,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/14dhncoa"/>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/52668"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:52668"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15547"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM147663"/>
                 </rdf:Bag>
@@ -12596,7 +12591,6 @@
             <rdf:Description rdf:about="#meta_M_dextrin_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10545"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10545"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1003"/>
                 </rdf:Bag>
@@ -17932,7 +17926,6 @@
             <rdf:Description rdf:about="#meta_M_cellb6p_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10518"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G10518"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM4419"/>
                 </rdf:Bag>
@@ -19329,7 +19322,7 @@
             <rdf:Description rdf:about="#meta_M_tcscp_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/80102"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80102"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15814"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19348,7 +19341,7 @@
             <rdf:Description rdf:about="#meta_M_scpgg_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/80100"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80100"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15810"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19403,7 +19396,7 @@
             <rdf:Description rdf:about="#meta_M_ascp_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/80101"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:80101"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C15813"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19422,7 +19415,7 @@
             <rdf:Description rdf:about="#meta_M_btn_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/15956"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15956"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00120"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19441,7 +19434,7 @@
             <rdf:Description rdf:about="#meta_M_b5amp_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/3110"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3110"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05921"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19460,7 +19453,7 @@
             <rdf:Description rdf:about="#meta_M_lald__L_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/18041"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18041"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00424"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19479,7 +19472,7 @@
             <rdf:Description rdf:about="#meta_M_gtspmd_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/16613"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16613"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05730"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19498,7 +19491,7 @@
             <rdf:Description rdf:about="#meta_M_acoa_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/17984"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17984"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00040"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19517,7 +19510,7 @@
             <rdf:Description rdf:about="#meta_M_pa_EC_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/16337"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16337"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00416"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19536,7 +19529,7 @@
             <rdf:Description rdf:about="#meta_M_cdpdag_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/17962"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17962"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00269"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19555,7 +19548,7 @@
             <rdf:Description rdf:about="#meta_M_rr23bdo_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/16982"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16982"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03044"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19574,7 +19567,7 @@
             <rdf:Description rdf:about="#meta_M_actn__R_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/15686"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15686"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00810"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19593,7 +19586,7 @@
             <rdf:Description rdf:about="#meta_M_diact_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/16583"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16583"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00741"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19612,7 +19605,7 @@
             <rdf:Description rdf:about="#meta_M_actn_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/15688"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15688"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00466"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19631,7 +19624,7 @@
             <rdf:Description rdf:about="#meta_M_hacc_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/15339"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15339"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00028"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19650,7 +19643,7 @@
             <rdf:Description rdf:about="#meta_M_hop_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/16992"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16992"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01146"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19669,7 +19662,7 @@
             <rdf:Description rdf:about="#meta_M_fcytb5612_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/16078"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16078"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05305"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19688,7 +19681,7 @@
             <rdf:Description rdf:about="#meta_M_acetone_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/15347"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15347"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00207"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19743,7 +19736,8 @@
             <rdf:Description rdf:about="#meta_M_fru_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/15824 37721"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15824"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:37721"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00095"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19762,7 +19756,7 @@
             <rdf:Description rdf:about="#meta_M_arab__L_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/17535"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17535"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00259"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19781,7 +19775,8 @@
             <rdf:Description rdf:about="#meta_M_xyl__D_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/15936 53455"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15936"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:53455"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00181"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19800,7 +19795,7 @@
             <rdf:Description rdf:about="#meta_M_mnl_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/16899"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16899"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00392"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -19819,7 +19814,7 @@
             <rdf:Description rdf:about="#meta_M_cellb_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G00289"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00289"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19837,7 +19832,7 @@
             <rdf:Description rdf:about="#meta_M_sucr_e">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/17992"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17992"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00089"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -20783,7 +20778,9 @@
             <rdf:Description rdf:about="#meta_R_PDHam1hi">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.4.1 2.2.1.6 4.1.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.4.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.2.1.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.1.1"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00014"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR102428"/>
                 </rdf:Bag>
@@ -21055,7 +21052,8 @@
             <rdf:Description rdf:about="#meta_R_FOCYTCCOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.7.2.1 1.9.3.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.7.2.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.9.3.1"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00082"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106381"/>
                 </rdf:Bag>
@@ -23207,7 +23205,8 @@
             <rdf:Description rdf:about="#meta_R_ASPO1">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.4.3.2 1.4.3.16"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.4.3.2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.4.3.16"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00357"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96088"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/19025"/>
@@ -25117,7 +25116,8 @@
             <rdf:Description rdf:about="#meta_R_ORNAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.13 2.6.1.68"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.13"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.68"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00668"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106635"/>
                 </rdf:Bag>
@@ -26364,7 +26364,8 @@
             <rdf:Description rdf:about="#meta_R_TRE6PGH">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.93 3.2.1.122"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.93"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.122"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00837"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06113"/>
                 </rdf:Bag>
@@ -26660,7 +26661,8 @@
             <rdf:Description rdf:about="#meta_R_SBTD_D2">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.14 1.1.1.15"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.14"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.15"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00875"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104283"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/33031"/>
@@ -26878,7 +26880,8 @@
             <rdf:Description rdf:about="#meta_R_APAT2rm">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.19 2.6.1.55"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.19"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.6.1.55"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00908"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95862"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30699"/>
@@ -27018,7 +27021,8 @@
             <rdf:Description rdf:about="#meta_R_PAMPT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.1 6.2.1.17"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.17"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00926"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106754"/>
                 </rdf:Bag>
@@ -27055,7 +27059,8 @@
             <rdf:Description rdf:about="#meta_R_ACACT10m">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.9 2.3.1.16"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.16"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00927"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95195"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30719"/>
@@ -29264,7 +29269,8 @@
             <rdf:Description rdf:about="#meta_R_ACACT2">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.9 2.3.1.16"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.16"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01177"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95196"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/31111"/>
@@ -29847,7 +29853,11 @@
             <rdf:Description rdf:about="#meta_R_ACOAD7f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-; 1.3.3.6 1.3.8.7 1.3.8.8 1.3.8.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01279"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95301"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30747"/>
@@ -29958,7 +29968,8 @@
             <rdf:Description rdf:about="#meta_R_SHSL2">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.48 2.5.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.48"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01288"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104382"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/27826"/>
@@ -30121,7 +30132,8 @@
             <rdf:Description rdf:about="#meta_R_PRPNTEAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.1 6.2.1.17"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.17"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01354"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106947"/>
                 </rdf:Bag>
@@ -31130,7 +31142,8 @@
             <rdf:Description rdf:about="#meta_R_FTHFLIG">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.2.12 6.3.2.17"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.2.12"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.2.17"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01654"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR139056"/>
                 </rdf:Bag>
@@ -31963,7 +31976,8 @@
             <rdf:Description rdf:about="#meta_R_DEXHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.3 3.2.1.10"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.10"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06199"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01791"/>
                 </rdf:Bag>
@@ -32399,7 +32413,7 @@
             <rdf:Description rdf:about="#meta_R_DHORD6">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/EC 1.3.1.14"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.14"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01869"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -33420,7 +33434,8 @@
             <rdf:Description rdf:about="#meta_R_URIDK2m">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.4.4 2.7.4.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.4.4"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.4.9"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02098"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR105160"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30655"/>
@@ -34259,7 +34274,8 @@
             <rdf:Description rdf:about="#meta_R_NMNHYD">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.5 3.1.3.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.5"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02323"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR101970"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30815"/>
@@ -35160,7 +35176,8 @@
             <rdf:Description rdf:about="#meta_R_ACMANAHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.- 5.1.3.14"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/5.1.3.14"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02707"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR143489"/>
                 </rdf:Bag>
@@ -35777,7 +35794,8 @@
             <rdf:Description rdf:about="#meta_R_DNADDP">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.6.1.9 3.6.1.22"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.6.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.6.1.22"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03004"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97624"/>
                 </rdf:Bag>
@@ -36889,7 +36907,8 @@
             <rdf:Description rdf:about="#meta_R_NT5C">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.5 3.1.3.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.5"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.1.3.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03346"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR102027"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30935"/>
@@ -37747,7 +37766,10 @@
             <rdf:Description rdf:about="#meta_R_ACOAD3f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6 1.3.8.7 1.3.8.8 1.3.99.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03777"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95304"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/30943"/>
@@ -37858,7 +37880,10 @@
             <rdf:Description rdf:about="#meta_R_ACOAD5f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6 1.3.8.7 1.3.8.8 1.3.99.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03857"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95299"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/31039"/>
@@ -38102,7 +38127,11 @@
             <rdf:Description rdf:about="#meta_R_ACOAD6f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-; 1.3.3.6 1.3.8.7 1.3.8.8 1.3.8.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03990"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95300"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/28358"/>
@@ -38343,7 +38372,9 @@
             <rdf:Description rdf:about="#meta_R_SMBCOAOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.1 1.3.8.7 1.3.99.12"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.12"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03172"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR108000"/>
                 </rdf:Bag>
@@ -40565,7 +40596,11 @@
             <rdf:Description rdf:about="#meta_R_ACOAD2f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-; 1.3.3.6 1.3.8.1 1.3.8.7 1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04751"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109093"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/31207"/>
@@ -40603,7 +40638,10 @@
             <rdf:Description rdf:about="#meta_R_ACOAD4f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6 1.3.8.7 1.3.8.8 1.3.99.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.8.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04754"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109095"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/28354"/>
@@ -40642,7 +40680,8 @@
             <rdf:Description rdf:about="#meta_R_SELMELY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.4.1.1 4.4.1.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.4.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.4.1.11"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04770"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109104"/>
                 </rdf:Bag>
@@ -42729,7 +42768,9 @@
             <rdf:Description rdf:about="#meta_R_SUCHY">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.20 3.2.1.48; 3.2.1.10 3.2.1.20 3.2.1.48"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.20"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.10"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.48"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00801"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06087"/>
                 </rdf:Bag>
@@ -42969,7 +43010,8 @@
             <rdf:Description rdf:about="#meta_R_CELLOHYDRO">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.4 3.2.1.91"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.4"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.91"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06200"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02886"/>
                 </rdf:Bag>
@@ -43130,7 +43172,8 @@
             <rdf:Description rdf:about="#meta_R_XU5PGT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.2.1.1 2.2.1.3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.2.1.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.2.1.3"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R06861"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR110598"/>
                 </rdf:Bag>
@@ -45106,7 +45149,10 @@
             <rdf:Description rdf:about="#meta_R_3HAD40_1">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85 2.3.1.86 2.3.1.- 4.2.1.59"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.59"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04428"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR94886"/>
                 </rdf:Bag>
@@ -45136,7 +45182,8 @@
             <rdf:Description rdf:about="#meta_R_BUTACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04429"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR108883"/>
                 </rdf:Bag>
@@ -45168,7 +45215,11 @@
             <rdf:Description rdf:about="#meta_R_BUTACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04952"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109245"/>
                   <rdf:li rdf:resource="https://identifiers.org/rhea/42248"/>
@@ -45270,7 +45321,8 @@
             <rdf:Description rdf:about="#meta_R_HEXACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04955"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109246"/>
                 </rdf:Bag>
@@ -45302,7 +45354,11 @@
             <rdf:Description rdf:about="#meta_R_HEXACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04957"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109248"/>
                 </rdf:Bag>
@@ -45404,7 +45460,8 @@
             <rdf:Description rdf:about="#meta_R_OCTACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04958"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109249"/>
                 </rdf:Bag>
@@ -45436,7 +45493,11 @@
             <rdf:Description rdf:about="#meta_R_OCTACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04960"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109251"/>
                 </rdf:Bag>
@@ -45540,7 +45601,8 @@
             <rdf:Description rdf:about="#meta_R_DECACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04961"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109252"/>
                 </rdf:Bag>
@@ -45572,7 +45634,11 @@
             <rdf:Description rdf:about="#meta_R_DECACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04963"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109254"/>
                 </rdf:Bag>
@@ -45676,7 +45742,8 @@
             <rdf:Description rdf:about="#meta_R_DDECACPOR__39__">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04724"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109080"/>
                 </rdf:Bag>
@@ -45708,7 +45775,11 @@
             <rdf:Description rdf:about="#meta_R_MALACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04726"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109082"/>
                 </rdf:Bag>
@@ -45809,7 +45880,8 @@
             <rdf:Description rdf:about="#meta_R_MYRACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04966"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109255"/>
                 </rdf:Bag>
@@ -45841,7 +45913,11 @@
             <rdf:Description rdf:about="#meta_R_MMACPAT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-; 2.3.1.41 2.3.1.85 2.3.1.86 2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.86"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04968"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109257"/>
                 </rdf:Bag>
@@ -45942,7 +46018,8 @@
             <rdf:Description rdf:about="#meta_R_OPALMACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04969"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR109258"/>
                 </rdf:Bag>
@@ -45969,7 +46046,10 @@
             <rdf:Description rdf:about="#meta_R_HDEACPT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41 2.3.1.179 2.3.1.199 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.199"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R07762"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR111351"/>
                 </rdf:Bag>
@@ -45996,7 +46076,8 @@
             <rdf:Description rdf:about="#meta_R_OXSTACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.100 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.100"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R07763"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR111352"/>
                 </rdf:Bag>
@@ -46055,7 +46136,9 @@
             <rdf:Description rdf:about="#meta_R_TOCTDACPOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9 1.3.1.- 2.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.-"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R07765"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR111353"/>
                 </rdf:Bag>
@@ -46793,7 +46876,11 @@
             <rdf:Description rdf:about="#meta_R_BTNLIG">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.15; 6.2.1.11 6.3.4.9 6.3.4.10 6.3.4.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.10"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.15"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01074"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -46821,7 +46908,10 @@
             <rdf:Description rdf:about="#meta_R_BTN5AMPL">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.9 6.3.4.10 6.3.4.11 6.3.4.15"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.10"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.11"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.4.15"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05145"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -47021,7 +47111,8 @@
             <rdf:Description rdf:about="#meta_R_TRPS3">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.2.8 4.2.1.20"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.2.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.20"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02340"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -47122,7 +47213,8 @@
             <rdf:Description rdf:about="#meta_R_GSPMDS">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.1.8 6.3.1.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.1.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.3.1.9"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01917"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -47291,7 +47383,8 @@
             <rdf:Description rdf:about="#meta_R_GLYCNOR">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.26 1.1.1.29"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.26"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.29"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00717"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -47449,8 +47542,8 @@
       <reaction metaid="meta_R_HOXPRm" sboTerm="SBO:0000176" id="R_HOXPRm" name="(R)-Glycerate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: (R)-Glycerate:NAD+ oxidoreductase</p>
             <p>NOTES: NADP+ (see R01747)</p>
+            <p>NAME: (R)-Glycerate:NAD+ oxidoreductase</p>
           </html>
         </notes>
         <annotation>
@@ -47586,7 +47679,7 @@
             <rdf:Description rdf:about="#meta_R_ASN__Lt">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96066 "/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96066"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn05508"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn11321"/>
                 </rdf:Bag>
@@ -48467,19 +48560,9 @@
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Assumed reaction from experimental data and bioinformatic indication</p>
+            <p>ECNumbers: 2.7.1.B6</p>
           </html>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_TAG1PK">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.1.B6"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
         <listOfReactants>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
@@ -48545,7 +48628,7 @@
             <rdf:Description rdf:about="#meta_R_PYRt">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR103385 "/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR103385"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn05469"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -50189,7 +50272,7 @@
       <fbc:geneProduct metaid="meta_G_RTMO04293" sboTerm="SBO:0000243" fbc:id="G_RTMO04293" fbc:name="RTMO04293" fbc:label="G_RTMO04293"/>
     </fbc:listOfGeneProducts>
     <groups:listOfGroups>
-      <groups:group groups:id="G_00000" groups:name="Exchange reactions" groups:kind="collection">
+      <groups:group groups:id="G_00000__32____45____32__Exchange__32__reactions" groups:name="00000 - Exchange reactions" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="C00698 exchange" groups:idRef="R_EX_cl_e"/>
           <groups:member groups:name="C00698 exchange" groups:idRef="R_EX_nh4_e"/>
@@ -50243,7 +50326,7 @@
           <groups:member groups:name="Sulfate exchange" groups:idRef="R_EX_so4_e"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00010" groups:name="Glycolysis / Gluconeogenesis" groups:kind="collection">
+      <groups:group groups:id="G_00010__32____45____32__Glycolysis__32____47____32__Gluconeogenesis" groups:name="00010 - Glycolysis / Gluconeogenesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00014" groups:idRef="R_PDHam1hi"/>
           <groups:member groups:name="R00200" groups:idRef="R_PYK"/>
@@ -50269,7 +50352,7 @@
           <groups:member groups:name="R07618" groups:idRef="R_EN6LYOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00020" groups:name="Citrate cycle (TCA cycle)" groups:kind="collection">
+      <groups:group groups:id="G_00020__32____45____32__Citrate__32__cycle__32____40__TCA__32__cycle__41__" groups:name="00020 - Citrate cycle (TCA cycle)" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00014" groups:idRef="R_PDHam1hi"/>
           <groups:member groups:name="R00341" groups:idRef="R_PPCK"/>
@@ -50293,7 +50376,7 @@
           <groups:member groups:name="Succinate dehydrogenase" groups:idRef="R_SUCD5"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00030" groups:name="Pentose phosphate pathway" groups:kind="collection">
+      <groups:group groups:id="G_00030__32____45____32__Pentose__32__phosphate__32__pathway" groups:name="00030 - Pentose phosphate pathway" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R01049" groups:idRef="R_PRPPS"/>
           <groups:member groups:name="R01051" groups:idRef="R_R5PPT"/>
@@ -50316,7 +50399,7 @@
           <groups:member groups:name="2-Keto-D-gluconic acid reductase" groups:idRef="R_KDG2R"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00040" groups:name="Pentose and glucuronate interconversions" groups:kind="collection">
+      <groups:group groups:id="G_00040__32____45____32__Pentose__32__and__32__glucuronate__32__interconversions" groups:name="00040 - Pentose and glucuronate interconversions" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00286" groups:idRef="R_UDPGD"/>
           <groups:member groups:name="R00289" groups:idRef="R_GALUi"/>
@@ -50330,7 +50413,7 @@
           <groups:member groups:name="R05850" groups:idRef="R_RBP4E"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00051" groups:name="Fructose and mannose metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00051__32____45____32__Fructose__32__and__32__mannose__32__metabolism" groups:name="00051 - Fructose and mannose metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00867" groups:idRef="R_HEX7"/>
           <groups:member groups:name="R00875" groups:idRef="R_SBTD_D2"/>
@@ -50352,7 +50435,7 @@
           <groups:member groups:name="Rhamnulose-1-phosphate aldolase" groups:idRef="R_RMPA"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00052" groups:name="Galactose metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00052__32____45____32__Galactose__32__metabolism" groups:name="00052 - Galactose metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00289" groups:idRef="R_GALUi"/>
           <groups:member groups:name="R00291" groups:idRef="R_UDPG4E"/>
@@ -50368,13 +50451,13 @@
           <groups:member groups:name="Tagatose-bisphosphate aldolase" groups:idRef="R_TGBPA"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00053" groups:name="Ascorbate and aldarate metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00053__32____45____32__Ascorbate__32__and__32__aldarate__32__metabolism" groups:name="00053 - Ascorbate and aldarate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00286" groups:idRef="R_UDPGD"/>
           <groups:member groups:name="R05850" groups:idRef="R_RBP4E"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00061" groups:name="Fatty acid biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00061__32____45____32__Fatty__32__acid__32__biosynthesis" groups:name="00061 - Fatty acid biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00742" groups:idRef="R_ACCOAC"/>
           <groups:member groups:name="R01624" groups:idRef="R_ACOATA"/>
@@ -50413,7 +50496,7 @@
           <groups:member groups:name="R07765" groups:idRef="R_TOCTDACPOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00062" groups:name="Fatty acid elongation" groups:kind="collection">
+      <groups:group groups:id="G_00062__32____45____32__Fatty__32__acid__32__elongation" groups:name="00062 - Fatty acid elongation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R01177" groups:idRef="R_ACACT2"/>
           <groups:member groups:name="R03778" groups:idRef="R_ACACT4m"/>
@@ -50435,7 +50518,7 @@
           <groups:member groups:name="R04749" groups:idRef="R_ECOAH2"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00071" groups:name="Fatty acid degradation" groups:kind="collection">
+      <groups:group groups:id="G_00071__32____45____32__Fatty__32__acid__32__degradation" groups:name="00071 - Fatty acid degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R01175" groups:idRef="R_ACOAD1f"/>
@@ -50467,17 +50550,13 @@
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00072" groups:name="Synthesis and degradation of ketone bodies" groups:kind="collection">
+      <groups:group groups:id="G_00072__32____45____32__Synthesis__32__and__32__degradation__32__of__32__ketone__32__bodies" groups:name="00072 - Synthesis and degradation of ketone bodies" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R01360" groups:idRef="R_HMGCOALY"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00073" groups:name="Cutin, suberine and wax biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00100" groups:name="Steroid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00120" groups:name="Primary bile acid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00121" groups:name="Secondary bile acid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00130" groups:name="Ubiquinone and other terpenoid-quinone biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00130__32____45____32__Ubiquinone__32__and__32__other__32__terpenoid__45__quinone__32__biosynthesis" groups:name="00130 - Ubiquinone and other terpenoid-quinone biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00734" groups:idRef="R_TYRTA"/>
           <groups:member groups:name="R01717" groups:idRef="R_ICHORS"/>
@@ -50489,11 +50568,7 @@
           <groups:member groups:name="R08166" groups:idRef="R_SHCHCS3"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00140" groups:name="Steroid hormone biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00190" groups:name="Oxidative phosphorylation" groups:kind="collection"/>
-      <groups:group groups:id="G_00195" groups:name="Photosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00196" groups:name="Photosynthesis - antenna proteins" groups:kind="collection"/>
-      <groups:group groups:id="G_00220" groups:name="Arginine biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00220__32____45____32__Arginine__32__biosynthesis" groups:name="00220 - Arginine biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00131" groups:idRef="R_UREA"/>
           <groups:member groups:name="R00243" groups:idRef="R_GDH"/>
@@ -50512,7 +50587,7 @@
           <groups:member groups:name="L-alanine transaminase" groups:idRef="R_ALATA_L"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00230" groups:name="Purine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00230__32____45____32__Purine__32__metabolism" groups:name="00230 - Purine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00086" groups:idRef="R_ATPM"/>
           <groups:member groups:name="R00127" groups:idRef="R_ADK1"/>
@@ -50578,8 +50653,7 @@
           <groups:member groups:name="Adenylyl-sulfate kinase" groups:idRef="R_ADSK"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00232" groups:name="Caffeine metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00240" groups:name="Pyrimidine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00240__32____45____32__Pyrimidine__32__metabolism" groups:name="00240 - Pyrimidine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00156" groups:idRef="R_NDPK2"/>
           <groups:member groups:name="R00158" groups:idRef="R_UMPK"/>
@@ -50630,7 +50704,7 @@
           <groups:member groups:name="Ribonucleoside-diphosphate reductase (UDP)" groups:idRef="R_RNDR4"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00250" groups:name="Alanine, aspartate and glutamate metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00250__32____45____32__Alanine__44____32__aspartate__32__and__32__glutamate__32__metabolism" groups:name="00250 - Alanine, aspartate and glutamate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00114" groups:idRef="R_GLUSy"/>
           <groups:member groups:name="R00243" groups:idRef="R_GDH"/>
@@ -50656,13 +50730,12 @@
           <groups:member groups:name="L-alanine transaminase" groups:idRef="R_ALATA_L"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00253" groups:name="Tetracycline biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00254" groups:name="Aflatoxin biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00254__32____45____32__Aflatoxin__32__biosynthesis" groups:name="00254 - Aflatoxin biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00742" groups:idRef="R_ACCOAC"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00260" groups:name="Glycine, serine and threonine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00260__32____45____32__Glycine__44____32__serine__32__and__32__threonine__32__metabolism" groups:name="00260 - Glycine, serine and threonine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00220" groups:idRef="R_SERD_L"/>
           <groups:member groups:name="R00480" groups:idRef="R_ASPK"/>
@@ -50691,7 +50764,7 @@
           <groups:member groups:name="R08572" groups:idRef="R_GLYCK2"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00261" groups:name="Monobactam biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00261__32____45____32__Monobactam__32__biosynthesis" groups:name="00261 - Monobactam biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00480" groups:idRef="R_ASPK"/>
           <groups:member groups:name="R04199" groups:idRef="R_DHDPRy"/>
@@ -50700,7 +50773,7 @@
           <groups:member groups:name="Sulfate adenylyltransferase" groups:idRef="R_SADT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00270" groups:name="Cysteine and methionine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00270__32____45____32__Cysteine__32__and__32__methionine__32__metabolism" groups:name="00270 - Cysteine and methionine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00177" groups:idRef="R_METAT"/>
           <groups:member groups:name="R00178" groups:idRef="R_ADMDC"/>
@@ -50743,7 +50816,7 @@
           <groups:member groups:name="R10305" groups:idRef="R_ACSERT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00280" groups:name="Valine, leucine and isoleucine degradation" groups:kind="collection">
+      <groups:group groups:id="G_00280__32____45____32__Valine__44____32__leucine__32__and__32__isoleucine__32__degradation" groups:name="00280 - Valine, leucine and isoleucine degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R00833" groups:idRef="R_MMM2"/>
@@ -50778,8 +50851,7 @@
           <groups:member groups:name="R07618" groups:idRef="R_EN6LYOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00281" groups:name="Geraniol degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00290" groups:name="Valine, leucine and isoleucine biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00290__32____45____32__Valine__44____32__leucine__32__and__32__isoleucine__32__biosynthesis" groups:name="00290 - Valine, leucine and isoleucine biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00226" groups:idRef="R_ACLS"/>
           <groups:member groups:name="R00996" groups:idRef="R_TAL"/>
@@ -50801,7 +50873,7 @@
           <groups:member groups:name="R08648" groups:idRef="R_ACHBS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00300" groups:name="Lysine biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00300__32____45____32__Lysine__32__biosynthesis" groups:name="00300 - Lysine biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00451" groups:idRef="R_DAPDC"/>
           <groups:member groups:name="R00480" groups:idRef="R_ASPK"/>
@@ -50817,7 +50889,7 @@
           <groups:member groups:name="R10147" groups:idRef="R_DHDPS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00310" groups:name="Lysine degradation" groups:kind="collection">
+      <groups:group groups:id="G_00310__32____45____32__Lysine__32__degradation" groups:name="00310 - Lysine degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R01975" groups:idRef="R_HACD1"/>
@@ -50825,8 +50897,7 @@
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00311" groups:name="Penicillin and cephalosporin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00330" groups:name="Arginine and proline metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00330__32____45____32__Arginine__32__and__32__proline__32__metabolism" groups:name="00330 - Arginine and proline metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00178" groups:idRef="R_ADMDC"/>
           <groups:member groups:name="R00239" groups:idRef="R_GLU5K"/>
@@ -50847,16 +50918,14 @@
           <groups:member groups:name="L-proline:quinone oxidoreductase" groups:idRef="R_LPROQOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00331" groups:name="Clavulanic acid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00332" groups:name="Carbapenem biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00332__32____45____32__Carbapenem__32__biosynthesis" groups:name="00332 - Carbapenem biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00239" groups:idRef="R_GLU5K"/>
           <groups:member groups:name="R03313" groups:idRef="R_G5SD"/>
           <groups:member groups:name="R03314" groups:idRef="R_G5SADs"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00333" groups:name="Prodigiosin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00340" groups:name="Histidine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00340__32____45____32__Histidine__32__metabolism" groups:name="00340 - Histidine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R01071" groups:idRef="R_ATPPRT"/>
           <groups:member groups:name="R03013" groups:idRef="R_HISTP"/>
@@ -50868,14 +50937,14 @@
           <groups:member groups:name="R04640" groups:idRef="R_PRMICI"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00350" groups:name="Tyrosine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00350__32____45____32__Tyrosine__32__metabolism" groups:name="00350 - Tyrosine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00713" groups:idRef="R_SSALx"/>
           <groups:member groups:name="R00714" groups:idRef="R_SSALy"/>
           <groups:member groups:name="R00734" groups:idRef="R_TYRTA"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00360" groups:name="Phenylalanine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00360__32____45____32__Phenylalanine__32__metabolism" groups:name="00360 - Phenylalanine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00228" groups:idRef="R_ACALD"/>
           <groups:member groups:name="R00688" groups:idRef="R_PHEOR"/>
@@ -50886,8 +50955,7 @@
           <groups:member groups:name="D-phenylalanine:acceptor oxidoreductase (deaminating)" groups:idRef="R_PHEAOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00361" groups:name="Chlorocyclohexane and chlorobenzene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00362" groups:name="Benzoate degradation" groups:kind="collection">
+      <groups:group groups:id="G_00362__32____45____32__Benzoate__32__degradation" groups:name="00362 - Benzoate degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00228" groups:idRef="R_ACALD"/>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
@@ -50902,17 +50970,14 @@
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00363" groups:name="Bisphenol degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00364" groups:name="Fluorobenzoate degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00365" groups:name="Furfural degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00380" groups:name="Tryptophan metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00380__32____45____32__Tryptophan__32__metabolism" groups:name="00380 - Tryptophan metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R01975" groups:idRef="R_HACD1"/>
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00400" groups:name="Phenylalanine, tyrosine and tryptophan biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00400__32____45____32__Phenylalanine__44____32__tyrosine__32__and__32__tryptophan__32__biosynthesis" groups:name="00400 - Phenylalanine, tyrosine and tryptophan biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00674" groups:idRef="R_TRPS2"/>
           <groups:member groups:name="R00688" groups:idRef="R_PHEOR"/>
@@ -50939,25 +51004,23 @@
           <groups:member groups:name="Tryptophan synthase (indoleglycerol phosphate)" groups:idRef="R_TRPS3"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00401" groups:name="Novobiocin biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00401__32____45____32__Novobiocin__32__biosynthesis" groups:name="00401 - Novobiocin biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00734" groups:idRef="R_TYRTA"/>
           <groups:member groups:name="R01728" groups:idRef="R_PPND"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00402" groups:name="Benzoxazinoid biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00402__32____45____32__Benzoxazinoid__32__biosynthesis" groups:name="00402 - Benzoxazinoid biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="Tryptophan synthase (indoleglycerol phosphate)" groups:idRef="R_TRPS3"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00403" groups:name="Indole diterpene alkaloid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00404" groups:name="Staurosporine biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00405" groups:name="Phenazine biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00405__32____45____32__Phenazine__32__biosynthesis" groups:name="00405 - Phenazine biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00986" groups:idRef="R_ANS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00410" groups:name="beta-Alanine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00410__32____45____32__beta__45__Alanine__32__metabolism" groups:name="00410 - beta-Alanine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00489" groups:idRef="R_ASP1DC"/>
           <groups:member groups:name="R00705" groups:idRef="R_MMSAD3"/>
@@ -50970,7 +51033,7 @@
           <groups:member groups:name="R02549" groups:idRef="R_ABUTD"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00430" groups:name="Taurine and hypotaurine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00430__32____45____32__Taurine__32__and__32__hypotaurine__32__metabolism" groups:name="00430 - Taurine and hypotaurine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00230" groups:idRef="R_PTAr"/>
           <groups:member groups:name="R00243" groups:idRef="R_GDH"/>
@@ -50978,8 +51041,7 @@
           <groups:member groups:name="R00396" groups:idRef="R_ALAD_L"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00440" groups:name="Phosphonate and phosphinate metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00450" groups:name="Selenocompound metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00450__32____45____32__Selenocompound__32__metabolism" groups:name="00450 - Selenocompound metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R03596" groups:idRef="R_SLNTOR"/>
           <groups:member groups:name="R03599" groups:idRef="R_SELCYSLY"/>
@@ -50991,14 +51053,14 @@
           <groups:member groups:name="R09372" groups:idRef="R_METSELOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00460" groups:name="Cyanoamino acid metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00460__32____45____32__Cyanoamino__32__acid__32__metabolism" groups:name="00460 - Cyanoamino acid metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00483" groups:idRef="R_ASNS2"/>
           <groups:member groups:name="R00485" groups:idRef="R_ASNN"/>
           <groups:member groups:name="R00945" groups:idRef="R_GHMT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00471" groups:name="D-Glutamine and D-glutamate metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00471__32____45____32__D__45__Glutamine__32__and__32__D__45__glutamate__32__metabolism" groups:name="00471 - D-Glutamine and D-glutamate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00243" groups:idRef="R_GDH"/>
           <groups:member groups:name="R00260" groups:idRef="R_GLUR"/>
@@ -51006,15 +51068,14 @@
           <groups:member groups:name="R03193" groups:idRef="R_UAMAS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00472" groups:name="D-Arginine and D-ornithine metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00473" groups:name="D-Alanine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00473__32____45____32__D__45__Alanine__32__metabolism" groups:name="00473 - D-Alanine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00401" groups:idRef="R_ALAR"/>
           <groups:member groups:name="R01148" groups:idRef="R_ALATA_D"/>
           <groups:member groups:name="R01150" groups:idRef="R_ALAALAr"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00480" groups:name="Glutathione metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00480__32____45____32__Glutathione__32__metabolism" groups:name="00480 - Glutathione metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00267" groups:idRef="R_ICDHyr"/>
           <groups:member groups:name="R00274" groups:idRef="R_GTHPi"/>
@@ -51026,7 +51087,7 @@
           <groups:member groups:name="R01917" groups:idRef="R_GSPMDS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00500" groups:name="Starch and sucrose metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00500__32____45____32__Starch__32__and__32__sucrose__32__metabolism" groups:name="00500 - Starch and sucrose metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00289" groups:idRef="R_GALUi"/>
           <groups:member groups:name="R00771" groups:idRef="R_PGI"/>
@@ -51042,13 +51103,7 @@
           <groups:member groups:name="R08639" groups:idRef="R_PGMT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00510" groups:name="N-Glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00511" groups:name="Other glycan degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00512" groups:name="Mucin type O-glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00513" groups:name="Various types of N-glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00514" groups:name="Other types of O-glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00515" groups:name="Mannose type O-glycan biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00520" groups:name="Amino sugar and nucleotide sugar metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00520__32____45____32__Amino__32__sugar__32__and__32__nucleotide__32__sugar__32__metabolism" groups:name="00520 - Amino sugar and nucleotide sugar metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00286" groups:idRef="R_UDPGD"/>
           <groups:member groups:name="R00289" groups:idRef="R_GALUi"/>
@@ -51081,21 +51136,12 @@
           <groups:member groups:name="R08555" groups:idRef="R_ACM6PH"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00521" groups:name="Streptomycin biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00521__32____45____32__Streptomycin__32__biosynthesis" groups:name="00521 - Streptomycin biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R08639" groups:idRef="R_PGMT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00522" groups:name="Biosynthesis of 12-, 14- and 16-membered macrolides" groups:kind="collection"/>
-      <groups:group groups:id="G_00523" groups:name="Polyketide sugar unit biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00524" groups:name="Neomycin, kanamycin and gentamicin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00525" groups:name="Acarbose and validamycin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00531" groups:name="Glycosaminoglycan degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00532" groups:name="Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate" groups:kind="collection"/>
-      <groups:group groups:id="G_00533" groups:name="Glycosaminoglycan biosynthesis - keratan sulfate" groups:kind="collection"/>
-      <groups:group groups:id="G_00534" groups:name="Glycosaminoglycan biosynthesis - heparan sulfate / heparin" groups:kind="collection"/>
-      <groups:group groups:id="G_00540" groups:name="Lipopolysaccharide biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00550" groups:name="Peptidoglycan biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00550__32____45____32__Peptidoglycan__32__biosynthesis" groups:name="00550 - Peptidoglycan biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00660" groups:idRef="R_UAGCVT"/>
           <groups:member groups:name="R01150" groups:idRef="R_ALAALAr"/>
@@ -51111,7 +51157,7 @@
           <groups:member groups:name="R06447" groups:idRef="R_FRDPPT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00561" groups:name="Glycerolipid metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00561__32____45____32__Glycerolipid__32__metabolism" groups:name="00561 - Glycerolipid metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00289" groups:idRef="R_GALUi"/>
           <groups:member groups:name="R00847" groups:idRef="R_GLYK"/>
@@ -51123,15 +51169,14 @@
           <groups:member groups:name="acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase" groups:idRef="R_ACCOATT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00562" groups:name="Inositol phosphate metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00562__32____45____32__Inositol__32__phosphate__32__metabolism" groups:name="00562 - Inositol phosphate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00705" groups:idRef="R_MMSAD3"/>
           <groups:member groups:name="R00706" groups:idRef="R_MSAOR"/>
           <groups:member groups:name="R01015" groups:idRef="R_TPI"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00563" groups:name="Glycosylphosphatidylinositol (GPI)-anchor biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00564" groups:name="Glycerophospholipid metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00564__32____45____32__Glycerophospholipid__32__metabolism" groups:name="00564 - Glycerophospholipid metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00842" groups:idRef="R_G3PD1"/>
           <groups:member groups:name="R00844" groups:idRef="R_G3PD2"/>
@@ -51143,17 +51188,7 @@
           <groups:member groups:name="CTP:phosphatidate cytidyltransferase" groups:idRef="R_CTPPCT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00565" groups:name="Ether lipid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00571" groups:name="Lipoarabinomannan (LAM) biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00572" groups:name="Arabinogalactan biosynthesis - Mycobacterium" groups:kind="collection"/>
-      <groups:group groups:id="G_00590" groups:name="Arachidonic acid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00591" groups:name="Linoleic acid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00592" groups:name="alpha-Linolenic acid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00600" groups:name="Sphingolipid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00601" groups:name="Glycosphingolipid biosynthesis - lacto and neolacto series" groups:kind="collection"/>
-      <groups:group groups:id="G_00603" groups:name="Glycosphingolipid biosynthesis - globo and isoglobo series" groups:kind="collection"/>
-      <groups:group groups:id="G_00604" groups:name="Glycosphingolipid biosynthesis - ganglio series" groups:kind="collection"/>
-      <groups:group groups:id="G_00620" groups:name="Pyruvate metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00620__32____45____32__Pyruvate__32__metabolism" groups:name="00620 - Pyruvate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00014" groups:idRef="R_PDHam1hi"/>
           <groups:member groups:name="R00200" groups:idRef="R_PYK"/>
@@ -51186,7 +51221,7 @@
           <groups:member groups:name="Succinate dehydrogenase" groups:idRef="R_SUCD5"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00621" groups:name="Dioxin degradation" groups:kind="collection">
+      <groups:group groups:id="G_00621__32____45____32__Dioxin__32__degradation" groups:name="00621 - Dioxin degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00228" groups:idRef="R_ACALD"/>
           <groups:member groups:name="R00750" groups:idRef="R_HOPNTAL"/>
@@ -51195,28 +51230,25 @@
           <groups:member groups:name="R03966" groups:idRef="R_4OT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00622" groups:name="Xylene degradation" groups:kind="collection">
+      <groups:group groups:id="G_00622__32____45____32__Xylene__32__degradation" groups:name="00622 - Xylene degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00228" groups:idRef="R_ACALD"/>
           <groups:member groups:name="R00750" groups:idRef="R_HOPNTAL"/>
           <groups:member groups:name="R02601" groups:idRef="R_OP4ENLY"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00623" groups:name="Toluene degradation" groups:kind="collection">
+      <groups:group groups:id="G_00623__32____45____32__Toluene__32__degradation" groups:name="00623 - Toluene degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R03562" groups:idRef="R_TOL2OR"/>
           <groups:member groups:name="R03566" groups:idRef="R_CRESOLOR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00624" groups:name="Polycyclic aromatic hydrocarbon degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00625" groups:name="Chloroalkane and chloroalkene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00626" groups:name="Naphthalene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00627" groups:name="Aminobenzoate degradation" groups:kind="collection">
+      <groups:group groups:id="G_00627__32____45____32__Aminobenzoate__32__degradation" groups:name="00627 - Aminobenzoate degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00630" groups:name="Glyoxylate and dicarboxylate metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00630__32____45____32__Glyoxylate__32__and__32__dicarboxylate__32__metabolism" groups:name="00630 - Glyoxylate and dicarboxylate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00009" groups:idRef="R_CAT"/>
           <groups:member groups:name="R00235" groups:idRef="R_ACS"/>
@@ -51247,8 +51279,7 @@
           <groups:member groups:name="(R)-Glycerate:NAD+ oxidoreductase" groups:idRef="R_HOXPRm"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00633" groups:name="Nitrotoluene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00640" groups:name="Propanoate metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00640__32____45____32__Propanoate__32__metabolism" groups:name="00640 - Propanoate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R00405" groups:idRef="R_SUCOAS"/>
@@ -51273,9 +51304,7 @@
           <groups:member groups:name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" groups:idRef="R_OBO2OR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00642" groups:name="Ethylbenzene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00643" groups:name="Styrene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00650" groups:name="Butanoate metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00650__32____45____32__Butanoate__32__metabolism" groups:name="00650 - Butanoate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00212" groups:idRef="R_PFL"/>
           <groups:member groups:name="R00226" groups:idRef="R_ACLS"/>
@@ -51304,13 +51333,13 @@
           <groups:member groups:name="Succinate dehydrogenase" groups:idRef="R_SUCD5"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00660" groups:name="C5-Branched dibasic acid metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00660__32____45____32__C5__45__Branched__32__dibasic__32__acid__32__metabolism" groups:name="00660 - C5-Branched dibasic acid metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00226" groups:idRef="R_ACLS"/>
           <groups:member groups:name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" groups:idRef="R_OBO2OR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00670" groups:name="One carbon pool by folate" groups:kind="collection">
+      <groups:group groups:id="G_00670__32____45____32__One__32__carbon__32__pool__32__by__32__folate" groups:name="00670 - One carbon pool by folate" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00936" groups:idRef="R_DHFR2i"/>
           <groups:member groups:name="R00939" groups:idRef="R_DHFR"/>
@@ -51334,7 +51363,7 @@
           <groups:member groups:name="R07168" groups:idRef="R_MTHFO"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00680" groups:name="Methane metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00680__32____45____32__Methane__32__metabolism" groups:name="00680 - Methane metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00230" groups:idRef="R_PTAr"/>
           <groups:member groups:name="R00235" groups:idRef="R_ACS"/>
@@ -51355,7 +51384,7 @@
           <groups:member groups:name="NAD-dependent Methanol dehydrogenase" groups:idRef="R_ALCD1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00710" groups:name="Carbon fixation in photosynthetic organisms" groups:kind="collection">
+      <groups:group groups:id="G_00710__32____45____32__Carbon__32__fixation__32__in__32__photosynthetic__32__organisms" groups:name="00710 - Carbon fixation in photosynthetic organisms" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00214" groups:idRef="R_ME1"/>
           <groups:member groups:name="R00341" groups:idRef="R_PPCK"/>
@@ -51372,7 +51401,7 @@
           <groups:member groups:name="L-alanine transaminase" groups:idRef="R_ALATA_L"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00720" groups:name="Carbon fixation pathways in prokaryotes" groups:kind="collection">
+      <groups:group groups:id="G_00720__32____45____32__Carbon__32__fixation__32__pathways__32__in__32__prokaryotes" groups:name="00720 - Carbon fixation pathways in prokaryotes" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00230" groups:idRef="R_PTAr"/>
           <groups:member groups:name="R00235" groups:idRef="R_ACS"/>
@@ -51401,7 +51430,7 @@
           <groups:member groups:name="Succinate dehydrogenase" groups:idRef="R_SUCD5"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00730" groups:name="Thiamine metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00730__32____45____32__Thiamine__32__metabolism" groups:name="00730 - Thiamine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00028" groups:idRef="R_MALHYDRO"/>
           <groups:member groups:name="R00615" groups:idRef="R_TDP"/>
@@ -51423,7 +51452,7 @@
           <groups:member groups:name="2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase" groups:idRef="R_MAHMPDC"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00740" groups:name="Riboflavin metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00740__32____45____32__Riboflavin__32__metabolism" groups:name="00740 - Riboflavin metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00066" groups:idRef="R_RBFSb"/>
           <groups:member groups:name="R00160" groups:idRef="R_FADDP"/>
@@ -51440,12 +51469,12 @@
           <groups:member groups:name="Flavin reductase" groups:idRef="R_FADRx"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00750" groups:name="Vitamin B6 metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00750__32____45____32__Vitamin__32__B6__32__metabolism" groups:name="00750 - Vitamin B6 metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R07456" groups:idRef="R_PYDXS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00760" groups:name="Nicotinate and nicotinamide metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00760__32____45____32__Nicotinate__32__and__32__nicotinamide__32__metabolism" groups:name="00760 - Nicotinate and nicotinamide metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00103" groups:idRef="R_NADDP"/>
           <groups:member groups:name="R00104" groups:idRef="R_NADK"/>
@@ -51467,7 +51496,7 @@
           <groups:member groups:name="R04292" groups:idRef="R_QULNS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00770" groups:name="Pantothenate and CoA biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00770__32____45____32__Pantothenate__32__and__32__CoA__32__biosynthesis" groups:name="00770 - Pantothenate and CoA biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00130" groups:idRef="R_DPCOAK"/>
           <groups:member groups:name="R00226" groups:idRef="R_ACLS"/>
@@ -51488,14 +51517,13 @@
           <groups:member groups:name="R04441" groups:idRef="R_DHAD1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00780" groups:name="Biotin metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00780__32____45____32__Biotin__32__metabolism" groups:name="00780 - Biotin metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase" groups:idRef="R_BTNLIG"/>
           <groups:member groups:name="Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)" groups:idRef="R_BTN5AMPL"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00785" groups:name="Lipoic acid metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00790" groups:name="Folate biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00790__32____45____32__Folate__32__biosynthesis" groups:name="00790 - Folate biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00425" groups:idRef="R_GTPCII2"/>
           <groups:member groups:name="R00428" groups:idRef="R_GTPHYDRO"/>
@@ -51518,13 +51546,12 @@
           <groups:member groups:name="R05553" groups:idRef="R_ADCL"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00791" groups:name="Atrazine degradation" groups:kind="collection">
+      <groups:group groups:id="G_00791__32____45____32__Atrazine__32__degradation" groups:name="00791 - Atrazine degradation" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00131" groups:idRef="R_UREA"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00830" groups:name="Retinol metabolism" groups:kind="collection"/>
-      <groups:group groups:id="G_00860" groups:name="Porphyrin and chlorophyll metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00860__32____45____32__Porphyrin__32__and__32__chlorophyll__32__metabolism" groups:name="00860 - Porphyrin and chlorophyll metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00036" groups:idRef="R_PPBNGS"/>
           <groups:member groups:name="R00078" groups:idRef="R_FERO"/>
@@ -51568,7 +51595,7 @@
           <groups:member groups:name="L threonine kinase" groups:idRef="R_LTHRK"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00900" groups:name="Terpenoid backbone biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00900__32____45____32__Terpenoid__32__backbone__32__biosynthesis" groups:name="00900 - Terpenoid backbone biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00238" groups:idRef="R_ACACT1"/>
           <groups:member groups:name="R01658" groups:idRef="R_DMATT"/>
@@ -51586,15 +51613,7 @@
           <groups:member groups:name="R09247" groups:idRef="R_FRDPTT"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00901" groups:name="Indole alkaloid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00902" groups:name="Monoterpenoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00903" groups:name="Limonene and pinene degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00904" groups:name="Diterpenoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00905" groups:name="Brassinosteroid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00906" groups:name="Carotenoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00908" groups:name="Zeatin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00909" groups:name="Sesquiterpenoid and triterpenoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00910" groups:name="Nitrogen metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00910__32____45____32__Nitrogen__32__metabolism" groups:name="00910 - Nitrogen metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00114" groups:idRef="R_GLUSy"/>
           <groups:member groups:name="R00243" groups:idRef="R_GDH"/>
@@ -51604,7 +51623,7 @@
           <groups:member groups:name="HCO3 equilibration reaction" groups:idRef="R_HCO3E"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00920" groups:name="Sulfur metabolism" groups:kind="collection">
+      <groups:group groups:id="G_00920__32____45____32__Sulfur__32__metabolism" groups:name="00920 - Sulfur metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00586" groups:idRef="R_SERAT"/>
           <groups:member groups:name="R00897" groups:idRef="R_CYSS"/>
@@ -51617,41 +51636,29 @@
           <groups:member groups:name="Phosphoadenylyl-sulfate reductase (thioredoxin)" groups:idRef="R_PAPSR"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00930" groups:name="Caprolactam degradation" groups:kind="collection"/>
-      <groups:group groups:id="G_00940" groups:name="Phenylpropanoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00941" groups:name="Flavonoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00942" groups:name="Anthocyanin biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00943" groups:name="Isoflavonoid biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00944" groups:name="Flavone and flavonol biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00945" groups:name="Stilbenoid, diarylheptanoid and gingerol biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00950" groups:name="Isoquinoline alkaloid biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00950__32____45____32__Isoquinoline__32__alkaloid__32__biosynthesis" groups:name="00950 - Isoquinoline alkaloid biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00734" groups:idRef="R_TYRTA"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00960" groups:name="Tropane, piperidine and pyridine alkaloid biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00960__32____45____32__Tropane__44____32__piperidine__32__and__32__pyridine__32__alkaloid__32__biosynthesis" groups:name="00960 - Tropane, piperidine and pyridine alkaloid biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R00694" groups:idRef="R_PHETA1"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00965" groups:name="Betalain biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00966" groups:name="Glucosinolate biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00966__32____45____32__Glucosinolate__32__biosynthesis" groups:name="00966 - Glucosinolate biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R01090" groups:idRef="R_LEUTAi"/>
           <groups:member groups:name="R01214" groups:idRef="R_VALTA"/>
           <groups:member groups:name="R02199" groups:idRef="R_ILETA"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00970" groups:name="Aminoacyl-tRNA biosynthesis" groups:kind="collection">
+      <groups:group groups:id="G_00970__32____45____32__Aminoacyl__45__tRNA__32__biosynthesis" groups:name="00970 - Aminoacyl-tRNA biosynthesis" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="R05578" groups:idRef="R_GLUTRS"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_00980" groups:name="Metabolism of xenobiotics by cytochrome P450" groups:kind="collection"/>
-      <groups:group groups:id="G_00981" groups:name="Insect hormone biosynthesis" groups:kind="collection"/>
-      <groups:group groups:id="G_00982" groups:name="Drug metabolism - cytochrome P450" groups:kind="collection"/>
-      <groups:group groups:id="G_00983" groups:name="Drug metabolism - other enzymes" groups:kind="collection"/>
-      <groups:group groups:id="G_02000" groups:name="Passive transport" groups:kind="collection">
+      <groups:group groups:id="G_02000__32____45____32__Passive__32__transport" groups:name="02000 - Passive transport" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="Transport of metabolite nh4_e" groups:idRef="R_NH4t"/>
           <groups:member groups:name="Transport of metabolite oh1_e" groups:idRef="R_H2Ot"/>
@@ -51689,7 +51696,7 @@
           <groups:member groups:name="Sulfate transport via proton symport" groups:idRef="R_SO4t"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_02010" groups:name="ABC transporters" groups:kind="collection">
+      <groups:group groups:id="G_02010__32____45____32__ABC__32__transporters" groups:name="02010 - ABC transporters" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="Transport of metabolite glc__D_e" groups:idRef="R_GLC__Dtabc"/>
           <groups:member groups:name="Transport of metabolite fe2_e" groups:idRef="R_FEtabc"/>
@@ -51700,7 +51707,7 @@
           <groups:member groups:name="Transport of Matlose via ABC" groups:idRef="R_MALTtabc"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_02060" groups:name="Phosphotransferase system (PTS)" groups:kind="collection">
+      <groups:group groups:id="G_02060__32____45____32__Phosphotransferase__32__system__32____40__PTS__41__" groups:name="02060 - Phosphotransferase system (PTS)" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="D-Glucose PTS transport" groups:idRef="R_GLC__Dtpts"/>
           <groups:member groups:name="Transport of D-fructose via PTS" groups:idRef="R_FRUtpts"/>
@@ -51717,110 +51724,9 @@
           <groups:member groups:name="Transport of tag__D via PTS" groups:idRef="R_TAGtpts"/>
         </groups:listOfMembers>
       </groups:group>
-      <groups:group groups:id="G_Biomass" groups:name="Biomass reaction" groups:kind="collection">
+      <groups:group groups:id="G_Biomass__32__reaction" groups:name="Biomass reaction" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="biomass" groups:idRef="R_biomass"/>
-        </groups:listOfMembers>
-      </groups:group>
-      <groups:group groups:id="G_Other" groups:name="Other reactions, without KEGG" groups:kind="collection">
-        <groups:listOfMembers>
-          <groups:member groups:name="R00004" groups:idRef="R_IDPh"/>
-          <groups:member groups:name="R00017" groups:idRef="R_CCP"/>
-          <groups:member groups:name="R00019" groups:idRef="R_HYDA"/>
-          <groups:member groups:name="R00081" groups:idRef="R_FOCYCTCOR"/>
-          <groups:member groups:name="R00082" groups:idRef="R_FOCYTCCOR"/>
-          <groups:member groups:name="R00209" groups:idRef="R_PDH"/>
-          <groups:member groups:name="R00272" groups:idRef="R_OXGDC"/>
-          <groups:member groups:name="R00276" groups:idRef="R_H202OR"/>
-          <groups:member groups:name="R00307" groups:idRef="R_XYLI2"/>
-          <groups:member groups:name="R00365" groups:idRef="R_GLYOR"/>
-          <groups:member groups:name="R00424" groups:idRef="R_GTPCI"/>
-          <groups:member groups:name="R00572" groups:idRef="R_PYK4"/>
-          <groups:member groups:name="R00651" groups:idRef="R_AHSERL"/>
-          <groups:member groups:name="R00659" groups:idRef="R_PYK2"/>
-          <groups:member groups:name="R00668" groups:idRef="R_ORNAT"/>
-          <groups:member groups:name="R00724" groups:idRef="R_PYK5"/>
-          <groups:member groups:name="R00767" groups:idRef="R_F6PCPT"/>
-          <groups:member groups:name="R00769" groups:idRef="R_F6PUPT"/>
-          <groups:member groups:name="R00770" groups:idRef="R_F6PIPT"/>
-          <groups:member groups:name="R00784" groups:idRef="R_FICYTCCNOR"/>
-          <groups:member groups:name="R00835" groups:idRef="R_G6PDH2r"/>
-          <groups:member groups:name="R00924" groups:idRef="R_PPCOAOm"/>
-          <groups:member groups:name="R01010" groups:idRef="R_ALKP"/>
-          <groups:member groups:name="R01106" groups:idRef="R_NITOR"/>
-          <groups:member groups:name="R01158" groups:idRef="R_HISTD"/>
-          <groups:member groups:name="R01194" groups:idRef="R_DGALIGH"/>
-          <groups:member groups:name="R01216" groups:idRef="R_2DHPFALDL"/>
-          <groups:member groups:name="R01504" groups:idRef="R_DHBS"/>
-          <groups:member groups:name="R01505" groups:idRef="R_DHBD"/>
-          <groups:member groups:name="R01535" groups:idRef="R_UAGUDPGPTRANS"/>
-          <groups:member groups:name="R01654" groups:idRef="R_FTHFLIG"/>
-          <groups:member groups:name="R01791" groups:idRef="R_DEXHY"/>
-          <groups:member groups:name="R01843" groups:idRef="R_PFK_3"/>
-          <groups:member groups:name="R02016" groups:idRef="R_TRDR"/>
-          <groups:member groups:name="R02047" groups:idRef="R_HIBDm"/>
-          <groups:member groups:name="R02108" groups:idRef="R_STARCHHY2"/>
-          <groups:member groups:name="R02165" groups:idRef="R_QH2NOR"/>
-          <groups:member groups:name="R02707" groups:idRef="R_ACMANAHY"/>
-          <groups:member groups:name="R02780" groups:idRef="R_TREPT"/>
-          <groups:member groups:name="R03037" groups:idRef="R_ICHORT"/>
-          <groups:member groups:name="R03601" groups:idRef="R_ACSERL"/>
-          <groups:member groups:name="R04150" groups:idRef="R_NPHS"/>
-          <groups:member groups:name="R04519" groups:idRef="R_DTPCUDCPPR"/>
-          <groups:member groups:name="R04698" groups:idRef="R_COOR"/>
-          <groups:member groups:name="R04930" groups:idRef="R_SELCYSTGL"/>
-          <groups:member groups:name="R04945" groups:idRef="R_ACHMSSELCYSL"/>
-          <groups:member groups:name="R04993" groups:idRef="R_AMETDMMQ"/>
-          <groups:member groups:name="R05555" groups:idRef="R_FRDPT"/>
-          <groups:member groups:name="R05576" groups:idRef="R_HBCOAOR"/>
-          <groups:member groups:name="R05595" groups:idRef="R_HBCOAH"/>
-          <groups:member groups:name="R05611" groups:idRef="R_HEPDPP"/>
-          <groups:member groups:name="R05612" groups:idRef="R_HEXTT"/>
-          <groups:member groups:name="R05613" groups:idRef="R_PPTT"/>
-          <groups:member groups:name="R05617" groups:idRef="R_DHNAOT4"/>
-          <groups:member groups:name="R05721" groups:idRef="R_CHLACOR"/>
-          <groups:member groups:name="R05724" groups:idRef="R_NODOx"/>
-          <groups:member groups:name="R05725" groups:idRef="R_NODOy"/>
-          <groups:member groups:name="R05861" groups:idRef="R_DALAOX"/>
-          <groups:member groups:name="R06077" groups:idRef="R_BGLUCH"/>
-          <groups:member groups:name="R06092" groups:idRef="R_CELLBHY"/>
-          <groups:member groups:name="R06100" groups:idRef="R_M_6DGHY"/>
-          <groups:member groups:name="R06101" groups:idRef="R_STACHY"/>
-          <groups:member groups:name="R06152" groups:idRef="R_STACHY2"/>
-          <groups:member groups:name="R06178" groups:idRef="R_UAAAGGLAAT"/>
-          <groups:member groups:name="R06200" groups:idRef="R_CELLOHYDRO"/>
-          <groups:member groups:name="R06861" groups:idRef="R_XU5PGT"/>
-          <groups:member groups:name="R06863" groups:idRef="R_S7PTRANSPP"/>
-          <groups:member groups:name="R07219" groups:idRef="R_H2MB4POR"/>
-          <groups:member groups:name="R07237" groups:idRef="R_AMETTRANS"/>
-          <groups:member groups:name="R07238" groups:idRef="R_AHCYSMETTRANS"/>
-          <groups:member groups:name="R07269" groups:idRef="R_DECDPPP"/>
-          <groups:member groups:name="R07475" groups:idRef="R_GGTT"/>
-          <groups:member groups:name="R07641" groups:idRef="R_CBMKr"/>
-          <groups:member groups:name="R08209" groups:idRef="R_IPPPNADHOR"/>
-          <groups:member groups:name="R08549" groups:idRef="R_AKGDH"/>
-          <groups:member groups:name="R08657" groups:idRef="R_COQOR"/>
-          <groups:member groups:name="R08698" groups:idRef="R_2AMACHYD"/>
-          <groups:member groups:name="R08748" groups:idRef="R_IPDPCT"/>
-          <groups:member groups:name="R08749" groups:idRef="R_CCTTPENPP"/>
-          <groups:member groups:name="R08750" groups:idRef="R_DTPCHEXPPCT"/>
-          <groups:member groups:name="R08751" groups:idRef="R_DTPCHEPPCT"/>
-          <groups:member groups:name="R08752" groups:idRef="R_DTPCOCPPCT"/>
-          <groups:member groups:name="R08753" groups:idRef="R_DTPCNOPPCT"/>
-          <groups:member groups:name="R08856" groups:idRef="R_ACGAMT"/>
-          <groups:member groups:name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" groups:idRef="R_PYRLLOR"/>
-          <groups:member groups:name="(S)-Malate:oxygen oxidoreductase" groups:idRef="R_MOX"/>
-          <groups:member groups:name="acetyl-CoA:acetoin O-acetyltransferase" groups:idRef="R_ACTNAT"/>
-          <groups:member groups:name="acetone:carbon-dioxide ligase (AMP-forming)" groups:idRef="R_ACTCO2L"/>
-          <groups:member groups:name="Hydrolysis of Gentiobiose" groups:idRef="R_GTBIHY"/>
-          <groups:member groups:name="Hydrolysis of Turanose" groups:idRef="R_TURAHY"/>
-          <groups:member groups:name="5-dehydro-D-gluconate reductase" groups:idRef="R_DGLCN5R"/>
-          <groups:member groups:name="methyl-beta-galactosidase" groups:idRef="R_BGAL"/>
-          <groups:member groups:name="D-Tagatose-1-phosphate kinase" groups:idRef="R_TAG1PK"/>
-          <groups:member groups:name="ATP synthase (four protons for one ATP)" groups:idRef="R_ATPS4r"/>
-          <groups:member groups:name="NADH Dehydrogenase (ubiquinone &amp; 3.5 protons)" groups:idRef="R_NADHDH"/>
-          <groups:member groups:name="Cytochrome oxidase bo3 (ubiquinol: 2.5 protons)" groups:idRef="R_CYTBO3"/>
-          <groups:member groups:name="3,5-bisphosphate nucleotidase" groups:idRef="R_BPNT"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
