@@ -6014,7 +6014,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_pronpi_phi_c" sboTerm=" SBO:0000176" id="M_pronpi_phi_c" name=" Protein N-pi-phospho-histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula=" C7H9N4O5PR2">
+      <species metaid="meta_M_pronpi_phi_c" sboTerm=" SBO:0000176" id="M_pronpi_phi_c" name="Protein N-pi-phospho-histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula=" C7H9N4O5PR2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG: C04261</p>
