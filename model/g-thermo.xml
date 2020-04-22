@@ -28768,7 +28768,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02713"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GALKr" sboTerm="SBO:0000176" id="R_GALKr" name="R01092" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GALKr" sboTerm="SBO:0000176" id="R_GALKr" name="R01092" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: ATP:alpha-D-galactose 1-phosphotransferase</p>
@@ -42916,7 +42916,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04728"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MELIBHY" sboTerm="SBO:0000176" id="R_MELIBHY" name="R06091" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GALS3" sboTerm="SBO:0000176" id="R_GALS3" name="R06091" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: melibiose galactohydrolase</p>
@@ -42924,7 +42924,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_MELIBHY">
+            <rdf:Description rdf:about="#meta_R_GALS3">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.22"/>
@@ -46656,14 +46656,19 @@
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="104.9974" constant="true"/>
           <speciesReference species="M_qh2_c" stoichiometry="0.029903042" constant="true"/>
+          <speciesReference species="M_fru_c" stoichiometry="0.117367" constant="true"/>
+          <speciesReference species="M_arab__L_c" stoichiometry="0.045625" constant="true"/>
           <speciesReference species="M_coa_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_leu__L_c" stoichiometry="0.38917" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="0.212236" constant="true"/>
           <speciesReference species="M_ptrc_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_his__L_c" stoichiometry="0.08716" constant="true"/>
           <speciesReference species="M_gmp_c" stoichiometry="0.102432476" constant="true"/>
           <speciesReference species="M_ppi_c" stoichiometry="0.0012" constant="true"/>
           <speciesReference species="M_pro__L_c" stoichiometry="0.18652" constant="true"/>
           <speciesReference species="M_asn__L_c" stoichiometry="0.248575" constant="true"/>
+          <speciesReference species="M_man_c" stoichiometry="0.006411" constant="true"/>
+          <speciesReference species="M_xyl__D_c" stoichiometry="0.20437" constant="true"/>
           <speciesReference species="M_fad_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_val__L_c" stoichiometry="0.42128" constant="true"/>
           <speciesReference species="M_thr__L_c" stoichiometry="0.30102" constant="true"/>
@@ -46680,6 +46685,7 @@
           <speciesReference species="M_damp_c" stoichiometry="0.00867143" constant="true"/>
           <speciesReference species="M_dgmp_c" stoichiometry="0.006649117" constant="true"/>
           <speciesReference species="M_dtmp_c" stoichiometry="0.00867143" constant="true"/>
+          <speciesReference species="M_glc__D_c" stoichiometry="0.010725" constant="true"/>
           <speciesReference species="M_ile__L_c" stoichiometry="0.30553" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="0.029903042" constant="true"/>
           <speciesReference species="M_gly_c" stoichiometry="0.45663" constant="true"/>
@@ -49662,6 +49668,54 @@
           <speciesReference species="M_ca2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction metaid="meta_R_RU5PHY" sboTerm="SBO:0000176" id="R_RU5PHY" name="Hydrolysis of L-Ribulose-5-phosphate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Added reaction to allow biomass formation. ATP is captured in GAM</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ru5p__L_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_rbl__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_XU5PHY" sboTerm="SBO:0000176" id="R_XU5PHY" name="Hydrolysis of L-Xylulose-5-phosphate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Added reaction to allow biomass formation. ATP is captured in GAM</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_xu5p__D_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_xylu__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_M6PHY" sboTerm="SBO:0000176" id="R_M6PHY" name="Hydrolysis of Mannose-6-phosphate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Added reaction to allow biomass formation. ATP is captured in GAM</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_man6p_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_man_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50607,7 +50661,7 @@
           <groups:member groups:name="R01329" groups:idRef="R_EPMGH"/>
           <groups:member groups:name="R02926" groups:idRef="R_MELTGH"/>
           <groups:member groups:name="R06087" groups:idRef="R_SUCHY"/>
-          <groups:member groups:name="R06091" groups:idRef="R_MELIBHY"/>
+          <groups:member groups:name="R06091" groups:idRef="R_GALS3"/>
           <groups:member groups:name="R06096" groups:idRef="R_MANNHY"/>
           <groups:member groups:name="Tagatose-bisphosphate aldolase" groups:idRef="R_TGBPA"/>
         </groups:listOfMembers>
