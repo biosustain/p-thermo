@@ -6014,6 +6014,28 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_pronpi_phi_c" sboTerm=" SBO:0000176" id="M_pronpi_phi_c" name=" Protein N-pi-phospho-histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula=" C7H9N4O5PR2">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C04261</p>
+            <p>NAME: Protein N(pi)-phospho-L-histidine; Protein N-pros-phospho-L-histidine; Protein N-pros-phosphohistidine; Protein Npi-phospho-L-histidine;</p>
+            <p>ChEBI: 64938</p>
+          </html>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_pronpi_phi_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI: 64938"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04261"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM162508"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="meta_M_btcoa_c" sboTerm="SBO:0000247" id="M_btcoa_c" name="Butanoyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C25H39N7O17P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -23530,7 +23552,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UDPGD" sboTerm="SBO:0000176" id="R_UDPGD" name="R00286" reversible="true" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UDPGD" sboTerm="SBO:0000176" id="R_UDPGD" name="R00286" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG ID: R00286</p>
@@ -37448,9 +37470,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_2hmcnsad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_2hmcnsad_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_2hmc_c" stoichiometry="1" constant="true"/>
@@ -38721,7 +38742,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03795"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_SHSL1" sboTerm="SBO:0000176" id="R_SHSL1" name="R03260" reversible="true" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SHSL1" sboTerm="SBO:0000176" id="R_SHSL1" name="R03260" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>KEGG ID: R03260</p>
@@ -41853,8 +41874,8 @@
           <speciesReference species="M_o2_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_4met2obut_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_for_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_4met2obut_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01876"/>
