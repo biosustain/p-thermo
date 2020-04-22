@@ -36848,38 +36848,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01890"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PROPIRE" sboTerm="SBO:0000176" id="R_PROPIRE" name="R02628" reversible="true" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGG ID: R02628</p>
-            <p>ENZYME: 2.7.3.9</p>
-            <p>NAME: Phosphoenolpyruvate:protein-L-histidine N-pros-phosphotransferase</p>
-            <p>DEFINITION: Phosphoenolpyruvate + Protein histidine <=> Pyruvate + Protein N(pi-phospho-L-histidine</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_OP4ENLY">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.3.9"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02628"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR129508"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/23883"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pro_hi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_pronpi_phi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="meta_R_MANPT" sboTerm="SBO:0000176" id="R_MANPT" name="R02630" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
