@@ -6036,6 +6036,28 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_pro_hi_c" sboTerm=" SBO:0000176" id="M_pro_hi_c" name=" Protein histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula=" C7H8N4O2R2">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGG: C00615</p>
+            <p>NAME: Protein histidine; Protein L-histidine;[Protein]-L-histidine;</p>
+            <p>ChEBI: 84076</p>
+          </html>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_pronpi_phi_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI: 84076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04261"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM3704"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="meta_M_btcoa_c" sboTerm="SBO:0000247" id="M_btcoa_c" name="Butanoyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C25H39N7O17P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
