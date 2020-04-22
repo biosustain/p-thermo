@@ -23860,7 +23860,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03094"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MALS" sboTerm="SBO:0000176" id="R_MALS" name="R00472" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MALS" sboTerm="SBO:0000176" id="R_MALS" name="R00472" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Malate glyoxylate-lyase (CoA-acetylating); acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming);</p>
@@ -27282,7 +27282,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02100"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DHFR" sboTerm="SBO:0000176" id="R_DHFR" name="R00939" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DHFR" sboTerm="SBO:0000176" id="R_DHFR" name="R00939" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase</p>
@@ -36127,7 +36127,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03326"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HMHPTMT" sboTerm="SBO:0000176" id="R_HMHPTMT" name="R03066" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HMHPTMT" sboTerm="SBO:0000176" id="R_HMHPTMT" name="R03066" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase</p>
@@ -47507,35 +47507,6 @@
           <speciesReference species="M_cdpdag_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_GLYCNOR" sboTerm="SBO:0000176" id="R_GLYCNOR" name="Glycolate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Glycolate:NAD+ oxidoreductase</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_GLYCNOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.26"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.29"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00717"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_glyclt_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glx_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="meta_R_B23DONOR" sboTerm="SBO:0000176" id="R_B23DONOR" name="(R,R)-Butane-2,3-diol:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -49717,6 +49688,69 @@
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_GCALDD" sboTerm="SBO:0000176" id="R_GCALDD" name="Glycolaldehyde dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_GCALDD">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/GCALDD"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLYCOLALD-DEHYDROG-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.21"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01333"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100060"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/20004"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/20002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/20001"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/20003"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/434"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00979"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gcald_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyclt_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_GLXCBL" sboTerm="SBO:0000176" id="R_GLXCBL" name="Glyoxalate carboligase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_GLXCBL">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/GLXCBL"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLYOCARBOLIG-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.1.47"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00013"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100303"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10138"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10139"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10137"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10136"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00010"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_glx_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hop_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -51490,7 +51524,6 @@
           <groups:member groups:name="R01900" groups:idRef="R_ACONTb"/>
           <groups:member groups:name="R02765" groups:idRef="R_MME"/>
           <groups:member groups:name="R08572" groups:idRef="R_GLYCK2"/>
-          <groups:member groups:name="Glycolate:NAD+ oxidoreductase" groups:idRef="R_GLYCNOR"/>
           <groups:member groups:name="hydroxypyruvate aldose-ketose-isomerase" groups:idRef="R_HPI"/>
           <groups:member groups:name="(R)-Glycerate:NAD+ oxidoreductase" groups:idRef="R_HOXPRm"/>
         </groups:listOfMembers>
