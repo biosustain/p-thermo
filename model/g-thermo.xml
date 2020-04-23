@@ -46673,6 +46673,7 @@
           <speciesReference species="M_val__L_c" stoichiometry="0.42128" constant="true"/>
           <speciesReference species="M_thr__L_c" stoichiometry="0.30102" constant="true"/>
           <speciesReference species="M_phe__L_c" stoichiometry="0.16253" constant="true"/>
+          <speciesReference species="M_succoa_c" stoichiometry="9.80420000000023e-05" constant="true"/>
           <speciesReference species="M_fe3_c" stoichiometry="0.034003042" constant="true"/>
           <speciesReference species="M_amp_c" stoichiometry="0.133587054" constant="true"/>
           <speciesReference species="M_10fthf_c" stoichiometry="0.0004" constant="true"/>
@@ -46700,6 +46701,7 @@
           <speciesReference species="M_gln__L_c" stoichiometry="0.360645" constant="true"/>
           <speciesReference species="M_ser__L_c" stoichiometry="0.20287" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="0.0047" constant="true"/>
+          <speciesReference species="M_thmpp_c" stoichiometry="0.000223000000000002" constant="true"/>
           <speciesReference species="M_met__L_c" stoichiometry="0.09317" constant="true"/>
           <speciesReference species="M_trp__L_c" stoichiometry="0.11494" constant="true"/>
           <speciesReference species="M_tyr__L_c" stoichiometry="0.11603" constant="true"/>
@@ -46710,8 +46712,6 @@
           <speciesReference species="M_ca2_c" stoichiometry="0.00315" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_succoa_c" stoichiometry="9.69579999999977e-05" constant="true"/>
-          <speciesReference species="M_thmpp_c" stoichiometry="0.000222999999999998" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="104.9974" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="104.9974" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="104.9856" constant="true"/>
