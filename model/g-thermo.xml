@@ -20685,6 +20685,132 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_mg2_c" sboTerm="SBO:0000247" id="M_mg2_c" name="Magnesium" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Mg">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_mg2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/mg2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:MG+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6635"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18420"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13379"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39127"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:25112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:49736"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00547"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/JLVVSXFLKOJNIY-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00305"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM653"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29926"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/114632"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5336432"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/109496"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1327"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00254"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_mg2_e" sboTerm="SBO:0000247" id="M_mg2_e" name="Magnesium" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Mg">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_mg2_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/mg2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:MG+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6635"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18420"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13379"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39127"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:25112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:49736"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00547"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/JLVVSXFLKOJNIY-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00305"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM653"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/29926"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/114632"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5336432"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/109496"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1327"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00254"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ca2_c" sboTerm="SBO:0000247" id="M_ca2_c" name="Calcium" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Ca">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ca2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/ca2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CA+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29108"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:48760"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39123"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22988"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3308"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00464"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM128"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/111875"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/167012"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/139827"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74016"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/1606834"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/2855229"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1289"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd29674"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00063"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ca2_e" sboTerm="SBO:0000247" id="M_ca2_e" name="Calcium" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Ca">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ca2_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/ca2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CA+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29108"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:48760"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:39123"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22988"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3308"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00464"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/BHPQYMZQTOCNFJ-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM128"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/111875"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/167012"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/139827"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74016"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/74112"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/1606834"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/2855229"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1289"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd29674"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00063"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -23734,7 +23860,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03094"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MALS" sboTerm="SBO:0000176" id="R_MALS" name="R00472" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MALS" sboTerm="SBO:0000176" id="R_MALS" name="R00472" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-Malate glyoxylate-lyase (CoA-acetylating); acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming);</p>
@@ -27156,7 +27282,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02100"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DHFR" sboTerm="SBO:0000176" id="R_DHFR" name="R00939" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DHFR" sboTerm="SBO:0000176" id="R_DHFR" name="R00939" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase</p>
@@ -28642,7 +28768,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02713"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GALKr" sboTerm="SBO:0000176" id="R_GALKr" name="R01092" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GALKr" sboTerm="SBO:0000176" id="R_GALKr" name="R01092" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: ATP:alpha-D-galactose 1-phosphotransferase</p>
@@ -36001,7 +36127,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03326"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HMHPTMT" sboTerm="SBO:0000176" id="R_HMHPTMT" name="R03066" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HMHPTMT" sboTerm="SBO:0000176" id="R_HMHPTMT" name="R03066" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase</p>
@@ -42790,7 +42916,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04728"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MELIBHY" sboTerm="SBO:0000176" id="R_MELIBHY" name="R06091" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GALS3" sboTerm="SBO:0000176" id="R_GALS3" name="R06091" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: melibiose galactohydrolase</p>
@@ -42798,7 +42924,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_MELIBHY">
+            <rdf:Description rdf:about="#meta_R_GALS3">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.1.22"/>
@@ -46529,54 +46655,63 @@
       <reaction metaid="meta_R_biomass" sboTerm="SBO:0000629" id="R_biomass" name="biomass" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="104.9974" constant="true"/>
-          <speciesReference species="M_qh2_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_coa_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_leu__L_c" stoichiometry="0.36865919" constant="true"/>
-          <speciesReference species="M_ptrc_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_his__L_c" stoichiometry="0.08256969" constant="true"/>
-          <speciesReference species="M_gmp_c" stoichiometry="0.145952" constant="true"/>
-          <speciesReference species="M_pro__L_c" stoichiometry="0.17668818" constant="true"/>
-          <speciesReference species="M_asn__L_c" stoichiometry="0.42971812" constant="true"/>
-          <speciesReference species="M_fad_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_val__L_c" stoichiometry="0.39907943" constant="true"/>
-          <speciesReference species="M_thr__L_c" stoichiometry="0.2851532" constant="true"/>
-          <speciesReference species="M_phe__L_c" stoichiometry="0.15396106" constant="true"/>
-          <speciesReference species="M_succoa_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_fe2_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_fe3_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_amp_c" stoichiometry="0.113187265" constant="true"/>
-          <speciesReference species="M_dcmp_c" stoichiometry="0.023333636" constant="true"/>
+          <speciesReference species="M_qh2_c" stoichiometry="0.000300000000000002" constant="true"/>
+          <speciesReference species="M_fru_c" stoichiometry="0.117367" constant="true"/>
+          <speciesReference species="M_arab__L_c" stoichiometry="0.045625" constant="true"/>
+          <speciesReference species="M_coa_c" stoichiometry="0.000168000000000001" constant="true"/>
+          <speciesReference species="M_leu__L_c" stoichiometry="0.38917" constant="true"/>
+          <speciesReference species="M_gal_c" stoichiometry="0.212236" constant="true"/>
+          <speciesReference species="M_ptrc_c" stoichiometry="0.03327" constant="true"/>
+          <speciesReference species="M_his__L_c" stoichiometry="0.08716" constant="true"/>
+          <speciesReference species="M_gmp_c" stoichiometry="0.102432476" constant="true"/>
+          <speciesReference species="M_ppi_c" stoichiometry="0.0012" constant="true"/>
+          <speciesReference species="M_pro__L_c" stoichiometry="0.18652" constant="true"/>
+          <speciesReference species="M_asn__L_c" stoichiometry="0.248575" constant="true"/>
+          <speciesReference species="M_man_c" stoichiometry="0.006411" constant="true"/>
+          <speciesReference species="M_xyl__D_c" stoichiometry="0.20437" constant="true"/>
+          <speciesReference species="M_fad_c" stoichiometry="0.000223000000000001" constant="true"/>
+          <speciesReference species="M_val__L_c" stoichiometry="0.42128" constant="true"/>
+          <speciesReference species="M_thr__L_c" stoichiometry="0.30102" constant="true"/>
+          <speciesReference species="M_phe__L_c" stoichiometry="0.16253" constant="true"/>
+          <speciesReference species="M_fe3_c" stoichiometry="0.034003042" constant="true"/>
+          <speciesReference species="M_amp_c" stoichiometry="0.133587054" constant="true"/>
+          <speciesReference species="M_10fthf_c" stoichiometry="0.0004" constant="true"/>
+          <speciesReference species="M_dcmp_c" stoichiometry="0.006649117" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="105.027303042" constant="true"/>
-          <speciesReference species="M_chor_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_ribflv_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_accoa_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_glu__L_c" stoichiometry="0.109910287" constant="true"/>
-          <speciesReference species="M_damp_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_dgmp_c" stoichiometry="0.023333636" constant="true"/>
-          <speciesReference species="M_dtmp_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_ile__L_c" stoichiometry="0.2894275" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_gly_c" stoichiometry="0.43255958" constant="true"/>
-          <speciesReference species="M_ala__L_c" stoichiometry="0.54554044" constant="true"/>
-          <speciesReference species="M_nadh_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_cl_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_lys__L_c" stoichiometry="0.336492138" constant="true"/>
-          <speciesReference species="M_asp__L_c" stoichiometry="0.23547196" constant="true"/>
-          <speciesReference species="M_gthrd_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_nadph_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_cmp_c" stoichiometry="0.079997015" constant="true"/>
-          <speciesReference species="M_arg__L_c" stoichiometry="0.194" constant="true"/>
-          <speciesReference species="M_gln__L_c" stoichiometry="0.683" constant="true"/>
-          <speciesReference species="M_ser__L_c" stoichiometry="0.19218254" constant="true"/>
-          <speciesReference species="M_nadp_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_thmpp_c" stoichiometry="0.029903042" constant="true"/>
-          <speciesReference species="M_met__L_c" stoichiometry="0.09015617" constant="true"/>
-          <speciesReference species="M_trp__L_c" stoichiometry="0.10888199" constant="true"/>
-          <speciesReference species="M_tyr__L_c" stoichiometry="0.176105203" constant="true"/>
-          <speciesReference species="M_cys__L_c" stoichiometry="0.11444242" constant="true"/>
-          <speciesReference species="M_ump_c" stoichiometry="0.0868052716" constant="true"/>
+          <speciesReference species="M_chor_c" stoichiometry="0.000223000000000001" constant="true"/>
+          <speciesReference species="M_ribflv_c" stoichiometry="0.000223000000000001" constant="true"/>
+          <speciesReference species="M_accoa_c" stoichiometry="0.000279000000000001" constant="true"/>
+          <speciesReference species="M_glu__L_c" stoichiometry="0.360645" constant="true"/>
+          <speciesReference species="M_damp_c" stoichiometry="0.00867143" constant="true"/>
+          <speciesReference species="M_dgmp_c" stoichiometry="0.006649117" constant="true"/>
+          <speciesReference species="M_dtmp_c" stoichiometry="0.00867143" constant="true"/>
+          <speciesReference species="M_glc__D_c" stoichiometry="0.010725" constant="true"/>
+          <speciesReference species="M_ile__L_c" stoichiometry="0.30553" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="0.0162" constant="true"/>
+          <speciesReference species="M_gly_c" stoichiometry="0.45663" constant="true"/>
+          <speciesReference species="M_ala__L_c" stoichiometry="0.57588994" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="0.029948042" constant="true"/>
+          <speciesReference species="M_lys__L_c" stoichiometry="0.35521" constant="true"/>
+          <speciesReference species="M_asp__L_c" stoichiometry="0.248575" constant="true"/>
+          <speciesReference species="M_gthrd_c" stoichiometry="0.000223000000000001" constant="true"/>
+          <speciesReference species="M_nadph_c" stoichiometry="0.003" constant="true"/>
+          <speciesReference species="M_cmp_c" stoichiometry="0.102432476" constant="true"/>
+          <speciesReference species="M_arg__L_c" stoichiometry="0.20505" constant="true"/>
+          <speciesReference species="M_gln__L_c" stoichiometry="0.360645" constant="true"/>
+          <speciesReference species="M_ser__L_c" stoichiometry="0.20287" constant="true"/>
+          <speciesReference species="M_nadp_c" stoichiometry="0.0047" constant="true"/>
+          <speciesReference species="M_met__L_c" stoichiometry="0.09317" constant="true"/>
+          <speciesReference species="M_trp__L_c" stoichiometry="0.11494" constant="true"/>
+          <speciesReference species="M_tyr__L_c" stoichiometry="0.11603" constant="true"/>
+          <speciesReference species="M_cys__L_c" stoichiometry="0.12081" constant="true"/>
+          <speciesReference species="M_ump_c" stoichiometry="0.1335870546" constant="true"/>
+          <speciesReference species="M_k_c" stoichiometry="0.7082" constant="true"/>
+          <speciesReference species="M_mg2_c" stoichiometry="0.098" constant="true"/>
+          <speciesReference species="M_ca2_c" stoichiometry="0.00315" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_succoa_c" stoichiometry="9.69579999999977e-05" constant="true"/>
+          <speciesReference species="M_thmpp_c" stoichiometry="0.000222999999999998" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="104.9974" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="104.9974" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="104.9856" constant="true"/>
@@ -47370,35 +47505,6 @@
         <listOfProducts>
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cdpdag_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="meta_R_GLYCNOR" sboTerm="SBO:0000176" id="R_GLYCNOR" name="Glycolate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Glycolate:NAD+ oxidoreductase</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_GLYCNOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.26"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.29"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00717"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_glyclt_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glx_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_B23DONOR" sboTerm="SBO:0000176" id="R_B23DONOR" name="(R,R)-Butane-2,3-diol:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -49501,6 +49607,150 @@
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_EX_k_e" sboTerm="SBO:0000627" id="R_EX_k_e" name="Potassium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_k_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_MG2t" sboTerm="SBO:0000185" id="R_MG2t" name="Magnesium transport via channel" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_mg2_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_mg2_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_mg2_e" sboTerm="SBO:0000627" id="R_EX_mg2_e" name="Magnesium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_mg2_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_CA2t" sboTerm="SBO:0000185" id="R_CA2t" name="Transport of calcium via antiport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ca2_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ca2_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_ca2_e" sboTerm="SBO:0000627" id="R_EX_ca2_e" name="Calcium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_ca2_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_RU5PHY" sboTerm="SBO:0000176" id="R_RU5PHY" name="Hydrolysis of L-Ribulose-5-phosphate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Added reaction to allow biomass formation. ATP is captured in GAM</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ru5p__L_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_rbl__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_XU5PHY" sboTerm="SBO:0000176" id="R_XU5PHY" name="Hydrolysis of L-Xylulose-5-phosphate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Added reaction to allow biomass formation. ATP is captured in GAM</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_xu5p__D_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_xylu__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_M6PHY" sboTerm="SBO:0000176" id="R_M6PHY" name="Hydrolysis of Mannose-6-phosphate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>NOTES: Added reaction to allow biomass formation. ATP is captured in GAM</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_man6p_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_man_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_GCALDD" sboTerm="SBO:0000176" id="R_GCALDD" name="Glycolaldehyde dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_GCALDD">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/GCALDD"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLYCOLALD-DEHYDROG-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.21"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01333"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100060"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/20004"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/20002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/20001"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/20003"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/434"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00979"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_gcald_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyclt_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_GLXCBL" sboTerm="SBO:0000176" id="R_GLXCBL" name="Glyoxalate carboligase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_GLXCBL">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/GLXCBL"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLYOCARBOLIG-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.1.47"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00013"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100303"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10138"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10139"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10137"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10136"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00010"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_glx_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hop_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50446,7 +50696,7 @@
           <groups:member groups:name="R01329" groups:idRef="R_EPMGH"/>
           <groups:member groups:name="R02926" groups:idRef="R_MELTGH"/>
           <groups:member groups:name="R06087" groups:idRef="R_SUCHY"/>
-          <groups:member groups:name="R06091" groups:idRef="R_MELIBHY"/>
+          <groups:member groups:name="R06091" groups:idRef="R_GALS3"/>
           <groups:member groups:name="R06096" groups:idRef="R_MANNHY"/>
           <groups:member groups:name="Tagatose-bisphosphate aldolase" groups:idRef="R_TGBPA"/>
         </groups:listOfMembers>
@@ -51274,7 +51524,6 @@
           <groups:member groups:name="R01900" groups:idRef="R_ACONTb"/>
           <groups:member groups:name="R02765" groups:idRef="R_MME"/>
           <groups:member groups:name="R08572" groups:idRef="R_GLYCK2"/>
-          <groups:member groups:name="Glycolate:NAD+ oxidoreductase" groups:idRef="R_GLYCNOR"/>
           <groups:member groups:name="hydroxypyruvate aldose-ketose-isomerase" groups:idRef="R_HPI"/>
           <groups:member groups:name="(R)-Glycerate:NAD+ oxidoreductase" groups:idRef="R_HOXPRm"/>
         </groups:listOfMembers>
