@@ -22811,7 +22811,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UDPGD" sboTerm="SBO:0000176" id="R_UDPGD" name="R00286" reversible="true" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UDPGD" sboTerm="SBO:0000176" id="R_UDPGD" name="R00286" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-glucose:NAD+ 6-oxidoreductase</p>
@@ -35684,10 +35684,14 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_2hmcnsad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_2hmc_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02207"/>
@@ -36859,7 +36863,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03795"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_SHSL1" sboTerm="SBO:0000176" id="R_SHSL1" name="R03260" reversible="true" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SHSL1" sboTerm="SBO:0000176" id="R_SHSL1" name="R03260" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O-Succinyl-L-homoserine succinate-lyase (adding cysteine)</p>
@@ -37045,6 +37049,7 @@
         <listOfProducts>
           <speciesReference species="M_uacmamu_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -46713,7 +46718,7 @@
           <speciesReference species="M_val__L_c" stoichiometry="0.42128" constant="true"/>
           <speciesReference species="M_thr__L_c" stoichiometry="0.30102" constant="true"/>
           <speciesReference species="M_phe__L_c" stoichiometry="0.16253" constant="true"/>
-          <speciesReference species="M_succoa_c" stoichiometry="9.80420000000023e-05" constant="true"/>
+          <speciesReference species="M_succoa_c" stoichiometry="9.80420000000023e-005" constant="true"/>
           <speciesReference species="M_fe3_c" stoichiometry="0.034003042" constant="true"/>
           <speciesReference species="M_amp_c" stoichiometry="0.133587054" constant="true"/>
           <speciesReference species="M_10fthf_c" stoichiometry="0.0004" constant="true"/>
