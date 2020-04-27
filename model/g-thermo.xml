@@ -22811,7 +22811,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UDPGD" sboTerm="SBO:0000176" id="R_UDPGD" name="R00286" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UDPGD" sboTerm="SBO:0000176" id="R_UDPGD" name="R00286" reversible="true" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: UDP-glucose:NAD+ 6-oxidoreductase</p>
@@ -36859,7 +36859,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03795"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_SHSL1" sboTerm="SBO:0000176" id="R_SHSL1" name="R03260" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SHSL1" sboTerm="SBO:0000176" id="R_SHSL1" name="R03260" reversible="true" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: O-Succinyl-L-homoserine succinate-lyase (adding cysteine)</p>
