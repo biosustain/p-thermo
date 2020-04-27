@@ -46734,7 +46734,6 @@
           <speciesReference species="M_nadh_c" stoichiometry="0.029948042" constant="true"/>
           <speciesReference species="M_lys__L_c" stoichiometry="0.35521" constant="true"/>
           <speciesReference species="M_asp__L_c" stoichiometry="0.248575" constant="true"/>
-          <speciesReference species="M_gthrd_c" stoichiometry="0.000223000000000001" constant="true"/>
           <speciesReference species="M_udpgal_c" stoichiometry="0.212236" constant="true"/>
           <speciesReference species="M_nadph_c" stoichiometry="0.003" constant="true"/>
           <speciesReference species="M_cmp_c" stoichiometry="0.102432476" constant="true"/>
@@ -46838,7 +46837,7 @@
           <speciesReference species="M_qh2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_gthrd_e" sboTerm="SBO:0000627" id="R_EX_gthrd_e" name="C00080 exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_gthrd_e" sboTerm="SBO:0000627" id="R_EX_gthrd_e" name="C00080 exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_gthrd_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
