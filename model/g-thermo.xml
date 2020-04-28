@@ -3815,26 +3815,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_phser_c" sboTerm="SBO:0000247" id="M_phser_c" name="O-Phosphorylhomoserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H10NO6P">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: O-Phosphorylhomoserine</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_phser_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21969"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05702"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM65196"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_selhcys_c" sboTerm="SBO:0000247" id="M_selhcys_c" name="Selenohomocysteine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H9NO2Se">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -41212,11 +41192,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_selcys_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_phser_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_phom_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_selcyst_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
