@@ -50159,6 +50159,61 @@
           </rdf:RDF>
         </annotation>
       </reaction>
+      <reaction metaid="meta_R_NADN" sboTerm="SBO:0000176" id="R_NADN" name="NAD nucleosidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_NADN">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/NADN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:NADNUCLEOSID-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-13859"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.5.1.-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.2.5"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/3.2.2.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00102"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR101888"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-8938076"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-8870346"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/16304"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/16302"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/16303"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/16301"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/683"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00075"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn13106"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn14307"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ncam_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adprib_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -52164,6 +52219,7 @@
           <groups:member groups:name="R03346" groups:idRef="R_NT5C"/>
           <groups:member groups:name="R03348" groups:idRef="R_NNDPR"/>
           <groups:member groups:name="R04292" groups:idRef="R_QULNS"/>
+          <groups:member groups:name="NAD nucleosidase" groups:idRef="R_NADN"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00770__32____45____32__Pantothenate__32__and__32__CoA__32__biosynthesis" groups:name="00770 - Pantothenate and CoA biosynthesis" groups:kind="collection">
