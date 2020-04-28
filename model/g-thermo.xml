@@ -39411,9 +39411,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_salcn_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_proNPhis_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_salcn6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_prohis_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
