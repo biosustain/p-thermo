@@ -35167,9 +35167,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_gam_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_proNPhis_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_gam6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_prohis_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -35349,9 +35351,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_mnl_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_proNPhis_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_mnl1p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_prohis_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01654"/>
