@@ -1800,7 +1800,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_acmum_c" sboTerm="SBO:0000247" id="M_acmum_c" name="N-Acetylmuramate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H18NO8">
+      <species metaid="meta_M_acmum_e" sboTerm="SBO:0000247" id="M_acmum_e" name="N-Acetylmuramate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H18NO8">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: N-Acetylmuramate; N-Acetyl-D-muramoate; N-Acetylmuramic acid;</p>
@@ -1808,7 +1808,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_acmum_c">
+            <rdf:Description rdf:about="#meta_M_acmum_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:21615"/>
@@ -44514,69 +44514,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ACMUMPT" sboTerm="SBO:0000176" id="R_ACMUMPT" name="R08559" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: protein-N(pi)-phosphohistidine:N-acetylmuramate 6-phosphotransferase</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_ACMUMPT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.1.192"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R08559"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR112093"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/33399"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_acmum_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_acmum6p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00973"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01418"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02654"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01653"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01633"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02850"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03199"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01763"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02849"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01651"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02649"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01416"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02653"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01652"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01785"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00511"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00506"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00292"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01761"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03198"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00881"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01492"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01417"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02809"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02812"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01493"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01762"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01415"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01045"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03200"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_GLYCK2" sboTerm="SBO:0000176" id="R_GLYCK2" name="R08572" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -49933,6 +49870,22 @@
           <speciesReference species="M_but_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction metaid="meta_R_ACMUMtpts" sboTerm="SBO:0000655" id="R_ACMUMtpts" name="Tansport of acmum via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_acmum_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_acmum6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_acmum_e" sboTerm="SBO:0000627" id="R_EX_acmum_e" name="N-Acetylmuramate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_acmum_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50758,6 +50711,7 @@
           <groups:member groups:name="Sulfate exchange" groups:idRef="R_EX_so4_e"/>
           <groups:member groups:name="3-Mercaptolactate exchange" groups:idRef="R_EX_mercplac_e"/>
           <groups:member groups:name="Butanoate exchange" groups:idRef="R_EX_but_e"/>
+          <groups:member groups:name="N-Acetylmuramate exchange" groups:idRef="R_EX_acmum_e"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00010__32____45____32__Glycolysis__32____47____32__Gluconeogenesis" groups:name="00010 - Glycolysis / Gluconeogenesis" groups:kind="collection">
@@ -51566,7 +51520,6 @@
           <groups:member groups:name="R03192" groups:idRef="R_UAPGR"/>
           <groups:member groups:name="R03317" groups:idRef="R_UACMAMO"/>
           <groups:member groups:name="R05332" groups:idRef="R_ACCOAT"/>
-          <groups:member groups:name="R08559" groups:idRef="R_ACMUMPT"/>
           <groups:member groups:name="R08555" groups:idRef="R_ACM6PH"/>
           <groups:member groups:name="UDP-sugar pyrophosphorylase " groups:idRef="R_ARAAT"/>
           <groups:member groups:name="L-arabinokinase" groups:idRef="R_ARAK"/>
@@ -52161,6 +52114,7 @@
           <groups:member groups:name="Transport of Maltose via PTS" groups:idRef="R_MALTtpts"/>
           <groups:member groups:name=" Transport of Trehalose via PTS" groups:idRef="R_TREtpts"/>
           <groups:member groups:name="Transport of tag__D via PTS" groups:idRef="R_TAGtpts"/>
+          <groups:member groups:name="Tansport of acmum via PTS" groups:idRef="R_ACMUMtpts"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Biomass__32__reaction" groups:name="Biomass reaction" groups:kind="collection">
