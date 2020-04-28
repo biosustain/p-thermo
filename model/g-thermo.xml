@@ -20964,6 +20964,31 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_isomal_e" sboTerm="SBO:0000247" id="M_isomal_e" name="Isomaltose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_isomal_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/isomal"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Isomaltose"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:24901"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28189"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:6026"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB02923"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/DLRVVLDZNNYCBX-RTPHMHGBSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00252"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G01318"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM58018"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5659875"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1993"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00217"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -50080,6 +50105,24 @@
           <speciesReference species="M_methylseac_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction metaid="meta_R_ISOMALtabc" sboTerm="SBO:0000185" id="R_ISOMALtabc" name="Transport of Isomaltose via ABC transports" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_isomal_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_isomal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_isomal_e" sboTerm="SBO:0000627" id="R_EX_isomal_e" name="Isomaltose exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_isomal_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50911,6 +50954,7 @@
           <groups:member groups:name="Epimelibiose exchange" groups:idRef="R_EX_epm_e"/>
           <groups:member groups:name="Methaneselenol exchange" groups:idRef="R_EX_mesel_e"/>
           <groups:member groups:name="Methylselenic acid exchange" groups:idRef="R_EX_methylseac_e"/>
+          <groups:member groups:name="Isomaltose exchange" groups:idRef="R_EX_isomal_e"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00010__32____45____32__Glycolysis__32____47____32__Gluconeogenesis" groups:name="00010 - Glycolysis / Gluconeogenesis" groups:kind="collection">
@@ -52300,6 +52344,7 @@
           <groups:member groups:name="Transport of D-Ribose via ABC transport" groups:idRef="R_RIB__Dtabc"/>
           <groups:member groups:name="Transport of Matlose via ABC" groups:idRef="R_MALTtabc"/>
           <groups:member groups:name="Transport of Selenate via ABC transport" groups:idRef="R_SELtabc"/>
+          <groups:member groups:name="Transport of Isomaltose via ABC transports" groups:idRef="R_ISOMALtabc"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_02060__32____45____32__Phosphotransferase__32__system__32____40__PTS__41__" groups:name="02060 - Phosphotransferase system (PTS)" groups:kind="collection">
