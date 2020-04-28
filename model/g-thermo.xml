@@ -2896,19 +2896,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_focytB561_c" sboTerm="SBO:0000247" id="M_focytB561_c" name="Ferricytochrome b-561" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="R">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_focytB561_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05183"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_selmeth_c" sboTerm="SBO:0000247" id="M_selmeth_c" name="L-Selenomethionine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H11NO2Se">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -8237,7 +8224,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_co_c" sboTerm="SBO:0000247" id="M_co_c" name="CO" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="CO">
+      <species metaid="meta_M_co_c" sboTerm="SBO:0000247" id="M_co_c" name="CO" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CO">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: CO; Carbon monoxide</p>
@@ -19621,25 +19608,6 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16992"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01146"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_fcytb5612_c" id="M_fcytb5612_c" name="Ferricytochrome b-561" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="R">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Ferricytochrome b-561</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_fcytb5612_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16078"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05305"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -40419,7 +40387,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04007"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_COOR" sboTerm="SBO:0000176" id="R_COOR" name="R04698" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_COOR" sboTerm="SBO:0000176" id="R_COOR" name="anaerobic carbon-monoxide dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: carbon monoxide, water:cytochrome b-561 oxidoreductase</p>
@@ -40441,13 +40409,13 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_focytB561_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_fdxox_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_fdxrd_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_fcytb5612_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
