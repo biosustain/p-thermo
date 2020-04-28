@@ -36854,9 +36854,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_fru_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_proNPhis_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_f1p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_prohis_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01653"/>
