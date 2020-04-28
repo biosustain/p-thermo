@@ -2083,7 +2083,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_slnt_c" sboTerm="SBO:0000247" id="M_slnt_c" name="Selenite" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="SeO3">
+      <species metaid="meta_M_slnt_c" sboTerm="SBO:0000247" id="M_slnt_c" name="Selenite" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="SeO3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Selenite</p>
@@ -20859,6 +20859,60 @@
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30772"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00246"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM162281"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_sel_c" sboTerm="SBO:0000247" id="M_sel_c" name="Selenate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="O4Se">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_sel_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/sel"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:SELENATE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26624"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18170"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15075"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9088"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:33490"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/7ce756a8-39aa-4c50-aa82-5a7c7fe07bdc"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB62761"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/QYHFIVBSNOWOCQ-UHFFFAOYSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05697"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM2282"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5357662"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/8071"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd03396"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_sel_e" sboTerm="SBO:0000247" id="M_sel_e" name="Selenate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="O4Se">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_sel_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/sel"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:SELENATE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26624"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18170"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15075"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9088"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:33490"/>
+                  <rdf:li rdf:resource="https://identifiers.org/envipath/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/7ce756a8-39aa-4c50-aa82-5a7c7fe07bdc"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB62761"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/QYHFIVBSNOWOCQ-UHFFFAOYSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05697"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM2282"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5357662"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/8071"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd03396"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -49891,6 +49945,51 @@
           <speciesReference species="M_cellulose_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction metaid="meta_R_SELR" sboTerm="SBO:0000176" id="R_SELR" name="Selenate reductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_SELR">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/SELR"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104323"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/34939"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/34940"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/34942"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/34941"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_sel_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ubiquin_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_slnt_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_SELtabc" sboTerm="SBO:0000185" id="R_SELtabc" name="Transport of Selenate via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_sel_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_sel_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_sel_e" sboTerm="SBO:0000627" id="R_EX_sel_e" name="Selenate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_sel_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50718,6 +50817,7 @@
           <groups:member groups:name="Butanoate exchange" groups:idRef="R_EX_but_e"/>
           <groups:member groups:name="N-Acetylmuramate exchange" groups:idRef="R_EX_acmum_e"/>
           <groups:member groups:name="cellulose exchange" groups:idRef="R_EX_cellulose_e"/>
+          <groups:member groups:name="Selenate exchange" groups:idRef="R_EX_sel_e"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00010__32____45____32__Glycolysis__32____47____32__Gluconeogenesis" groups:name="00010 - Glycolysis / Gluconeogenesis" groups:kind="collection">
@@ -52103,6 +52203,7 @@
           <groups:member groups:name="Transport of D-galactose via abc transport" groups:idRef="R_GALtabc"/>
           <groups:member groups:name="Transport of D-Ribose via ABC transport" groups:idRef="R_RIB__Dtabc"/>
           <groups:member groups:name="Transport of Matlose via ABC" groups:idRef="R_MALTtabc"/>
+          <groups:member groups:name="Transport of Selenate via ABC transport" groups:idRef="R_SELtabc"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_02060__32____45____32__Phosphotransferase__32__system__32____40__PTS__41__" groups:name="02060 - Phosphotransferase system (PTS)" groups:kind="collection">
