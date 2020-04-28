@@ -4001,7 +4001,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_choline_c" sboTerm="SBO:0000247" id="M_choline_c" name="Choline" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H14NO">
+      <species metaid="meta_M_chol_c" sboTerm="SBO:0000247" id="M_chol_c" name="Choline" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H14NO">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Chloride ion; Chloride; Cl-;</p>
@@ -4009,12 +4009,28 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_choline_c">
+            <rdf:Description rdf:about="#meta_M_chol_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17996"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00698"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM43"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/chol"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CHOLINE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:41524"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:23212"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15354"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13985"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:72322"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3665"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00097"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/OEYIOHPDSNJKLS-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00114"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D10498"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D07690"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM90"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/264618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/264638"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/6798162"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/1935"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00098"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -11722,7 +11738,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_betald_c" sboTerm="SBO:0000247" id="M_betald_c" name="Betaine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H12NO">
+      <species metaid="meta_M_betald_c" sboTerm="SBO:0000247" id="M_betald_c" name="Betaine aldehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H12NO">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Betaine aldehyde</p>
@@ -20983,6 +20999,41 @@
                   <rdf:li rdf:resource="https://identifiers.org/reactome.compound/5659875"/>
                   <rdf:li rdf:resource="https://identifiers.org/sabiork/1993"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00217"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_glyb_c" sboTerm="SBO:0000247" id="M_glyb_c" name="Glycine betaine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H11NO2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_glyb_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/glyb"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:BETAINE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27128"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:12531"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29050"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15264"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:24370"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:13895"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:41134"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:22858"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:41139"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:3073"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17750"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00043"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB59606"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/KWIUHFFTVRNATP-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00719"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.drug/D07523"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM289"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/352015"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.compound/6798202"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/5196"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00540"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -44579,7 +44630,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_choline_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_chol_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -44598,43 +44649,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_RTMO02626"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO01824"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO01820"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_BETALDOR" sboTerm="SBO:0000176" id="R_BETALDOR" name="R08558" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_BETALDOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R08558"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR112092"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_choline_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_betald_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00911"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02777"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01391"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00469"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02626"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01824"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02838"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO01820"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03537"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -50092,6 +50106,79 @@
           <speciesReference species="M_isomal_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction metaid="meta_R_BETALDHx" sboTerm="SBO:0000176" id="R_BETALDHx" name="Betaine-aldehyde dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_BETALDHx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/BETALDHx"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:BADH-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02565"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96237"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DDI-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SCE-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-6797955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/15305"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/15306"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/15308"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/15307"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/2478"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn01867"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_betald_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_glyb_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_BETALDHy" sboTerm="SBO:0000176" id="R_BETALDHy" name="Betaine-aldehyde dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_BETALDHy">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/BETALDHy"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02566"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96238"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/30070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/30069"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/30068"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/30067"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/2479"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn01868"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -51360,8 +51447,9 @@
           <groups:member groups:name="R04125" groups:idRef="R_GCCb"/>
           <groups:member groups:name="R04173" groups:idRef="R_PSERT"/>
           <groups:member groups:name="R08557" groups:idRef="R_CHOLD"/>
-          <groups:member groups:name="R08558" groups:idRef="R_BETALDOR"/>
           <groups:member groups:name="R08572" groups:idRef="R_GLYCK2"/>
+          <groups:member groups:name="Betaine-aldehyde dehydrogenase" groups:idRef="R_BETALDHx"/>
+          <groups:member groups:name="Betaine-aldehyde dehydrogenase" groups:idRef="R_BETALDHy"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00261__32____45____32__Monobactam__32__biosynthesis" groups:name="00261 - Monobactam biosynthesis" groups:kind="collection">
