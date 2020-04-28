@@ -49915,7 +49915,7 @@
           <speciesReference species="M_prohis_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_pyr_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_proNPhis_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
