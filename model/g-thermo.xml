@@ -129,7 +129,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_ps_cho_c" sboTerm="SBO:0000247" id="M_ps_cho_c" name="Phosphatidylserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H12NO10P">
+      <species metaid="meta_M_ps_cho_c" sboTerm="SBO:0000247" id="M_ps_cho_c" name="Phosphatidylserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H12NO10PR2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-1-Phosphatidylserine; 1,2-Diacyl-sn-glycerol 3-phospho-L-serine; O3-Phosphatidyl-L-serine; Phosphatidylserine; Phosphatidyl-L-serine; 3-O-sn-Phosphatidyl-L-serine;</p>
@@ -20857,7 +20857,7 @@
       <species metaid="meta_M_proNPhis_c" id="M_proNPhis_c" name="Protein N(pi)-phospho-L-histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H9N4O5PR2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ChEBIID:CHEBI:NaN</p>
+            <p>ChEBIID: CHEBI:NaN</p>
           </html>
         </notes>
         <annotation>
@@ -20873,7 +20873,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species id="M_prohis_c" name="prohis[c]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_prohis_c" name="prohis[c]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -34914,7 +34914,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_FBA2" sboTerm="SBO:0000176" id="R_FBA2" name="R02568" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_F1PL" sboTerm="SBO:0000176" id="R_F1PL" name="D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase</p>
@@ -34922,7 +34922,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FBA2">
+            <rdf:Description rdf:about="#meta_R_F1PL">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.2.13"/>
@@ -34938,7 +34938,7 @@
           <speciesReference species="M_f1p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glyald_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_dhap_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -46755,7 +46755,7 @@
           <speciesReference species="M_val__L_c" stoichiometry="0.42128" constant="true"/>
           <speciesReference species="M_thr__L_c" stoichiometry="0.30102" constant="true"/>
           <speciesReference species="M_phe__L_c" stoichiometry="0.16253" constant="true"/>
-          <speciesReference species="M_succoa_c" stoichiometry="9.80420000000023e-005" constant="true"/>
+          <speciesReference species="M_succoa_c" stoichiometry="9.80420000000023e-05" constant="true"/>
           <speciesReference species="M_fe3_c" stoichiometry="0.034003042" constant="true"/>
           <speciesReference species="M_amp_c" stoichiometry="0.133587054" constant="true"/>
           <speciesReference species="M_10fthf_c" stoichiometry="0.0004" constant="true"/>
@@ -50856,7 +50856,7 @@
           <groups:member groups:name="R01818" groups:idRef="R_MPPM"/>
           <groups:member groups:name="R01819" groups:idRef="R_MAN6PI"/>
           <groups:member groups:name="R02071" groups:idRef="R_FRUK"/>
-          <groups:member groups:name="R02568" groups:idRef="R_FBA2"/>
+          <groups:member groups:name="D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase" groups:idRef="R_F1PL"/>
           <groups:member groups:name="R02630" groups:idRef="R_MANPT"/>
           <groups:member groups:name="R02703" groups:idRef="R_M1PD"/>
           <groups:member groups:name="R02704" groups:idRef="R_MNLPT"/>
