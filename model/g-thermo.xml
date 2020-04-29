@@ -19613,7 +19613,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_hacc_c" id="M_hacc_c" name="Hydrogen-acceptor" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="HR">
+      <species metaid="meta_M_hacc_c" id="M_hacc_c" name="Hydrogen-acceptor" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogen-acceptor;; Oxidized donor; Acceptor;; A;</p>
@@ -19624,8 +19624,8 @@
             <rdf:Description rdf:about="#meta_M_hacc_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17499"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00030"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15339"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00028"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20679,48 +20679,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/reactome.compound/6809360"/>
                   <rdf:li rdf:resource="https://identifiers.org/sabiork/1672"/>
                   <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00045"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_acc_c" id="M_acc_c" name="Acceptor" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="R">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_acc_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15339"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00028"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_acc2_c" id="M_acc2_c" name="Acceptor 2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="R">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_acc2_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15339"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00028"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_hacc2_c" id="M_hacc2_c" name="Hydrogen-Acceptor 2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="HR">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_hacc2_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17499"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00030"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -37741,14 +37699,12 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
+          <speciesReference species="M_pyridoxal_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_selcys_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_hacc2_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_seln_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ala__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_acc2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -47531,7 +47487,7 @@
           <speciesReference species="M_acald_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_ACEDIA" sboTerm="SBO:0000176" id="R_ACEDIA" name="Acetolactate to Diacetyl" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACEDIA" sboTerm="SBO:0000176" id="R_ACEDIA" name="Acetolactate to Diacetyl" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: non-enzymatic; flavin, nicotinamide and quinone coenzymes act as acceptor</p>
@@ -47550,10 +47506,10 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_alac__S_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_acc_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_diact_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_hacc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -49543,36 +49499,6 @@
         <listOfProducts>
           <speciesReference species="M_amp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="meta_R_ACCR" sboTerm="SBO:0000176" id="R_ACCR" name="acceptor regeneration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NOTES: Assumed regeneration with NADH</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_hacc_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_acc_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="meta_R_ACCR2" sboTerm="SBO:0000176" id="R_ACCR2" name="acceptor regeneration variant 2" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NOTES: Assumed regeneration with NADPH</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_acc2_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_hacc2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
     </listOfReactions>
