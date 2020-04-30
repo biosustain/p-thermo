@@ -47628,6 +47628,7 @@
       </reaction>
       <reaction metaid="meta_R_biomass" sboTerm="SBO:0000629" id="R_biomass" name="biomass" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
+          <speciesReference species="M_pydx5p_c" stoichiometry="0.000223" constant="true"/>
           <speciesReference species="M_h2o_c" stoichiometry="104.9974" constant="true"/>
           <speciesReference species="M_qh2_c" stoichiometry="0.000300000000000002" constant="true"/>
           <speciesReference species="M_fru_c" stoichiometry="0.117367" constant="true"/>
@@ -47646,6 +47647,7 @@
           <speciesReference species="M_phe__L_c" stoichiometry="0.16253" constant="true"/>
           <speciesReference species="M_succoa_c" stoichiometry="9.80420000000023e-05" constant="true"/>
           <speciesReference species="M_fe3_c" stoichiometry="0.034003042" constant="true"/>
+          <speciesReference species="M_amet_c" stoichiometry="0.000223" constant="true"/>
           <speciesReference species="M_amp_c" stoichiometry="0.133587054" constant="true"/>
           <speciesReference species="M_10fthf_c" stoichiometry="0.0004" constant="true"/>
           <speciesReference species="M_dcmp_c" stoichiometry="0.006649117" constant="true"/>
@@ -47668,6 +47670,7 @@
           <speciesReference species="M_udpgal_c" stoichiometry="0.212236" constant="true"/>
           <speciesReference species="M_nadph_c" stoichiometry="0.003" constant="true"/>
           <speciesReference species="M_cmp_c" stoichiometry="0.102432476" constant="true"/>
+          <speciesReference species="M_fmn_c" stoichiometry="0.000223" constant="true"/>
           <speciesReference species="M_arg__L_c" stoichiometry="0.20505" constant="true"/>
           <speciesReference species="M_gln__L_c" stoichiometry="0.360645" constant="true"/>
           <speciesReference species="M_ser__L_c" stoichiometry="0.20287" constant="true"/>
