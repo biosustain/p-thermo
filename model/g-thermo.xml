@@ -47830,11 +47830,6 @@
           <speciesReference species="M_gthrd_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_nadp_e" sboTerm="SBO:0000627" id="R_EX_nadp_e" name="C00080 exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_nadp_e" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-      </reaction>
       <reaction metaid="meta_R_EX_Biomass_e" sboTerm="SBO:0000627" id="R_EX_Biomass_e" name="Biomass exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_Biomass_e" stoichiometry="1" constant="true"/>
@@ -48852,14 +48847,6 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_thmtp_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="meta_R_NADPt" sboTerm="SBO:0000185" id="R_NADPt" name="Transport of metabolite nadp_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_nadp_e" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_GLC__Dtpts" sboTerm="SBO:0000655" id="R_GLC__Dtpts" name="D-Glucose PTS transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -52518,7 +52505,6 @@
           <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_pydx5p_e"/>
           <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_qh2_e"/>
           <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_gthrd_e"/>
-          <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_nadp_e"/>
           <groups:member groups:name="Biomass exchange" groups:idRef="R_EX_Biomass_e"/>
           <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_gal_e"/>
           <groups:member groups:name="C00080 exchange" groups:idRef="R_EX_etoh_e"/>
@@ -53919,7 +53905,6 @@
           <groups:member groups:name="Transport of metabolite gthrd_e" groups:idRef="R_GTHRDt"/>
           <groups:member groups:name="Transport of metabolite Biomass_e" groups:idRef="R_BIOMASSt"/>
           <groups:member groups:name="Transport of metabolite thmtp_e" groups:idRef="R_THMTPt"/>
-          <groups:member groups:name="Transport of metabolite nadp_e" groups:idRef="R_NADPt"/>
           <groups:member groups:name=" Transport of Glycerol, passive" groups:idRef="R_GLYCt"/>
           <groups:member groups:name="Transport of L-rhamnose passively" groups:idRef="R_RMNt"/>
           <groups:member groups:name="Transport of Melibiose via passive transport" groups:idRef="R_MELIBt"/>
