@@ -21886,35 +21886,35 @@
       <species metaid="meta_M_proNPhis_c" sboTerm="SBO:0000247" id="M_proNPhis_c" name="Protein N(pi)-phospho-L-histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H8N4O5PR2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-          <p>ChEBIID: CHEBI:NaN</p>
-        </html>
-      </notes>
-      <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-          <rdf:Description rdf:about="#meta_M_proNPhis_c">
-            <bqbiol:is>
-              <rdf:Bag>
-                <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04261"/>
-                <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/6926"/>
-              </rdf:Bag>
-            </bqbiol:is>
-          </rdf:Description>
-        </rdf:RDF>
-      </annotation>
-    </species>
-    <species metaid="meta_M_prohis_c" sboTerm="SBO:0000247" id="M_prohis_c" name="prohis[c]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H8N4O2R2">
-      <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-          <rdf:Description rdf:about="#meta_M_prohis_c">
-            <bqbiol:is>
-              <rdf:Bag>
-                <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00615"/>
-              </rdf:Bag>
-            </bqbiol:is>
-          </rdf:Description>
-        </rdf:RDF>
-      </annotation>
-    </species>
+            <p>ChEBIID: CHEBI:NaN</p>
+          </html>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_proNPhis_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04261"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/6926"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_prohis_c" sboTerm="SBO:0000247" id="M_prohis_c" name="prohis[c]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H8N4O2R2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_prohis_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00615"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -33251,6 +33251,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_ser__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cdpdag_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -38123,7 +38124,6 @@
         <listOfProducts>
           <speciesReference species="M_uacmamu_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -51708,7 +51708,18 @@
           <speciesReference species="M_hacc2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_R_PROPIRE" sboTerm="SBO:0000176" id="R_R_PROPIRE" name="R_PROPIRE" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PROPIRE" sboTerm="SBO:0000176" id="R_PROPIRE" name="phosphoenolpyruvate-protein phosphotransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_PROPIRE">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02628"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_pep_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_prohis_c" stoichiometry="1" constant="true"/>
@@ -53969,7 +53980,7 @@
       </groups:group>
       <groups:group groups:id="G___123__c__125__" groups:name="{c}" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="R_PROPIRE" groups:idRef="R_R_PROPIRE"/>
+          <groups:member groups:name="phosphoenolpyruvate-protein phosphotransferase" groups:idRef="R_PROPIRE"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
