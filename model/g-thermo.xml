@@ -1483,7 +1483,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_stys_c" sboTerm="SBO:0000247" id="M_stys_c" name="Stachyose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C24H42O21">
+      <species metaid="meta_M_stys_c" sboTerm="SBO:0000247" id="M_stys_c" name="G00278" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C24H42O21">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Manninotriose</p>
@@ -1494,7 +1494,7 @@
             <rdf:Description rdf:about="#meta_M_stys_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00278"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.glycan/G00501"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM61111"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -22081,13 +22081,13 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02070"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MALHYDRO" sboTerm="SBO:0000176" id="R_MALHYDRO" name="maltose glucohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MALHYDRO" sboTerm="SBO:0000176" id="R_MALHYDRO" name="R00028" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MALHYDRO">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R07461"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25490,7 +25490,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04039"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AKGDEHY" sboTerm="SBO:0000176" id="R_AKGDEHY" name="oxoglutarate dehydrogenase (succinyl-transferring)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AKGDEHY" sboTerm="SBO:0000176" id="R_AKGDEHY" name="R00621" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_AKGDEHY">
@@ -30970,7 +30970,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_OMCDC" sboTerm="SBO:0000176" id="R_OMCDC" name="3-isopropylmalate dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_OMCDC" sboTerm="SBO:0000176" id="R_OMCDC" name="R01652" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_OMCDC">
@@ -31974,7 +31974,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DHORD6" sboTerm="SBO:0000176" id="R_DHORD6" name="dihydroorotate dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DHORD6" sboTerm="SBO:0000176" id="R_DHORD6" name="R01867" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_DHORD6">
@@ -34622,7 +34622,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01099"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DRBK" sboTerm="SBO:0000176" id="R_DRBK" name="ribokinase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+      <reaction metaid="meta_R_DRBK" sboTerm="SBO:0000176" id="R_DRBK" name="R02750" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_DRBK">
@@ -34704,7 +34704,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01130"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_TREPT" sboTerm="SBO:0000176" id="R_TREPT" name="protein-Npi-phosphohistidine-sugar phosphotransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_TREPT" sboTerm="SBO:0000176" id="R_TREPT" name="R02780" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_TREPT">
@@ -35748,7 +35748,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03625"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AHETHMPPR" sboTerm="SBO:0000176" id="R_AHETHMPPR" name="pyruvate dehydrogenase (acetyl-transferring)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AHETHMPPR" sboTerm="SBO:0000176" id="R_AHETHMPPR" name="R03270" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_AHETHMPPR">
@@ -35809,7 +35809,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02636"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HC01435R" sboTerm="SBO:0000176" id="R_HC01435R" name="oxoglutarate dehydrogenase (succinyl-transferring)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HC01435R" sboTerm="SBO:0000176" id="R_HC01435R" name="R03316" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_HC01435R">
@@ -35911,7 +35911,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_G5SADs" sboTerm="SBO:0000176" id="R_G5SADs" name="L-glutamate 5-semialdehyde dehydratase (spontaneous)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_G5SADs" sboTerm="SBO:0000176" id="R_G5SADs" name="R03314" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_G5SADs">
@@ -35963,7 +35963,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02378"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MMTSAOR" sboTerm="SBO:0000176" id="R_MMTSAOR" name="L-Methylmalonyl-CoA Dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MMTSAOR" sboTerm="SBO:0000176" id="R_MMTSAOR" name="R03381" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MMTSAOR">
@@ -36390,7 +36390,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03792"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ALCD4" sboTerm="SBO:0000176" id="R_ALCD4" name="Butanal dehydrogenase (NADH)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ALCD4" sboTerm="SBO:0000176" id="R_ALCD4" name="R03544" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ALCD4">
@@ -36433,7 +36433,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ALCD4y" sboTerm="SBO:0000176" id="R_ALCD4y" name="Butanal dehydrogenase (NADPH)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ALCD4y" sboTerm="SBO:0000176" id="R_ALCD4y" name="R03545" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ALCD4y">
@@ -36892,7 +36892,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02154"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_4OT" sboTerm="SBO:0000176" id="R_4OT" name="hydroxymuconate tautomerase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_4OT" sboTerm="SBO:0000176" id="R_4OT" name="R03966" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_4OT">
@@ -37788,7 +37788,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00387"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_FGFTh" sboTerm="SBO:0000176" id="R_FGFTh" name="phosphoribosylglycinamide formyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_FGFTh" sboTerm="SBO:0000176" id="R_FGFTh" name="R04326" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_FGFTh">
@@ -38264,7 +38264,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_APTA1i" sboTerm="SBO:0000176" id="R_APTA1i" name="N-Acetyl-L-2-amino-6-oxopimelate transaminase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_APTA1i" sboTerm="SBO:0000176" id="R_APTA1i" name="R04467" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_APTA1i">
@@ -38378,7 +38378,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02907"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_IG3PS" sboTerm="SBO:0000176" id="R_IG3PS" name="Imidazole-glycerol-3-phosphate synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_IG3PS" sboTerm="SBO:0000176" id="R_IG3PS" name="R04558" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_IG3PS">
@@ -38523,7 +38523,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00381"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_RZ5PP" sboTerm="SBO:0000176" id="R_RZ5PP" name="Alpha-ribazole 5-phosphate phosphatase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_RZ5PP" sboTerm="SBO:0000176" id="R_RZ5PP" name="R04594" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_RZ5PP">
@@ -39392,7 +39392,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03881"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UPP1S" sboTerm="SBO:0000176" id="R_UPP1S" name="Hydroxymethylbilane breakdown (spontaneous) " reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UPP1S" sboTerm="SBO:0000176" id="R_UPP1S" name="R03166" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_UPP1S">
@@ -39949,7 +39949,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02147"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ADOCBIK" sboTerm="SBO:0000176" id="R_ADOCBIK" name="Adenosyl cobinamide kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ADOCBIK" sboTerm="SBO:0000176" id="R_ADOCBIK" name="R05221" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ADOCBIK">
@@ -39977,7 +39977,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01031"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ACBIPGT" sboTerm="SBO:0000176" id="R_ACBIPGT" name="Adenosyl cobinamide phosphate guanyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACBIPGT" sboTerm="SBO:0000176" id="R_ACBIPGT" name="R05222" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ACBIPGT">
@@ -40004,7 +40004,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01031"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ADOCBLS" sboTerm="SBO:0000176" id="R_ADOCBLS" name="Adenosylcobalamin 5-phosphate synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ADOCBLS" sboTerm="SBO:0000176" id="R_ADOCBLS" name="R05223" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ADOCBLS">
@@ -40032,7 +40032,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01030"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HGBYR" sboTerm="SBO:0000176" id="R_HGBYR" name="hydrogenobyrinic acid a,c-diamide synthase (glutamine-hydrolysing)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HGBYR" sboTerm="SBO:0000176" id="R_HGBYR" name="R05224" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_HGBYR">
@@ -40064,7 +40064,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02151"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ACDAH" sboTerm="SBO:0000176" id="R_ACDAH" name="adenosylcobyric acid synthase (glutamine-hydrolysing)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ACDAH" sboTerm="SBO:0000176" id="R_ACDAH" name="R05225" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ACDAH">
@@ -40096,10 +40096,10 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02150"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_P6AS" sboTerm="SBO:0000176" id="R_P6AS" name="precorrin-6A synthase (deacetylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_R05219" sboTerm="SBO:0000176" id="R_R05219" name="R05219" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_P6AS">
+            <rdf:Description rdf:about="#meta_R_R05219">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/2.1.1.152"/>
@@ -40384,7 +40384,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04865"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HBCOAH" sboTerm="SBO:0000176" id="R_HBCOAH" name="enoyl-CoA hydratase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HBCOAH" sboTerm="SBO:0000176" id="R_HBCOAH" name="R05595" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_HBCOAH">
@@ -40415,7 +40415,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HEPDPP" sboTerm="SBO:0000176" id="R_HEPDPP" name="Octaprenyl diphosphate synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HEPDPP" sboTerm="SBO:0000176" id="R_HEPDPP" name="R05611" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_HEPDPP">
@@ -40445,7 +40445,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HEXTT" sboTerm="SBO:0000176" id="R_HEXTT" name="Heptaprenyl synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HEXTT" sboTerm="SBO:0000176" id="R_HEXTT" name="R05612" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_HEXTT">
@@ -40476,7 +40476,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PPTT" sboTerm="SBO:0000176" id="R_PPTT" name="Hexaprenyl synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PPTT" sboTerm="SBO:0000176" id="R_PPTT" name="R05613" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_PPTT">
@@ -41075,7 +41075,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01764"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MANNHY" sboTerm="SBO:0000176" id="R_MANNHY" name="Manninotriose hydrolysis" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MANNHY" sboTerm="SBO:0000176" id="R_MANNHY" name="R06096" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MANNHY">
@@ -41153,7 +41153,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02808"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_STACHY2" sboTerm="SBO:0000176" id="R_STACHY2" name="Stachyose hydrolysis" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_STACHY2" sboTerm="SBO:0000176" id="R_STACHY2" name="R06152" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_STACHY2">
@@ -41322,7 +41322,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01032"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ADOCBIP" sboTerm="SBO:0000176" id="R_ADOCBIP" name="adenosylcobinamide kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ADOCBIP" sboTerm="SBO:0000176" id="R_ADOCBIP" name="R06558" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ADOCBIP">
@@ -41678,7 +41678,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PMDPHT" sboTerm="SBO:0000176" id="R_PMDPHT" name="Pyrimidine phosphatase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_PMDPHT" sboTerm="SBO:0000176" id="R_PMDPHT" name="R07280" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_PMDPHT">
@@ -41766,7 +41766,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01033"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ARAT" sboTerm="SBO:0000176" id="R_ARAT" name="aromatic-amino-acid transaminase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_ARAT" sboTerm="SBO:0000176" id="R_ARAT" name="R07396" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ARAT">
@@ -41942,7 +41942,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MOD" sboTerm="SBO:0000176" id="R_MOD" name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MOD" sboTerm="SBO:0000176" id="R_MOD" name="R07599" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MOD">
@@ -41972,7 +41972,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MHOPT" sboTerm="SBO:0000176" id="R_MHOPT" name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MHOPT" sboTerm="SBO:0000176" id="R_MHOPT" name="R07600" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MHOPT">
@@ -42001,7 +42001,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MOD_4mop" sboTerm="SBO:0000176" id="R_MOD_4mop" name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MOD_4mop" sboTerm="SBO:0000176" id="R_MOD_4mop" name="R07601" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MOD_4mop">
@@ -42031,7 +42031,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MHTPPT" sboTerm="SBO:0000176" id="R_MHTPPT" name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MHTPPT" sboTerm="SBO:0000176" id="R_MHTPPT" name="R07602" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MHTPPT">
@@ -42060,7 +42060,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MOD_3mop" sboTerm="SBO:0000176" id="R_MOD_3mop" name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MOD_3mop" sboTerm="SBO:0000176" id="R_MOD_3mop" name="R07603" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MOD_3mop">
@@ -42090,7 +42090,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_MHOBT" sboTerm="SBO:0000176" id="R_MHOBT" name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MHOBT" sboTerm="SBO:0000176" id="R_MHOBT" name="R07604" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_MHOBT">
@@ -42151,7 +42151,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_CBMKr" sboTerm="SBO:0000176" id="R_CBMKr" name="carbamoyl-phosphate synthase (ammonia)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CBMKr" sboTerm="SBO:0000176" id="R_CBMKr" name="R07641" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_CBMKr">
@@ -42266,7 +42266,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00109"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_DMPPOR" sboTerm="SBO:0000176" id="R_DMPPOR" name="4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_DMPPOR" sboTerm="SBO:0000176" id="R_DMPPOR" name="R08210" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_DMPPOR">
@@ -42333,7 +42333,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_CHOLD" sboTerm="SBO:0000176" id="R_CHOLD" name="Choline dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CHOLD" sboTerm="SBO:0000176" id="R_CHOLD" name="R08557" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_CHOLD">
@@ -42955,7 +42955,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_AMACT" sboTerm="SBO:0000176" id="R_AMACT" name="beta-ketoacyl-[acyl-carrier-protein] synthase III" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_AMACT" sboTerm="SBO:0000176" id="R_AMACT" name="R10707" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_AMACT">
@@ -43784,7 +43784,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_HDEACPT" sboTerm="SBO:0000176" id="R_HDEACPT" name="beta-ketoacyl-[acyl-carrier-protein] synthase I" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_HDEACPT" sboTerm="SBO:0000176" id="R_HDEACPT" name="R07762" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_HDEACPT">
@@ -43814,7 +43814,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_OXSTACPOR" sboTerm="SBO:0000176" id="R_OXSTACPOR" name="L-xylulose reductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_OXSTACPOR" sboTerm="SBO:0000176" id="R_OXSTACPOR" name="R07763" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_OXSTACPOR">
@@ -43842,7 +43842,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_3HAD180" sboTerm="SBO:0000176" id="R_3HAD180" name="3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_3HAD180" sboTerm="SBO:0000176" id="R_3HAD180" name="R07764" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_3HAD180">
@@ -49144,7 +49144,7 @@
           <groups:member groups:name="D-phosphoglycerate 2,3-phosphomutase" groups:idRef="R_PGM"/>
           <groups:member groups:name="acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase" groups:idRef="R_ACENLAT"/>
           <groups:member groups:name="Hexokinase (D-glucose:ATP)" groups:idRef="R_HEX1"/>
-          <groups:member groups:name="pyruvate dehydrogenase (acetyl-transferring)" groups:idRef="R_AHETHMPPR"/>
+          <groups:member groups:name="R03270" groups:idRef="R_AHETHMPPR"/>
           <groups:member groups:name="protein-N(pi)-phosphohistidine:salicin 6-phosphotransferase" groups:idRef="R_SALCNPT"/>
           <groups:member groups:name="ATP:D-fructose-6-phosphate 1-phosphotransferase" groups:idRef="R_PFK"/>
           <groups:member groups:name="beta-D-Fructose 1,6-bisphosphate 1-phosphohydrolase" groups:idRef="R_FBP"/>
@@ -49163,14 +49163,14 @@
           <groups:member groups:name="acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)" groups:idRef="R_CS"/>
           <groups:member groups:name="Succinate:CoA ligase (ADP-forming)" groups:idRef="R_SUCOAS"/>
           <groups:member groups:name="succinate:quinone oxidoreductase" groups:idRef="R_SUCDi"/>
-          <groups:member groups:name="oxoglutarate dehydrogenase (succinyl-transferring)" groups:idRef="R_AKGDEHY"/>
+          <groups:member groups:name="R00621" groups:idRef="R_AKGDEHY"/>
           <groups:member groups:name="(S)-malate hydro-lyase (fumarate-forming)" groups:idRef="R_FUM"/>
           <groups:member groups:name="citrate hydro-lyase (cis-aconitate-forming)" groups:idRef="R_ACONTa"/>
           <groups:member groups:name="isocitrate hydro-lyase (cis-aconitate-forming)" groups:idRef="R_ACONTb"/>
           <groups:member groups:name="acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase" groups:idRef="R_ACENLAT"/>
           <groups:member groups:name="succinyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-succinyltransferase" groups:idRef="R_SCENLAT"/>
-          <groups:member groups:name="pyruvate dehydrogenase (acetyl-transferring)" groups:idRef="R_AHETHMPPR"/>
-          <groups:member groups:name="oxoglutarate dehydrogenase (succinyl-transferring)" groups:idRef="R_HC01435R"/>
+          <groups:member groups:name="R03270" groups:idRef="R_AHETHMPPR"/>
+          <groups:member groups:name="R03316" groups:idRef="R_HC01435R"/>
           <groups:member groups:name="enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase" groups:idRef="R_EN6LYOR"/>
           <groups:member groups:name="(S)-malate:quinone oxidoreductase" groups:idRef="R_MDH2"/>
           <groups:member groups:name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" groups:idRef="R_OOR3r"/>
@@ -49192,7 +49192,7 @@
           <groups:member groups:name="sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase" groups:idRef="R_TALA"/>
           <groups:member groups:name="beta-D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase" groups:idRef="R_TKT2"/>
           <groups:member groups:name="2-deoxy-D-ribose 1-phosphate 1,5-phosphomutase" groups:idRef="R_PPM2"/>
-          <groups:member groups:name="ribokinase" groups:idRef="R_DRBK"/>
+          <groups:member groups:name="R02750" groups:idRef="R_DRBK"/>
           <groups:member groups:name="ATP:D-fructose-6-phosphate 1-phosphotransferase" groups:idRef="R_PFK"/>
           <groups:member groups:name="beta-D-Fructose 1,6-bisphosphate 1-phosphohydrolase" groups:idRef="R_FBP"/>
           <groups:member groups:name="D-arabino-hex-3-ulose-6-phosphate formaldehyde-lyase (D-ribulose-5-phosphate-forming)" groups:idRef="R_RU5PL"/>
@@ -49249,7 +49249,7 @@
           <groups:member groups:name="Melibiitol galactohydrolase" groups:idRef="R_MELTGH"/>
           <groups:member groups:name="sucrose glucohydrolase" groups:idRef="R_SUCHY"/>
           <groups:member groups:name="melibiose galactohydrolase" groups:idRef="R_GALS3"/>
-          <groups:member groups:name="Manninotriose hydrolysis" groups:idRef="R_MANNHY"/>
+          <groups:member groups:name="R06096" groups:idRef="R_MANNHY"/>
           <groups:member groups:name="Tagatose-bisphosphate aldolase" groups:idRef="R_TGBPA"/>
         </groups:listOfMembers>
       </groups:group>
@@ -49264,7 +49264,7 @@
           <groups:member groups:name="acetyl-CoA:carbon-dioxide ligase (ADP-forming)" groups:idRef="R_ACCOAC"/>
           <groups:member groups:name="acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase" groups:idRef="R_ACOATA"/>
           <groups:member groups:name="Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" groups:idRef="R_KAS14"/>
-          <groups:member groups:name="beta-ketoacyl-[acyl-carrier-protein] synthase III" groups:idRef="R_AMACT"/>
+          <groups:member groups:name="R10707" groups:idRef="R_AMACT"/>
           <groups:member groups:name="Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase" groups:idRef="R_MCOATA"/>
           <groups:member groups:name="(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase" groups:idRef="R_3HAD40_1"/>
           <groups:member groups:name="butyryl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_BUTACPOR"/>
@@ -49292,9 +49292,9 @@
           <groups:member groups:name="(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase" groups:idRef="R_3OAR160"/>
           <groups:member groups:name="(3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase" groups:idRef="R_3HAD160"/>
           <groups:member groups:name="hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_OPALMACPOR"/>
-          <groups:member groups:name="beta-ketoacyl-[acyl-carrier-protein] synthase I" groups:idRef="R_HDEACPT"/>
-          <groups:member groups:name="L-xylulose reductase" groups:idRef="R_OXSTACPOR"/>
-          <groups:member groups:name="3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)" groups:idRef="R_3HAD180"/>
+          <groups:member groups:name="R07762" groups:idRef="R_HDEACPT"/>
+          <groups:member groups:name="R07763" groups:idRef="R_OXSTACPOR"/>
+          <groups:member groups:name="R07764" groups:idRef="R_3HAD180"/>
           <groups:member groups:name="octadecanoyl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_TOCTDACPOR"/>
         </groups:listOfMembers>
       </groups:group>
@@ -49486,7 +49486,7 @@
           <groups:member groups:name="ATP:dCMP phosphotransferase" groups:idRef="R_CYTK2"/>
           <groups:member groups:name="ATP:deoxycitidine 5-phosphotransferase" groups:idRef="R_ADADir"/>
           <groups:member groups:name="dCMP aminohydrolase" groups:idRef="R_DCMPDA"/>
-          <groups:member groups:name="dihydroorotate dehydrogenase" groups:idRef="R_DHORD6"/>
+          <groups:member groups:name="R01867" groups:idRef="R_DHORD6"/>
           <groups:member groups:name="Orotidine-5-phosphate:diphosphate phospho-alpha-D-ribosyl-transferase" groups:idRef="R_ORPT"/>
           <groups:member groups:name="Cytidine aminohydrolase" groups:idRef="R_CYTD"/>
           <groups:member groups:name="(S)-dihydroorotate amidohydrolase" groups:idRef="R_DHORTS"/>
@@ -49561,7 +49561,7 @@
           <groups:member groups:name="dihydrolipoylprotein:NAD+ oxidoreductase" groups:idRef="R_GCCc"/>
           <groups:member groups:name="S-aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase (ammonia-forming)" groups:idRef="R_GCCb"/>
           <groups:member groups:name="3-Phosphoserine:2-oxoglutarate aminotransferase" groups:idRef="R_PSERT"/>
-          <groups:member groups:name="Choline dehydrogenase" groups:idRef="R_CHOLD"/>
+          <groups:member groups:name="R08557" groups:idRef="R_CHOLD"/>
           <groups:member groups:name="ATP:(R)-glycerate 2-phosphotransferase" groups:idRef="R_GLYCK2"/>
           <groups:member groups:name="Betaine-aldehyde dehydrogenase" groups:idRef="R_BETALDHx"/>
           <groups:member groups:name="Betaine-aldehyde dehydrogenase" groups:idRef="R_BETALDHy"/>
@@ -49615,7 +49615,7 @@
           <groups:member groups:name="2,3-diketo-5-methylthiopentyl-1-phosphate keto---enol-isomerase" groups:idRef="R_23DK5MPPISO"/>
           <groups:member groups:name="2-hydroxy-5-(methylthio)-3-oxopent-1-enyl phosphate phosphohydrolase" groups:idRef="R_2OH3K5MPPISO"/>
           <groups:member groups:name="1,2-dihydroxy-5-(methylthio)pent-1-en-3-one:oxygen oxidoreductase (formate-forming)" groups:idRef="R_ACDO"/>
-          <groups:member groups:name="aromatic-amino-acid transaminase" groups:idRef="R_ARAT"/>
+          <groups:member groups:name="R07396" groups:idRef="R_ARAT"/>
           <groups:member groups:name="O3-acetyl-L-serine:L-homocysteine S-(2-amino-2-carboxyethyl)transferase" groups:idRef="R_ACSERT"/>
         </groups:listOfMembers>
       </groups:group>
@@ -49645,12 +49645,12 @@
           <groups:member groups:name="R04098" groups:idRef="R_BCFASYN3"/>
           <groups:member groups:name="(2S,3S)-3-hydroxy-2-methylbutanoyl-CoA:NAD+ oxidoreductase" groups:idRef="R_HACD9"/>
           <groups:member groups:name="(2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA hydro-liase" groups:idRef="R_ECOAH9ir"/>
-          <groups:member groups:name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" groups:idRef="R_MOD"/>
-          <groups:member groups:name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" groups:idRef="R_MHOPT"/>
-          <groups:member groups:name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" groups:idRef="R_MOD_4mop"/>
-          <groups:member groups:name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" groups:idRef="R_MHTPPT"/>
-          <groups:member groups:name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" groups:idRef="R_MOD_3mop"/>
-          <groups:member groups:name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" groups:idRef="R_MHOBT"/>
+          <groups:member groups:name="R07599" groups:idRef="R_MOD"/>
+          <groups:member groups:name="R07600" groups:idRef="R_MHOPT"/>
+          <groups:member groups:name="R07601" groups:idRef="R_MOD_4mop"/>
+          <groups:member groups:name="R07602" groups:idRef="R_MHTPPT"/>
+          <groups:member groups:name="R07603" groups:idRef="R_MOD_3mop"/>
+          <groups:member groups:name="R07604" groups:idRef="R_MHOBT"/>
           <groups:member groups:name="enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase" groups:idRef="R_EN6LYOR"/>
         </groups:listOfMembers>
       </groups:group>
@@ -49663,7 +49663,7 @@
           <groups:member groups:name="acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)" groups:idRef="R_IPPS"/>
           <groups:member groups:name="L-Valine:2-oxoglutarate aminotransferase" groups:idRef="R_VALTA"/>
           <groups:member groups:name="L-valine:NAD+ oxidoreductase(deaminating)" groups:idRef="R_VALDHr"/>
-          <groups:member groups:name="3-isopropylmalate dehydrogenase" groups:idRef="R_OMCDC"/>
+          <groups:member groups:name="R01652" groups:idRef="R_OMCDC"/>
           <groups:member groups:name="L-Isoleucine:NAD+ oxidoreductase(deaminating)" groups:idRef="R_ILEOR"/>
           <groups:member groups:name="L-Isoleucine:2-oxoglutarate aminotransferase" groups:idRef="R_ILETA"/>
           <groups:member groups:name="2-Isopropylmalate hydro-lyase" groups:idRef="R_IPPMIb"/>
@@ -49687,7 +49687,7 @@
           <groups:member groups:name="UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-2,6-diaminoheptanedioate ligase (ADP-forming)" groups:idRef="R_UAAGDS"/>
           <groups:member groups:name="2,3,4,5-tetrahydrodipicolinate:NADP+ 4-oxidoreductase" groups:idRef="R_DHDPRy"/>
           <groups:member groups:name="Acetyl-CoA:L-2,3,4,5-tetrahydrodipicolinate N2-acetyltransferase" groups:idRef="R_APATi"/>
-          <groups:member groups:name="N-Acetyl-L-2-amino-6-oxopimelate transaminase" groups:idRef="R_APTA1i"/>
+          <groups:member groups:name="R04467" groups:idRef="R_APTA1i"/>
           <groups:member groups:name="UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminoheptanedioate:D-alanyl-D-alanine ligase(ADP-forming)" groups:idRef="R_UGMDDS"/>
           <groups:member groups:name="L-aspartate-4-semialdehyde hydro-lyase [adding pyruvate and cyclizing" groups:idRef="R_DHDPS"/>
         </groups:listOfMembers>
@@ -49717,7 +49717,7 @@
           <groups:member groups:name="4-aminobutyraldehyde:NAD+ oxidoreductase" groups:idRef="R_ABUTD"/>
           <groups:member groups:name="S-adenosylmethioninamine:spermidine 3-aminopropyltransferase" groups:idRef="R_ASAPT"/>
           <groups:member groups:name="L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)" groups:idRef="R_G5SD"/>
-          <groups:member groups:name="L-glutamate 5-semialdehyde dehydratase (spontaneous)" groups:idRef="R_G5SADs"/>
+          <groups:member groups:name="R03314" groups:idRef="R_G5SADs"/>
           <groups:member groups:name="L-proline:quinone oxidoreductase" groups:idRef="R_LPROQOR"/>
         </groups:listOfMembers>
       </groups:group>
@@ -49725,7 +49725,7 @@
         <groups:listOfMembers>
           <groups:member groups:name="ATP:L-glutamate 5-phosphotransferase" groups:idRef="R_GLU5K"/>
           <groups:member groups:name="L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)" groups:idRef="R_G5SD"/>
-          <groups:member groups:name="L-glutamate 5-semialdehyde dehydratase (spontaneous)" groups:idRef="R_G5SADs"/>
+          <groups:member groups:name="R03314" groups:idRef="R_G5SADs"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00340__32____45____32__Histidine__32__metabolism" groups:name="00340 - Histidine metabolism" groups:kind="collection">
@@ -49736,7 +49736,7 @@
           <groups:member groups:name="D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase" groups:idRef="R_IGPDH"/>
           <groups:member groups:name="Phosphoribosyl-ATP pyrophosphohydrolase" groups:idRef="R_PRATPP"/>
           <groups:member groups:name="1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase" groups:idRef="R_PRAMPC"/>
-          <groups:member groups:name="Imidazole-glycerol-3-phosphate synthase" groups:idRef="R_IG3PS"/>
+          <groups:member groups:name="R04558" groups:idRef="R_IG3PS"/>
           <groups:member groups:name="N-(5-phospho-D-ribosylformimino)-5-amino-1- (5-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase" groups:idRef="R_PRMICI"/>
         </groups:listOfMembers>
       </groups:group>
@@ -49769,7 +49769,7 @@
           <groups:member groups:name="4-Oxalocrotonate carboxy-lyase" groups:idRef="R_OXALCCLY"/>
           <groups:member groups:name="2-hydroxymuconate-semialdehyde formylhydrolase" groups:idRef="R_HMCNSADLY"/>
           <groups:member groups:name="2-hydroxymuconate semialdehyde:NAD+ 6-oxidoreductase" groups:idRef="R_HMSD"/>
-          <groups:member groups:name="hydroxymuconate tautomerase" groups:idRef="R_4OT"/>
+          <groups:member groups:name="R03966" groups:idRef="R_4OT"/>
           <groups:member groups:name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" groups:idRef="R_ECOAH1"/>
         </groups:listOfMembers>
       </groups:group>
@@ -50020,7 +50020,7 @@
           <groups:member groups:name="(R)-S-Lactoylglutathione hydrolase" groups:idRef="R_GLYOX"/>
           <groups:member groups:name="(R)-S-Lactoylglutathione methylglyoxal-lyase (isomerizing)" groups:idRef="R_LGTHL"/>
           <groups:member groups:name="acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase" groups:idRef="R_ACENLAT"/>
-          <groups:member groups:name="pyruvate dehydrogenase (acetyl-transferring)" groups:idRef="R_AHETHMPPR"/>
+          <groups:member groups:name="R03270" groups:idRef="R_AHETHMPPR"/>
           <groups:member groups:name="enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase" groups:idRef="R_EN6LYOR"/>
           <groups:member groups:name="(S)-lactaldehyde:NADP+ oxidoreductase" groups:idRef="R_LALDO2x"/>
           <groups:member groups:name="succinyl-CoA:acetate CoA-transferase" groups:idRef="R_SUCOAACTr"/>
@@ -50033,7 +50033,7 @@
           <groups:member groups:name="4-hydroxy-2-oxopentanoate pyruvate-lyase (acetaldehyde-forming)" groups:idRef="R_HOPNTAL"/>
           <groups:member groups:name="4-hydroxy-2-oxopentanoate hydro-lyase (2-oxopent-4-enoate-forming)" groups:idRef="R_OP4ENLY"/>
           <groups:member groups:name="4-Oxalocrotonate carboxy-lyase" groups:idRef="R_OXALCCLY"/>
-          <groups:member groups:name="hydroxymuconate tautomerase" groups:idRef="R_4OT"/>
+          <groups:member groups:name="R03966" groups:idRef="R_4OT"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00622__32____45____32__Xylene__32__degradation" groups:name="00622 - Xylene degradation" groups:kind="collection">
@@ -50103,7 +50103,7 @@
           <groups:member groups:name="ATP:propanoate adenylyltransferase" groups:idRef="R_PRPNTEAT"/>
           <groups:member groups:name="propanoyl-CoA:carbon-dioxide ligase (ADP-forming)" groups:idRef="R_PPCOAC"/>
           <groups:member groups:name="Methylmalonyl-CoA epimerase" groups:idRef="R_MME"/>
-          <groups:member groups:name="L-Methylmalonyl-CoA Dehydrogenase" groups:idRef="R_MMTSAOR"/>
+          <groups:member groups:name="R03381" groups:idRef="R_MMTSAOR"/>
           <groups:member groups:name="propanoyl-CoA:formate C-propanoyltransferase" groups:idRef="R_OBTFL"/>
           <groups:member groups:name="enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase" groups:idRef="R_EN6LYOR"/>
           <groups:member groups:name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" groups:idRef="R_OBO2OR"/>
@@ -50126,8 +50126,8 @@
           <groups:member groups:name="4-aminobutanoate:2-oxoglutarate aminotransferase" groups:idRef="R_ABTA"/>
           <groups:member groups:name="(S)-3-Hydroxybutanoyl-CoA:NAD+ oxidoreductase" groups:idRef="R_HACD1"/>
           <groups:member groups:name="(S)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase" groups:idRef="R_HBCO_nadp"/>
-          <groups:member groups:name="Butanal dehydrogenase (NADH)" groups:idRef="R_ALCD4"/>
-          <groups:member groups:name="Butanal dehydrogenase (NADPH)" groups:idRef="R_ALCD4y"/>
+          <groups:member groups:name="R03544" groups:idRef="R_ALCD4"/>
+          <groups:member groups:name="R03545" groups:idRef="R_ALCD4y"/>
           <groups:member groups:name="ATP:butanoate 1-phosphotransferase" groups:idRef="R_BUTKr"/>
           <groups:member groups:name="succinyl-CoA:acetate CoA-transferase" groups:idRef="R_SUCOAACTr"/>
           <groups:member groups:name="(R,R)-Butane-2,3-diol:NAD+ oxidoreductase" groups:idRef="R_B23DONOR"/>
@@ -50163,7 +50163,7 @@
           <groups:member groups:name="5-Formyltetrahydrofolate cyclo-ligase (ADP-forming)" groups:idRef="R_FTCL"/>
           <groups:member groups:name="S-aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase (ammonia-forming)" groups:idRef="R_GCCb"/>
           <groups:member groups:name="10-Formyltetrahydrofolate:5-phosphoribosylglycinamide formyltransferase" groups:idRef="R_GARFT"/>
-          <groups:member groups:name="phosphoribosylglycinamide formyltransferase" groups:idRef="R_FGFTh"/>
+          <groups:member groups:name="R04326" groups:idRef="R_FGFTh"/>
           <groups:member groups:name="10-Formyltetrahydrofolate:5-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase" groups:idRef="R_AICART"/>
           <groups:member groups:name="5-methyltetrahydrofolate:NAD+ oxidoreductase" groups:idRef="R_MTHFO"/>
         </groups:listOfMembers>
@@ -50237,7 +50237,7 @@
       </groups:group>
       <groups:group groups:id="G_00730__32____45____32__Thiamine__32__metabolism" groups:name="00730 - Thiamine metabolism" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="maltose glucohydrolase" groups:idRef="R_MALHYDRO"/>
+          <groups:member groups:name="R00028" groups:idRef="R_MALHYDRO"/>
           <groups:member groups:name="Thiamin diphosphate phosphohydrolase" groups:idRef="R_TDP"/>
           <groups:member groups:name="ATP:thiamine-diphosphate phosphotransferase" groups:idRef="R_TMDPPK"/>
           <groups:member groups:name="ATP:thiamin-phosphate phosphotransferase" groups:idRef="R_TMPK"/>
@@ -50269,7 +50269,7 @@
           <groups:member groups:name="5-amino-6-(D-ribitylamino)uracil butanedionetransferase" groups:idRef="R_DLDLBT"/>
           <groups:member groups:name="FMNH2:NAD+ oxidoreductase" groups:idRef="R_FMNRx"/>
           <groups:member groups:name="FMNH2:NADP+ oxidoreductase" groups:idRef="R_FLDO"/>
-          <groups:member groups:name="Pyrimidine phosphatase" groups:idRef="R_PMDPHT"/>
+          <groups:member groups:name="R07280" groups:idRef="R_PMDPHT"/>
           <groups:member groups:name="D-ribulose 5-phosphate formate-lyase (L-3,4-dihydroxybutan-2-one 4-phosphate-forming)" groups:idRef="R_DB4PS"/>
           <groups:member groups:name="Flavin reductase" groups:idRef="R_FADRx"/>
         </groups:listOfMembers>
@@ -50372,8 +50372,8 @@
           <groups:member groups:name="S-adenosyl-L-methionine:precorrin-4 C20-methyltransferase" groups:idRef="R_PC20M"/>
           <groups:member groups:name="L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)" groups:idRef="R_GLUTRR"/>
           <groups:member groups:name="Nicotinate-nucleotide:dimethylbenzimidazole phospho-D-ribosyltransferase" groups:idRef="R_NNDMBRT"/>
-          <groups:member groups:name="Alpha-ribazole 5-phosphate phosphatase" groups:idRef="R_RZ5PP"/>
-          <groups:member groups:name="Hydroxymethylbilane breakdown (spontaneous) " groups:idRef="R_UPP1S"/>
+          <groups:member groups:name="R04594" groups:idRef="R_RZ5PP"/>
+          <groups:member groups:name="R03166" groups:idRef="R_UPP1S"/>
           <groups:member groups:name="Uroporphyrinogen I carboxy-lyase" groups:idRef="R_UPPDC2"/>
           <groups:member groups:name="S-Adenosyl-L-methionine:1-precorrin-6Y C5,15-methyltransferase (C-12-decarboxylating)" groups:idRef="R_PC6YM"/>
           <groups:member groups:name="precorrin-6Y:NADP+ oxidoreductase" groups:idRef="R_PC6AR"/>
@@ -50382,18 +50382,18 @@
           <groups:member groups:name="S-adenosyl-L-methionine:precorrin-4 C11 methyltransferase" groups:idRef="R_PC11M"/>
           <groups:member groups:name="precorrin-3A,NADH:oxygen oxidoreductase (20-hydroxylating)" groups:idRef="R_PRE3AOR"/>
           <groups:member groups:name="ATP:cob(I)yrinic acid-a,c-diamide Cobeta-adenosyltransferase" groups:idRef="R_CO1DAMT"/>
-          <groups:member groups:name="Adenosyl cobinamide kinase" groups:idRef="R_ADOCBIK"/>
-          <groups:member groups:name="Adenosyl cobinamide phosphate guanyltransferase" groups:idRef="R_ACBIPGT"/>
-          <groups:member groups:name="Adenosylcobalamin 5-phosphate synthase" groups:idRef="R_ADOCBLS"/>
-          <groups:member groups:name="hydrogenobyrinic acid a,c-diamide synthase (glutamine-hydrolysing)" groups:idRef="R_HGBYR"/>
-          <groups:member groups:name="adenosylcobyric acid synthase (glutamine-hydrolysing)" groups:idRef="R_ACDAH"/>
-          <groups:member groups:name="precorrin-6A synthase (deacetylating)" groups:idRef="R_P6AS"/>
+          <groups:member groups:name="R05221" groups:idRef="R_ADOCBIK"/>
+          <groups:member groups:name="R05222" groups:idRef="R_ACBIPGT"/>
+          <groups:member groups:name="R05223" groups:idRef="R_ADOCBLS"/>
+          <groups:member groups:name="R05224" groups:idRef="R_HGBYR"/>
+          <groups:member groups:name="R05225" groups:idRef="R_ACDAH"/>
+          <groups:member groups:name="R05219" groups:idRef="R_R05219"/>
           <groups:member groups:name="hydrogenobyrinic-acid-a,c-diamide:cobalt cobalt-ligase (ADP-forming)" groups:idRef="R_COCHL"/>
           <groups:member groups:name="cob(II)yrinic acid-a,c-diamide:FMN oxidoreductase" groups:idRef="R_CYRDAR2"/>
           <groups:member groups:name="L-glutamate:tRNA(Glu) ligase (AMP-forming)" groups:idRef="R_GLUTRS"/>
           <groups:member groups:name="adenosylcobyric acid:(R)-1-aminopropan-2-yl phosphate ligase" groups:idRef="R_ADCPS2"/>
           <groups:member groups:name="L-threonine-O-3-phosphate carboxy-lyase" groups:idRef="R_THRPD"/>
-          <groups:member groups:name="adenosylcobinamide kinase" groups:idRef="R_ADOCBIP"/>
+          <groups:member groups:name="R06558" groups:idRef="R_ADOCBIP"/>
           <groups:member groups:name="coproporphyrinogen-III:S-adenosyl-L-methionine oxidoreductase(decarboxylating)" groups:idRef="R_CPPPGO2"/>
           <groups:member groups:name="ATP:cobinamide Cobeta-adenosyltransferase" groups:idRef="R_ADOCBITRANS"/>
           <groups:member groups:name="adenosylcobyric acid:(R)-1-aminopropan-2-ol ligase (ADP-forming)" groups:idRef="R_ADCPS1"/>
@@ -50414,7 +50414,7 @@
           <groups:member groups:name="1-Deoxy-D-xylulose-5-phosphate isomeroreductase" groups:idRef="R_DXPRIi"/>
           <groups:member groups:name="isopentenyl-diphosphate:NAD(P)+ oxidoreductase" groups:idRef="R_IPDPOR"/>
           <groups:member groups:name="(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 8 isopentenyl units)" groups:idRef="R_FRDPPT"/>
-          <groups:member groups:name="4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase" groups:idRef="R_DMPPOR"/>
+          <groups:member groups:name="R08210" groups:idRef="R_DMPPOR"/>
           <groups:member groups:name="(E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase (hydrating)" groups:idRef="R_MECDPOR"/>
           <groups:member groups:name="(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 4 isopentenyl units)" groups:idRef="R_FRDPTT"/>
         </groups:listOfMembers>
