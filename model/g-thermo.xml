@@ -1077,46 +1077,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_focytcc553_c" sboTerm="SBO:0000247" id="M_focytcc553_c" name="Ferrocytochrome c2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C33H32FeN4O4">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Ferrocytochrome c; Reduced cytochrome c; Cytochrome c2+;</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_focytcc553_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16928"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00126"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM746"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_ficytcc553_c" sboTerm="SBO:0000247" id="M_ficytcc553_c" name="Ferricytochrome c2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C42H44FeN8O8S2R4">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Cytochrome c3+; Ferricytochrome c;</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_ficytcc553_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15991"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00125"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM5749"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_dattoo_c" sboTerm="SBO:0000247" id="M_dattoo_c" name="2,5-Diamino-6-(5&apos;-triphosphoryl-3&apos;,4&apos;-trihydroxy-2&apos;-oxopentyl)-amino-4-oxopyrimidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H18N5O14P3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -5168,26 +5128,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_focytCA_c" sboTerm="SBO:0000247" id="M_focytCA_c" name="Ferricytochrome" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="5" fbc:chemicalFormula="C42H52FeN8O6S2">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Cytochrome c3+; Ferricytochrome c;</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_focytCA_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15991"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00125"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM5749"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_din_c" sboTerm="SBO:0000247" id="M_din_c" name="Deoxyinosine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H12N4O4">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -5235,26 +5175,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:17355"/>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05539"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1872"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_focytCB_c" sboTerm="SBO:0000247" id="M_focytCB_c" name="Ferrocytochrome" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="4" fbc:chemicalFormula="C42H52FeN8O6S2">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Ferrocytochrome c; Reduced cytochrome c; Cytochrome c2+;</p>
-          </html>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_focytCB_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16928"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00126"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM746"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -22050,34 +21970,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_CCP" sboTerm="SBO:0000176" id="R_CCP" name="ferrocytochrome-c:hydrogen-peroxide oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_CCP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.11.1.5"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00017"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR138164"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/16581"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_focytCB_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_h2o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_focytCA_c" stoichiometry="2" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO00166"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_HYDA" sboTerm="SBO:0000176" id="R_HYDA" name="reduced ferredoxin:H+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -22210,81 +22102,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03707"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_FOCYCTCOR" sboTerm="SBO:0000176" id="R_FOCYCTCOR" name="Ferrocytochrome-c:oxygen oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FOCYCTCOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.9.3.1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00081"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR138955"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/11436"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_focytCB_c" stoichiometry="4" constant="true"/>
-          <speciesReference species="M_o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_focytCA_c" stoichiometry="4" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02826"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04339"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02829"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04631"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02828"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04632"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04633"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00807"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04657"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_FOCYTCCOR" sboTerm="SBO:0000176" id="R_FOCYTCCOR" name="Ferrocytochrome c2:oxygen oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FOCYTCCOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.7.2.1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.9.3.1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00082"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106381"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_focytcc553_c" stoichiometry="4" constant="true"/>
-          <speciesReference species="M_o2_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ficytcc553_c" stoichiometry="4" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04657"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04339"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02826"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04631"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02829"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04632"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO02828"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04633"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00807"/>
-          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HMBS" sboTerm="SBO:0000176" id="R_HMBS" name="porphobilinogen ammonia-lyase (polymerizing)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -26615,63 +26432,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_FOCYTCNOR" sboTerm="SBO:0000176" id="R_FOCYTCNOR" name="nitric-oxide:ferricytochrome-c oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FOCYTCNOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.7.2.1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00783"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR138991"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/15233"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_focytCB_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_no2_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_focytCA_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_no_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04657"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_FICYTCCNOR" sboTerm="SBO:0000176" id="R_FICYTCCNOR" name="nitric-oxide:ferricytochrome-c2 oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_FICYTCCNOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.7.2.1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00784"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR106686"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_ficytcc553_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_no_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_focytcc553_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_no2_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO04657"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_NO2R" sboTerm="SBO:0000176" id="R_NO2R" name="Ammonia:ferredoxin oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28826,39 +28586,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02513"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_NITOR" sboTerm="SBO:0000176" id="R_NITOR" name="nitrite:(acceptor) oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_NITOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.7.99.4"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01106"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR139024"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_focytCA_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_no2_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_focytCB_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_no3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03776"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03773"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO04417"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03775"/>
-          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NTD11" sboTerm="SBO:0000176" id="R_NTD11" name="inosine 5-monophosphate phosphohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -40710,7 +40437,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO04840"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NODOx" sboTerm="SBO:0000176" id="R_NODOx" name="nitric oxide, NAD(P)H2:oxygen oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_NODOx" sboTerm="SBO:0000176" id="R_NODOx" name="nitric oxide, NAD(P)H2:oxygen oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_NODOx">
@@ -50486,7 +50213,6 @@
           <groups:member groups:name="L-Glutamate:NADP+ oxidoreductase (transaminating)" groups:idRef="R_GLUSy"/>
           <groups:member groups:name="L-glutamate:NAD+ oxidoreductase (deaminating)" groups:idRef="R_GDH"/>
           <groups:member groups:name="L-Glutamate:ammonia ligase (ADP-forming)" groups:idRef="R_GLNS"/>
-          <groups:member groups:name="nitric-oxide:ferricytochrome-c oxidoreductase" groups:idRef="R_FOCYTCNOR"/>
           <groups:member groups:name="Ammonia:ferredoxin oxidoreductase" groups:idRef="R_NO2R"/>
           <groups:member groups:name="HCO3 equilibration reaction" groups:idRef="R_HCO3E"/>
         </groups:listOfMembers>
