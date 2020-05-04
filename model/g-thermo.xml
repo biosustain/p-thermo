@@ -368,7 +368,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_octdecacp_c" sboTerm="SBO:0000247" id="M_octdecacp_c" name="Octadecanoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C18H35OSR">
+      <species metaid="meta_M_ocdcaACP_c" sboTerm="SBO:0000247" id="M_ocdcaACP_c" name="Octadecanoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C29H55N2O8PRS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Octadecanoyl-[acyl-carrier protein]; Stearoyl-[acyl-carrier protein]</p>
@@ -376,7 +376,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_octdecacp_c">
+            <rdf:Description rdf:about="#meta_M_ocdcaACP_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04088"/>
@@ -387,7 +387,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_toctd2eACP_c" sboTerm="SBO:0000247" id="M_toctd2eACP_c" name="(2E)-Octadecenoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C18H33OSR">
+      <species metaid="meta_M_toctd2eACP_c" sboTerm="SBO:0000247" id="M_toctd2eACP_c" name="(2E)-Octadecenoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C29H53N2O8PRS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (2E)-Octadecenoyl-[acp]; trans-Octadec-2-enoyl-[acp]</p>
@@ -16387,7 +16387,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_2maacoa_c" sboTerm="SBO:0000247" id="M_2maacoa_c" name="2-Methylacetoacetyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C26H39N7O17P3S">
+      <species metaid="meta_M_2maacoa_c" sboTerm="SBO:0000247" id="M_2maacoa_c" name="2-Methylacetoacetyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C26H39N7O18P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Methyl-3-acetoacetyl-CoA; 2-Methylacetoacetyl-CoA;</p>
@@ -37259,7 +37259,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_2maacoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_2mb2coa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -43505,7 +43505,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_octdecacp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ocdcaACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
