@@ -411,7 +411,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3hoctaACP_c" sboTerm="SBO:0000247" id="M_3hoctaACP_c" name="3-Hydroxyoctadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C18H35O2SR">
+      <species metaid="meta_M_3hoctaACP_c" sboTerm="SBO:0000247" id="M_3hoctaACP_c" name="3-Hydroxyoctadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C29H55N2O9PRS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: (R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein]; (R)-3-Hydroxystearoyl-[acyl-carrier protein]; (R)-3-Hydroxystearoyl-[acp]; (R)-3-Hydroxyoctadecanoyl-[acp];</p>
@@ -16387,7 +16387,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_2maacoa_c" sboTerm="SBO:0000247" id="M_2maacoa_c" name="2-Methylacetoacetyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C26H39N7O18P3S">
+      <species metaid="meta_M_2maacoa_c" sboTerm="SBO:0000247" id="M_2maacoa_c" name="2-Methylacetoacetyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C26H39N7O17P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 2-Methyl-3-acetoacetyl-CoA; 2-Methylacetoacetyl-CoA;</p>
@@ -42551,7 +42551,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_malACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_acACP_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
