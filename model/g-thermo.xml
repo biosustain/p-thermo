@@ -34022,29 +34022,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01147"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_BCFASYN" sboTerm="SBO:0000176" id="R_BCFASYN" name="R02663" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_BCFASYN">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02663"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR107650"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_ibcoa_c" stoichiometry="2" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_bcfa_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_M1PD" sboTerm="SBO:0000176" id="R_M1PD" name="D-Mannitol-1-phosphate:NAD+ 5-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -35058,29 +35035,6 @@
         <listOfProducts>
           <speciesReference species="M_edhyl_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_s2mbcoa_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO01147"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_BCFASYN2" sboTerm="SBO:0000176" id="R_BCFASYN2" name="R03175" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_BCFASYN2">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03175"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR108003"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_s2mbcoa_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_bcfa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01147"/>
@@ -36898,29 +36852,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01147"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_BCFASYN3" sboTerm="SBO:0000176" id="R_BCFASYN3" name="R04098" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_BCFASYN3">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04098"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR108655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_ivcoa_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_bcfa_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MALTPT" sboTerm="SBO:0000176" id="R_MALTPT" name="protein-N(pi)-phosphohistidine:maltose 6-phosphotransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -49422,15 +49353,12 @@
           <groups:member groups:name="propanoyl-CoA:carbon-dioxide ligase (ADP-forming)" groups:idRef="R_PPCOAC"/>
           <groups:member groups:name="L-Isoleucine:2-oxoglutarate aminotransferase" groups:idRef="R_ILETA"/>
           <groups:member groups:name="2-methylpropanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylpropanoyl)transferase" groups:idRef="R_ENCOAT"/>
-          <groups:member groups:name="R02663" groups:idRef="R_BCFASYN"/>
           <groups:member groups:name="Methylmalonyl-CoA epimerase" groups:idRef="R_MME"/>
           <groups:member groups:name="(S)-2-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylbutanoyl)transferase" groups:idRef="R_MBTCOAT"/>
-          <groups:member groups:name="R03175" groups:idRef="R_BCFASYN2"/>
           <groups:member groups:name="methylmalonate:CoA ligase (AMP-forming)" groups:idRef="R_MMALLIG"/>
           <groups:member groups:name="(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase" groups:idRef="R_ALDH"/>
           <groups:member groups:name="(S)-2-methylbutanoyl-CoA:acceptor 2,3-oxidoreductase" groups:idRef="R_SMBCOAOR"/>
           <groups:member groups:name="3-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(3-methylbutanoyl)transferase" groups:idRef="R_IVCOAR"/>
-          <groups:member groups:name="R04098" groups:idRef="R_BCFASYN3"/>
           <groups:member groups:name="(2S,3S)-3-hydroxy-2-methylbutanoyl-CoA:NAD+ oxidoreductase" groups:idRef="R_HACD9"/>
           <groups:member groups:name="(2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA hydro-liase" groups:idRef="R_ECOAH9ir"/>
           <groups:member groups:name="3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)" groups:idRef="R_MOD"/>
