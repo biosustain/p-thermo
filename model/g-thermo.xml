@@ -15,7 +15,7 @@
       <compartment id="e" name="extracellular space" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="meta_M_pydx5p_c" sboTerm="SBO:0000247" id="M_pydx5p_c" name="Pyridoxal phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H10NO6P">
+      <species metaid="meta_M_pydx5p_c" sboTerm="SBO:0000247" id="M_pydx5p_c" name="Pyridoxal phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H10NO6P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Pyridoxal 5’-phosphate; Pyridoxal phosphate; PLP; Pyridoxal 5-phosphate;</p>
@@ -49,7 +49,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_co2dam_c" sboTerm="SBO:0000247" id="M_co2dam_c" name="Cob(II)yrinate-a,c-diamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C45H61CoN6O12">
+      <species metaid="meta_M_co2dam_c" sboTerm="SBO:0000247" id="M_co2dam_c" name="Cob(II)yrinate-a,c-diamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C45H61CoN6O12">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Cobyrinate a,c-diamide; Cob(II)yrinate a,c diamide; Cob(II)yrinate diamide; Cob(II)yrinic acid a,c-diamide; Cobyrinic acid a,c-diamide</p>
@@ -1362,7 +1362,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cyan_c" sboTerm="SBO:0000247" id="M_cyan_c" name="Cyanide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CN">
+      <species metaid="meta_M_cyan_c" sboTerm="SBO:0000247" id="M_cyan_c" name="Cyanide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="CN">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hydrogen cyanide; Cyanide; HCN;</p>
@@ -2877,7 +2877,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_adocbi_c" sboTerm="SBO:0000247" id="M_adocbi_c" name="Adenosyl cobinamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C58H84CoN16O11">
+      <species metaid="meta_M_adocbi_c" sboTerm="SBO:0000247" id="M_adocbi_c" name="Adenosyl cobinamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C58H84CoN16O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosyl cobinamide; Adenosylcobinamide</p>
@@ -2903,7 +2903,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_adocbip_c" sboTerm="SBO:0000247" id="M_adocbip_c" name="Adenosyl cobinamide phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C58H85CoN16O14P">
+      <species metaid="meta_M_adocbip_c" sboTerm="SBO:0000247" id="M_adocbip_c" name="Adenosyl cobinamide phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C58H85CoN16O14P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosyl cobinamide phosphate; Adenosylcobinamide phosphate</p>
@@ -2929,7 +2929,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_acda_c" sboTerm="SBO:0000247" id="M_acda_c" name="Adenosyl cobyrinate a,c diamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C55H73CoN11O15">
+      <species metaid="meta_M_acda_c" sboTerm="SBO:0000247" id="M_acda_c" name="Adenosyl cobyrinate a,c diamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C55H73CoN11O15">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosyl cobyrinate diamide; Adenosylcob(III)yrinic acid a,c-diamide; Adenosyl cobyrinate a,c diamide; Adenosylcobyrinic acid a,c-diamide</p>
@@ -2949,7 +2949,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_adcobhex_c" sboTerm="SBO:0000247" id="M_adcobhex_c" name="Adenosyl cobyrinate hexaamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C55H77CoN15O11">
+      <species metaid="meta_M_adcobhex_c" sboTerm="SBO:0000247" id="M_adcobhex_c" name="Adenosyl cobyrinate hexaamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C55H77CoN15O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosylcobyric acid; Adenosyl cobyrinate hexaamide;</p>
@@ -2969,7 +2969,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_agdpcbi_c" sboTerm="SBO:0000247" id="M_agdpcbi_c" name="Adenosine-GDP-cobinamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C68H97CoN21O21P2">
+      <species metaid="meta_M_agdpcbi_c" sboTerm="SBO:0000247" id="M_agdpcbi_c" name="Adenosine-GDP-cobinamide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C68H95CoN21O21P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Adenosine-GDP-cobinamide; Adenosylcobinamide-GDP</p>
@@ -3085,7 +3085,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_uppg1_c" sboTerm="SBO:0000247" id="M_uppg1_c" name="Uroporphyrinogen I" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C40H36N4O16">
+      <species metaid="meta_M_uppg1_c" sboTerm="SBO:0000247" id="M_uppg1_c" name="Uroporphyrinogen I" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-8" fbc:chemicalFormula="C40H36N4O16">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Uroporphyrinogen I</p>
@@ -3843,7 +3843,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_thmtp_c" sboTerm="SBO:0000247" id="M_thmtp_c" name="Thiamin triphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H20N4O10P3S">
+      <species metaid="meta_M_thmtp_c" sboTerm="SBO:0000247" id="M_thmtp_c" name="Thiamin triphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C12H20N4O10P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiamin triphosphate; Thiamine triphosphate</p>
@@ -5706,7 +5706,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_fdxox_c" sboTerm="SBO:0000247" id="M_fdxox_c" name="Oxidized" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="6" fbc:chemicalFormula="Fe2R4S6">
+      <species metaid="meta_M_fdxox_c" sboTerm="SBO:0000247" id="M_fdxox_c" name="Oxidized" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="5" fbc:chemicalFormula="Fe2R4S6">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Oxidized ferredoxin</p>
@@ -7741,7 +7741,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_dhpltra_c" sboTerm="SBO:0000247" id="M_dhpltra_c" name="[Dihydrolipoyllysine-residue-(2-methylpropanoyl)transferase]-S-(3-methylbutanoyl)dihydrolipoyllysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H24NO2S2R">
+      <species metaid="meta_M_dhpltra_c" sboTerm="SBO:0000247" id="M_dhpltra_c" name="[Dihydrolipoyllysine-residue-(2-methylpropanoyl)transferase]-S-(3-methylbutanoyl)dihydrolipoyllysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H24NO2S2R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: S-(3-Methylbutanoyl)-dihydrolipoamide-E; [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine;</p>
@@ -7781,7 +7781,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_empdhll_c" sboTerm="SBO:0000247" id="M_empdhll_c" name="Enzyme N6-(S-[2-methylpropanoyl]dihydrolipoyl)lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C12H22NO2S2R">
+      <species metaid="meta_M_empdhll_c" sboTerm="SBO:0000247" id="M_empdhll_c" name="Enzyme N6-(S-[2-methylpropanoyl]dihydrolipoyl)lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22NO2S2R">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Enzyme N6-(S-[2-methylpropanoyl]dihydrolipoyl)lysine; [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylpropanoyl)dihydrolipoyllysine; S-(2-Methylpropionyl)-dihydrolipoamide-E; S-(2-Methylpropanoyl)-dihydrolipoamide-E;</p>
@@ -18631,7 +18631,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_pydx5p_e" sboTerm="SBO:0000247" id="M_pydx5p_e" name="Pyridoxal phosphate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H10NO6P">
+      <species metaid="meta_M_pydx5p_e" sboTerm="SBO:0000247" id="M_pydx5p_e" name="Pyridoxal phosphate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H10NO6P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Pyridoxal 5’-phosphate; Pyridoxal phosphate; PLP; Pyridoxal 5-phosphate;</p>
@@ -19095,7 +19095,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_thmtp_e" sboTerm="SBO:0000247" id="M_thmtp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H20N4O10P3S">
+      <species metaid="meta_M_thmtp_e" sboTerm="SBO:0000247" id="M_thmtp_e" name="C00080" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C12H20N4O10P3S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Thiamin triphosphate; Thiamine triphosphate</p>
@@ -19320,7 +19320,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_acoa_c" id="M_acoa_c" name="Acyl coenzyme A" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C22H32N7O17P3SR">
+      <species metaid="meta_M_acoa_c" id="M_acoa_c" name="Acyl coenzyme A" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C22H32N7O17P3SR">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Acyl coenzyme A; Acyl-CoA;</p>
@@ -19533,7 +19533,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_aglyc3p_c" id="M_aglyc3p_c" name="1-Acyl-sn-glycerol 3-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C4H7O7PR">
+      <species metaid="meta_M_aglyc3p_c" id="M_aglyc3p_c" name="1-Acyl-sn-glycerol 3-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C4H7O7PR">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M_aglyc3p_c">
@@ -24094,13 +24094,12 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_mqn_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_mqn_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_fum_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -36815,9 +36814,11 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_s2mbcoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_fad_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_h_c" stoichiometry="5" constant="true"/>
+          <speciesReference species="M_fadh2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
           <speciesReference species="M_2mb2coa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -38216,12 +38217,12 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_fdxox_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_fdxox_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_co_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_fdxrd_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_fdxrd_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -39535,6 +39536,7 @@
         <listOfProducts>
           <speciesReference species="M_agdpcbi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01031"/>
@@ -39562,7 +39564,6 @@
         <listOfProducts>
           <speciesReference species="M_adocbl_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_gmp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO01030"/>
@@ -44309,12 +44310,13 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_mqn_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_phe__D_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_phpyr_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_PYRLLOR" sboTerm="SBO:0000176" id="R_PYRLLOR" name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
