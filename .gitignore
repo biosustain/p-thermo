@@ -108,3 +108,7 @@ venv.bak/
 
 # PyCharm stuff
 .idea/
+
+# memote report auxiliary files
+*.js.download
+*.min.css
