@@ -21728,6 +21728,10 @@
       <species metaid="meta_M_3hnonACP_c" sboTerm="SBO:0000247" id="M_3hnonACP_c" name="3-Hydroxynonanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H37O9N2PRS"/>
       <species metaid="meta_M_tnon2eACP_c" sboTerm="SBO:0000247" id="M_tnon2eACP_c" name="Trans-Non-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H35O8N2PRS"/>
       <species metaid="meta_M_nonACP_c" sboTerm="SBO:0000247" id="M_nonACP_c" name="nonanoyl-ACP(n-C9:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H37O8N2PRS"/>
+      <species metaid="meta_M_3oudecACP_c" sboTerm="SBO:0000176" id="M_3oudecACP_c" name="3-oxoundecanoyl-ACP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C22H39O9N2PRS"/>
+      <species metaid="meta_M_3hudecACP_c" sboTerm="SBO:0000247" id="M_3hudecACP_c" name="3-Hydroxyundecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C22H41O9N2PRS"/>
+      <species metaid="meta_M_tudec2eACP_c" sboTerm="SBO:0000247" id="M_tudec2eACP_c" name="Trans-Undec-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C22H39O8N2PRS"/>
+      <species metaid="meta_M_udecACP_c" sboTerm="SBO:0000247" id="M_udecACP_c" name="Undecanoyl-ACP(n-C11:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C22H41O8N2PRS"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -48127,6 +48131,75 @@
         <listOfProducts>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nonACP_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_3OAS110" sboTerm="SBO:0000176" id="R_3OAS110" name="3-oxoundecanoyl-[acyl-carrier-protein] synthase (n-C11:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_malACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nonACP_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_3oudecACP_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_3OAR110" sboTerm="SBO:0000176" id="R_3OAR110" name=" 3-oxoacyl-[acyl-carrier-protein] reductase (n-C11:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_3oudecACP_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_3hudecACP_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_3HAD110" sboTerm="SBO:0000176" id="R_3HAD110" name="3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C11:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_3hudecACP_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_tudec2eACP_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_EAR110x" sboTerm="SBO:0000176" id="R_EAR110x" name="Undecanoyl-[acp]:NAD+ trans-2-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_tudec2eACP_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_udecACP_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_EAR110y" sboTerm="SBO:0000176" id="R_EAR110y" name="Undecanoyl-[acp]:NADP+ trans-2-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_tudec2eACP_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_udecACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
