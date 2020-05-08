@@ -48567,14 +48567,14 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_b13galacbio_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_bacthiolbssb_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_R_BSSBRed" sboTerm="SBO:0000176" id="R_R_BSSBRed" name="R_BSSBRed" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_b13galacbio_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_bacthiolbssb_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
