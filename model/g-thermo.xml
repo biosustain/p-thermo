@@ -22395,6 +22395,7 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species id="M_lac_c" name="lac[c]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -48579,6 +48580,26 @@
           <speciesReference species="M_bacthiolbsh_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_R_GLYOXBACIL" sboTerm="SBO:0000176" id="R_R_GLYOXBACIL" name="R_GLYOXBACIL" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_bacthiolbsh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_lac_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_b13galacbio_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_R_LBACIL" sboTerm="SBO:0000176" id="R_R_LBACIL" name="R_LBACIL" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_b13galacbio_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_mthgxl_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_bacthiolbsh_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50828,6 +50849,8 @@
           <groups:member groups:name="R_BshC" groups:idRef="R_R_BshC"/>
           <groups:member groups:name="R_BTHPer" groups:idRef="R_R_BTHPer"/>
           <groups:member groups:name="R_BSSBRed" groups:idRef="R_R_BSSBRed"/>
+          <groups:member groups:name="R_GLYOXBACIL" groups:idRef="R_R_GLYOXBACIL"/>
+          <groups:member groups:name="R_LBACIL" groups:idRef="R_R_LBACIL"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
