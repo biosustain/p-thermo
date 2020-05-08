@@ -48558,6 +48558,16 @@
           <speciesReference species="M_bacthiolbsh_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_R_BTHPer" sboTerm="SBO:0000176" id="R_R_BTHPer" name="R_BTHPer" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_h2o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_bacthiolbsh_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_b13galacbio_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50805,6 +50815,7 @@
           <groups:member groups:name="R_BshA" groups:idRef="R_R_BshA"/>
           <groups:member groups:name="R_BshB12" groups:idRef="R_R_BshB12"/>
           <groups:member groups:name="R_BshC" groups:idRef="R_R_BshC"/>
+          <groups:member groups:name="R_BTHPer" groups:idRef="R_R_BTHPer"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
