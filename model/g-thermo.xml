@@ -48527,6 +48527,37 @@
           <speciesReference species="M_thex2eACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_R_BshA" sboTerm="SBO:0000176" id="R_R_BshA" name="R_BshA" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_mal__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_uacgam_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_udp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glcnacmal_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_R_BshB12" sboTerm="SBO:0000176" id="R_R_BshB12" name="R_BshB12" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glcnacmal_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ac_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glcnmal_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_R_BshC" sboTerm="SBO:0000176" id="R_R_BshC" name="R_BshC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cys__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glcnmal_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_bacthiolbsh_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50115,7 +50146,6 @@
           <groups:member groups:name="6-phospho-D-gluconate:NADP+ 2-oxidoreductase (decarboxylating)" groups:idRef="R_GND"/>
           <groups:member groups:name="S-adenosylmethioninamine:putrescine 3-aminopropyltransferase" groups:idRef="R_SPMS"/>
           <groups:member groups:name="S-adenosylmethioninamine:spermidine 3-aminopropyltransferase" groups:idRef="R_ASAPT"/>
-          <groups:member groups:name="gamma-L-glutamyl-L-cysteinyl-glycine:spermidine ligase (ADP-forming)" groups:idRef="R_GSPMDS"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00500__32____45____32__Starch__32__and__32__sucrose__32__metabolism" groups:name="00500 - Starch and sucrose metabolism" groups:kind="collection">
@@ -50772,6 +50802,9 @@
       <groups:group groups:id="G___123__c__125__" groups:name="{c}" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="phosphoenolpyruvate-protein phosphotransferase" groups:idRef="R_PROPIRE"/>
+          <groups:member groups:name="R_BshA" groups:idRef="R_R_BshA"/>
+          <groups:member groups:name="R_BshB12" groups:idRef="R_R_BshB12"/>
+          <groups:member groups:name="R_BshC" groups:idRef="R_R_BshC"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
