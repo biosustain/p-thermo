@@ -21696,7 +21696,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_clpn_c" sboTerm="SBO:0000247" id="M_clpn_c" name="Cardiolipin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H18O17P2R4">
+      <species metaid="meta_M_clpn_c" sboTerm="SBO:0000247" id="M_clpn_c" name="Cardiolipin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C73.28H142.56O17P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NOTES: Cardiolipin; Diphosphatidylglycerol; 1,3-Bis(1,2-diacyl-sn-glycero-3-phospho)-sn-glycerol</p>
