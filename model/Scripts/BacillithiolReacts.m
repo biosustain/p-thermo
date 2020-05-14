@@ -1,5 +1,5 @@
 %BshA
-ModelBB = addReaction(Model,'BshA','metaboliteList',{'uacgam[c]','mal__L[c]','glcnacmal[c]','udp[c]','h[c]'},'stoichCoeffList',[-1 -1 1 1 1],'reversible',false,'lowerBound',0,'upperBound',1000);
+ModelBB = addReaction(Model,'BshA','metaboliteList',{'uacgam[c]','mal__L[c]','glcnacmal[c]','udp[c]'},'stoichCoeffList',[-1 -1 1 1],'reversible',false,'lowerBound',0,'upperBound',1000);
 rxn_pos = strcmp(ModelBB.rxnNames,'BshA');
 ModelBB.rxnSBOTerms{rxn_pos} = 'SBO:0000176';
 ModelBB.rxnisrheaID{rxn_pos} = '33383';
@@ -9,7 +9,7 @@ rxn_pos = strcmp(ModelBB.rxnNames,'BshB12');
 ModelBB.rxnSBOTerms{rxn_pos} = 'SBO:0000176';
 ModelBB.rxnisrheaID{rxn_pos} = '33411';
 %BshC
-ModelBB = addReaction(ModelBB,'BshC','metaboliteList',{'cys__L[c]', 'glcmal[c]','h[c]', 'bacthiolbsh[c]'},'stoichCoeffList',[-1 -2 2 1],'reversible',false,'lowerBound',0,'upperBound',1000);
+ModelBB = addReaction(ModelBB,'BshC','metaboliteList',{'cys__L[c]', 'glcmal[c]','h2o[c]', 'bacthiolbsh[c]'},'stoichCoeffList',[-1 -1 1 1],'reversible',false,'lowerBound',0,'upperBound',1000);
 rxn_pos = strcmp(ModelBB.rxnNames,'BshC');
 ModelBB.rxnSBOTerms{rxn_pos} = 'SBO:0000176';
 ModelBB.rxnisrheaID{rxn_pos} = '33427';
