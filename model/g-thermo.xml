@@ -21718,8 +21718,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species id="M_glcnmal_c" name="glcnmal[c]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_lac_c" name="lac[c]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -47622,7 +47620,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_ac_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glcnmal_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_glcmal_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_BshC" sboTerm="SBO:0000176" id="R_BshC" name="BshC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47639,7 +47637,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cys__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glcnmal_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_glcmal_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
@@ -47686,9 +47684,9 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
+          <speciesReference species="M_lac__D_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_bacthiolbsh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_lac_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
