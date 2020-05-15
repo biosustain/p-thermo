@@ -57,11 +57,11 @@
       - metanetx.chemical: MNXM6145
       - sbo: SBO:0000247
   - !!omap
-    - id: ps_cho_c
+    - id: ps_c
     - name: Phosphatidylserine
     - compartment: c
     - charge: 0
-    - formula: C8H12NO10PR2
+    - formula: C38.14H74.28NO10P
     - notes: !!omap
       - NAME: L-1-Phosphatidylserine; 1,2-Diacyl-sn-glycerol 3-phospho-L-serine; O3-Phosphatidyl-L-serine;
           Phosphatidylserine; Phosphatidyl-L-serine; 3-O-sn-Phosphatidyl-L-serine;
@@ -273,7 +273,7 @@
       - metanetx.chemical: MNXM10102
       - sbo: SBO:0000247
   - !!omap
-    - id: hdeacp_c
+    - id: palmACP_c
     - name: Hexadecanoyl-[acp]
     - compartment: c
     - charge: -1
@@ -318,7 +318,7 @@
       - metanetx.chemical: MNXM2576
       - sbo: SBO:0000247
   - !!omap
-    - id: 3oxhdacp_c
+    - id: 3opalmACP_c
     - name: 3-Oxohexadecanoyl-[acp]
     - compartment: c
     - charge: -1
@@ -363,7 +363,7 @@
       - sbo: SBO:0000247
   - !!omap
     - id: myrsACP_c
-    - name: 3-Oxotetradecanoyl-[acp]
+    - name: Tetradecanoyl-[acp]
     - compartment: c
     - charge: -1
     - formula: C25H47N2O8PRS
@@ -376,7 +376,7 @@
       - metanetx.chemical: MNXM564
       - sbo: SBO:0000247
   - !!omap
-    - id: dodecacp_c
+    - id: ddcaACP_c
     - name: Dodecanoyl-[acyl-carrier
     - compartment: c
     - charge: -1
@@ -435,7 +435,7 @@
       - metanetx.chemical: MNXM28933
       - sbo: SBO:0000247
   - !!omap
-    - id: decanoylacp_c
+    - id: dcaACP_c
     - name: Decanoyl-[acp]
     - compartment: c
     - charge: -1
@@ -491,7 +491,7 @@
       - metanetx.chemical: MNXM26616
       - sbo: SBO:0000247
   - !!omap
-    - id: octacp_c
+    - id: ocACP_c
     - name: Octanoyl-[acp]
     - compartment: c
     - charge: -1
@@ -561,8 +561,8 @@
       - metanetx.chemical: MNXM25370
       - sbo: SBO:0000247
   - !!omap
-    - id: hexacp_c
-    - name: (R)-3-Hydroxyhexanoyl-[acp]
+    - id: hexACP_c
+    - name: Hexanoyl-ACP (n-C6:0ACP)
     - compartment: c
     - charge: -1
     - formula: C17H31N2O8PRS
@@ -601,7 +601,7 @@
       - sbo: SBO:0000247
       - seed.compound: cpd11465
   - !!omap
-    - id: butacp_c
+    - id: butACP_c
     - name: Butyryl-[acp]
     - compartment: c
     - charge: -1
@@ -15592,6 +15592,7 @@
       - NAME: 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
     - annotation: !!omap
       - kegg.compound: C20246
+      - sbo: SBO:0000247
   - !!omap
     - id: cthzp_c
     - name: 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
@@ -15602,6 +15603,7 @@
       - NAME: cThz-P; 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate; 4-Methyl-5-[2-(phosphonooxy)ethyl]-1,3-thiazole-2-carboxylate;
     - annotation: !!omap
       - kegg.compound: C20247
+      - sbo: SBO:0000247
   - !!omap
     - id: tcscp_c
     - name: Thiocarboxy-[sulfur-carrier protein]
@@ -15625,6 +15627,7 @@
     - annotation: !!omap
       - chebi: CHEBI:80100
       - kegg.compound: C15810
+      - sbo: SBO:0000247
   - !!omap
     - id: enzcys_c
     - name: '[Enzyme]-cysteine'
@@ -15635,6 +15638,7 @@
       - NAME: '[Enzyme]-cysteine; Thiamine biosynthesis intermediate 2'
     - annotation: !!omap
       - kegg.compound: C15811
+      - sbo: SBO:0000247
   - !!omap
     - id: enzscys_c
     - name: '[Enzyme]-S-sulfanylcysteine'
@@ -15645,6 +15649,7 @@
       - NAME: '[Enzyme]-S-sulfanylcysteine; Thiamine biosynthesis intermediate 3'
     - annotation: !!omap
       - kegg.compound: C15812
+      - sbo: SBO:0000247
   - !!omap
     - id: ascp_c
     - name: Adenylyl-[sulfur-carrier protein]
@@ -15656,6 +15661,7 @@
     - annotation: !!omap
       - chebi: CHEBI:80101
       - kegg.compound: C15813
+      - sbo: SBO:0000247
   - !!omap
     - id: btn_c
     - name: Biotin
@@ -15667,6 +15673,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15956
       - kegg.compound: C00120
+      - sbo: SBO:0000247
   - !!omap
     - id: b5amp_c
     - name: Biotinyl-5-AMP
@@ -15678,6 +15685,7 @@
     - annotation: !!omap
       - chebi: CHEBI:3110
       - kegg.compound: C05921
+      - sbo: SBO:0000247
   - !!omap
     - id: lald__L_c
     - name: L-Lactaldehyde
@@ -15689,52 +15697,33 @@
     - annotation: !!omap
       - chebi: CHEBI:18041
       - kegg.compound: C00424
+      - sbo: SBO:0000247
   - !!omap
-    - id: gtspmd_c
-    - name: Glutathionylspermidine
-    - compartment: c
-    - charge: 2
-    - formula: C17H36N6O5S
-    - notes: !!omap
-      - NAME: N1-(gamma-L-Glutamyl-L-cysteinyl-glycyl)-spermidine; Glutathionylspermidine;
-    - annotation: !!omap
-      - chebi: CHEBI:16613
-      - kegg.compound: C05730
-  - !!omap
-    - id: acoa_c
-    - name: Acyl coenzyme A
-    - compartment: c
-    - charge: -3
-    - formula: C22H32N7O17P3SR
-    - notes: !!omap
-      - NAME: Acyl coenzyme A; Acyl-CoA;
-    - annotation: !!omap
-      - chebi: CHEBI:17984
-      - kegg.compound: C00040
-  - !!omap
-    - id: pa_EC_c
+    - id: pa_c
     - name: Phosphatidate
     - compartment: c
     - charge: 0
-    - formula: C5H7O8PR2
+    - formula: C35.14H69.28O8P
     - notes: !!omap
       - NAME: Phosphatidic acid; 3-sn-Phosphatidate; Phosphatidate; 1,2-Diacyl-sn-glycerol
           3-phosphate;
     - annotation: !!omap
       - chebi: CHEBI:16337
       - kegg.compound: C00416
+      - sbo: SBO:0000247
   - !!omap
     - id: cdpdag_c
     - name: CDP-1,2-diacylglycerol
     - compartment: c
     - charge: -2
-    - formula: C14H17N3O15P2R2
+    - formula: C44.14H79.28N3O15P2
     - notes: !!omap
       - NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate;
           CDP-diacylglycerol;
     - annotation: !!omap
       - chebi: CHEBI:17962
       - kegg.compound: C00269
+      - sbo: SBO:0000247
   - !!omap
     - id: rr23bdo_c
     - name: (R,R)-Butane-2,3-diol; (R,R)-2,3-Butanediol
@@ -15746,6 +15735,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16982
       - kegg.compound: C03044
+      - sbo: SBO:0000247
   - !!omap
     - id: actn__R_c
     - name: (R)-Acetoin
@@ -15758,6 +15748,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15686
       - kegg.compound: C00810
+      - sbo: SBO:0000247
   - !!omap
     - id: diact_c
     - name: Diacetyl
@@ -15769,6 +15760,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16583
       - kegg.compound: C00741
+      - sbo: SBO:0000247
   - !!omap
     - id: actn_c
     - name: Acetoin
@@ -15781,6 +15773,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15688
       - kegg.compound: C00466
+      - sbo: SBO:0000247
   - !!omap
     - id: hacc_c
     - name: Hydrogen-acceptor
@@ -15804,6 +15797,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16992
       - kegg.compound: C01146
+      - sbo: SBO:0000247
   - !!omap
     - id: trnaglu_c
     - name: TRNA (Glu)
@@ -15830,9 +15824,10 @@
     - name: 1-Acyl-sn-glycerol 3-phosphate
     - compartment: c
     - charge: -1
-    - formula: C4H7O7PR
+    - formula: C19.07H38.14O7P
     - annotation: !!omap
       - kegg.compound: C00681
+      - sbo: SBO:0000247
   - !!omap
     - id: fru_e
     - name: D-Fructose
@@ -15846,6 +15841,7 @@
         - CHEBI:15824
         - CHEBI:37721
       - kegg.compound: C00095
+      - sbo: SBO:0000247
   - !!omap
     - id: arab__L_e
     - name: L-arabinose
@@ -15857,6 +15853,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17535
       - kegg.compound: C00259
+      - sbo: SBO:0000247
   - !!omap
     - id: xyl__D_e
     - name: D-xylose
@@ -15870,6 +15867,7 @@
         - CHEBI:15936
         - CHEBI:53455
       - kegg.compound: C00181
+      - sbo: SBO:0000247
   - !!omap
     - id: mnl_e
     - name: Mannitol
@@ -15881,6 +15879,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16899
       - kegg.compound: C00392
+      - sbo: SBO:0000247
   - !!omap
     - id: cellb_e
     - name: Cellobiose
@@ -15891,6 +15890,7 @@
       - NAME: Glucoscilliroside; Cellobiose;
     - annotation: !!omap
       - kegg.glycan: G00289
+      - sbo: SBO:0000247
   - !!omap
     - id: sucr_e
     - name: Sucrose
@@ -15902,6 +15902,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17992
       - kegg.compound: C00089
+      - sbo: SBO:0000247
   - !!omap
     - id: sbt__D_e
     - name: D-Sorbitol
@@ -16161,6 +16162,7 @@
     - formula: C12H22O11
     - annotation: !!omap
       - kegg.compound: C08240
+      - sbo: SBO:0000247
   - !!omap
     - id: gtbi_c
     - name: Gentiobiose
@@ -16169,6 +16171,7 @@
     - formula: C12H22O11
     - annotation: !!omap
       - kegg.compound: C08240
+      - sbo: SBO:0000247
   - !!omap
     - id: tura_c
     - name: D-Turanose
@@ -16178,6 +16181,7 @@
     - annotation: !!omap
       - kegg.compound: C19636
       - metanetx.chemical: MNXM161984
+      - sbo: SBO:0000247
   - !!omap
     - id: tura_e
     - name: D-Turanose
@@ -16187,6 +16191,7 @@
     - annotation: !!omap
       - kegg.compound: C19636
       - metanetx.chemical: MNXM161984
+      - sbo: SBO:0000247
   - !!omap
     - id: kdg2_e
     - name: 2-Keto-D-gluconic acid
@@ -16196,6 +16201,7 @@
     - annotation: !!omap
       - kegg.compound: C06473
       - metanetx.chemical: MNXM480329
+      - sbo: SBO:0000247
   - !!omap
     - id: kdg2_c
     - name: 2-Keto-D-gluconic acid
@@ -16205,6 +16211,7 @@
     - annotation: !!omap
       - kegg.compound: C06473
       - metanetx.chemical: MNXM480329
+      - sbo: SBO:0000247
   - !!omap
     - id: dglcn5_e
     - name: 5-Dehydro-D-gluconate
@@ -16214,6 +16221,7 @@
     - annotation: !!omap
       - kegg.compound: C01062
       - metanetx.chemical: MNXM963
+      - sbo: SBO:0000247
   - !!omap
     - id: dglcn5_c
     - name: 5-Dehydro-D-gluconate
@@ -16223,6 +16231,7 @@
     - annotation: !!omap
       - kegg.compound: C01062
       - metanetx.chemical: MNXM963
+      - sbo: SBO:0000247
   - !!omap
     - id: meoh_c
     - name: Methanol
@@ -16265,6 +16274,7 @@
     - annotation: !!omap
       - kegg.compound: C03619
       - metanetx.chemical: MNXM61754
+      - sbo: SBO:0000247
   - !!omap
     - id: mdgp_c
     - name: Methyl D-glucopyranoside
@@ -16274,6 +16284,7 @@
     - annotation: !!omap
       - kegg.compound: C03619
       - metanetx.chemical: MNXM61754
+      - sbo: SBO:0000247
   - !!omap
     - id: tag__D_e
     - name: D-tagatose
@@ -16283,6 +16294,7 @@
     - annotation: !!omap
       - kegg.compound: C00795
       - metanetx.chemical: MNXM83257
+      - sbo: SBO:0000247
   - !!omap
     - id: tag1p__D_c
     - name: D-Tagatose 1-phosphate
@@ -16291,6 +16303,7 @@
     - formula: C6H11O9P
     - annotation: !!omap
       - metanetx.chemical: MNXM11293
+      - sbo: SBO:0000247
   - !!omap
     - id: tagdp__D_c
     - name: D-Tagatose 1,6-bisphosphate
@@ -16299,6 +16312,7 @@
     - formula: C6H12O12P2
     - annotation: !!omap
       - kegg.compound: C03785
+      - sbo: SBO:0000247
   - !!omap
     - id: amylose_e
     - name: Amylose
@@ -17952,6 +17966,947 @@
       - metanetx.chemical: MNXM24502
       - sbo: SBO:0000247
       - seed.compound: cpd11473
+  - !!omap
+    - id: glcnacmal_c
+    - name: S-malyl N-acetyl-alpha-D-glucosaminide
+    - compartment: c
+    - charge: -2
+    - formula: C12H17NO10
+    - annotation: !!omap
+      - chebi: CHEBI:64870
+      - pubchem.compound: '57339291'
+      - sbo: SBO:0000247
+  - !!omap
+    - id: glcmal_c
+    - name: S-malyl alpha-D-glucosaminide
+    - compartment: c
+    - charge: -1
+    - formula: C10H16NO9
+    - annotation: !!omap
+      - chebi: CHEBI:64871
+      - pubchem.compound: '573392741'
+      - sbo: SBO:0000247
+  - !!omap
+    - id: bacthiolbsh_c
+    - name: Bacillithiol
+    - compartment: c
+    - charge: 0
+    - formula: C13H22N2O10S
+    - notes: !!omap
+      - ChEBIID: 'CHEBI: 64876'
+      - PubChemID: ?42614123
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: bacthiolbssb_c
+    - name: Bacillithiol Disulfide
+    - compartment: c
+    - charge: 0
+    - formula: C26H42N4O20S2
+    - annotation: !!omap
+      - chebi: CHEBI:12345
+      - pubchem.compound: '139583567'
+      - sbo: SBO:0000247
+  - !!omap
+    - id: b13galacbio_c
+    - name: beta-1-3-galactobiocysteine
+    - compartment: c
+    - charge: 0
+    - formula: C16H26N2O12S1
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: pg_c
+    - name: Phosphatidylglycerol
+    - compartment: c
+    - charge: 0
+    - formula: C38.14H75.28O10P
+    - annotation: !!omap
+      - chebi: CHEBI:17517
+      - kegg.compound: C00344
+      - sbo: SBO:0000247
+  - !!omap
+    - id: pgp_c
+    - name: Phosphatidylglycerophosphate
+    - compartment: c
+    - charge: 0
+    - formula: C38.14H76.28O13P2
+    - annotation: !!omap
+      - chebi: CHEBI:37393
+      - kegg.compound: C03892
+      - sbo: SBO:0000247
+  - !!omap
+    - id: pe_c
+    - name: Phosphatidylethanolamine
+    - compartment: c
+    - charge: 0
+    - formula: C37.14H74.28NO8P
+    - annotation: !!omap
+      - chebi: CHEBI:16038
+      - kegg.compound: C00350
+      - sbo: SBO:0000247
+  - !!omap
+    - id: clpn_c
+    - name: Cardiolipin
+    - compartment: c
+    - charge: 0
+    - formula: C73.28H142.56O17P2
+    - notes: !!omap
+      - NOTES: Cardiolipin; Diphosphatidylglycerol; 1,3-Bis(1,2-diacyl-sn-glycero-3-phospho)-sn-glycerol
+    - annotation: !!omap
+      - chebi: CHEBI:28494
+      - kegg.compound: C05980
+      - sbo: SBO:0000247
+  - !!omap
+    - id: propACP_c
+    - name: Propionyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C14H25N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3opentACP_c
+    - name: 3-oxopentanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C16H27O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3hpentACP_c
+    - name: 3-Hydroxypentanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C16H29O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: tpent2eACP_c
+    - name: Trans-Pent-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C16H27O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: pentACP_c
+    - name: pentanoyl-ACP(n-C5:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C16H29O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3oheptACP_c
+    - name: 3-oxoheptanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C18H31O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3hheptACP_c
+    - name: 3-Hydroxyheptanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C18H33O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: thept2eACP_c
+    - name: Trans-Hept-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C18H31O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: heptACP_c
+    - name: heptanoyl-ACP(n-C7:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C18H33O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3ononACP_c
+    - name: 3-oxononanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C20H35O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3hnonACP_c
+    - name: 3-Hydroxynonanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C20H37O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: tnon2eACP_c
+    - name: Trans-Non-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C20H35O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: nonACP_c
+    - name: nonanoyl-ACP(n-C9:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C20H37O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3oudecACP_c
+    - name: 3-oxoundecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C22H39O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3hudecACP_c
+    - name: 3-Hydroxyundecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C22H41O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: tudec2eACP_c
+    - name: Trans-Undec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C22H39O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: udecACP_c
+    - name: Undecanoyl-ACP(n-C11:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C22H41O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3otdecACP_c
+    - name: 3-oxotridecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C24H43O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3htdecACP_c
+    - name: 3-Hydroxytridecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C24H45O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: ttdec2eACP_c
+    - name: Trans-Tridec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C24H43O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: tdecACP_c
+    - name: Tridecanoyl-ACP(n-C13:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C24H45O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3opdecACP_c
+    - name: 3-oxopentadecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C26H47O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3hpdecACP_c
+    - name: 3-Hydroxypentadecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C26H49O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: tpdec2eACP_c
+    - name: Trans-Pentadec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C26H47O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: pdecACP_c
+    - name: Pentadecanoyl-ACP(n-C15:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C26H49O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3ohdecACP_c
+    - name: 3-oxoheptadecnoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C28H51O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3hhdecACP_c
+    - name: 3-Hydroxyheptadecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C28H53O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: thdec2eACP_c
+    - name: Trans-Heptadec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C28H51O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: hdecACP_c
+    - name: Heptadecanoyl-ACP(n-C17:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C28H53O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s2mbACP_c
+    - name: 2-methylbutanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C16H29N2O8PRS
+    - annotation: !!omap
+      - kegg.compound: C21129
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3o2mhACP_c
+    - name: 3-oxo2methylhexanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C18H31N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mhACP_c
+    - name: 3-Hydroxy-2-methylhexanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C18H33N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mh2eACP_c
+    - name: Trans-2-methylhex-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C18H31N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mhexACP_c
+    - name: 2methyl-hexanoyl-ACP(anteiso-C7:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C18H33N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2moACP_c
+    - name: 3-oxo2methyloctanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C20H35N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2moACP_c
+    - name: 3-Hydroxy-2-methyloctanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C20H37N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mo2eACP_c
+    - name: Trans-2-methyloct-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C20H35N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2moctACP_c
+    - name: 2methyl-octanoyl-ACP(anteiso-C9:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C20H37N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mdACP_c
+    - name: 3-oxo2methyldecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C22H39N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mdACP_c
+    - name: 3-Hydroxy-2-methyldecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C22H41N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2md2eACP_c
+    - name: Trans-2-methyldec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C22H39N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mdecACP_c
+    - name: 2methyl-decanoyl-ACP(anteiso-C11:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C22H41N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mddACP_c
+    - name: 3-oxo2methyldodecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C24H43N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mddACP_c
+    - name: 3-Hydroxy-2-methyldodecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C24H45N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mdd2eACP_c
+    - name: Trans-2-methyldodec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C24H43N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mddecACP_c
+    - name: 2methyl-dodecanoyl-ACP(anteiso-C13:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C24H45N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mtdACP_c
+    - name: 3-oxo2methyltetradecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C26H47N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mtdACP_c
+    - name: 3-Hydroxy-2-methyltetradecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C26H49N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mtd2eACP_c
+    - name: Trans-2-methyltetradec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C26H47N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mtdecACP_c
+    - name: 2methyl-tetradecanoyl-ACP(anteiso-C15:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C26H49N2O8PRS
+    - annotation: !!omap
+      - chebi: CHEBI:39251
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mhdACP_c
+    - name: 3-oxo2methylhexadecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C28H51N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mhdACP_c
+    - name: 3-Hydroxy-2-methylhexadecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C28H53N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mhd2eACP_c
+    - name: Trans-2-methylhexadec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C28H51N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mhdecACP_c
+    - name: 2methyl-hexadecanoyl-ACP(anteiso-C17:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C28H53N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: ivACP_c
+    - name: 3-Methylbutanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C16H29N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3o3mhACP_c
+    - name: 3-oxo3methylhexanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C18H31N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h3mhACP_c
+    - name: 3-Hydroxy-3-methylhexanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C18H33N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t3mh2eACP_c
+    - name: Trans-3-methylhex-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C18H31N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3mhexACP_c
+    - name: 3-methyl-hexanoyl-ACP(iso-C7:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C18H33N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o3moACP_c
+    - name: 3-oxo3methyloctanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C20H35N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h3moACP_c
+    - name: 3-Hydroxy-3-methyloctanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C20H37N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t3mo2eACP_c
+    - name: Trans-3-methyloct-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C20H35N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3moctACP_c
+    - name: 3-methyl-octanoyl-ACP(iso-C9:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C20H37N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o3mdACP_c
+    - name: 3-oxo3methyldecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C22H39N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h3mdACP_c
+    - name: 3-Hydroxy-3-methyldecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C22H41N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t3md2eACP_c
+    - name: Trans-3-methyldec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C22H39N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3mdecACP_c
+    - name: 3-methyl-decanoyl-ACP(iso-C11:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C22H41N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o3mddACP_c
+    - name: 3-oxo3methyldodecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C24H43N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h3mddACP_c
+    - name: 3-Hydroxy-3-methyldodecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C24H45N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t3mdd2eACP_c
+    - name: Trans-3-methyldodec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C24H43N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3mddecACP_c
+    - name: 3-methyl-dodecanoyl-ACP(iso-C13:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C24H45N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o3mtdACP_c
+    - name: 3-oxo3methyltetradecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C26H47N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h3mtdACP_c
+    - name: 3-Hydroxy-3-methyltetradecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C26H49N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t3mtd2eACP_c
+    - name: Trans-3-methyltetradec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C26H47N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3mtdecACP_c
+    - name: 3-methyl-tetradecanoyl-ACP(iso-C15:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C26H49N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o3mhdACP_c
+    - name: 3-oxo3methylhexadecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C28H51N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h3mhdACP_c
+    - name: 3-Hydroxy-3-methylhexadecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C28H53N2O9PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t3mhd2eACP_c
+    - name: Trans-3-methylhexadec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C28H51N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3mhdecACP_c
+    - name: 3-methyl-hexadecanoyl-ACP(iso-C17:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C28H53N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: ibACP_c
+    - name: 2-Methylpropanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C15H27N2O8PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3o2mpentACP_c
+    - name: 3-oxo-2-methylpentanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C17H29O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mpentACP_c
+    - name: 3-Hydroxy-2-methylpentanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C17H31O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mpent2eACP_c
+    - name: Trans-2-methyl-Pent-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C17H29O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mpentACP_c
+    - name: 2-methyl-pentanoyl-ACP(iso-C65:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C17H31O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mheptACP_c
+    - name: 3-oxo-2-methylheptanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C19H33O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mheptACP_c
+    - name: 3-Hydroxy-2-methyl-heptanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C19H35O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mhept2eACP_c
+    - name: Trans-2-methyl-Hept-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C19H33O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mheptACP_c
+    - name: 2-methyl-heptanoyl-ACP(iso-C8:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C19H35O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mnonACP_c
+    - name: 3-oxo-2-methyl-nonanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C21H37O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mnonACP_c
+    - name: 3-Hydroxy-2-methyl-nonanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C21H39O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mnon2eACP_c
+    - name: Trans-2-methyl-Non-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C21H37O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mnonACP_c
+    - name: 2-methyl-nonanoyl-ACP(iso-C10:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C21H39O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mudecACP_c
+    - name: 3-oxo-2-methyl-undecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C23H41O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mudecACP_c
+    - name: 3-Hydroxy-2-methyl-undecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C23H43O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mudec2eACP_c
+    - name: Trans-2-methyl-Undec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C23H41O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mudecACP_c
+    - name: 2-Methyl-Undecanoyl-ACP(iso-C12:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C23H43O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mtridecACP_c
+    - name: 3-oxo-2-methyltridecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C25H45O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mtridecACP_c
+    - name: 3-Hydroxy-2-methyl-tridecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C25H47O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mtridec2eACP_c
+    - name: Trans-2-methyl-Tridec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C25H45O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mtridecACP_c
+    - name: 2-methyl-Tridecanoyl-ACP(iso-C14:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C25H47O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 3o2mpdecACP_c
+    - name: 3-oxo-2-methyl-pentadecanoyl-ACP
+    - compartment: c
+    - charge: -1
+    - formula: C27H49O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3h2mpdecACP_c
+    - name: 3-Hydroxy-2-methyl-pentadecanoyl-[acp]
+    - compartment: c
+    - charge: -1
+    - formula: C27H51O9N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: t2mpdec2eACP_c
+    - name: Trans-2-methyl-Pentadec-2-enoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C27H49O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 2mpdecACP_c
+    - name: 2-Methyl-Pentadecanoyl-ACP(iso-C16:0ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C27H51O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: acylACP_c
+    - name: Generic Acyl-ACP fatty acid
+    - compartment: c
+    - charge: -1
+    - formula: C27.07H51.14O8N2PRS
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: acylcoa_c
+    - name: Generic Acyl-CoA
+    - compartment: c
+    - charge: -3
+    - formula: C37.07H63.14O17N7P3S
+    - annotation: !!omap
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: IDPh
@@ -23813,7 +24768,7 @@
       - cdpdag_c: -1.0
       - cmp_c: 1.0
       - h_c: -1.0
-      - ps_cho_c: 1.0
+      - ps_c: 1.0
       - ser__L_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -30516,23 +31471,6 @@
       - metanetx.reaction: MNXR100912
       - sbo: SBO:0000176
   - !!omap
-    - id: AMACT
-    - name: beta-ketoacyl-[acyl-carrier-protein] synthase III
-    - metabolites: !!omap
-      - ACP_c: 1.0
-      - acACP_c: -1.0
-      - actACP_c: 1.0
-      - co2_c: 1.0
-      - h_c: -1.0
-      - malACP_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO12345
-    - annotation: !!omap
-      - ec-code: 2.3.1.180
-      - kegg.reaction: R10707
-      - sbo: SBO:0000176
-  - !!omap
     - id: MCOATA
     - name: Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
     - metabolites: !!omap
@@ -30562,7 +31500,7 @@
       - 3hbutACP_c: -1.0
       - but2eACP_c: 1.0
       - h2o_c: 1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
@@ -30575,16 +31513,16 @@
       - metanetx.reaction: MNXR94886
       - sbo: SBO:0000176
   - !!omap
-    - id: BUTACPOR
+    - id: EAR40x
     - name: butyryl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
       - but2eACP_c: 1.0
-      - butacp_c: -1.0
+      - butACP_c: -1.0
       - h_c: 1.0
       - nad_c: -1.0
       - nadh_c: 1.0
     - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
       - ec-code:
@@ -30594,13 +31532,13 @@
       - metanetx.reaction: MNXR108883
       - sbo: SBO:0000176
   - !!omap
-    - id: BUTACPAT
+    - id: 3OAS60
     - name: butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
         (decarboxylating)
     - metabolites: !!omap
       - 3ohexACP_c: 1.0
       - ACP_c: 1.0
-      - butacp_c: -1.0
+      - butACP_c: -1.0
       - co2_c: 1.0
       - h_c: -1.0
       - malACP_c: -1.0
@@ -30664,20 +31602,20 @@
     - name: hexanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
       - h_c: 1.0
-      - hexacp_c: -1.0
+      - hexACP_c: -1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
       - thex2eACP_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: RTMO12345
+    - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: EAR60y
       - ec-code: 2.3.1.86
       - metanetx.reaction: MNXR97866
       - sbo: SBO:0000176
   - !!omap
-    - id: HEXACPAT
+    - id: 3OAS80
     - name: hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
         (decarboxylating)
     - metabolites: !!omap
@@ -30685,7 +31623,7 @@
       - ACP_c: 1.0
       - co2_c: 1.0
       - h_c: -1.0
-      - hexacp_c: -1.0
+      - hexACP_c: -1.0
       - malACP_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -30728,7 +31666,7 @@
       - 3hoctACP_c: -1.0
       - h2o_c: 1.0
       - toct2eACP_c: 1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
@@ -30743,16 +31681,16 @@
       - metanetx.reaction: MNXR94888
       - sbo: SBO:0000176
   - !!omap
-    - id: OCTACPOR
+    - id: EAR80x
     - name: octanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
       - h_c: 1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-      - octacp_c: -1.0
+      - ocACP_c: -1.0
       - toct2eACP_c: 1.0
     - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
       - ec-code:
@@ -30762,7 +31700,7 @@
       - metanetx.reaction: MNXR109249
       - sbo: SBO:0000176
   - !!omap
-    - id: OCTACPAT
+    - id: 3OAS100
     - name: Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
         (decarboxylating)
     - metabolites: !!omap
@@ -30771,7 +31709,7 @@
       - co2_c: 1.0
       - h_c: -1.0
       - malACP_c: -1.0
-      - octacp_c: -1.0
+      - ocACP_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
@@ -30813,7 +31751,7 @@
       - 3hdecACP_c: -1.0
       - h2o_c: 1.0
       - tdec2eACP_c: 1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
@@ -30829,16 +31767,16 @@
       - metanetx.reaction: MNXR94876
       - sbo: SBO:0000176
   - !!omap
-    - id: DECACPOR
+    - id: EAR100x
     - name: decanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
-      - decanoylacp_c: -1.0
+      - dcaACP_c: -1.0
       - h_c: 1.0
       - nad_c: -1.0
       - nadh_c: 1.0
       - tdec2eACP_c: 1.0
     - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
       - ec-code:
@@ -30848,17 +31786,17 @@
       - metanetx.reaction: MNXR109252
       - sbo: SBO:0000176
   - !!omap
-    - id: DECACPAT
+    - id: 3OAS120
     - name: Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
         (decarboxylating)
     - metabolites: !!omap
       - 3oddecACP_c: 1.0
       - ACP_c: 1.0
       - co2_c: 1.0
-      - decanoylacp_c: -1.0
+      - dcaACP_c: -1.0
       - h_c: -1.0
       - malACP_c: -1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
@@ -30915,16 +31853,16 @@
       - metanetx.reaction: MNXR94877
       - sbo: SBO:0000176
   - !!omap
-    - id: DDECACPOR
+    - id: EAR120x
     - name: dodecanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
-      - dodecacp_c: -1.0
+      - ddcaACP_c: -1.0
       - h_c: 1.0
       - nad_c: -1.0
       - nadh_c: 1.0
       - tddec2eACP_c: 1.0
     - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
       - ec-code:
@@ -30934,14 +31872,14 @@
       - metanetx.reaction: MNXR109080
       - sbo: SBO:0000176
   - !!omap
-    - id: MALACPAT
+    - id: 3OAS140
     - name: dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
         (decarboxylating)
     - metabolites: !!omap
       - 3omrsACP_c: 1.0
       - ACP_c: 1.0
       - co2_c: 1.0
-      - dodecacp_c: -1.0
+      - ddcaACP_c: -1.0
       - h_c: -1.0
       - malACP_c: -1.0
     - lower_bound: 0.0
@@ -30985,7 +31923,7 @@
       - 3hmrsACP_c: -1.0
       - h2o_c: 1.0
       - tmrs2eACP_c: 1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
@@ -30999,7 +31937,7 @@
       - metanetx.reaction: MNXR94879
       - sbo: SBO:0000176
   - !!omap
-    - id: MYRACPOR
+    - id: EAR140x
     - name: tetradecanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
       - h_c: 1.0
@@ -31008,7 +31946,7 @@
       - nadh_c: 1.0
       - tmrs2eACP_c: 1.0
     - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
       - ec-code:
@@ -31018,11 +31956,11 @@
       - metanetx.reaction: MNXR109255
       - sbo: SBO:0000176
   - !!omap
-    - id: MMACPAT
+    - id: 3OAS160
     - name: Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
         (decarboxylating)
     - metabolites: !!omap
-      - 3oxhdacp_c: 1.0
+      - 3opalmACP_c: 1.0
       - ACP_c: 1.0
       - co2_c: 1.0
       - h_c: -1.0
@@ -31046,7 +31984,7 @@
     - name: (3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3hpalmACP_c: -1.0
-      - 3oxhdacp_c: 1.0
+      - 3opalmACP_c: 1.0
       - h_c: 1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
@@ -31069,7 +32007,7 @@
       - 3hpalmACP_c: -1.0
       - h2o_c: 1.0
       - tpalm2eACP_c: 1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
@@ -31083,16 +32021,16 @@
       - metanetx.reaction: MNXR94881
       - sbo: SBO:0000176
   - !!omap
-    - id: OPALMACPOR
+    - id: EAR160x
     - name: hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
       - h_c: 1.0
-      - hdeacp_c: -1.0
       - nad_c: -1.0
       - nadh_c: 1.0
+      - palmACP_c: -1.0
       - tpalm2eACP_c: 1.0
     - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
       - ec-code:
@@ -31102,15 +32040,15 @@
       - metanetx.reaction: MNXR109258
       - sbo: SBO:0000176
   - !!omap
-    - id: HDEACPT
+    - id: 3OAS180
     - name: beta-ketoacyl-[acyl-carrier-protein] synthase I
     - metabolites: !!omap
       - ACP_c: 1.0
       - co2_c: 1.0
       - h_c: -1.0
-      - hdeacp_c: -1.0
       - malACP_c: -1.0
       - oxstacp_c: 1.0
+      - palmACP_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
@@ -31124,7 +32062,7 @@
       - metanetx.reaction: MNXR111351
       - sbo: SBO:0000176
   - !!omap
-    - id: OXSTACPOR
+    - id: 3OAR180
     - name: L-xylulose reductase
     - metabolites: !!omap
       - 3hoctaACP_c: 1.0
@@ -31149,7 +32087,7 @@
       - 3hoctaACP_c: -1.0
       - h2o_c: 1.0
       - toctd2eACP_c: 1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
@@ -31161,7 +32099,7 @@
       - metanetx.reaction: MNXR94883
       - sbo: SBO:0000176
   - !!omap
-    - id: TOCTDACPOR
+    - id: EAR180x
     - name: octadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
       - h_c: -1.0
@@ -31169,7 +32107,7 @@
       - nadh_c: -1.0
       - ocdcaACP_c: 1.0
       - toctd2eACP_c: -1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
@@ -31438,6 +32376,7 @@
       - atp_c: -105.027303042
       - ca2_c: -0.00315
       - chor_c: -0.000223000000000001
+      - clpn_c: -0.033142
       - cmp_c: -0.102432476
       - coa_c: -0.000168000000000001
       - cys__L_c: -0.12081
@@ -31468,6 +32407,8 @@
       - nadh_c: -0.029948042
       - nadp_c: -0.0047
       - nadph_c: -0.003
+      - pe_c: -0.032424
+      - pg_c: -0.031037
       - phe__L_c: -0.16253
       - pi_c: 104.9856
       - ppi_c: -0.0012
@@ -32100,26 +33041,6 @@
       - kegg.reaction: R10712
       - sbo: SBO:0000176
   - !!omap
-    - id: GSPMDS
-    - name: gamma-L-glutamyl-L-cysteinyl-glycine:spermidine ligase (ADP-forming)
-    - metabolites: !!omap
-      - adp_c: 1.0
-      - atp_c: -1.0
-      - gthrd_c: -1.0
-      - gtspmd_c: 1.0
-      - h_c: 1.0
-      - pi_c: 1.0
-      - spmd_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - ec-code:
-        - 6.3.1.8
-        - 6.3.1.9
-      - kegg.reaction: R01917
-      - sbo: SBO:0000176
-  - !!omap
     - id: OOR3r
     - name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
     - metabolites: !!omap
@@ -32143,7 +33064,7 @@
     - id: ACCOAACT
     - name: acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase
     - metabolites: !!omap
-      - acoa_c: -1.0
+      - acylcoa_c: -1.0
       - aglyc3p_c: 1.0
       - coa_c: 1.0
       - glyc3p_c: -1.0
@@ -32160,10 +33081,10 @@
     - id: ACCOATT
     - name: acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
     - metabolites: !!omap
-      - acoa_c: -1.0
+      - acylcoa_c: -1.0
       - aglyc3p_c: -1.0
       - coa_c: 1.0
-      - pa_EC_c: 1.0
+      - pa_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -32180,7 +33101,7 @@
       - cdpdag_c: 1.0
       - ctp_c: -1.0
       - h_c: 1.0
-      - pa_EC_c: -1.0
+      - pa_c: -1.0
       - ppi_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
@@ -35294,11 +36215,11 @@
         - rxn13649
         - rxn08013
   - !!omap
-    - id: HACPOR
+    - id: EAR60x
     - name: hexanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
       - h_c: 1.0
-      - hexacp_c: -1.0
+      - hexACP_c: -1.0
       - nad_c: -1.0
       - nadh_c: 1.0
       - thex2eACP_c: 1.0
@@ -35308,6 +36229,2158 @@
     - annotation: !!omap
       - kegg.reaction: R04955
       - sbo: SBO:0000176
+  - !!omap
+    - id: BshA
+    - name: BshA
+    - metabolites: !!omap
+      - glcnacmal_c: 1.0
+      - mal__L_c: -1.0
+      - uacgam_c: -1.0
+      - udp_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - rhea: '33383'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: BshB12
+    - name: BshB12
+    - metabolites: !!omap
+      - ac_c: 1.0
+      - glcmal_c: 1.0
+      - glcnacmal_c: -1.0
+      - h2o_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - rhea: '33411'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: BshC
+    - name: BshC
+    - metabolites: !!omap
+      - bacthiolbsh_c: 1.0
+      - cys__L_c: -1.0
+      - glcmal_c: -1.0
+      - h2o_c: 1.0
+      - h_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - rhea: '33427'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: BTHPer
+    - name: BTHPer
+    - metabolites: !!omap
+      - bacthiolbsh_c: -2.0
+      - bacthiolbssb_c: 1.0
+      - h2o2_c: -1.0
+      - h2o_c: 2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.11.1.9
+      - kegg.reaction: R00274
+      - metanetx.reaction: MNXR100446
+      - rhea: '16833'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: GLYOXBACIL
+    - name: GLYOXBACIL
+    - metabolites: !!omap
+      - b13galacbio_c: 1.0
+      - bacthiolbsh_c: -1.0
+      - h2o_c: 1.0
+      - h_c: -1.0
+      - lac__D_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 3.1.2.6
+      - kegg.reaction: R01736
+      - metanetx.reaction: MNXR100353
+      - rhea: '25245'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: LBACIL
+    - name: LBACIL
+    - metabolites: !!omap
+      - b13galacbio_c: -1.0
+      - bacthiolbsh_c: 1.0
+      - mthgxl_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 4.4.1.5
+      - kegg.reaction: R02530
+      - metanetx.reaction: MNXR100355
+      - rhea: '19069'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PGP
+    - name: Phosphatidylglycerophosphate phosphohydrolase
+    - metabolites: !!omap
+      - h2o_c: -1.0
+      - h_c: 2.0
+      - pg_c: 1.0
+      - pgp_c: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 3.1.3.27
+      - kegg.reaction: R02029
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CDPPT
+    - name: glycerophosphate phosphatidyltransferase;
+    - metabolites: !!omap
+      - cdpdag_c: -1.0
+      - cmp_c: 1.0
+      - glyc3p_c: -1.0
+      - h_c: -3.0
+      - pgp_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 2.7.8.5
+      - kegg.reaction: R01801
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PSD
+    - name: phosphatidylserine decarboxylase
+    - metabolites: !!omap
+      - co2_c: 1.0
+      - pe_c: 1.0
+      - ps_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 4.1.1.65
+      - kegg.reaction: R02055
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CLPNS
+    - name: Cardiolipin synthase
+    - metabolites: !!omap
+      - clpn_c: 1.0
+      - glyc_c: 1.0
+      - pg_c: -2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 2.7.8.-
+      - kegg.reaction: R07390
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR40y
+    - name: Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C4:0)
+    - metabolites: !!omap
+      - but2eACP_c: -1.0
+      - butACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - bigg.reaction: EAR40y
+      - ec-code: 2.3.1.86
+      - metanetx.reaction: MNXR97864
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAR40_1
+    - name: 3-oxoacyl-[acyl-carrier-protein] reductase (n-C4:0)
+    - metabolites: !!omap
+      - 3hbutACP_c: 1.0
+      - actACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.1.1.100
+      - kegg.reaction: R02767
+      - sbo: SBO:0000176
+  - !!omap
+    - id: KAS15
+    - name: Beta-ketoacyl-ACP synthase (2)
+    - metabolites: !!omap
+      - accoa_c: -1.0
+      - actACP_c: 1.0
+      - co2_c: 1.0
+      - coa_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: KAS15
+      - biocyc: META:2.3.1.180-RXN
+      - ec-code: 2.3.1.180
+      - kegg.reaction: R10707
+      - metanetx.reaction: MNXR100913
+      - sbo: SBO:0000176
+      - seed.reaction: rxn08766
+  - !!omap
+    - id: EAR80y
+    - name: Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C8:0)
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - ocACP_c: 1.0
+      - toct2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - bigg.reaction: EAR80y
+      - ec-code: 2.3.1.86
+      - metanetx.reaction: MNXR97868
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR100y
+    - name: Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C10:0)
+    - metabolites: !!omap
+      - dcaACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - tdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - bigg.reaction: EAR100y
+      - ec-code: 2.3.1.86
+      - metanetx.reaction: MNXR97846
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR120y
+    - name: Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:0)
+    - metabolites: !!omap
+      - ddcaACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - tddec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - bigg.reaction: EAR120y
+      - ec-code: 2.3.1.86
+      - metanetx.reaction: MNXR97848
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR140y
+    - name: Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:0)
+    - metabolites: !!omap
+      - h_c: -1.0
+      - myrsACP_c: 1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - tmrs2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - bigg.reaction: EAR140y
+      - ec-code: 2.3.1.86
+      - metanetx.reaction: MNXR97852
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR160y
+    - name: Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:0)
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - palmACP_c: 1.0
+      - tpalm2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - bigg.reaction: EAR160y
+      - ec-code: 1.3.1.10
+      - metanetx.reaction: MNXR97856
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR180y
+    - name: Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:0)
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - ocdcaACP_c: 1.0
+      - toctd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - bigg.reaction: EAR180y
+      - ec-code: 1.3.1.10
+      - metanetx.reaction: MNXR97860
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PCOATA
+    - name: Propanyl-CoA:[acyl-carrier-protein] S-malonyltransferase
+    - metabolites: !!omap
+      - ACP_c: -1.0
+      - coa_c: 1.0
+      - h_c: 1.0
+      - ppcoa_c: -1.0
+      - propACP_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAS50
+    - name: 3-oxopentanoyl-[acyl-carrier-protein] synthase (n-C5:0)
+    - metabolites: !!omap
+      - 3opentACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+      - propACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAR50
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (n-C5:0)'
+    - metabolites: !!omap
+      - 3hpentACP_c: 1.0
+      - 3opentACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HAD50
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C5:0)
+    - metabolites: !!omap
+      - 3hpentACP_c: -1.0
+      - h2o_c: 1.0
+      - tpent2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR50x
+    - name: pentanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - pentACP_c: 1.0
+      - tpent2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR50y
+    - name: pentanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - pentACP_c: 1.0
+      - tpent2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAS70
+    - name: 3-oxoheptanoyl-[acyl-carrier-protein] synthase (n-C7:0)
+    - metabolites: !!omap
+      - 3oheptACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+      - pentACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAR70
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (n-C7:0)'
+    - metabolites: !!omap
+      - 3hheptACP_c: 1.0
+      - 3oheptACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HAD70
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C7:0)
+    - metabolites: !!omap
+      - 3hheptACP_c: -1.0
+      - h2o_c: 1.0
+      - thept2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR70x
+    - name: heptanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - heptACP_c: 1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - thept2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR70y
+    - name: heptanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - heptACP_c: 1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - thept2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAS90
+    - name: 3-oxononanoyl-[acyl-carrier-protein] synthase (n-C9:0)
+    - metabolites: !!omap
+      - 3ononACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - heptACP_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAR90
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (n-C9:0)'
+    - metabolites: !!omap
+      - 3hnonACP_c: 1.0
+      - 3ononACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HAD90
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C9:0)
+    - metabolites: !!omap
+      - 3hnonACP_c: -1.0
+      - h2o_c: 1.0
+      - tnon2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR90x
+    - name: nonanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - nonACP_c: 1.0
+      - tnon2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR90y
+    - name: nonanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - nonACP_c: 1.0
+      - tnon2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAS110
+    - name: 3-oxoundecanoyl-[acyl-carrier-protein] synthase (n-C11:0)
+    - metabolites: !!omap
+      - 3oudecACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+      - nonACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAR110
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (n-C11:0)'
+    - metabolites: !!omap
+      - 3hudecACP_c: 1.0
+      - 3oudecACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HAD110
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C11:0)
+    - metabolites: !!omap
+      - 3hudecACP_c: -1.0
+      - h2o_c: 1.0
+      - tudec2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR110x
+    - name: Undecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - tudec2eACP_c: -1.0
+      - udecACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR110y
+    - name: Undecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - tudec2eACP_c: -1.0
+      - udecACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAS130
+    - name: 3-oxotridecanoyl-[acyl-carrier-protein] synthase (n-C13:0)
+    - metabolites: !!omap
+      - 3otdecACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+      - udecACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAR130
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (n-C13:0)'
+    - metabolites: !!omap
+      - 3htdecACP_c: 1.0
+      - 3otdecACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HAD130
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C13:0)
+    - metabolites: !!omap
+      - 3htdecACP_c: -1.0
+      - h2o_c: 1.0
+      - ttdec2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR130x
+    - name: Tridecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - tdecACP_c: 1.0
+      - ttdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR130y
+    - name: Tridecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - tdecACP_c: 1.0
+      - ttdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAS150
+    - name: 3-oxopentadecanoyl-[acyl-carrier-protein] synthase (n-C15:0)
+    - metabolites: !!omap
+      - 3opdecACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+      - tdecACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAR150
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (n-C15:0)'
+    - metabolites: !!omap
+      - 3hpdecACP_c: 1.0
+      - 3opdecACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HAD150
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C15:0)
+    - metabolites: !!omap
+      - 3hpdecACP_c: -1.0
+      - h2o_c: 1.0
+      - tpdec2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR150x
+    - name: Pentadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - pdecACP_c: 1.0
+      - tpdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR150y
+    - name: Pentadecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - pdecACP_c: 1.0
+      - tpdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAS170
+    - name: 3-oxoheptadecanoyl-[acyl-carrier-protein] synthase (n-C17:0)
+    - metabolites: !!omap
+      - 3ohdecACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+      - pdecACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OAR170
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (n-C17:0)'
+    - metabolites: !!omap
+      - 3hhdecACP_c: 1.0
+      - 3ohdecACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HAD170
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C17:0)
+    - metabolites: !!omap
+      - 3hhdecACP_c: -1.0
+      - h2o_c: 1.0
+      - thdec2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR170x
+    - name: Heptadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - hdecACP_c: 1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - thdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EAR170y
+    - name: Heptadecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - h_c: -1.0
+      - hdecACP_c: 1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - thdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: OIVD3
+    - name: 2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxopentanoate)
+    - metabolites: !!omap
+      - 3mop_c: -1.0
+      - co2_c: 1.0
+      - coa_c: -1.0
+      - h_c: -4.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - s2mbcoa_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: OIVD3
+      - biocyc: META:2KETO-3METHYLVALERATE-RXN
+      - ec-code:
+        - 1.2.1.25
+        - 1.2.1
+      - metanetx.reaction: MNXR102174
+      - rhea:
+        - '30907'
+        - '30908'
+        - '30909'
+        - '30910'
+      - sbo: SBO:0000176
+      - seed.reaction: rxn02269
+  - !!omap
+    - id: 2MBATA
+    - name: CoA:[acyl-carrier-protein] S-acetyltransferase
+    - metabolites: !!omap
+      - ACP_c: -1.0
+      - coa_c: 1.0
+      - h_c: 4.0
+      - s2mbACP_c: 1.0
+      - s2mbcoa_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS70
+    - name: 3-oxo2methylhexanoyl-[acyl-carrier-protein] synthase (anteiso-C7:0)
+    - metabolites: !!omap
+      - 3o2mhACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+      - s2mbACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR70
+    - name: ' 3-oxo-methyl-acyl-[acyl-carrier-protein] reductase (anteiso-C7:0)'
+    - metabolites: !!omap
+      - 3h2mhACP_c: 1.0
+      - 3o2mhACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD70
+    - name: 3-hydroxy-methylacyl-[acyl-carrier-protein] dehydratase (anteiso-C7:0)
+    - metabolites: !!omap
+      - 3h2mhACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mh2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR70x
+    - name: 2-Methyl-Hexanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mhexACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mh2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR70y
+    - name: 2-Methyl-Hexanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mhexACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mh2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS90
+    - name: 3-oxo2methyloctanoyl-[acyl-carrier-protein] synthase (anteiso-C9:0)
+    - metabolites: !!omap
+      - 2mhexACP_c: -1.0
+      - 3o2moACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR90
+    - name: ' 3-oxo-methyl-acyl-[acyl-carrier-protein] reductase (anteiso-C9:0)'
+    - metabolites: !!omap
+      - 3h2moACP_c: 1.0
+      - 3o2moACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD90
+    - name: 3-hydroxy-methylacyl-[acyl-carrier-protein] dehydratase (anteiso-C9:0)
+    - metabolites: !!omap
+      - 3h2moACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mo2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR90x
+    - name: 2-Methyl-Octanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2moctACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mo2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR90y
+    - name: 2-Methyl-Octanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2moctACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mo2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS110
+    - name: 3-oxo2methyldecanoyl-[acyl-carrier-protein] synthase (anteiso-C11:0)
+    - metabolites: !!omap
+      - 2moctACP_c: -1.0
+      - 3o2mdACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR110
+    - name: ' 3-oxo-methyl-acyl-[acyl-carrier-protein] reductase (anteiso-C11:0)'
+    - metabolites: !!omap
+      - 3h2mdACP_c: 1.0
+      - 3o2mdACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD110
+    - name: 3-hydroxy-methylacyl-[acyl-carrier-protein] dehydratase (anteiso-C11:0)
+    - metabolites: !!omap
+      - 3h2mdACP_c: -1.0
+      - h2o_c: 1.0
+      - t2md2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR110x
+    - name: 2-Methyl-Decanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mdecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2md2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR110y
+    - name: 2-Methyl-Decanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mdecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2md2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS130
+    - name: 3-oxo2methyldodecanoyl-[acyl-carrier-protein] synthase (anteiso-C13:0)
+    - metabolites: !!omap
+      - 2mdecACP_c: -1.0
+      - 3o2mddACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR130
+    - name: ' 3-oxo-methyl-acyl-[acyl-carrier-protein] reductase (anteiso-C13:0)'
+    - metabolites: !!omap
+      - 3h2mddACP_c: 1.0
+      - 3o2mddACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD130
+    - name: 3-hydroxy-methylacyl-[acyl-carrier-protein] dehydratase (anteiso-C13:0)
+    - metabolites: !!omap
+      - 3h2mddACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mdd2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR130x
+    - name: 2-Methyl-Dodecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mddecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mdd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR130y
+    - name: 2-Methyl-Dodecanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mddecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mdd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS150
+    - name: 3-oxo2methyltetradecanoyl-[acyl-carrier-protein] synthase (anteiso-C15:0)
+    - metabolites: !!omap
+      - 2mddecACP_c: -1.0
+      - 3o2mtdACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR150
+    - name: ' 3-oxo-methyl-acyl-[acyl-carrier-protein] reductase (anteiso-C15:0)'
+    - metabolites: !!omap
+      - 3h2mtdACP_c: 1.0
+      - 3o2mtdACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD150
+    - name: 3-hydroxy-methylacyl-[acyl-carrier-protein] dehydratase (anteiso-C15:0)
+    - metabolites: !!omap
+      - 3h2mtdACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mtd2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR150x
+    - name: 2-Methyl-Tetradecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mtdecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mtd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR150y
+    - name: 2-Methyl-Tetradecanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mtdecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mtd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS170
+    - name: 3-oxo2methylhexadecanoyl-[acyl-carrier-protein] synthase (anteiso-C17:0)
+    - metabolites: !!omap
+      - 2mtdecACP_c: -1.0
+      - 3o2mhdACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR170
+    - name: ' 3-oxo-methyl-acyl-[acyl-carrier-protein] reductase (anteiso-C17:0)'
+    - metabolites: !!omap
+      - 3h2mhdACP_c: 1.0
+      - 3o2mhdACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD170
+    - name: 3-hydroxy-methylacyl-[acyl-carrier-protein] dehydratase (anteiso-C17:0)
+    - metabolites: !!omap
+      - 3h2mhdACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mhd2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR170x
+    - name: 2-Methyl-Hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mhdecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mhd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR170y
+    - name: 2-Methyl-Hexadecanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mhdecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mhd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: IVCOATA
+    - name: 3-methylbutyryl-CoA:[acyl-carrier-protein] transferase
+    - metabolites: !!omap
+      - ACP_c: -1.0
+      - coa_c: 1.0
+      - h_c: 1.0
+      - ivACP_c: 1.0
+      - ivcoa_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAS70
+    - name: 3-oxo3methylhexanoyl-[acyl-carrier-protein] synthase (iso-C7:0)
+    - metabolites: !!omap
+      - 3o3mhACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - ivACP_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAR70
+    - name: ' 3-oxo-3-methyl-acyl-[acyl-carrier-protein] reductase (iso-C7:0)'
+    - metabolites: !!omap
+      - 3h3mhACP_c: 1.0
+      - 3o3mhACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3H3MAD70
+    - name: 3-hydroxy-3-methylacyl-[acyl-carrier-protein] dehydratase (iso-C7:0)
+    - metabolites: !!omap
+      - 3h3mhACP_c: -1.0
+      - h2o_c: 1.0
+      - t3mh2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR70x
+    - name: 3-Methyl-Hexanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mhexACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t3mh2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR70y
+    - name: 3-Methyl-Hexanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mhexACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t3mh2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAS90
+    - name: 3-oxo3methyloctanoyl-[acyl-carrier-protein] synthase (iso-C9:0)
+    - metabolites: !!omap
+      - 3mhexACP_c: -1.0
+      - 3o3moACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAR90
+    - name: ' 3-oxo-3-methyl-acyl-[acyl-carrier-protein] reductase (iso-C9:0)'
+    - metabolites: !!omap
+      - 3h3moACP_c: 1.0
+      - 3o3moACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3H3MAD90
+    - name: 3-hydroxy-3-methylacyl-[acyl-carrier-protein] dehydratase (iso-C9:0)
+    - metabolites: !!omap
+      - 3h3moACP_c: -1.0
+      - h2o_c: 1.0
+      - t3mo2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR90x
+    - name: 3-Methyl-Octanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3moctACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t3mo2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR90y
+    - name: 3-Methyl-Octanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3moctACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t3mo2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAS110
+    - name: 3-oxo3methyldecanoyl-[acyl-carrier-protein] synthase (iso-C11:0)
+    - metabolites: !!omap
+      - 3moctACP_c: -1.0
+      - 3o3mdACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAR110
+    - name: ' 3-oxo-3-methyl-acyl-[acyl-carrier-protein] reductase (iso-C11:0)'
+    - metabolites: !!omap
+      - 3h3mdACP_c: 1.0
+      - 3o3mdACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3H3MAD110
+    - name: 3-hydroxy-3-methylacyl-[acyl-carrier-protein] dehydratase (iso-C11:0)
+    - metabolites: !!omap
+      - 3h3mdACP_c: -1.0
+      - h2o_c: 1.0
+      - t3md2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR110x
+    - name: 3-Methyl-Decanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mdecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t3md2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR110y
+    - name: 3-Methyl-Decanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mdecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t3md2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAS130
+    - name: 3-oxo3methyldodecanoyl-[acyl-carrier-protein] synthase (iso-C13:0)
+    - metabolites: !!omap
+      - 3mdecACP_c: -1.0
+      - 3o3mddACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAR130
+    - name: ' 3-oxo-3-methyl-acyl-[acyl-carrier-protein] reductase (iso-C13:0)'
+    - metabolites: !!omap
+      - 3h3mddACP_c: 1.0
+      - 3o3mddACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3H3MAD130
+    - name: 3-hydroxy-3-methylacyl-[acyl-carrier-protein] dehydratase (iso-C13:0)
+    - metabolites: !!omap
+      - 3h3mddACP_c: -1.0
+      - h2o_c: 1.0
+      - t3mdd2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR130x
+    - name: 3-Methyl-Dodecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mddecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t3mdd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR130y
+    - name: 3-Methyl-Dodecanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mddecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t3mdd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAS150
+    - name: 3-oxo3methyltetradecanoyl-[acyl-carrier-protein] synthase (iso-C15:0)
+    - metabolites: !!omap
+      - 3mddecACP_c: -1.0
+      - 3o3mtdACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAR150
+    - name: ' 3-oxo-3-methyl-acyl-[acyl-carrier-protein] reductase (iso-C15:0)'
+    - metabolites: !!omap
+      - 3h3mtdACP_c: 1.0
+      - 3o3mtdACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3H3MAD150
+    - name: 3-hydroxy-3-methylacyl-[acyl-carrier-protein] dehydratase (iso-C15:0)
+    - metabolites: !!omap
+      - 3h3mtdACP_c: -1.0
+      - h2o_c: 1.0
+      - t3mtd2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR150x
+    - name: 3-Methyl-Tetradecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mtdecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t3mtd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR150y
+    - name: 3-Methyl-Tetradecanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mtdecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t3mtd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAS170
+    - name: 3-oxo3methylhexadecanoyl-[acyl-carrier-protein] synthase (iso-C17:0)
+    - metabolites: !!omap
+      - 3mtdecACP_c: -1.0
+      - 3o3mhdACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3O3MAR170
+    - name: ' 3-oxo-3-methyl-acyl-[acyl-carrier-protein] reductase (iso-C17:0)'
+    - metabolites: !!omap
+      - 3h3mhdACP_c: 1.0
+      - 3o3mhdACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3H3MAD170
+    - name: 3-hydroxy-3-methylacyl-[acyl-carrier-protein] dehydratase (iso-C17:0)
+    - metabolites: !!omap
+      - 3h3mhdACP_c: -1.0
+      - h2o_c: 1.0
+      - t3mhd2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR170x
+    - name: 3-Methyl-Hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mhdecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t3mhd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: E3MAR170y
+    - name: 3-Methyl-Hexadecanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 3mhdecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t3mhd2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: IBCOATA
+    - name: isobutyryl-CoA:[acyl-carrier-protein] transferase
+    - metabolites: !!omap
+      - ACP_c: -1.0
+      - coa_c: 1.0
+      - h_c: 1.0
+      - ibACP_c: 1.0
+      - ibcoa_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS60
+    - name: 3-oxo-2-Methylpentanoyl-[acyl-carrier-protein] synthase (iso-C6:0)
+    - metabolites: !!omap
+      - 3o2mpentACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - ibACP_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR60
+    - name: ' 3-oxo-2-methylacyl-[acyl-carrier-protein] reductase (iso-C6:0)'
+    - metabolites: !!omap
+      - 3h2mpentACP_c: 1.0
+      - 3o2mpentACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD60
+    - name: 3-hydroxy-2-methyl-acyl-[acyl-carrier-protein] dehydratase (iso-C6:0)
+    - metabolites: !!omap
+      - 3h2mpentACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mpent2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR60x
+    - name: 2-methyl-pentanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mpentACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mpent2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR60y
+    - name: 2-methyl-pentanoyl-[acp]:NADp+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mpentACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mpent2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS80
+    - name: 3-oxo-2-methylheptanoyl-[acyl-carrier-protein] synthase (iso-C8:0)
+    - metabolites: !!omap
+      - 2mpentACP_c: -1.0
+      - 3o2mheptACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR80
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (iso-C8:0)'
+    - metabolites: !!omap
+      - 3h2mheptACP_c: 1.0
+      - 3o2mheptACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD80
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (iso-C8:0)
+    - metabolites: !!omap
+      - 3h2mheptACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mhept2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR80x
+    - name: 2-methyl-heptanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mheptACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mhept2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR80y
+    - name: 2-methyl-heptanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mheptACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mhept2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS100
+    - name: 3-oxo-2-methyl-nonanoyl-[acyl-carrier-protein] synthase (iso-C10:0)
+    - metabolites: !!omap
+      - 2mheptACP_c: -1.0
+      - 3o2mnonACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR100
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (iso-C10:0)'
+    - metabolites: !!omap
+      - 3h2mnonACP_c: 1.0
+      - 3o2mnonACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD100
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (iso-C10:0)
+    - metabolites: !!omap
+      - 3h2mnonACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mnon2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR100x
+    - name: 2-methylnonanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mnonACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mnon2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR100y
+    - name: 2-methyl-nonanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mnonACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mnon2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS120
+    - name: 3-oxo-2-methyl-undecanoyl-[acyl-carrier-protein] synthase (iso-C12:0)
+    - metabolites: !!omap
+      - 2mnonACP_c: -1.0
+      - 3o2mudecACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR120
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (iso-C12:0)'
+    - metabolites: !!omap
+      - 3h2mudecACP_c: 1.0
+      - 3o2mudecACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD120
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (iso-C12:0)
+    - metabolites: !!omap
+      - 3h2mudecACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mudec2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR120x
+    - name: 2-methyl-Undecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mudecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mudec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR120y
+    - name: 2-Methyl-Undecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mudecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mudec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS140
+    - name: 3-oxo-2-methyl-tridecanoyl-[acyl-carrier-protein] synthase (iso-C15:0)
+    - metabolites: !!omap
+      - 2mudecACP_c: -1.0
+      - 3o2mtridecACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR140
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (iso-C14:0)'
+    - metabolites: !!omap
+      - 3h2mtridecACP_c: 1.0
+      - 3o2mtridecACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD140
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (iso-C14:0)
+    - metabolites: !!omap
+      - 3h2mtridecACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mtridec2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR140x
+    - name: 2-methyl-Tridecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mtridecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mtridec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR140y
+    - name: 2-Methyl-Tridecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mtridecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mtridec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAS160
+    - name: 3-oxo-2-methyl-pentadecanoyl-[acyl-carrier-protein] synthase (iso-C16:0)
+    - metabolites: !!omap
+      - 2mtridecACP_c: -1.0
+      - 3o2mpdecACP_c: 1.0
+      - ACP_c: 1.0
+      - co2_c: 1.0
+      - h_c: -1.0
+      - malACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3OMAR160
+    - name: ' 3-oxoacyl-[acyl-carrier-protein] reductase (iso-C16:0)'
+    - metabolites: !!omap
+      - 3h2mpdecACP_c: 1.0
+      - 3o2mpdecACP_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: 3HMAD160
+    - name: 3-hydroxy-methyl-acyl-[acyl-carrier-protein] dehydratase (iso-C16:0)
+    - metabolites: !!omap
+      - 3h2mpdecACP_c: -1.0
+      - h2o_c: 1.0
+      - t2mpdec2eACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR160x
+    - name: 2-methyl-Pentadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mpdecACP_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - t2mpdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: EMAR160y
+    - name: 2-Methyl-Pentadecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+    - metabolites: !!omap
+      - 2mpdecACP_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - t2mpdec2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO12345
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ACYLACP
+    - name: Pseudoreaction to create general acyl-ACP chain
+    - metabolites: !!omap
+      - 2mhdecACP_c: -0.037
+      - 2mpdecACP_c: -0.279
+      - 2mtdecACP_c: -0.006
+      - 2mtridecACP_c: -0.004
+      - 3mhdecACP_c: -0.114
+      - 3mtdecACP_c: -0.096
+      - acylACP_c: 1.0
+      - hdecACP_c: -0.024
+      - myrsACP_c: -0.025
+      - ocdcaACP_c: -0.041
+      - palmACP_c: -0.347
+      - pdecACP_c: -0.027
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000631
+  - !!omap
+    - id: ACYAC
+    - name: CoA:[acyl-carrier-protein] transferase
+    - metabolites: !!omap
+      - ACP_c: -1.0
+      - acylACP_c: 1.0
+      - acylcoa_c: -1.0
+      - coa_c: 1.0
+      - h_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
 - genes:
   - !!omap
     - id: RTMO00131
