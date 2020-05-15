@@ -21720,10 +21720,6 @@
       <species metaid="meta_M_3hpentACP_c" sboTerm="SBO:0000247" id="M_3hpentACP_c" name="3-Hydroxypentanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H29O9N2PRS"/>
       <species metaid="meta_M_tpent2eACP_c" sboTerm="SBO:0000247" id="M_tpent2eACP_c" name="Trans-Pent-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H27O8N2PRS"/>
       <species metaid="meta_M_pentACP_c" sboTerm="SBO:0000247" id="M_pentACP_c" name="pentanoyl-ACP(n-C5:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H29O8N2PRS"/>
-      <species metaid="meta_M_3oheptACP_c" sboTerm="SBO:0000176" id="M_3oheptACP_c" name="3-oxoheptanoyl-ACP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C18H31O9N2PRS"/>
-      <species metaid="meta_M_3hheptACP_c" sboTerm="SBO:0000247" id="M_3hheptACP_c" name="3-Hydroxyheptanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C18H33O9N2PRS"/>
-      <species metaid="meta_M_thept2eACP_c" sboTerm="SBO:0000247" id="M_thept2eACP_c" name="Trans-Hept-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C18H31O8N2PRS"/>
-      <species metaid="meta_M_heptACP_c" sboTerm="SBO:0000247" id="M_heptACP_c" name="heptanoyl-ACP(n-C7:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C18H33O8N2PRS"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -47985,75 +47981,6 @@
         <listOfProducts>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pentACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_3OAS70" sboTerm="SBO:0000176" id="R_3OAS70" name="3-oxoheptanoyl-[acyl-carrier-protein] synthase (n-C7:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_malACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pentACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3oheptACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_3OAR70" sboTerm="SBO:0000176" id="R_3OAR70" name=" 3-oxoacyl-[acyl-carrier-protein] reductase (n-C7:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3oheptACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3hheptACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_3HAD70" sboTerm="SBO:0000176" id="R_3HAD70" name="3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C7:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_3hheptACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_thept2eACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_EAR70x" sboTerm="SBO:0000176" id="R_EAR70x" name="heptanoyl-[acp]:NAD+ trans-2-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_thept2eACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_heptACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_EAR70y" sboTerm="SBO:0000176" id="R_EAR70y" name="heptanoyl-[acp]:NADP+ trans-2-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_thept2eACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_heptACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
