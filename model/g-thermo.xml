@@ -43709,6 +43709,9 @@
           <speciesReference species="M_ca2_c" stoichiometry="0.00315" constant="true"/>
           <speciesReference species="M_udparab_c" stoichiometry="0.045625" constant="true"/>
           <speciesReference species="M_udpxyl_c" stoichiometry="0.20437" constant="true"/>
+          <speciesReference species="M_pg_c" stoichiometry="0.031037" constant="true"/>
+          <speciesReference species="M_pe_c" stoichiometry="0.032424" constant="true"/>
+          <speciesReference species="M_clpn_c" stoichiometry="0.033142" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_udp_c" stoichiometry="0.472956" constant="true"/>
