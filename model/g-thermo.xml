@@ -21793,7 +21793,6 @@
       <species metaid="meta_M_3h2mhdACP_c" sboTerm="SBO:0000247" id="M_3h2mhdACP_c" name="3-Hydroxy-2-methylhexadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C28H53N2O9PRS"/>
       <species metaid="meta_M_t2mhd2eACP_c" sboTerm="SBO:0000247" id="M_t2mhd2eACP_c" name="Trans-2-methylhexadec-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C28H51N2O8PRS"/>
       <species metaid="meta_M_2mhdecACP_c" sboTerm="SBO:0000247" id="M_2mhdecACP_c" name="2methyl-hexadecanoyl-ACP(anteiso-C17:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C28H53N2O8PRS"/>
-      <species metaid="meta_M_ivACP_c" sboTerm="SBO:0000176" id="M_ivACP_c" name="3-Methylbutanoyl-ACP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H29N2O8PRS"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -48931,17 +48930,6 @@
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_IVCOATA" sboTerm="SBO:0000176" id="R_IVCOATA" name="3-methylbutyryl-CoA:[acyl-carrier-protein] transferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_ACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ivcoa_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ivACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
       </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
