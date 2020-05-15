@@ -21843,7 +21843,6 @@
       <species metaid="meta_M_3h2mpdecACP_c" sboTerm="SBO:0000247" id="M_3h2mpdecACP_c" name="3-Hydroxy-2-methyl-pentadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51O9N2PRS"/>
       <species metaid="meta_M_t2mpdec2eACP_c" sboTerm="SBO:0000247" id="M_t2mpdec2eACP_c" name="Trans-2-methyl-Pentadec-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H49O8N2PRS"/>
       <species metaid="meta_M_2mpdecACP_c" sboTerm="SBO:0000247" id="M_2mpdecACP_c" name="2-Methyl-Pentadecanoyl-ACP(iso-C16:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51O8N2PRS"/>
-      <species id="M_acylACP_c" name="Generic Acyl-ACP fatty acid" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27.07H51.14O8N2PRS"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -49831,24 +49830,6 @@
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_ACYLACP" sboTerm="SBO:0000631" id="R_ACYLACP" name="Pseudoreaction to create general acyl-ACP chain" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_ocdcaACP_c" stoichiometry="0.041" constant="true"/>
-          <speciesReference species="M_palmACP_c" stoichiometry="0.347" constant="true"/>
-          <speciesReference species="M_myrsACP_c" stoichiometry="0.025" constant="true"/>
-          <speciesReference species="M_pdecACP_c" stoichiometry="0.027" constant="true"/>
-          <speciesReference species="M_hdecACP_c" stoichiometry="0.024" constant="true"/>
-          <speciesReference species="M_2mtdecACP_c" stoichiometry="0.006" constant="true"/>
-          <speciesReference species="M_2mhdecACP_c" stoichiometry="0.037" constant="true"/>
-          <speciesReference species="M_3mtdecACP_c" stoichiometry="0.096" constant="true"/>
-          <speciesReference species="M_3mhdecACP_c" stoichiometry="0.114" constant="true"/>
-          <speciesReference species="M_2mtridecACP_c" stoichiometry="0.004" constant="true"/>
-          <speciesReference species="M_2mpdecACP_c" stoichiometry="0.279" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_acylACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
       </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
