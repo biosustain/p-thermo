@@ -21844,7 +21844,6 @@
       <species metaid="meta_M_t2mpdec2eACP_c" sboTerm="SBO:0000247" id="M_t2mpdec2eACP_c" name="Trans-2-methyl-Pentadec-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H49O8N2PRS"/>
       <species metaid="meta_M_2mpdecACP_c" sboTerm="SBO:0000247" id="M_2mpdecACP_c" name="2-Methyl-Pentadecanoyl-ACP(iso-C16:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51O8N2PRS"/>
       <species id="M_acylACP_c" name="Generic Acyl-ACP fatty acid" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27.07H51.14O8N2PRS"/>
-      <species metaid="meta_M_acylcoa_c" sboTerm="SBO:0000247" id="M_acylcoa_c" name="Generic Acyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C37.07H63.14O17N7P3S"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -49848,17 +49847,6 @@
           <speciesReference species="M_2mpdecACP_c" stoichiometry="0.279" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_acylACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_ACYAC" name="CoA:[acyl-carrier-protein] transferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_ACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_acylcoa_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_acylACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
