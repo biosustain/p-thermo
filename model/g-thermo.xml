@@ -391,7 +391,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_palmACP_c" sboTerm="SBO:0000247" id="M_palmACP_c" name="Hexadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51N2O8PRS">
+      <species metaid="meta_M_hdeacp_c" sboTerm="SBO:0000247" id="M_hdeacp_c" name="Hexadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51N2O8PRS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hexadecanoyl-[acyl-carrier protein]; Hexadecanoyl-[acp];</p>
@@ -399,7 +399,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_palmACP_c">
+            <rdf:Description rdf:about="#meta_M_hdeacp_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:5697"/>
@@ -454,7 +454,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_3opalmACP_c" sboTerm="SBO:0000247" id="M_3opalmACP_c" name="3-Oxohexadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H49O9N2PRS">
+      <species metaid="meta_M_3oxhdacp_c" sboTerm="SBO:0000247" id="M_3oxhdacp_c" name="3-Oxohexadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H49O9N2PRS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: 3-Oxohexadecanoyl-[acp]; 3-Oxohexadecanoyl-[acyl-carrier protein]</p>
@@ -462,7 +462,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_3opalmACP_c">
+            <rdf:Description rdf:about="#meta_M_3oxhdacp_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:1639"/>
@@ -42923,10 +42923,10 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_3OAS160" sboTerm="SBO:0000176" id="R_3OAS160" name="Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_MMACPAT" sboTerm="SBO:0000176" id="R_MMACPAT" name="Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_3OAS160">
+            <rdf:Description rdf:about="#meta_R_MMACPAT">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.41"/>
@@ -42947,7 +42947,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_3opalmACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_3oxhdacp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -42977,7 +42977,7 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_3opalmACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_3oxhdacp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -42985,7 +42985,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_3HAD160" sboTerm="SBO:0000176" id="R_3HAD160" name="(3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_3HAD160" sboTerm="SBO:0000176" id="R_3HAD160" name="(3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_3HAD160">
@@ -43014,10 +43014,10 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_EAR160x" sboTerm="SBO:0000176" id="R_EAR160x" name="hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+      <reaction metaid="meta_R_OPALMACPOR" sboTerm="SBO:0000176" id="R_OPALMACPOR" name="hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_EAR160x">
+            <rdf:Description rdf:about="#meta_R_OPALMACPOR">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.9"/>
@@ -43030,7 +43030,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_palmACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hdeacp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -43060,7 +43060,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_palmACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hdeacp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_malACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -47835,30 +47835,6 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_EAR160y" sboTerm="SBO:0000176" id="R_EAR160y" name="Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_EAR160y">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/EAR160y"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.10"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR97856"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_tpalm2eACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_palmACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -48849,10 +48825,10 @@
           <groups:member groups:name="(3R)-3-Hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase" groups:idRef="R_3OAR140"/>
           <groups:member groups:name="(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase" groups:idRef="R_3HAD140"/>
           <groups:member groups:name="tetradecanoyl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_EAR140x"/>
-          <groups:member groups:name="Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" groups:idRef="R_3OAS160"/>
+          <groups:member groups:name="Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" groups:idRef="R_MMACPAT"/>
           <groups:member groups:name="(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase" groups:idRef="R_3OAR160"/>
           <groups:member groups:name="(3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase" groups:idRef="R_3HAD160"/>
-          <groups:member groups:name="hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_EAR160x"/>
+          <groups:member groups:name="hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_OPALMACPOR"/>
           <groups:member groups:name="beta-ketoacyl-[acyl-carrier-protein] synthase I" groups:idRef="R_HDEACPT"/>
           <groups:member groups:name="L-xylulose reductase" groups:idRef="R_OXSTACPOR"/>
           <groups:member groups:name="3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)" groups:idRef="R_3HAD180"/>
