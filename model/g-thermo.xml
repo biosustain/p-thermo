@@ -21806,10 +21806,6 @@
       <species metaid="meta_M_3h3mdACP_c" sboTerm="SBO:0000247" id="M_3h3mdACP_c" name="3-Hydroxy-3-methyldecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C22H41N2O9PRS"/>
       <species metaid="meta_M_t3md2eACP_c" sboTerm="SBO:0000247" id="M_t3md2eACP_c" name="Trans-3-methyldec-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C22H39N2O8PRS"/>
       <species metaid="meta_M_3mdecACP_c" sboTerm="SBO:0000247" id="M_3mdecACP_c" name="3-methyl-decanoyl-ACP(iso-C11:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C22H41N2O8PRS"/>
-      <species metaid="meta_M_3o3mddACP_c" sboTerm="SBO:0000176" id="M_3o3mddACP_c" name="3-oxo3methyldodecanoyl-ACP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C24H43N2O9PRS"/>
-      <species metaid="meta_M_3h3mddACP_c" sboTerm="SBO:0000247" id="M_3h3mddACP_c" name="3-Hydroxy-3-methyldodecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C24H45N2O9PRS"/>
-      <species metaid="meta_M_t3mdd2eACP_c" sboTerm="SBO:0000247" id="M_t3mdd2eACP_c" name="Trans-3-methyldodec-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C24H43N2O8PRS"/>
-      <species metaid="meta_M_3mddecACP_c" sboTerm="SBO:0000247" id="M_3mddecACP_c" name="3-methyl-dodecanoyl-ACP(iso-C13:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C24H45N2O8PRS"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -49161,75 +49157,6 @@
         <listOfProducts>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_3mdecACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_3O3MAS130" sboTerm="SBO:0000176" id="R_3O3MAS130" name="3-oxo3methyldodecanoyl-[acyl-carrier-protein] synthase (iso-C13:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_malACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3mdecACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ACP_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3o3mddACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_3O3MAR130" sboTerm="SBO:0000176" id="R_3O3MAR130" name=" 3-oxo-3-methyl-acyl-[acyl-carrier-protein] reductase (iso-C13:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3o3mddACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3h3mddACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_3H3MAD130" sboTerm="SBO:0000176" id="R_3H3MAD130" name="3-hydroxy-3-methylacyl-[acyl-carrier-protein] dehydratase (iso-C13:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_3h3mddACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_t3mdd2eACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_E3MAR130x" sboTerm="SBO:0000176" id="R_E3MAR130x" name="3-Methyl-Dodecanoyl-[acp]:NAD+ trans-2-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_t3mdd2eACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3mddecACP_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_E3MAR130y" sboTerm="SBO:0000176" id="R_E3MAR130y" name="3-Methyl-Dodecanoyl-[acp]:NADp+ trans-2-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_nadph_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_t3mdd2eACP_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_3mddecACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
