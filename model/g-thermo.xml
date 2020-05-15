@@ -21682,7 +21682,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_bacthiolbsh_c" sboTerm="SBO:0000247" id="M_bacthiolbsh_c" name="Bacillithiol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H22N2O10S">
+      <species metaid="meta_M_bacthiolbsh_c" sboTerm="SBO:0000247" id="M_bacthiolbsh_c" name="Bacillithiol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H22N2O10S">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>ChEBIID: CHEBI: 64876</p>
@@ -47622,6 +47622,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cys__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glcmal_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
