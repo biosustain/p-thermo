@@ -19129,7 +19129,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_pa_c" sboTerm="SBO:0000247" id="M_pa_c" name="Phosphatidate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H7O8PR2">
+      <species metaid="meta_M_pa_c" sboTerm="SBO:0000247" id="M_pa_c" name="Phosphatidate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C35.14H69.28O8P">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Phosphatidic acid; 3-sn-Phosphatidate; Phosphatidate; 1,2-Diacyl-sn-glycerol 3-phosphate;</p>
@@ -19148,7 +19148,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cdpdag_c" sboTerm="SBO:0000247" id="M_cdpdag_c" name="CDP-1,2-diacylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C14H17N3O15P2R2">
+      <species metaid="meta_M_cdpdag_c" sboTerm="SBO:0000247" id="M_cdpdag_c" name="CDP-1,2-diacylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C44.14H79.28N3O15P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate; CDP-diacylglycerol;</p>
@@ -19304,7 +19304,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_aglyc3p_c" sboTerm="SBO:0000247" id="M_aglyc3p_c" name="1-Acyl-sn-glycerol 3-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C4H7O7PR">
+      <species metaid="meta_M_aglyc3p_c" sboTerm="SBO:0000247" id="M_aglyc3p_c" name="1-Acyl-sn-glycerol 3-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C19.07H38.14O7P">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M_aglyc3p_c">
@@ -21667,7 +21667,7 @@
         </annotation>
       </species>
       <species metaid="meta_M_b13galacbio_c" sboTerm="SBO:0000247" id="M_b13galacbio_c" name="beta-1-3-galactobiocysteine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H26N2O12S1"/>
-      <species metaid="meta_M_pg_c" sboTerm="SBO:0000247" id="M_pg_c" name="Phosphatidylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H13O10PR2">
+      <species metaid="meta_M_pg_c" sboTerm="SBO:0000247" id="M_pg_c" name="Phosphatidylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C38.14H75.28O10P">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M_pg_c">
@@ -21681,7 +21681,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_pgp_c" sboTerm="SBO:0000247" id="M_pgp_c" name="Phosphatidylglycerophosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H14O13P2R2">
+      <species metaid="meta_M_pgp_c" sboTerm="SBO:0000247" id="M_pgp_c" name="Phosphatidylglycerophosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C38.14H76.28O13P2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M_pgp_c">
@@ -44379,6 +44379,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_glyc3p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_acylcoa_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
@@ -44405,6 +44406,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_aglyc3p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_acylcoa_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
