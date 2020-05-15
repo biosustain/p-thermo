@@ -21824,7 +21824,7 @@
       <species metaid="meta_M_3h2mpdecACP_c" sboTerm="SBO:0000247" id="M_3h2mpdecACP_c" name="3-Hydroxy-2-methyl-pentadecanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51O9N2PRS"/>
       <species metaid="meta_M_t2mpdec2eACP_c" sboTerm="SBO:0000247" id="M_t2mpdec2eACP_c" name="Trans-2-methyl-Pentadec-2-enoyl-[acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H49O8N2PRS"/>
       <species metaid="meta_M_2mpdecACP_c" sboTerm="SBO:0000247" id="M_2mpdecACP_c" name="2-Methyl-Pentadecanoyl-ACP(iso-C16:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51O8N2PRS"/>
-      <species metaid="meta_M_acylACP_c" sboTerm="SBO:0000247" id="M_acylACP_c" name="Generic Acyl-ACP fatty acid" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27.07H51.14O8N2PRS"/>
+      <species id="M_acylACP_c" name="Generic Acyl-ACP fatty acid" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27.07H51.14O8N2PRS"/>
       <species metaid="meta_M_acylcoa_c" sboTerm="SBO:0000247" id="M_acylcoa_c" name="Generic Acyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C37.07H63.14O17N7P3S"/>
     </listOfSpecies>
     <listOfParameters>
