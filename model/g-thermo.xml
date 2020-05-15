@@ -805,7 +805,7 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_hexACP_c" sboTerm="SBO:0000247" id="M_hexACP_c" name="Hexanoyl-ACP (n-C6:0ACP)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H31N2O8PRS">
+      <species metaid="meta_M_hexacp_c" sboTerm="SBO:0000247" id="M_hexacp_c" name="(R)-3-Hydroxyhexanoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H31N2O8PRS">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Hexanoyl-[acp]; Hexanoyl-[acyl-carrier protein]</p>
@@ -813,7 +813,7 @@
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_hexACP_c">
+            <rdf:Description rdf:about="#meta_M_hexacp_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:5704"/>
@@ -42430,7 +42430,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_hexACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hexacp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -42461,7 +42461,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_hexACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hexacp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_malACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -47554,10 +47554,10 @@
           <speciesReference species="M_drib_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_EAR60x" sboTerm="SBO:0000176" id="R_EAR60x" name="hexanoyl-[acp]:NAD+ trans-2-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+      <reaction metaid="meta_R_HACPOR" sboTerm="SBO:0000176" id="R_HACPOR" name="hexanoyl-[acp]:NAD+ trans-2-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_EAR60x">
+            <rdf:Description rdf:about="#meta_R_HACPOR">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R04955"/>
@@ -47567,7 +47567,7 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_hexACP_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_hexacp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -48737,7 +48737,7 @@
           <groups:member groups:name="L-xylulose reductase" groups:idRef="R_OXSTACPOR"/>
           <groups:member groups:name="3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)" groups:idRef="R_3HAD180"/>
           <groups:member groups:name="octadecanoyl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_TOCTDACPOR"/>
-          <groups:member groups:name="hexanoyl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_EAR60x"/>
+          <groups:member groups:name="hexanoyl-[acp]:NAD+ trans-2-oxidoreductase" groups:idRef="R_HACPOR"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00062__32____45____32__Fatty__32__acid__32__elongation" groups:name="00062 - Fatty acid elongation" groups:kind="collection">
