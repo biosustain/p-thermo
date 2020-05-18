@@ -32639,11 +32639,13 @@
       - pi_c: 104.9856
       - ppi_c: -0.0012
       - pro__L_c: -0.18652
-      - ptrc_c: -0.03327
+      - ptrc_c: -0.006000000000000002
       - pydx5p_c: -0.000223
       - qh2_c: -0.000300000000000002
       - ribflv_c: -0.000223000000000001
       - ser__L_c: -0.20287
+      - spmd_c: -0.0012
+      - sprm_c: -0.0028
       - succoa_c: -9.80420000000023e-05
       - thmpp_c: -0.000223000000000002
       - thr__L_c: -0.30102
@@ -39038,12 +39040,12 @@
     - id: BLUB
     - name: 5,6-dimethylbenzimidazole synthase
     - metabolites: !!omap
-      - diur_c: 1
-      - dmbzid_c: 1
-      - e4p_c: 1
-      - fmnh2_c: -1
-      - h_c: 1
-      - o2_c: -1
+      - diur_c: 1.0
+      - dmbzid_c: 1.0
+      - e4p_c: 1.0
+      - fmnh2_c: -1.0
+      - h_c: 1.0
+      - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -39055,9 +39057,9 @@
     - id: DM_diur_c
     - name: dialurate sink
     - metabolites: !!omap
-      - diur_c: -1
-    - lower_bound: 0
-    - upper_bound: 1000
+      - diur_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000628

@@ -43911,7 +43911,7 @@
           <speciesReference species="M_gdpmann_c" stoichiometry="0.006411" constant="true"/>
           <speciesReference species="M_coa_c" stoichiometry="0.000168000000000001" constant="true"/>
           <speciesReference species="M_leu__L_c" stoichiometry="0.38917" constant="true"/>
-          <speciesReference species="M_ptrc_c" stoichiometry="0.03327" constant="true"/>
+          <speciesReference species="M_ptrc_c" stoichiometry="0.006" constant="true"/>
           <speciesReference species="M_his__L_c" stoichiometry="0.08716" constant="true"/>
           <speciesReference species="M_gmp_c" stoichiometry="0.102432476" constant="true"/>
           <speciesReference species="M_ppi_c" stoichiometry="0.0012" constant="true"/>
@@ -43932,6 +43932,7 @@
           <speciesReference species="M_ribflv_c" stoichiometry="0.000223000000000001" constant="true"/>
           <speciesReference species="M_accoa_c" stoichiometry="0.000279000000000001" constant="true"/>
           <speciesReference species="M_glu__L_c" stoichiometry="0.360645" constant="true"/>
+          <speciesReference species="M_spmd_c" stoichiometry="0.0012" constant="true"/>
           <speciesReference species="M_damp_c" stoichiometry="0.00867143" constant="true"/>
           <speciesReference species="M_udpg_c" stoichiometry="0.010725" constant="true"/>
           <speciesReference species="M_dgmp_c" stoichiometry="0.006649117" constant="true"/>
@@ -43941,6 +43942,7 @@
           <speciesReference species="M_gly_c" stoichiometry="0.45663" constant="true"/>
           <speciesReference species="M_ala__L_c" stoichiometry="0.57588994" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="0.029948042" constant="true"/>
+          <speciesReference species="M_sprm_c" stoichiometry="0.0028" constant="true"/>
           <speciesReference species="M_lys__L_c" stoichiometry="0.35521" constant="true"/>
           <speciesReference species="M_asp__L_c" stoichiometry="0.248575" constant="true"/>
           <speciesReference species="M_udpgal_c" stoichiometry="0.212236" constant="true"/>
