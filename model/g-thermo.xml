@@ -22138,6 +22138,51 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_sheme_c" sboTerm="SBO:0000247" id="M_sheme_c" name="Siroheme" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-8" fbc:chemicalFormula="C42H36FeN4O16">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_sheme_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/sheme"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:SIROHEME"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9166"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:28599"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26690"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:60052"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/DLKSSIHHLYNIKN-QIISWYHFSA-D"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00748"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM82173"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00557"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_scl_c" sboTerm="SBO:0000247" id="M_scl_c" name="Sirohydrochlorin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-7" fbc:chemicalFormula="C42H39N4O16">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_scl_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/scl"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:SIROHYDROCHLORIN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:58351"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:9167"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:18023"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:15090"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:26691"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi_key/KWIZRXMMFRBUML-AHGFGAHVSA-F"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05778"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM863"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd03426"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -43923,6 +43968,7 @@
           <speciesReference species="M_phe__L_c" stoichiometry="0.16253" constant="true"/>
           <speciesReference species="M_succoa_c" stoichiometry="9.80420000000023e-05" constant="true"/>
           <speciesReference species="M_fe3_c" stoichiometry="0.034003042" constant="true"/>
+          <speciesReference species="M_hemeO_c" stoichiometry="0.000223" constant="true"/>
           <speciesReference species="M_amet_c" stoichiometry="0.000223" constant="true"/>
           <speciesReference species="M_amp_c" stoichiometry="0.133587054" constant="true"/>
           <speciesReference species="M_10fthf_c" stoichiometry="0.0004" constant="true"/>
@@ -43939,6 +43985,7 @@
           <speciesReference species="M_dtmp_c" stoichiometry="0.00867143" constant="true"/>
           <speciesReference species="M_ile__L_c" stoichiometry="0.30553" constant="true"/>
           <speciesReference species="M_nad_c" stoichiometry="0.0162" constant="true"/>
+          <speciesReference species="M_pheme_c" stoichiometry="0.000223" constant="true"/>
           <speciesReference species="M_gly_c" stoichiometry="0.45663" constant="true"/>
           <speciesReference species="M_ala__L_c" stoichiometry="0.57588994" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="0.029948042" constant="true"/>
@@ -43970,6 +44017,7 @@
           <speciesReference species="M_pg_c" stoichiometry="0.031037" constant="true"/>
           <speciesReference species="M_pe_c" stoichiometry="0.032424" constant="true"/>
           <speciesReference species="M_clpn_c" stoichiometry="0.033142" constant="true"/>
+          <speciesReference species="M_sheme_c" stoichiometry="0.000223" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_udp_c" stoichiometry="0.472956" constant="true"/>
@@ -50787,6 +50835,66 @@
           <speciesReference species="M_diur_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
+      <reaction metaid="meta_R_SHCHF" sboTerm="SBO:0000176" id="R_SHCHF" name="Sirohydrochlorin ferrochelatase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_SHCHF">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/SHCHF"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:SIROHEME-FERROCHELAT-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.99.1.4"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02864"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104375"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/24360"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/24361"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/24362"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/24363"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn02056"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_fe2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_scl_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_sheme_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_SHCHD2" sboTerm="SBO:0000176" id="R_SHCHD2" name="Sirohydrochlorin dehydrogenase (NAD)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_SHCHD2">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/SHCHD2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:DIMETHUROPORDEHYDROG-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.76"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03947"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104373"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/15613"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/15614"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/15615"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/15616"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn02774"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_shcl_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_scl_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -52895,6 +53003,8 @@
           <groups:member groups:name="adenosylcobyric acid:(R)-1-aminopropan-2-ol ligase (ADP-forming)" groups:idRef="R_ADCPS1"/>
           <groups:member groups:name="protoheme IX farnesyltransferase" groups:idRef="R_HEMEOS"/>
           <groups:member groups:name="L threonine kinase" groups:idRef="R_LTHRK"/>
+          <groups:member groups:name="Sirohydrochlorin ferrochelatase" groups:idRef="R_SHCHF"/>
+          <groups:member groups:name="Sirohydrochlorin dehydrogenase (NAD)" groups:idRef="R_SHCHD2"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00900__32____45____32__Terpenoid__32__backbone__32__biosynthesis" groups:name="00900 - Terpenoid backbone biosynthesis" groups:kind="collection">

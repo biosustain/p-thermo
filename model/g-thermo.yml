@@ -19148,6 +19148,57 @@
     - annotation: !!omap
       - chebi: CHEBI:140629
       - sbo: SBO:0000247
+  - !!omap
+    - id: sheme_c
+    - name: Siroheme
+    - compartment: c
+    - charge: -8
+    - formula: C42H36FeN4O16
+    - annotation: !!omap
+      - bigg.metabolite:
+        - sheme
+      - biocyc:
+        - META:SIROHEME
+      - chebi:
+        - CHEBI:9166
+        - CHEBI:28599
+        - CHEBI:26690
+        - CHEBI:60052
+      - inchi_key:
+        - DLKSSIHHLYNIKN-QIISWYHFSA-D
+      - kegg.compound:
+        - C00748
+      - metanetx.chemical:
+        - MNXM82173
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd00557
+  - !!omap
+    - id: scl_c
+    - name: Sirohydrochlorin
+    - compartment: c
+    - charge: -7
+    - formula: C42H39N4O16
+    - annotation: !!omap
+      - bigg.metabolite:
+        - scl
+      - biocyc:
+        - META:SIROHYDROCHLORIN
+      - chebi:
+        - CHEBI:58351
+        - CHEBI:9167
+        - CHEBI:18023
+        - CHEBI:15090
+        - CHEBI:26691
+      - inchi_key:
+        - KWIZRXMMFRBUML-AHGFGAHVSA-F
+      - kegg.compound:
+        - C05778
+      - metanetx.chemical:
+        - MNXM863
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd03426
 - reactions:
   - !!omap
     - id: IDPh
@@ -32622,6 +32673,7 @@
       - gmp_c: -0.102432476
       - h2o_c: -104.9974
       - h_c: 104.9974
+      - hemeO_c: -0.000223
       - his__L_c: -0.08716
       - ile__L_c: -0.30553
       - k_c: -0.7082
@@ -32636,14 +32688,16 @@
       - pe_c: -0.032424
       - pg_c: -0.031037
       - phe__L_c: -0.16253
+      - pheme_c: -0.000223
       - pi_c: 104.9856
       - ppi_c: -0.0012
       - pro__L_c: -0.18652
-      - ptrc_c: -0.006000000000000002
+      - ptrc_c: -0.006
       - pydx5p_c: -0.000223
       - qh2_c: -0.000300000000000002
       - ribflv_c: -0.000223000000000001
       - ser__L_c: -0.20287
+      - sheme_c: -0.000223
       - spmd_c: -0.0012
       - sprm_c: -0.0028
       - succoa_c: -9.80420000000023e-05
@@ -39063,6 +39117,66 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000628
+  - !!omap
+    - id: SHCHF
+    - name: Sirohydrochlorin ferrochelatase
+    - metabolites: !!omap
+      - fe2_c: -1
+      - h_c: 3
+      - scl_c: -1
+      - sheme_c: 1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction:
+        - SHCHF
+      - biocyc:
+        - META:SIROHEME-FERROCHELAT-RXN
+      - ec-code:
+        - 4.99.1.4
+      - kegg.reaction:
+        - R02864
+      - metanetx.reaction:
+        - MNXR104375
+      - rhea:
+        - '24360'
+        - '24361'
+        - '24362'
+        - '24363'
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn02056
+  - !!omap
+    - id: SHCHD2
+    - name: Sirohydrochlorin dehydrogenase (NAD)
+    - metabolites: !!omap
+      - nad_c: -1
+      - nadh_c: 1
+      - scl_c: 1
+      - shcl_c: -1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction:
+        - SHCHD2
+      - biocyc:
+        - META:DIMETHUROPORDEHYDROG-RXN
+      - ec-code:
+        - 1.3.1.76
+      - kegg.reaction:
+        - R03947
+      - metanetx.reaction:
+        - MNXR104373
+      - rhea:
+        - '15613'
+        - '15614'
+        - '15615'
+        - '15616'
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn02774
 - genes:
   - !!omap
     - id: RTMO00131
