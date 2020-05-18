@@ -1236,19 +1236,6 @@
       - metanetx.compound: MNXM442
       - sbo: SBO:0000247
   - !!omap
-    - id: 1pyr5c_c
-    - name: delta-1-Pyrroline-5-carboxylate
-    - compartment: c
-    - charge: 0
-    - formula: C5H7NO2
-    - notes: !!omap
-      - NAME: delta-1-Pyrroline-5-carboxylate; 3,4-Dihydro-2H-Pyrrole-2-carboxylate
-    - annotation: !!omap
-      - chebi: CHEBI:1372
-      - kegg.compound: C04322
-      - metanetx.chemical: MNXM1617
-      - sbo: SBO:0000247
-  - !!omap
     - id: cellulose_e
     - name: cellulose
     - compartment: e
@@ -18907,6 +18894,94 @@
     - formula: C37.07H63.14O17N7P3S
     - annotation: !!omap
       - sbo: SBO:0000247
+  - !!omap
+    - id: glyb_e
+    - name: Glycine betaine
+    - compartment: e
+    - charge: 0
+    - formula: C5H11NO2
+    - annotation: !!omap
+      - bigg.metabolite: glyb
+      - biocyc: META:BETAINE
+      - chebi:
+        - CHEBI:27128
+        - CHEBI:12531
+        - CHEBI:29050
+        - CHEBI:15264
+        - CHEBI:24370
+        - CHEBI:13895
+        - CHEBI:41134
+        - CHEBI:22858
+        - CHEBI:41139
+        - CHEBI:3073
+        - CHEBI:17750
+      - hmdb:
+        - HMDB00043
+        - HMDB59606
+      - inchi_key: KWIUHFFTVRNATP-UHFFFAOYSA-N
+      - kegg.compound: C00719
+      - kegg.drug: D07523
+      - metanetx.chemical: MNXM289
+      - reactome.compound:
+        - '352015'
+        - '6798202'
+      - sabiork: '5196'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00540
+  - !!omap
+    - id: no3_e
+    - name: Nitrate
+    - compartment: e
+    - charge: -1
+    - formula: NO3
+    - annotation: !!omap
+      - bigg.metabolite: no3
+      - biocyc:
+        - META:NITRATE
+        - META:CPD-15028
+      - chebi:
+        - CHEBI:44487
+        - CHEBI:14654
+        - CHEBI:71263
+        - CHEBI:7580
+        - CHEBI:17632
+        - CHEBI:48107
+        - CHEBI:25545
+      - envipath: 32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/706be27f-b4cf-4022-b2ef-04cec5197ca5
+      - hmdb:
+        - HMDB02878
+        - HMDB01853
+      - inchi_key: NHNBFGGVMKEFGY-UHFFFAOYSA-N
+      - kegg.compound: C00244
+      - kegg.drug: D02313
+      - metanetx.chemical: MNXM207
+      - sabiork: '1988'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00209
+  - !!omap
+    - id: no2_e
+    - name: Nitrite
+    - compartment: e
+    - charge: -1
+    - formula: NO2
+    - annotation: !!omap
+      - bigg.metabolite: no2
+      - biocyc: META:NITRITE
+      - chebi:
+        - CHEBI:16301
+        - CHEBI:14658
+        - CHEBI:7585
+        - CHEBI:44396
+        - CHEBI:25567
+      - envipath: 32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/84af9b8c-5f58-4093-85cb-964ba8ed40b7
+      - hmdb: HMDB02786
+      - inchi_key: IOVCWXUNBOPUCH-UHFFFAOYSA-M
+      - kegg.compound: C00088
+      - metanetx.chemical: MNXM107
+      - reactome.compound: '1222379'
+      - sabiork: '3058'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00075
 - reactions:
   - !!omap
     - id: IDPh
@@ -21205,25 +21280,6 @@
       - rhea: '25160'
       - sbo: SBO:0000176
   - !!omap
-    - id: ORNAT
-    - name: L-ornithine:2-oxoglutarate aminotransferase
-    - metabolites: !!omap
-      - 1pyr5c_c: 1.0
-      - akg_c: -1.0
-      - glu__L_c: 1.0
-      - h2o_c: 1.0
-      - orn__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO02760
-    - annotation: !!omap
-      - ec-code:
-        - 2.6.1.13
-        - 2.6.1.68
-      - kegg.reaction: R00668
-      - metanetx.reaction: MNXR106635
-      - sbo: SBO:0000176
-  - !!omap
     - id: ACODA
     - name: N2-Acetyl-L-ornithine amidohydrolase
     - metabolites: !!omap
@@ -21742,8 +21798,8 @@
       - h_c: 8.0
       - nh4_c: -1.0
       - no2_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO00597
     - annotation: !!omap
       - ec-code: 1.7.7.1
@@ -22883,13 +22939,13 @@
     - id: ANPRT
     - name: N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase
     - metabolites: !!omap
-      - anth_c: 1.0
-      - h_c: -1.0
-      - ppi_c: -1.0
-      - pran_c: -1.0
-      - prpp_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 0.0
+      - anth_c: -1.0
+      - h_c: 1.0
+      - ppi_c: 1.0
+      - pran_c: 1.0
+      - prpp_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: RTMO03790
     - annotation: !!omap
       - ec-code: 2.4.2.18
@@ -23801,14 +23857,14 @@
       - rhea: '16117'
       - sbo: SBO:0000176
   - !!omap
-    - id: HMGCOALY
+    - id: HMGL
     - name: (S)-3-hydroxy-3-methylglutaryl-CoA acetoacetate-lyase (acetyl-CoA-forming)
     - metabolites: !!omap
       - acac_c: 1.0
       - accoa_c: 1.0
       - h_c: 1.0
       - hmgcoa_c: -1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO03337
     - annotation: !!omap
@@ -26512,12 +26568,12 @@
     - id: DRBK
     - name: ribokinase
     - metabolites: !!omap
-      - 2dr5p_c: -1.0
-      - adp_c: -1.0
-      - atp_c: 1.0
-      - drib_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 0.0
+      - 2dr5p_c: 1.0
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - drib_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: RTMO02207
     - annotation: !!omap
       - ec-code: 2.7.1.15
@@ -26732,12 +26788,12 @@
     - id: PTPATi
     - name: Pantetheine-phosphate adenylyltransferase
     - metabolites: !!omap
-      - atp_c: 1.0
-      - dpcoa_c: -1.0
-      - pan4p_c: 1.0
-      - ppi_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 0.0
+      - atp_c: -1.0
+      - dpcoa_c: 1.0
+      - pan4p_c: -1.0
+      - ppi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: RTMO03749
     - annotation: !!omap
       - bigg.reaction: PTPATi
@@ -30675,7 +30731,7 @@
       - rhea: '26562'
       - sbo: SBO:0000176
   - !!omap
-    - id: ADOCBITRANS
+    - id: CBIAT
     - name: ATP:cobinamide Cobeta-adenosyltransferase
     - metabolites: !!omap
       - adocbi_c: 1.0
@@ -31601,13 +31657,13 @@
     - id: EAR60y
     - name: hexanoyl-[acp]:NAD+ trans-2-oxidoreductase
     - metabolites: !!omap
-      - h_c: 1.0
-      - hexACP_c: -1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-      - thex2eACP_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 0.0
+      - h_c: -1.0
+      - hexACP_c: 1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - thex2eACP_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: EAR60y
@@ -35177,8 +35233,8 @@
       - glyb_c: 1.0
       - h2o_c: -1.0
       - h_c: 2.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -38381,6 +38437,278 @@
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
+  - !!omap
+    - id: PPA2
+    - name: Inorganic triphosphatase
+    - metabolites: !!omap
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - pi_c: 1.0
+      - ppi_c: 1.0
+      - pppi_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: PPA2
+      - biocyc: META:TRIPHOSPHATASE-RXN
+      - ec-code: 3.6.1.25
+      - kegg.reaction: R00138
+      - metanetx.reaction: MNXR103069
+      - rhea:
+        - '14158'
+        - '14160'
+        - '14157'
+        - '14159'
+      - sabiork: '707'
+      - sbo: SBO:0000176
+      - seed.reaction: rxn00106
+  - !!omap
+    - id: GLYBtabc
+    - name: Glycine betaine transport via ABC transporter
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - glyb_c: 1.0
+      - glyb_e: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: GLYBt
+    - name: Glycine betaine transport via proton antiport
+    - metabolites: !!omap
+      - glyb_c: -1.0
+      - glyb_e: 1.0
+      - h_c: 1.0
+      - h_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: GLYBt3pp
+      - sbo: SBO:0000185
+  - !!omap
+    - id: EX_glyb_e
+    - name: Glycine betaine exchange
+    - metabolites: !!omap
+      - glyb_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: SALGT
+    - name: UDPglucose:salicyl-alcohol beta-D-glucosyltransferase
+    - metabolites: !!omap
+      - 2hymeph_c: -1.0
+      - salcn_c: 1.0
+      - udp_c: 1.0
+      - udpg_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 2.4.1.172
+      - kegg.reaction: R03558
+      - sbo: SBO:0000176
+  - !!omap
+    - id: NO3tabc
+    - name: Transport of NO3 via ABC
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - no3_c: 1.0
+      - no3_e: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 7.3.2.4
+      - sbo: SBO:0000185
+  - !!omap
+    - id: NO3t
+    - name: Transport of NO3 via Proton symport
+    - metabolites: !!omap
+      - h_c: 1.0
+      - h_e: -1.0
+      - no3_c: 1.0
+      - no3_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: EX_no3_e
+    - name: Nitrate exchange
+    - metabolites: !!omap
+      - no3_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: NO2tabc
+    - name: Transport of NO2 via ABC
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - no2_c: 1.0
+      - no2_e: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 7.3.2.4
+      - sbo: SBO:0000185
+  - !!omap
+    - id: NO2t
+    - name: Transport of NO2 via Proton symport
+    - metabolites: !!omap
+      - h_c: 1.0
+      - h_e: -1.0
+      - no2_c: 1.0
+      - no2_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: EX_no2_e
+    - name: Nitrite exchange
+    - metabolites: !!omap
+      - no2_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: GLCS1
+    - name: Starch synthase (ADPGlc)
+    - metabolites: !!omap
+      - adp_c: 2.0
+      - adpglc_c: -2.0
+      - h2o_c: -1.0
+      - h_c: 2.0
+      - starch_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: GLCS1
+      - ec-code: 2.4.1.21
+      - metanetx.reaction: MNXR100223
+      - sbo: SBO:0000176
+      - seed.reaction: rxn13643
+  - !!omap
+    - id: EX_for_e
+    - name: Formate exchange
+    - metabolites: !!omap
+      - for_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: NADK1
+    - name: NAD kinase GTP
+    - metabolites: !!omap
+      - gdp_c: 1.0
+      - gtp_c: -1.0
+      - nad_c: -1.0
+      - nadp_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: NADK1
+      - ec-code: 2.7.1.23
+      - metanetx.reaction: MNXR101883
+      - sbo: SBO:0000176
+      - seed.reaction: rxn10056
+  - !!omap
+    - id: NADK2
+    - name: NAD kinase dATP
+    - metabolites: !!omap
+      - dadp_c: 1.0
+      - datp_c: -1.0
+      - nad_c: -1.0
+      - nadp_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: NADK2
+      - ec-code: 2.7.1.23
+      - metanetx.reaction: MNXR101884
+      - sbo: SBO:0000176
+      - seed.reaction: rxn10057
+  - !!omap
+    - id: NADK3
+    - name: NAD kinase dGTP
+    - metabolites: !!omap
+      - dgdp_c: 1.0
+      - dgtp_c: -1.0
+      - nad_c: -1.0
+      - nadp_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: NADK3
+      - ec-code: 2.7.1.23
+      - metanetx.reaction: MNXR101885
+      - sbo: SBO:0000176
+      - seed.reaction: rxn10058
+  - !!omap
+    - id: NADK4
+    - name: NAD kinase dCTP
+    - metabolites: !!omap
+      - dcdp_c: 1.0
+      - dctp_c: -1.0
+      - nad_c: -1.0
+      - nadp_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: NADK4
+      - ec-code: 2.7.1.23
+      - metanetx.reaction: MNXR101886
+      - sbo: SBO:0000176
+      - seed.reaction: rxn10059
+  - !!omap
+    - id: NADK5
+    - name: NAD kinase dTTP
+    - metabolites: !!omap
+      - dtdp_c: 1.0
+      - dttp_c: -1.0
+      - nad_c: -1.0
+      - nadp_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: NADK5
+      - ec-code: 2.7.1.23
+      - metanetx.reaction: MNXR101887
+      - sbo: SBO:0000176
+      - seed.reaction: rxn10060
 - genes:
   - !!omap
     - id: RTMO00131
