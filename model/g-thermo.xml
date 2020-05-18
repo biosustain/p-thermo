@@ -43573,6 +43573,8 @@
           <speciesReference species="M_ca2_c" stoichiometry="0.00315" constant="true"/>
           <speciesReference species="M_udparab_c" stoichiometry="0.045625" constant="true"/>
           <speciesReference species="M_udpxyl_c" stoichiometry="0.20437" constant="true"/>
+          <speciesReference species="M_bacthiolbsh_c" stoichiometry="0.0000698254" constant="true"/>
+          <speciesReference species="M_bacthiolbssb_c" stoichiometry="0.0000001746" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_udp_c" stoichiometry="0.472956" constant="true"/>
