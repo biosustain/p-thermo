@@ -1119,7 +1119,7 @@
       <species metaid="meta_M_1Dgali_c" sboTerm="SBO:0000247" id="M_1Dgali_c" name="alpha-D-Galactosyl-(1-&gt;3)-1D-myo-inositol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: 3-O-alpha-D-Galactosyl-1D-myo-inositol; alpha-D-Galactosyl-(1⇢3)-1D-myo-inositol; O-alpha-D-Galactosyl-(1⇢3)-1D-myo-inositol; 1-alpha-D-Galactosyl-myo-inositol; Galactinol</p>
+            <p>NAME: 3-O-alpha-D-Galactosyl-1D-myo-inositol; alpha-D-Galactosyl-(1-&gt;3)-1D-myo-inositol; O-alpha-D-Galactosyl-(1-&gt;3)-1D-myo-inositol; 1-alpha-D-Galactosyl-myo-inositol; Galactinol</p>
           </html>
         </notes>
         <annotation>
@@ -1582,7 +1582,7 @@
       <species metaid="meta_M_mantri_c" sboTerm="SBO:0000247" id="M_mantri_c" name="manninotriose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C18H32O16">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: D-Gal-alpha1⇢6D-Gal-alpha1⇢6D-Glucose; D-Gal alpha 1⇢6D-Gal alpha 1⇢6D-Glucose; Manninotriose</p>
+            <p>NAME: D-Gal-alpha1-&gt;6D-Gal-alpha1-&gt;6D-Glucose; D-Gal alpha 1-&gt;6D-Gal alpha 1-&gt;6D-Glucose; Manninotriose</p>
           </html>
         </notes>
         <annotation>
@@ -1603,7 +1603,7 @@
       <species metaid="meta_M_melib_c" sboTerm="SBO:0000247" id="M_melib_c" name="melibiose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: 6-O-(alpha-D-Galactopyranosyl)-D-glucopyranose; D-Gal-alpha1⇢6D-Glucose; Melibiose;</p>
+            <p>NAME: 6-O-(alpha-D-Galactopyranosyl)-D-glucopyranose; D-Gal-alpha1-&gt;6D-Glucose; Melibiose;</p>
           </html>
         </notes>
         <annotation>
@@ -3181,7 +3181,7 @@
       <species metaid="meta_M_gmagg_c" sboTerm="SBO:0000247" id="M_gmagg_c" name="[GlcNAc-(1-&gt;4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C39H64N8O19">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol; [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol; [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol; [GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol</p>
+            <p>NAME: [GlcNAc-(1-&gt;4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol; [GlcNAc-(1-&gt;4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol; [GlcNAc-(1-&gt;4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol; [GlcNAc-(1-&gt;4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol</p>
           </html>
         </notes>
         <annotation>
@@ -5525,7 +5525,7 @@
       <species metaid="meta_M_uaaagglaa_c" sboTerm="SBO:0000247" id="M_uaaagglaa_c" name="Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C94H153N8O26P2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine; GlcNAc-(1⇢4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol; GlcNAc-(1⇢4)-MurNAc(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol</p>
+            <p>NAME: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine; GlcNAc-(1-&gt;4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol; GlcNAc-(1-&gt;4)-MurNAc(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol</p>
           </html>
         </notes>
         <annotation>
@@ -7380,7 +7380,7 @@
       <species metaid="meta_M_malt_c" sboTerm="SBO:0000247" id="M_malt_c" name="Maltose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Maltose; Malt sugar; alpha-D-Glucopyranosyl-(1⇢4)-D-glucopyranose</p>
+            <p>NAME: Maltose; Malt sugar; alpha-D-Glucopyranosyl-(1-&gt;4)-D-glucopyranose</p>
           </html>
         </notes>
         <annotation>
@@ -19513,7 +19513,7 @@
       <species metaid="meta_M_malt_e" sboTerm="SBO:0000247" id="M_malt_e" name="Maltose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H22O11">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>NAME: Maltose; Malt sugar; alpha-D-Glucopyranosyl-(1⇢4)-D-glucopyranose</p>
+            <p>NAME: Maltose; Malt sugar; alpha-D-Glucopyranosyl-(1-&gt;4)-D-glucopyranose</p>
           </html>
         </notes>
         <annotation>
@@ -26687,7 +26687,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO00507"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_CELLPGH" sboTerm="SBO:0000176" id="R_CELLPGH" name="6-phospho-beta-D-glucosyl-(1⇢4)-D-glucose 6-phosphoglucohydrolase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_CELLPGH" sboTerm="SBO:0000176" id="R_CELLPGH" name="6-phospho-beta-D-glucosyl-(1-&gt;4)-D-glucose 6-phosphoglucohydrolase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_CELLPGH">
@@ -40652,7 +40652,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02513"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_UAAAGGLAAT" sboTerm="SBO:0000176" id="R_UAAAGGLAAT" name="[poly-N-acetyl-D-glucosaminyl-(1⇢4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1⇢4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol polysaccharidetransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_UAAAGGLAAT" sboTerm="SBO:0000176" id="R_UAAAGGLAAT" name="[poly-N-acetyl-D-glucosaminyl-(1-&gt;4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1-&gt;4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol polysaccharidetransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_UAAAGGLAAT">
@@ -51962,7 +51962,7 @@
           <groups:member groups:name="D-glucose-6-phosphate aldose-ketose-isomerase" groups:idRef="R_PGI"/>
           <groups:member groups:name="alpha,alpha-Trehalose-6-phosphate phosphoglucohydrolase" groups:idRef="R_TRE6PGH"/>
           <groups:member groups:name="Maltose-6-phosphate 6-phosphoglucohydrolase" groups:idRef="R_MALTPGH"/>
-          <groups:member groups:name="6-phospho-beta-D-glucosyl-(1⇢4)-D-glucose 6-phosphoglucohydrolase" groups:idRef="R_CELLPGH"/>
+          <groups:member groups:name="6-phospho-beta-D-glucosyl-(1-&gt;4)-D-glucose 6-phosphoglucohydrolase" groups:idRef="R_CELLPGH"/>
           <groups:member groups:name="ATP:alpha-D-glucose-1-phosphate adenylyltransferase" groups:idRef="R_GLGC"/>
           <groups:member groups:name="Isomaltose 6-alpha-D-glucanohydrolase" groups:idRef="R_ISOMALHY"/>
           <groups:member groups:name="1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase" groups:idRef="R_AMYTRANS"/>
