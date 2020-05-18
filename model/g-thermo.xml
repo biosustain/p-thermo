@@ -21625,12 +21625,18 @@
         </annotation>
       </species>
       <species metaid="meta_M_bacthiolbsh_c" sboTerm="SBO:0000247" id="M_bacthiolbsh_c" name="Bacillithiol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H22N2O10S">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ChEBIID: CHEBI: 64876</p>
-            <p>PubChemID: ?42614123</p>
-          </html>
-        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_bacthiolbsh_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:64876"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/42614123"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
       </species>
       <species metaid="meta_M_bacthiolbssb_c" sboTerm="SBO:0000247" id="M_bacthiolbssb_c" name="Bacillithiol Disulfide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C26H42N4O20S2">
         <annotation>
@@ -43754,6 +43760,8 @@
           <speciesReference species="M_ca2_c" stoichiometry="0.00315" constant="true"/>
           <speciesReference species="M_udparab_c" stoichiometry="0.045625" constant="true"/>
           <speciesReference species="M_udpxyl_c" stoichiometry="0.20437" constant="true"/>
+          <speciesReference species="M_bacthiolbsh_c" stoichiometry="0.0000698254" constant="true"/>
+          <speciesReference species="M_bacthiolbssb_c" stoichiometry="0.0000001746" constant="true"/>
           <speciesReference species="M_pg_c" stoichiometry="0.031037" constant="true"/>
           <speciesReference species="M_pe_c" stoichiometry="0.032424" constant="true"/>
           <speciesReference species="M_clpn_c" stoichiometry="0.033142" constant="true"/>
