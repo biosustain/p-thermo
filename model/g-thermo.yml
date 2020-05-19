@@ -17979,10 +17979,9 @@
     - compartment: c
     - charge: 0
     - formula: C13H22N2O10S
-    - notes: !!omap
-      - ChEBIID: 'CHEBI: 64876'
-      - PubChemID: ?42614123
     - annotation: !!omap
+      - chebi: CHEBI:64876
+      - pubchem.compound: '42614123'
       - sbo: SBO:0000247
   - !!omap
     - id: bacthiolbssb_c
@@ -18982,6 +18981,224 @@
       - sabiork: '3058'
       - sbo: SBO:0000247
       - seed.compound: cpd00075
+  - !!omap
+    - id: dtbt_c
+    - name: Dethiobiotin
+    - compartment: c
+    - charge: -1
+    - formula: C10H17N2O3
+    - annotation: !!omap
+      - bigg.metabolite: dtbt
+      - biocyc: META:DETHIOBIOTIN
+      - chebi:
+        - CHEBI:42280
+        - CHEBI:14132
+        - CHEBI:36990
+        - CHEBI:16691
+        - CHEBI:42279
+        - CHEBI:23649
+        - CHEBI:4457
+        - CHEBI:57861
+      - hmdb: HMDB03581
+      - inchi_key: AUTOLBMXDDTRRT-UHFFFAOYSA-M
+      - kegg.compound: C01909
+      - metanetx.chemical: MNXM1020
+      - sabiork: '5879'
+      - sbo: SBO:0000247
+      - seed.compound: cpd01311
+  - !!omap
+    - id: 2fe2s_c
+    - name: '[2Fe-2S] iron-sulfur cluster'
+    - compartment: c
+    - charge: 2
+    - formula: S2Fe2
+    - annotation: !!omap
+      - bigg.metabolite: 2fe2s
+      - chebi:
+        - CHEBI:21134
+        - CHEBI:64605
+        - CHEBI:49600
+        - CHEBI:49601
+      - metanetx.chemical: MNXM151647
+      - sbo: SBO:0000247
+      - seed.compound: cpd24604
+  - !!omap
+    - id: 2fe1s_c
+    - name: '[2Fe-2S] desulfurated iron-sulfur cluster'
+    - compartment: c
+    - charge: 2
+    - formula: SFe2
+    - annotation: !!omap
+      - bigg.metabolite: 2fe1s
+      - metanetx.chemical: MNXM147395
+      - sbo: SBO:0000247
+  - !!omap
+    - id: dann_c
+    - name: 7,8-Diaminononanoate
+    - compartment: c
+    - charge: 1
+    - formula: C9H21N2O2
+    - annotation: !!omap
+      - bigg.metabolite: dann
+      - biocyc: META:DIAMINONONANOATE
+      - chebi:
+        - CHEBI:12242
+        - CHEBI:17830
+        - CHEBI:20765
+        - CHEBI:2247
+        - CHEBI:58500
+      - inchi_key: KCEGBPIYGIWCDH-UHFFFAOYSA-O
+      - kegg.compound: C01037
+      - lipidmaps: LMFA01100062
+      - metanetx.chemical: MNXM1140
+      - sabiork: '5370'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00764
+  - !!omap
+    - id: 8aonn_c
+    - name: 8-Amino-7-oxononanoate
+    - compartment: c
+    - charge: 0
+    - formula: C9H17NO3
+    - annotation: !!omap
+      - bigg.metabolite: 8aonn
+      - biocyc: META:8-AMINO-7-OXONONANOATE
+      - chebi:
+        - CHEBI:57532
+        - CHEBI:15830
+        - CHEBI:12266
+        - CHEBI:20808
+        - CHEBI:2308
+      - hmdb: HMDB37790
+      - inchi_key: GUAHPAJOXVYFON-UHFFFAOYSA-N
+      - kegg.compound: C01092
+      - lipidmaps:
+        - LMFA01100058
+        - LMFA01060168
+      - metanetx.chemical: MNXM1141
+      - sabiork: '5387'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00800
+  - !!omap
+    - id: amob_c
+    - name: S-Adenosyl-4-methylthio-2-oxobutanoate
+    - compartment: c
+    - charge: 0
+    - formula: C15H19N5O6S
+    - annotation: !!omap
+      - bigg.metabolite: amob
+      - biocyc: META:S-ADENOSYL-4-METHYLTHIO-2-OXOBUTANOATE
+      - chebi:
+        - CHEBI:12758
+        - CHEBI:16490
+        - CHEBI:8944
+        - CHEBI:22033
+      - inchi_key: UOKVQQMBGVMXPU-CJPDYEHRSA-N
+      - kegg.compound: C04425
+      - metanetx.chemical: MNXM3090
+      - sabiork: '7304'
+      - sbo: SBO:0000247
+      - seed.compound: cpd02701
+  - !!omap
+    - id: pimcoa_c
+    - name: Pimeloyl-CoA
+    - compartment: c
+    - charge: 0
+    - formula: C28H46N7O19P3S
+    - annotation: !!omap
+      - chebi: CHEBI:15504
+      - kegg.compound: C01063
+      - sbo: SBO:0000247
+  - !!omap
+    - id: pimACP_c
+    - name: Pimeloyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C18H31N2O10PRS
+    - annotation: !!omap
+      - bigg.metabolite: pimACP
+      - biocyc: META:Pimeloyl-ACPs
+      - kegg.compound: C19845
+      - metanetx.chemical: MNXM12695
+      - sbo: SBO:0000247
+      - seed.compound: cpd21087
+  - !!omap
+    - id: nonal_c
+    - name: Nonanal
+    - compartment: c
+    - charge: 0
+    - formula: C9H18O
+    - annotation: !!omap
+      - bigg.metabolite: nonal
+      - biocyc: META:CPD-8491
+      - chebi: CHEBI:84268
+      - hmdb: HMDB59835
+      - inchi_key: GYHFUZHODSMOHU-UHFFFAOYSA-N
+      - lipidmaps: LMFA06000040
+      - metanetx.chemical: MNXM19927
+      - sabiork: '22734'
+      - sbo: SBO:0000247
+      - seed.compound: cpd15618
+  - !!omap
+    - id: diur_c
+    - name: dialurate
+    - compartment: c
+    - charge: -1
+    - formula: C4H3N2O4
+    - annotation: !!omap
+      - chebi: CHEBI:140629
+      - sbo: SBO:0000247
+  - !!omap
+    - id: sheme_c
+    - name: Siroheme
+    - compartment: c
+    - charge: -8
+    - formula: C42H36FeN4O16
+    - annotation: !!omap
+      - bigg.metabolite:
+        - sheme
+      - biocyc:
+        - META:SIROHEME
+      - chebi:
+        - CHEBI:9166
+        - CHEBI:28599
+        - CHEBI:26690
+        - CHEBI:60052
+      - inchi_key:
+        - DLKSSIHHLYNIKN-QIISWYHFSA-D
+      - kegg.compound:
+        - C00748
+      - metanetx.chemical:
+        - MNXM82173
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd00557
+  - !!omap
+    - id: scl_c
+    - name: Sirohydrochlorin
+    - compartment: c
+    - charge: -7
+    - formula: C42H39N4O16
+    - annotation: !!omap
+      - bigg.metabolite:
+        - scl
+      - biocyc:
+        - META:SIROHYDROCHLORIN
+      - chebi:
+        - CHEBI:58351
+        - CHEBI:9167
+        - CHEBI:18023
+        - CHEBI:15090
+        - CHEBI:26691
+      - inchi_key:
+        - KWIZRXMMFRBUML-AHGFGAHVSA-F
+      - kegg.compound:
+        - C05778
+      - metanetx.chemical:
+        - MNXM863
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd03426
 - reactions:
   - !!omap
     - id: IDPh
@@ -32422,6 +32639,7 @@
       - 10fthf_c: -0.0004
       - Biomass_c: 1.0
       - accoa_c: -0.000279000000000001
+      - adocbl_c: -0.000223
       - adp_c: 104.9974
       - ala__L_c: -0.57588994
       - amet_c: -0.000223
@@ -32430,6 +32648,9 @@
       - asn__L_c: -0.248575
       - asp__L_c: -0.248575
       - atp_c: -105.027303042
+      - bacthiolbsh_c: -6.98254e-05
+      - bacthiolbssb_c: -1.746e-07
+      - btn_c: -2e-06
       - ca2_c: -0.00315
       - chor_c: -0.000223000000000001
       - clpn_c: -0.033142
@@ -32452,6 +32673,7 @@
       - gmp_c: -0.102432476
       - h2o_c: -104.9974
       - h_c: 104.9974
+      - hemeO_c: -0.000223
       - his__L_c: -0.08716
       - ile__L_c: -0.30553
       - k_c: -0.7082
@@ -32466,14 +32688,18 @@
       - pe_c: -0.032424
       - pg_c: -0.031037
       - phe__L_c: -0.16253
+      - pheme_c: -0.000223
       - pi_c: 104.9856
       - ppi_c: -0.0012
       - pro__L_c: -0.18652
-      - ptrc_c: -0.03327
+      - ptrc_c: -0.006
       - pydx5p_c: -0.000223
       - qh2_c: -0.000300000000000002
       - ribflv_c: -0.000223000000000001
       - ser__L_c: -0.20287
+      - sheme_c: -0.000223
+      - spmd_c: -0.0012
+      - sprm_c: -0.0028
       - succoa_c: -9.80420000000023e-05
       - thmpp_c: -0.000223000000000002
       - thr__L_c: -0.30102
@@ -38709,6 +38935,248 @@
       - metanetx.reaction: MNXR101887
       - sbo: SBO:0000176
       - seed.reaction: rxn10060
+  - !!omap
+    - id: BTS5
+    - name: biotin synthase
+    - metabolites: !!omap
+      - 2fe1s_c: 1.0
+      - 2fe2s_c: -1.0
+      - amet_c: -1.0
+      - btn_c: 1.0
+      - dad_5_c: 1.0
+      - dtbt_c: -1.0
+      - h_c: 1.0
+      - met__L_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: BioB
+    - annotation: !!omap
+      - ec-code: 2.8.1.6
+      - kegg.reaction: R01078
+      - sbo: SBO:0000176
+  - !!omap
+    - id: I2FE2SR
+    - name: '[2Fe-2S] regeneration'
+    - metabolites: !!omap
+      - 2fe1s_c: -1.0
+      - 2fe2s_c: 1.0
+      - enzcys_c: 1.0
+      - enzscys_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - metanetx.reaction: MNXR100766
+      - sbo: SBO:0000176
+  - !!omap
+    - id: DBTS
+    - name: Dethiobiotin synthase
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - co2_c: -1.0
+      - dann_c: -1.0
+      - dtbt_c: 1.0
+      - h_c: 3.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: BioD
+    - annotation: !!omap
+      - bigg.reaction: DBTS
+      - biocyc: META:DETHIOBIOTIN-SYN-RXN
+      - ec-code: 6.3.3.3
+      - kegg.reaction: R03182
+      - metanetx.reaction: MNXR97180
+      - rhea:
+        - '15807'
+        - '15808'
+        - '15806'
+        - '15805'
+      - sabiork: '3011'
+      - sbo: SBO:0000176
+      - seed.reaction: rxn02277
+  - !!omap
+    - id: AMAOTr
+    - name: Adenosylmethionine-8-amino-7-oxononanoate transaminase
+    - metabolites: !!omap
+      - 8aonn_c: -1.0
+      - amet_c: -1.0
+      - amob_c: 1.0
+      - dann_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: BioD
+    - annotation: !!omap
+      - bigg.reaction: AMAOTr
+      - biocyc: META:DAPASYN-RXN
+      - ec-code: 2.6.1.62
+      - kegg.reaction: R03231
+      - metanetx.reaction: MNXR95806
+      - rhea:
+        - '16863'
+        - '16861'
+        - '16862'
+        - '16864'
+      - sabiork: '3057'
+      - sbo: SBO:0000176
+      - seed.reaction: rxn02312
+  - !!omap
+    - id: DM_amob_c
+    - name: S-Adenosyl-4-methylthio-2-oxobutanoate sink
+    - metabolites: !!omap
+      - amob_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000628
+  - !!omap
+    - id: AOXSr
+    - name: 8-amino-7-oxononanoate synthase
+    - metabolites: !!omap
+      - 8aonn_c: 1.0
+      - ala__L_c: -1.0
+      - co2_c: 1.0
+      - coa_c: 1.0
+      - h_c: 4.0
+      - pimcoa_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 2.3.1.47
+      - kegg.reaction: R03210
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PMEACP
+    - name: Pimelate-Coa:ACP transferase
+    - metabolites: !!omap
+      - ACP_c: -1.0
+      - coa_c: 1.0
+      - h_c: 4.0
+      - pimACP_c: 1.0
+      - pimcoa_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PMES
+    - name: pimeloyl-[acyl-carrier protein] synthase
+    - metabolites: !!omap
+      - fmn_c: 2.0
+      - fmnh2_c: -2.0
+      - h2o_c: 3.0
+      - nonal_c: 1.0
+      - o2_c: -3.0
+      - palmACP_c: -1.0
+      - pimACP_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.14.14.46
+      - kegg.reaction: R10123
+      - sbo: SBO:0000176
+  - !!omap
+    - id: DM_nonal_c
+    - name: Nonanal sink
+    - metabolites: !!omap
+      - nonal_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000628
+  - !!omap
+    - id: BLUB
+    - name: 5,6-dimethylbenzimidazole synthase
+    - metabolites: !!omap
+      - diur_c: 1.0
+      - dmbzid_c: 1.0
+      - e4p_c: 1.0
+      - fmnh2_c: -1.0
+      - h_c: 1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.13.11.79
+      - kegg.reaction: R09083
+      - sbo: SBO:0000176
+  - !!omap
+    - id: DM_diur_c
+    - name: dialurate sink
+    - metabolites: !!omap
+      - diur_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000628
+  - !!omap
+    - id: SHCHF
+    - name: Sirohydrochlorin ferrochelatase
+    - metabolites: !!omap
+      - fe2_c: -1
+      - h_c: 3
+      - scl_c: -1
+      - sheme_c: 1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction:
+        - SHCHF
+      - biocyc:
+        - META:SIROHEME-FERROCHELAT-RXN
+      - ec-code:
+        - 4.99.1.4
+      - kegg.reaction:
+        - R02864
+      - metanetx.reaction:
+        - MNXR104375
+      - rhea:
+        - '24360'
+        - '24361'
+        - '24362'
+        - '24363'
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn02056
+  - !!omap
+    - id: SHCHD2
+    - name: Sirohydrochlorin dehydrogenase (NAD)
+    - metabolites: !!omap
+      - nad_c: -1
+      - nadh_c: 1
+      - scl_c: 1
+      - shcl_c: -1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction:
+        - SHCHD2
+      - biocyc:
+        - META:DIMETHUROPORDEHYDROG-RXN
+      - ec-code:
+        - 1.3.1.76
+      - kegg.reaction:
+        - R03947
+      - metanetx.reaction:
+        - MNXR104373
+      - rhea:
+        - '15613'
+        - '15614'
+        - '15615'
+        - '15616'
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn02774
 - genes:
   - !!omap
     - id: RTMO00131
@@ -42510,6 +42978,12 @@
     - name: RTMO04293
     - annotation: !!omap
       - sbo: SBO:0000243
+  - !!omap
+    - id: BioB
+    - name: G_BioB
+  - !!omap
+    - id: BioD
+    - name: G_BioD
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
