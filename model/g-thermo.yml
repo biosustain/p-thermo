@@ -19155,24 +19155,18 @@
     - charge: -8
     - formula: C42H36FeN4O16
     - annotation: !!omap
-      - bigg.metabolite:
-        - sheme
-      - biocyc:
-        - META:SIROHEME
+      - bigg.metabolite: sheme
+      - biocyc: META:SIROHEME
       - chebi:
         - CHEBI:9166
         - CHEBI:28599
         - CHEBI:26690
         - CHEBI:60052
-      - inchi_key:
-        - DLKSSIHHLYNIKN-QIISWYHFSA-D
-      - kegg.compound:
-        - C00748
-      - metanetx.chemical:
-        - MNXM82173
+      - inchi_key: DLKSSIHHLYNIKN-QIISWYHFSA-D
+      - kegg.compound: C00748
+      - metanetx.chemical: MNXM82173
       - sbo: SBO:0000247
-      - seed.compound:
-        - cpd00557
+      - seed.compound: cpd00557
   - !!omap
     - id: scl_c
     - name: Sirohydrochlorin
@@ -19180,25 +19174,19 @@
     - charge: -7
     - formula: C42H39N4O16
     - annotation: !!omap
-      - bigg.metabolite:
-        - scl
-      - biocyc:
-        - META:SIROHYDROCHLORIN
+      - bigg.metabolite: scl
+      - biocyc: META:SIROHYDROCHLORIN
       - chebi:
         - CHEBI:58351
         - CHEBI:9167
         - CHEBI:18023
         - CHEBI:15090
         - CHEBI:26691
-      - inchi_key:
-        - KWIZRXMMFRBUML-AHGFGAHVSA-F
-      - kegg.compound:
-        - C05778
-      - metanetx.chemical:
-        - MNXM863
+      - inchi_key: KWIZRXMMFRBUML-AHGFGAHVSA-F
+      - kegg.compound: C05778
+      - metanetx.chemical: MNXM863
       - sbo: SBO:0000247
-      - seed.compound:
-        - cpd03426
+      - seed.compound: cpd03426
 - reactions:
   - !!omap
     - id: IDPh
@@ -32636,82 +32624,82 @@
     - id: biomass
     - name: biomass
     - metabolites: !!omap
-      - 10fthf_c: -0.0004
+      - 10fthf_c: -0.00035714285714285714
       - Biomass_c: 1.0
-      - accoa_c: -0.000279000000000001
-      - adocbl_c: -0.000223
+      - accoa_c: -0.0002491071428571437
+      - adocbl_c: -0.00019910714285714283
       - adp_c: 104.9974
-      - ala__L_c: -0.57588994
-      - amet_c: -0.000223
-      - amp_c: -0.133587054
-      - arg__L_c: -0.20505
-      - asn__L_c: -0.248575
-      - asp__L_c: -0.248575
+      - ala__L_c: -0.5141874464285714
+      - amet_c: -0.00019910714285714283
+      - amp_c: -0.11927415535714285
+      - arg__L_c: -0.18308035714285714
+      - asn__L_c: -0.22194196428571425
+      - asp__L_c: -0.22194196428571425
       - atp_c: -105.027303042
-      - bacthiolbsh_c: -6.98254e-05
-      - bacthiolbssb_c: -1.746e-07
-      - btn_c: -2e-06
-      - ca2_c: -0.00315
-      - chor_c: -0.000223000000000001
-      - clpn_c: -0.033142
-      - cmp_c: -0.102432476
-      - coa_c: -0.000168000000000001
-      - cys__L_c: -0.12081
-      - damp_c: -0.00867143
-      - dcmp_c: -0.006649117
-      - dgmp_c: -0.006649117
-      - dtmp_c: -0.00867143
-      - fad_c: -0.000223000000000001
-      - fe3_c: -0.034003042
-      - fmn_c: -0.000223
-      - fru_c: -0.117367
-      - gdp_c: 0.006411
-      - gdpmann_c: -0.006411
-      - gln__L_c: -0.360645
-      - glu__L_c: -0.360645
-      - gly_c: -0.45663
-      - gmp_c: -0.102432476
+      - bacthiolbsh_c: -6.234410714285714e-05
+      - bacthiolbssb_c: -1.5589285714285713e-07
+      - btn_c: -1.7857142857142855e-06
+      - ca2_c: -0.0028125
+      - chor_c: -0.00019910714285714372
+      - clpn_c: -0.029591071428571425
+      - cmp_c: -0.09145756785714285
+      - coa_c: -0.00015000000000000088
+      - cys__L_c: -0.10786607142857142
+      - damp_c: -0.007742348214285715
+      - dcmp_c: -0.005936711607142857
+      - dgmp_c: -0.005936711607142857
+      - dtmp_c: -0.007742348214285715
+      - fad_c: -0.00019910714285714372
+      - fe3_c: -0.030359858928571425
+      - fmn_c: -0.00019910714285714283
+      - fru_c: -0.10479196428571427
+      - gdp_c: 0.005724107142857143
+      - gdpmann_c: -0.005724107142857143
+      - gln__L_c: -0.3220044642857143
+      - glu__L_c: -0.3220044642857143
+      - gly_c: -0.4077053571428571
+      - gmp_c: -0.09145756785714285
       - h2o_c: -104.9974
       - h_c: 104.9974
-      - hemeO_c: -0.000223
-      - his__L_c: -0.08716
-      - ile__L_c: -0.30553
-      - k_c: -0.7082
-      - leu__L_c: -0.38917
-      - lys__L_c: -0.35521
-      - met__L_c: -0.09317
-      - mg2_c: -0.098
-      - nad_c: -0.0162
-      - nadh_c: -0.029948042
-      - nadp_c: -0.0047
-      - nadph_c: -0.003
-      - pe_c: -0.032424
-      - pg_c: -0.031037
-      - phe__L_c: -0.16253
-      - pheme_c: -0.000223
+      - hemeO_c: -0.00019910714285714283
+      - his__L_c: -0.07782142857142857
+      - ile__L_c: -0.27279464285714283
+      - k_c: -0.6323214285714286
+      - leu__L_c: -0.34747321428571426
+      - lys__L_c: -0.3171517857142857
+      - met__L_c: -0.0831875
+      - mg2_c: -0.0875
+      - nad_c: -0.014464285714285713
+      - nadh_c: -0.026739323214285713
+      - nadp_c: -0.0041964285714285714
+      - nadph_c: -0.002678571428571428
+      - pe_c: -0.02895
+      - pg_c: -0.02771160714285714
+      - phe__L_c: -0.1451160714285714
+      - pheme_c: -0.00019910714285714283
       - pi_c: 104.9856
-      - ppi_c: -0.0012
-      - pro__L_c: -0.18652
-      - ptrc_c: -0.006
-      - pydx5p_c: -0.000223
-      - qh2_c: -0.000300000000000002
-      - ribflv_c: -0.000223000000000001
-      - ser__L_c: -0.20287
-      - sheme_c: -0.000223
-      - spmd_c: -0.0012
-      - sprm_c: -0.0028
-      - succoa_c: -9.80420000000023e-05
-      - thmpp_c: -0.000223000000000002
-      - thr__L_c: -0.30102
-      - trp__L_c: -0.11494
-      - tyr__L_c: -0.11603
-      - udp_c: 0.472956
-      - udparab_c: -0.045625
-      - udpg_c: -0.010725
-      - udpgal_c: -0.212236
-      - udpxyl_c: -0.20437
-      - ump_c: -0.1335870546
-      - val__L_c: -0.42128
+      - ppi_c: -0.0010714285714285713
+      - pro__L_c: -0.16653571428571426
+      - ptrc_c: -0.005357142857142856
+      - pydx5p_c: -0.00019910714285714283
+      - qh2_c: -0.0002678571428571446
+      - ribflv_c: -0.00019910714285714372
+      - ser__L_c: -0.18113392857142854
+      - sheme_c: -0.00019910714285714283
+      - spmd_c: -0.0010714285714285713
+      - sprm_c: -0.0024999999999999996
+      - succoa_c: -8.753750000000204e-05
+      - thmpp_c: -0.00019910714285714464
+      - thr__L_c: -0.2687678571428571
+      - trp__L_c: -0.102625
+      - tyr__L_c: -0.10359821428571427
+      - udp_c: 0.42228214285714283
+      - udparab_c: -0.04073660714285714
+      - udpg_c: -0.009575892857142856
+      - udpgal_c: -0.18949642857142857
+      - udpxyl_c: -0.18247321428571425
+      - ump_c: -0.11927415589285714
+      - val__L_c: -0.3761428571428571
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -39121,62 +39109,50 @@
     - id: SHCHF
     - name: Sirohydrochlorin ferrochelatase
     - metabolites: !!omap
-      - fe2_c: -1
-      - h_c: 3
-      - scl_c: -1
-      - sheme_c: 1
+      - fe2_c: -1.0
+      - h_c: 3.0
+      - scl_c: -1.0
+      - sheme_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction:
-        - SHCHF
-      - biocyc:
-        - META:SIROHEME-FERROCHELAT-RXN
-      - ec-code:
-        - 4.99.1.4
-      - kegg.reaction:
-        - R02864
-      - metanetx.reaction:
-        - MNXR104375
+      - bigg.reaction: SHCHF
+      - biocyc: META:SIROHEME-FERROCHELAT-RXN
+      - ec-code: 4.99.1.4
+      - kegg.reaction: R02864
+      - metanetx.reaction: MNXR104375
       - rhea:
         - '24360'
         - '24361'
         - '24362'
         - '24363'
       - sbo: SBO:0000176
-      - seed.reaction:
-        - rxn02056
+      - seed.reaction: rxn02056
   - !!omap
     - id: SHCHD2
     - name: Sirohydrochlorin dehydrogenase (NAD)
     - metabolites: !!omap
-      - nad_c: -1
-      - nadh_c: 1
-      - scl_c: 1
-      - shcl_c: -1
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - scl_c: 1.0
+      - shcl_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction:
-        - SHCHD2
-      - biocyc:
-        - META:DIMETHUROPORDEHYDROG-RXN
-      - ec-code:
-        - 1.3.1.76
-      - kegg.reaction:
-        - R03947
-      - metanetx.reaction:
-        - MNXR104373
+      - bigg.reaction: SHCHD2
+      - biocyc: META:DIMETHUROPORDEHYDROG-RXN
+      - ec-code: 1.3.1.76
+      - kegg.reaction: R03947
+      - metanetx.reaction: MNXR104373
       - rhea:
         - '15613'
         - '15614'
         - '15615'
         - '15616'
       - sbo: SBO:0000176
-      - seed.reaction:
-        - rxn02774
+      - seed.reaction: rxn02774
 - genes:
   - !!omap
     - id: RTMO00131
