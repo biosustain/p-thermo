@@ -1866,17 +1866,15 @@
       - metanetx.chemical: MNXM506
       - sbo: SBO:0000247
   - !!omap
-    - id: pre5_c
+    - id: pre5a_c
     - name: Precorrin 5
     - compartment: c
     - charge: 0
-    - formula: C45H54N4O17
+    - formula: ' C45H54N4O16'
     - notes: !!omap
       - NAME: Precorrin 5
+      - NOTES: Slightly different molecule as a result of hybrid pathway
     - annotation: !!omap
-      - chebi: CHEBI:27630
-      - kegg.compound: C06416
-      - metanetx.chemical: MNXM1588
       - sbo: SBO:0000247
   - !!omap
     - id: pre8_c
@@ -1892,17 +1890,15 @@
       - metanetx.chemical: MNXM1589
       - sbo: SBO:0000247
   - !!omap
-    - id: pre4_c
+    - id: pre4a_c
     - name: Precorrin 4
     - compartment: c
     - charge: 0
-    - formula: C44H52N4O17
+    - formula: C44H52N4O16
     - notes: !!omap
       - NAME: Precorrin 4
+      - NOTES: Slightly different molecule as a result of hybrid pathway
     - annotation: !!omap
-      - chebi: CHEBI:16430
-      - kegg.compound: C06407
-      - metanetx.chemical: MNXM1441
       - sbo: SBO:0000247
   - !!omap
     - id: pre3b_c
@@ -19155,24 +19151,18 @@
     - charge: -8
     - formula: C42H36FeN4O16
     - annotation: !!omap
-      - bigg.metabolite:
-        - sheme
-      - biocyc:
-        - META:SIROHEME
+      - bigg.metabolite: sheme
+      - biocyc: META:SIROHEME
       - chebi:
         - CHEBI:9166
         - CHEBI:28599
         - CHEBI:26690
         - CHEBI:60052
-      - inchi_key:
-        - DLKSSIHHLYNIKN-QIISWYHFSA-D
-      - kegg.compound:
-        - C00748
-      - metanetx.chemical:
-        - MNXM82173
+      - inchi_key: DLKSSIHHLYNIKN-QIISWYHFSA-D
+      - kegg.compound: C00748
+      - metanetx.chemical: MNXM82173
       - sbo: SBO:0000247
-      - seed.compound:
-        - cpd00557
+      - seed.compound: cpd00557
   - !!omap
     - id: scl_c
     - name: Sirohydrochlorin
@@ -19180,25 +19170,19 @@
     - charge: -7
     - formula: C42H39N4O16
     - annotation: !!omap
-      - bigg.metabolite:
-        - scl
-      - biocyc:
-        - META:SIROHYDROCHLORIN
+      - bigg.metabolite: scl
+      - biocyc: META:SIROHYDROCHLORIN
       - chebi:
         - CHEBI:58351
         - CHEBI:9167
         - CHEBI:18023
         - CHEBI:15090
         - CHEBI:26691
-      - inchi_key:
-        - KWIZRXMMFRBUML-AHGFGAHVSA-F
-      - kegg.compound:
-        - C05778
-      - metanetx.chemical:
-        - MNXM863
+      - inchi_key: KWIZRXMMFRBUML-AHGFGAHVSA-F
+      - kegg.compound: C05778
+      - metanetx.chemical: MNXM863
       - sbo: SBO:0000247
-      - seed.compound:
-        - cpd03426
+      - seed.compound: cpd03426
 - reactions:
   - !!omap
     - id: IDPh
@@ -29821,32 +29805,14 @@
       - rhea: '22512'
       - sbo: SBO:0000176
   - !!omap
-    - id: PC17M
-    - name: S-adenosyl-L-methionine:precorrin-3B C17-methyltransferase
-    - metabolites: !!omap
-      - ahcys_c: 1.0
-      - amet_c: -1.0
-      - h_c: 1.0
-      - pre3b_c: -1.0
-      - pre4_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO02160
-    - annotation: !!omap
-      - ec-code: 2.1.1.131
-      - kegg.reaction: R05180
-      - metanetx.reaction: MNXR138687
-      - rhea: '12761'
-      - sbo: SBO:0000176
-  - !!omap
     - id: PC11M
     - name: S-adenosyl-L-methionine:precorrin-4 C11 methyltransferase
     - metabolites: !!omap
       - ahcys_c: 1.0
       - amet_c: -1.0
       - h_c: 1.0
-      - pre4_c: -1.0
-      - pre5_c: 1.0
+      - pre4a_c: -1.0
+      - pre5a_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO02153
@@ -29855,26 +29821,6 @@
       - kegg.reaction: R05181
       - metanetx.reaction: MNXR138686
       - rhea: '22012'
-      - sbo: SBO:0000176
-  - !!omap
-    - id: PRE3AOR
-    - name: precorrin-3A,NADH:oxygen oxidoreductase (20-hydroxylating)
-    - metabolites: !!omap
-      - h2o_c: 1.0
-      - h_c: -1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-      - o2_c: -1.0
-      - pre3a_c: -1.0
-      - pre3b_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO02376
-    - annotation: !!omap
-      - ec-code: 1.14.13.83
-      - kegg.reaction: R05217
-      - metanetx.reaction: MNXR139345
-      - rhea: '17293'
       - sbo: SBO:0000176
   - !!omap
     - id: CO1DAMT
@@ -30000,7 +29946,7 @@
       - amet_c: -1.0
       - h2o_c: -1.0
       - h_c: 2.0
-      - pre5_c: -1.0
+      - pre5a_c: -1.0
       - pre6a_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -39121,62 +39067,66 @@
     - id: SHCHF
     - name: Sirohydrochlorin ferrochelatase
     - metabolites: !!omap
-      - fe2_c: -1
-      - h_c: 3
-      - scl_c: -1
-      - sheme_c: 1
+      - fe2_c: -1.0
+      - h_c: 3.0
+      - scl_c: -1.0
+      - sheme_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction:
-        - SHCHF
-      - biocyc:
-        - META:SIROHEME-FERROCHELAT-RXN
-      - ec-code:
-        - 4.99.1.4
-      - kegg.reaction:
-        - R02864
-      - metanetx.reaction:
-        - MNXR104375
+      - bigg.reaction: SHCHF
+      - biocyc: META:SIROHEME-FERROCHELAT-RXN
+      - ec-code: 4.99.1.4
+      - kegg.reaction: R02864
+      - metanetx.reaction: MNXR104375
       - rhea:
         - '24360'
         - '24361'
         - '24362'
         - '24363'
       - sbo: SBO:0000176
-      - seed.reaction:
-        - rxn02056
+      - seed.reaction: rxn02056
   - !!omap
     - id: SHCHD2
     - name: Sirohydrochlorin dehydrogenase (NAD)
     - metabolites: !!omap
-      - nad_c: -1
-      - nadh_c: 1
-      - scl_c: 1
-      - shcl_c: -1
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - scl_c: 1.0
+      - shcl_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction:
-        - SHCHD2
-      - biocyc:
-        - META:DIMETHUROPORDEHYDROG-RXN
-      - ec-code:
-        - 1.3.1.76
-      - kegg.reaction:
-        - R03947
-      - metanetx.reaction:
-        - MNXR104373
+      - bigg.reaction: SHCHD2
+      - biocyc: META:DIMETHUROPORDEHYDROG-RXN
+      - ec-code: 1.3.1.76
+      - kegg.reaction: R03947
+      - metanetx.reaction: MNXR104373
       - rhea:
         - '15613'
         - '15614'
         - '15615'
         - '15616'
       - sbo: SBO:0000176
-      - seed.reaction:
-        - rxn02774
+      - seed.reaction: rxn02774
+  - !!omap
+    - id: PRE3MT
+    - name: cobalt-factor III methyltransferase
+    - metabolites: !!omap
+      - ahcys_c: 1
+      - amet_c: -1
+      - h_c: 1
+      - pre3a_c: -1
+      - pre4a_c: 1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 2.1.1.272
+      - kegg.reaction: R11580
+      - sbo: SBO:0000176
 - genes:
   - !!omap
     - id: RTMO00131

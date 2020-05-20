@@ -2563,25 +2563,13 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_pre5_c" sboTerm="SBO:0000247" id="M_pre5_c" name="Precorrin 5" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C45H54N4O17">
+      <species metaid="meta_M_pre5a_c" sboTerm="SBO:0000247" id="M_pre5a_c" name="Precorrin 5" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula=" C45H54N4O16">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 5</p>
+            <p>NOTES: Slightly different molecule as a result of hybrid pathway</p>
           </html>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_pre5_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:27630"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06416"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1588"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </species>
       <species metaid="meta_M_pre8_c" sboTerm="SBO:0000247" id="M_pre8_c" name="Precorrin 8X" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C45H60N4O14">
         <notes>
@@ -2603,25 +2591,13 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_pre4_c" sboTerm="SBO:0000247" id="M_pre4_c" name="Precorrin 4" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C44H52N4O17">
+      <species metaid="meta_M_pre4a_c" sboTerm="SBO:0000247" id="M_pre4a_c" name="Precorrin 4" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C44H52N4O16">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: Precorrin 4</p>
+            <p>NOTES: Slightly different molecule as a result of hybrid pathway</p>
           </html>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_pre4_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:16430"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C06407"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1441"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </species>
       <species metaid="meta_M_pre3b_c" sboTerm="SBO:0000247" id="M_pre3b_c" name="Precorrin 3B" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C43H50N4O17">
         <notes>
@@ -39552,34 +39528,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02157"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PC17M" sboTerm="SBO:0000176" id="R_PC17M" name="S-adenosyl-L-methionine:precorrin-3B C17-methyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PC17M">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.1.1.131"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05180"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR138687"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/12761"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pre3b_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_pre4_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO02160"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_PC11M" sboTerm="SBO:0000176" id="R_PC11M" name="S-adenosyl-L-methionine:precorrin-4 C11 methyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -39596,46 +39544,16 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_pre4_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pre4a_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_pre5_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pre5a_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02153"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_PRE3AOR" sboTerm="SBO:0000176" id="R_PRE3AOR" name="precorrin-3A,NADH:oxygen oxidoreductase (20-hydroxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_PRE3AOR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.14.13.83"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05217"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR139345"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/17293"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_pre3a_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pre3b_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO02376"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CO1DAMT" sboTerm="SBO:0000176" id="R_CO1DAMT" name="ATP:cob(I)yrinic acid-a,c-diamide Cobeta-adenosyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -39830,7 +39748,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pre5_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pre5a_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -50895,6 +50813,29 @@
           <speciesReference species="M_scl_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_PRE3MT" sboTerm="SBO:0000176" id="R_PRE3MT" name="cobalt-factor III methyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_PRE3MT">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.1.1.272"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R11580"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_pre3a_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pre4a_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -52982,9 +52923,7 @@
           <groups:member groups:name="S-Adenosyl-L-methionine:1-precorrin-6Y C5,15-methyltransferase (C-12-decarboxylating)" groups:idRef="R_PC6YM"/>
           <groups:member groups:name="precorrin-6Y:NADP+ oxidoreductase" groups:idRef="R_PC6AR"/>
           <groups:member groups:name="precorrin 8X 11,12-methylmutase" groups:idRef="R_PC8XM"/>
-          <groups:member groups:name="S-adenosyl-L-methionine:precorrin-3B C17-methyltransferase" groups:idRef="R_PC17M"/>
           <groups:member groups:name="S-adenosyl-L-methionine:precorrin-4 C11 methyltransferase" groups:idRef="R_PC11M"/>
-          <groups:member groups:name="precorrin-3A,NADH:oxygen oxidoreductase (20-hydroxylating)" groups:idRef="R_PRE3AOR"/>
           <groups:member groups:name="ATP:cob(I)yrinic acid-a,c-diamide Cobeta-adenosyltransferase" groups:idRef="R_CO1DAMT"/>
           <groups:member groups:name="Adenosyl cobinamide kinase" groups:idRef="R_ADOCBIK"/>
           <groups:member groups:name="Adenosyl cobinamide phosphate guanyltransferase" groups:idRef="R_ACBIPGT"/>
@@ -53005,6 +52944,7 @@
           <groups:member groups:name="L threonine kinase" groups:idRef="R_LTHRK"/>
           <groups:member groups:name="Sirohydrochlorin ferrochelatase" groups:idRef="R_SHCHF"/>
           <groups:member groups:name="Sirohydrochlorin dehydrogenase (NAD)" groups:idRef="R_SHCHD2"/>
+          <groups:member groups:name="cobalt-factor III methyltransferase" groups:idRef="R_PRE3MT"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00900__32____45____32__Terpenoid__32__backbone__32__biosynthesis" groups:name="00900 - Terpenoid backbone biosynthesis" groups:kind="collection">
