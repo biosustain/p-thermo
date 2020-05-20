@@ -19184,7 +19184,7 @@
       - sbo: SBO:0000247
       - seed.compound: cpd03426
   - !!omap
-    - id: copre5_c
+    - id: copre5a_c
     - name: Cobalt-precorrin 5
     - compartment: c
     - charge: 0
@@ -19192,6 +19192,58 @@
     - annotation: !!omap
       - chebi: CHEBI:52488
       - kegg.compound: C16242
+      - sbo: SBO:0000247
+  - !!omap
+    - id: copre5b_c
+    - name: Cobalt-precorrin 5B
+    - compartment: c
+    - charge: 0
+    - formula: C43H50CoN4O16
+    - annotation: !!omap
+      - chebi: CHEBI:52489
+      - kegg.compound: C16243
+      - sbo: SBO:0000247
+  - !!omap
+    - id: copre6a_c
+    - name: Cobalt-precorrin 6A
+    - compartment: c
+    - charge: 1
+    - formula: C44H53CoN4O16
+    - annotation: !!omap
+      - chebi: CHEBI:3794
+      - kegg.compound: C11542
+      - sbo: SBO:0000247
+  - !!omap
+    - id: copre6b_c
+    - name: Cobalt-precorrin 6B
+    - compartment: c
+    - charge: 1
+    - formula: C44H55CoN4O16
+    - annotation: !!omap
+      - chebi: CHEBI:3789
+      - kegg.compound: C11543
+      - sbo: SBO:0000247
+  - !!omap
+    - id: copre8_c
+    - name: Cobalt-precorrin-8
+    - compartment: c
+    - charge: 1
+    - formula: C45H59CoN4O14
+    - annotation: !!omap
+      - chebi: CHEBI:3795
+      - kegg.compound: C11545
+      - sbo: SBO:0000247
+  - !!omap
+    - id: cobya_c
+    - name: Cobyrinate
+    - compartment: c
+    - charge: 1
+    - formula: C45H59CoN4O14
+    - annotation: !!omap
+      - ec-code:
+        - 5.4.99.60
+        - 6.3.5.11
+      - kegg.compound: C05773
       - sbo: SBO:0000247
 - reactions:
   - !!omap
@@ -39121,15 +39173,117 @@
     - id: SHCLCC
     - name: sirohydrochlorin cobaltochelatase
     - metabolites: !!omap
-      - cobalt2_c: -1
-      - copre5_c: 1
-      - h_c: 2
-      - pre5a_c: -1
-    - lower_bound: -1000
-    - upper_bound: 1000
+      - cobalt2_c: -1.0
+      - copre5a_c: 1.0
+      - h_c: 2.0
+      - pre5a_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - ec-code: 4.99.1.3
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PRE5H
+    - name: cobalt-precorrin 5A acylhydrolase
+    - metabolites: !!omap
+      - acald_c: 1
+      - copre5a_c: -1
+      - copre5b_c: 1
+      - h2o_c: -1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: CbiG
+    - annotation: !!omap
+      - ec-code: 3.7.1.12
+      - kegg.reaction: R07772
+      - rhea: '26284'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CO6AS
+    - name: cobalt-precorrin-6A synthase
+    - metabolites: !!omap
+      - ahcys_c: 1
+      - amet_c: -1
+      - copre5b_c: -1
+      - copre6a_c: 1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: CbiD
+    - annotation: !!omap
+      - ec-code: 2.1.1.195
+      - kegg.reaction: R07773
+      - rhea: '26288'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CO6AR
+    - name: precorrin-6x reductase
+    - metabolites: !!omap
+      - copre6a_c: -1
+      - copre6b_c: 1
+      - h_c: -1
+      - nad_c: 1
+      - nadh_c: -1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: CbiJ
+    - annotation: !!omap
+      - ec-code: 1.3.1.106
+      - kegg.reaction: R05812
+      - rhea: '15628'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CO6MT
+    - name: precorrin-6 methyltransferase
+    - metabolites: !!omap
+      - ahcys_c: 2
+      - amet_c: -2
+      - co2_c: 1
+      - copre6b_c: -1
+      - copre8_c: 1
+      - h_c: 2
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: CobL
+    - annotation: !!omap
+      - ec-code: 2.1.1.132
+      - kegg.reaction: R05149
+      - rhea: '17480'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CO8MM
+    - name: precorrin-8 11,12-methylmutase
+    - metabolites: !!omap
+      - cobya_c: 1
+      - copre8_c: -1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: CbiC
+    - annotation: !!omap
+      - ec-code: 5.4.99.60
+      - kegg.reaction: R05814
+      - rhea: '16212'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CO2DS
+    - name: cobyrinate a,c-diamide synthase
+    - metabolites: !!omap
+      - adp_c: 2
+      - atp_c: -2
+      - co2dam_c: 1
+      - cobya_c: -1
+      - gln__L_c: -2
+      - glu__L_c: 2
+      - h2o_c: -2
+      - h_c: 4
+      - pi_c: 2
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: CbiA
+    - annotation: !!omap
+      - ec-code: 6.3.5.11
+      - kegg.reaction: R05815
+      - rhea: '26292'
       - sbo: SBO:0000176
 - genes:
   - !!omap
@@ -42938,6 +43092,24 @@
   - !!omap
     - id: BioD
     - name: G_BioD
+  - !!omap
+    - id: CbiG
+    - name: ''
+  - !!omap
+    - id: CbiD
+    - name: ''
+  - !!omap
+    - id: CbiJ
+    - name: ''
+  - !!omap
+    - id: CobL
+    - name: ''
+  - !!omap
+    - id: CbiC
+    - name: ''
+  - !!omap
+    - id: CbiA
+    - name: ''
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
