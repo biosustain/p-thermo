@@ -22159,6 +22159,20 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_copre5_c" sboTerm="SBO:0000247" id="M_copre5_c" name="Cobalt-precorrin 5" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C45H52CoN4O16">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_copre5_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:52488"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16242"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -39731,36 +39745,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO02150"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_P6AS" sboTerm="SBO:0000176" id="R_P6AS" name="precorrin-6A synthase (deacetylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_P6AS">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.1.1.152"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R05219"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR103404"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/18261"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pre5a_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_pre6a_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ac_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO12345"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction metaid="meta_R_COCHL" sboTerm="SBO:0000176" id="R_COCHL" name="hydrogenobyrinic-acid-a,c-diamide:cobalt cobalt-ligase (ADP-forming)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -50836,6 +50820,27 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_SHCLCC" sboTerm="SBO:0000176" id="R_SHCLCC" name="sirohydrochlorin cobaltochelatase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_SHCLCC">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.99.1.3"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_pre5a_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cobalt2_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_copre5_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -52930,7 +52935,6 @@
           <groups:member groups:name="Adenosylcobalamin 5-phosphate synthase" groups:idRef="R_ADOCBLS"/>
           <groups:member groups:name="hydrogenobyrinic acid a,c-diamide synthase (glutamine-hydrolysing)" groups:idRef="R_HGBYR"/>
           <groups:member groups:name="adenosylcobyric acid synthase (glutamine-hydrolysing)" groups:idRef="R_ACDAH"/>
-          <groups:member groups:name="precorrin-6A synthase (deacetylating)" groups:idRef="R_P6AS"/>
           <groups:member groups:name="hydrogenobyrinic-acid-a,c-diamide:cobalt cobalt-ligase (ADP-forming)" groups:idRef="R_COCHL"/>
           <groups:member groups:name="cob(II)yrinic acid-a,c-diamide:FMN oxidoreductase" groups:idRef="R_CYRDAR2"/>
           <groups:member groups:name="L-glutamate:tRNA(Glu) ligase (AMP-forming)" groups:idRef="R_GLUTRS"/>
@@ -52945,6 +52949,7 @@
           <groups:member groups:name="Sirohydrochlorin ferrochelatase" groups:idRef="R_SHCHF"/>
           <groups:member groups:name="Sirohydrochlorin dehydrogenase (NAD)" groups:idRef="R_SHCHD2"/>
           <groups:member groups:name="cobalt-factor III methyltransferase" groups:idRef="R_PRE3MT"/>
+          <groups:member groups:name="sirohydrochlorin cobaltochelatase" groups:idRef="R_SHCLCC"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00900__32____45____32__Terpenoid__32__backbone__32__biosynthesis" groups:name="00900 - Terpenoid backbone biosynthesis" groups:kind="collection">

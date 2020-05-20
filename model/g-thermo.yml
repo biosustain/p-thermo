@@ -19183,6 +19183,16 @@
       - metanetx.chemical: MNXM863
       - sbo: SBO:0000247
       - seed.compound: cpd03426
+  - !!omap
+    - id: copre5_c
+    - name: Cobalt-precorrin 5
+    - compartment: c
+    - charge: 0
+    - formula: C45H52CoN4O16
+    - annotation: !!omap
+      - chebi: CHEBI:52488
+      - kegg.compound: C16242
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: IDPh
@@ -29938,26 +29948,6 @@
       - rhea: '23256'
       - sbo: SBO:0000176
   - !!omap
-    - id: P6AS
-    - name: precorrin-6A synthase (deacetylating)
-    - metabolites: !!omap
-      - ac_c: 1.0
-      - ahcys_c: 1.0
-      - amet_c: -1.0
-      - h2o_c: -1.0
-      - h_c: 2.0
-      - pre5a_c: -1.0
-      - pre6a_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO12345
-    - annotation: !!omap
-      - ec-code: 2.1.1.152
-      - kegg.reaction: R05219
-      - metanetx.reaction: MNXR103404
-      - rhea: '18261'
-      - sbo: SBO:0000176
-  - !!omap
     - id: COCHL
     - name: hydrogenobyrinic-acid-a,c-diamide:cobalt cobalt-ligase (ADP-forming)
     - metabolites: !!omap
@@ -39115,17 +39105,31 @@
     - id: PRE3MT
     - name: cobalt-factor III methyltransferase
     - metabolites: !!omap
-      - ahcys_c: 1
-      - amet_c: -1
-      - h_c: 1
-      - pre3a_c: -1
-      - pre4a_c: 1
+      - ahcys_c: 1.0
+      - amet_c: -1.0
+      - h_c: 1.0
+      - pre3a_c: -1.0
+      - pre4a_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - ec-code: 2.1.1.272
       - kegg.reaction: R11580
+      - sbo: SBO:0000176
+  - !!omap
+    - id: SHCLCC
+    - name: sirohydrochlorin cobaltochelatase
+    - metabolites: !!omap
+      - cobalt2_c: -1
+      - copre5_c: 1
+      - h_c: 2
+      - pre5a_c: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 4.99.1.3
       - sbo: SBO:0000176
 - genes:
   - !!omap
