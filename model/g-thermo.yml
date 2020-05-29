@@ -32611,82 +32611,82 @@
     - id: biomass
     - name: biomass
     - metabolites: !!omap
-      - 10fthf_c: -0.0004
+      - 10fthf_c: -0.000357142857142857
       - Biomass_c: 1.0
-      - accoa_c: -0.000279000000000001
-      - adocbl_c: -0.000223
+      - accoa_c: -0.000249107142857144
+      - adocbl_c: -0.000199107142857143
       - adp_c: 104.9974
-      - ala__L_c: -0.57588994
-      - amet_c: -0.000223
-      - amp_c: -0.133587054
-      - arg__L_c: -0.20505
-      - asn__L_c: -0.248575
-      - asp__L_c: -0.248575
+      - ala__L_c: -0.514187446428571
+      - amet_c: -0.000199107142857143
+      - amp_c: -0.119274155357143
+      - arg__L_c: -0.183080357142857
+      - asn__L_c: -0.221941964285714
+      - asp__L_c: -0.221941964285714
       - atp_c: -105.027303042
-      - bacthiolbsh_c: -6.98254e-05
-      - bacthiolbssb_c: -1.746e-07
-      - btn_c: -2e-06
-      - ca2_c: -0.00315
-      - chor_c: -0.000223000000000001
-      - clpn_c: -0.033142
-      - cmp_c: -0.102432476
-      - coa_c: -0.000168000000000001
-      - cys__L_c: -0.12081
-      - damp_c: -0.00867143
-      - dcmp_c: -0.006649117
-      - dgmp_c: -0.006649117
-      - dtmp_c: -0.00867143
-      - fad_c: -0.000223000000000001
-      - fe3_c: -0.034003042
-      - fmn_c: -0.000223
-      - fru_c: -0.117367
-      - gdp_c: 0.006411
-      - gdpmann_c: -0.006411
-      - gln__L_c: -0.360645
-      - glu__L_c: -0.360645
-      - gly_c: -0.45663
-      - gmp_c: -0.102432476
+      - bacthiolbsh_c: -6.23441071428571e-05
+      - bacthiolbssb_c: -1.55892857142857e-07
+      - btn_c: -1.78571428571429e-06
+      - ca2_c: -0.0028125
+      - chor_c: -0.000199107142857144
+      - clpn_c: -0.0295910714285714
+      - cmp_c: -0.0914575678571428
+      - coa_c: -0.000150000000000001
+      - cys__L_c: -0.107866071428571
+      - damp_c: -0.00774234821428571
+      - dcmp_c: -0.00593671160714286
+      - dgmp_c: -0.00593671160714286
+      - dtmp_c: -0.00774234821428571
+      - fad_c: -0.000199107142857144
+      - fe3_c: -0.0303598589285714
+      - fmn_c: -0.000199107142857143
+      - fru_c: -0.104791964285714
+      - gdp_c: 0.00572410714285714
+      - gdpmann_c: -0.00572410714285714
+      - gln__L_c: -0.322004464285714
+      - glu__L_c: -0.322004464285714
+      - gly_c: -0.407705357142857
+      - gmp_c: -0.0914575678571428
       - h2o_c: -104.9974
       - h_c: 104.9974
-      - hemeO_c: -0.000223
-      - his__L_c: -0.08716
-      - ile__L_c: -0.30553
-      - k_c: -0.7082
-      - leu__L_c: -0.38917
-      - lys__L_c: -0.35521
-      - met__L_c: -0.09317
-      - mg2_c: -0.098
-      - nad_c: -0.0162
-      - nadh_c: -0.029948042
-      - nadp_c: -0.0047
-      - nadph_c: -0.003
-      - pe_c: -0.032424
-      - pg_c: -0.031037
-      - phe__L_c: -0.16253
-      - pheme_c: -0.000223
+      - hemeO_c: -0.000199107142857143
+      - his__L_c: -0.0778214285714286
+      - ile__L_c: -0.272794642857143
+      - k_c: -0.632321428571429
+      - leu__L_c: -0.347473214285714
+      - lys__L_c: -0.317151785714286
+      - met__L_c: -0.0831875
+      - mg2_c: -0.0875
+      - nad_c: -0.0144642857142857
+      - nadh_c: -0.0267393232142857
+      - nadp_c: -0.00419642857142857
+      - nadph_c: -0.00267857142857143
+      - pe_c: -0.02895
+      - pg_c: -0.0277116071428571
+      - phe__L_c: -0.145116071428571
+      - pheme_c: -0.000199107142857143
       - pi_c: 104.9856
-      - ppi_c: -0.0012
-      - pro__L_c: -0.18652
-      - ptrc_c: -0.006
-      - pydx5p_c: -0.000223
-      - qh2_c: -0.000300000000000002
-      - ribflv_c: -0.000223000000000001
-      - ser__L_c: -0.20287
-      - sheme_c: -0.000223
-      - spmd_c: -0.0012
-      - sprm_c: -0.0028
-      - succoa_c: -9.80420000000023e-05
-      - thmpp_c: -0.000223000000000002
-      - thr__L_c: -0.30102
-      - trp__L_c: -0.11494
-      - tyr__L_c: -0.11603
-      - udp_c: 0.472956
-      - udparab_c: -0.045625
-      - udpg_c: -0.010725
-      - udpgal_c: -0.212236
-      - udpxyl_c: -0.20437
-      - ump_c: -0.1335870546
-      - val__L_c: -0.42128
+      - ppi_c: -0.00107142857142857
+      - pro__L_c: -0.166535714285714
+      - ptrc_c: -0.00535714285714286
+      - pydx5p_c: -0.000199107142857143
+      - qh2_c: -0.000267857142857145
+      - ribflv_c: -0.000199107142857144
+      - ser__L_c: -0.181133928571429
+      - sheme_c: -0.000199107142857143
+      - spmd_c: -0.00107142857142857
+      - sprm_c: -0.0025
+      - succoa_c: -8.7537500000002e-05
+      - thmpp_c: -0.000199107142857145
+      - thr__L_c: -0.268767857142857
+      - trp__L_c: -0.102625
+      - tyr__L_c: -0.103598214285714
+      - udp_c: 0.422282142857143
+      - udparab_c: -0.0407366071428571
+      - udpg_c: -0.00957589285714286
+      - udpgal_c: -0.189496428571429
+      - udpxyl_c: -0.182473214285714
+      - ump_c: -0.119274155892857
+      - val__L_c: -0.376142857142857
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -39174,10 +39174,10 @@
     - id: PRE5H
     - name: cobalt-precorrin 5A acylhydrolase
     - metabolites: !!omap
-      - acald_c: 1
-      - copre5a_c: -1
-      - copre5b_c: 1
-      - h2o_c: -1
+      - acald_c: 1.0
+      - copre5a_c: -1.0
+      - copre5b_c: 1.0
+      - h2o_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiG
@@ -39190,10 +39190,10 @@
     - id: CO6AS
     - name: cobalt-precorrin-6A synthase
     - metabolites: !!omap
-      - ahcys_c: 1
-      - amet_c: -1
-      - copre5b_c: -1
-      - copre6a_c: 1
+      - ahcys_c: 1.0
+      - amet_c: -1.0
+      - copre5b_c: -1.0
+      - copre6a_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiD
@@ -39206,11 +39206,11 @@
     - id: CO6AR
     - name: precorrin-6x reductase
     - metabolites: !!omap
-      - copre6a_c: -1
-      - copre6b_c: 1
-      - h_c: -1
-      - nad_c: 1
-      - nadh_c: -1
+      - copre6a_c: -1.0
+      - copre6b_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiJ
@@ -39223,12 +39223,12 @@
     - id: CO6MT
     - name: precorrin-6 methyltransferase
     - metabolites: !!omap
-      - ahcys_c: 2
-      - amet_c: -2
-      - co2_c: 1
-      - copre6b_c: -1
-      - copre8_c: 1
-      - h_c: 2
+      - ahcys_c: 2.0
+      - amet_c: -2.0
+      - co2_c: 1.0
+      - copre6b_c: -1.0
+      - copre8_c: 1.0
+      - h_c: 2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CobL
@@ -39241,8 +39241,8 @@
     - id: CO8MM
     - name: precorrin-8 11,12-methylmutase
     - metabolites: !!omap
-      - cobya_c: 1
-      - copre8_c: -1
+      - cobya_c: 1.0
+      - copre8_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiC
@@ -39255,15 +39255,15 @@
     - id: CO2DS
     - name: cobyrinate a,c-diamide synthase
     - metabolites: !!omap
-      - adp_c: 2
-      - atp_c: -2
-      - co2dam_c: 1
-      - cobya_c: -1
-      - gln__L_c: -2
-      - glu__L_c: 2
-      - h2o_c: -2
-      - h_c: 4
-      - pi_c: 2
+      - adp_c: 2.0
+      - atp_c: -2.0
+      - co2dam_c: 1.0
+      - cobya_c: -1.0
+      - gln__L_c: -2.0
+      - glu__L_c: 2.0
+      - h2o_c: -2.0
+      - h_c: 4.0
+      - pi_c: 2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiA
@@ -43081,22 +43081,22 @@
     - name: G_BioD
   - !!omap
     - id: CbiG
-    - name: ''
+    - name: G_CbiG
   - !!omap
     - id: CbiD
-    - name: ''
+    - name: G_CbiD
   - !!omap
     - id: CbiJ
-    - name: ''
+    - name: G_CbiJ
   - !!omap
     - id: CobL
-    - name: ''
+    - name: G_CobL
   - !!omap
     - id: CbiC
-    - name: ''
+    - name: G_CbiC
   - !!omap
     - id: CbiA
-    - name: ''
+    - name: G_CbiA
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
