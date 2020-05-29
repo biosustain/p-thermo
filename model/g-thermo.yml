@@ -7,7 +7,7 @@
     - charge: 0
     - formula: C8H10NO6P
     - notes: !!omap
-      - NAME: Pyridoxal 5ï¿½-phosphate; Pyridoxal phosphate; PLP; Pyridoxal 5-phosphate;
+      - NAME: Pyridoxal 5’-phosphate; Pyridoxal phosphate; PLP; Pyridoxal 5-phosphate;
     - annotation: !!omap
       - bigg.metabolite: pydx5p
       - biocyc: META:PYRIDOXAL_PHOSPHATE
@@ -692,7 +692,7 @@
     - formula: C8H14N3O7P
     - notes: !!omap
       - NAME: 1-(5-Phospho-D-ribosyl)-5-aminoimidazole; 5-Amino-1-(5-phospho-D-ribosyl)imidazole;
-          Aminoimidazole ribotide; AIR; 1-(5ï¿½-Phosphoribosyl)-5-aminoimidazole; 5ï¿½-Phosphoribosyl-5-aminoimidazole;
+          Aminoimidazole ribotide; AIR; 1-(5’-Phosphoribosyl)-5-aminoimidazole; 5’-Phosphoribosyl-5-aminoimidazole;
     - annotation: !!omap
       - bigg.metabolite: air
       - chebi:
@@ -713,7 +713,7 @@
     - charge: 0
     - formula: C9H18N5O14P3
     - notes: !!omap
-      - NAME: 2,5-Diamino-6-(5ï¿½-triphosphoryl-3ï¿½,4ï¿½-trihydroxy-2ï¿½-oxopentyl)-amino-4-oxopyrimidine
+      - NAME: 2,5-Diamino-6-(5’-triphosphoryl-3’,4’-trihydroxy-2’-oxopentyl)-amino-4-oxopyrimidine
     - annotation: !!omap
       - chebi: CHEBI:28003
       - kegg.compound: C06148
@@ -753,11 +753,11 @@
     - charge: 0
     - formula: C72H100CoN18O17P
     - notes: !!omap
-      - NAME: 5ï¿½-Deoxy-5ï¿½-adenosylcobalamin; 5,6-Dimethylbenzimidazolyl-5-deoxyadenosyl-cobamide;
-          Cobalamin coenzyme; DMBC coenzyme; Vitamin B12 coenzyme; (5ï¿½-Deoxy-5ï¿½-adenosyl)cobamide
-          coenzyme; Coenzyme B12; Funacomide; Adenosylcob(III)alamin; 5ï¿½-Deoxy-5ï¿½-adenosyl
-          vitamin B12; 5ï¿½-Deoxy-5ï¿½-adenosyl-5,6-dimethylbenzimidazolylcobamide; Calomide;
-          Deoxyadenosylcobalamin; (5,6-Dimethylbenzimidazolyl)cobamide coenzyme; 5,6-Dimethylbenzimidazolyl-Co-5ï¿½-deoxy-5ï¿½-adenosylcobamide;
+      - NAME: 5’-Deoxy-5’-adenosylcobalamin; 5,6-Dimethylbenzimidazolyl-5-deoxyadenosyl-cobamide;
+          Cobalamin coenzyme; DMBC coenzyme; Vitamin B12 coenzyme; (5’-Deoxy-5’-adenosyl)cobamide
+          coenzyme; Coenzyme B12; Funacomide; Adenosylcob(III)alamin; 5’-Deoxy-5’-adenosyl
+          vitamin B12; 5’-Deoxy-5’-adenosyl-5,6-dimethylbenzimidazolylcobamide; Calomide;
+          Deoxyadenosylcobalamin; (5,6-Dimethylbenzimidazolyl)cobamide coenzyme; 5,6-Dimethylbenzimidazolyl-Co-5’-deoxy-5’-adenosylcobamide;
           Cobamide coenzyme; Cobamamide; alpha-(5,6-Dimethylbenzimidazolyl)cobamide
           coenzyme; Dibencozide; Adenosylcobalamin;
     - annotation: !!omap
@@ -820,8 +820,8 @@
     - charge: 0
     - formula: C10H17N5O17P4
     - notes: !!omap
-      - NAME: Guanosine 5ï¿½-diphosphate,3ï¿½-diphosphate; Guanosine 3ï¿½,5ï¿½-bis(diphosphate);
-          Guanosine 3ï¿½-diphosphate 5ï¿½-diphosphate;
+      - NAME: Guanosine 5’-diphosphate,3’-diphosphate; Guanosine 3’,5’-bis(diphosphate);
+          Guanosine 3’-diphosphate 5’-diphosphate;
     - annotation: !!omap
       - bigg.metabolite: ppgpp
       - biocyc: META:GUANOSINE-5DP-3DP
@@ -1065,7 +1065,7 @@
     - charge: 0
     - formula: C9H13N2O9P
     - notes: !!omap
-      - NAME: Pseudouridine 5ï¿½-phosphate
+      - NAME: Pseudouridine 5’-phosphate
     - annotation: !!omap
       - chebi: CHEBI:18116
       - kegg.compound: C01168
@@ -2411,7 +2411,7 @@
     - charge: 0
     - formula: C14H19N2O7P
     - notes: !!omap
-      - NAME: alpha-Ribazole 5ï¿½-phosphate; N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole;
+      - NAME: alpha-Ribazole 5’-phosphate; N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole;
     - annotation: !!omap
       - chebi: CHEBI:16837
       - kegg.compound: C04778
@@ -2424,9 +2424,9 @@
     - charge: 0
     - formula: C13H19N4O12P
     - notes: !!omap
-      - NAME: 1-(5ï¿½-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole; 5ï¿½-Phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole;
+      - NAME: 1-(5’-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole; 5’-Phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole;
           (S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate;
-          SAICAR; 1-(5ï¿½-Phosphoribosyl)-4-(N-succinocarboxamide)-5-aminoimidazole;
+          SAICAR; 1-(5’-Phosphoribosyl)-4-(N-succinocarboxamide)-5-aminoimidazole;
     - annotation: !!omap
       - chebi: CHEBI:18319
       - kegg.compound: C04823
@@ -2793,10 +2793,10 @@
     - charge: -1
     - formula: C9H13N3O9P
     - notes: !!omap
-      - NAME: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate; 5ï¿½-Phosphoribosyl-5-amino-4-imidazolecarboxylate;
-          1-(5ï¿½-Phosphoribosyl)-5-amino-4-carboxyimidazole; 5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate;
-          1-(5ï¿½-Phosphoribosyl)-5-amino-4-imidazolecarboxylate; 1-(5ï¿½-Phosphoribosyl)-4-carboxy-5-aminoimidazole;
-          5ï¿½-Phosphoribosyl-4-carboxy-5-aminoimidazole;
+      - NAME: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate; 5’-Phosphoribosyl-5-amino-4-imidazolecarboxylate;
+          1-(5’-Phosphoribosyl)-5-amino-4-carboxyimidazole; 5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate;
+          1-(5’-Phosphoribosyl)-5-amino-4-imidazolecarboxylate; 1-(5’-Phosphoribosyl)-4-carboxy-5-aminoimidazole;
+          5’-Phosphoribosyl-4-carboxy-5-aminoimidazole;
     - annotation: !!omap
       - chebi: CHEBI:28413
       - kegg.compound: C04751
@@ -3004,7 +3004,7 @@
     - charge: -4
     - formula: C9H12N5O13P3
     - notes: !!omap
-      - NAME: 7,8-Dihydroneopterin 3ï¿½-triphosphate; 2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine
+      - NAME: 7,8-Dihydroneopterin 3’-triphosphate; 2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine
           triphosphate; 6-[(1S,2R)-1,2-Dihydroxy-3-triphosphooxypropyl]-7,8-dihydropterin;
           6-(L-erythro-1,2-Dihydroxypropyl 3-triphosphate)-7,8-dihydropterin;
     - annotation: !!omap
@@ -3039,8 +3039,8 @@
     - charge: -2
     - formula: C15H23N5O15P2
     - notes: !!omap
-      - NAME: N-(5ï¿½-Phosphoribosylformimino)-5-amino-1-(5ï¿½ï¿½-phosphoribosyl)-4-imidazolecarboxamide;
-          N-(5ï¿½-Phospho-D-ribosylformimino)-5-amino-1-(5ï¿½ï¿½-phospho-D-ribosyl)-4-imidazolecarboxamide;
+      - NAME: N-(5’-Phosphoribosylformimino)-5-amino-1-(5’’-phosphoribosyl)-4-imidazolecarboxamide;
+          N-(5’-Phospho-D-ribosylformimino)-5-amino-1-(5’’-phospho-D-ribosyl)-4-imidazolecarboxamide;
           Phosphoribosyl-formimino-AICAR-phosphate; 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide;
           1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide;
           1-(5-Phospho-beta-D-ribosyl)-5-[(5-phospho-beta-D-ribosylamino)methylideneamino]imidazole-4-carboxamide
@@ -3068,7 +3068,7 @@
     - formula: C15H23N5O15P2
     - notes: !!omap
       - NAME: Phosphoribulosyl-formimino-AICAR-phosphate; 5-[(5-Phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide;
-          N-(5ï¿½-Phospho-D-1ï¿½-ribulosylformimino)-5-amino-1-(5ï¿½ï¿½-phospho-D-ribosyl)-4-imidazolecarboxamide;
+          N-(5’-Phospho-D-1’-ribulosylformimino)-5-amino-1-(5’’-phospho-D-ribosyl)-4-imidazolecarboxamide;
           5-[(5-Phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide
     - annotation: !!omap
       - bigg.metabolite: prlp
@@ -3166,7 +3166,7 @@
     - charge: 0
     - formula: C10H13N5O3
     - notes: !!omap
-      - NAME: 5ï¿½-Deoxyadenosine
+      - NAME: 5’-Deoxyadenosine
     - annotation: !!omap
       - bigg.metabolite: dad_5
       - biocyc: META:CH33ADO
@@ -3855,8 +3855,8 @@
     - charge: -1
     - formula: C10H12N4O8P
     - notes: !!omap
-      - NAME: Inosine monophosphate; 5ï¿½-Inosinic acid; Inosine 5ï¿½-monophosphate; 5ï¿½-Inosinate;
-          5ï¿½-IMP; 5ï¿½-Inosine monophosphate; Inosinic acid; IMP; Inosine 5ï¿½-phosphate;
+      - NAME: Inosine monophosphate; 5’-Inosinic acid; Inosine 5’-monophosphate; 5’-Inosinate;
+          5’-IMP; 5’-Inosine monophosphate; Inosinic acid; IMP; Inosine 5’-phosphate;
     - annotation: !!omap
       - bigg.metabolite: imp
       - biocyc: META:IMP
@@ -3894,7 +3894,7 @@
     - charge: -3
     - formula: C10H13N5O12P3
     - notes: !!omap
-      - NAME: dATP; 2ï¿½-Deoxyadenosine 5ï¿½-triphosphate; Deoxyadenosine 5ï¿½-triphosphate;
+      - NAME: dATP; 2’-Deoxyadenosine 5’-triphosphate; Deoxyadenosine 5’-triphosphate;
           Deoxyadenosine triphosphate
     - annotation: !!omap
       - bigg.metabolite: datp
@@ -4320,8 +4320,8 @@
     - charge: -1
     - formula: C10H13N5O8P
     - notes: !!omap
-      - NAME: Guanosine 5ï¿½-phosphate; Guanosine monophosphate; Guanylic acid; GMP;
-          Guanosine 5ï¿½-monophosphate;
+      - NAME: Guanosine 5’-phosphate; Guanosine monophosphate; Guanylic acid; GMP;
+          Guanosine 5’-monophosphate;
     - annotation: !!omap
       - bigg.metabolite: gmp
       - biocyc: META:GMP
@@ -4971,7 +4971,7 @@
     - charge: -2
     - formula: C9H12N2O12P2
     - notes: !!omap
-      - NAME: UDP; Uridine 5ï¿½-diphosphate
+      - NAME: UDP; Uridine 5’-diphosphate
     - annotation: !!omap
       - bigg.metabolite: udp
       - biocyc: META:UDP
@@ -5058,8 +5058,8 @@
     - charge: 0
     - formula: C11H15N5O3S
     - notes: !!omap
-      - NAME: 5ï¿½-Methylthioadenosine; Methylthioadenosine; MTA; Thiomethyladenosine;
-          5-Methylthioadenosine; 5ï¿½-Deoxy-5ï¿½-(methylthio)adenosine; S-Methyl-5ï¿½-thioadenosine;
+      - NAME: 5’-Methylthioadenosine; Methylthioadenosine; MTA; Thiomethyladenosine;
+          5-Methylthioadenosine; 5’-Deoxy-5’-(methylthio)adenosine; S-Methyl-5’-thioadenosine;
     - annotation: !!omap
       - chebi: CHEBI:17509
       - kegg.compound: C00170
@@ -5137,7 +5137,7 @@
     - charge: -2
     - formula: C14H23N3O14P2
     - notes: !!omap
-      - NAME: 4-(Cytidine 5ï¿½-diphospho)-2-C-methyl-D-erythritol
+      - NAME: 4-(Cytidine 5’-diphospho)-2-C-methyl-D-erythritol
     - annotation: !!omap
       - chebi: CHEBI:16578
       - kegg.compound: C11435
@@ -5150,7 +5150,7 @@
     - charge: -3
     - formula: C14H23N3O17P3
     - notes: !!omap
-      - NAME: 2-Phospho-4-(cytidine 5ï¿½-diphospho)-2-C-methyl-D-erythritol
+      - NAME: 2-Phospho-4-(cytidine 5’-diphospho)-2-C-methyl-D-erythritol
     - annotation: !!omap
       - chebi: CHEBI:16840
       - kegg.compound: C11436
@@ -5529,7 +5529,7 @@
     - charge: -2
     - formula: C10H13N5O9P2
     - notes: !!omap
-      - NAME: dADP; 2ï¿½-Deoxyadenosine 5ï¿½-diphosphate
+      - NAME: dADP; 2’-Deoxyadenosine 5’-diphosphate
     - annotation: !!omap
       - bigg.metabolite: dadp
       - biocyc: META:DADP
@@ -6060,8 +6060,8 @@
     - charge: -2
     - formula: C10H12N5O7P
     - notes: !!omap
-      - NAME: Adenosine 5ï¿½-monophosphate; Adenylic acid; Adenylate; AMP; 5ï¿½-Adenylic
-          acid; 5ï¿½-AMP; Adenosine 5ï¿½-phosphate; 5ï¿½-Adenosine monophosphate;
+      - NAME: Adenosine 5’-monophosphate; Adenylic acid; Adenylate; AMP; 5’-Adenylic
+          acid; 5’-AMP; Adenosine 5’-phosphate; 5’-Adenosine monophosphate;
     - annotation: !!omap
       - bigg.metabolite: amp
       - biocyc:
@@ -6290,7 +6290,7 @@
     - formula: C9H13N3O7P
     - notes: !!omap
       - NAME: Deoxycytidylate; dCMP; Deoxycytidylic acid; Deoxycytidine monophosphate;
-          2ï¿½-Deoxycytidine 5ï¿½-monophosphate
+          2’-Deoxycytidine 5’-monophosphate
     - annotation: !!omap
       - bigg.metabolite: dcmp
       - biocyc: META:DCMP
@@ -7009,8 +7009,8 @@
     - charge: -3
     - formula: C10H13N5O13P3
     - notes: !!omap
-      - NAME: Deoxyguanosine triphosphate; dGTP; 2ï¿½-Deoxyguanosine 5ï¿½-triphosphate;
-          Deoxyguanosine 5ï¿½-triphosphate;
+      - NAME: Deoxyguanosine triphosphate; dGTP; 2’-Deoxyguanosine 5’-triphosphate;
+          Deoxyguanosine 5’-triphosphate;
     - annotation: !!omap
       - bigg.metabolite: dgtp
       - biocyc: META:DGTP
@@ -7461,7 +7461,7 @@
     - charge: 0
     - formula: C10H13N5O4
     - notes: !!omap
-      - NAME: Deoxyguanosine; 2ï¿½-Deoxyguanosine
+      - NAME: Deoxyguanosine; 2’-Deoxyguanosine
     - annotation: !!omap
       - bigg.metabolite: dgsn
       - biocyc: META:DEOXYGUANOSINE
@@ -7752,7 +7752,7 @@
     - charge: -1
     - formula: C10H13N5O6P
     - notes: !!omap
-      - NAME: 2ï¿½-Deoxyadenosine 5ï¿½-phosphate; dAMP; 2ï¿½-Deoxyadenosine 5ï¿½-monophosphate;
+      - NAME: 2’-Deoxyadenosine 5’-phosphate; dAMP; 2’-Deoxyadenosine 5’-monophosphate;
           Deoxyadenylic acid; Deoxyadenosine monophosphate
     - annotation: !!omap
       - bigg.metabolite: damp
@@ -7832,7 +7832,7 @@
     - charge: -2
     - formula: C10H13N5O10P2
     - notes: !!omap
-      - NAME: 2ï¿½-Deoxyguanosine 5ï¿½-diphosphate; dGDP;
+      - NAME: 2’-Deoxyguanosine 5’-diphosphate; dGDP;
     - annotation: !!omap
       - bigg.metabolite: dgdp
       - biocyc: META:DGDP
@@ -7857,8 +7857,8 @@
     - charge: -1
     - formula: C10H13N5O7P
     - notes: !!omap
-      - NAME: Deoxyguanylic acid; Deoxyguanosine monophosphate; dGMP; 2ï¿½-Deoxyguanosine
-          5ï¿½-monophosphate; 2ï¿½-Deoxyguanosine 5ï¿½-phosphate;
+      - NAME: Deoxyguanylic acid; Deoxyguanosine monophosphate; dGMP; 2’-Deoxyguanosine
+          5’-monophosphate; 2’-Deoxyguanosine 5’-phosphate;
     - annotation: !!omap
       - bigg.metabolite: dgmp
       - biocyc: META:DGMP
@@ -7890,7 +7890,7 @@
     - charge: -2
     - formula: C10H14N2O11P2
     - notes: !!omap
-      - NAME: Deoxythymidine 5ï¿½-diphosphate; dTDP;
+      - NAME: Deoxythymidine 5’-diphosphate; dTDP;
     - annotation: !!omap
       - bigg.metabolite: dtdp
       - biocyc: META:TDP
@@ -7915,8 +7915,8 @@
     - charge: -1
     - formula: C10H14N2O8P
     - notes: !!omap
-      - NAME: Thymidylic acid; Thymidylate; Deoxythymidylic acid; 5ï¿½-Thymidylic acid;
-          Thymidine monophosphate; Thymidine 5ï¿½-phosphate; Deoxythymidine 5ï¿½-phosphate;
+      - NAME: Thymidylic acid; Thymidylate; Deoxythymidylic acid; 5’-Thymidylic acid;
+          Thymidine monophosphate; Thymidine 5’-phosphate; Deoxythymidine 5’-phosphate;
           dTMP;
     - annotation: !!omap
       - bigg.metabolite: dtmp
@@ -7952,8 +7952,8 @@
     - charge: -1
     - formula: C9H12N2O8P
     - notes: !!omap
-      - NAME: Deoxyuridine 5ï¿½-phosphate; dUMP; Deoxyuridine monophosphate; 2ï¿½-Deoxyuridine
-          5ï¿½-phosphate; Deoxyuridylic acid;
+      - NAME: Deoxyuridine 5’-phosphate; dUMP; Deoxyuridine monophosphate; 2’-Deoxyuridine
+          5’-phosphate; Deoxyuridylic acid;
     - annotation: !!omap
       - bigg.metabolite: dump
       - biocyc: META:DUMP
@@ -8603,8 +8603,8 @@
     - charge: -3
     - formula: C9H13N3O13P3
     - notes: !!omap
-      - NAME: dCTP; Deoxycytidine triphosphate; 2ï¿½-Deoxycytidine 5ï¿½-triphosphate;
-          Deoxycytidine 5ï¿½-triphosphate;
+      - NAME: dCTP; Deoxycytidine triphosphate; 2’-Deoxycytidine 5’-triphosphate;
+          Deoxycytidine 5’-triphosphate;
     - annotation: !!omap
       - bigg.metabolite: dctp
       - biocyc: META:DCTP
@@ -8629,7 +8629,7 @@
     - charge: -3
     - formula: C10H14N2O14P3
     - notes: !!omap
-      - NAME: dTTP; TTP; Deoxythymidine triphosphate; Deoxythymidine 5ï¿½-triphosphate;
+      - NAME: dTTP; TTP; Deoxythymidine triphosphate; Deoxythymidine 5’-triphosphate;
     - annotation: !!omap
       - bigg.metabolite: dttp
       - biocyc: META:TTP
@@ -8655,7 +8655,7 @@
     - charge: -3
     - formula: C9H12N2O14P3
     - notes: !!omap
-      - NAME: 2ï¿½-Deoxyuridine 5ï¿½-triphosphate; dUTP;
+      - NAME: 2’-Deoxyuridine 5’-triphosphate; dUTP;
     - annotation: !!omap
       - bigg.metabolite: dutp
       - biocyc: META:DUTP
@@ -8708,7 +8708,7 @@
     - charge: -2
     - formula: C10H13N5O11P2
     - notes: !!omap
-      - NAME: Guanosine 5ï¿½-diphosphate; GDP; Guanosine diphosphate
+      - NAME: Guanosine 5’-diphosphate; GDP; Guanosine diphosphate
     - annotation: !!omap
       - bigg.metabolite: gdp
       - biocyc: META:GDP
@@ -9050,7 +9050,7 @@
     - charge: 0
     - formula: C9H12N2O5
     - notes: !!omap
-      - NAME: 2-Deoxyuridine; 2ï¿½-Deoxyuridine; Deoxyuridine;
+      - NAME: 2-Deoxyuridine; 2’-Deoxyuridine; Deoxyuridine;
     - annotation: !!omap
       - bigg.metabolite: duri
       - biocyc: META:DEOXYURIDINE
@@ -9210,7 +9210,7 @@
     - charge: 0
     - formula: C10H13N5O3
     - notes: !!omap
-      - NAME: 2ï¿½-Deoxyadenosine; Deoxyadenosine;
+      - NAME: 2’-Deoxyadenosine; Deoxyadenosine;
     - annotation: !!omap
       - bigg.metabolite: dad_2
       - biocyc: META:DEOXYADENOSINE
@@ -9625,8 +9625,8 @@
     - charge: -1
     - formula: C10H12N4O9P
     - notes: !!omap
-      - NAME: Xanthylic acid; XMP; (9-D-Ribosylxanthine)-5ï¿½-phosphate; Xanthosine
-          5ï¿½-phosphate;
+      - NAME: Xanthylic acid; XMP; (9-D-Ribosylxanthine)-5’-phosphate; Xanthosine
+          5’-phosphate;
     - annotation: !!omap
       - bigg.metabolite: xmp
       - biocyc: META:XANTHOSINE-5-PHOSPHATE
@@ -9742,7 +9742,7 @@
     - charge: -3
     - formula: C10H13N5O14P3
     - notes: !!omap
-      - NAME: GTP; Guanosine 5ï¿½-triphosphate
+      - NAME: GTP; Guanosine 5’-triphosphate
     - annotation: !!omap
       - bigg.metabolite: gtp
       - biocyc: META:GTP
@@ -9818,7 +9818,7 @@
     - charge: -1
     - formula: C12H22O14P
     - notes: !!omap
-      - NAME: alpha,alphaï¿½-Trehalose 6-phosphate; Trehalose 6-phosphate
+      - NAME: alpha,alpha’-Trehalose 6-phosphate; Trehalose 6-phosphate
     - annotation: !!omap
       - bigg.metabolite: tre6p
       - biocyc: META:TREHALOSE-6P
@@ -9923,7 +9923,7 @@
     - charge: -2
     - formula: C9H13N3O10P2
     - notes: !!omap
-      - NAME: 2ï¿½-Deoxycytidine diphosphate; dCDP; 2ï¿½-Deoxycytidine 5ï¿½-diphosphate
+      - NAME: 2’-Deoxycytidine diphosphate; dCDP; 2’-Deoxycytidine 5’-diphosphate
     - annotation: !!omap
       - bigg.metabolite: dcdp
       - biocyc: META:DCDP
@@ -9974,7 +9974,7 @@
     - charge: 4
     - formula: C10H30N4
     - notes: !!omap
-      - NAME: Spermine; N,Nï¿½-Bis(3-aminopropyl)-1,4-butanediamine
+      - NAME: Spermine; N,N’-Bis(3-aminopropyl)-1,4-butanediamine
     - annotation: !!omap
       - bigg.metabolite: sprm
       - biocyc: META:SPERMINE
@@ -10309,7 +10309,7 @@
     - charge: 0
     - formula: C9H13N3O4
     - notes: !!omap
-      - NAME: 2ï¿½-Deoxycytidine; Deoxycytidine;
+      - NAME: 2’-Deoxycytidine; Deoxycytidine;
     - annotation: !!omap
       - bigg.metabolite: dcyt
       - biocyc: META:DEOXYCYTIDINE
@@ -10336,7 +10336,7 @@
     - charge: -2
     - formula: C21H33N7O13P2S
     - notes: !!omap
-      - NAME: 3ï¿½-Dephospho-CoA; Dephospho-CoA; Dephosphocoenzyme A;
+      - NAME: 3’-Dephospho-CoA; Dephospho-CoA; Dephosphocoenzyme A;
     - annotation: !!omap
       - bigg.metabolite: dpcoa
       - biocyc: META:DEPHOSPHO-COA
@@ -10756,7 +10756,7 @@
     - charge: 0
     - formula: C12H22O11
     - notes: !!omap
-      - NAME: alpha,alpha-Trehalose; Trehalose; alpha,alphaï¿½-Trehalose;
+      - NAME: alpha,alpha-Trehalose; Trehalose; alpha,alpha’-Trehalose;
     - annotation: !!omap
       - bigg.metabolite: tre
       - biocyc:
@@ -10853,7 +10853,7 @@
     - charge: -1
     - formula: C9H13N3O8P
     - notes: !!omap
-      - NAME: Cytidine-5ï¿½-monophosphate; Cytidylic acid; CMP;
+      - NAME: Cytidine-5’-monophosphate; Cytidylic acid; CMP;
     - annotation: !!omap
       - bigg.metabolite: cmp
       - biocyc: META:CMP
@@ -10964,7 +10964,7 @@
     - charge: -2
     - formula: C10H11N2O11P
     - notes: !!omap
-      - NAME: Orotidylic acid; Orotidine 5ï¿½-phosphate;
+      - NAME: Orotidylic acid; Orotidine 5’-phosphate;
     - annotation: !!omap
       - bigg.metabolite: orot5p
       - biocyc: META:OROTIDINE-5-PHOSPHATE
@@ -11059,8 +11059,8 @@
     - charge: -1
     - formula: C11H22N2O7PS
     - notes: !!omap
-      - NAME: Phosphopantetheine; D-Pantetheine 4ï¿½-phosphate; Pantetheine 4ï¿½-phosphate;
-          4ï¿½-Phosphopantetheine;
+      - NAME: Phosphopantetheine; D-Pantetheine 4’-phosphate; Pantetheine 4’-phosphate;
+          4’-Phosphopantetheine;
     - annotation: !!omap
       - bigg.metabolite: pan4p
       - biocyc:
@@ -11101,7 +11101,7 @@
     - formula: C14H24N6O3S
     - notes: !!omap
       - NAME: (5-Deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium cation; S-Adenosyl
-          3-(methylthio)propylamine; S-Adenosylmethioninamine; S-Adenosyl-(5ï¿½)-3-methylthiopropylamine;
+          3-(methylthio)propylamine; S-Adenosylmethioninamine; S-Adenosyl-(5’)-3-methylthiopropylamine;
           (5-Deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium; Decarboxy-AdoMet
     - annotation: !!omap
       - bigg.metabolite: ametam
@@ -11478,8 +11478,8 @@
     - charge: -1
     - formula: C9H14N4O9P
     - notes: !!omap
-      - NAME: 5-Amino-6-(5ï¿½-phosphoribosylamino)uracil; 5-Amino-6-(ribosylamino)-2,4-(1H,3H)-pyrimidinedione
-          5ï¿½-phosphate; 5-Amino-6-(5-phosphoribosylamino)uracil
+      - NAME: 5-Amino-6-(5’-phosphoribosylamino)uracil; 5-Amino-6-(ribosylamino)-2,4-(1H,3H)-pyrimidinedione
+          5’-phosphate; 5-Amino-6-(5-phosphoribosylamino)uracil
     - annotation: !!omap
       - chebi: CHEBI:18337
       - kegg.compound: C01268
@@ -11554,7 +11554,7 @@
     - charge: -4
     - formula: C9H12N3O14P3
     - notes: !!omap
-      - NAME: CTP; Cytidine triphosphate; Cytidine 5ï¿½-triphosphate;
+      - NAME: CTP; Cytidine triphosphate; Cytidine 5’-triphosphate;
     - annotation: !!omap
       - bigg.metabolite: ctp
       - biocyc: META:CTP
@@ -11598,7 +11598,7 @@
     - formula: C9H15N5O8P
     - notes: !!omap
       - NAME: 2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one; 2,5-Diamino-6-(1-D-ribosylamino)pyrimidin-4(3H)-one
-          5ï¿½-phosphate
+          5’-phosphate
     - annotation: !!omap
       - chebi:
         - CHEBI:29114
@@ -11613,7 +11613,7 @@
     - charge: -2
     - formula: C9H12N2O11P2
     - notes: !!omap
-      - NAME: 2ï¿½-Deoxyuridine 5ï¿½-diphosphate; dUDP;
+      - NAME: 2’-Deoxyuridine 5’-diphosphate; dUDP;
     - annotation: !!omap
       - bigg.metabolite: dudp
       - biocyc: META:DUDP
@@ -12154,7 +12154,7 @@
     - charge: -3
     - formula: C9H12N2O15P3
     - notes: !!omap
-      - NAME: Uridine triphosphate; UTP; Uridine 5ï¿½-triphosphate;
+      - NAME: Uridine triphosphate; UTP; Uridine 5’-triphosphate;
     - annotation: !!omap
       - bigg.metabolite: utp
       - biocyc: META:UTP
@@ -12493,7 +12493,7 @@
     - charge: -3
     - formula: C10H12N4O14P3
     - notes: !!omap
-      - NAME: Inosine tripolyphosphate; Inosine 5ï¿½-triphosphate; Inosine triphosphate;
+      - NAME: Inosine tripolyphosphate; Inosine 5’-triphosphate; Inosine triphosphate;
           ITP;
     - annotation: !!omap
       - bigg.metabolite: itp
@@ -12894,7 +12894,7 @@
     - charge: -1
     - formula: C12H22O14P
     - notes: !!omap
-      - NAME: Maltose 6ï¿½-phosphate
+      - NAME: Maltose 6’-phosphate
     - annotation: !!omap
       - bigg.metabolite: malt6p
       - biocyc:
@@ -13079,7 +13079,7 @@
     - charge: -3
     - formula: C10H12N5O10P2
     - notes: !!omap
-      - NAME: ADP; Adenosine 5ï¿½-diphosphate
+      - NAME: ADP; Adenosine 5’-diphosphate
     - annotation: !!omap
       - bigg.metabolite: adp
       - biocyc: META:ADP
@@ -13400,7 +13400,7 @@
     - charge: -2
     - formula: C9H16NO8P
     - notes: !!omap
-      - NAME: D-4ï¿½-Phosphopantothenate; (R)-4ï¿½-Phosphopantothenate
+      - NAME: D-4’-Phosphopantothenate; (R)-4’-Phosphopantothenate
     - annotation: !!omap
       - chebi: CHEBI:15905
       - kegg.compound: C03492
@@ -13599,7 +13599,7 @@
     - charge: 0
     - formula: C7H15N2O8P
     - notes: !!omap
-      - NAME: N1-(5-Phospho-D-ribosyl)glycinamide; Glycinamide ribonucleotide; 5ï¿½-Phosphoribosylglycinamide;
+      - NAME: N1-(5-Phospho-D-ribosyl)glycinamide; Glycinamide ribonucleotide; 5’-Phosphoribosylglycinamide;
           GAR;
     - annotation: !!omap
       - bigg.metabolite: gar
@@ -14084,7 +14084,7 @@
     - charge: 0
     - formula: C6H9NOS
     - notes: !!omap
-      - NAME: 4-Methyl-5-(2ï¿½-hydroxyethyl)-thiazole; 5-(2-Hydroxyethyl)-4-methylthiazole;
+      - NAME: 4-Methyl-5-(2’-hydroxyethyl)-thiazole; 5-(2-Hydroxyethyl)-4-methylthiazole;
           4-Methyl-5-(2-hydroxyethyl)-thiazole
     - annotation: !!omap
       - chebi: CHEBI:17957
@@ -14098,7 +14098,7 @@
     - charge: -2
     - formula: C10H12N4O11P2
     - notes: !!omap
-      - NAME: Inosine 5ï¿½-diphosphate; Inosine diphosphate; IDP;
+      - NAME: Inosine 5’-diphosphate; Inosine diphosphate; IDP;
     - annotation: !!omap
       - bigg.metabolite: idp
       - biocyc: META:IDP
@@ -14185,7 +14185,7 @@
     - charge: -1
     - formula: C9H12N2O9P
     - notes: !!omap
-      - NAME: UMP; 5ï¿½Uridylic acid; Uridylic acid; Uridine 5ï¿½-monophosphate; Uridine
+      - NAME: UMP; 5’Uridylic acid; Uridylic acid; Uridine 5’-monophosphate; Uridine
           monophosphate;
     - annotation: !!omap
       - bigg.metabolite: ump
@@ -14220,7 +14220,7 @@
     - charge: -2
     - formula: C12H21N2O9PS
     - notes: !!omap
-      - NAME: (R)-4ï¿½-Phosphopantothenoyl-L-cysteine; N-[(R)-4ï¿½-Phosphopantothenoyl]-L-cysteine
+      - NAME: (R)-4’-Phosphopantothenoyl-L-cysteine; N-[(R)-4’-Phosphopantothenoyl]-L-cysteine
     - annotation: !!omap
       - chebi: CHEBI:15769
       - kegg.compound: C04352
@@ -14234,7 +14234,7 @@
     - formula: C8H14N2O9P
     - notes: !!omap
       - NAME: N-Formyl-GAR; N-Formylglycinamide ribonucleotide; N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide;
-          5ï¿½-Phosphoribosyl-N-formylglycinamide;
+          5’-Phosphoribosyl-N-formylglycinamide;
     - annotation: !!omap
       - bigg.metabolite: fgam
       - biocyc: META:5-P-RIBOSYL-N-FORMYLGLYCINEAMIDE
@@ -14338,8 +14338,8 @@
     - charge: -1
     - formula: C9H16N4O9P
     - notes: !!omap
-      - NAME: 5-Amino-6-(5-phospho-D-ribitylamino)uracil; 5-Amino-6-(5ï¿½-phospho-D-ribitylamino)uracil;
-          5-Amino-2,6-dioxy-4-(5ï¿½-phospho-D-ribitylamino)pyrimidine;
+      - NAME: 5-Amino-6-(5-phospho-D-ribitylamino)uracil; 5-Amino-6-(5’-phospho-D-ribitylamino)uracil;
+          5-Amino-2,6-dioxy-4-(5’-phospho-D-ribitylamino)pyrimidine;
     - annotation: !!omap
       - chebi: CHEBI:18247
       - kegg.compound: C04454
@@ -14352,7 +14352,7 @@
     - charge: -5
     - formula: C10H13N5O20P5
     - notes: !!omap
-      - NAME: Guanosine 5ï¿½-triphosphate,3ï¿½-diphosphate; Guanosine 3ï¿½-diphosphate 5ï¿½-triphosphate;
+      - NAME: Guanosine 5’-triphosphate,3’-diphosphate; Guanosine 3’-diphosphate 5’-triphosphate;
     - annotation: !!omap
       - bigg.metabolite: gdptp
       - biocyc: META:GDP-TP
@@ -14510,9 +14510,9 @@
     - charge: 0
     - formula: C8H16N3O8P
     - notes: !!omap
-      - NAME: 2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine; 5ï¿½-Phosphoribosyl-N-formylglycinamidine;
-          2-(Formamido)-N1-(5ï¿½-phosphoribosyl)acetamidine; 1-(5ï¿½-Phosphoribosyl)-N-formylglycinamidine;
-          5ï¿½-Phosphoribosylformylglycinamidine;
+      - NAME: 2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine; 5’-Phosphoribosyl-N-formylglycinamidine;
+          2-(Formamido)-N1-(5’-phosphoribosyl)acetamidine; 1-(5’-Phosphoribosyl)-N-formylglycinamidine;
+          5’-Phosphoribosylformylglycinamidine;
     - annotation: !!omap
       - bigg.metabolite: fpram
       - chebi:
@@ -14591,9 +14591,9 @@
     - charge: -1
     - formula: C9H14N4O8P
     - notes: !!omap
-      - NAME: 1-(5ï¿½-Phosphoribosyl)-5-amino-4-imidazolecarboxamide; 5ï¿½-Phospho-ribosyl-5-amino-4-imidazole
+      - NAME: 1-(5’-Phosphoribosyl)-5-amino-4-imidazolecarboxamide; 5’-Phospho-ribosyl-5-amino-4-imidazole
           carboxamide; AICAR; 5-Aminoimidazole-4-carboxamide ribotide; 5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide;
-          5ï¿½-Phosphoribosyl-5-amino-4-imidazolecarboxamide; 5-Phosphoribosyl-4-carbamoyl-5-aminoimidazole;
+          5’-Phosphoribosyl-5-amino-4-imidazolecarboxamide; 5-Phosphoribosyl-4-carbamoyl-5-aminoimidazole;
     - annotation: !!omap
       - bigg.metabolite: aicar
       - biocyc: META:AICAR
@@ -14634,7 +14634,7 @@
     - charge: -2
     - formula: C9H13N3O11P2
     - notes: !!omap
-      - NAME: Cytidine diphosphate; Cytidine 5ï¿½-diphosphate; CDP;
+      - NAME: Cytidine diphosphate; Cytidine 5’-diphosphate; CDP;
     - annotation: !!omap
       - bigg.metabolite: cdp
       - biocyc: META:CDP
@@ -14673,8 +14673,8 @@
     - charge: -1
     - formula: C10H14N4O9P
     - notes: !!omap
-      - NAME: 5ï¿½-Phosphoribosyl-5-formamido-4-imidazolecarboxamide; 5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide;
-          FAICAR; 5-Formamido-1-(5-phosphoribosyl)imidazole-4-carboxamide; 1-(5ï¿½-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide;
+      - NAME: 5’-Phosphoribosyl-5-formamido-4-imidazolecarboxamide; 5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide;
+          FAICAR; 5-Formamido-1-(5-phosphoribosyl)imidazole-4-carboxamide; 1-(5’-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide;
     - annotation: !!omap
       - bigg.metabolite: fprica
       - biocyc: META:PHOSPHORIBOSYL-FORMAMIDO-CARBOXAMIDE
@@ -15166,7 +15166,7 @@
     - charge: 0
     - formula: C8H10NO6P
     - notes: !!omap
-      - NAME: Pyridoxal 5ï¿½-phosphate; Pyridoxal phosphate; PLP; Pyridoxal 5-phosphate;
+      - NAME: Pyridoxal 5’-phosphate; Pyridoxal phosphate; PLP; Pyridoxal 5-phosphate;
     - annotation: !!omap
       - chebi: CHEBI:18405
       - kegg.compound: C00018
@@ -15363,7 +15363,7 @@
     - charge: 0
     - formula: C12H22O11
     - notes: !!omap
-      - NAME: alpha,alpha-Trehalose; Trehalose; alpha,alphaï¿½-Trehalose;
+      - NAME: alpha,alpha-Trehalose; Trehalose; alpha,alpha’-Trehalose;
     - annotation: !!omap
       - bigg.metabolite: tre
       - biocyc:
@@ -15651,7 +15651,7 @@
     - charge: -1
     - formula: C20H27N7O9PS
     - notes: !!omap
-      - NAME: Biotinyl-5ï¿½-AMP
+      - NAME: Biotinyl-5’-AMP
     - annotation: !!omap
       - chebi: CHEBI:3110
       - kegg.compound: C05921
@@ -15688,7 +15688,7 @@
     - charge: -2
     - formula: C44.14H79.28N3O15P2
     - notes: !!omap
-      - NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5ï¿½-diphosphate;
+      - NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate;
           CDP-diacylglycerol;
     - annotation: !!omap
       - chebi: CHEBI:17962
@@ -32611,82 +32611,82 @@
     - id: biomass
     - name: biomass
     - metabolites: !!omap
-      - 10fthf_c: -0.00035714285714285714
+      - 10fthf_c: -0.000357142857142857
       - Biomass_c: 1.0
-      - accoa_c: -0.0002491071428571437
-      - adocbl_c: -0.00019910714285714283
+      - accoa_c: -0.000249107142857144
+      - adocbl_c: -0.000199107142857143
       - adp_c: 104.9974
-      - ala__L_c: -0.5141874464285714
-      - amet_c: -0.00019910714285714283
-      - amp_c: -0.11927415535714285
-      - arg__L_c: -0.18308035714285714
-      - asn__L_c: -0.22194196428571425
-      - asp__L_c: -0.22194196428571425
+      - ala__L_c: -0.514187446428571
+      - amet_c: -0.000199107142857143
+      - amp_c: -0.119274155357143
+      - arg__L_c: -0.183080357142857
+      - asn__L_c: -0.221941964285714
+      - asp__L_c: -0.221941964285714
       - atp_c: -105.027303042
-      - bacthiolbsh_c: -6.234410714285714e-05
-      - bacthiolbssb_c: -1.5589285714285713e-07
-      - btn_c: -1.7857142857142855e-06
+      - bacthiolbsh_c: -6.23441071428571e-05
+      - bacthiolbssb_c: -1.55892857142857e-07
+      - btn_c: -1.78571428571429e-06
       - ca2_c: -0.0028125
-      - chor_c: -0.00019910714285714372
-      - clpn_c: -0.029591071428571425
-      - cmp_c: -0.09145756785714285
-      - coa_c: -0.00015000000000000088
-      - cys__L_c: -0.10786607142857142
-      - damp_c: -0.007742348214285715
-      - dcmp_c: -0.005936711607142857
-      - dgmp_c: -0.005936711607142857
-      - dtmp_c: -0.007742348214285715
-      - fad_c: -0.00019910714285714372
-      - fe3_c: -0.030359858928571425
-      - fmn_c: -0.00019910714285714283
-      - fru_c: -0.10479196428571427
-      - gdp_c: 0.005724107142857143
-      - gdpmann_c: -0.005724107142857143
-      - gln__L_c: -0.3220044642857143
-      - glu__L_c: -0.3220044642857143
-      - gly_c: -0.4077053571428571
-      - gmp_c: -0.09145756785714285
+      - chor_c: -0.000199107142857144
+      - clpn_c: -0.0295910714285714
+      - cmp_c: -0.0914575678571428
+      - coa_c: -0.000150000000000001
+      - cys__L_c: -0.107866071428571
+      - damp_c: -0.00774234821428571
+      - dcmp_c: -0.00593671160714286
+      - dgmp_c: -0.00593671160714286
+      - dtmp_c: -0.00774234821428571
+      - fad_c: -0.000199107142857144
+      - fe3_c: -0.0303598589285714
+      - fmn_c: -0.000199107142857143
+      - fru_c: -0.104791964285714
+      - gdp_c: 0.00572410714285714
+      - gdpmann_c: -0.00572410714285714
+      - gln__L_c: -0.322004464285714
+      - glu__L_c: -0.322004464285714
+      - gly_c: -0.407705357142857
+      - gmp_c: -0.0914575678571428
       - h2o_c: -104.9974
       - h_c: 104.9974
-      - hemeO_c: -0.00019910714285714283
-      - his__L_c: -0.07782142857142857
-      - ile__L_c: -0.27279464285714283
-      - k_c: -0.6323214285714286
-      - leu__L_c: -0.34747321428571426
-      - lys__L_c: -0.3171517857142857
+      - hemeO_c: -0.000199107142857143
+      - his__L_c: -0.0778214285714286
+      - ile__L_c: -0.272794642857143
+      - k_c: -0.632321428571429
+      - leu__L_c: -0.347473214285714
+      - lys__L_c: -0.317151785714286
       - met__L_c: -0.0831875
       - mg2_c: -0.0875
-      - nad_c: -0.014464285714285713
-      - nadh_c: -0.026739323214285713
-      - nadp_c: -0.0041964285714285714
-      - nadph_c: -0.002678571428571428
+      - nad_c: -0.0144642857142857
+      - nadh_c: -0.0267393232142857
+      - nadp_c: -0.00419642857142857
+      - nadph_c: -0.00267857142857143
       - pe_c: -0.02895
-      - pg_c: -0.02771160714285714
-      - phe__L_c: -0.1451160714285714
-      - pheme_c: -0.00019910714285714283
+      - pg_c: -0.0277116071428571
+      - phe__L_c: -0.145116071428571
+      - pheme_c: -0.000199107142857143
       - pi_c: 104.9856
-      - ppi_c: -0.0010714285714285713
-      - pro__L_c: -0.16653571428571426
-      - ptrc_c: -0.005357142857142856
-      - pydx5p_c: -0.00019910714285714283
-      - qh2_c: -0.0002678571428571446
-      - ribflv_c: -0.00019910714285714372
-      - ser__L_c: -0.18113392857142854
-      - sheme_c: -0.00019910714285714283
-      - spmd_c: -0.0010714285714285713
-      - sprm_c: -0.0024999999999999996
-      - succoa_c: -8.753750000000204e-05
-      - thmpp_c: -0.00019910714285714464
-      - thr__L_c: -0.2687678571428571
+      - ppi_c: -0.00107142857142857
+      - pro__L_c: -0.166535714285714
+      - ptrc_c: -0.00535714285714286
+      - pydx5p_c: -0.000199107142857143
+      - qh2_c: -0.000267857142857145
+      - ribflv_c: -0.000199107142857144
+      - ser__L_c: -0.181133928571429
+      - sheme_c: -0.000199107142857143
+      - spmd_c: -0.00107142857142857
+      - sprm_c: -0.0025
+      - succoa_c: -8.7537500000002e-05
+      - thmpp_c: -0.000199107142857145
+      - thr__L_c: -0.268767857142857
       - trp__L_c: -0.102625
-      - tyr__L_c: -0.10359821428571427
-      - udp_c: 0.42228214285714283
-      - udparab_c: -0.04073660714285714
-      - udpg_c: -0.009575892857142856
-      - udpgal_c: -0.18949642857142857
-      - udpxyl_c: -0.18247321428571425
-      - ump_c: -0.11927415589285714
-      - val__L_c: -0.3761428571428571
+      - tyr__L_c: -0.103598214285714
+      - udp_c: 0.422282142857143
+      - udparab_c: -0.0407366071428571
+      - udpg_c: -0.00957589285714286
+      - udpgal_c: -0.189496428571429
+      - udpxyl_c: -0.182473214285714
+      - ump_c: -0.119274155892857
+      - val__L_c: -0.376142857142857
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -33077,7 +33077,7 @@
       - sbo: SBO:0000176
   - !!omap
     - id: BTN5AMPL
-    - name: Biotinyl-5ï¿½-AMP:apo-[carboxylase] ligase (AMP-forming)
+    - name: Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)
     - metabolites: !!omap
       - amp_c: 1.0
       - b5amp_c: -1.0
@@ -33088,7 +33088,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - NAME: Biotinyl-5ï¿½-AMP:apo-[carboxylase] ligase (AMP-forming)
+      - NAME: Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)
     - annotation: !!omap
       - ec-code:
         - 6.3.4.9
@@ -39174,10 +39174,10 @@
     - id: PRE5H
     - name: cobalt-precorrin 5A acylhydrolase
     - metabolites: !!omap
-      - acald_c: 1
-      - copre5a_c: -1
-      - copre5b_c: 1
-      - h2o_c: -1
+      - acald_c: 1.0
+      - copre5a_c: -1.0
+      - copre5b_c: 1.0
+      - h2o_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiG
@@ -39190,10 +39190,10 @@
     - id: CO6AS
     - name: cobalt-precorrin-6A synthase
     - metabolites: !!omap
-      - ahcys_c: 1
-      - amet_c: -1
-      - copre5b_c: -1
-      - copre6a_c: 1
+      - ahcys_c: 1.0
+      - amet_c: -1.0
+      - copre5b_c: -1.0
+      - copre6a_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiD
@@ -39206,11 +39206,11 @@
     - id: CO6AR
     - name: precorrin-6x reductase
     - metabolites: !!omap
-      - copre6a_c: -1
-      - copre6b_c: 1
-      - h_c: -1
-      - nad_c: 1
-      - nadh_c: -1
+      - copre6a_c: -1.0
+      - copre6b_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiJ
@@ -39223,12 +39223,12 @@
     - id: CO6MT
     - name: precorrin-6 methyltransferase
     - metabolites: !!omap
-      - ahcys_c: 2
-      - amet_c: -2
-      - co2_c: 1
-      - copre6b_c: -1
-      - copre8_c: 1
-      - h_c: 2
+      - ahcys_c: 2.0
+      - amet_c: -2.0
+      - co2_c: 1.0
+      - copre6b_c: -1.0
+      - copre8_c: 1.0
+      - h_c: 2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CobL
@@ -39241,8 +39241,8 @@
     - id: CO8MM
     - name: precorrin-8 11,12-methylmutase
     - metabolites: !!omap
-      - cobya_c: 1
-      - copre8_c: -1
+      - cobya_c: 1.0
+      - copre8_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiC
@@ -39255,15 +39255,15 @@
     - id: CO2DS
     - name: cobyrinate a,c-diamide synthase
     - metabolites: !!omap
-      - adp_c: 2
-      - atp_c: -2
-      - co2dam_c: 1
-      - cobya_c: -1
-      - gln__L_c: -2
-      - glu__L_c: 2
-      - h2o_c: -2
-      - h_c: 4
-      - pi_c: 2
+      - adp_c: 2.0
+      - atp_c: -2.0
+      - co2dam_c: 1.0
+      - cobya_c: -1.0
+      - gln__L_c: -2.0
+      - glu__L_c: 2.0
+      - h2o_c: -2.0
+      - h_c: 4.0
+      - pi_c: 2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: CbiA
@@ -43081,22 +43081,22 @@
     - name: G_BioD
   - !!omap
     - id: CbiG
-    - name: ''
+    - name: G_CbiG
   - !!omap
     - id: CbiD
-    - name: ''
+    - name: G_CbiD
   - !!omap
     - id: CbiJ
-    - name: ''
+    - name: G_CbiJ
   - !!omap
     - id: CobL
-    - name: ''
+    - name: G_CobL
   - !!omap
     - id: CbiC
-    - name: ''
+    - name: G_CbiC
   - !!omap
     - id: CbiA
-    - name: ''
+    - name: G_CbiA
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
