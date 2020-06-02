@@ -42834,3 +42834,343 @@
     - name: RTMO04247
     - annotation: !!omap
       - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02406
+    - name: RTMO02406
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02907
+    - name: RTMO02907
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04006
+    - name: RTMO04006
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00344
+    - name: RTMO00344
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00381
+    - name: RTMO00381
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01029
+    - name: RTMO01029
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04007
+    - name: RTMO04007
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02927
+    - name: RTMO02927
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02388
+    - name: RTMO02388
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00339
+    - name: RTMO00339
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02155
+    - name: RTMO02155
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02158
+    - name: RTMO02158
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02157
+    - name: RTMO02157
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02160
+    - name: RTMO02160
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02153
+    - name: RTMO02153
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01031
+    - name: RTMO01031
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01030
+    - name: RTMO01030
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02151
+    - name: RTMO02151
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02150
+    - name: RTMO02150
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02776
+    - name: RTMO02776
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02775
+    - name: RTMO02775
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02970
+    - name: RTMO02970
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO05205
+    - name: RTMO05205
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04865
+    - name: RTMO04865
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO03220
+    - name: RTMO03220
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04924
+    - name: RTMO04924
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00303
+    - name: RTMO00303
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04098
+    - name: RTMO04098
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04863
+    - name: RTMO04863
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02937
+    - name: RTMO02937
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04050
+    - name: RTMO04050
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04864
+    - name: RTMO04864
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04551
+    - name: RTMO04551
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04489
+    - name: RTMO04489
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO03268
+    - name: RTMO03268
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00252
+    - name: RTMO00252
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02458
+    - name: RTMO02458
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02726
+    - name: RTMO02726
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04840
+    - name: RTMO04840
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02323
+    - name: RTMO02323
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00109
+    - name: RTMO00109
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01764
+    - name: RTMO01764
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO05004
+    - name: RTMO05004
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO05028
+    - name: RTMO05028
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04553
+    - name: RTMO04553
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01033
+    - name: RTMO01033
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01032
+    - name: RTMO01032
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04716
+    - name: RTMO04716
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04899
+    - name: RTMO04899
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01959
+    - name: RTMO01959
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO05107
+    - name: RTMO05107
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00379
+    - name: RTMO00379
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01150
+    - name: RTMO01150
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO01149
+    - name: RTMO01149
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00724
+    - name: RTMO00724
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO00097
+    - name: RTMO00097
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO03744
+    - name: RTMO03744
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO05952
+    - name: RTMO05952
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04828
+    - name: RTMO04828
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO03840
+    - name: RTMO03840
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO02554
+    - name: RTMO02554
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO04293
+    - name: RTMO04293
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: BioB
+    - name: G_BioB
+  - !!omap
+    - id: BioD
+    - name: G_BioD
+  - !!omap
+    - id: CbiG
+    - name: G_CbiG
+  - !!omap
+    - id: CbiD
+    - name: G_CbiD
+  - !!omap
+    - id: CbiJ
+    - name: G_CbiJ
+  - !!omap
+    - id: CobL
+    - name: G_CobL
+  - !!omap
+    - id: CbiC
+    - name: G_CbiC
+  - !!omap
+    - id: CbiA
+    - name: G_CbiA
+- id: GTModelBeata2015
+- name: Geobacillus thermoglucosidasius genome-scale model
+- compartments: !!omap
+  - c: cytosol
+  - e: extracellular space
+- version: '1.2'
