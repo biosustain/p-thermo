@@ -32392,8 +32392,8 @@
       - cyst__L_c: 1.0
       - h_c: 1.0
       - hcys__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
       - ec-code: 2.5.1.134
