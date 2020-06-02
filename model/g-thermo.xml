@@ -28514,10 +28514,10 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GADPH" sboTerm="SBO:0000176" id="R_GADPH" name="D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_GAPDH" sboTerm="SBO:0000176" id="R_GAPDH" name="D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_GADPH">
+            <rdf:Description rdf:about="#meta_R_GAPDH">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.13"/>
@@ -51054,6 +51054,76 @@
           <fbc:geneProductRef fbc:geneProduct="G_CbiA"/>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction metaid="meta_R_GAPD" sboTerm="SBO:0000176" id="R_GAPD" name="glyceraldehyde-3-phosphate dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_GAPD">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/GAPD"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GAPOXNPHOSPHN-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.12"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01061"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100040"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-PFA-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SPO-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CEL-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-352956"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SCE-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-ATH-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-OSA-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-352921"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DDI-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SPO-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SCE-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-HSA-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DME-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-PFA-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DRE-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-XTR-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-GGA-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-RNO-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-SSC-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-DDI-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-TGU-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-MMU-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-CFA-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-70449"/>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome.reaction/R-BTA-70482"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10303"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10300"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10302"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/10301"/>
+                  <rdf:li rdf:resource="https://identifiers.org/sabiork/7844"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00781"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_13dpg_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -51905,7 +51975,7 @@
           <groups:member groups:name="Acetaldehyde:NAD+ oxidoreductase" groups:idRef="R_ALDD2x"/>
           <groups:member groups:name="Alcohol dehydrogenase (ethanol)" groups:idRef="R_ALCD2x"/>
           <groups:member groups:name="D-glyceraldehyde-3-phosphate aldose-ketose-isomerase" groups:idRef="R_TPI"/>
-          <groups:member groups:name="D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)" groups:idRef="R_GADPH"/>
+          <groups:member groups:name="D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)" groups:idRef="R_GAPDH"/>
           <groups:member groups:name="ATP:3-phospho-D-glycerate 1-phosphotransferase" groups:idRef="R_PGK"/>
           <groups:member groups:name="D-phosphoglycerate 2,3-phosphomutase" groups:idRef="R_PGM"/>
           <groups:member groups:name="acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase" groups:idRef="R_ACENLAT"/>
@@ -52961,7 +53031,7 @@
           <groups:member groups:name="L-Aspartate:2-oxoglutarate aminotransferase" groups:idRef="R_ASPTA"/>
           <groups:member groups:name="D-glyceraldehyde-3-phosphate aldose-ketose-isomerase" groups:idRef="R_TPI"/>
           <groups:member groups:name="D-ribose-5-phosphate aldose-ketose-isomerase" groups:idRef="R_RPI"/>
-          <groups:member groups:name="D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)" groups:idRef="R_GADPH"/>
+          <groups:member groups:name="D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)" groups:idRef="R_GAPDH"/>
           <groups:member groups:name="D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)" groups:idRef="R_FBA"/>
           <groups:member groups:name="ATP:3-phospho-D-glycerate 1-phosphotransferase" groups:idRef="R_PGK"/>
           <groups:member groups:name="D-Ribulose-5-phosphate 3-epimerase" groups:idRef="R_RPE"/>
