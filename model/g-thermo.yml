@@ -23105,8 +23105,8 @@
       - nadp_c: -1.0
       - nadph_c: 1.0
       - pi_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO05021
     - annotation: !!omap
       - ec-code:
@@ -30119,8 +30119,8 @@
       - hbcoa_c: -1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: RTMO04827 or RTMO02612 or RTMO04473 or RTMO01626
     - annotation: !!omap
       - ec-code: 1.1.1.157
@@ -39276,24 +39276,20 @@
     - id: GAPD
     - name: glyceraldehyde-3-phosphate dehydrogenase
     - metabolites: !!omap
-      - 13dpg_c: 1
-      - g3p_c: -1
-      - nad_c: -1
-      - nadh_c: 1
-      - pi_c: -1
+      - 13dpg_c: 1.0
+      - g3p_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - pi_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction:
-        - GAPD
-      - biocyc:
-        - META:GAPOXNPHOSPHN-RXN
+      - bigg.reaction: GAPD
+      - biocyc: META:GAPOXNPHOSPHN-RXN
       - ec-code: 1.2.1.12
-      - kegg.reaction:
-        - R01061
-      - metanetx.reaction:
-        - MNXR100040
+      - kegg.reaction: R01061
+      - metanetx.reaction: MNXR100040
       - reactome.reaction:
         - R-ATH-70482
         - R-DME-70449
@@ -39338,11 +39334,9 @@
         - '10300'
         - '10302'
         - '10301'
-      - sabiork:
-        - '7844'
+      - sabiork: '7844'
       - sbo: SBO:0000176
-      - seed.reaction:
-        - rxn00781
+      - seed.reaction: rxn00781
 - genes:
   - !!omap
     - id: RTMO00131
