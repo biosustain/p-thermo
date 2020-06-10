@@ -22876,8 +22876,8 @@
       - nh4_c: 1.0
       - succ_c: 1.0
       - suchms_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 0
     - gene_reaction_rule: RTMO03881
     - annotation: !!omap
       - ec-code: 2.5.1.48
@@ -23097,7 +23097,7 @@
       - rhea: '18793'
       - sbo: SBO:0000176
   - !!omap
-    - id: GADPH
+    - id: GAPDH
     - name: D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)
     - metabolites: !!omap
       - 13dpg_c: 1.0
@@ -23106,7 +23106,7 @@
       - nadph_c: 1.0
       - pi_c: -1.0
     - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO05021
     - annotation: !!omap
       - ec-code:
@@ -23979,26 +23979,6 @@
       - kegg.reaction: R01287
       - metanetx.reaction: MNXR95631
       - rhea: '27822'
-      - sbo: SBO:0000176
-  - !!omap
-    - id: SHSL2
-    - name: O-succinyl-L-homoserine succinate-lyase (adding hydrogen sulfide)
-    - metabolites: !!omap
-      - h2s_c: -1.0
-      - h_c: 1.0
-      - hcys__L_c: 1.0
-      - succ_c: 1.0
-      - suchms_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO00808 or RTMO00417 or RTMO03881
-    - annotation: !!omap
-      - ec-code:
-        - 2.5.1.48
-        - 2.5.1.-
-      - kegg.reaction: R01288
-      - metanetx.reaction: MNXR104382
-      - rhea: '27826'
       - sbo: SBO:0000176
   - !!omap
     - id: RHCCE
@@ -27449,24 +27429,6 @@
       - rhea: '23744'
       - sbo: SBO:0000176
   - !!omap
-    - id: SHSL1
-    - name: O-Succinyl-L-homoserine succinate-lyase (adding cysteine)
-    - metabolites: !!omap
-      - cys__L_c: -1.0
-      - cyst__L_c: 1.0
-      - h_c: 1.0
-      - succ_c: 1.0
-      - suchms_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO03881
-    - annotation: !!omap
-      - ec-code: 2.5.1.48
-      - kegg.reaction: R03260
-      - metanetx.reaction: MNXR104380
-      - rhea: '20397'
-      - sbo: SBO:0000176
-  - !!omap
     - id: PPCDC
     - name: N-[(R)-4-Phosphopantothenoyl]-L-cysteine carboxy-lyase
     - metabolites: !!omap
@@ -30119,8 +30081,8 @@
       - hbcoa_c: -1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO04827 or RTMO02612 or RTMO04473 or RTMO01626
     - annotation: !!omap
       - ec-code: 1.1.1.157
@@ -32392,8 +32354,8 @@
       - cyst__L_c: 1.0
       - h_c: 1.0
       - hcys__L_c: -1.0
-    - lower_bound: 0
-    - upper_bound: 0
+    - lower_bound: 0.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO12345
     - annotation: !!omap
       - ec-code: 2.5.1.134
@@ -39271,6 +39233,87 @@
       - ec-code: 6.3.5.11
       - kegg.reaction: R05815
       - rhea: '26292'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: GAPD
+    - name: glyceraldehyde-3-phosphate dehydrogenase
+    - metabolites: !!omap
+      - 13dpg_c: 1.0
+      - g3p_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - pi_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - bigg.reaction: GAPD
+      - biocyc: META:GAPOXNPHOSPHN-RXN
+      - ec-code: 1.2.1.12
+      - kegg.reaction: R01061
+      - metanetx.reaction: MNXR100040
+      - reactome.reaction:
+        - R-ATH-70482
+        - R-DME-70449
+        - R-PFA-70482
+        - R-SPO-70449
+        - R-DRE-70449
+        - R-CEL-70449
+        - R-CEL-70482
+        - R-CFA-70449
+        - R-MMU-70482
+        - R-HSA-70449
+        - R-OSA-70482
+        - R-GGA-352956
+        - R-RNO-70449
+        - R-SCE-70449
+        - R-SSC-70482
+        - R-ATH-70449
+        - R-GGA-70482
+        - R-OSA-70449
+        - R-GGA-352921
+        - R-DDI-70449
+        - R-SPO-70482
+        - R-TGU-70482
+        - R-SCE-70482
+        - R-HSA-70482
+        - R-DME-70482
+        - R-PFA-70449
+        - R-XTR-70449
+        - R-DRE-70482
+        - R-XTR-70482
+        - R-GGA-70449
+        - R-RNO-70482
+        - R-SSC-70449
+        - R-DDI-70482
+        - R-TGU-70449
+        - R-MMU-70449
+        - R-CFA-70482
+        - R-BTA-70449
+        - R-BTA-70482
+      - rhea:
+        - '10303'
+        - '10300'
+        - '10302'
+        - '10301'
+      - sabiork: '7844'
+      - sbo: SBO:0000176
+      - seed.reaction: rxn00781
+  - !!omap
+    - id: HSERTA
+    - name: homoserine O-acetyltransferase
+    - metabolites: !!omap
+      - accoa_c: -1
+      - achms_c: 1
+      - coa_c: 1
+      - hom__L_c: -1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 2.3.1.31
+      - kegg.reaction: R01776
+      - rhea: '13704'
       - sbo: SBO:0000176
 - genes:
   - !!omap
