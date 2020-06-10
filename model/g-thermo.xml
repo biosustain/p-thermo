@@ -28126,7 +28126,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_SHSL4h" sboTerm="SBO:0000176" id="R_SHSL4h" name="O-Succinyl-L-homoserine succinate-lyase (deaminating" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_SHSL4h" sboTerm="SBO:0000176" id="R_SHSL4h" name="O-Succinyl-L-homoserine succinate-lyase (deaminating" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_SHSL4h">
@@ -29937,39 +29937,6 @@
           <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO00444"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO02459"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO03881"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_SHSL2" sboTerm="SBO:0000176" id="R_SHSL2" name="O-succinyl-L-homoserine succinate-lyase (adding hydrogen sulfide)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_SHSL2">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.48"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.-"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01288"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104382"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/27826"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_h2s_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_suchms_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_hcys__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00808"/>
-            <fbc:geneProductRef fbc:geneProduct="G_RTMO00417"/>
             <fbc:geneProductRef fbc:geneProduct="G_RTMO03881"/>
           </fbc:or>
         </fbc:geneProductAssociation>
@@ -35605,34 +35572,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03795"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_SHSL1" sboTerm="SBO:0000176" id="R_SHSL1" name="O-Succinyl-L-homoserine succinate-lyase (adding cysteine)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_SHSL1">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.5.1.48"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R03260"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR104380"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/20397"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_suchms_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cys__L_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_cyst__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_RTMO03881"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PPCDC" sboTerm="SBO:0000176" id="R_PPCDC" name="N-[(R)-4-Phosphopantothenoyl]-L-cysteine carboxy-lyase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51124,6 +51063,29 @@
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_HSERTA" sboTerm="SBO:0000176" id="R_HSERTA" name="homoserine O-acetyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_HSERTA">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.1.31"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01776"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/13704"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_hom__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_accoa_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_achms_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -52435,7 +52397,6 @@
           <groups:member groups:name="L-cystathionine cysteine-lyase (deaminating" groups:idRef="R_CYSTGL"/>
           <groups:member groups:name="L-cystathionine L-homocysteine-lyase (deaminating" groups:idRef="R_CYSTL"/>
           <groups:member groups:name="O-acetyl-L-homoserine acetate-lyase (adding hydrogen sulfide)" groups:idRef="R_AHHST"/>
-          <groups:member groups:name="O-succinyl-L-homoserine succinate-lyase (adding hydrogen sulfide)" groups:idRef="R_SHSL2"/>
           <groups:member groups:name="S-(5-deoxy-D-ribos-5-yl)-L-homocysteine homocysteine-lyase [(4S)-4,5-dihydroxypentan-2,3-dione-forming]" groups:idRef="R_RHCCE"/>
           <groups:member groups:name="methylthioadenosine methylthioribohydrolase" groups:idRef="R_MTAN"/>
           <groups:member groups:name="3-Phospho-D-glycerate:NAD+ 2-oxidoreductase" groups:idRef="R_PGCD"/>
@@ -52447,7 +52408,6 @@
           <groups:member groups:name="3-Mercaptolactate:NAD+ oxidoreductase" groups:idRef="R_MERCPPYROR"/>
           <groups:member groups:name="3-Mercaptopyruvate:cyanide sulfurtransferase" groups:idRef="R_MERCPPYRST"/>
           <groups:member groups:name="O-Acetyl-L-homoserine succinate-lyase (adding cysteine)" groups:idRef="R_AHSL"/>
-          <groups:member groups:name="O-Succinyl-L-homoserine succinate-lyase (adding cysteine)" groups:idRef="R_SHSL1"/>
           <groups:member groups:name="ATP:S5-methyl-5-thio-D-ribose 1-phosphotransferase" groups:idRef="R_MTRK"/>
           <groups:member groups:name="3-Phosphoserine:2-oxoglutarate aminotransferase" groups:idRef="R_PSERT"/>
           <groups:member groups:name="5-Methyltetrahydropteroyltri-L-glutamate:L-homocysteine S-methyltransferase" groups:idRef="R_MHPGLUT"/>
@@ -52458,6 +52418,7 @@
           <groups:member groups:name="1,2-dihydroxy-5-(methylthio)pent-1-en-3-one:oxygen oxidoreductase (formate-forming)" groups:idRef="R_ACDO"/>
           <groups:member groups:name="aromatic-amino-acid transaminase" groups:idRef="R_ARAT"/>
           <groups:member groups:name="O3-acetyl-L-serine:L-homocysteine S-(2-amino-2-carboxyethyl)transferase" groups:idRef="R_ACSERT"/>
+          <groups:member groups:name="homoserine O-acetyltransferase" groups:idRef="R_HSERTA"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00280__32____45____32__Valine__44____32__leucine__32__and__32__isoleucine__32__degradation" groups:name="00280 - Valine, leucine and isoleucine degradation" groups:kind="collection">
@@ -53278,7 +53239,6 @@
         <groups:listOfMembers>
           <groups:member groups:name="acetyl-CoA:L-serine O-acetyltransferase" groups:idRef="R_SERAT"/>
           <groups:member groups:name="O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase" groups:idRef="R_CYSS"/>
-          <groups:member groups:name="O-succinyl-L-homoserine succinate-lyase (adding hydrogen sulfide)" groups:idRef="R_SHSL2"/>
           <groups:member groups:name="Succinyl-CoA:L-homoserine O-succinyltransferase" groups:idRef="R_HSST"/>
           <groups:member groups:name="thiosulfate:cyanide sulfurtranserase" groups:idRef="R_CYANST"/>
           <groups:member groups:name="hydrogen-sulfide:NADP+ oxidoreductase" groups:idRef="R_SULR"/>
