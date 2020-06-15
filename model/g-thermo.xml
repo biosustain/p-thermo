@@ -51086,6 +51086,34 @@
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_LALDDH" sboTerm="SBO:0000176" id="R_LALDDH" name="Llactaldehyde dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_LALDDH">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.22"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01446"/>
+                  <rdf:li rdf:resource="https://identifiers.org/rhea/14280"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_lald__L_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lac__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_yuxG"/>
+        </fbc:geneProductAssociation>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -51863,6 +51891,7 @@
       <fbc:geneProduct fbc:id="G_CobL" fbc:name="G_CobL" fbc:label="G_CobL"/>
       <fbc:geneProduct fbc:id="G_CbiC" fbc:name="G_CbiC" fbc:label="G_CbiC"/>
       <fbc:geneProduct fbc:id="G_CbiA" fbc:name="G_CbiA" fbc:label="G_CbiA"/>
+      <fbc:geneProduct fbc:id="G_yuxG" fbc:name="G_yuxG" fbc:label="G_yuxG"/>
     </fbc:listOfGeneProducts>
     <groups:listOfGroups>
       <groups:group groups:id="G_00000__32____45____32__Exchange__32__reactions" groups:name="00000 - Exchange reactions" groups:kind="collection">

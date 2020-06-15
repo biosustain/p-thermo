@@ -22876,8 +22876,8 @@
       - nh4_c: 1.0
       - succ_c: 1.0
       - suchms_c: -1.0
-    - lower_bound: 0
-    - upper_bound: 0
+    - lower_bound: 0.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO03881
     - annotation: !!omap
       - ec-code: 2.5.1.48
@@ -39303,10 +39303,10 @@
     - id: HSERTA
     - name: homoserine O-acetyltransferase
     - metabolites: !!omap
-      - accoa_c: -1
-      - achms_c: 1
-      - coa_c: 1
-      - hom__L_c: -1
+      - accoa_c: -1.0
+      - achms_c: 1.0
+      - coa_c: 1.0
+      - hom__L_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -39314,6 +39314,24 @@
       - ec-code: 2.3.1.31
       - kegg.reaction: R01776
       - rhea: '13704'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: LALDDH
+    - name: Llactaldehyde dehydrogenase
+    - metabolites: !!omap
+      - h2o_c: -1
+      - h_c: 2
+      - lac__L_c: 1
+      - lald__L_c: -1
+      - nad_c: -1
+      - nadh_c: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: yuxG
+    - annotation: !!omap
+      - ec-code: 1.2.1.22
+      - kegg.reaction: R01446
+      - rhea: '14280'
       - sbo: SBO:0000176
 - genes:
   - !!omap
@@ -43140,6 +43158,9 @@
   - !!omap
     - id: CbiA
     - name: G_CbiA
+  - !!omap
+    - id: yuxG
+    - name: ''
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
