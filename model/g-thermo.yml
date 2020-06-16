@@ -19232,6 +19232,25 @@
         - 6.3.5.11
       - kegg.compound: C05773
       - sbo: SBO:0000247
+  - !!omap
+    - id: hql_c
+    - name: hydroxyquinol
+    - compartment: c
+    - charge: 0
+    - formula: C6H6O3
+    - annotation: !!omap
+      - chebi: CHEBI:16971
+      - kegg.compound: C02814
+      - metanetx.chemical: MNXM722
+      - sbo: SBO:0000247
+  - !!omap
+    - id: dhmsa_c
+    - name: 2,4-dihydroxymuconate semialdehyde
+    - compartment: c
+    - charge: 0
+    - formula: C6H6O5
+    - annotation: !!omap
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: IDPh
@@ -39319,19 +39338,67 @@
     - id: LALDDH
     - name: Llactaldehyde dehydrogenase
     - metabolites: !!omap
-      - h2o_c: -1
-      - h_c: 2
-      - lac__L_c: 1
-      - lald__L_c: -1
-      - nad_c: -1
-      - nadh_c: 1
-    - lower_bound: 0
-    - upper_bound: 1000
+      - h2o_c: -1.0
+      - h_c: 2.0
+      - lac__L_c: 1.0
+      - lald__L_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: yuxG
     - annotation: !!omap
       - ec-code: 1.2.1.22
       - kegg.reaction: R01446
       - rhea: '14280'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PHEHY
+    - name: Phenol hydratase
+    - metabolites: !!omap
+      - h2o_c: 1
+      - h_c: -1
+      - hql_c: 1
+      - hqn_c: -1
+      - nadp_c: 1
+      - nadph_c: -1
+      - o2_c: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.14.13.7
+      - kegg.reaction: R00815
+      - rhea: '17064'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: C23OHQL
+    - name: catechol 2,3 dioxygenase
+    - metabolites: !!omap
+      - dhmsa_c: 1
+      - hql_c: -1
+      - o2_c: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.13.11.2
+      - sbo: SBO:0000176
+  - !!omap
+    - id: HMSAH
+    - name: 2-hydroxymuconate-6-semialdehyde hydrolase
+    - metabolites: !!omap
+      - 4h2opntn_c: 1
+      - dhmsa_c: -1
+      - for_c: 1
+      - h2o_c: -1
+      - nadp_c: 1
+      - nadph_c: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 3.7.1.9
       - sbo: SBO:0000176
 - genes:
   - !!omap
@@ -43160,7 +43227,7 @@
     - name: G_CbiA
   - !!omap
     - id: yuxG
-    - name: ''
+    - name: G_yuxG
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
