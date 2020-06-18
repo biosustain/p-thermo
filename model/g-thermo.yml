@@ -19232,6 +19232,41 @@
         - 6.3.5.11
       - kegg.compound: C05773
       - sbo: SBO:0000247
+  - !!omap
+    - id: hql_c
+    - name: hydroxyquinol
+    - compartment: c
+    - charge: 0
+    - formula: C6H6O3
+    - annotation: !!omap
+      - chebi: CHEBI:16971
+      - kegg.compound: C02814
+      - metanetx.chemical: MNXM722
+      - sbo: SBO:0000247
+  - !!omap
+    - id: dhmsa_c
+    - name: 2,4-dihydroxymuconate semialdehyde
+    - compartment: c
+    - charge: 0
+    - formula: C6H6O5
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: 23dhymeph_c
+    - name: 2,3-dihydroxybenzyl alcohol
+    - compartment: c
+    - charge: 0
+    - formula: C7H8O3
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: mhmsa_c
+    - name: hydroxy-methyl-2-hydroxymuconate semialdehyde
+    - compartment: c
+    - charge: 0
+    - formula: C7H8O5
+    - annotation: !!omap
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: IDPh
@@ -22876,8 +22911,8 @@
       - nh4_c: 1.0
       - succ_c: 1.0
       - suchms_c: -1.0
-    - lower_bound: 0
-    - upper_bound: 0
+    - lower_bound: 0.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO03881
     - annotation: !!omap
       - ec-code: 2.5.1.48
@@ -39303,10 +39338,10 @@
     - id: HSERTA
     - name: homoserine O-acetyltransferase
     - metabolites: !!omap
-      - accoa_c: -1
-      - achms_c: 1
-      - coa_c: 1
-      - hom__L_c: -1
+      - accoa_c: -1.0
+      - achms_c: 1.0
+      - coa_c: 1.0
+      - hom__L_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -39314,6 +39349,119 @@
       - ec-code: 2.3.1.31
       - kegg.reaction: R01776
       - rhea: '13704'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: LALDDH
+    - name: Llactaldehyde dehydrogenase
+    - metabolites: !!omap
+      - h2o_c: -1.0
+      - h_c: 2.0
+      - lac__L_c: 1.0
+      - lald__L_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: yuxG
+    - annotation: !!omap
+      - ec-code: 1.2.1.22
+      - kegg.reaction: R01446
+      - rhea: '14280'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PHEHY
+    - name: Phenol hydratase
+    - metabolites: !!omap
+      - h2o_c: 1.0
+      - h_c: -1.0
+      - hql_c: 1.0
+      - hqn_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.14.13.7
+      - kegg.reaction: R00815
+      - rhea: '17064'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: C23OHQL
+    - name: catechol 2,3 dioxygenase
+    - metabolites: !!omap
+      - dhmsa_c: 1.0
+      - hql_c: -1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.13.11.2
+      - sbo: SBO:0000176
+  - !!omap
+    - id: HMSAH
+    - name: 2-hydroxymuconate-6-semialdehyde hydrolase
+    - metabolites: !!omap
+      - 4h2opntn_c: 1.0
+      - dhmsa_c: -1.0
+      - for_c: 1.0
+      - h2o_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 3.7.1.9
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PHEHY2
+    - name: Phenol hydratase
+    - metabolites: !!omap
+      - 23dhymeph_c: 1
+      - 2hymeph_c: -1
+      - h2o_c: 1
+      - h_c: -1
+      - nadp_c: 1
+      - nadph_c: -1
+      - o2_c: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.14.13.7
+      - kegg.reaction: R00815
+      - rhea: '17064'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: C23OSAL
+    - name: catechol 2,3 dioxygenase
+    - metabolites: !!omap
+      - 23dhymeph_c: -1
+      - mhmsa_c: 1
+      - o2_c: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.13.11.2
+      - sbo: SBO:0000176
+  - !!omap
+    - id: MHMSAH
+    - name: 2-hydroxymuconate-6-semialdehyde hydrolase
+    - metabolites: !!omap
+      - glyclt_c: 1
+      - h2o_c: -1
+      - h_c: 1
+      - mhmsa_c: -1
+      - op4en_c: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 3.7.1.9
       - sbo: SBO:0000176
 - genes:
   - !!omap
@@ -43140,6 +43288,9 @@
   - !!omap
     - id: CbiA
     - name: G_CbiA
+  - !!omap
+    - id: yuxG
+    - name: G_yuxG
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
