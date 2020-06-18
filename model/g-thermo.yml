@@ -19251,6 +19251,22 @@
     - formula: C6H6O5
     - annotation: !!omap
       - sbo: SBO:0000247
+  - !!omap
+    - id: 23dhymeph_c
+    - name: 2,3-dihydroxybenzyl alcohol
+    - compartment: c
+    - charge: 0
+    - formula: C7H8O3
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: mhmsa_c
+    - name: hydroxy-methyl-2-hydroxymuconate semialdehyde
+    - compartment: c
+    - charge: 0
+    - formula: C7H8O5
+    - annotation: !!omap
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: IDPh
@@ -39356,10 +39372,58 @@
     - id: PHEHY
     - name: Phenol hydratase
     - metabolites: !!omap
+      - h2o_c: 1.0
+      - h_c: -1.0
+      - hql_c: 1.0
+      - hqn_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.14.13.7
+      - kegg.reaction: R00815
+      - rhea: '17064'
+      - sbo: SBO:0000176
+  - !!omap
+    - id: C23OHQL
+    - name: catechol 2,3 dioxygenase
+    - metabolites: !!omap
+      - dhmsa_c: 1.0
+      - hql_c: -1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 1.13.11.2
+      - sbo: SBO:0000176
+  - !!omap
+    - id: HMSAH
+    - name: 2-hydroxymuconate-6-semialdehyde hydrolase
+    - metabolites: !!omap
+      - 4h2opntn_c: 1.0
+      - dhmsa_c: -1.0
+      - for_c: 1.0
+      - h2o_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - ec-code: 3.7.1.9
+      - sbo: SBO:0000176
+  - !!omap
+    - id: PHEHY2
+    - name: Phenol hydratase
+    - metabolites: !!omap
+      - 23dhymeph_c: 1
+      - 2hymeph_c: -1
       - h2o_c: 1
       - h_c: -1
-      - hql_c: 1
-      - hqn_c: -1
       - nadp_c: 1
       - nadph_c: -1
       - o2_c: -1
@@ -39372,11 +39436,11 @@
       - rhea: '17064'
       - sbo: SBO:0000176
   - !!omap
-    - id: C23OHQL
+    - id: C23OSAL
     - name: catechol 2,3 dioxygenase
     - metabolites: !!omap
-      - dhmsa_c: 1
-      - hql_c: -1
+      - 23dhymeph_c: -1
+      - mhmsa_c: 1
       - o2_c: -1
     - lower_bound: 0
     - upper_bound: 1000
@@ -39385,15 +39449,14 @@
       - ec-code: 1.13.11.2
       - sbo: SBO:0000176
   - !!omap
-    - id: HMSAH
+    - id: MHMSAH
     - name: 2-hydroxymuconate-6-semialdehyde hydrolase
     - metabolites: !!omap
-      - 4h2opntn_c: 1
-      - dhmsa_c: -1
-      - for_c: 1
+      - glyclt_c: 1
       - h2o_c: -1
-      - nadp_c: 1
-      - nadph_c: -1
+      - h_c: 1
+      - mhmsa_c: -1
+      - op4en_c: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: ''
