@@ -19434,8 +19434,8 @@
       - h2o_c: -1.0
       - h_c: 1.0
       - pi_c: 1.0
-    - lower_bound: 1.53
-    - upper_bound: 1000.0
+    - lower_bound: 3.141
+    - upper_bound: 1000
     - gene_reaction_rule: RTMO00197 or RTMO00196 or RTMO00193 or RTMO00194 or RTMO04075
         or RTMO00373 or RTMO03395 or RTMO02535 or RTMO04972 or RTMO03714 or RTMO00200
         or RTMO01034 or RTMO00201 or RTMO00199 or RTMO00198
@@ -39420,15 +39420,15 @@
     - id: PHEHY2
     - name: Phenol hydratase
     - metabolites: !!omap
-      - 23dhymeph_c: 1
-      - 2hymeph_c: -1
-      - h2o_c: 1
-      - h_c: -1
-      - nadp_c: 1
-      - nadph_c: -1
-      - o2_c: -1
-    - lower_bound: 0
-    - upper_bound: 1000
+      - 23dhymeph_c: 1.0
+      - 2hymeph_c: -1.0
+      - h2o_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - ec-code: 1.14.13.7
@@ -39439,11 +39439,11 @@
     - id: C23OSAL
     - name: catechol 2,3 dioxygenase
     - metabolites: !!omap
-      - 23dhymeph_c: -1
-      - mhmsa_c: 1
-      - o2_c: -1
-    - lower_bound: 0
-    - upper_bound: 1000
+      - 23dhymeph_c: -1.0
+      - mhmsa_c: 1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - ec-code: 1.13.11.2
@@ -39452,13 +39452,13 @@
     - id: MHMSAH
     - name: 2-hydroxymuconate-6-semialdehyde hydrolase
     - metabolites: !!omap
-      - glyclt_c: 1
-      - h2o_c: -1
-      - h_c: 1
-      - mhmsa_c: -1
-      - op4en_c: 1
-    - lower_bound: 0
-    - upper_bound: 1000
+      - glyclt_c: 1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - mhmsa_c: -1.0
+      - op4en_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - ec-code: 3.7.1.9
