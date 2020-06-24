@@ -43860,7 +43860,7 @@
         <listOfReactants>
           <speciesReference species="M_pydx5p_c" stoichiometry="0.000199107142857143" constant="true"/>
           <speciesReference species="M_adocbl_c" stoichiometry="0.000199107142857143" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="104.9974" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="152.28" constant="true"/>
           <speciesReference species="M_qh2_c" stoichiometry="0.000267857142857145" constant="true"/>
           <speciesReference species="M_fru_c" stoichiometry="0.104791964285714" constant="true"/>
           <speciesReference species="M_gdpmann_c" stoichiometry="0.00572410714285714" constant="true"/>
@@ -43883,7 +43883,7 @@
           <speciesReference species="M_amp_c" stoichiometry="0.119274155357143" constant="true"/>
           <speciesReference species="M_10fthf_c" stoichiometry="0.000357142857142857" constant="true"/>
           <speciesReference species="M_dcmp_c" stoichiometry="0.00593671160714286" constant="true"/>
-          <speciesReference species="M_atp_c" stoichiometry="105.027303042" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="152.309903042" constant="true"/>
           <speciesReference species="M_chor_c" stoichiometry="0.000199107142857144" constant="true"/>
           <speciesReference species="M_ribflv_c" stoichiometry="0.000199107142857144" constant="true"/>
           <speciesReference species="M_accoa_c" stoichiometry="0.000249107142857144" constant="true"/>
@@ -43932,9 +43932,9 @@
         <listOfProducts>
           <speciesReference species="M_udp_c" stoichiometry="0.422282142857143" constant="true"/>
           <speciesReference species="M_gdp_c" stoichiometry="0.00572410714285714" constant="true"/>
-          <speciesReference species="M_h_c" stoichiometry="104.9974" constant="true"/>
-          <speciesReference species="M_adp_c" stoichiometry="104.9974" constant="true"/>
-          <speciesReference species="M_pi_c" stoichiometry="104.9856" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="152.28" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="152.28" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="152.2682" constant="true"/>
           <speciesReference species="M_Biomass_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
@@ -43948,7 +43948,7 @@
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_glc__D_e" sboTerm="SBO:0000627" id="R_EX_glc__D_e" name="C00029 exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_glc__D_e_lower_bound" fbc:upperFluxBound="cobra_0_bound">
+      <reaction metaid="meta_R_EX_glc__D_e" sboTerm="SBO:0000627" id="R_EX_glc__D_e" name="C00029 exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_glc__D_e_lower_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_glc__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
