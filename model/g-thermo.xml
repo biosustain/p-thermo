@@ -92,7 +92,7 @@
       <species metaid="meta_M_ps_c" sboTerm="SBO:0000247" id="M_ps_c" name="Phosphatidylserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C38.14H74.28NO10P</p>
+            <p>FORMULA: C38.14H74.28NO10P</p>
             <p>NAME: L-1-Phosphatidylserine; 1,2-Diacyl-sn-glycerol 3-phospho-L-serine; O3-Phosphatidyl-L-serine; Phosphatidylserine; Phosphatidyl-L-serine; 3-O-sn-Phosphatidyl-L-serine;</p>
           </html>
         </notes>
@@ -19069,7 +19069,7 @@
       <species metaid="meta_M_pa_c" sboTerm="SBO:0000247" id="M_pa_c" name="Phosphatidate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C35.14H69.28O8P</p>
+            <p>FORMULA: C35.14H69.28O8P</p>
             <p>NAME: Phosphatidic acid; 3-sn-Phosphatidate; Phosphatidate; 1,2-Diacyl-sn-glycerol 3-phosphate;</p>
           </html>
         </notes>
@@ -19089,7 +19089,7 @@
       <species metaid="meta_M_cdpdag_c" sboTerm="SBO:0000247" id="M_cdpdag_c" name="CDP-1,2-diacylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C44.14H79.28N3O15P2</p>
+            <p>FORMULA: C44.14H79.28N3O15P2</p>
             <p>NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate; CDP-diacylglycerol;</p>
           </html>
         </notes>
@@ -19246,7 +19246,7 @@
       <species metaid="meta_M_aglyc3p_c" sboTerm="SBO:0000247" id="M_aglyc3p_c" name="1-Acyl-sn-glycerol 3-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C19.07H38.14O7P</p>
+            <p>FORMULA: C19.07H38.14O7P</p>
           </html>
         </notes>
         <annotation>
@@ -21620,7 +21620,7 @@
       <species metaid="meta_M_pg_c" sboTerm="SBO:0000247" id="M_pg_c" name="Phosphatidylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C38.14H75.28O10P</p>
+            <p>FORMULA: C38.14H75.28O10P</p>
           </html>
         </notes>
         <annotation>
@@ -21639,7 +21639,7 @@
       <species metaid="meta_M_pgp_c" sboTerm="SBO:0000247" id="M_pgp_c" name="Phosphatidylglycerophosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C38.14H76.28O13P2</p>
+            <p>FORMULA: C38.14H76.28O13P2</p>
           </html>
         </notes>
         <annotation>
@@ -21658,7 +21658,7 @@
       <species metaid="meta_M_pe_c" sboTerm="SBO:0000247" id="M_pe_c" name="Phosphatidylethanolamine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C37.14H74.28NO8P</p>
+            <p>FORMULA: C37.14H74.28NO8P</p>
           </html>
         </notes>
         <annotation>
@@ -21677,7 +21677,7 @@
       <species metaid="meta_M_clpn_c" sboTerm="SBO:0000247" id="M_clpn_c" name="Cardiolipin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C73.28H142.56O17P2</p>
+            <p>FORMULA: C73.28H142.56O17P2</p>
             <p>NOTES: Cardiolipin; Diphosphatidylglycerol; 1,3-Bis(1,2-diacyl-sn-glycero-3-phospho)-sn-glycerol</p>
           </html>
         </notes>
@@ -21825,14 +21825,14 @@
       <species metaid="meta_M_acylACP_c" sboTerm="SBO:0000247" id="M_acylACP_c" name="Generic Acyl-ACP fatty acid" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C27.07H51.14O8N2PRS</p>
+            <p>FORMULA: C27.07H51.14O8N2PRS</p>
           </html>
         </notes>
       </species>
       <species metaid="meta_M_acylcoa_c" sboTerm="SBO:0000247" id="M_acylcoa_c" name="Generic Acyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C37.07H63.14O17N7P3S</p>
+            <p>FORMULA: C37.07H63.14O17N7P3S</p>
           </html>
         </notes>
       </species>
@@ -22278,15 +22278,15 @@
       <species metaid="meta_M_dhmsa_c" sboTerm="SBO:0000247" id="M_dhmsa_c" name="2,4-dihydroxymuconate semialdehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H6O5"/>
       <species metaid="meta_M_23dhymeph_c" sboTerm="SBO:0000247" id="M_23dhymeph_c" name="2,3-dihydroxybenzyl alcohol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H8O3"/>
       <species metaid="meta_M_mhmsa_c" sboTerm="SBO:0000247" id="M_mhmsa_c" name="hydroxy-methyl-2-hydroxymuconate semialdehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H8O5"/>
-      <species metaid="meta_M_EXurea_e" sboTerm="SBO:0000247" id="M_EXurea_e" name="Urea" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula=" CH4N2O">
+      <species metaid="meta_M_urea_e" sboTerm="SBO:0000247" id="M_urea_e" name="Urea" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula=" CH4N2O">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ChEBIID:CHEBI: 46379</p>
+            <p>ChEBIID: CHEBI: 46379</p>
           </html>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_EXurea_e">
+            <rdf:Description rdf:about="#meta_M_urea_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00086"/>
@@ -43930,7 +43930,7 @@
           <speciesReference species="M_val__L_c" stoichiometry="0.376142857142857" constant="true"/>
           <speciesReference species="M_thr__L_c" stoichiometry="0.268767857142857" constant="true"/>
           <speciesReference species="M_phe__L_c" stoichiometry="0.145116071428571" constant="true"/>
-          <speciesReference species="M_succoa_c" stoichiometry="8.7537500000002e-005" constant="true"/>
+          <speciesReference species="M_succoa_c" stoichiometry="8.7537500000002e-05" constant="true"/>
           <speciesReference species="M_fe3_c" stoichiometry="0.0303598589285714" constant="true"/>
           <speciesReference species="M_hemeO_c" stoichiometry="0.000199107142857143" constant="true"/>
           <speciesReference species="M_amet_c" stoichiometry="0.000199107142857143" constant="true"/>
@@ -43970,14 +43970,14 @@
           <speciesReference species="M_tyr__L_c" stoichiometry="0.103598214285714" constant="true"/>
           <speciesReference species="M_cys__L_c" stoichiometry="0.107866071428571" constant="true"/>
           <speciesReference species="M_ump_c" stoichiometry="0.119274155892857" constant="true"/>
-          <speciesReference species="M_btn_c" stoichiometry="1.78571428571429e-006" constant="true"/>
+          <speciesReference species="M_btn_c" stoichiometry="1.78571428571429e-06" constant="true"/>
           <speciesReference species="M_k_c" stoichiometry="0.632321428571429" constant="true"/>
           <speciesReference species="M_mg2_c" stoichiometry="0.0875" constant="true"/>
           <speciesReference species="M_ca2_c" stoichiometry="0.0028125" constant="true"/>
           <speciesReference species="M_udparab_c" stoichiometry="0.0407366071428571" constant="true"/>
           <speciesReference species="M_udpxyl_c" stoichiometry="0.182473214285714" constant="true"/>
-          <speciesReference species="M_bacthiolbsh_c" stoichiometry="6.23441071428571e-005" constant="true"/>
-          <speciesReference species="M_bacthiolbssb_c" stoichiometry="1.55892857142857e-007" constant="true"/>
+          <speciesReference species="M_bacthiolbsh_c" stoichiometry="6.23441071428571e-05" constant="true"/>
+          <speciesReference species="M_bacthiolbssb_c" stoichiometry="1.55892857142857e-07" constant="true"/>
           <speciesReference species="M_pg_c" stoichiometry="0.0277116071428571" constant="true"/>
           <speciesReference species="M_pe_c" stoichiometry="0.02895" constant="true"/>
           <speciesReference species="M_clpn_c" stoichiometry="0.0295910714285714" constant="true"/>
@@ -48924,7 +48924,7 @@
       <reaction metaid="meta_R_OIVD3" sboTerm="SBO:0000176" id="R_OIVD3" name="2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxopentanoate)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>ECNumbers:1.2.1.25; 1.2.1</p>
+            <p>ECNumbers: 1.2.1.25; 1.2.1</p>
           </html>
         </notes>
         <annotation>
@@ -51327,13 +51327,22 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_UREA2tabc" sboTerm="SBO:0000655" id="R_UREA2tabc" name="UREA2tabc" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-         <annotation>
+      <reaction metaid="meta_R_UREA2tabc" sboTerm="SBO:0000655" id="R_UREA2tabc" name="Transport of urea via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>gene: ( BCV53_11240 CDS urea ABC transporter permease subunit UrtB or BCV53_11245 CDS urea ABC transporter permease subunit UrtC or BCV53_11250 CDS urea ABC transporter ATP-binding protein UrtD or BCV53_11255 CDS urea ABC transporter ATP-binding subunit UrtE )</p>
+          </html>
+        </notes>
+        <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_UREA2tabc">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11959 K11960 K11961 K11962 K11963"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11959"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11960"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11961"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11962"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11963"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -51342,7 +51351,7 @@
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_EXurea_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_urea_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
@@ -51350,18 +51359,10 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="BCV53_11240 CDS urea ABC transporter permease subunit UrtB"/>
-            <fbc:geneProductRef fbc:geneProduct="BCV53_11245 CDS urea ABC transporter permease subunit UrtC"/>
-            <fbc:geneProductRef fbc:geneProduct="BCV53_11250 CDS urea ABC transporter ATP-binding protein UrtD"/>
-            <fbc:geneProductRef fbc:geneProduct="BCV53_11255 CDS urea ABC transporter ATP-binding subunit UrtE"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_EX_EXurea__91__e__93__" sboTerm="SBO:0000627" id="R_EX_EXurea__91__e__93__" name="Urea Exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_urea_e" sboTerm="SBO:0000627" id="R_EX_urea_e" name="Urea Exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
-          <speciesReference species="M_EXurea_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_urea_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
     </listOfReactions>
@@ -52142,6 +52143,22 @@
       <fbc:geneProduct metaid="meta_G_CbiC" sboTerm="SBO:0000243" fbc:id="G_CbiC" fbc:name="G_CbiC" fbc:label="G_CbiC"/>
       <fbc:geneProduct metaid="meta_G_CbiA" sboTerm="SBO:0000243" fbc:id="G_CbiA" fbc:name="G_CbiA" fbc:label="G_CbiA"/>
       <fbc:geneProduct metaid="meta_G_yuxG" sboTerm="SBO:0000243" fbc:id="G_yuxG" fbc:name="G_yuxG" fbc:label="G_yuxG"/>
+      <fbc:geneProduct fbc:id="G_BCV53_11240" fbc:name="G_BCV53_11240" fbc:label="G_BCV53_11240"/>
+      <fbc:geneProduct fbc:id="G_urea" fbc:name="G_urea" fbc:label="G_urea"/>
+      <fbc:geneProduct fbc:id="G_BCV53_11245" fbc:name="G_BCV53_11245" fbc:label="G_BCV53_11245"/>
+      <fbc:geneProduct fbc:id="G_permease" fbc:name="G_permease" fbc:label="G_permease"/>
+      <fbc:geneProduct fbc:id="G_ABC" fbc:name="G_ABC" fbc:label="G_ABC"/>
+      <fbc:geneProduct fbc:id="G_ATP__45__binding" fbc:name="G_ATP__45__binding" fbc:label="G_ATP__45__binding"/>
+      <fbc:geneProduct fbc:id="G_UrtD" fbc:name="G_UrtD" fbc:label="G_UrtD"/>
+      <fbc:geneProduct fbc:id="G_UrtC" fbc:name="G_UrtC" fbc:label="G_UrtC"/>
+      <fbc:geneProduct fbc:id="G_protein" fbc:name="G_protein" fbc:label="G_protein"/>
+      <fbc:geneProduct fbc:id="G_subunit" fbc:name="G_subunit" fbc:label="G_subunit"/>
+      <fbc:geneProduct fbc:id="G_transporter" fbc:name="G_transporter" fbc:label="G_transporter"/>
+      <fbc:geneProduct fbc:id="G_CDS" fbc:name="G_CDS" fbc:label="G_CDS"/>
+      <fbc:geneProduct fbc:id="G_UrtB" fbc:name="G_UrtB" fbc:label="G_UrtB"/>
+      <fbc:geneProduct fbc:id="G_BCV53_11250" fbc:name="G_BCV53_11250" fbc:label="G_BCV53_11250"/>
+      <fbc:geneProduct fbc:id="G_UrtE" fbc:name="G_UrtE" fbc:label="G_UrtE"/>
+      <fbc:geneProduct fbc:id="G_BCV53_11255" fbc:name="G_BCV53_11255" fbc:label="G_BCV53_11255"/>
     </fbc:listOfGeneProducts>
     <groups:listOfGroups>
       <groups:group groups:id="G_00000__32____45____32__Exchange__32__reactions" groups:name="00000 - Exchange reactions" groups:kind="collection">
@@ -52203,7 +52220,7 @@
           <groups:member groups:name="Methaneselenol exchange" groups:idRef="R_EX_mesel_e"/>
           <groups:member groups:name="Methylselenic acid exchange" groups:idRef="R_EX_methylseac_e"/>
           <groups:member groups:name="Isomaltose exchange" groups:idRef="R_EX_isomal_e"/>
-          <groups:member groups:name="Urea Exchange" groups:idRef="R_EX_EXurea__91__e__93__"/>
+          <groups:member groups:name="Urea Exchange" groups:idRef="R_EX_urea_e"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_00010__32____45____32__Glycolysis__32____47____32__Gluconeogenesis" groups:name="00010 - Glycolysis / Gluconeogenesis" groups:kind="collection">
@@ -53600,7 +53617,7 @@
           <groups:member groups:name="Transport of Matlose via ABC" groups:idRef="R_MALTtabc"/>
           <groups:member groups:name="Transport of Selenate via ABC transport" groups:idRef="R_SELtabc"/>
           <groups:member groups:name="Transport of Isomaltose via ABC transports" groups:idRef="R_ISOMALtabc"/>
-          <groups:member groups:name="UREA2tabc" groups:idRef="R_UREA2tabc"/>
+          <groups:member groups:name="Transport of urea via ABC" groups:idRef="R_UREA2tabc"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_02060__32____45____32__Phosphotransferase__32__system__32____40__PTS__41__" groups:name="02060 - Phosphotransferase system (PTS)" groups:kind="collection">
