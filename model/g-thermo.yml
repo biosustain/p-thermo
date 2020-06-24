@@ -61,8 +61,9 @@
     - name: Phosphatidylserine
     - compartment: c
     - charge: 0
-    - formula: C38.14H74.28NO10P
+    - formula: ''
     - notes: !!omap
+      - FORMULA: C38.14H74.28NO10P
       - NAME: L-1-Phosphatidylserine; 1,2-Diacyl-sn-glycerol 3-phospho-L-serine; O3-Phosphatidyl-L-serine;
           Phosphatidylserine; Phosphatidyl-L-serine; 3-O-sn-Phosphatidyl-L-serine;
     - annotation: !!omap
@@ -15673,8 +15674,9 @@
     - name: Phosphatidate
     - compartment: c
     - charge: 0
-    - formula: C35.14H69.28O8P
+    - formula: ''
     - notes: !!omap
+      - FORMULA: C35.14H69.28O8P
       - NAME: Phosphatidic acid; 3-sn-Phosphatidate; Phosphatidate; 1,2-Diacyl-sn-glycerol
           3-phosphate;
     - annotation: !!omap
@@ -15686,8 +15688,9 @@
     - name: CDP-1,2-diacylglycerol
     - compartment: c
     - charge: -2
-    - formula: C44.14H79.28N3O15P2
+    - formula: ''
     - notes: !!omap
+      - FORMULA: C44.14H79.28N3O15P2
       - NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate;
           CDP-diacylglycerol;
     - annotation: !!omap
@@ -15794,7 +15797,9 @@
     - name: 1-Acyl-sn-glycerol 3-phosphate
     - compartment: c
     - charge: -1
-    - formula: C19.07H38.14O7P
+    - formula: ''
+    - notes: !!omap
+      - FORMULA: C19.07H38.14O7P
     - annotation: !!omap
       - kegg.compound: C00681
       - sbo: SBO:0000247
@@ -17989,7 +17994,9 @@
     - name: Phosphatidylglycerol
     - compartment: c
     - charge: 0
-    - formula: C38.14H75.28O10P
+    - formula: ''
+    - notes: !!omap
+      - FORMULA: C38.14H75.28O10P
     - annotation: !!omap
       - chebi: CHEBI:17517
       - kegg.compound: C00344
@@ -17999,7 +18006,9 @@
     - name: Phosphatidylglycerophosphate
     - compartment: c
     - charge: 0
-    - formula: C38.14H76.28O13P2
+    - formula: ''
+    - notes: !!omap
+      - FORMULA: C38.14H76.28O13P2
     - annotation: !!omap
       - chebi: CHEBI:37393
       - kegg.compound: C03892
@@ -18009,7 +18018,9 @@
     - name: Phosphatidylethanolamine
     - compartment: c
     - charge: 0
-    - formula: C37.14H74.28NO8P
+    - formula: ''
+    - notes: !!omap
+      - FORMULA: C37.14H74.28NO8P
     - annotation: !!omap
       - chebi: CHEBI:16038
       - kegg.compound: C00350
@@ -18019,8 +18030,9 @@
     - name: Cardiolipin
     - compartment: c
     - charge: 0
-    - formula: C73.28H142.56O17P2
+    - formula: ''
     - notes: !!omap
+      - FORMULA: C73.28H142.56O17P2
       - NOTES: Cardiolipin; Diphosphatidylglycerol; 1,3-Bis(1,2-diacyl-sn-glycero-3-phospho)-sn-glycerol
     - annotation: !!omap
       - chebi: CHEBI:28494
@@ -18865,7 +18877,9 @@
     - name: Generic Acyl-ACP fatty acid
     - compartment: c
     - charge: -1
-    - formula: C27.07H51.14O8N2PRS
+    - formula: ''
+    - notes: !!omap
+      - FORMULA: C27.07H51.14O8N2PRS
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
@@ -18873,7 +18887,9 @@
     - name: Generic Acyl-CoA
     - compartment: c
     - charge: -3
-    - formula: C37.07H63.14O17N7P3S
+    - formula: ''
+    - notes: !!omap
+      - FORMULA: C37.07H63.14O17N7P3S
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
@@ -19266,6 +19282,17 @@
     - charge: 0
     - formula: C7H8O5
     - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: urea_e
+    - name: Urea
+    - compartment: e
+    - charge: 0
+    - formula: ' CH4N2O'
+    - notes: !!omap
+      - ChEBIID: 'CHEBI: 46379'
+    - annotation: !!omap
+      - kegg.compound: C00086
       - sbo: SBO:0000247
 - reactions:
   - !!omap
@@ -37304,12 +37331,12 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
+    - notes: !!omap
+      - ECNumbers: 1.2.1.25; 1.2.1
     - annotation: !!omap
       - bigg.reaction: OIVD3
       - biocyc: META:2KETO-3METHYLVALERATE-RXN
-      - ec-code:
-        - 1.2.1.25
-        - 1.2.1
+      - ec-code: 1.2.1.25
       - metanetx.reaction: MNXR102174
       - rhea:
         - '30907'
@@ -38635,6 +38662,8 @@
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000176
   - !!omap
     - id: PPA2
     - name: Inorganic triphosphatase
@@ -38675,6 +38704,8 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000185
   - !!omap
     - id: GLYBt
     - name: Glycine betaine transport via proton antiport
@@ -39420,15 +39451,15 @@
     - id: PHEHY2
     - name: Phenol hydratase
     - metabolites: !!omap
-      - 23dhymeph_c: 1
-      - 2hymeph_c: -1
-      - h2o_c: 1
-      - h_c: -1
-      - nadp_c: 1
-      - nadph_c: -1
-      - o2_c: -1
-    - lower_bound: 0
-    - upper_bound: 1000
+      - 23dhymeph_c: 1.0
+      - 2hymeph_c: -1.0
+      - h2o_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - ec-code: 1.14.13.7
@@ -39439,11 +39470,11 @@
     - id: C23OSAL
     - name: catechol 2,3 dioxygenase
     - metabolites: !!omap
-      - 23dhymeph_c: -1
-      - mhmsa_c: 1
-      - o2_c: -1
-    - lower_bound: 0
-    - upper_bound: 1000
+      - 23dhymeph_c: -1.0
+      - mhmsa_c: 1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - ec-code: 1.13.11.2
@@ -39452,17 +39483,54 @@
     - id: MHMSAH
     - name: 2-hydroxymuconate-6-semialdehyde hydrolase
     - metabolites: !!omap
-      - glyclt_c: 1
-      - h2o_c: -1
-      - h_c: 1
-      - mhmsa_c: -1
-      - op4en_c: 1
-    - lower_bound: 0
-    - upper_bound: 1000
+      - glyclt_c: 1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - mhmsa_c: -1.0
+      - op4en_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - ec-code: 3.7.1.9
       - sbo: SBO:0000176
+  - !!omap
+    - id: UREA2tabc
+    - name: Transport of urea via ABC
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - pi_c: 1.0
+      - urea_c: 1.0
+      - urea_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - notes: !!omap
+      - gene: ( BCV53_11240 CDS urea ABC transporter permease subunit UrtB or BCV53_11245
+          CDS urea ABC transporter permease subunit UrtC or BCV53_11250 CDS urea ABC
+          transporter ATP-binding protein UrtD or BCV53_11255 CDS urea ABC transporter
+          ATP-binding subunit UrtE )
+    - annotation: !!omap
+      - kegg.reaction:
+        - K11959
+        - K11960
+        - K11961
+        - K11962
+        - K11963
+      - sbo: SBO:0000655
+  - !!omap
+    - id: EX_urea_e
+    - name: Urea Exchange
+    - metabolites: !!omap
+      - urea_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000627
 - genes:
   - !!omap
     - id: RTMO00131
@@ -43267,30 +43335,96 @@
   - !!omap
     - id: BioB
     - name: G_BioB
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: BioD
     - name: G_BioD
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: CbiG
     - name: G_CbiG
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: CbiD
     - name: G_CbiD
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: CbiJ
     - name: G_CbiJ
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: CobL
     - name: G_CobL
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: CbiC
     - name: G_CbiC
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: CbiA
     - name: G_CbiA
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: yuxG
     - name: G_yuxG
+    - annotation: !!omap
+      - sbo: SBO:0000243
+  - !!omap
+    - id: BCV53_11240
+    - name: ''
+  - !!omap
+    - id: urea
+    - name: ''
+  - !!omap
+    - id: BCV53_11245
+    - name: ''
+  - !!omap
+    - id: permease
+    - name: ''
+  - !!omap
+    - id: ABC
+    - name: ''
+  - !!omap
+    - id: ATP-binding
+    - name: ''
+  - !!omap
+    - id: UrtD
+    - name: ''
+  - !!omap
+    - id: UrtC
+    - name: ''
+  - !!omap
+    - id: protein
+    - name: ''
+  - !!omap
+    - id: subunit
+    - name: ''
+  - !!omap
+    - id: transporter
+    - name: ''
+  - !!omap
+    - id: CDS
+    - name: ''
+  - !!omap
+    - id: UrtB
+    - name: ''
+  - !!omap
+    - id: BCV53_11250
+    - name: ''
+  - !!omap
+    - id: UrtE
+    - name: ''
+  - !!omap
+    - id: BCV53_11255
+    - name: ''
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
