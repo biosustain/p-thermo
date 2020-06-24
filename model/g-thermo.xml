@@ -31411,7 +31411,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RTMO03797"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_LARGNAT" sboTerm="SBO:0000176" id="R_LARGNAT" name="L-arogenate:2-oxoglutarate aminotransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_LARGNAT" sboTerm="SBO:0000176" id="R_LARGNAT" name="L-arogenate:2-oxoglutarate aminotransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_LARGNAT">
@@ -44237,7 +44237,7 @@
           <speciesReference species="M_ascp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_LPROQOR" sboTerm="SBO:0000176" id="R_LPROQOR" name="L-proline:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_LPROQOR" sboTerm="SBO:0000176" id="R_LPROQOR" name="L-proline:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>NAME: L-proline:quinone oxidoreductase</p>
