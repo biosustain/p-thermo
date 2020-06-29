@@ -24931,7 +24931,7 @@
       - oaa_c: 1.0
       - pphn_c: -1.0
     - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO03134 or RTMO00859
     - annotation: !!omap
       - ec-code: 2.6.1.78
@@ -33066,7 +33066,7 @@
       - pyr5c_c: 1.0
       - qh2_c: 1.0
     - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: ''
     - notes: !!omap
       - NAME: L-proline:quinone oxidoreductase
@@ -35953,8 +35953,8 @@
     - name: L-Cysteine exchange
     - metabolites: !!omap
       - cys__L_e: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -36026,8 +36026,8 @@
     - name: L-Lysine exchange
     - metabolites: !!omap
       - lys__L_e: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -38780,7 +38780,7 @@
     - name: Nitrate exchange
     - metabolites: !!omap
       - no3_e: -1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -39509,17 +39509,12 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
+      - KEGGID: K11959; K11960; K11961; K11962; K11963
       - gene: ( BCV53_11240 CDS urea ABC transporter permease subunit UrtB or BCV53_11245
           CDS urea ABC transporter permease subunit UrtC or BCV53_11250 CDS urea ABC
           transporter ATP-binding protein UrtD or BCV53_11255 CDS urea ABC transporter
           ATP-binding subunit UrtE )
     - annotation: !!omap
-      - kegg.reaction:
-        - K11959
-        - K11960
-        - K11961
-        - K11962
-        - K11963
       - sbo: SBO:0000655
   - !!omap
     - id: EX_urea_e
@@ -43379,52 +43374,84 @@
       - sbo: SBO:0000243
   - !!omap
     - id: BCV53_11240
-    - name: ''
+    - name: G_BCV53_11240
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: urea
-    - name: ''
+    - name: G_urea
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: BCV53_11245
-    - name: ''
+    - name: G_BCV53_11245
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: permease
-    - name: ''
+    - name: G_permease
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: ABC
-    - name: ''
+    - name: G_ABC
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: ATP-binding
-    - name: ''
+    - name: G_ATP-binding
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: UrtD
-    - name: ''
+    - name: G_UrtD
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: UrtC
-    - name: ''
+    - name: G_UrtC
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: protein
-    - name: ''
+    - name: G_protein
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: subunit
-    - name: ''
+    - name: G_subunit
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: transporter
-    - name: ''
+    - name: G_transporter
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: CDS
-    - name: ''
+    - name: G_CDS
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: UrtB
-    - name: ''
+    - name: G_UrtB
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: BCV53_11250
-    - name: ''
+    - name: G_BCV53_11250
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: UrtE
-    - name: ''
+    - name: G_UrtE
+    - annotation: !!omap
+      - sbo: SBO:0000243
   - !!omap
     - id: BCV53_11255
-    - name: ''
+    - name: G_BCV53_11255
+    - annotation: !!omap
+      - sbo: SBO:0000243
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap

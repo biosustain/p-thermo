@@ -50389,7 +50389,7 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_EX_no3_e" sboTerm="SBO:0000627" id="R_EX_no3_e" name="Nitrate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="meta_R_EX_no3_e" sboTerm="SBO:0000627" id="R_EX_no3_e" name="Nitrate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_no3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -51330,24 +51330,10 @@
       <reaction metaid="meta_R_UREA2tabc" sboTerm="SBO:0000655" id="R_UREA2tabc" name="Transport of urea via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>KEGGID: K11959; K11960; K11961; K11962; K11963</p>
             <p>gene: ( BCV53_11240 CDS urea ABC transporter permease subunit UrtB or BCV53_11245 CDS urea ABC transporter permease subunit UrtC or BCV53_11250 CDS urea ABC transporter ATP-binding protein UrtD or BCV53_11255 CDS urea ABC transporter ATP-binding subunit UrtE )</p>
           </html>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_UREA2tabc">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11959"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11960"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11961"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11962"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/K11963"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
         <listOfReactants>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
@@ -52143,22 +52129,22 @@
       <fbc:geneProduct metaid="meta_G_CbiC" sboTerm="SBO:0000243" fbc:id="G_CbiC" fbc:name="G_CbiC" fbc:label="G_CbiC"/>
       <fbc:geneProduct metaid="meta_G_CbiA" sboTerm="SBO:0000243" fbc:id="G_CbiA" fbc:name="G_CbiA" fbc:label="G_CbiA"/>
       <fbc:geneProduct metaid="meta_G_yuxG" sboTerm="SBO:0000243" fbc:id="G_yuxG" fbc:name="G_yuxG" fbc:label="G_yuxG"/>
-      <fbc:geneProduct fbc:id="G_BCV53_11240" fbc:name="G_BCV53_11240" fbc:label="G_BCV53_11240"/>
-      <fbc:geneProduct fbc:id="G_urea" fbc:name="G_urea" fbc:label="G_urea"/>
-      <fbc:geneProduct fbc:id="G_BCV53_11245" fbc:name="G_BCV53_11245" fbc:label="G_BCV53_11245"/>
-      <fbc:geneProduct fbc:id="G_permease" fbc:name="G_permease" fbc:label="G_permease"/>
-      <fbc:geneProduct fbc:id="G_ABC" fbc:name="G_ABC" fbc:label="G_ABC"/>
-      <fbc:geneProduct fbc:id="G_ATP__45__binding" fbc:name="G_ATP__45__binding" fbc:label="G_ATP__45__binding"/>
-      <fbc:geneProduct fbc:id="G_UrtD" fbc:name="G_UrtD" fbc:label="G_UrtD"/>
-      <fbc:geneProduct fbc:id="G_UrtC" fbc:name="G_UrtC" fbc:label="G_UrtC"/>
-      <fbc:geneProduct fbc:id="G_protein" fbc:name="G_protein" fbc:label="G_protein"/>
-      <fbc:geneProduct fbc:id="G_subunit" fbc:name="G_subunit" fbc:label="G_subunit"/>
-      <fbc:geneProduct fbc:id="G_transporter" fbc:name="G_transporter" fbc:label="G_transporter"/>
-      <fbc:geneProduct fbc:id="G_CDS" fbc:name="G_CDS" fbc:label="G_CDS"/>
-      <fbc:geneProduct fbc:id="G_UrtB" fbc:name="G_UrtB" fbc:label="G_UrtB"/>
-      <fbc:geneProduct fbc:id="G_BCV53_11250" fbc:name="G_BCV53_11250" fbc:label="G_BCV53_11250"/>
-      <fbc:geneProduct fbc:id="G_UrtE" fbc:name="G_UrtE" fbc:label="G_UrtE"/>
-      <fbc:geneProduct fbc:id="G_BCV53_11255" fbc:name="G_BCV53_11255" fbc:label="G_BCV53_11255"/>
+      <fbc:geneProduct metaid="meta_G_BCV53_11240" sboTerm="SBO:0000243" fbc:id="G_BCV53_11240" fbc:name="G_BCV53_11240" fbc:label="G_BCV53_11240"/>
+      <fbc:geneProduct metaid="meta_G_urea" sboTerm="SBO:0000243" fbc:id="G_urea" fbc:name="G_urea" fbc:label="G_urea"/>
+      <fbc:geneProduct metaid="meta_G_BCV53_11245" sboTerm="SBO:0000243" fbc:id="G_BCV53_11245" fbc:name="G_BCV53_11245" fbc:label="G_BCV53_11245"/>
+      <fbc:geneProduct metaid="meta_G_permease" sboTerm="SBO:0000243" fbc:id="G_permease" fbc:name="G_permease" fbc:label="G_permease"/>
+      <fbc:geneProduct metaid="meta_G_ABC" sboTerm="SBO:0000243" fbc:id="G_ABC" fbc:name="G_ABC" fbc:label="G_ABC"/>
+      <fbc:geneProduct metaid="meta_G_ATP__45__binding" sboTerm="SBO:0000243" fbc:id="G_ATP__45__binding" fbc:name="G_ATP-binding" fbc:label="G_ATP__45__binding"/>
+      <fbc:geneProduct metaid="meta_G_UrtD" sboTerm="SBO:0000243" fbc:id="G_UrtD" fbc:name="G_UrtD" fbc:label="G_UrtD"/>
+      <fbc:geneProduct metaid="meta_G_UrtC" sboTerm="SBO:0000243" fbc:id="G_UrtC" fbc:name="G_UrtC" fbc:label="G_UrtC"/>
+      <fbc:geneProduct metaid="meta_G_protein" sboTerm="SBO:0000243" fbc:id="G_protein" fbc:name="G_protein" fbc:label="G_protein"/>
+      <fbc:geneProduct metaid="meta_G_subunit" sboTerm="SBO:0000243" fbc:id="G_subunit" fbc:name="G_subunit" fbc:label="G_subunit"/>
+      <fbc:geneProduct metaid="meta_G_transporter" sboTerm="SBO:0000243" fbc:id="G_transporter" fbc:name="G_transporter" fbc:label="G_transporter"/>
+      <fbc:geneProduct metaid="meta_G_CDS" sboTerm="SBO:0000243" fbc:id="G_CDS" fbc:name="G_CDS" fbc:label="G_CDS"/>
+      <fbc:geneProduct metaid="meta_G_UrtB" sboTerm="SBO:0000243" fbc:id="G_UrtB" fbc:name="G_UrtB" fbc:label="G_UrtB"/>
+      <fbc:geneProduct metaid="meta_G_BCV53_11250" sboTerm="SBO:0000243" fbc:id="G_BCV53_11250" fbc:name="G_BCV53_11250" fbc:label="G_BCV53_11250"/>
+      <fbc:geneProduct metaid="meta_G_UrtE" sboTerm="SBO:0000243" fbc:id="G_UrtE" fbc:name="G_UrtE" fbc:label="G_UrtE"/>
+      <fbc:geneProduct metaid="meta_G_BCV53_11255" sboTerm="SBO:0000243" fbc:id="G_BCV53_11255" fbc:name="G_BCV53_11255" fbc:label="G_BCV53_11255"/>
     </fbc:listOfGeneProducts>
     <groups:listOfGroups>
       <groups:group groups:id="G_00000__32____45____32__Exchange__32__reactions" groups:name="00000 - Exchange reactions" groups:kind="collection">
