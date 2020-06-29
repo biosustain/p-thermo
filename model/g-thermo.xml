@@ -92,7 +92,7 @@
       <species metaid="meta_M_ps_c" sboTerm="SBO:0000247" id="M_ps_c" name="Phosphatidylserine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C38.14H74.28NO10P</p>
+            <p>FORMULA: C38.14H74.28NO10P</p>
             <p>NAME: L-1-Phosphatidylserine; 1,2-Diacyl-sn-glycerol 3-phospho-L-serine; O3-Phosphatidyl-L-serine; Phosphatidylserine; Phosphatidyl-L-serine; 3-O-sn-Phosphatidyl-L-serine;</p>
           </html>
         </notes>
@@ -19069,7 +19069,7 @@
       <species metaid="meta_M_pa_c" sboTerm="SBO:0000247" id="M_pa_c" name="Phosphatidate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C35.14H69.28O8P</p>
+            <p>FORMULA: C35.14H69.28O8P</p>
             <p>NAME: Phosphatidic acid; 3-sn-Phosphatidate; Phosphatidate; 1,2-Diacyl-sn-glycerol 3-phosphate;</p>
           </html>
         </notes>
@@ -19089,7 +19089,7 @@
       <species metaid="meta_M_cdpdag_c" sboTerm="SBO:0000247" id="M_cdpdag_c" name="CDP-1,2-diacylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C44.14H79.28N3O15P2</p>
+            <p>FORMULA: C44.14H79.28N3O15P2</p>
             <p>NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate; CDP-diacylglycerol;</p>
           </html>
         </notes>
@@ -19246,7 +19246,7 @@
       <species metaid="meta_M_aglyc3p_c" sboTerm="SBO:0000247" id="M_aglyc3p_c" name="1-Acyl-sn-glycerol 3-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C19.07H38.14O7P</p>
+            <p>FORMULA: C19.07H38.14O7P</p>
           </html>
         </notes>
         <annotation>
@@ -21620,7 +21620,7 @@
       <species metaid="meta_M_pg_c" sboTerm="SBO:0000247" id="M_pg_c" name="Phosphatidylglycerol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C38.14H75.28O10P</p>
+            <p>FORMULA: C38.14H75.28O10P</p>
           </html>
         </notes>
         <annotation>
@@ -21639,7 +21639,7 @@
       <species metaid="meta_M_pgp_c" sboTerm="SBO:0000247" id="M_pgp_c" name="Phosphatidylglycerophosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C38.14H76.28O13P2</p>
+            <p>FORMULA: C38.14H76.28O13P2</p>
           </html>
         </notes>
         <annotation>
@@ -21658,7 +21658,7 @@
       <species metaid="meta_M_pe_c" sboTerm="SBO:0000247" id="M_pe_c" name="Phosphatidylethanolamine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C37.14H74.28NO8P</p>
+            <p>FORMULA: C37.14H74.28NO8P</p>
           </html>
         </notes>
         <annotation>
@@ -21677,7 +21677,7 @@
       <species metaid="meta_M_clpn_c" sboTerm="SBO:0000247" id="M_clpn_c" name="Cardiolipin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C73.28H142.56O17P2</p>
+            <p>FORMULA: C73.28H142.56O17P2</p>
             <p>NOTES: Cardiolipin; Diphosphatidylglycerol; 1,3-Bis(1,2-diacyl-sn-glycero-3-phospho)-sn-glycerol</p>
           </html>
         </notes>
@@ -21825,14 +21825,14 @@
       <species metaid="meta_M_acylACP_c" sboTerm="SBO:0000247" id="M_acylACP_c" name="Generic Acyl-ACP fatty acid" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C27.07H51.14O8N2PRS</p>
+            <p>FORMULA: C27.07H51.14O8N2PRS</p>
           </html>
         </notes>
       </species>
       <species metaid="meta_M_acylcoa_c" sboTerm="SBO:0000247" id="M_acylcoa_c" name="Generic Acyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA:C37.07H63.14O17N7P3S</p>
+            <p>FORMULA: C37.07H63.14O17N7P3S</p>
           </html>
         </notes>
       </species>
@@ -43930,7 +43930,7 @@
           <speciesReference species="M_val__L_c" stoichiometry="0.376142857142857" constant="true"/>
           <speciesReference species="M_thr__L_c" stoichiometry="0.268767857142857" constant="true"/>
           <speciesReference species="M_phe__L_c" stoichiometry="0.145116071428571" constant="true"/>
-          <speciesReference species="M_succoa_c" stoichiometry="8.7537500000002e-005" constant="true"/>
+          <speciesReference species="M_succoa_c" stoichiometry="8.7537500000002e-05" constant="true"/>
           <speciesReference species="M_fe3_c" stoichiometry="0.0303598589285714" constant="true"/>
           <speciesReference species="M_hemeO_c" stoichiometry="0.000199107142857143" constant="true"/>
           <speciesReference species="M_amet_c" stoichiometry="0.000199107142857143" constant="true"/>
@@ -43970,14 +43970,14 @@
           <speciesReference species="M_tyr__L_c" stoichiometry="0.103598214285714" constant="true"/>
           <speciesReference species="M_cys__L_c" stoichiometry="0.107866071428571" constant="true"/>
           <speciesReference species="M_ump_c" stoichiometry="0.119274155892857" constant="true"/>
-          <speciesReference species="M_btn_c" stoichiometry="1.78571428571429e-006" constant="true"/>
+          <speciesReference species="M_btn_c" stoichiometry="1.78571428571429e-06" constant="true"/>
           <speciesReference species="M_k_c" stoichiometry="0.632321428571429" constant="true"/>
           <speciesReference species="M_mg2_c" stoichiometry="0.0875" constant="true"/>
           <speciesReference species="M_ca2_c" stoichiometry="0.0028125" constant="true"/>
           <speciesReference species="M_udparab_c" stoichiometry="0.0407366071428571" constant="true"/>
           <speciesReference species="M_udpxyl_c" stoichiometry="0.182473214285714" constant="true"/>
-          <speciesReference species="M_bacthiolbsh_c" stoichiometry="6.23441071428571e-005" constant="true"/>
-          <speciesReference species="M_bacthiolbssb_c" stoichiometry="1.55892857142857e-007" constant="true"/>
+          <speciesReference species="M_bacthiolbsh_c" stoichiometry="6.23441071428571e-05" constant="true"/>
+          <speciesReference species="M_bacthiolbssb_c" stoichiometry="1.55892857142857e-07" constant="true"/>
           <speciesReference species="M_pg_c" stoichiometry="0.0277116071428571" constant="true"/>
           <speciesReference species="M_pe_c" stoichiometry="0.02895" constant="true"/>
           <speciesReference species="M_clpn_c" stoichiometry="0.0295910714285714" constant="true"/>
@@ -47445,7 +47445,7 @@
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_EX_cys__L_e" sboTerm="SBO:0000627" id="R_EX_cys__L_e" name="L-Cysteine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+      <reaction metaid="meta_R_EX_cys__L_e" sboTerm="SBO:0000627" id="R_EX_cys__L_e" name="L-Cysteine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_cys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -47496,7 +47496,7 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_EX_lys__L_e" sboTerm="SBO:0000627" id="R_EX_lys__L_e" name="L-Lysine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+      <reaction metaid="meta_R_EX_lys__L_e" sboTerm="SBO:0000627" id="R_EX_lys__L_e" name="L-Lysine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -51330,7 +51330,7 @@
       <reaction metaid="meta_R_UREA2tabc" sboTerm="SBO:0000655" id="R_UREA2tabc" name="Transport of urea via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>KEGGID:K11959; K11960; K11961; K11962; K11963</p>
+            <p>KEGGID: K11959; K11960; K11961; K11962; K11963</p>
             <p>gene: ( BCV53_11240 CDS urea ABC transporter permease subunit UrtB or BCV53_11245 CDS urea ABC transporter permease subunit UrtC or BCV53_11250 CDS urea ABC transporter ATP-binding protein UrtD or BCV53_11255 CDS urea ABC transporter ATP-binding subunit UrtE )</p>
           </html>
         </notes>
