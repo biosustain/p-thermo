@@ -31091,6 +31091,9 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_4mop_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05953"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NTD3" sboTerm="SBO:0000176" id="R_NTD3" name="2-deoxycytidine 5-monophosphate phosphohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -35858,6 +35861,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pyr5c_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05954"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NNDPR" sboTerm="SBO:0000176" id="R_NNDPR" name="Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
@@ -42842,6 +42848,9 @@
           <speciesReference species="M_hexACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05955"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_3OAS80" sboTerm="SBO:0000176" id="R_3OAS80" name="hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43660,6 +43669,9 @@
         <listOfProducts>
           <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05956"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLC__Dtabc" sboTerm="SBO:0000185" id="R_GLC__Dtabc" name="Transport of metabolite glc__D_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43685,6 +43697,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05957"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_FEtabc" sboTerm="SBO:0000185" id="R_FEtabc" name="Transport of metabolite fe2_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43709,6 +43724,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05958"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_H2Ot" sboTerm="SBO:0000185" id="R_H2Ot" name="Transport of metabolite oh1_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43728,6 +43746,9 @@
         <listOfProducts>
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05959"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_O2t" sboTerm="SBO:0000185" id="R_O2t" name="Transport of metabolite o2_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43747,6 +43768,9 @@
         <listOfProducts>
           <speciesReference species="M_o2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05960"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CO2t" sboTerm="SBO:0000185" id="R_CO2t" name="Transport of metabolite co2_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43766,6 +43790,9 @@
         <listOfProducts>
           <speciesReference species="M_co2_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05961"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_THMt" sboTerm="SBO:0000185" id="R_THMt" name="Transport of metabolite thm_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -43779,6 +43806,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05962"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_COBALT2tabc" sboTerm="SBO:0000185" id="R_COBALT2tabc" name="Transport of metabolite cobalt2_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43804,6 +43834,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05963"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ETOHt" sboTerm="SBO:0000185" id="R_ETOHt" name="Transport of metabolite etoh_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43823,6 +43856,9 @@
         <listOfProducts>
           <speciesReference species="M_etoh_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05964"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACt" sboTerm="SBO:0000185" id="R_ACt" name="Transport of metabolite ac_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43843,6 +43879,9 @@
         <listOfProducts>
           <speciesReference species="M_ac_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05965"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LAC__Dt" sboTerm="SBO:0000185" id="R_LAC__Dt" name="Transport of metabolite lac__D_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43865,6 +43904,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_lac__D_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05966"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SUCCt" sboTerm="SBO:0000185" id="R_SUCCt" name="Transport of metabolite succ_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43887,6 +43929,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_succ_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05967"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LAC__Lt" sboTerm="SBO:0000185" id="R_LAC__Lt" name="Transport of metabolite lac__L_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -43909,6 +43954,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_lac__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05968"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_biomass" sboTerm="SBO:0000629" id="R_biomass" name="biomass" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -43991,6 +44039,9 @@
           <speciesReference species="M_pi_c" stoichiometry="104.9856" constant="true"/>
           <speciesReference species="M_Biomass_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05969"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_cl_e" sboTerm="SBO:0000627" id="R_EX_cl_e" name="C00698 exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -44151,6 +44202,9 @@
         <listOfProducts>
           <speciesReference species="M_cthzp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05970"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DXYL5PTST" sboTerm="SBO:0000176" id="R_DXYL5PTST" name="1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44181,6 +44235,9 @@
           <speciesReference species="M_cmtdepp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_scpgg_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05971"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LCTST" sboTerm="SBO:0000176" id="R_LCTST" name="L-cysteine:[ThiI] sulfurtransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44208,6 +44265,9 @@
           <speciesReference species="M_ala__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_enzscys_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05972"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ATPTAT" sboTerm="SBO:0000176" id="R_ATPTAT" name="ATP:[ThiS] adenylyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44236,6 +44296,9 @@
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ascp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05973"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LPROQOR" sboTerm="SBO:0000176" id="R_LPROQOR" name="L-proline:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <notes>
@@ -44263,6 +44326,9 @@
           <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pyr5c_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05974"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BTNLIG" sboTerm="SBO:0000176" id="R_BTNLIG" name="biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming); ATP:biotin adenylyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44295,6 +44361,9 @@
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_b5amp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05975"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BTN5AMPL" sboTerm="SBO:0000176" id="R_BTN5AMPL" name="Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44326,6 +44395,9 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_btn_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05976"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MDH2" sboTerm="SBO:0000176" id="R_MDH2" name="(S)-malate:quinone oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44353,6 +44425,9 @@
           <speciesReference species="M_qh2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_oaa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05977"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_OBO2OR" sboTerm="SBO:0000176" id="R_OBO2OR" name="2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44383,6 +44458,9 @@
           <speciesReference species="M_h2o2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ppap_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05978"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LALDO2x" sboTerm="SBO:0000176" id="R_LALDO2x" name="(S)-lactaldehyde:NADP+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
@@ -44415,6 +44493,9 @@
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05979"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PHEAOR" sboTerm="SBO:0000176" id="R_PHEAOR" name="D-phenylalanine:acceptor oxidoreductase (deaminating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44444,6 +44525,9 @@
           <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_phpyr_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05980"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PYRLLOR" sboTerm="SBO:0000176" id="R_PYRLLOR" name="pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-acetylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44472,6 +44556,9 @@
           <speciesReference species="M_adhlam_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05981"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MOX" sboTerm="SBO:0000176" id="R_MOX" name="(S)-Malate:oxygen oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44499,6 +44586,9 @@
           <speciesReference species="M_h2o2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_oaa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05982"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TRPS3" sboTerm="SBO:0000176" id="R_TRPS3" name="Tryptophan synthase (indoleglycerol phosphate)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44526,6 +44616,9 @@
           <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_indole_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05983"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PGL" sboTerm="SBO:0000176" id="R_PGL" name="Spontaneous 6-Phospho-D-glucono-1,5-lactone lactonohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -44572,6 +44665,9 @@
         <listOfProducts>
           <speciesReference species="M_6pgc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05984"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MAHMPDC" sboTerm="SBO:0000176" id="R_MAHMPDC" name="2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44601,6 +44697,9 @@
           <speciesReference species="M_thmmp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05985"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_OOR3r" sboTerm="SBO:0000176" id="R_OOR3r" name="2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44631,6 +44730,9 @@
           <speciesReference species="M_succoa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05986"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACCOAACT" sboTerm="SBO:0000176" id="R_ACCOAACT" name="acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44658,6 +44760,9 @@
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_aglyc3p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05987"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACCOATT" sboTerm="SBO:0000176" id="R_ACCOATT" name="acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44685,6 +44790,9 @@
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05988"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CTPPCT" sboTerm="SBO:0000176" id="R_CTPPCT" name="CTP:phosphatidate cytidyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44713,6 +44821,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cdpdag_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05989"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_B23DONOR" sboTerm="SBO:0000176" id="R_B23DONOR" name="(R,R)-Butane-2,3-diol:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44741,6 +44852,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_actn__R_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05990"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACTD" sboTerm="SBO:0000176" id="R_ACTD" name="(R)-Acetoin:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44769,6 +44883,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_diact_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05991"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACTNAT" sboTerm="SBO:0000176" id="R_ACTNAT" name="acetyl-CoA:acetoin O-acetyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44799,6 +44916,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_acald_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05992"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACEDIA" sboTerm="SBO:0000176" id="R_ACEDIA" name="Acetolactate to Diacetyl" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44826,6 +44946,9 @@
           <speciesReference species="M_diact_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_hacc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05993"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HPI" sboTerm="SBO:0000176" id="R_HPI" name="hydroxypyruvate aldose-ketose-isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44851,6 +44974,9 @@
         <listOfProducts>
           <speciesReference species="M_hop_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05994"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HOXPRm" sboTerm="SBO:0000176" id="R_HOXPRm" name="(R)-Glycerate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <notes>
@@ -44880,6 +45006,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_hop_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05995"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACOAD1" sboTerm="SBO:0000176" id="R_ACOAD1" name="butanoyl-CoA:NAD+ trans-2-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44908,6 +45037,9 @@
           <speciesReference species="M_b2coa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05996"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ECOAH1" sboTerm="SBO:0000176" id="R_ECOAH1" name="(S)-3-hydroxybutanoyl-CoA hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -44934,6 +45066,9 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_b2coa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05997"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CLt" sboTerm="SBO:0000185" id="R_CLt" name="Transport of metabolite cl_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -44954,6 +45089,9 @@
         <listOfProducts>
           <speciesReference species="M_cl_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05998"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PYDX5Pt" sboTerm="SBO:0000185" id="R_PYDX5Pt" name="Transport of metabolite pydx5p_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -44973,6 +45111,9 @@
         <listOfProducts>
           <speciesReference species="M_pydx5p_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO05999"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GTHRDt" sboTerm="SBO:0000185" id="R_GTHRDt" name="Transport of metabolite gthrd_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -44981,6 +45122,9 @@
         <listOfProducts>
           <speciesReference species="M_gthrd_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06000"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BIOMASSt" sboTerm="SBO:0000185" id="R_BIOMASSt" name="Transport of metabolite Biomass_e" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -44989,6 +45133,9 @@
         <listOfProducts>
           <speciesReference species="M_Biomass_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06001"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_THMTPt" sboTerm="SBO:0000185" id="R_THMTPt" name="Transport of metabolite thmtp_e" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -44997,6 +45144,9 @@
         <listOfProducts>
           <speciesReference species="M_thmtp_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06002"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLC__Dtpts" sboTerm="SBO:0000655" id="R_GLC__Dtpts" name="D-Glucose PTS transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45019,6 +45169,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_g6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06003"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_FRUtpts" sboTerm="SBO:0000655" id="R_FRUtpts" name="Transport of D-fructose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45040,6 +45193,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06004"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ARAB__Ltabc" sboTerm="SBO:0000655" id="R_ARAB__Ltabc" name="Transport of L-arabinose via ABC transporter" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45065,6 +45221,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06005"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_XYL__Dtabc" sboTerm="SBO:0000655" id="R_XYL__Dtabc" name="Transport of D-xylose via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45090,6 +45249,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06006"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GALtabc" sboTerm="SBO:0000655" id="R_GALtabc" name="Transport of D-galactose via abc transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45115,6 +45277,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06007"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MNLtpts" sboTerm="SBO:0000655" id="R_MNLtpts" name="Transport of Mannitol via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45137,6 +45302,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_mnl1p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06008"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CELLBtpts" sboTerm="SBO:0000655" id="R_CELLBtpts" name="Transport of cellobiose vis pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45158,6 +45326,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cellb6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06009"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SUCRtpts" sboTerm="SBO:0000655" id="R_SUCRtpts" name="Transport of sucrose via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45181,6 +45352,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06010"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLYCt" sboTerm="SBO:0000185" id="R_GLYCt" name=" Transport of Glycerol, passive" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45201,6 +45375,9 @@
         <listOfProducts>
           <speciesReference species="M_glyc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06011"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_RIB__Dtabc" sboTerm="SBO:0000655" id="R_RIB__Dtabc" name="Transport of D-Ribose via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45226,6 +45403,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06012"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MANtpts" sboTerm="SBO:0000655" id="R_MANtpts" name="Mannose transport via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45248,6 +45428,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_man6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06013"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SBTtpts" sboTerm="SBO:0000655" id="R_SBTtpts" name="Transport of D-sorbitol via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45271,6 +45454,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_sbt6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06014"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SBTPD" sboTerm="SBO:0000176" id="R_SBTPD" name="Sorbitol-6-phosphate dehydrogenase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45299,6 +45485,9 @@
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06015"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACGAMtpts" sboTerm="SBO:0000655" id="R_ACGAMtpts" name="Transport of N-Acetyl-D-glucosamine via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45321,6 +45510,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_acgam6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06016"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ARBTtpts" sboTerm="SBO:0000655" id="R_ARBTtpts" name="Transport of arbutin via pts" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45344,6 +45536,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06017"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SALCNtpts" sboTerm="SBO:0000655" id="R_SALCNtpts" name="Salicin transport via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45366,6 +45561,9 @@
           <speciesReference species="M_salcn6p_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06018"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MALTtabc" sboTerm="SBO:0000655" id="R_MALTtabc" name="Transport of Matlose via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45391,6 +45589,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06019"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MALTtpts" sboTerm="SBO:0000655" id="R_MALTtpts" name="Transport of Maltose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45413,6 +45614,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_malt6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06020"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TREtpts" sboTerm="SBO:0000655" id="R_TREtpts" name=" Transport of Trehalose via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45435,6 +45639,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_tre6p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06021"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_RMNt" sboTerm="SBO:0000185" id="R_RMNt" name="Transport of L-rhamnose passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45462,6 +45669,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_rmn_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06022"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_RMI" sboTerm="SBO:0000176" id="R_RMI" name="L-rhamnose isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45490,6 +45700,9 @@
         <listOfProducts>
           <speciesReference species="M_rml_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06023"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_RMK" sboTerm="SBO:0000176" id="R_RMK" name="Rhamnulokinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45521,6 +45734,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_rml1p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06024"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_RMPA" sboTerm="SBO:0000176" id="R_RMPA" name="Rhamnulose-1-phosphate aldolase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45551,6 +45767,9 @@
           <speciesReference species="M_dhap_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_lald__L_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06025"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MELIBt" sboTerm="SBO:0000185" id="R_MELIBt" name="Transport of Melibiose via passive transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45577,6 +45796,9 @@
           <speciesReference species="M_melib_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06026"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GTBIt" sboTerm="SBO:0000185" id="R_GTBIt" name="Transport of gentiobiose" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45590,6 +45812,9 @@
         <listOfProducts>
           <speciesReference species="M_gtbi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06027"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GTBIHY" sboTerm="SBO:0000176" id="R_GTBIHY" name="Hydrolysis of Gentiobiose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45604,6 +45829,9 @@
         <listOfProducts>
           <speciesReference species="M_glc__D_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06028"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TURAt" sboTerm="SBO:0000185" id="R_TURAt" name="Turanose transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45617,6 +45845,9 @@
         <listOfProducts>
           <speciesReference species="M_tura_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06029"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TURAHY" sboTerm="SBO:0000176" id="R_TURAHY" name="Hydrolysis of Turanose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45632,6 +45863,9 @@
           <speciesReference species="M_fru_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glc__D_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06030"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_KDG2t" sboTerm="SBO:0000185" id="R_KDG2t" name="Transport of 2-Keto-D-gluconic acid passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45645,6 +45879,9 @@
         <listOfProducts>
           <speciesReference species="M_kdg2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06031"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_KDG2R" sboTerm="SBO:0000176" id="R_KDG2R" name="2-Keto-D-gluconic acid reductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45675,6 +45912,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_kdg2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06032"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DGLCN5t" sboTerm="SBO:0000185" id="R_DGLCN5t" name="Transport of 5-Dehydro-D-gluconate passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45699,6 +45939,9 @@
         <listOfProducts>
           <speciesReference species="M_dglcn5_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06033"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DGLCN5R" sboTerm="SBO:0000176" id="R_DGLCN5R" name="5-dehydro-D-gluconate reductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45729,6 +45972,9 @@
           <speciesReference species="M_glcn__D_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06034"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MDGPt" sboTerm="SBO:0000185" id="R_MDGPt" name="Transport of Methyl D-glucopyranoside passively" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45742,6 +45988,9 @@
         <listOfProducts>
           <speciesReference species="M_mdgp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06035"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BGAL" sboTerm="SBO:0000176" id="R_BGAL" name="methyl-beta-galactosidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45757,6 +46006,9 @@
           <speciesReference species="M_glc__D_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_meoh_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06036"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ALCD1" sboTerm="SBO:0000176" id="R_ALCD1" name="NAD-dependent Methanol dehydrogenase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45781,6 +46033,9 @@
           <speciesReference species="M_fald_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06037"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TAGtpts" sboTerm="SBO:0000655" id="R_TAGtpts" name="Transport of tag__D via PTS" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45797,6 +46052,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_tag1p__D_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06038"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TAG1PK" sboTerm="SBO:0000176" id="R_TAG1PK" name="D-Tagatose-1-phosphate kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -45814,6 +46072,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_tagdp__D_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06039"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TGBPA" sboTerm="SBO:0000176" id="R_TGBPA" name="Tagatose-bisphosphate aldolase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45844,6 +46105,9 @@
           <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_dhap_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06040"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_AMYt" sboTerm="SBO:0000185" id="R_AMYt" name="Transport of Amylose" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45863,6 +46127,9 @@
         <listOfProducts>
           <speciesReference species="M_amylose_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06041"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PYRt" sboTerm="SBO:0000185" id="R_PYRt" name="Pyruvate transport in via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -45885,6 +46152,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06042"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_fru_e" sboTerm="SBO:0000627" id="R_EX_fru_e" name="D-Fructose exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46002,6 +46272,9 @@
           <speciesReference species="M_for_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06043"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PIt" sboTerm="SBO:0000185" id="R_PIt" name="Transport of phosphate" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46024,6 +46297,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06044"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_pi_e" sboTerm="SBO:0000627" id="R_EX_pi_e" name="Phosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46056,6 +46332,9 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_dudp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06045"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SUCD5" sboTerm="SBO:0000176" id="R_SUCD5" name="Succinate dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46081,6 +46360,9 @@
           <speciesReference species="M_fad_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06046"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LTHRK" sboTerm="SBO:0000176" id="R_LTHRK" name="L threonine kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46104,6 +46386,9 @@
           <speciesReference species="M_thrp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06047"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HCO3E" sboTerm="SBO:0000176" id="R_HCO3E" name="HCO3 equilibration reaction" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46297,6 +46582,9 @@
           <speciesReference species="M_hco3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06048"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ATPS4r" sboTerm="SBO:0000185" id="R_ATPS4r" name="ATP synthase (four protons for one ATP)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46324,6 +46612,9 @@
           <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06049"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_Kt" sboTerm="SBO:0000185" id="R_Kt" name="Potassium transport via antiport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46346,6 +46637,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_k_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06050"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_Kt2" sboTerm="SBO:0000185" id="R_Kt2" name="Potassium transport via uniport (facilitated diffusion)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46366,6 +46660,9 @@
         <listOfProducts>
           <speciesReference species="M_k_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06051"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_FADRx" sboTerm="SBO:0000176" id="R_FADRx" name="Flavin reductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46400,6 +46697,9 @@
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_fadh2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06052"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NADHDH" sboTerm="SBO:0000176" id="R_NADHDH" name="NADH Dehydrogenase (ubiquinone &amp; 3.5 protons)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46424,6 +46724,9 @@
           <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="3.5" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06053"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CYTBO3" sboTerm="SBO:0000185" id="R_CYTBO3" name="Cytochrome oxidase bo3 (ubiquinol: 2.5 protons)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46448,6 +46751,9 @@
           <speciesReference species="M_mqn_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="2.5" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06054"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_so4_e" sboTerm="SBO:0000627" id="R_EX_so4_e" name="Sulfate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46475,6 +46781,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_so4_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06055"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SADT" sboTerm="SBO:0000176" id="R_SADT" name="Sulfate adenylyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46524,6 +46833,9 @@
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_aps_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06056"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ADSK" sboTerm="SBO:0000176" id="R_ADSK" name="Adenylyl-sulfate kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46572,6 +46884,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_paps_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06057"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PAPSR" sboTerm="SBO:0000176" id="R_PAPSR" name="Phosphoadenylyl-sulfate reductase (thioredoxin)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46599,6 +46914,9 @@
           <speciesReference species="M_so3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pap_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06058"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BPNT" sboTerm="SBO:0000176" id="R_BPNT" name="3,5-bisphosphate nucleotidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46645,6 +46963,9 @@
           <speciesReference species="M_amp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06059"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_k_e" sboTerm="SBO:0000627" id="R_EX_k_e" name="Potassium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46658,6 +46979,9 @@
         <listOfProducts>
           <speciesReference species="M_mg2_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06060"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_mg2_e" sboTerm="SBO:0000627" id="R_EX_mg2_e" name="Magnesium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46673,6 +46997,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ca2_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06061"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_ca2_e" sboTerm="SBO:0000627" id="R_EX_ca2_e" name="Calcium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46694,6 +47021,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06062"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_XU5PHY" sboTerm="SBO:0000176" id="R_XU5PHY" name="Hydrolysis of L-Xylulose-5-phosphate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -46710,6 +47040,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06063"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_M6PHY" sboTerm="SBO:0000176" id="R_M6PHY" name="Hydrolysis of Mannose-6-phosphate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -46726,6 +47059,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06064"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GCALDD" sboTerm="SBO:0000176" id="R_GCALDD" name="Glycolaldehyde dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46759,6 +47095,9 @@
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06065"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLXCBL" sboTerm="SBO:0000176" id="R_GLXCBL" name="Glyoxalate carboligase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46789,6 +47128,9 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_hop_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06066"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ARAAT" sboTerm="SBO:0000176" id="R_ARAAT" name="UDP-sugar pyrophosphorylase " reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46811,6 +47153,9 @@
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_udparab_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06067"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ARAK" sboTerm="SBO:0000176" id="R_ARAK" name="L-arabinokinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46834,6 +47179,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ara1p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06068"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_XYLAT" sboTerm="SBO:0000176" id="R_XYLAT" name="UDP-arabinose 4-epimerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46854,6 +47202,9 @@
         <listOfProducts>
           <speciesReference species="M_udpxyl_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06069"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_UDPGDC" sboTerm="SBO:0000176" id="R_UDPGDC" name="UDP-glucuronate decarboxylase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -46876,6 +47227,9 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_udpxyl_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06070"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MERCPLACt" sboTerm="SBO:0000185" id="R_MERCPLACt" name="Transport of 3-Mercaptolactate" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46886,6 +47240,9 @@
           <speciesReference species="M_mercplac_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06071"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_mercplac_e" sboTerm="SBO:0000627" id="R_EX_mercplac_e" name="3-Mercaptolactate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46912,6 +47269,9 @@
           <speciesReference species="M_but_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06072"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_but_e" sboTerm="SBO:0000627" id="R_EX_but_e" name="Butanoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46928,6 +47288,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06073"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_acmum_e" sboTerm="SBO:0000627" id="R_EX_acmum_e" name="N-Acetylmuramate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46965,6 +47328,9 @@
           <speciesReference species="M_mqn_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_slnt_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06074"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SELtabc" sboTerm="SBO:0000185" id="R_SELtabc" name="Transport of Selenate via ABC transport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46978,6 +47344,9 @@
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_sel_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06075"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_sel_e" sboTerm="SBO:0000627" id="R_EX_sel_e" name="Selenate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -46993,6 +47362,9 @@
           <speciesReference species="M_epm_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06076"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_epm_e" sboTerm="SBO:0000627" id="R_EX_epm_e" name="Epimelibiose exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47008,6 +47380,9 @@
           <speciesReference species="M_mesel_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06077"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_mesel_e" sboTerm="SBO:0000627" id="R_EX_mesel_e" name="Methaneselenol exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47023,6 +47398,9 @@
           <speciesReference species="M_methylseac_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06078"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_methylseac_e" sboTerm="SBO:0000627" id="R_EX_methylseac_e" name="Methylselenic acid exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47041,6 +47419,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06079"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_isomal_e" sboTerm="SBO:0000627" id="R_EX_isomal_e" name="Isomaltose exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47095,6 +47476,9 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_glyb_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06080"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BETALDHy" sboTerm="SBO:0000176" id="R_BETALDHy" name="Betaine-aldehyde dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47127,6 +47511,9 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_glyb_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06081"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NADN" sboTerm="SBO:0000176" id="R_NADN" name="NAD nucleosidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47182,6 +47569,9 @@
           <speciesReference species="M_adprib_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06082"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLYt" sboTerm="SBO:0000185" id="R_GLYt" name="Transport of Glycine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
@@ -47192,6 +47582,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_gly_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06083"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_gly_e" sboTerm="SBO:0000627" id="R_EX_gly_e" name="Glycine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47205,6 +47598,9 @@
         <listOfProducts>
           <speciesReference species="M_gly_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06084"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ALAt2" sboTerm="SBO:0000185" id="R_ALAt2" name="Transport of L-Alanine" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47213,6 +47609,9 @@
         <listOfProducts>
           <speciesReference species="M_ala__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06085"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_ala__L_e" sboTerm="SBO:0000627" id="R_EX_ala__L_e" name="L-Alanine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47228,6 +47627,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ala__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06086"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_VALt" sboTerm="SBO:0000185" id="R_VALt" name="Transport of L-Valine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47238,6 +47640,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_val__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06087"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_val__L_e" sboTerm="SBO:0000627" id="R_EX_val__L_e" name="L-Valine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47256,6 +47661,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06088"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LEUtabc" sboTerm="SBO:0000185" id="R_LEUtabc" name="Transport of L-Leucine" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47269,6 +47677,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06089"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_leu__L_e" sboTerm="SBO:0000627" id="R_EX_leu__L_e" name="L-Leucine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47284,6 +47695,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_leu__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06090"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ILEt" sboTerm="SBO:0000185" id="R_ILEt" name="Transport of L-Isoleucine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
@@ -47294,6 +47708,9 @@
           <speciesReference species="M_ile__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06091"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_ile__L_e" sboTerm="SBO:0000627" id="R_EX_ile__L_e" name="L-Isoleucine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47312,6 +47729,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06092"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ILEt2" sboTerm="SBO:0000185" id="R_ILEt2" name="Transport of L-Isoleucine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
@@ -47322,6 +47742,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ile__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06093"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SERt" sboTerm="SBO:0000185" id="R_SERt" name="Transport of L-Serine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47332,6 +47755,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ser__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06094"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_ser__L_e" sboTerm="SBO:0000627" id="R_EX_ser__L_e" name="L-Serine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47347,6 +47773,9 @@
           <speciesReference species="M_thr__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06095"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_thr__L_e" sboTerm="SBO:0000627" id="R_EX_thr__L_e" name="L-Threonine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47362,6 +47791,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_thr__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06096"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PHEt" sboTerm="SBO:0000185" id="R_PHEt" name="Transport of L-Phenylalanine" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47370,6 +47802,9 @@
         <listOfProducts>
           <speciesReference species="M_phe__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06097"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_phe__L_e" sboTerm="SBO:0000627" id="R_EX_phe__L_e" name="L-Phenylalanine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47385,6 +47820,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_phe__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06098"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TYRt" sboTerm="SBO:0000185" id="R_TYRt" name="Transport of L-Tyrosine" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47393,6 +47831,9 @@
         <listOfProducts>
           <speciesReference species="M_tyr__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06099"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_tyr__L_e" sboTerm="SBO:0000627" id="R_EX_tyr__L_e" name="L-Tyrosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47408,6 +47849,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_tyr__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06100"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_TRPt" sboTerm="SBO:0000185" id="R_TRPt" name="Transport of L-Tryptophan" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
@@ -47418,6 +47862,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_trp__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06101"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_trp__L_e" sboTerm="SBO:0000627" id="R_EX_trp__L_e" name="L-Tryptophan exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47431,6 +47878,9 @@
         <listOfProducts>
           <speciesReference species="M_trp__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06102"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CYStabc" sboTerm="SBO:0000185" id="R_CYStabc" name="Transport of L-Cysteine" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47444,6 +47894,9 @@
           <speciesReference species="M_cys__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06103"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_cys__L_e" sboTerm="SBO:0000627" id="R_EX_cys__L_e" name="L-Cysteine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47457,6 +47910,9 @@
         <listOfProducts>
           <speciesReference species="M_cys__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06104"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_METabc" sboTerm="SBO:0000185" id="R_METabc" name="Transport of L-Methionine" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47470,6 +47926,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06105"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_met__L_e" sboTerm="SBO:0000627" id="R_EX_met__L_e" name="L-Methionine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47485,6 +47944,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_met__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06106"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LYSt" sboTerm="SBO:0000185" id="R_LYSt" name="Transport of L-Lysine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
@@ -47495,6 +47957,9 @@
           <speciesReference species="M_lys__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06107"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_lys__L_e" sboTerm="SBO:0000627" id="R_EX_lys__L_e" name="L-Lysine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47513,6 +47978,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06108"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ARGtabc" sboTerm="SBO:0000185" id="R_ARGtabc" name="Transport of L-Arginine" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47526,6 +47994,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06109"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_arg__L_e" sboTerm="SBO:0000627" id="R_EX_arg__L_e" name="L-Arginine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47541,6 +48012,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06110"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ARGt2" sboTerm="SBO:0000185" id="R_ARGt2" name="Transport of L-Arginine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
@@ -47551,6 +48025,9 @@
           <speciesReference species="M_arg__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06111"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HISt" sboTerm="SBO:0000185" id="R_HISt" name="Transport of L-Histidine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47561,6 +48038,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_his__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06112"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_his__L_e" sboTerm="SBO:0000627" id="R_EX_his__L_e" name="L-Histidine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47579,6 +48059,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06113"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ASPtabc" sboTerm="SBO:0000185" id="R_ASPtabc" name="Transport of L-Aspartate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47592,6 +48075,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06114"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_asp__L_e" sboTerm="SBO:0000627" id="R_EX_asp__L_e" name="L-Aspartate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47607,6 +48093,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_asp__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06115"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ASPt2" sboTerm="SBO:0000185" id="R_ASPt2" name="Transport of L-Aspartate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47615,6 +48104,9 @@
         <listOfProducts>
           <speciesReference species="M_asp__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06116"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLUtabc" sboTerm="SBO:0000185" id="R_GLUtabc" name="Transport of L-Glutamate" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47628,6 +48120,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06117"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_glu__L_e" sboTerm="SBO:0000627" id="R_EX_glu__L_e" name="L-Glutamate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47643,6 +48138,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glu__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06118"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ASNt" sboTerm="SBO:0000185" id="R_ASNt" name="Transport of L-Asparagine" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47653,6 +48151,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_asn__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06119"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLNtabc" sboTerm="SBO:0000185" id="R_GLNtabc" name="Transport of L-Glutamine" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47666,6 +48167,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06120"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_gln__L_e" sboTerm="SBO:0000627" id="R_EX_gln__L_e" name="L-Glutamine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47679,6 +48183,9 @@
         <listOfProducts>
           <speciesReference species="M_gln__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06121"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PROt" sboTerm="SBO:0000185" id="R_PROt" name="Transport of L-Proline" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47689,6 +48196,9 @@
           <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pro__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06122"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_pro__L_e" sboTerm="SBO:0000627" id="R_EX_pro__L_e" name="L-Proline exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -47707,6 +48217,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06123"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACCR" sboTerm="SBO:0000176" id="R_ACCR" name="acceptor regeneration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -47722,6 +48235,9 @@
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_acc_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06124"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACCR2" sboTerm="SBO:0000176" id="R_ACCR2" name="acceptor regeneration variant 2" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -47737,6 +48253,9 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_hacc2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06125"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PROPIRE" sboTerm="SBO:0000176" id="R_PROPIRE" name="phosphoenolpyruvate-protein phosphotransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47758,6 +48277,9 @@
           <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_proNPhis_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06126"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DHNCOAT" sboTerm="SBO:0000176" id="R_DHNCOAT" name="1,4-dihydroxy-2-napthoyl-CoA thioesterase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47781,6 +48303,9 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_dhna_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06127"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_AI2K" sboTerm="SBO:0000176" id="R_AI2K" name="Autoinducer-2 kinase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47803,6 +48328,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_dhptdp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06128"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PAI2I" sboTerm="SBO:0000176" id="R_PAI2I" name="Phospho-AI-2 isomerase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47822,6 +48350,9 @@
         <listOfProducts>
           <speciesReference species="M_dhptdd_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06129"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PAI2T" sboTerm="SBO:0000176" id="R_PAI2T" name="3-hydroxy-2,4-pentadione 5-phosphate thiolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47844,6 +48375,9 @@
           <speciesReference species="M_accoa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_dhap_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06130"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HMP" sboTerm="SBO:0000247" id="R_HMP" name="5-amino-1-(5-phospho-D-ribosyl)imidazole formate-lyase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47870,6 +48404,9 @@
           <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
           <speciesReference species="M_4ampm_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06131"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_THIOD" sboTerm="SBO:0000176" id="R_THIOD" name="Sulfur transferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47896,6 +48433,9 @@
           <speciesReference species="M_enzcys_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_acc3_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06132"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HACC3R" sboTerm="SBO:0000176" id="R_HACC3R" name="Regeneration of hacc3" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -47911,6 +48451,9 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_hacc3_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06133"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_5DOAN" sboTerm="SBO:0000176" id="R_5DOAN" name="5-deoxyadenosine nuclosidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47940,6 +48483,9 @@
           <speciesReference species="M_ade_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_drib_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06134"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EAR60x" sboTerm="SBO:0000176" id="R_EAR60x" name="hexanoyl-[acp]:NAD+ trans-2-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
@@ -47962,6 +48508,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_thex2eACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06135"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BshA" sboTerm="SBO:0000176" id="R_BshA" name="BshA" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -47983,6 +48532,9 @@
           <speciesReference species="M_udp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glcnacmal_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06136"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BshB12" sboTerm="SBO:0000176" id="R_BshB12" name="BshB12" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48004,6 +48556,9 @@
           <speciesReference species="M_ac_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glcmal_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06137"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BshC" sboTerm="SBO:0000176" id="R_BshC" name="BshC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48026,6 +48581,9 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_bacthiolbsh_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06138"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BTHPer" sboTerm="SBO:0000176" id="R_BTHPer" name="BTHPer" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48050,6 +48608,9 @@
           <speciesReference species="M_h2o_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_bacthiolbssb_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06139"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLYOXBACIL" sboTerm="SBO:0000176" id="R_GLYOXBACIL" name="GLYOXBACIL" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
@@ -48075,6 +48636,9 @@
           <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_b13galacbio_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06140"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LBACIL" sboTerm="SBO:0000176" id="R_LBACIL" name="LBACIL" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
         <annotation>
@@ -48098,6 +48662,9 @@
           <speciesReference species="M_mthgxl_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_bacthiolbsh_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06141"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PGP" sboTerm="SBO:0000176" id="R_PGP" name="Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48121,6 +48688,9 @@
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pg_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06142"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CDPPT" sboTerm="SBO:0000176" id="R_CDPPT" name="glycerophosphate phosphatidyltransferase;" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48144,6 +48714,9 @@
           <speciesReference species="M_cmp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pgp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06143"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PSD" sboTerm="SBO:0000176" id="R_PSD" name="phosphatidylserine decarboxylase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48165,6 +48738,9 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pe_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06144"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CLPNS" sboTerm="SBO:0000176" id="R_CLPNS" name="Cardiolipin synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48186,6 +48762,9 @@
           <speciesReference species="M_glyc_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_clpn_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06145"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EAR40y" sboTerm="SBO:0000176" id="R_EAR40y" name="Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C4:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48236,6 +48815,9 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_3hbutACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06146"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_KAS15" sboTerm="SBO:0000176" id="R_KAS15" name="Beta-ketoacyl-ACP synthase (2)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48264,6 +48846,9 @@
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06147"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EAR80y" sboTerm="SBO:0000176" id="R_EAR80y" name="Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C8:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -48437,6 +49022,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_propACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06148"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_3OAS50" sboTerm="SBO:0000176" id="R_3OAS50" name="3-oxopentanoyl-[acyl-carrier-protein] synthase (n-C5:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -48957,6 +49545,9 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06149"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_2MBATA" sboTerm="SBO:0000176" id="R_2MBATA" name="CoA:[acyl-carrier-protein] S-acetyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -48968,6 +49559,9 @@
           <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
           <speciesReference species="M_s2mbACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06150"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_3OMAS70" sboTerm="SBO:0000176" id="R_3OMAS70" name="3-oxo2methylhexanoyl-[acyl-carrier-protein] synthase (anteiso-C7:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -49393,6 +49987,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ivACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06151"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_3O3MAS70" sboTerm="SBO:0000176" id="R_3O3MAS70" name="3-oxo3methylhexanoyl-[acyl-carrier-protein] synthase (iso-C7:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -49818,6 +50415,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ibACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06152"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_3OMAS60" sboTerm="SBO:0000176" id="R_3OMAS60" name="3-oxo-2-Methylpentanoyl-[acyl-carrier-protein] synthase (iso-C6:0)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50250,6 +50850,9 @@
         <listOfProducts>
           <speciesReference species="M_acylACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06153"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_ACYAC" sboTerm="SBO:0000176" id="R_ACYAC" name="CoA:[acyl-carrier-protein] transferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50261,6 +50864,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_acylACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06154"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PPA2" sboTerm="SBO:0000176" id="R_PPA2" name="Inorganic triphosphatase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50293,6 +50899,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06155"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLYBtabc" sboTerm="SBO:0000185" id="R_GLYBtabc" name="Glycine betaine transport via ABC transporter" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50306,6 +50915,9 @@
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glyb_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06156"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GLYBt" sboTerm="SBO:0000185" id="R_GLYBt" name="Glycine betaine transport via proton antiport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50327,6 +50939,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glyb_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06157"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_glyb_e" sboTerm="SBO:0000627" id="R_EX_glyb_e" name="Glycine betaine exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50354,6 +50969,9 @@
           <speciesReference species="M_udp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_salcn_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06158"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NO3tabc" sboTerm="SBO:0000185" id="R_NO3tabc" name="Transport of NO3 via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50378,6 +50996,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06159"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NO3t" sboTerm="SBO:0000185" id="R_NO3t" name="Transport of NO3 via Proton symport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50388,6 +51009,9 @@
           <speciesReference species="M_no3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06160"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_no3_e" sboTerm="SBO:0000627" id="R_EX_no3_e" name="Nitrate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50417,6 +51041,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06161"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NO2t" sboTerm="SBO:0000185" id="R_NO2t" name="Transport of NO2 via Proton symport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50427,6 +51054,9 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_no2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06162"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_no2_e" sboTerm="SBO:0000627" id="R_EX_no2_e" name="Nitrite exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50457,6 +51087,9 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_adp_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06163"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_for_e" sboTerm="SBO:0000627" id="R_EX_for_e" name="Formate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50639,7 +51272,7 @@
           <speciesReference species="M_2fe1s_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_BioB"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06164"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_I2FE2SR" sboTerm="SBO:0000176" id="R_I2FE2SR" name="[2Fe-2S] regeneration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -50662,6 +51295,9 @@
           <speciesReference species="M_enzcys_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_2fe2s_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06165"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DBTS" sboTerm="SBO:0000176" id="R_DBTS" name="Dethiobiotin synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50697,7 +51333,7 @@
           <speciesReference species="M_dtbt_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_BioD"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06166"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_AMAOTr" sboTerm="SBO:0000176" id="R_AMAOTr" name="Adenosylmethionine-8-amino-7-oxononanoate transaminase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -50731,13 +51367,16 @@
           <speciesReference species="M_amob_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_BioD"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06167"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DM_amob_c" sboTerm="SBO:0000628" id="R_DM_amob_c" name="S-Adenosyl-4-methylthio-2-oxobutanoate sink" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_amob_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06168"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_AOXSr" sboTerm="SBO:0000176" id="R_AOXSr" name="8-amino-7-oxononanoate synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50762,6 +51401,9 @@
           <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
           <speciesReference species="M_8aonn_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06169"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PMEACP" sboTerm="SBO:0000176" id="R_PMEACP" name="Pimelate-Coa:ACP transferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -50773,6 +51415,9 @@
           <speciesReference species="M_h_c" stoichiometry="4" constant="true"/>
           <speciesReference species="M_pimACP_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06170"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PMES" sboTerm="SBO:0000176" id="R_PMES" name="pimeloyl-[acyl-carrier protein] synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50798,11 +51443,17 @@
           <speciesReference species="M_pimACP_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nonal_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06171"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DM_nonal_c" sboTerm="SBO:0000628" id="R_DM_nonal_c" name="Nonanal sink" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_nonal_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06172"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BLUB" sboTerm="SBO:0000176" id="R_BLUB" name="5,6-dimethylbenzimidazole synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50827,11 +51478,17 @@
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_diur_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06173"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_DM_diur_c" sboTerm="SBO:0000628" id="R_DM_diur_c" name="dialurate sink" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_diur_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06174"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SHCHF" sboTerm="SBO:0000176" id="R_SHCHF" name="Sirohydrochlorin ferrochelatase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50862,6 +51519,9 @@
           <speciesReference species="M_h_c" stoichiometry="3" constant="true"/>
           <speciesReference species="M_sheme_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06175"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SHCHD2" sboTerm="SBO:0000176" id="R_SHCHD2" name="Sirohydrochlorin dehydrogenase (NAD)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50892,6 +51552,9 @@
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_scl_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06176"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PRE3MT" sboTerm="SBO:0000176" id="R_PRE3MT" name="cobalt-factor III methyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50915,6 +51578,9 @@
           <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06177"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_SHCLCC" sboTerm="SBO:0000176" id="R_SHCLCC" name="sirohydrochlorin cobaltochelatase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50936,6 +51602,9 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_copre5a_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06178"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PRE5H" sboTerm="SBO:0000176" id="R_PRE5H" name="cobalt-precorrin 5A acylhydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50960,7 +51629,7 @@
           <speciesReference species="M_copre5b_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_CbiG"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06179"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CO6AS" sboTerm="SBO:0000176" id="R_CO6AS" name="cobalt-precorrin-6A synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -50986,7 +51655,7 @@
           <speciesReference species="M_copre6a_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_CbiD"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06180"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CO6AR" sboTerm="SBO:0000176" id="R_CO6AR" name="precorrin-6x reductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51013,7 +51682,7 @@
           <speciesReference species="M_copre6b_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_CbiJ"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06181"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CO6MT" sboTerm="SBO:0000176" id="R_CO6MT" name="precorrin-6 methyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51041,7 +51710,7 @@
           <speciesReference species="M_copre8_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_CobL"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06182"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CO8MM" sboTerm="SBO:0000176" id="R_CO8MM" name="precorrin-8 11,12-methylmutase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51065,7 +51734,7 @@
           <speciesReference species="M_cobya_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_CbiC"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06183"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_CO2DS" sboTerm="SBO:0000176" id="R_CO2DS" name="cobyrinate a,c-diamide synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51096,7 +51765,7 @@
           <speciesReference species="M_pi_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_CbiA"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06184"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_GAPD" sboTerm="SBO:0000176" id="R_GAPD" name="glyceraldehyde-3-phosphate dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51168,6 +51837,9 @@
           <speciesReference species="M_13dpg_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06185"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HSERTA" sboTerm="SBO:0000176" id="R_HSERTA" name="homoserine O-acetyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -51191,6 +51863,9 @@
           <speciesReference species="M_achms_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06186"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_LALDDH" sboTerm="SBO:0000176" id="R_LALDDH" name="Llactaldehyde dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -51217,7 +51892,7 @@
           <speciesReference species="M_h_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_yuxG"/>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06187"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PHEHY" sboTerm="SBO:0000176" id="R_PHEHY" name="Phenol hydratase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51245,6 +51920,9 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_hql_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06188"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_C23OHQL" sboTerm="SBO:0000176" id="R_C23OHQL" name="catechol 2,3 dioxygenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -51265,6 +51943,9 @@
         <listOfProducts>
           <speciesReference species="M_dhmsa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06189"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_HMSAH" sboTerm="SBO:0000176" id="R_HMSAH" name="2-hydroxymuconate-6-semialdehyde hydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -51288,6 +51969,9 @@
           <speciesReference species="M_for_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06190"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_PHEHY2" sboTerm="SBO:0000176" id="R_PHEHY2" name="Phenol hydratase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -51314,6 +51998,9 @@
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_23dhymeph_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06191"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_C23OSAL" sboTerm="SBO:0000176" id="R_C23OSAL" name="catechol 2,3 dioxygenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -51334,6 +52021,9 @@
         <listOfProducts>
           <speciesReference species="M_mhmsa_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06192"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_MHMSAH" sboTerm="SBO:0000176" id="R_MHMSAH" name="2-hydroxymuconate-6-semialdehyde hydrolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -51356,6 +52046,9 @@
           <speciesReference species="M_glyclt_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06193"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_UREA2tabc" sboTerm="SBO:0000655" id="R_UREA2tabc" name="Transport of urea via ABC" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
@@ -51375,6 +52068,9 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RTMO06194"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_EX_urea_e" sboTerm="SBO:0000627" id="R_EX_urea_e" name="Urea Exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
@@ -52175,6 +52871,248 @@
       <fbc:geneProduct metaid="meta_G_BCV53_11250" sboTerm="SBO:0000243" fbc:id="G_BCV53_11250" fbc:name="G_BCV53_11250" fbc:label="G_BCV53_11250"/>
       <fbc:geneProduct metaid="meta_G_UrtE" sboTerm="SBO:0000243" fbc:id="G_UrtE" fbc:name="G_UrtE" fbc:label="G_UrtE"/>
       <fbc:geneProduct metaid="meta_G_BCV53_11255" sboTerm="SBO:0000243" fbc:id="G_BCV53_11255" fbc:name="G_BCV53_11255" fbc:label="G_BCV53_11255"/>
+      <fbc:geneProduct fbc:id="G_RTMO05953" fbc:name="G_RTMO05953" fbc:label="G_RTMO05953"/>
+      <fbc:geneProduct fbc:id="G_RTMO05954" fbc:name="G_RTMO05954" fbc:label="G_RTMO05954"/>
+      <fbc:geneProduct fbc:id="G_RTMO05955" fbc:name="G_RTMO05955" fbc:label="G_RTMO05955"/>
+      <fbc:geneProduct fbc:id="G_RTMO05956" fbc:name="G_RTMO05956" fbc:label="G_RTMO05956"/>
+      <fbc:geneProduct fbc:id="G_RTMO05957" fbc:name="G_RTMO05957" fbc:label="G_RTMO05957"/>
+      <fbc:geneProduct fbc:id="G_RTMO05958" fbc:name="G_RTMO05958" fbc:label="G_RTMO05958"/>
+      <fbc:geneProduct fbc:id="G_RTMO05959" fbc:name="G_RTMO05959" fbc:label="G_RTMO05959"/>
+      <fbc:geneProduct fbc:id="G_RTMO05960" fbc:name="G_RTMO05960" fbc:label="G_RTMO05960"/>
+      <fbc:geneProduct fbc:id="G_RTMO05961" fbc:name="G_RTMO05961" fbc:label="G_RTMO05961"/>
+      <fbc:geneProduct fbc:id="G_RTMO05962" fbc:name="G_RTMO05962" fbc:label="G_RTMO05962"/>
+      <fbc:geneProduct fbc:id="G_RTMO05963" fbc:name="G_RTMO05963" fbc:label="G_RTMO05963"/>
+      <fbc:geneProduct fbc:id="G_RTMO05964" fbc:name="G_RTMO05964" fbc:label="G_RTMO05964"/>
+      <fbc:geneProduct fbc:id="G_RTMO05965" fbc:name="G_RTMO05965" fbc:label="G_RTMO05965"/>
+      <fbc:geneProduct fbc:id="G_RTMO05966" fbc:name="G_RTMO05966" fbc:label="G_RTMO05966"/>
+      <fbc:geneProduct fbc:id="G_RTMO05967" fbc:name="G_RTMO05967" fbc:label="G_RTMO05967"/>
+      <fbc:geneProduct fbc:id="G_RTMO05968" fbc:name="G_RTMO05968" fbc:label="G_RTMO05968"/>
+      <fbc:geneProduct fbc:id="G_RTMO05969" fbc:name="G_RTMO05969" fbc:label="G_RTMO05969"/>
+      <fbc:geneProduct fbc:id="G_RTMO05970" fbc:name="G_RTMO05970" fbc:label="G_RTMO05970"/>
+      <fbc:geneProduct fbc:id="G_RTMO05971" fbc:name="G_RTMO05971" fbc:label="G_RTMO05971"/>
+      <fbc:geneProduct fbc:id="G_RTMO05972" fbc:name="G_RTMO05972" fbc:label="G_RTMO05972"/>
+      <fbc:geneProduct fbc:id="G_RTMO05973" fbc:name="G_RTMO05973" fbc:label="G_RTMO05973"/>
+      <fbc:geneProduct fbc:id="G_RTMO05974" fbc:name="G_RTMO05974" fbc:label="G_RTMO05974"/>
+      <fbc:geneProduct fbc:id="G_RTMO05975" fbc:name="G_RTMO05975" fbc:label="G_RTMO05975"/>
+      <fbc:geneProduct fbc:id="G_RTMO05976" fbc:name="G_RTMO05976" fbc:label="G_RTMO05976"/>
+      <fbc:geneProduct fbc:id="G_RTMO05977" fbc:name="G_RTMO05977" fbc:label="G_RTMO05977"/>
+      <fbc:geneProduct fbc:id="G_RTMO05978" fbc:name="G_RTMO05978" fbc:label="G_RTMO05978"/>
+      <fbc:geneProduct fbc:id="G_RTMO05979" fbc:name="G_RTMO05979" fbc:label="G_RTMO05979"/>
+      <fbc:geneProduct fbc:id="G_RTMO05980" fbc:name="G_RTMO05980" fbc:label="G_RTMO05980"/>
+      <fbc:geneProduct fbc:id="G_RTMO05981" fbc:name="G_RTMO05981" fbc:label="G_RTMO05981"/>
+      <fbc:geneProduct fbc:id="G_RTMO05982" fbc:name="G_RTMO05982" fbc:label="G_RTMO05982"/>
+      <fbc:geneProduct fbc:id="G_RTMO05983" fbc:name="G_RTMO05983" fbc:label="G_RTMO05983"/>
+      <fbc:geneProduct fbc:id="G_RTMO05984" fbc:name="G_RTMO05984" fbc:label="G_RTMO05984"/>
+      <fbc:geneProduct fbc:id="G_RTMO05985" fbc:name="G_RTMO05985" fbc:label="G_RTMO05985"/>
+      <fbc:geneProduct fbc:id="G_RTMO05986" fbc:name="G_RTMO05986" fbc:label="G_RTMO05986"/>
+      <fbc:geneProduct fbc:id="G_RTMO05987" fbc:name="G_RTMO05987" fbc:label="G_RTMO05987"/>
+      <fbc:geneProduct fbc:id="G_RTMO05988" fbc:name="G_RTMO05988" fbc:label="G_RTMO05988"/>
+      <fbc:geneProduct fbc:id="G_RTMO05989" fbc:name="G_RTMO05989" fbc:label="G_RTMO05989"/>
+      <fbc:geneProduct fbc:id="G_RTMO05990" fbc:name="G_RTMO05990" fbc:label="G_RTMO05990"/>
+      <fbc:geneProduct fbc:id="G_RTMO05991" fbc:name="G_RTMO05991" fbc:label="G_RTMO05991"/>
+      <fbc:geneProduct fbc:id="G_RTMO05992" fbc:name="G_RTMO05992" fbc:label="G_RTMO05992"/>
+      <fbc:geneProduct fbc:id="G_RTMO05993" fbc:name="G_RTMO05993" fbc:label="G_RTMO05993"/>
+      <fbc:geneProduct fbc:id="G_RTMO05994" fbc:name="G_RTMO05994" fbc:label="G_RTMO05994"/>
+      <fbc:geneProduct fbc:id="G_RTMO05995" fbc:name="G_RTMO05995" fbc:label="G_RTMO05995"/>
+      <fbc:geneProduct fbc:id="G_RTMO05996" fbc:name="G_RTMO05996" fbc:label="G_RTMO05996"/>
+      <fbc:geneProduct fbc:id="G_RTMO05997" fbc:name="G_RTMO05997" fbc:label="G_RTMO05997"/>
+      <fbc:geneProduct fbc:id="G_RTMO05998" fbc:name="G_RTMO05998" fbc:label="G_RTMO05998"/>
+      <fbc:geneProduct fbc:id="G_RTMO05999" fbc:name="G_RTMO05999" fbc:label="G_RTMO05999"/>
+      <fbc:geneProduct fbc:id="G_RTMO06000" fbc:name="G_RTMO06000" fbc:label="G_RTMO06000"/>
+      <fbc:geneProduct fbc:id="G_RTMO06001" fbc:name="G_RTMO06001" fbc:label="G_RTMO06001"/>
+      <fbc:geneProduct fbc:id="G_RTMO06002" fbc:name="G_RTMO06002" fbc:label="G_RTMO06002"/>
+      <fbc:geneProduct fbc:id="G_RTMO06003" fbc:name="G_RTMO06003" fbc:label="G_RTMO06003"/>
+      <fbc:geneProduct fbc:id="G_RTMO06004" fbc:name="G_RTMO06004" fbc:label="G_RTMO06004"/>
+      <fbc:geneProduct fbc:id="G_RTMO06005" fbc:name="G_RTMO06005" fbc:label="G_RTMO06005"/>
+      <fbc:geneProduct fbc:id="G_RTMO06006" fbc:name="G_RTMO06006" fbc:label="G_RTMO06006"/>
+      <fbc:geneProduct fbc:id="G_RTMO06007" fbc:name="G_RTMO06007" fbc:label="G_RTMO06007"/>
+      <fbc:geneProduct fbc:id="G_RTMO06008" fbc:name="G_RTMO06008" fbc:label="G_RTMO06008"/>
+      <fbc:geneProduct fbc:id="G_RTMO06009" fbc:name="G_RTMO06009" fbc:label="G_RTMO06009"/>
+      <fbc:geneProduct fbc:id="G_RTMO06010" fbc:name="G_RTMO06010" fbc:label="G_RTMO06010"/>
+      <fbc:geneProduct fbc:id="G_RTMO06011" fbc:name="G_RTMO06011" fbc:label="G_RTMO06011"/>
+      <fbc:geneProduct fbc:id="G_RTMO06012" fbc:name="G_RTMO06012" fbc:label="G_RTMO06012"/>
+      <fbc:geneProduct fbc:id="G_RTMO06013" fbc:name="G_RTMO06013" fbc:label="G_RTMO06013"/>
+      <fbc:geneProduct fbc:id="G_RTMO06014" fbc:name="G_RTMO06014" fbc:label="G_RTMO06014"/>
+      <fbc:geneProduct fbc:id="G_RTMO06015" fbc:name="G_RTMO06015" fbc:label="G_RTMO06015"/>
+      <fbc:geneProduct fbc:id="G_RTMO06016" fbc:name="G_RTMO06016" fbc:label="G_RTMO06016"/>
+      <fbc:geneProduct fbc:id="G_RTMO06017" fbc:name="G_RTMO06017" fbc:label="G_RTMO06017"/>
+      <fbc:geneProduct fbc:id="G_RTMO06018" fbc:name="G_RTMO06018" fbc:label="G_RTMO06018"/>
+      <fbc:geneProduct fbc:id="G_RTMO06019" fbc:name="G_RTMO06019" fbc:label="G_RTMO06019"/>
+      <fbc:geneProduct fbc:id="G_RTMO06020" fbc:name="G_RTMO06020" fbc:label="G_RTMO06020"/>
+      <fbc:geneProduct fbc:id="G_RTMO06021" fbc:name="G_RTMO06021" fbc:label="G_RTMO06021"/>
+      <fbc:geneProduct fbc:id="G_RTMO06022" fbc:name="G_RTMO06022" fbc:label="G_RTMO06022"/>
+      <fbc:geneProduct fbc:id="G_RTMO06023" fbc:name="G_RTMO06023" fbc:label="G_RTMO06023"/>
+      <fbc:geneProduct fbc:id="G_RTMO06024" fbc:name="G_RTMO06024" fbc:label="G_RTMO06024"/>
+      <fbc:geneProduct fbc:id="G_RTMO06025" fbc:name="G_RTMO06025" fbc:label="G_RTMO06025"/>
+      <fbc:geneProduct fbc:id="G_RTMO06026" fbc:name="G_RTMO06026" fbc:label="G_RTMO06026"/>
+      <fbc:geneProduct fbc:id="G_RTMO06027" fbc:name="G_RTMO06027" fbc:label="G_RTMO06027"/>
+      <fbc:geneProduct fbc:id="G_RTMO06028" fbc:name="G_RTMO06028" fbc:label="G_RTMO06028"/>
+      <fbc:geneProduct fbc:id="G_RTMO06029" fbc:name="G_RTMO06029" fbc:label="G_RTMO06029"/>
+      <fbc:geneProduct fbc:id="G_RTMO06030" fbc:name="G_RTMO06030" fbc:label="G_RTMO06030"/>
+      <fbc:geneProduct fbc:id="G_RTMO06031" fbc:name="G_RTMO06031" fbc:label="G_RTMO06031"/>
+      <fbc:geneProduct fbc:id="G_RTMO06032" fbc:name="G_RTMO06032" fbc:label="G_RTMO06032"/>
+      <fbc:geneProduct fbc:id="G_RTMO06033" fbc:name="G_RTMO06033" fbc:label="G_RTMO06033"/>
+      <fbc:geneProduct fbc:id="G_RTMO06034" fbc:name="G_RTMO06034" fbc:label="G_RTMO06034"/>
+      <fbc:geneProduct fbc:id="G_RTMO06035" fbc:name="G_RTMO06035" fbc:label="G_RTMO06035"/>
+      <fbc:geneProduct fbc:id="G_RTMO06036" fbc:name="G_RTMO06036" fbc:label="G_RTMO06036"/>
+      <fbc:geneProduct fbc:id="G_RTMO06037" fbc:name="G_RTMO06037" fbc:label="G_RTMO06037"/>
+      <fbc:geneProduct fbc:id="G_RTMO06038" fbc:name="G_RTMO06038" fbc:label="G_RTMO06038"/>
+      <fbc:geneProduct fbc:id="G_RTMO06039" fbc:name="G_RTMO06039" fbc:label="G_RTMO06039"/>
+      <fbc:geneProduct fbc:id="G_RTMO06040" fbc:name="G_RTMO06040" fbc:label="G_RTMO06040"/>
+      <fbc:geneProduct fbc:id="G_RTMO06041" fbc:name="G_RTMO06041" fbc:label="G_RTMO06041"/>
+      <fbc:geneProduct fbc:id="G_RTMO06042" fbc:name="G_RTMO06042" fbc:label="G_RTMO06042"/>
+      <fbc:geneProduct fbc:id="G_RTMO06043" fbc:name="G_RTMO06043" fbc:label="G_RTMO06043"/>
+      <fbc:geneProduct fbc:id="G_RTMO06044" fbc:name="G_RTMO06044" fbc:label="G_RTMO06044"/>
+      <fbc:geneProduct fbc:id="G_RTMO06045" fbc:name="G_RTMO06045" fbc:label="G_RTMO06045"/>
+      <fbc:geneProduct fbc:id="G_RTMO06046" fbc:name="G_RTMO06046" fbc:label="G_RTMO06046"/>
+      <fbc:geneProduct fbc:id="G_RTMO06047" fbc:name="G_RTMO06047" fbc:label="G_RTMO06047"/>
+      <fbc:geneProduct fbc:id="G_RTMO06048" fbc:name="G_RTMO06048" fbc:label="G_RTMO06048"/>
+      <fbc:geneProduct fbc:id="G_RTMO06049" fbc:name="G_RTMO06049" fbc:label="G_RTMO06049"/>
+      <fbc:geneProduct fbc:id="G_RTMO06050" fbc:name="G_RTMO06050" fbc:label="G_RTMO06050"/>
+      <fbc:geneProduct fbc:id="G_RTMO06051" fbc:name="G_RTMO06051" fbc:label="G_RTMO06051"/>
+      <fbc:geneProduct fbc:id="G_RTMO06052" fbc:name="G_RTMO06052" fbc:label="G_RTMO06052"/>
+      <fbc:geneProduct fbc:id="G_RTMO06053" fbc:name="G_RTMO06053" fbc:label="G_RTMO06053"/>
+      <fbc:geneProduct fbc:id="G_RTMO06054" fbc:name="G_RTMO06054" fbc:label="G_RTMO06054"/>
+      <fbc:geneProduct fbc:id="G_RTMO06055" fbc:name="G_RTMO06055" fbc:label="G_RTMO06055"/>
+      <fbc:geneProduct fbc:id="G_RTMO06056" fbc:name="G_RTMO06056" fbc:label="G_RTMO06056"/>
+      <fbc:geneProduct fbc:id="G_RTMO06057" fbc:name="G_RTMO06057" fbc:label="G_RTMO06057"/>
+      <fbc:geneProduct fbc:id="G_RTMO06058" fbc:name="G_RTMO06058" fbc:label="G_RTMO06058"/>
+      <fbc:geneProduct fbc:id="G_RTMO06059" fbc:name="G_RTMO06059" fbc:label="G_RTMO06059"/>
+      <fbc:geneProduct fbc:id="G_RTMO06060" fbc:name="G_RTMO06060" fbc:label="G_RTMO06060"/>
+      <fbc:geneProduct fbc:id="G_RTMO06061" fbc:name="G_RTMO06061" fbc:label="G_RTMO06061"/>
+      <fbc:geneProduct fbc:id="G_RTMO06062" fbc:name="G_RTMO06062" fbc:label="G_RTMO06062"/>
+      <fbc:geneProduct fbc:id="G_RTMO06063" fbc:name="G_RTMO06063" fbc:label="G_RTMO06063"/>
+      <fbc:geneProduct fbc:id="G_RTMO06064" fbc:name="G_RTMO06064" fbc:label="G_RTMO06064"/>
+      <fbc:geneProduct fbc:id="G_RTMO06065" fbc:name="G_RTMO06065" fbc:label="G_RTMO06065"/>
+      <fbc:geneProduct fbc:id="G_RTMO06066" fbc:name="G_RTMO06066" fbc:label="G_RTMO06066"/>
+      <fbc:geneProduct fbc:id="G_RTMO06067" fbc:name="G_RTMO06067" fbc:label="G_RTMO06067"/>
+      <fbc:geneProduct fbc:id="G_RTMO06068" fbc:name="G_RTMO06068" fbc:label="G_RTMO06068"/>
+      <fbc:geneProduct fbc:id="G_RTMO06069" fbc:name="G_RTMO06069" fbc:label="G_RTMO06069"/>
+      <fbc:geneProduct fbc:id="G_RTMO06070" fbc:name="G_RTMO06070" fbc:label="G_RTMO06070"/>
+      <fbc:geneProduct fbc:id="G_RTMO06071" fbc:name="G_RTMO06071" fbc:label="G_RTMO06071"/>
+      <fbc:geneProduct fbc:id="G_RTMO06072" fbc:name="G_RTMO06072" fbc:label="G_RTMO06072"/>
+      <fbc:geneProduct fbc:id="G_RTMO06073" fbc:name="G_RTMO06073" fbc:label="G_RTMO06073"/>
+      <fbc:geneProduct fbc:id="G_RTMO06074" fbc:name="G_RTMO06074" fbc:label="G_RTMO06074"/>
+      <fbc:geneProduct fbc:id="G_RTMO06075" fbc:name="G_RTMO06075" fbc:label="G_RTMO06075"/>
+      <fbc:geneProduct fbc:id="G_RTMO06076" fbc:name="G_RTMO06076" fbc:label="G_RTMO06076"/>
+      <fbc:geneProduct fbc:id="G_RTMO06077" fbc:name="G_RTMO06077" fbc:label="G_RTMO06077"/>
+      <fbc:geneProduct fbc:id="G_RTMO06078" fbc:name="G_RTMO06078" fbc:label="G_RTMO06078"/>
+      <fbc:geneProduct fbc:id="G_RTMO06079" fbc:name="G_RTMO06079" fbc:label="G_RTMO06079"/>
+      <fbc:geneProduct fbc:id="G_RTMO06080" fbc:name="G_RTMO06080" fbc:label="G_RTMO06080"/>
+      <fbc:geneProduct fbc:id="G_RTMO06081" fbc:name="G_RTMO06081" fbc:label="G_RTMO06081"/>
+      <fbc:geneProduct fbc:id="G_RTMO06082" fbc:name="G_RTMO06082" fbc:label="G_RTMO06082"/>
+      <fbc:geneProduct fbc:id="G_RTMO06083" fbc:name="G_RTMO06083" fbc:label="G_RTMO06083"/>
+      <fbc:geneProduct fbc:id="G_RTMO06084" fbc:name="G_RTMO06084" fbc:label="G_RTMO06084"/>
+      <fbc:geneProduct fbc:id="G_RTMO06085" fbc:name="G_RTMO06085" fbc:label="G_RTMO06085"/>
+      <fbc:geneProduct fbc:id="G_RTMO06086" fbc:name="G_RTMO06086" fbc:label="G_RTMO06086"/>
+      <fbc:geneProduct fbc:id="G_RTMO06087" fbc:name="G_RTMO06087" fbc:label="G_RTMO06087"/>
+      <fbc:geneProduct fbc:id="G_RTMO06088" fbc:name="G_RTMO06088" fbc:label="G_RTMO06088"/>
+      <fbc:geneProduct fbc:id="G_RTMO06089" fbc:name="G_RTMO06089" fbc:label="G_RTMO06089"/>
+      <fbc:geneProduct fbc:id="G_RTMO06090" fbc:name="G_RTMO06090" fbc:label="G_RTMO06090"/>
+      <fbc:geneProduct fbc:id="G_RTMO06091" fbc:name="G_RTMO06091" fbc:label="G_RTMO06091"/>
+      <fbc:geneProduct fbc:id="G_RTMO06092" fbc:name="G_RTMO06092" fbc:label="G_RTMO06092"/>
+      <fbc:geneProduct fbc:id="G_RTMO06093" fbc:name="G_RTMO06093" fbc:label="G_RTMO06093"/>
+      <fbc:geneProduct fbc:id="G_RTMO06094" fbc:name="G_RTMO06094" fbc:label="G_RTMO06094"/>
+      <fbc:geneProduct fbc:id="G_RTMO06095" fbc:name="G_RTMO06095" fbc:label="G_RTMO06095"/>
+      <fbc:geneProduct fbc:id="G_RTMO06096" fbc:name="G_RTMO06096" fbc:label="G_RTMO06096"/>
+      <fbc:geneProduct fbc:id="G_RTMO06097" fbc:name="G_RTMO06097" fbc:label="G_RTMO06097"/>
+      <fbc:geneProduct fbc:id="G_RTMO06098" fbc:name="G_RTMO06098" fbc:label="G_RTMO06098"/>
+      <fbc:geneProduct fbc:id="G_RTMO06099" fbc:name="G_RTMO06099" fbc:label="G_RTMO06099"/>
+      <fbc:geneProduct fbc:id="G_RTMO06100" fbc:name="G_RTMO06100" fbc:label="G_RTMO06100"/>
+      <fbc:geneProduct fbc:id="G_RTMO06101" fbc:name="G_RTMO06101" fbc:label="G_RTMO06101"/>
+      <fbc:geneProduct fbc:id="G_RTMO06102" fbc:name="G_RTMO06102" fbc:label="G_RTMO06102"/>
+      <fbc:geneProduct fbc:id="G_RTMO06103" fbc:name="G_RTMO06103" fbc:label="G_RTMO06103"/>
+      <fbc:geneProduct fbc:id="G_RTMO06104" fbc:name="G_RTMO06104" fbc:label="G_RTMO06104"/>
+      <fbc:geneProduct fbc:id="G_RTMO06105" fbc:name="G_RTMO06105" fbc:label="G_RTMO06105"/>
+      <fbc:geneProduct fbc:id="G_RTMO06106" fbc:name="G_RTMO06106" fbc:label="G_RTMO06106"/>
+      <fbc:geneProduct fbc:id="G_RTMO06107" fbc:name="G_RTMO06107" fbc:label="G_RTMO06107"/>
+      <fbc:geneProduct fbc:id="G_RTMO06108" fbc:name="G_RTMO06108" fbc:label="G_RTMO06108"/>
+      <fbc:geneProduct fbc:id="G_RTMO06109" fbc:name="G_RTMO06109" fbc:label="G_RTMO06109"/>
+      <fbc:geneProduct fbc:id="G_RTMO06110" fbc:name="G_RTMO06110" fbc:label="G_RTMO06110"/>
+      <fbc:geneProduct fbc:id="G_RTMO06111" fbc:name="G_RTMO06111" fbc:label="G_RTMO06111"/>
+      <fbc:geneProduct fbc:id="G_RTMO06112" fbc:name="G_RTMO06112" fbc:label="G_RTMO06112"/>
+      <fbc:geneProduct fbc:id="G_RTMO06113" fbc:name="G_RTMO06113" fbc:label="G_RTMO06113"/>
+      <fbc:geneProduct fbc:id="G_RTMO06114" fbc:name="G_RTMO06114" fbc:label="G_RTMO06114"/>
+      <fbc:geneProduct fbc:id="G_RTMO06115" fbc:name="G_RTMO06115" fbc:label="G_RTMO06115"/>
+      <fbc:geneProduct fbc:id="G_RTMO06116" fbc:name="G_RTMO06116" fbc:label="G_RTMO06116"/>
+      <fbc:geneProduct fbc:id="G_RTMO06117" fbc:name="G_RTMO06117" fbc:label="G_RTMO06117"/>
+      <fbc:geneProduct fbc:id="G_RTMO06118" fbc:name="G_RTMO06118" fbc:label="G_RTMO06118"/>
+      <fbc:geneProduct fbc:id="G_RTMO06119" fbc:name="G_RTMO06119" fbc:label="G_RTMO06119"/>
+      <fbc:geneProduct fbc:id="G_RTMO06120" fbc:name="G_RTMO06120" fbc:label="G_RTMO06120"/>
+      <fbc:geneProduct fbc:id="G_RTMO06121" fbc:name="G_RTMO06121" fbc:label="G_RTMO06121"/>
+      <fbc:geneProduct fbc:id="G_RTMO06122" fbc:name="G_RTMO06122" fbc:label="G_RTMO06122"/>
+      <fbc:geneProduct fbc:id="G_RTMO06123" fbc:name="G_RTMO06123" fbc:label="G_RTMO06123"/>
+      <fbc:geneProduct fbc:id="G_RTMO06124" fbc:name="G_RTMO06124" fbc:label="G_RTMO06124"/>
+      <fbc:geneProduct fbc:id="G_RTMO06125" fbc:name="G_RTMO06125" fbc:label="G_RTMO06125"/>
+      <fbc:geneProduct fbc:id="G_RTMO06126" fbc:name="G_RTMO06126" fbc:label="G_RTMO06126"/>
+      <fbc:geneProduct fbc:id="G_RTMO06127" fbc:name="G_RTMO06127" fbc:label="G_RTMO06127"/>
+      <fbc:geneProduct fbc:id="G_RTMO06128" fbc:name="G_RTMO06128" fbc:label="G_RTMO06128"/>
+      <fbc:geneProduct fbc:id="G_RTMO06129" fbc:name="G_RTMO06129" fbc:label="G_RTMO06129"/>
+      <fbc:geneProduct fbc:id="G_RTMO06130" fbc:name="G_RTMO06130" fbc:label="G_RTMO06130"/>
+      <fbc:geneProduct fbc:id="G_RTMO06131" fbc:name="G_RTMO06131" fbc:label="G_RTMO06131"/>
+      <fbc:geneProduct fbc:id="G_RTMO06132" fbc:name="G_RTMO06132" fbc:label="G_RTMO06132"/>
+      <fbc:geneProduct fbc:id="G_RTMO06133" fbc:name="G_RTMO06133" fbc:label="G_RTMO06133"/>
+      <fbc:geneProduct fbc:id="G_RTMO06134" fbc:name="G_RTMO06134" fbc:label="G_RTMO06134"/>
+      <fbc:geneProduct fbc:id="G_RTMO06135" fbc:name="G_RTMO06135" fbc:label="G_RTMO06135"/>
+      <fbc:geneProduct fbc:id="G_RTMO06136" fbc:name="G_RTMO06136" fbc:label="G_RTMO06136"/>
+      <fbc:geneProduct fbc:id="G_RTMO06137" fbc:name="G_RTMO06137" fbc:label="G_RTMO06137"/>
+      <fbc:geneProduct fbc:id="G_RTMO06138" fbc:name="G_RTMO06138" fbc:label="G_RTMO06138"/>
+      <fbc:geneProduct fbc:id="G_RTMO06139" fbc:name="G_RTMO06139" fbc:label="G_RTMO06139"/>
+      <fbc:geneProduct fbc:id="G_RTMO06140" fbc:name="G_RTMO06140" fbc:label="G_RTMO06140"/>
+      <fbc:geneProduct fbc:id="G_RTMO06141" fbc:name="G_RTMO06141" fbc:label="G_RTMO06141"/>
+      <fbc:geneProduct fbc:id="G_RTMO06142" fbc:name="G_RTMO06142" fbc:label="G_RTMO06142"/>
+      <fbc:geneProduct fbc:id="G_RTMO06143" fbc:name="G_RTMO06143" fbc:label="G_RTMO06143"/>
+      <fbc:geneProduct fbc:id="G_RTMO06144" fbc:name="G_RTMO06144" fbc:label="G_RTMO06144"/>
+      <fbc:geneProduct fbc:id="G_RTMO06145" fbc:name="G_RTMO06145" fbc:label="G_RTMO06145"/>
+      <fbc:geneProduct fbc:id="G_RTMO06146" fbc:name="G_RTMO06146" fbc:label="G_RTMO06146"/>
+      <fbc:geneProduct fbc:id="G_RTMO06147" fbc:name="G_RTMO06147" fbc:label="G_RTMO06147"/>
+      <fbc:geneProduct fbc:id="G_RTMO06148" fbc:name="G_RTMO06148" fbc:label="G_RTMO06148"/>
+      <fbc:geneProduct fbc:id="G_RTMO06149" fbc:name="G_RTMO06149" fbc:label="G_RTMO06149"/>
+      <fbc:geneProduct fbc:id="G_RTMO06150" fbc:name="G_RTMO06150" fbc:label="G_RTMO06150"/>
+      <fbc:geneProduct fbc:id="G_RTMO06151" fbc:name="G_RTMO06151" fbc:label="G_RTMO06151"/>
+      <fbc:geneProduct fbc:id="G_RTMO06152" fbc:name="G_RTMO06152" fbc:label="G_RTMO06152"/>
+      <fbc:geneProduct fbc:id="G_RTMO06153" fbc:name="G_RTMO06153" fbc:label="G_RTMO06153"/>
+      <fbc:geneProduct fbc:id="G_RTMO06154" fbc:name="G_RTMO06154" fbc:label="G_RTMO06154"/>
+      <fbc:geneProduct fbc:id="G_RTMO06155" fbc:name="G_RTMO06155" fbc:label="G_RTMO06155"/>
+      <fbc:geneProduct fbc:id="G_RTMO06156" fbc:name="G_RTMO06156" fbc:label="G_RTMO06156"/>
+      <fbc:geneProduct fbc:id="G_RTMO06157" fbc:name="G_RTMO06157" fbc:label="G_RTMO06157"/>
+      <fbc:geneProduct fbc:id="G_RTMO06158" fbc:name="G_RTMO06158" fbc:label="G_RTMO06158"/>
+      <fbc:geneProduct fbc:id="G_RTMO06159" fbc:name="G_RTMO06159" fbc:label="G_RTMO06159"/>
+      <fbc:geneProduct fbc:id="G_RTMO06160" fbc:name="G_RTMO06160" fbc:label="G_RTMO06160"/>
+      <fbc:geneProduct fbc:id="G_RTMO06161" fbc:name="G_RTMO06161" fbc:label="G_RTMO06161"/>
+      <fbc:geneProduct fbc:id="G_RTMO06162" fbc:name="G_RTMO06162" fbc:label="G_RTMO06162"/>
+      <fbc:geneProduct fbc:id="G_RTMO06163" fbc:name="G_RTMO06163" fbc:label="G_RTMO06163"/>
+      <fbc:geneProduct fbc:id="G_RTMO06164" fbc:name="BioB" fbc:label="G_RTMO06164"/>
+      <fbc:geneProduct fbc:id="G_RTMO06165" fbc:name="G_RTMO06165" fbc:label="G_RTMO06165"/>
+      <fbc:geneProduct fbc:id="G_RTMO06166" fbc:name="BioD" fbc:label="G_RTMO06166"/>
+      <fbc:geneProduct fbc:id="G_RTMO06167" fbc:name="BioD" fbc:label="G_RTMO06167"/>
+      <fbc:geneProduct fbc:id="G_RTMO06168" fbc:name="G_RTMO06168" fbc:label="G_RTMO06168"/>
+      <fbc:geneProduct fbc:id="G_RTMO06169" fbc:name="G_RTMO06169" fbc:label="G_RTMO06169"/>
+      <fbc:geneProduct fbc:id="G_RTMO06170" fbc:name="G_RTMO06170" fbc:label="G_RTMO06170"/>
+      <fbc:geneProduct fbc:id="G_RTMO06171" fbc:name="G_RTMO06171" fbc:label="G_RTMO06171"/>
+      <fbc:geneProduct fbc:id="G_RTMO06172" fbc:name="G_RTMO06172" fbc:label="G_RTMO06172"/>
+      <fbc:geneProduct fbc:id="G_RTMO06173" fbc:name="G_RTMO06173" fbc:label="G_RTMO06173"/>
+      <fbc:geneProduct fbc:id="G_RTMO06174" fbc:name="G_RTMO06174" fbc:label="G_RTMO06174"/>
+      <fbc:geneProduct fbc:id="G_RTMO06175" fbc:name="G_RTMO06175" fbc:label="G_RTMO06175"/>
+      <fbc:geneProduct fbc:id="G_RTMO06176" fbc:name="G_RTMO06176" fbc:label="G_RTMO06176"/>
+      <fbc:geneProduct fbc:id="G_RTMO06177" fbc:name="G_RTMO06177" fbc:label="G_RTMO06177"/>
+      <fbc:geneProduct fbc:id="G_RTMO06178" fbc:name="G_RTMO06178" fbc:label="G_RTMO06178"/>
+      <fbc:geneProduct fbc:id="G_RTMO06179" fbc:name="CbiG" fbc:label="G_RTMO06179"/>
+      <fbc:geneProduct fbc:id="G_RTMO06180" fbc:name="CbiD" fbc:label="G_RTMO06180"/>
+      <fbc:geneProduct fbc:id="G_RTMO06181" fbc:name="CbiJ" fbc:label="G_RTMO06181"/>
+      <fbc:geneProduct fbc:id="G_RTMO06182" fbc:name="CobL" fbc:label="G_RTMO06182"/>
+      <fbc:geneProduct fbc:id="G_RTMO06183" fbc:name="CbiC" fbc:label="G_RTMO06183"/>
+      <fbc:geneProduct fbc:id="G_RTMO06184" fbc:name="CbiA" fbc:label="G_RTMO06184"/>
+      <fbc:geneProduct fbc:id="G_RTMO06185" fbc:name="G_RTMO06185" fbc:label="G_RTMO06185"/>
+      <fbc:geneProduct fbc:id="G_RTMO06186" fbc:name="G_RTMO06186" fbc:label="G_RTMO06186"/>
+      <fbc:geneProduct fbc:id="G_RTMO06187" fbc:name="yuxG" fbc:label="G_RTMO06187"/>
+      <fbc:geneProduct fbc:id="G_RTMO06188" fbc:name="G_RTMO06188" fbc:label="G_RTMO06188"/>
+      <fbc:geneProduct fbc:id="G_RTMO06189" fbc:name="G_RTMO06189" fbc:label="G_RTMO06189"/>
+      <fbc:geneProduct fbc:id="G_RTMO06190" fbc:name="G_RTMO06190" fbc:label="G_RTMO06190"/>
+      <fbc:geneProduct fbc:id="G_RTMO06191" fbc:name="G_RTMO06191" fbc:label="G_RTMO06191"/>
+      <fbc:geneProduct fbc:id="G_RTMO06192" fbc:name="G_RTMO06192" fbc:label="G_RTMO06192"/>
+      <fbc:geneProduct fbc:id="G_RTMO06193" fbc:name="G_RTMO06193" fbc:label="G_RTMO06193"/>
+      <fbc:geneProduct fbc:id="G_RTMO06194" fbc:name="G_RTMO06194" fbc:label="G_RTMO06194"/>
     </fbc:listOfGeneProducts>
     <groups:listOfGroups>
       <groups:group groups:id="G_00000__32____45____32__Exchange__32__reactions" groups:name="00000 - Exchange reactions" groups:kind="collection">

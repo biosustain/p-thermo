@@ -24718,7 +24718,7 @@
       - h_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05953
     - annotation: !!omap
       - ec-code: 1.1.1.85
       - kegg.reaction: R01652
@@ -27609,7 +27609,7 @@
       - pyr5c_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05954
     - annotation: !!omap
       - kegg.reaction: R03314
       - metanetx.reaction: MNXR99897
@@ -31880,7 +31880,7 @@
       - thex2eACP_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05955
     - annotation: !!omap
       - bigg.reaction: EAR60y
       - ec-code: 2.3.1.86
@@ -32451,7 +32451,7 @@
       - nh4_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05956
     - annotation: !!omap
       - metanetx.reaction: MNXR101950
       - sbo: SBO:0000185
@@ -32469,7 +32469,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05957
     - annotation: !!omap
       - metanetx.reaction: MNXR100236
       - sbo: SBO:0000185
@@ -32487,7 +32487,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05958
     - annotation: !!omap
       - metanetx.reaction: MNXR99504
       - sbo: SBO:0000185
@@ -32499,7 +32499,7 @@
       - h2o_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05959
     - annotation: !!omap
       - metanetx.reaction: MNXR98641
       - sbo: SBO:0000185
@@ -32511,7 +32511,7 @@
       - o2_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05960
     - annotation: !!omap
       - metanetx.reaction: MNXR102090
       - sbo: SBO:0000185
@@ -32523,7 +32523,7 @@
       - co2_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05961
     - annotation: !!omap
       - metanetx.reaction: MNXR97980
       - sbo: SBO:0000185
@@ -32540,7 +32540,7 @@
       - thm_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05962
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -32556,7 +32556,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05963
     - annotation: !!omap
       - metanetx.reaction: MNXR96819
       - sbo: SBO:0000185
@@ -32569,7 +32569,7 @@
       - etoh_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05964
     - annotation: !!omap
       - metanetx.reaction: MNXR96810
       - sbo: SBO:0000185
@@ -32581,7 +32581,7 @@
       - ac_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05965
     - annotation: !!omap
       - metanetx.reaction: MNXR95431
       - sbo: SBO:0000185
@@ -32596,7 +32596,7 @@
       - lac__D_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05966
     - annotation: !!omap
       - metanetx.reaction: MNXR101277
       - sbo: SBO:0000185
@@ -32611,7 +32611,7 @@
       - succ_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05967
     - annotation: !!omap
       - metanetx.reaction: MNXR104619
       - sbo: SBO:0000185
@@ -32626,7 +32626,7 @@
       - lac__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05968
     - annotation: !!omap
       - metanetx.reaction: MNXR100999
       - sbo: SBO:0000185
@@ -32713,7 +32713,7 @@
       - val__L_c: -0.376142857142857
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05969
     - objective_coefficient: 1.0
     - annotation: !!omap
       - sbo: SBO:0000629
@@ -32995,7 +32995,7 @@
       - cthzp_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05970
     - notes: !!omap
       - NAME: 2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate isomerase
     - annotation: !!omap
@@ -33015,7 +33015,7 @@
       - tcscp_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05971
     - notes: !!omap
       - NAME: 1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase
     - annotation: !!omap
@@ -33032,7 +33032,7 @@
       - enzscys_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05972
     - notes: !!omap
       - NAME: L-cysteine:[ThiI] sulfurtransferase
     - annotation: !!omap
@@ -33050,7 +33050,7 @@
       - scpgg_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05973
     - notes: !!omap
       - NAME: ATP:[ThiS] adenylyltransferase
     - annotation: !!omap
@@ -33067,7 +33067,7 @@
       - qh2_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05974
     - notes: !!omap
       - NAME: L-proline:quinone oxidoreductase
     - annotation: !!omap
@@ -33086,7 +33086,7 @@
       - ppi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05975
     - notes: !!omap
       - NAME: biotin:CoA ligase (AMP-forming); biotin:apo-[carboxylase] ligase (AMP-forming);
           ATP:biotin adenylyltransferase
@@ -33110,7 +33110,7 @@
       - h_c: 2.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05976
     - notes: !!omap
       - NAME: Biotinyl-5’-AMP:apo-[carboxylase] ligase (AMP-forming)
     - annotation: !!omap
@@ -33131,7 +33131,7 @@
       - qh2_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05977
     - notes: !!omap
       - NAME: (S)-malate:quinone oxidoreductase
     - annotation: !!omap
@@ -33151,7 +33151,7 @@
       - ppap_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05978
     - notes: !!omap
       - NAME: 2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)
     - annotation: !!omap
@@ -33169,7 +33169,7 @@
       - nadh_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05979
     - annotation: !!omap
       - bigg.reaction: LALDO2x
       - biocyc: META:D-LACTALDEHYDE-DEHYDROGENASE-RXN
@@ -33197,7 +33197,7 @@
       - qh2_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05980
     - notes: !!omap
       - NAME: D-phenylalanine:acceptor oxidoreductase (deaminating)
     - annotation: !!omap
@@ -33216,7 +33216,7 @@
       - pyr_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05981
     - notes: !!omap
       - NAME: pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine
           2-oxidoreductase (decarboxylating, acceptor-acetylating)
@@ -33234,7 +33234,7 @@
       - oaa_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05982
     - notes: !!omap
       - NAME: (S)-Malate:oxygen oxidoreductase
     - annotation: !!omap
@@ -33250,7 +33250,7 @@
       - indole_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05983
     - notes: !!omap
       - NAME: (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase
     - annotation: !!omap
@@ -33268,7 +33268,7 @@
       - h2o_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05984
     - annotation: !!omap
       - bigg.reaction: PGL
       - biocyc: META:6PGLUCONOLACT-RXN
@@ -33313,7 +33313,7 @@
       - thmmp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05985
     - notes: !!omap
       - NAME: 2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl
           phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
@@ -33334,7 +33334,7 @@
       - succoa_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05986
     - notes: !!omap
       - NAME: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
     - annotation: !!omap
@@ -33351,7 +33351,7 @@
       - glyc3p_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05987
     - notes: !!omap
       - NAME: acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase
     - annotation: !!omap
@@ -33368,7 +33368,7 @@
       - pa_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05988
     - notes: !!omap
       - NAME: acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
     - annotation: !!omap
@@ -33386,7 +33386,7 @@
       - ppi_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05989
     - notes: !!omap
       - NAME: CTP:phosphatidate cytidyltransferase
     - annotation: !!omap
@@ -33404,7 +33404,7 @@
       - rr23bdo_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05990
     - notes: !!omap
       - NAME: (R,R)-Butane-2,3-diol:NAD+ oxidoreductase
     - annotation: !!omap
@@ -33422,7 +33422,7 @@
       - nadh_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05991
     - notes: !!omap
       - NAME: (R)-Acetoin:NAD+ oxidoreductase
     - annotation: !!omap
@@ -33442,7 +33442,7 @@
       - nadh_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05992
     - notes: !!omap
       - NAME: acetyl-CoA:acetoin O-acetyltransferase
     - annotation: !!omap
@@ -33460,7 +33460,7 @@
       - hacc_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05993
     - notes: !!omap
       - NOTES: non-enzymatic; flavin, nicotinamide and quinone coenzymes act as acceptor
     - annotation: !!omap
@@ -33474,7 +33474,7 @@
       - hpyr_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05994
     - notes: !!omap
       - NAME: hydroxypyruvate aldose-ketose-isomerase
     - annotation: !!omap
@@ -33492,7 +33492,7 @@
       - nadh_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05995
     - notes: !!omap
       - NAME: (R)-Glycerate:NAD+ oxidoreductase
       - NOTES: NADP+ (see R01747)
@@ -33511,7 +33511,7 @@
       - nadh_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05996
     - notes: !!omap
       - NAME: butanoyl-CoA:NAD+ trans-2-oxidoreductase
     - annotation: !!omap
@@ -33527,7 +33527,7 @@
       - h2o_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05997
     - notes: !!omap
       - NAME: (S)-3-hydroxybutanoyl-CoA hydro-lyase
     - annotation: !!omap
@@ -33542,7 +33542,7 @@
       - cl_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05998
     - annotation: !!omap
       - metanetx.reaction: MNXR96797
       - sbo: SBO:0000185
@@ -33555,7 +33555,7 @@
       - pydx5p_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO05999
     - annotation: !!omap
       - metanetx.reaction: MNXR103359
       - sbo: SBO:0000185
@@ -33567,7 +33567,7 @@
       - gthrd_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06000
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -33578,7 +33578,7 @@
       - Biomass_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06001
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -33589,7 +33589,7 @@
       - thmtp_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06002
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -33602,7 +33602,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06003
     - annotation: !!omap
       - metanetx.reaction: MNXR100237
       - sbo: SBO:0000655
@@ -33617,7 +33617,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06004
     - annotation: !!omap
       - metanetx.reaction: MNXR99662
       - sbo: SBO:0000655
@@ -33634,7 +33634,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06005
     - annotation: !!omap
       - metanetx.reaction: MNXR126447
       - sbo: SBO:0000655
@@ -33652,7 +33652,7 @@
       - xyl__D_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06006
     - annotation: !!omap
       - metanetx.reaction: MNXR105268
       - sbo: SBO:0000655
@@ -33670,7 +33670,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06007
     - annotation: !!omap
       - metanetx.reaction: MNXR100023
       - sbo: SBO:0000655
@@ -33685,7 +33685,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06008
     - annotation: !!omap
       - metanetx.reaction: MNXR101677
       - sbo: SBO:0000655
@@ -33700,7 +33700,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06009
     - annotation: !!omap
       - metanetx.reaction: MNXR96586
       - sbo: SBO:0000655
@@ -33715,7 +33715,7 @@
       - sucr_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06010
     - annotation: !!omap
       - metanetx.reaction: MNXR104643
       - sbo: SBO:0000655
@@ -33728,7 +33728,7 @@
       - glyc_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06011
     - annotation: !!omap
       - metanetx.reaction: MNXR100343
       - sbo: SBO:0000185
@@ -33746,7 +33746,7 @@
       - rib__D_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06012
     - annotation: !!omap
       - metanetx.reaction: MNXR104034
       - sbo: SBO:0000655
@@ -33761,7 +33761,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06013
     - annotation: !!omap
       - metanetx.reaction: MNXR101401
       - sbo: SBO:0000655
@@ -33777,7 +33777,7 @@
       - sbt__D_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06014
     - annotation: !!omap
       - metanetx.reaction: MNXR104290
       - sbo: SBO:0000655
@@ -33792,7 +33792,7 @@
       - sbt6p_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06015
     - annotation: !!omap
       - bigg.reaction: SBTPD
       - ec-code: 1.1.1.140
@@ -33814,7 +33814,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06016
     - annotation: !!omap
       - metanetx.reaction: MNXR95253
       - sbo: SBO:0000655
@@ -33830,7 +33830,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06017
     - annotation: !!omap
       - metanetx.reaction: MNXR95932
       - sbo: SBO:0000655
@@ -33845,7 +33845,7 @@
       - salcn_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06018
     - annotation: !!omap
       - metanetx.reaction: MNXR104266
       - sbo: SBO:0000655
@@ -33863,7 +33863,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06019
     - annotation: !!omap
       - metanetx.reaction: MNXR101362
       - sbo: SBO:0000655
@@ -33878,7 +33878,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06020
     - annotation: !!omap
       - metanetx.reaction: MNXR101363
       - sbo: SBO:0000655
@@ -33893,7 +33893,7 @@
       - tre_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06021
     - annotation: !!omap
       - metanetx.reaction: MNXR104931
       - sbo: SBO:0000655
@@ -33908,7 +33908,7 @@
       - rmn_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06022
     - notes: !!omap
       - NOTES: Assumed passive transport
     - annotation: !!omap
@@ -33923,7 +33923,7 @@
       - rmn_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06023
     - annotation: !!omap
       - bigg.reaction: RMI
       - ec-code: 5.3.1.14
@@ -33948,7 +33948,7 @@
       - rml_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06024
     - annotation: !!omap
       - bigg.reaction: RMK
       - ec-code: 2.7.1.5
@@ -33972,7 +33972,7 @@
       - rml1p_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06025
     - annotation: !!omap
       - bigg.reaction: RMPA
       - biocyc: META:RHAMNULPALDOL-RXN
@@ -33996,7 +33996,7 @@
       - melib_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06026
     - notes: !!omap
       - NOTES: Assumed passive transport
     - annotation: !!omap
@@ -34010,7 +34010,7 @@
       - gtbi_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06027
     - notes: !!omap
       - NOTES: Assumed passive transport
     - annotation: !!omap
@@ -34024,7 +34024,7 @@
       - h2o_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06028
     - notes: !!omap
       - NOTES: Assumed reaction
     - annotation: !!omap
@@ -34037,7 +34037,7 @@
       - tura_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06029
     - notes: !!omap
       - NOTES: Assumed reaction based on data
     - annotation: !!omap
@@ -34052,7 +34052,7 @@
       - tura_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06030
     - notes: !!omap
       - NOTES: Assumed reactions based on data
     - annotation: !!omap
@@ -34065,7 +34065,7 @@
       - kdg2_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06031
     - notes: !!omap
       - NOTES: Assumed reaction from experimental data and bioinformatic indication
     - annotation: !!omap
@@ -34081,7 +34081,7 @@
       - nadph_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06032
     - notes: !!omap
       - NOTES: Assumed reaction from experimental data and bioinformatic indication
     - annotation: !!omap
@@ -34098,7 +34098,7 @@
       - dglcn5_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06033
     - notes: !!omap
       - NOTES: Assumed reaction from experimental data and bioinformatic indication
     - annotation: !!omap
@@ -34115,7 +34115,7 @@
       - nadph_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06034
     - notes: !!omap
       - NOTES: Assumed reaction from experimental data and bioinformatic indication
     - annotation: !!omap
@@ -34132,7 +34132,7 @@
       - mdgp_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06035
     - notes: !!omap
       - NOTES: Assumed reaction from experimental data, though no confirmation on
           trasnport type
@@ -34148,7 +34148,7 @@
       - meoh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06036
     - notes: !!omap
       - NOTES: Assumed reaction from experimental data. This is a side reaction of
           the normal B-galactosidase
@@ -34165,7 +34165,7 @@
       - nadh_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06037
     - annotation: !!omap
       - ec-code: 1.1.1.244
       - kegg.reaction: R00605
@@ -34182,7 +34182,7 @@
       - tag__D_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06038
     - notes: !!omap
       - NOTES: Assumed reaction from experimental data and bioinformatic indication.
     - annotation: !!omap
@@ -34198,7 +34198,7 @@
       - tagdp__D_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06039
     - notes: !!omap
       - ECNumbers: 2.7.1.B6
       - NOTES: Assumed reaction from experimental data and bioinformatic indication
@@ -34213,7 +34213,7 @@
       - tagdp__D_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06040
     - annotation: !!omap
       - bigg.reaction: TGBPA
       - biocyc: META:TAGAALDOL-RXN
@@ -34236,7 +34236,7 @@
       - amylose_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06041
     - annotation: !!omap
       - metanetx.reaction: MNXR142927
       - sbo: SBO:0000185
@@ -34250,7 +34250,7 @@
       - pyr_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06042
     - annotation: !!omap
       - metanetx.reaction: MNXR103385
       - sbo: SBO:0000185
@@ -34455,7 +34455,7 @@
       - h_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06043
     - annotation: !!omap
       - metanetx.reaction: MNXR99621
       - sbo: SBO:0000185
@@ -34470,7 +34470,7 @@
       - pi_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06044
     - annotation: !!omap
       - metanetx.reaction: MNXR102872
       - sbo: SBO:0000185
@@ -34496,7 +34496,7 @@
       - udp_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06045
     - annotation: !!omap
       - bigg.reaction: RNDR4
       - biocyc: META:UDPREDUCT-RXN
@@ -34517,7 +34517,7 @@
       - qh2_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06046
     - annotation: !!omap
       - ec-code: 1.3.5.1
       - kegg.reaction: R02164
@@ -34533,7 +34533,7 @@
       - thrp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06047
     - annotation: !!omap
       - ec-code: 2.7.1.177
       - kegg.reaction: R06531
@@ -34549,7 +34549,7 @@
       - hco3_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06048
     - annotation: !!omap
       - bigg.reaction: HCO3E
       - biocyc:
@@ -34741,7 +34741,7 @@
       - pi_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06049
     - annotation: !!omap
       - bigg.reaction: ATPS4r
       - biocyc: META:ATPSYN-RXN
@@ -34759,7 +34759,7 @@
       - k_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06050
     - annotation: !!omap
       - metanetx.reaction: MNXR100951
       - sbo: SBO:0000185
@@ -34772,7 +34772,7 @@
       - k_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06051
     - annotation: !!omap
       - metanetx.reaction: MNXR100951
       - sbo: SBO:0000185
@@ -34788,7 +34788,7 @@
       - nadh_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06052
     - annotation: !!omap
       - bigg.reaction: FADRx
       - biocyc: META:RXN-8506
@@ -34818,7 +34818,7 @@
       - qh2_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06053
     - annotation: !!omap
       - ec-code: 1.6.5.3
       - kegg.reaction: R11945
@@ -34835,7 +34835,7 @@
       - qh2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06054
     - annotation: !!omap
       - metanetx.reaction: MNXR97035
       - sbo: SBO:0000185
@@ -34860,7 +34860,7 @@
       - so4_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06055
     - annotation: !!omap
       - metanetx.reaction: MNXR104466
       - sbo: SBO:0000185
@@ -34876,7 +34876,7 @@
       - so4_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06056
     - annotation: !!omap
       - bigg.reaction: SADT
       - biocyc: META:SULFATE-ADENYLYLTRANS-RXN
@@ -34920,7 +34920,7 @@
       - paps_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06057
     - annotation: !!omap
       - bigg.reaction: ADSK
       - biocyc: META:ADENYLYLSULFKIN-RXN
@@ -34963,7 +34963,7 @@
       - trdrd_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06058
     - annotation: !!omap
       - bigg.reaction: PAPSR
       - biocyc: META:1.8.4.8-RXN
@@ -34982,7 +34982,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06059
     - annotation: !!omap
       - bigg.reaction: BPNT
       - biocyc: META:325-BISPHOSPHATE-NUCLEOTIDASE-RXN
@@ -35033,7 +35033,7 @@
       - mg2_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06060
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35056,7 +35056,7 @@
       - h_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06061
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35080,7 +35080,7 @@
       - ru5p__L_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06062
     - notes: !!omap
       - NOTES: Added reaction to allow biomass formation. ATP is captured in GAM
     - annotation: !!omap
@@ -35096,7 +35096,7 @@
       - xylu__D_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06063
     - notes: !!omap
       - NOTES: Added reaction to allow biomass formation. ATP is captured in GAM
     - annotation: !!omap
@@ -35112,7 +35112,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06064
     - notes: !!omap
       - NOTES: Added reaction to allow biomass formation. ATP is captured in GAM
     - annotation: !!omap
@@ -35129,7 +35129,7 @@
       - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06065
     - annotation: !!omap
       - bigg.reaction: GCALDD
       - biocyc: META:GLYCOLALD-DEHYDROG-RXN
@@ -35154,7 +35154,7 @@
       - hop_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06066
     - annotation: !!omap
       - bigg.reaction: GLXCBL
       - biocyc: META:GLYOCARBOLIG-RXN
@@ -35178,7 +35178,7 @@
       - utp_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06067
     - annotation: !!omap
       - ec-code: 2.7.7.64
       - kegg.reaction: R08845
@@ -35194,7 +35194,7 @@
       - h_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06068
     - annotation: !!omap
       - ec-code: 2.7.1.46
       - kegg.reaction: R01754
@@ -35207,7 +35207,7 @@
       - udpxyl_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06069
     - annotation: !!omap
       - ec-code: 5.1.3.5
       - kegg.reaction: R01473
@@ -35222,7 +35222,7 @@
       - udpxyl_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06070
     - annotation: !!omap
       - ec-code: 4.1.1.35
       - kegg.reaction: R01384
@@ -35237,7 +35237,7 @@
       - mercplac_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06071
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35260,7 +35260,7 @@
       - h_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06072
     - annotation: !!omap
       - metanetx.reaction: MNXR96353
       - sbo: SBO:0000185
@@ -35285,7 +35285,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06073
     - annotation: !!omap
       - sbo: SBO:0000655
   - !!omap
@@ -35319,7 +35319,7 @@
       - slnt_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06074
     - annotation: !!omap
       - bigg.reaction: SELR
       - metanetx.reaction: MNXR104323
@@ -35342,7 +35342,7 @@
       - sel_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06075
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35365,7 +35365,7 @@
       - h_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06076
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35388,7 +35388,7 @@
       - mesel_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06077
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35411,7 +35411,7 @@
       - methylseac_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06078
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35437,7 +35437,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06079
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35462,7 +35462,7 @@
       - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06080
     - annotation: !!omap
       - bigg.reaction: BETALDHx
       - biocyc: META:BADH-RXN
@@ -35506,7 +35506,7 @@
       - nadph_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06081
     - annotation: !!omap
       - bigg.reaction: BETALDHy
       - ec-code: 1.2.1.8
@@ -35531,7 +35531,7 @@
       - ncam_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06082
     - annotation: !!omap
       - bigg.reaction: NADN
       - biocyc:
@@ -35583,7 +35583,7 @@
       - h_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06083
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35604,7 +35604,7 @@
       - gly_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06084
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35615,7 +35615,7 @@
       - ala__L_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06085
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35638,7 +35638,7 @@
       - h_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06086
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35651,7 +35651,7 @@
       - val__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06087
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35677,7 +35677,7 @@
       - val__L_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06088
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35693,7 +35693,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06089
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35716,7 +35716,7 @@
       - leu__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06090
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35729,7 +35729,7 @@
       - ile__L_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06091
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35755,7 +35755,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06092
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35768,7 +35768,7 @@
       - ile__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06093
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35781,7 +35781,7 @@
       - ser__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06094
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35804,7 +35804,7 @@
       - thr__L_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06095
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35827,7 +35827,7 @@
       - thr__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06096
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35838,7 +35838,7 @@
       - phe__L_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06097
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35861,7 +35861,7 @@
       - phe__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06098
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35872,7 +35872,7 @@
       - tyr__L_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06099
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35895,7 +35895,7 @@
       - tyr__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06100
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35908,7 +35908,7 @@
       - trp__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06101
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35929,7 +35929,7 @@
       - trp__L_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06102
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35945,7 +35945,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06103
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35966,7 +35966,7 @@
       - cys__L_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06104
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -35982,7 +35982,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06105
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36005,7 +36005,7 @@
       - met__L_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06106
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36018,7 +36018,7 @@
       - lys__L_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06107
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36044,7 +36044,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06108
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36060,7 +36060,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06109
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36083,7 +36083,7 @@
       - h_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06110
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36096,7 +36096,7 @@
       - h_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06111
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36109,7 +36109,7 @@
       - his__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06112
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36135,7 +36135,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06113
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36151,7 +36151,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06114
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36174,7 +36174,7 @@
       - h_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06115
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36185,7 +36185,7 @@
       - asp__L_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06116
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36201,7 +36201,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06117
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36224,7 +36224,7 @@
       - h_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06118
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36237,7 +36237,7 @@
       - h_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06119
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36253,7 +36253,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06120
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36274,7 +36274,7 @@
       - gln__L_e: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06121
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36287,7 +36287,7 @@
       - pro__L_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06122
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36313,7 +36313,7 @@
       - pro__L_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06123
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36326,7 +36326,7 @@
       - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06124
     - notes: !!omap
       - NOTES: Assumed regeneration with NADH
     - annotation: !!omap
@@ -36341,7 +36341,7 @@
       - nadph_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06125
     - notes: !!omap
       - NOTES: Assumed regeneration with NADPH
     - annotation: !!omap
@@ -36356,7 +36356,7 @@
       - pyr_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06126
     - annotation: !!omap
       - kegg.reaction: R02628
       - sbo: SBO:0000176
@@ -36371,7 +36371,7 @@
       - h_c: 2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06127
     - annotation: !!omap
       - bigg.reaction: DHNCOAT
       - metanetx.reaction: MNXR97413
@@ -36387,7 +36387,7 @@
       - h_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06128
     - annotation: !!omap
       - bigg.reaction: AI2K
       - sbo: SBO:0000176
@@ -36399,7 +36399,7 @@
       - dhptdp_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06129
     - annotation: !!omap
       - bigg.reaction: PAI2I
       - sbo: SBO:0000176
@@ -36414,7 +36414,7 @@
       - h_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06130
     - annotation: !!omap
       - bigg.reaction: PAI2T
       - sbo: SBO:0000176
@@ -36432,7 +36432,7 @@
       - met__L_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06131
     - annotation: !!omap
       - ec-code: 4.1.99.17
       - kegg.reaction: R03472
@@ -36451,7 +36451,7 @@
       - tcscp_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06132
     - annotation: !!omap
       - ec-code: 2.8.1.11
       - kegg.reaction: R07461
@@ -36466,7 +36466,7 @@
       - nadph_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06133
     - notes: !!omap
       - NOTES: Assumed with NADP(H)
     - annotation: !!omap
@@ -36481,7 +36481,7 @@
       - h2o_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06134
     - annotation: !!omap
       - bigg.reaction: 5DOAN
       - biocyc: META:RXN0-6550
@@ -36506,7 +36506,7 @@
       - thex2eACP_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06135
     - annotation: !!omap
       - kegg.reaction: R04955
       - sbo: SBO:0000176
@@ -36520,7 +36520,7 @@
       - udp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06136
     - annotation: !!omap
       - rhea: '33383'
       - sbo: SBO:0000176
@@ -36534,7 +36534,7 @@
       - h2o_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06137
     - annotation: !!omap
       - rhea: '33411'
       - sbo: SBO:0000176
@@ -36549,7 +36549,7 @@
       - h_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06138
     - annotation: !!omap
       - rhea: '33427'
       - sbo: SBO:0000176
@@ -36563,7 +36563,7 @@
       - h2o_c: 2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06139
     - annotation: !!omap
       - ec-code: 1.11.1.9
       - kegg.reaction: R00274
@@ -36581,7 +36581,7 @@
       - lac__D_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06140
     - annotation: !!omap
       - ec-code: 3.1.2.6
       - kegg.reaction: R01736
@@ -36597,7 +36597,7 @@
       - mthgxl_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 0.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06141
     - annotation: !!omap
       - ec-code: 4.4.1.5
       - kegg.reaction: R02530
@@ -36615,7 +36615,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06142
     - annotation: !!omap
       - ec-code: 3.1.3.27
       - kegg.reaction: R02029
@@ -36631,7 +36631,7 @@
       - pgp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06143
     - annotation: !!omap
       - ec-code: 2.7.8.5
       - kegg.reaction: R01801
@@ -36645,7 +36645,7 @@
       - ps_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06144
     - annotation: !!omap
       - ec-code: 4.1.1.65
       - kegg.reaction: R02055
@@ -36659,7 +36659,7 @@
       - pg_c: -2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06145
     - annotation: !!omap
       - ec-code: 2.7.8.-
       - kegg.reaction: R07390
@@ -36692,7 +36692,7 @@
       - nadph_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06146
     - annotation: !!omap
       - ec-code: 1.1.1.100
       - kegg.reaction: R02767
@@ -36709,7 +36709,7 @@
       - malACP_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06147
     - annotation: !!omap
       - bigg.reaction: KAS15
       - biocyc: META:2.3.1.180-RXN
@@ -36831,7 +36831,7 @@
       - propACP_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06148
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
@@ -37330,7 +37330,7 @@
       - s2mbcoa_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06149
     - notes: !!omap
       - ECNumbers: 1.2.1.25; 1.2.1
     - annotation: !!omap
@@ -37356,7 +37356,7 @@
       - s2mbcoa_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06150
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
@@ -37784,7 +37784,7 @@
       - ivcoa_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06151
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
@@ -38212,7 +38212,7 @@
       - ibcoa_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06152
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
@@ -38647,7 +38647,7 @@
       - pdecACP_c: -0.027
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06153
     - annotation: !!omap
       - sbo: SBO:0000631
   - !!omap
@@ -38661,7 +38661,7 @@
       - h_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06154
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
@@ -38675,7 +38675,7 @@
       - pppi_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06155
     - annotation: !!omap
       - bigg.reaction: PPA2
       - biocyc: META:TRIPHOSPHATASE-RXN
@@ -38703,7 +38703,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06156
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -38716,7 +38716,7 @@
       - h_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06157
     - annotation: !!omap
       - bigg.reaction: GLYBt3pp
       - sbo: SBO:0000185
@@ -38740,7 +38740,7 @@
       - udpg_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06158
     - annotation: !!omap
       - ec-code: 2.4.1.172
       - kegg.reaction: R03558
@@ -38758,7 +38758,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06159
     - annotation: !!omap
       - ec-code: 7.3.2.4
       - sbo: SBO:0000185
@@ -38772,7 +38772,7 @@
       - no3_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06160
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -38798,7 +38798,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06161
     - annotation: !!omap
       - ec-code: 7.3.2.4
       - sbo: SBO:0000185
@@ -38812,7 +38812,7 @@
       - no2_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06162
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -38836,7 +38836,7 @@
       - starch_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06163
     - annotation: !!omap
       - bigg.reaction: GLCS1
       - ec-code: 2.4.1.21
@@ -38952,7 +38952,7 @@
       - met__L_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: BioB
+    - gene_reaction_rule: RTMO06164
     - annotation: !!omap
       - ec-code: 2.8.1.6
       - kegg.reaction: R01078
@@ -38967,7 +38967,7 @@
       - enzscys_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06165
     - annotation: !!omap
       - metanetx.reaction: MNXR100766
       - sbo: SBO:0000176
@@ -38984,7 +38984,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: BioD
+    - gene_reaction_rule: RTMO06166
     - annotation: !!omap
       - bigg.reaction: DBTS
       - biocyc: META:DETHIOBIOTIN-SYN-RXN
@@ -39009,7 +39009,7 @@
       - dann_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: BioD
+    - gene_reaction_rule: RTMO06167
     - annotation: !!omap
       - bigg.reaction: AMAOTr
       - biocyc: META:DAPASYN-RXN
@@ -39031,7 +39031,7 @@
       - amob_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06168
     - annotation: !!omap
       - sbo: SBO:0000628
   - !!omap
@@ -39046,7 +39046,7 @@
       - pimcoa_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06169
     - annotation: !!omap
       - ec-code: 2.3.1.47
       - kegg.reaction: R03210
@@ -39062,7 +39062,7 @@
       - pimcoa_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06170
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
@@ -39078,7 +39078,7 @@
       - pimACP_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06171
     - annotation: !!omap
       - ec-code: 1.14.14.46
       - kegg.reaction: R10123
@@ -39090,7 +39090,7 @@
       - nonal_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06172
     - annotation: !!omap
       - sbo: SBO:0000628
   - !!omap
@@ -39105,7 +39105,7 @@
       - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06173
     - annotation: !!omap
       - ec-code: 1.13.11.79
       - kegg.reaction: R09083
@@ -39117,7 +39117,7 @@
       - diur_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06174
     - annotation: !!omap
       - sbo: SBO:0000628
   - !!omap
@@ -39130,7 +39130,7 @@
       - sheme_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06175
     - annotation: !!omap
       - bigg.reaction: SHCHF
       - biocyc: META:SIROHEME-FERROCHELAT-RXN
@@ -39154,7 +39154,7 @@
       - shcl_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06176
     - annotation: !!omap
       - bigg.reaction: SHCHD2
       - biocyc: META:DIMETHUROPORDEHYDROG-RXN
@@ -39179,7 +39179,7 @@
       - pre4a_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06177
     - annotation: !!omap
       - ec-code: 2.1.1.272
       - kegg.reaction: R11580
@@ -39194,7 +39194,7 @@
       - pre5a_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06178
     - annotation: !!omap
       - ec-code: 4.99.1.3
       - sbo: SBO:0000176
@@ -39208,7 +39208,7 @@
       - h2o_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: CbiG
+    - gene_reaction_rule: RTMO06179
     - annotation: !!omap
       - ec-code: 3.7.1.12
       - kegg.reaction: R07772
@@ -39224,7 +39224,7 @@
       - copre6a_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: CbiD
+    - gene_reaction_rule: RTMO06180
     - annotation: !!omap
       - ec-code: 2.1.1.195
       - kegg.reaction: R07773
@@ -39241,7 +39241,7 @@
       - nadh_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: CbiJ
+    - gene_reaction_rule: RTMO06181
     - annotation: !!omap
       - ec-code: 1.3.1.106
       - kegg.reaction: R05812
@@ -39259,7 +39259,7 @@
       - h_c: 2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: CobL
+    - gene_reaction_rule: RTMO06182
     - annotation: !!omap
       - ec-code: 2.1.1.132
       - kegg.reaction: R05149
@@ -39273,7 +39273,7 @@
       - copre8_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: CbiC
+    - gene_reaction_rule: RTMO06183
     - annotation: !!omap
       - ec-code: 5.4.99.60
       - kegg.reaction: R05814
@@ -39294,7 +39294,7 @@
       - pi_c: 2.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: CbiA
+    - gene_reaction_rule: RTMO06184
     - annotation: !!omap
       - ec-code: 6.3.5.11
       - kegg.reaction: R05815
@@ -39311,7 +39311,7 @@
       - pi_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06185
     - annotation: !!omap
       - bigg.reaction: GAPD
       - biocyc: META:GAPOXNPHOSPHN-RXN
@@ -39375,7 +39375,7 @@
       - hom__L_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06186
     - annotation: !!omap
       - ec-code: 2.3.1.31
       - kegg.reaction: R01776
@@ -39393,7 +39393,7 @@
       - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: yuxG
+    - gene_reaction_rule: RTMO06187
     - annotation: !!omap
       - ec-code: 1.2.1.22
       - kegg.reaction: R01446
@@ -39412,7 +39412,7 @@
       - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06188
     - annotation: !!omap
       - ec-code: 1.14.13.7
       - kegg.reaction: R00815
@@ -39427,7 +39427,7 @@
       - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06189
     - annotation: !!omap
       - ec-code: 1.13.11.2
       - sbo: SBO:0000176
@@ -39443,7 +39443,7 @@
       - nadph_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06190
     - annotation: !!omap
       - ec-code: 3.7.1.9
       - sbo: SBO:0000176
@@ -39460,7 +39460,7 @@
       - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06191
     - annotation: !!omap
       - ec-code: 1.14.13.7
       - kegg.reaction: R00815
@@ -39475,7 +39475,7 @@
       - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06192
     - annotation: !!omap
       - ec-code: 1.13.11.2
       - sbo: SBO:0000176
@@ -39490,7 +39490,7 @@
       - op4en_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06193
     - annotation: !!omap
       - ec-code: 3.7.1.9
       - sbo: SBO:0000176
@@ -39507,7 +39507,7 @@
       - urea_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO06194
     - notes: !!omap
       - KEGGID: K11959; K11960; K11961; K11962; K11963
       - gene: ( BCV53_11240 CDS urea ABC transporter permease subunit UrtB or BCV53_11245
@@ -43452,6 +43452,732 @@
     - name: G_BCV53_11255
     - annotation: !!omap
       - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO05953
+    - name: ''
+  - !!omap
+    - id: RTMO05954
+    - name: ''
+  - !!omap
+    - id: RTMO05955
+    - name: ''
+  - !!omap
+    - id: RTMO05956
+    - name: ''
+  - !!omap
+    - id: RTMO05957
+    - name: ''
+  - !!omap
+    - id: RTMO05958
+    - name: ''
+  - !!omap
+    - id: RTMO05959
+    - name: ''
+  - !!omap
+    - id: RTMO05960
+    - name: ''
+  - !!omap
+    - id: RTMO05961
+    - name: ''
+  - !!omap
+    - id: RTMO05962
+    - name: ''
+  - !!omap
+    - id: RTMO05963
+    - name: ''
+  - !!omap
+    - id: RTMO05964
+    - name: ''
+  - !!omap
+    - id: RTMO05965
+    - name: ''
+  - !!omap
+    - id: RTMO05966
+    - name: ''
+  - !!omap
+    - id: RTMO05967
+    - name: ''
+  - !!omap
+    - id: RTMO05968
+    - name: ''
+  - !!omap
+    - id: RTMO05969
+    - name: ''
+  - !!omap
+    - id: RTMO05970
+    - name: ''
+  - !!omap
+    - id: RTMO05971
+    - name: ''
+  - !!omap
+    - id: RTMO05972
+    - name: ''
+  - !!omap
+    - id: RTMO05973
+    - name: ''
+  - !!omap
+    - id: RTMO05974
+    - name: ''
+  - !!omap
+    - id: RTMO05975
+    - name: ''
+  - !!omap
+    - id: RTMO05976
+    - name: ''
+  - !!omap
+    - id: RTMO05977
+    - name: ''
+  - !!omap
+    - id: RTMO05978
+    - name: ''
+  - !!omap
+    - id: RTMO05979
+    - name: ''
+  - !!omap
+    - id: RTMO05980
+    - name: ''
+  - !!omap
+    - id: RTMO05981
+    - name: ''
+  - !!omap
+    - id: RTMO05982
+    - name: ''
+  - !!omap
+    - id: RTMO05983
+    - name: ''
+  - !!omap
+    - id: RTMO05984
+    - name: ''
+  - !!omap
+    - id: RTMO05985
+    - name: ''
+  - !!omap
+    - id: RTMO05986
+    - name: ''
+  - !!omap
+    - id: RTMO05987
+    - name: ''
+  - !!omap
+    - id: RTMO05988
+    - name: ''
+  - !!omap
+    - id: RTMO05989
+    - name: ''
+  - !!omap
+    - id: RTMO05990
+    - name: ''
+  - !!omap
+    - id: RTMO05991
+    - name: ''
+  - !!omap
+    - id: RTMO05992
+    - name: ''
+  - !!omap
+    - id: RTMO05993
+    - name: ''
+  - !!omap
+    - id: RTMO05994
+    - name: ''
+  - !!omap
+    - id: RTMO05995
+    - name: ''
+  - !!omap
+    - id: RTMO05996
+    - name: ''
+  - !!omap
+    - id: RTMO05997
+    - name: ''
+  - !!omap
+    - id: RTMO05998
+    - name: ''
+  - !!omap
+    - id: RTMO05999
+    - name: ''
+  - !!omap
+    - id: RTMO06000
+    - name: ''
+  - !!omap
+    - id: RTMO06001
+    - name: ''
+  - !!omap
+    - id: RTMO06002
+    - name: ''
+  - !!omap
+    - id: RTMO06003
+    - name: ''
+  - !!omap
+    - id: RTMO06004
+    - name: ''
+  - !!omap
+    - id: RTMO06005
+    - name: ''
+  - !!omap
+    - id: RTMO06006
+    - name: ''
+  - !!omap
+    - id: RTMO06007
+    - name: ''
+  - !!omap
+    - id: RTMO06008
+    - name: ''
+  - !!omap
+    - id: RTMO06009
+    - name: ''
+  - !!omap
+    - id: RTMO06010
+    - name: ''
+  - !!omap
+    - id: RTMO06011
+    - name: ''
+  - !!omap
+    - id: RTMO06012
+    - name: ''
+  - !!omap
+    - id: RTMO06013
+    - name: ''
+  - !!omap
+    - id: RTMO06014
+    - name: ''
+  - !!omap
+    - id: RTMO06015
+    - name: ''
+  - !!omap
+    - id: RTMO06016
+    - name: ''
+  - !!omap
+    - id: RTMO06017
+    - name: ''
+  - !!omap
+    - id: RTMO06018
+    - name: ''
+  - !!omap
+    - id: RTMO06019
+    - name: ''
+  - !!omap
+    - id: RTMO06020
+    - name: ''
+  - !!omap
+    - id: RTMO06021
+    - name: ''
+  - !!omap
+    - id: RTMO06022
+    - name: ''
+  - !!omap
+    - id: RTMO06023
+    - name: ''
+  - !!omap
+    - id: RTMO06024
+    - name: ''
+  - !!omap
+    - id: RTMO06025
+    - name: ''
+  - !!omap
+    - id: RTMO06026
+    - name: ''
+  - !!omap
+    - id: RTMO06027
+    - name: ''
+  - !!omap
+    - id: RTMO06028
+    - name: ''
+  - !!omap
+    - id: RTMO06029
+    - name: ''
+  - !!omap
+    - id: RTMO06030
+    - name: ''
+  - !!omap
+    - id: RTMO06031
+    - name: ''
+  - !!omap
+    - id: RTMO06032
+    - name: ''
+  - !!omap
+    - id: RTMO06033
+    - name: ''
+  - !!omap
+    - id: RTMO06034
+    - name: ''
+  - !!omap
+    - id: RTMO06035
+    - name: ''
+  - !!omap
+    - id: RTMO06036
+    - name: ''
+  - !!omap
+    - id: RTMO06037
+    - name: ''
+  - !!omap
+    - id: RTMO06038
+    - name: ''
+  - !!omap
+    - id: RTMO06039
+    - name: ''
+  - !!omap
+    - id: RTMO06040
+    - name: ''
+  - !!omap
+    - id: RTMO06041
+    - name: ''
+  - !!omap
+    - id: RTMO06042
+    - name: ''
+  - !!omap
+    - id: RTMO06043
+    - name: ''
+  - !!omap
+    - id: RTMO06044
+    - name: ''
+  - !!omap
+    - id: RTMO06045
+    - name: ''
+  - !!omap
+    - id: RTMO06046
+    - name: ''
+  - !!omap
+    - id: RTMO06047
+    - name: ''
+  - !!omap
+    - id: RTMO06048
+    - name: ''
+  - !!omap
+    - id: RTMO06049
+    - name: ''
+  - !!omap
+    - id: RTMO06050
+    - name: ''
+  - !!omap
+    - id: RTMO06051
+    - name: ''
+  - !!omap
+    - id: RTMO06052
+    - name: ''
+  - !!omap
+    - id: RTMO06053
+    - name: ''
+  - !!omap
+    - id: RTMO06054
+    - name: ''
+  - !!omap
+    - id: RTMO06055
+    - name: ''
+  - !!omap
+    - id: RTMO06056
+    - name: ''
+  - !!omap
+    - id: RTMO06057
+    - name: ''
+  - !!omap
+    - id: RTMO06058
+    - name: ''
+  - !!omap
+    - id: RTMO06059
+    - name: ''
+  - !!omap
+    - id: RTMO06060
+    - name: ''
+  - !!omap
+    - id: RTMO06061
+    - name: ''
+  - !!omap
+    - id: RTMO06062
+    - name: ''
+  - !!omap
+    - id: RTMO06063
+    - name: ''
+  - !!omap
+    - id: RTMO06064
+    - name: ''
+  - !!omap
+    - id: RTMO06065
+    - name: ''
+  - !!omap
+    - id: RTMO06066
+    - name: ''
+  - !!omap
+    - id: RTMO06067
+    - name: ''
+  - !!omap
+    - id: RTMO06068
+    - name: ''
+  - !!omap
+    - id: RTMO06069
+    - name: ''
+  - !!omap
+    - id: RTMO06070
+    - name: ''
+  - !!omap
+    - id: RTMO06071
+    - name: ''
+  - !!omap
+    - id: RTMO06072
+    - name: ''
+  - !!omap
+    - id: RTMO06073
+    - name: ''
+  - !!omap
+    - id: RTMO06074
+    - name: ''
+  - !!omap
+    - id: RTMO06075
+    - name: ''
+  - !!omap
+    - id: RTMO06076
+    - name: ''
+  - !!omap
+    - id: RTMO06077
+    - name: ''
+  - !!omap
+    - id: RTMO06078
+    - name: ''
+  - !!omap
+    - id: RTMO06079
+    - name: ''
+  - !!omap
+    - id: RTMO06080
+    - name: ''
+  - !!omap
+    - id: RTMO06081
+    - name: ''
+  - !!omap
+    - id: RTMO06082
+    - name: ''
+  - !!omap
+    - id: RTMO06083
+    - name: ''
+  - !!omap
+    - id: RTMO06084
+    - name: ''
+  - !!omap
+    - id: RTMO06085
+    - name: ''
+  - !!omap
+    - id: RTMO06086
+    - name: ''
+  - !!omap
+    - id: RTMO06087
+    - name: ''
+  - !!omap
+    - id: RTMO06088
+    - name: ''
+  - !!omap
+    - id: RTMO06089
+    - name: ''
+  - !!omap
+    - id: RTMO06090
+    - name: ''
+  - !!omap
+    - id: RTMO06091
+    - name: ''
+  - !!omap
+    - id: RTMO06092
+    - name: ''
+  - !!omap
+    - id: RTMO06093
+    - name: ''
+  - !!omap
+    - id: RTMO06094
+    - name: ''
+  - !!omap
+    - id: RTMO06095
+    - name: ''
+  - !!omap
+    - id: RTMO06096
+    - name: ''
+  - !!omap
+    - id: RTMO06097
+    - name: ''
+  - !!omap
+    - id: RTMO06098
+    - name: ''
+  - !!omap
+    - id: RTMO06099
+    - name: ''
+  - !!omap
+    - id: RTMO06100
+    - name: ''
+  - !!omap
+    - id: RTMO06101
+    - name: ''
+  - !!omap
+    - id: RTMO06102
+    - name: ''
+  - !!omap
+    - id: RTMO06103
+    - name: ''
+  - !!omap
+    - id: RTMO06104
+    - name: ''
+  - !!omap
+    - id: RTMO06105
+    - name: ''
+  - !!omap
+    - id: RTMO06106
+    - name: ''
+  - !!omap
+    - id: RTMO06107
+    - name: ''
+  - !!omap
+    - id: RTMO06108
+    - name: ''
+  - !!omap
+    - id: RTMO06109
+    - name: ''
+  - !!omap
+    - id: RTMO06110
+    - name: ''
+  - !!omap
+    - id: RTMO06111
+    - name: ''
+  - !!omap
+    - id: RTMO06112
+    - name: ''
+  - !!omap
+    - id: RTMO06113
+    - name: ''
+  - !!omap
+    - id: RTMO06114
+    - name: ''
+  - !!omap
+    - id: RTMO06115
+    - name: ''
+  - !!omap
+    - id: RTMO06116
+    - name: ''
+  - !!omap
+    - id: RTMO06117
+    - name: ''
+  - !!omap
+    - id: RTMO06118
+    - name: ''
+  - !!omap
+    - id: RTMO06119
+    - name: ''
+  - !!omap
+    - id: RTMO06120
+    - name: ''
+  - !!omap
+    - id: RTMO06121
+    - name: ''
+  - !!omap
+    - id: RTMO06122
+    - name: ''
+  - !!omap
+    - id: RTMO06123
+    - name: ''
+  - !!omap
+    - id: RTMO06124
+    - name: ''
+  - !!omap
+    - id: RTMO06125
+    - name: ''
+  - !!omap
+    - id: RTMO06126
+    - name: ''
+  - !!omap
+    - id: RTMO06127
+    - name: ''
+  - !!omap
+    - id: RTMO06128
+    - name: ''
+  - !!omap
+    - id: RTMO06129
+    - name: ''
+  - !!omap
+    - id: RTMO06130
+    - name: ''
+  - !!omap
+    - id: RTMO06131
+    - name: ''
+  - !!omap
+    - id: RTMO06132
+    - name: ''
+  - !!omap
+    - id: RTMO06133
+    - name: ''
+  - !!omap
+    - id: RTMO06134
+    - name: ''
+  - !!omap
+    - id: RTMO06135
+    - name: ''
+  - !!omap
+    - id: RTMO06136
+    - name: ''
+  - !!omap
+    - id: RTMO06137
+    - name: ''
+  - !!omap
+    - id: RTMO06138
+    - name: ''
+  - !!omap
+    - id: RTMO06139
+    - name: ''
+  - !!omap
+    - id: RTMO06140
+    - name: ''
+  - !!omap
+    - id: RTMO06141
+    - name: ''
+  - !!omap
+    - id: RTMO06142
+    - name: ''
+  - !!omap
+    - id: RTMO06143
+    - name: ''
+  - !!omap
+    - id: RTMO06144
+    - name: ''
+  - !!omap
+    - id: RTMO06145
+    - name: ''
+  - !!omap
+    - id: RTMO06146
+    - name: ''
+  - !!omap
+    - id: RTMO06147
+    - name: ''
+  - !!omap
+    - id: RTMO06148
+    - name: ''
+  - !!omap
+    - id: RTMO06149
+    - name: ''
+  - !!omap
+    - id: RTMO06150
+    - name: ''
+  - !!omap
+    - id: RTMO06151
+    - name: ''
+  - !!omap
+    - id: RTMO06152
+    - name: ''
+  - !!omap
+    - id: RTMO06153
+    - name: ''
+  - !!omap
+    - id: RTMO06154
+    - name: ''
+  - !!omap
+    - id: RTMO06155
+    - name: ''
+  - !!omap
+    - id: RTMO06156
+    - name: ''
+  - !!omap
+    - id: RTMO06157
+    - name: ''
+  - !!omap
+    - id: RTMO06158
+    - name: ''
+  - !!omap
+    - id: RTMO06159
+    - name: ''
+  - !!omap
+    - id: RTMO06160
+    - name: ''
+  - !!omap
+    - id: RTMO06161
+    - name: ''
+  - !!omap
+    - id: RTMO06162
+    - name: ''
+  - !!omap
+    - id: RTMO06163
+    - name: ''
+  - !!omap
+    - id: RTMO06164
+    - name: BioB
+  - !!omap
+    - id: RTMO06165
+    - name: ''
+  - !!omap
+    - id: RTMO06166
+    - name: BioD
+  - !!omap
+    - id: RTMO06167
+    - name: BioD
+  - !!omap
+    - id: RTMO06168
+    - name: ''
+  - !!omap
+    - id: RTMO06169
+    - name: ''
+  - !!omap
+    - id: RTMO06170
+    - name: ''
+  - !!omap
+    - id: RTMO06171
+    - name: ''
+  - !!omap
+    - id: RTMO06172
+    - name: ''
+  - !!omap
+    - id: RTMO06173
+    - name: ''
+  - !!omap
+    - id: RTMO06174
+    - name: ''
+  - !!omap
+    - id: RTMO06175
+    - name: ''
+  - !!omap
+    - id: RTMO06176
+    - name: ''
+  - !!omap
+    - id: RTMO06177
+    - name: ''
+  - !!omap
+    - id: RTMO06178
+    - name: ''
+  - !!omap
+    - id: RTMO06179
+    - name: CbiG
+  - !!omap
+    - id: RTMO06180
+    - name: CbiD
+  - !!omap
+    - id: RTMO06181
+    - name: CbiJ
+  - !!omap
+    - id: RTMO06182
+    - name: CobL
+  - !!omap
+    - id: RTMO06183
+    - name: CbiC
+  - !!omap
+    - id: RTMO06184
+    - name: CbiA
+  - !!omap
+    - id: RTMO06185
+    - name: ''
+  - !!omap
+    - id: RTMO06186
+    - name: ''
+  - !!omap
+    - id: RTMO06187
+    - name: yuxG
+  - !!omap
+    - id: RTMO06188
+    - name: ''
+  - !!omap
+    - id: RTMO06189
+    - name: ''
+  - !!omap
+    - id: RTMO06190
+    - name: ''
+  - !!omap
+    - id: RTMO06191
+    - name: ''
+  - !!omap
+    - id: RTMO06192
+    - name: ''
+  - !!omap
+    - id: RTMO06193
+    - name: ''
+  - !!omap
+    - id: RTMO06194
+    - name: ''
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
