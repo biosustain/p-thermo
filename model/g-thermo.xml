@@ -52100,22 +52100,12 @@
       <fbc:geneProduct metaid="meta_G_RTMO00832" sboTerm="SBO:0000243" fbc:id="G_RTMO00832" fbc:name="RTMO00832" fbc:label="G_RTMO00832"/>
       <fbc:geneProduct metaid="meta_G_RTMO00831" sboTerm="SBO:0000243" fbc:id="G_RTMO00831" fbc:name="RTMO00831" fbc:label="G_RTMO00831"/>
       <fbc:geneProduct metaid="meta_G_RTMO00139" sboTerm="SBO:0000243" fbc:id="G_RTMO00139" fbc:name="RTMO00139" fbc:label="G_RTMO00139"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00166" sboTerm="SBO:0000243" fbc:id="G_RTMO00166" fbc:name="RTMO00166" fbc:label="G_RTMO00166"/>
       <fbc:geneProduct metaid="meta_G_RTMO02070" sboTerm="SBO:0000243" fbc:id="G_RTMO02070" fbc:name="RTMO02070" fbc:label="G_RTMO02070"/>
       <fbc:geneProduct metaid="meta_G_RTMO04728" sboTerm="SBO:0000243" fbc:id="G_RTMO04728" fbc:name="RTMO04728" fbc:label="G_RTMO04728"/>
       <fbc:geneProduct metaid="meta_G_RTMO03022" sboTerm="SBO:0000243" fbc:id="G_RTMO03022" fbc:name="RTMO03022" fbc:label="G_RTMO03022"/>
       <fbc:geneProduct metaid="meta_G_RTMO01074" sboTerm="SBO:0000243" fbc:id="G_RTMO01074" fbc:name="RTMO01074" fbc:label="G_RTMO01074"/>
       <fbc:geneProduct metaid="meta_G_RTMO01076" sboTerm="SBO:0000243" fbc:id="G_RTMO01076" fbc:name="RTMO01076" fbc:label="G_RTMO01076"/>
       <fbc:geneProduct metaid="meta_G_RTMO03707" sboTerm="SBO:0000243" fbc:id="G_RTMO03707" fbc:name="RTMO03707" fbc:label="G_RTMO03707"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00807" sboTerm="SBO:0000243" fbc:id="G_RTMO00807" fbc:name="RTMO00807" fbc:label="G_RTMO00807"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04339" sboTerm="SBO:0000243" fbc:id="G_RTMO04339" fbc:name="RTMO04339" fbc:label="G_RTMO04339"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04631" sboTerm="SBO:0000243" fbc:id="G_RTMO04631" fbc:name="RTMO04631" fbc:label="G_RTMO04631"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02826" sboTerm="SBO:0000243" fbc:id="G_RTMO02826" fbc:name="RTMO02826" fbc:label="G_RTMO02826"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04632" sboTerm="SBO:0000243" fbc:id="G_RTMO04632" fbc:name="RTMO04632" fbc:label="G_RTMO04632"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02829" sboTerm="SBO:0000243" fbc:id="G_RTMO02829" fbc:name="RTMO02829" fbc:label="G_RTMO02829"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04657" sboTerm="SBO:0000243" fbc:id="G_RTMO04657" fbc:name="RTMO04657" fbc:label="G_RTMO04657"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04633" sboTerm="SBO:0000243" fbc:id="G_RTMO04633" fbc:name="RTMO04633" fbc:label="G_RTMO04633"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02828" sboTerm="SBO:0000243" fbc:id="G_RTMO02828" fbc:name="RTMO02828" fbc:label="G_RTMO02828"/>
       <fbc:geneProduct metaid="meta_G_RTMO03024" sboTerm="SBO:0000243" fbc:id="G_RTMO03024" fbc:name="RTMO03024" fbc:label="G_RTMO03024"/>
       <fbc:geneProduct metaid="meta_G_RTMO00193" sboTerm="SBO:0000243" fbc:id="G_RTMO00193" fbc:name="RTMO00193" fbc:label="G_RTMO00193"/>
       <fbc:geneProduct metaid="meta_G_RTMO00194" sboTerm="SBO:0000243" fbc:id="G_RTMO00194" fbc:name="RTMO00194" fbc:label="G_RTMO00194"/>
@@ -52194,7 +52184,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO00400" sboTerm="SBO:0000243" fbc:id="G_RTMO00400" fbc:name="RTMO00400" fbc:label="G_RTMO00400"/>
       <fbc:geneProduct metaid="meta_G_RTMO04469" sboTerm="SBO:0000243" fbc:id="G_RTMO04469" fbc:name="RTMO04469" fbc:label="G_RTMO04469"/>
       <fbc:geneProduct metaid="meta_G_RTMO05051" sboTerm="SBO:0000243" fbc:id="G_RTMO05051" fbc:name="RTMO05051" fbc:label="G_RTMO05051"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02668" sboTerm="SBO:0000243" fbc:id="G_RTMO02668" fbc:name="RTMO02668" fbc:label="G_RTMO02668"/>
       <fbc:geneProduct metaid="meta_G_RTMO04126" sboTerm="SBO:0000243" fbc:id="G_RTMO04126" fbc:name="RTMO04126" fbc:label="G_RTMO04126"/>
       <fbc:geneProduct metaid="meta_G_RTMO03815" sboTerm="SBO:0000243" fbc:id="G_RTMO03815" fbc:name="RTMO03815" fbc:label="G_RTMO03815"/>
       <fbc:geneProduct metaid="meta_G_RTMO02982" sboTerm="SBO:0000243" fbc:id="G_RTMO02982" fbc:name="RTMO02982" fbc:label="G_RTMO02982"/>
@@ -52235,37 +52224,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO03185" sboTerm="SBO:0000243" fbc:id="G_RTMO03185" fbc:name="RTMO03185" fbc:label="G_RTMO03185"/>
       <fbc:geneProduct metaid="meta_G_RTMO02817" sboTerm="SBO:0000243" fbc:id="G_RTMO02817" fbc:name="RTMO02817" fbc:label="G_RTMO02817"/>
       <fbc:geneProduct metaid="meta_G_RTMO03651" sboTerm="SBO:0000243" fbc:id="G_RTMO03651" fbc:name="RTMO03651" fbc:label="G_RTMO03651"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01971" sboTerm="SBO:0000243" fbc:id="G_RTMO01971" fbc:name="RTMO01971" fbc:label="G_RTMO01971"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02428" sboTerm="SBO:0000243" fbc:id="G_RTMO02428" fbc:name="RTMO02428" fbc:label="G_RTMO02428"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02735" sboTerm="SBO:0000243" fbc:id="G_RTMO02735" fbc:name="RTMO02735" fbc:label="G_RTMO02735"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02913" sboTerm="SBO:0000243" fbc:id="G_RTMO02913" fbc:name="RTMO02913" fbc:label="G_RTMO02913"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02896" sboTerm="SBO:0000243" fbc:id="G_RTMO02896" fbc:name="RTMO02896" fbc:label="G_RTMO02896"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00939" sboTerm="SBO:0000243" fbc:id="G_RTMO00939" fbc:name="RTMO00939" fbc:label="G_RTMO00939"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03427" sboTerm="SBO:0000243" fbc:id="G_RTMO03427" fbc:name="RTMO03427" fbc:label="G_RTMO03427"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02921" sboTerm="SBO:0000243" fbc:id="G_RTMO02921" fbc:name="RTMO02921" fbc:label="G_RTMO02921"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04991" sboTerm="SBO:0000243" fbc:id="G_RTMO04991" fbc:name="RTMO04991" fbc:label="G_RTMO04991"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04905" sboTerm="SBO:0000243" fbc:id="G_RTMO04905" fbc:name="RTMO04905" fbc:label="G_RTMO04905"/>
-      <fbc:geneProduct metaid="meta_G_RTMO05103" sboTerm="SBO:0000243" fbc:id="G_RTMO05103" fbc:name="RTMO05103" fbc:label="G_RTMO05103"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04404" sboTerm="SBO:0000243" fbc:id="G_RTMO04404" fbc:name="RTMO04404" fbc:label="G_RTMO04404"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02403" sboTerm="SBO:0000243" fbc:id="G_RTMO02403" fbc:name="RTMO02403" fbc:label="G_RTMO02403"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01901" sboTerm="SBO:0000243" fbc:id="G_RTMO01901" fbc:name="RTMO01901" fbc:label="G_RTMO01901"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02076" sboTerm="SBO:0000243" fbc:id="G_RTMO02076" fbc:name="RTMO02076" fbc:label="G_RTMO02076"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01431" sboTerm="SBO:0000243" fbc:id="G_RTMO01431" fbc:name="RTMO01431" fbc:label="G_RTMO01431"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00451" sboTerm="SBO:0000243" fbc:id="G_RTMO00451" fbc:name="RTMO00451" fbc:label="G_RTMO00451"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03597" sboTerm="SBO:0000243" fbc:id="G_RTMO03597" fbc:name="RTMO03597" fbc:label="G_RTMO03597"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03599" sboTerm="SBO:0000243" fbc:id="G_RTMO03599" fbc:name="RTMO03599" fbc:label="G_RTMO03599"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00916" sboTerm="SBO:0000243" fbc:id="G_RTMO00916" fbc:name="RTMO00916" fbc:label="G_RTMO00916"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02075" sboTerm="SBO:0000243" fbc:id="G_RTMO02075" fbc:name="RTMO02075" fbc:label="G_RTMO02075"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01322" sboTerm="SBO:0000243" fbc:id="G_RTMO01322" fbc:name="RTMO01322" fbc:label="G_RTMO01322"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03772" sboTerm="SBO:0000243" fbc:id="G_RTMO03772" fbc:name="RTMO03772" fbc:label="G_RTMO03772"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03935" sboTerm="SBO:0000243" fbc:id="G_RTMO03935" fbc:name="RTMO03935" fbc:label="G_RTMO03935"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03877" sboTerm="SBO:0000243" fbc:id="G_RTMO03877" fbc:name="RTMO03877" fbc:label="G_RTMO03877"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01687" sboTerm="SBO:0000243" fbc:id="G_RTMO01687" fbc:name="RTMO01687" fbc:label="G_RTMO01687"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00369" sboTerm="SBO:0000243" fbc:id="G_RTMO00369" fbc:name="RTMO00369" fbc:label="G_RTMO00369"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02773" sboTerm="SBO:0000243" fbc:id="G_RTMO02773" fbc:name="RTMO02773" fbc:label="G_RTMO02773"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00917" sboTerm="SBO:0000243" fbc:id="G_RTMO00917" fbc:name="RTMO00917" fbc:label="G_RTMO00917"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03193" sboTerm="SBO:0000243" fbc:id="G_RTMO03193" fbc:name="RTMO03193" fbc:label="G_RTMO03193"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00640" sboTerm="SBO:0000243" fbc:id="G_RTMO00640" fbc:name="RTMO00640" fbc:label="G_RTMO00640"/>
       <fbc:geneProduct metaid="meta_G_RTMO00353" sboTerm="SBO:0000243" fbc:id="G_RTMO00353" fbc:name="RTMO00353" fbc:label="G_RTMO00353"/>
       <fbc:geneProduct metaid="meta_G_RTMO04574" sboTerm="SBO:0000243" fbc:id="G_RTMO04574" fbc:name="RTMO04574" fbc:label="G_RTMO04574"/>
       <fbc:geneProduct metaid="meta_G_RTMO04156" sboTerm="SBO:0000243" fbc:id="G_RTMO04156" fbc:name="RTMO04156" fbc:label="G_RTMO04156"/>
@@ -52276,12 +52234,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO02942" sboTerm="SBO:0000243" fbc:id="G_RTMO02942" fbc:name="RTMO02942" fbc:label="G_RTMO02942"/>
       <fbc:geneProduct metaid="meta_G_RTMO04290" sboTerm="SBO:0000243" fbc:id="G_RTMO04290" fbc:name="RTMO04290" fbc:label="G_RTMO04290"/>
       <fbc:geneProduct metaid="meta_G_RTMO01075" sboTerm="SBO:0000243" fbc:id="G_RTMO01075" fbc:name="RTMO01075" fbc:label="G_RTMO01075"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04539" sboTerm="SBO:0000243" fbc:id="G_RTMO04539" fbc:name="RTMO04539" fbc:label="G_RTMO04539"/>
-      <fbc:geneProduct metaid="meta_G_RTMO05254" sboTerm="SBO:0000243" fbc:id="G_RTMO05254" fbc:name="RTMO05254" fbc:label="G_RTMO05254"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03624" sboTerm="SBO:0000243" fbc:id="G_RTMO03624" fbc:name="RTMO03624" fbc:label="G_RTMO03624"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04080" sboTerm="SBO:0000243" fbc:id="G_RTMO04080" fbc:name="RTMO04080" fbc:label="G_RTMO04080"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04082" sboTerm="SBO:0000243" fbc:id="G_RTMO04082" fbc:name="RTMO04082" fbc:label="G_RTMO04082"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04824" sboTerm="SBO:0000243" fbc:id="G_RTMO04824" fbc:name="RTMO04824" fbc:label="G_RTMO04824"/>
       <fbc:geneProduct metaid="meta_G_RTMO05423" sboTerm="SBO:0000243" fbc:id="G_RTMO05423" fbc:name="RTMO05423" fbc:label="G_RTMO05423"/>
       <fbc:geneProduct metaid="meta_G_RTMO01083" sboTerm="SBO:0000243" fbc:id="G_RTMO01083" fbc:name="RTMO01083" fbc:label="G_RTMO01083"/>
       <fbc:geneProduct metaid="meta_G_RTMO03094" sboTerm="SBO:0000243" fbc:id="G_RTMO03094" fbc:name="RTMO03094" fbc:label="G_RTMO03094"/>
@@ -52379,7 +52331,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO04263" sboTerm="SBO:0000243" fbc:id="G_RTMO04263" fbc:name="RTMO04263" fbc:label="G_RTMO04263"/>
       <fbc:geneProduct metaid="meta_G_RTMO00597" sboTerm="SBO:0000243" fbc:id="G_RTMO00597" fbc:name="RTMO00597" fbc:label="G_RTMO00597"/>
       <fbc:geneProduct metaid="meta_G_RTMO02808" sboTerm="SBO:0000243" fbc:id="G_RTMO02808" fbc:name="RTMO02808" fbc:label="G_RTMO02808"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00294" sboTerm="SBO:0000243" fbc:id="G_RTMO00294" fbc:name="RTMO00294" fbc:label="G_RTMO00294"/>
       <fbc:geneProduct metaid="meta_G_RTMO01894" sboTerm="SBO:0000243" fbc:id="G_RTMO01894" fbc:name="RTMO01894" fbc:label="G_RTMO01894"/>
       <fbc:geneProduct metaid="meta_G_RTMO01263" sboTerm="SBO:0000243" fbc:id="G_RTMO01263" fbc:name="RTMO01263" fbc:label="G_RTMO01263"/>
       <fbc:geneProduct metaid="meta_G_RTMO03545" sboTerm="SBO:0000243" fbc:id="G_RTMO03545" fbc:name="RTMO03545" fbc:label="G_RTMO03545"/>
@@ -52435,9 +52386,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO01667" sboTerm="SBO:0000243" fbc:id="G_RTMO01667" fbc:name="RTMO01667" fbc:label="G_RTMO01667"/>
       <fbc:geneProduct metaid="meta_G_RTMO02321" sboTerm="SBO:0000243" fbc:id="G_RTMO02321" fbc:name="RTMO02321" fbc:label="G_RTMO02321"/>
       <fbc:geneProduct metaid="meta_G_RTMO04202" sboTerm="SBO:0000243" fbc:id="G_RTMO04202" fbc:name="RTMO04202" fbc:label="G_RTMO04202"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03270" sboTerm="SBO:0000243" fbc:id="G_RTMO03270" fbc:name="RTMO03270" fbc:label="G_RTMO03270"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01485" sboTerm="SBO:0000243" fbc:id="G_RTMO01485" fbc:name="RTMO01485" fbc:label="G_RTMO01485"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04403" sboTerm="SBO:0000243" fbc:id="G_RTMO04403" fbc:name="RTMO04403" fbc:label="G_RTMO04403"/>
       <fbc:geneProduct metaid="meta_G_RTMO01554" sboTerm="SBO:0000243" fbc:id="G_RTMO01554" fbc:name="RTMO01554" fbc:label="G_RTMO01554"/>
       <fbc:geneProduct metaid="meta_G_RTMO03920" sboTerm="SBO:0000243" fbc:id="G_RTMO03920" fbc:name="RTMO03920" fbc:label="G_RTMO03920"/>
       <fbc:geneProduct metaid="meta_G_RTMO02943" sboTerm="SBO:0000243" fbc:id="G_RTMO02943" fbc:name="RTMO02943" fbc:label="G_RTMO02943"/>
@@ -52465,7 +52413,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO05753" sboTerm="SBO:0000243" fbc:id="G_RTMO05753" fbc:name="RTMO05753" fbc:label="G_RTMO05753"/>
       <fbc:geneProduct metaid="meta_G_RTMO00186" sboTerm="SBO:0000243" fbc:id="G_RTMO00186" fbc:name="RTMO00186" fbc:label="G_RTMO00186"/>
       <fbc:geneProduct metaid="meta_G_RTMO01099" sboTerm="SBO:0000243" fbc:id="G_RTMO01099" fbc:name="RTMO01099" fbc:label="G_RTMO01099"/>
-      <fbc:geneProduct metaid="meta_G_RTMO05090" sboTerm="SBO:0000243" fbc:id="G_RTMO05090" fbc:name="RTMO05090" fbc:label="G_RTMO05090"/>
       <fbc:geneProduct metaid="meta_G_RTMO05021" sboTerm="SBO:0000243" fbc:id="G_RTMO05021" fbc:name="RTMO05021" fbc:label="G_RTMO05021"/>
       <fbc:geneProduct metaid="meta_G_RTMO04143" sboTerm="SBO:0000243" fbc:id="G_RTMO04143" fbc:name="RTMO04143" fbc:label="G_RTMO04143"/>
       <fbc:geneProduct metaid="meta_G_RTMO04464" sboTerm="SBO:0000243" fbc:id="G_RTMO04464" fbc:name="RTMO04464" fbc:label="G_RTMO04464"/>
@@ -52500,7 +52447,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO01155" sboTerm="SBO:0000243" fbc:id="G_RTMO01155" fbc:name="RTMO01155" fbc:label="G_RTMO01155"/>
       <fbc:geneProduct metaid="meta_G_RTMO00865" sboTerm="SBO:0000243" fbc:id="G_RTMO00865" fbc:name="RTMO00865" fbc:label="G_RTMO00865"/>
       <fbc:geneProduct metaid="meta_G_RTMO02304" sboTerm="SBO:0000243" fbc:id="G_RTMO02304" fbc:name="RTMO02304" fbc:label="G_RTMO02304"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02606" sboTerm="SBO:0000243" fbc:id="G_RTMO02606" fbc:name="RTMO02606" fbc:label="G_RTMO02606"/>
       <fbc:geneProduct metaid="meta_G_RTMO01987" sboTerm="SBO:0000243" fbc:id="G_RTMO01987" fbc:name="RTMO01987" fbc:label="G_RTMO01987"/>
       <fbc:geneProduct metaid="meta_G_RTMO02722" sboTerm="SBO:0000243" fbc:id="G_RTMO02722" fbc:name="RTMO02722" fbc:label="G_RTMO02722"/>
       <fbc:geneProduct metaid="meta_G_RTMO04195" sboTerm="SBO:0000243" fbc:id="G_RTMO04195" fbc:name="RTMO04195" fbc:label="G_RTMO04195"/>
@@ -52524,7 +52470,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO02017" sboTerm="SBO:0000243" fbc:id="G_RTMO02017" fbc:name="RTMO02017" fbc:label="G_RTMO02017"/>
       <fbc:geneProduct metaid="meta_G_RTMO04123" sboTerm="SBO:0000243" fbc:id="G_RTMO04123" fbc:name="RTMO04123" fbc:label="G_RTMO04123"/>
       <fbc:geneProduct metaid="meta_G_RTMO02594" sboTerm="SBO:0000243" fbc:id="G_RTMO02594" fbc:name="RTMO02594" fbc:label="G_RTMO02594"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01743" sboTerm="SBO:0000243" fbc:id="G_RTMO01743" fbc:name="RTMO01743" fbc:label="G_RTMO01743"/>
       <fbc:geneProduct metaid="meta_G_RTMO01745" sboTerm="SBO:0000243" fbc:id="G_RTMO01745" fbc:name="RTMO01745" fbc:label="G_RTMO01745"/>
       <fbc:geneProduct metaid="meta_G_RTMO03096" sboTerm="SBO:0000243" fbc:id="G_RTMO03096" fbc:name="RTMO03096" fbc:label="G_RTMO03096"/>
       <fbc:geneProduct metaid="meta_G_RTMO03252" sboTerm="SBO:0000243" fbc:id="G_RTMO03252" fbc:name="RTMO03252" fbc:label="G_RTMO03252"/>
@@ -52545,10 +52490,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO00732" sboTerm="SBO:0000243" fbc:id="G_RTMO00732" fbc:name="RTMO00732" fbc:label="G_RTMO00732"/>
       <fbc:geneProduct metaid="meta_G_RTMO01098" sboTerm="SBO:0000243" fbc:id="G_RTMO01098" fbc:name="RTMO01098" fbc:label="G_RTMO01098"/>
       <fbc:geneProduct metaid="meta_G_RTMO02346" sboTerm="SBO:0000243" fbc:id="G_RTMO02346" fbc:name="RTMO02346" fbc:label="G_RTMO02346"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00073" sboTerm="SBO:0000243" fbc:id="G_RTMO00073" fbc:name="RTMO00073" fbc:label="G_RTMO00073"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00042" sboTerm="SBO:0000243" fbc:id="G_RTMO00042" fbc:name="RTMO00042" fbc:label="G_RTMO00042"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01746" sboTerm="SBO:0000243" fbc:id="G_RTMO01746" fbc:name="RTMO01746" fbc:label="G_RTMO01746"/>
-      <fbc:geneProduct metaid="meta_G_RTMO012345" sboTerm="SBO:0000243" fbc:id="G_RTMO012345" fbc:name="RTMO012345" fbc:label="G_RTMO012345"/>
       <fbc:geneProduct metaid="meta_G_RTMO01749" sboTerm="SBO:0000243" fbc:id="G_RTMO01749" fbc:name="RTMO01749" fbc:label="G_RTMO01749"/>
       <fbc:geneProduct metaid="meta_G_RTMO02376" sboTerm="SBO:0000243" fbc:id="G_RTMO02376" fbc:name="RTMO02376" fbc:label="G_RTMO02376"/>
       <fbc:geneProduct metaid="meta_G_RTMO02389" sboTerm="SBO:0000243" fbc:id="G_RTMO02389" fbc:name="RTMO02389" fbc:label="G_RTMO02389"/>
@@ -52573,8 +52514,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO00472" sboTerm="SBO:0000243" fbc:id="G_RTMO00472" fbc:name="RTMO00472" fbc:label="G_RTMO00472"/>
       <fbc:geneProduct metaid="meta_G_RTMO04923" sboTerm="SBO:0000243" fbc:id="G_RTMO04923" fbc:name="RTMO04923" fbc:label="G_RTMO04923"/>
       <fbc:geneProduct metaid="meta_G_RTMO05123" sboTerm="SBO:0000243" fbc:id="G_RTMO05123" fbc:name="RTMO05123" fbc:label="G_RTMO05123"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04169" sboTerm="SBO:0000243" fbc:id="G_RTMO04169" fbc:name="RTMO04169" fbc:label="G_RTMO04169"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03217" sboTerm="SBO:0000243" fbc:id="G_RTMO03217" fbc:name="RTMO03217" fbc:label="G_RTMO03217"/>
       <fbc:geneProduct metaid="meta_G_RTMO03966" sboTerm="SBO:0000243" fbc:id="G_RTMO03966" fbc:name="RTMO03966" fbc:label="G_RTMO03966"/>
       <fbc:geneProduct metaid="meta_G_RTMO03335" sboTerm="SBO:0000243" fbc:id="G_RTMO03335" fbc:name="RTMO03335" fbc:label="G_RTMO03335"/>
       <fbc:geneProduct metaid="meta_G_RTMO03340" sboTerm="SBO:0000243" fbc:id="G_RTMO03340" fbc:name="RTMO03340" fbc:label="G_RTMO03340"/>
@@ -52613,32 +52552,16 @@
       <fbc:geneProduct metaid="meta_G_RTMO02101" sboTerm="SBO:0000243" fbc:id="G_RTMO02101" fbc:name="RTMO02101" fbc:label="G_RTMO02101"/>
       <fbc:geneProduct metaid="meta_G_RTMO02765" sboTerm="SBO:0000243" fbc:id="G_RTMO02765" fbc:name="RTMO02765" fbc:label="G_RTMO02765"/>
       <fbc:geneProduct metaid="meta_G_RTMO03213" sboTerm="SBO:0000243" fbc:id="G_RTMO03213" fbc:name="RTMO03213" fbc:label="G_RTMO03213"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00214" sboTerm="SBO:0000243" fbc:id="G_RTMO00214" fbc:name="RTMO00214" fbc:label="G_RTMO00214"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00213" sboTerm="SBO:0000243" fbc:id="G_RTMO00213" fbc:name="RTMO00213" fbc:label="G_RTMO00213"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00207" sboTerm="SBO:0000243" fbc:id="G_RTMO00207" fbc:name="RTMO00207" fbc:label="G_RTMO00207"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00208" sboTerm="SBO:0000243" fbc:id="G_RTMO00208" fbc:name="RTMO00208" fbc:label="G_RTMO00208"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00206" sboTerm="SBO:0000243" fbc:id="G_RTMO00206" fbc:name="RTMO00206" fbc:label="G_RTMO00206"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00205" sboTerm="SBO:0000243" fbc:id="G_RTMO00205" fbc:name="RTMO00205" fbc:label="G_RTMO00205"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02166" sboTerm="SBO:0000243" fbc:id="G_RTMO02166" fbc:name="RTMO02166" fbc:label="G_RTMO02166"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02047" sboTerm="SBO:0000243" fbc:id="G_RTMO02047" fbc:name="RTMO02047" fbc:label="G_RTMO02047"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00212" sboTerm="SBO:0000243" fbc:id="G_RTMO00212" fbc:name="RTMO00212" fbc:label="G_RTMO00212"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00209" sboTerm="SBO:0000243" fbc:id="G_RTMO00209" fbc:name="RTMO00209" fbc:label="G_RTMO00209"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00211" sboTerm="SBO:0000243" fbc:id="G_RTMO00211" fbc:name="RTMO00211" fbc:label="G_RTMO00211"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00210" sboTerm="SBO:0000243" fbc:id="G_RTMO00210" fbc:name="RTMO00210" fbc:label="G_RTMO00210"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00204" sboTerm="SBO:0000243" fbc:id="G_RTMO00204" fbc:name="RTMO00204" fbc:label="G_RTMO00204"/>
       <fbc:geneProduct metaid="meta_G_RTMO01371" sboTerm="SBO:0000243" fbc:id="G_RTMO01371" fbc:name="RTMO01371" fbc:label="G_RTMO01371"/>
       <fbc:geneProduct metaid="meta_G_RTMO03021" sboTerm="SBO:0000243" fbc:id="G_RTMO03021" fbc:name="RTMO03021" fbc:label="G_RTMO03021"/>
       <fbc:geneProduct metaid="meta_G_RTMO00695" sboTerm="SBO:0000243" fbc:id="G_RTMO00695" fbc:name="RTMO00695" fbc:label="G_RTMO00695"/>
       <fbc:geneProduct metaid="meta_G_RTMO03811" sboTerm="SBO:0000243" fbc:id="G_RTMO03811" fbc:name="RTMO03811" fbc:label="G_RTMO03811"/>
       <fbc:geneProduct metaid="meta_G_RTMO04535" sboTerm="SBO:0000243" fbc:id="G_RTMO04535" fbc:name="RTMO04535" fbc:label="G_RTMO04535"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03757" sboTerm="SBO:0000243" fbc:id="G_RTMO03757" fbc:name="RTMO03757" fbc:label="G_RTMO03757"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04532" sboTerm="SBO:0000243" fbc:id="G_RTMO04532" fbc:name="RTMO04532" fbc:label="G_RTMO04532"/>
       <fbc:geneProduct metaid="meta_G_RTMO01096" sboTerm="SBO:0000243" fbc:id="G_RTMO01096" fbc:name="RTMO01096" fbc:label="G_RTMO01096"/>
       <fbc:geneProduct metaid="meta_G_RTMO05095" sboTerm="SBO:0000243" fbc:id="G_RTMO05095" fbc:name="RTMO05095" fbc:label="G_RTMO05095"/>
       <fbc:geneProduct metaid="meta_G_RTMO00081" sboTerm="SBO:0000243" fbc:id="G_RTMO00081" fbc:name="RTMO00081" fbc:label="G_RTMO00081"/>
       <fbc:geneProduct metaid="meta_G_RTMO02641" sboTerm="SBO:0000243" fbc:id="G_RTMO02641" fbc:name="RTMO02641" fbc:label="G_RTMO02641"/>
       <fbc:geneProduct metaid="meta_G_RTMO04918" sboTerm="SBO:0000243" fbc:id="G_RTMO04918" fbc:name="RTMO04918" fbc:label="G_RTMO04918"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03216" sboTerm="SBO:0000243" fbc:id="G_RTMO03216" fbc:name="RTMO03216" fbc:label="G_RTMO03216"/>
       <fbc:geneProduct metaid="meta_G_RTMO01727" sboTerm="SBO:0000243" fbc:id="G_RTMO01727" fbc:name="RTMO01727" fbc:label="G_RTMO01727"/>
       <fbc:geneProduct metaid="meta_G_RTMO02720" sboTerm="SBO:0000243" fbc:id="G_RTMO02720" fbc:name="RTMO02720" fbc:label="G_RTMO02720"/>
       <fbc:geneProduct metaid="meta_G_RTMO04239" sboTerm="SBO:0000243" fbc:id="G_RTMO04239" fbc:name="RTMO04239" fbc:label="G_RTMO04239"/>
@@ -52659,7 +52582,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO03695" sboTerm="SBO:0000243" fbc:id="G_RTMO03695" fbc:name="RTMO03695" fbc:label="G_RTMO03695"/>
       <fbc:geneProduct metaid="meta_G_RTMO01301" sboTerm="SBO:0000243" fbc:id="G_RTMO01301" fbc:name="RTMO01301" fbc:label="G_RTMO01301"/>
       <fbc:geneProduct metaid="meta_G_RTMO03535" sboTerm="SBO:0000243" fbc:id="G_RTMO03535" fbc:name="RTMO03535" fbc:label="G_RTMO03535"/>
-      <fbc:geneProduct metaid="meta_G_RTMO01691" sboTerm="SBO:0000243" fbc:id="G_RTMO01691" fbc:name="RTMO01691" fbc:label="G_RTMO01691"/>
       <fbc:geneProduct metaid="meta_G_RTMO00873" sboTerm="SBO:0000243" fbc:id="G_RTMO00873" fbc:name="RTMO00873" fbc:label="G_RTMO00873"/>
       <fbc:geneProduct metaid="meta_G_RTMO01255" sboTerm="SBO:0000243" fbc:id="G_RTMO01255" fbc:name="RTMO01255" fbc:label="G_RTMO01255"/>
       <fbc:geneProduct metaid="meta_G_RTMO01251" sboTerm="SBO:0000243" fbc:id="G_RTMO01251" fbc:name="RTMO01251" fbc:label="G_RTMO01251"/>
@@ -52705,13 +52627,9 @@
       <fbc:geneProduct metaid="meta_G_RTMO01130" sboTerm="SBO:0000243" fbc:id="G_RTMO01130" fbc:name="RTMO01130" fbc:label="G_RTMO01130"/>
       <fbc:geneProduct metaid="meta_G_RTMO04095" sboTerm="SBO:0000243" fbc:id="G_RTMO04095" fbc:name="RTMO04095" fbc:label="G_RTMO04095"/>
       <fbc:geneProduct metaid="meta_G_RTMO04100" sboTerm="SBO:0000243" fbc:id="G_RTMO04100" fbc:name="RTMO04100" fbc:label="G_RTMO04100"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03371" sboTerm="SBO:0000243" fbc:id="G_RTMO03371" fbc:name="RTMO03371" fbc:label="G_RTMO03371"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04758" sboTerm="SBO:0000243" fbc:id="G_RTMO04758" fbc:name="RTMO04758" fbc:label="G_RTMO04758"/>
-      <fbc:geneProduct metaid="meta_G_RTMO03441" sboTerm="SBO:0000243" fbc:id="G_RTMO03441" fbc:name="RTMO03441" fbc:label="G_RTMO03441"/>
       <fbc:geneProduct metaid="meta_G_RTMO02965" sboTerm="SBO:0000243" fbc:id="G_RTMO02965" fbc:name="RTMO02965" fbc:label="G_RTMO02965"/>
       <fbc:geneProduct metaid="meta_G_RTMO00765" sboTerm="SBO:0000243" fbc:id="G_RTMO00765" fbc:name="RTMO00765" fbc:label="G_RTMO00765"/>
       <fbc:geneProduct metaid="meta_G_RTMO02254" sboTerm="SBO:0000243" fbc:id="G_RTMO02254" fbc:name="RTMO02254" fbc:label="G_RTMO02254"/>
-      <fbc:geneProduct metaid="meta_G_RTMO04616" sboTerm="SBO:0000243" fbc:id="G_RTMO04616" fbc:name="RTMO04616" fbc:label="G_RTMO04616"/>
       <fbc:geneProduct metaid="meta_G_RTMO03326" sboTerm="SBO:0000243" fbc:id="G_RTMO03326" fbc:name="RTMO03326" fbc:label="G_RTMO03326"/>
       <fbc:geneProduct metaid="meta_G_RTMO02971" sboTerm="SBO:0000243" fbc:id="G_RTMO02971" fbc:name="RTMO02971" fbc:label="G_RTMO02971"/>
       <fbc:geneProduct metaid="meta_G_RTMO04296" sboTerm="SBO:0000243" fbc:id="G_RTMO04296" fbc:name="RTMO04296" fbc:label="G_RTMO04296"/>
@@ -52774,7 +52692,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO04186" sboTerm="SBO:0000243" fbc:id="G_RTMO04186" fbc:name="RTMO04186" fbc:label="G_RTMO04186"/>
       <fbc:geneProduct metaid="meta_G_RTMO04203" sboTerm="SBO:0000243" fbc:id="G_RTMO04203" fbc:name="RTMO04203" fbc:label="G_RTMO04203"/>
       <fbc:geneProduct metaid="meta_G_RTMO00386" sboTerm="SBO:0000243" fbc:id="G_RTMO00386" fbc:name="RTMO00386" fbc:label="G_RTMO00386"/>
-      <fbc:geneProduct metaid="meta_G_RTMO00378" sboTerm="SBO:0000243" fbc:id="G_RTMO00378" fbc:name="RTMO00378" fbc:label="G_RTMO00378"/>
       <fbc:geneProduct metaid="meta_G_RTMO02379" sboTerm="SBO:0000243" fbc:id="G_RTMO02379" fbc:name="RTMO02379" fbc:label="G_RTMO02379"/>
       <fbc:geneProduct metaid="meta_G_RTMO00387" sboTerm="SBO:0000243" fbc:id="G_RTMO00387" fbc:name="RTMO00387" fbc:label="G_RTMO00387"/>
       <fbc:geneProduct metaid="meta_G_RTMO00846" sboTerm="SBO:0000243" fbc:id="G_RTMO00846" fbc:name="RTMO00846" fbc:label="G_RTMO00846"/>
@@ -52791,13 +52708,11 @@
       <fbc:geneProduct metaid="meta_G_RTMO00381" sboTerm="SBO:0000243" fbc:id="G_RTMO00381" fbc:name="RTMO00381" fbc:label="G_RTMO00381"/>
       <fbc:geneProduct metaid="meta_G_RTMO01029" sboTerm="SBO:0000243" fbc:id="G_RTMO01029" fbc:name="RTMO01029" fbc:label="G_RTMO01029"/>
       <fbc:geneProduct metaid="meta_G_RTMO04007" sboTerm="SBO:0000243" fbc:id="G_RTMO04007" fbc:name="RTMO04007" fbc:label="G_RTMO04007"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02927" sboTerm="SBO:0000243" fbc:id="G_RTMO02927" fbc:name="RTMO02927" fbc:label="G_RTMO02927"/>
       <fbc:geneProduct metaid="meta_G_RTMO02388" sboTerm="SBO:0000243" fbc:id="G_RTMO02388" fbc:name="RTMO02388" fbc:label="G_RTMO02388"/>
       <fbc:geneProduct metaid="meta_G_RTMO00339" sboTerm="SBO:0000243" fbc:id="G_RTMO00339" fbc:name="RTMO00339" fbc:label="G_RTMO00339"/>
       <fbc:geneProduct metaid="meta_G_RTMO02155" sboTerm="SBO:0000243" fbc:id="G_RTMO02155" fbc:name="RTMO02155" fbc:label="G_RTMO02155"/>
       <fbc:geneProduct metaid="meta_G_RTMO02158" sboTerm="SBO:0000243" fbc:id="G_RTMO02158" fbc:name="RTMO02158" fbc:label="G_RTMO02158"/>
       <fbc:geneProduct metaid="meta_G_RTMO02157" sboTerm="SBO:0000243" fbc:id="G_RTMO02157" fbc:name="RTMO02157" fbc:label="G_RTMO02157"/>
-      <fbc:geneProduct metaid="meta_G_RTMO02160" sboTerm="SBO:0000243" fbc:id="G_RTMO02160" fbc:name="RTMO02160" fbc:label="G_RTMO02160"/>
       <fbc:geneProduct metaid="meta_G_RTMO02153" sboTerm="SBO:0000243" fbc:id="G_RTMO02153" fbc:name="RTMO02153" fbc:label="G_RTMO02153"/>
       <fbc:geneProduct metaid="meta_G_RTMO01031" sboTerm="SBO:0000243" fbc:id="G_RTMO01031" fbc:name="RTMO01031" fbc:label="G_RTMO01031"/>
       <fbc:geneProduct metaid="meta_G_RTMO01030" sboTerm="SBO:0000243" fbc:id="G_RTMO01030" fbc:name="RTMO01030" fbc:label="G_RTMO01030"/>
@@ -52806,7 +52721,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO02776" sboTerm="SBO:0000243" fbc:id="G_RTMO02776" fbc:name="RTMO02776" fbc:label="G_RTMO02776"/>
       <fbc:geneProduct metaid="meta_G_RTMO02775" sboTerm="SBO:0000243" fbc:id="G_RTMO02775" fbc:name="RTMO02775" fbc:label="G_RTMO02775"/>
       <fbc:geneProduct metaid="meta_G_RTMO02970" sboTerm="SBO:0000243" fbc:id="G_RTMO02970" fbc:name="RTMO02970" fbc:label="G_RTMO02970"/>
-      <fbc:geneProduct metaid="meta_G_RTMO05205" sboTerm="SBO:0000243" fbc:id="G_RTMO05205" fbc:name="RTMO05205" fbc:label="G_RTMO05205"/>
       <fbc:geneProduct metaid="meta_G_RTMO04865" sboTerm="SBO:0000243" fbc:id="G_RTMO04865" fbc:name="RTMO04865" fbc:label="G_RTMO04865"/>
       <fbc:geneProduct metaid="meta_G_RTMO03220" sboTerm="SBO:0000243" fbc:id="G_RTMO03220" fbc:name="RTMO03220" fbc:label="G_RTMO03220"/>
       <fbc:geneProduct metaid="meta_G_RTMO04924" sboTerm="SBO:0000243" fbc:id="G_RTMO04924" fbc:name="RTMO04924" fbc:label="G_RTMO04924"/>
@@ -52846,31 +52760,6 @@
       <fbc:geneProduct metaid="meta_G_RTMO03840" sboTerm="SBO:0000243" fbc:id="G_RTMO03840" fbc:name="RTMO03840" fbc:label="G_RTMO03840"/>
       <fbc:geneProduct metaid="meta_G_RTMO02554" sboTerm="SBO:0000243" fbc:id="G_RTMO02554" fbc:name="RTMO02554" fbc:label="G_RTMO02554"/>
       <fbc:geneProduct metaid="meta_G_RTMO04293" sboTerm="SBO:0000243" fbc:id="G_RTMO04293" fbc:name="RTMO04293" fbc:label="G_RTMO04293"/>
-      <fbc:geneProduct metaid="meta_G_BioB" sboTerm="SBO:0000243" fbc:id="G_BioB" fbc:name="G_BioB" fbc:label="G_BioB"/>
-      <fbc:geneProduct metaid="meta_G_BioD" sboTerm="SBO:0000243" fbc:id="G_BioD" fbc:name="G_BioD" fbc:label="G_BioD"/>
-      <fbc:geneProduct metaid="meta_G_CbiG" sboTerm="SBO:0000243" fbc:id="G_CbiG" fbc:name="G_CbiG" fbc:label="G_CbiG"/>
-      <fbc:geneProduct metaid="meta_G_CbiD" sboTerm="SBO:0000243" fbc:id="G_CbiD" fbc:name="G_CbiD" fbc:label="G_CbiD"/>
-      <fbc:geneProduct metaid="meta_G_CbiJ" sboTerm="SBO:0000243" fbc:id="G_CbiJ" fbc:name="G_CbiJ" fbc:label="G_CbiJ"/>
-      <fbc:geneProduct metaid="meta_G_CobL" sboTerm="SBO:0000243" fbc:id="G_CobL" fbc:name="G_CobL" fbc:label="G_CobL"/>
-      <fbc:geneProduct metaid="meta_G_CbiC" sboTerm="SBO:0000243" fbc:id="G_CbiC" fbc:name="G_CbiC" fbc:label="G_CbiC"/>
-      <fbc:geneProduct metaid="meta_G_CbiA" sboTerm="SBO:0000243" fbc:id="G_CbiA" fbc:name="G_CbiA" fbc:label="G_CbiA"/>
-      <fbc:geneProduct metaid="meta_G_yuxG" sboTerm="SBO:0000243" fbc:id="G_yuxG" fbc:name="G_yuxG" fbc:label="G_yuxG"/>
-      <fbc:geneProduct metaid="meta_G_BCV53_11240" sboTerm="SBO:0000243" fbc:id="G_BCV53_11240" fbc:name="G_BCV53_11240" fbc:label="G_BCV53_11240"/>
-      <fbc:geneProduct metaid="meta_G_urea" sboTerm="SBO:0000243" fbc:id="G_urea" fbc:name="G_urea" fbc:label="G_urea"/>
-      <fbc:geneProduct metaid="meta_G_BCV53_11245" sboTerm="SBO:0000243" fbc:id="G_BCV53_11245" fbc:name="G_BCV53_11245" fbc:label="G_BCV53_11245"/>
-      <fbc:geneProduct metaid="meta_G_permease" sboTerm="SBO:0000243" fbc:id="G_permease" fbc:name="G_permease" fbc:label="G_permease"/>
-      <fbc:geneProduct metaid="meta_G_ABC" sboTerm="SBO:0000243" fbc:id="G_ABC" fbc:name="G_ABC" fbc:label="G_ABC"/>
-      <fbc:geneProduct metaid="meta_G_ATP__45__binding" sboTerm="SBO:0000243" fbc:id="G_ATP__45__binding" fbc:name="G_ATP-binding" fbc:label="G_ATP__45__binding"/>
-      <fbc:geneProduct metaid="meta_G_UrtD" sboTerm="SBO:0000243" fbc:id="G_UrtD" fbc:name="G_UrtD" fbc:label="G_UrtD"/>
-      <fbc:geneProduct metaid="meta_G_UrtC" sboTerm="SBO:0000243" fbc:id="G_UrtC" fbc:name="G_UrtC" fbc:label="G_UrtC"/>
-      <fbc:geneProduct metaid="meta_G_protein" sboTerm="SBO:0000243" fbc:id="G_protein" fbc:name="G_protein" fbc:label="G_protein"/>
-      <fbc:geneProduct metaid="meta_G_subunit" sboTerm="SBO:0000243" fbc:id="G_subunit" fbc:name="G_subunit" fbc:label="G_subunit"/>
-      <fbc:geneProduct metaid="meta_G_transporter" sboTerm="SBO:0000243" fbc:id="G_transporter" fbc:name="G_transporter" fbc:label="G_transporter"/>
-      <fbc:geneProduct metaid="meta_G_CDS" sboTerm="SBO:0000243" fbc:id="G_CDS" fbc:name="G_CDS" fbc:label="G_CDS"/>
-      <fbc:geneProduct metaid="meta_G_UrtB" sboTerm="SBO:0000243" fbc:id="G_UrtB" fbc:name="G_UrtB" fbc:label="G_UrtB"/>
-      <fbc:geneProduct metaid="meta_G_BCV53_11250" sboTerm="SBO:0000243" fbc:id="G_BCV53_11250" fbc:name="G_BCV53_11250" fbc:label="G_BCV53_11250"/>
-      <fbc:geneProduct metaid="meta_G_UrtE" sboTerm="SBO:0000243" fbc:id="G_UrtE" fbc:name="G_UrtE" fbc:label="G_UrtE"/>
-      <fbc:geneProduct metaid="meta_G_BCV53_11255" sboTerm="SBO:0000243" fbc:id="G_BCV53_11255" fbc:name="G_BCV53_11255" fbc:label="G_BCV53_11255"/>
       <fbc:geneProduct fbc:id="G_RTMO05953" fbc:name="G_RTMO05953" fbc:label="G_RTMO05953"/>
       <fbc:geneProduct fbc:id="G_RTMO05954" fbc:name="G_RTMO05954" fbc:label="G_RTMO05954"/>
       <fbc:geneProduct fbc:id="G_RTMO05955" fbc:name="G_RTMO05955" fbc:label="G_RTMO05955"/>
