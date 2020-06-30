@@ -50486,6 +50486,12 @@
           <speciesReference species="M_gdp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO02237"/>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO03852"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NADK2" sboTerm="SBO:0000176" id="R_NADK2" name="NAD kinase dATP" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50510,6 +50516,12 @@
           <speciesReference species="M_dadp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO02237"/>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO03852"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NADK3" sboTerm="SBO:0000176" id="R_NADK3" name="NAD kinase dGTP" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50534,6 +50546,12 @@
           <speciesReference species="M_dgdp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO02237"/>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO03852"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NADK4" sboTerm="SBO:0000176" id="R_NADK4" name="NAD kinase dCTP" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50558,6 +50576,12 @@
           <speciesReference species="M_dcdp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO02237"/>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO03852"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_NADK5" sboTerm="SBO:0000176" id="R_NADK5" name="NAD kinase dTTP" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -50582,6 +50606,12 @@
           <speciesReference species="M_dtdp_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO02237"/>
+            <fbc:geneProductRef fbc:geneProduct="G_RTMO03852"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_BTS5" sboTerm="SBO:0000176" id="R_BTS5" name="biotin synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>

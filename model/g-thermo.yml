@@ -35953,8 +35953,8 @@
     - name: L-Cysteine exchange
     - metabolites: !!omap
       - cys__L_e: -1.0
-    - lower_bound: 0
-    - upper_bound: 1000
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -36026,8 +36026,8 @@
     - name: L-Lysine exchange
     - metabolites: !!omap
       - lys__L_e: -1.0
-    - lower_bound: 0
-    - upper_bound: 1000
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -38863,7 +38863,7 @@
       - nadp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO02237 or RTMO03852
     - annotation: !!omap
       - bigg.reaction: NADK1
       - ec-code: 2.7.1.23
@@ -38880,7 +38880,7 @@
       - nadp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO02237 or RTMO03852
     - annotation: !!omap
       - bigg.reaction: NADK2
       - ec-code: 2.7.1.23
@@ -38897,7 +38897,7 @@
       - nadp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO02237 or RTMO03852
     - annotation: !!omap
       - bigg.reaction: NADK3
       - ec-code: 2.7.1.23
@@ -38914,7 +38914,7 @@
       - nadp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO02237 or RTMO03852
     - annotation: !!omap
       - bigg.reaction: NADK4
       - ec-code: 2.7.1.23
@@ -38931,7 +38931,7 @@
       - nadp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: RTMO02237 or RTMO03852
     - annotation: !!omap
       - bigg.reaction: NADK5
       - ec-code: 2.7.1.23
