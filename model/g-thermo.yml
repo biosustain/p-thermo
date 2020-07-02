@@ -39706,7 +39706,10 @@
     - id: RTMO04728
     - name: RTMO04728
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_06545
+        - AOT13_07860
+        - AOT13_06350
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03022
@@ -39851,7 +39854,8 @@
     - id: RTMO03749
     - name: RTMO03749
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08505
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02237
@@ -39962,8 +39966,8 @@
     - name: RTMO01021
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_09240
         - AOT13_15710
+        - AOT13_09240
         - AOT13_15710
       - sbo: SBO:0000243
   - !!omap
@@ -40034,6 +40038,9 @@
     - name: RTMO04957
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_02695
+        - AOT13_17335
+        - AOT13_02695
         - AOT13_17335
       - sbo: SBO:0000243
   - !!omap
@@ -40083,14 +40090,14 @@
         - AOT13_08295
         - AOT13_14850
         - AOT13_16345
+        - AOT13_08295
+        - AOT13_14850
+        - AOT13_16345
         - AOT13_08120
         - AOT13_08295
         - AOT13_14850
         - AOT13_16345
         - AOT13_08115
-        - AOT13_08295
-        - AOT13_14850
-        - AOT13_16345
         - AOT13_16600
         - AOT13_16605
         - AOT13_08295
@@ -40145,14 +40152,14 @@
         - AOT13_08295
         - AOT13_14850
         - AOT13_16345
+        - AOT13_08295
+        - AOT13_14850
+        - AOT13_16345
         - AOT13_08120
         - AOT13_08295
         - AOT13_14850
         - AOT13_16345
         - AOT13_08115
-        - AOT13_08295
-        - AOT13_14850
-        - AOT13_16345
         - AOT13_16600
         - AOT13_16605
         - AOT13_08295
@@ -40207,14 +40214,14 @@
         - AOT13_08295
         - AOT13_14850
         - AOT13_16345
+        - AOT13_08295
+        - AOT13_14850
+        - AOT13_16345
         - AOT13_08120
         - AOT13_08295
         - AOT13_14850
         - AOT13_16345
         - AOT13_08115
-        - AOT13_08295
-        - AOT13_14850
-        - AOT13_16345
         - AOT13_16600
         - AOT13_16605
         - AOT13_08295
@@ -40278,12 +40285,14 @@
     - annotation: !!omap
       - kegg.genes:
         - AOT13_03325
+        - AOT13_03325
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02835
     - name: RTMO02835
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_03325
         - AOT13_03325
       - sbo: SBO:0000243
   - !!omap
@@ -40391,15 +40400,15 @@
         - AOT13_06465
         - AOT13_12985
         - AOT13_14445
+        - AOT13_05100
+        - AOT13_03690
+        - AOT13_14980
+        - AOT13_03315
+        - AOT13_05100
+        - AOT13_03690
+        - AOT13_14980
+        - AOT13_03315
         - AOT13_01555
-        - AOT13_05100
-        - AOT13_03690
-        - AOT13_14980
-        - AOT13_03315
-        - AOT13_05100
-        - AOT13_03690
-        - AOT13_14980
-        - AOT13_03315
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01888
@@ -40744,6 +40753,7 @@
     - annotation: !!omap
       - kegg.genes:
         - AOT13_08820
+        - AOT13_08820
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO05273
@@ -40804,7 +40814,6 @@
     - name: RTMO03769
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_17435
         - AOT13_17435
       - sbo: SBO:0000243
   - !!omap
@@ -40926,7 +40935,8 @@
     - id: RTMO03094
     - name: RTMO03094
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_00220
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01832
@@ -41173,6 +41183,12 @@
     - annotation: !!omap
       - kegg.genes:
         - AOT13_08115
+        - AOT13_08115
+        - AOT13_08120
+        - AOT13_08295
+        - AOT13_14850
+        - AOT13_16345
+        - AOT13_08115
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03881
@@ -41192,30 +41208,40 @@
     - name: RTMO00444
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_05000
         - AOT13_02675
         - AOT13_14250
+        - AOT13_02675
+        - AOT13_14250
+        - AOT13_05000
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02459
     - name: RTMO02459
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_05000
         - AOT13_02675
         - AOT13_14250
+        - AOT13_02675
+        - AOT13_14250
+        - AOT13_05000
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03255
     - name: RTMO03255
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_17155
+        - AOT13_01935
+        - AOT13_15035
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01990
     - name: RTMO01990
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_17155
+        - AOT13_01935
+        - AOT13_15035
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02318
@@ -41292,16 +41318,16 @@
     - id: RTMO03795
     - name: RTMO03795
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_15545
+        - AOT13_15545
+        - AOT13_15420
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00859
     - name: RTMO00859
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_15545
-        - AOT13_15420
-        - AOT13_04080
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00246
@@ -41313,10 +41339,7 @@
     - id: RTMO03134
     - name: RTMO03134
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_15545
-        - AOT13_15420
-        - AOT13_04080
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO04783
@@ -41339,12 +41362,24 @@
       - kegg.genes:
         - AOT13_11145
         - AOT13_10105
+        - AOT13_11145
+        - AOT13_10105
+        - AOT13_11145
+        - AOT13_10105
+        - AOT13_11145
+        - AOT13_10105
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01648
     - name: RTMO01648
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_11145
+        - AOT13_10105
+        - AOT13_11145
+        - AOT13_10105
+        - AOT13_11145
+        - AOT13_10105
         - AOT13_11145
         - AOT13_10105
       - sbo: SBO:0000243
@@ -41575,9 +41610,9 @@
     - name: RTMO01654
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_11170
         - AOT13_11165
         - AOT13_11155
+        - AOT13_11170
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02454
@@ -41640,7 +41675,8 @@
     - id: RTMO03882
     - name: RTMO03882
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_17155
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO04263
@@ -41784,7 +41820,6 @@
     - annotation: !!omap
       - kegg.genes:
         - AOT13_15650
-        - AOT13_15650
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03692
@@ -41895,6 +41930,16 @@
     - name: RTMO01260
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_09675
+        - AOT13_08135
+        - AOT13_14580
+        - AOT13_03600
+        - AOT13_09675
+        - AOT13_08135
+        - AOT13_14580
+        - AOT13_09675
+        - AOT13_08135
+        - AOT13_14580
         - AOT13_03600
         - AOT13_09675
         - AOT13_08135
@@ -41906,16 +41951,6 @@
         - AOT13_09675
         - AOT13_08135
         - AOT13_14580
-        - AOT13_09675
-        - AOT13_08135
-        - AOT13_14580
-        - AOT13_09675
-        - AOT13_08135
-        - AOT13_14580
-        - AOT13_09675
-        - AOT13_08135
-        - AOT13_14580
-        - AOT13_03600
         - AOT13_09675
         - AOT13_08135
         - AOT13_14580
@@ -41928,6 +41963,16 @@
     - name: RTMO01925
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_09675
+        - AOT13_08135
+        - AOT13_14580
+        - AOT13_03600
+        - AOT13_09675
+        - AOT13_08135
+        - AOT13_14580
+        - AOT13_09675
+        - AOT13_08135
+        - AOT13_14580
         - AOT13_03600
         - AOT13_09675
         - AOT13_08135
@@ -41939,16 +41984,6 @@
         - AOT13_09675
         - AOT13_08135
         - AOT13_14580
-        - AOT13_09675
-        - AOT13_08135
-        - AOT13_14580
-        - AOT13_09675
-        - AOT13_08135
-        - AOT13_14580
-        - AOT13_09675
-        - AOT13_08135
-        - AOT13_14580
-        - AOT13_03600
         - AOT13_09675
         - AOT13_08135
         - AOT13_14580
@@ -41961,20 +41996,6 @@
     - name: RTMO02305
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_03585
-        - AOT13_11050
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_03585
-        - AOT13_11050
-        - AOT13_00405
-        - AOT13_09695
         - AOT13_00405
         - AOT13_09695
       - sbo: SBO:0000243
@@ -41983,20 +42004,6 @@
     - name: RTMO03780
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_03585
-        - AOT13_11050
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_03585
-        - AOT13_11050
-        - AOT13_00405
-        - AOT13_09695
         - AOT13_00405
         - AOT13_09695
       - sbo: SBO:0000243
@@ -42005,20 +42012,6 @@
     - name: RTMO02611
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_03585
-        - AOT13_11050
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_00405
-        - AOT13_09695
-        - AOT13_03585
-        - AOT13_11050
-        - AOT13_00405
-        - AOT13_09695
         - AOT13_00405
         - AOT13_09695
       - sbo: SBO:0000243
@@ -42060,8 +42053,8 @@
         - AOT13_07330
         - AOT13_04860
         - AOT13_07100
-        - AOT13_07100
         - AOT13_07095
+        - AOT13_07100
         - AOT13_07100
       - sbo: SBO:0000243
   - !!omap
@@ -42069,12 +42062,12 @@
     - name: RTMO02784
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_07100
-        - AOT13_07095
         - AOT13_07325
         - AOT13_04865
         - AOT13_07330
         - AOT13_04860
+        - AOT13_07100
+        - AOT13_07095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03215
@@ -42098,12 +42091,20 @@
     - annotation: !!omap
       - kegg.genes:
         - AOT13_12380
+        - AOT13_16130
+        - AOT13_12380
+        - AOT13_06360
+        - AOT13_12380
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO05282
     - name: RTMO05282
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_12380
+        - AOT13_16130
+        - AOT13_12380
+        - AOT13_06360
         - AOT13_12380
       - sbo: SBO:0000243
   - !!omap
@@ -42165,9 +42166,9 @@
     - name: RTMO02969
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_15575
         - AOT13_02665
         - AOT13_02670
-        - AOT13_15575
         - AOT13_15575
       - sbo: SBO:0000243
   - !!omap
@@ -42175,7 +42176,6 @@
     - name: RTMO01667
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_11200
         - AOT13_11200
       - sbo: SBO:0000243
   - !!omap
@@ -42218,6 +42218,8 @@
     - name: RTMO02207
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_01815
+        - AOT13_14425
         - AOT13_01815
       - sbo: SBO:0000243
   - !!omap
@@ -42412,7 +42414,96 @@
     - id: RTMO12345
     - name: RTMO12345
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_07330
+        - AOT13_04860
+        - AOT13_16030
+        - AOT13_09430
+        - AOT13_18210
+        - AOT13_08125
+        - AOT13_08925
+        - AOT13_13490
+        - AOT13_07480
+        - AOT13_14895
+        - AOT13_07330
+        - AOT13_04860
+        - AOT13_17160
+        - AOT13_04700
+        - AOT13_08920
+        - AOT13_07330
+        - AOT13_04860
+        - AOT13_03940
+        - AOT13_09430
+        - AOT13_18210
+        - AOT13_08125
+        - AOT13_08925
+        - AOT13_13490
+        - AOT13_09370
+        - AOT13_00530
+        - AOT13_03940
+        - AOT13_07480
+        - AOT13_07330
+        - AOT13_04860
+        - AOT13_03940
+        - AOT13_09430
+        - AOT13_18210
+        - AOT13_08125
+        - AOT13_08925
+        - AOT13_13490
+        - AOT13_07480
+        - AOT13_14895
+        - AOT13_07325
+        - AOT13_04865
+        - AOT13_07330
+        - AOT13_04860
+        - AOT13_09430
+        - AOT13_18210
+        - AOT13_08125
+        - AOT13_08925
+        - AOT13_13490
+        - AOT13_14110
+        - AOT13_07480
+        - AOT13_07330
+        - AOT13_04860
+        - AOT13_03940
+        - AOT13_07480
+        - AOT13_14895
+        - AOT13_03940
+        - AOT13_14110
+        - AOT13_09430
+        - AOT13_18210
+        - AOT13_08125
+        - AOT13_08925
+        - AOT13_13490
+        - AOT13_07480
+        - AOT13_14895
+        - AOT13_06570
+        - AOT13_07480
+        - AOT13_14895
+        - AOT13_07330
+        - AOT13_04860
+        - AOT13_03940
+        - AOT13_07480
+        - AOT13_14895
+        - AOT13_17045
+        - AOT13_09430
+        - AOT13_18210
+        - AOT13_08125
+        - AOT13_08925
+        - AOT13_13490
+        - AOT13_09430
+        - AOT13_18210
+        - AOT13_08125
+        - AOT13_08925
+        - AOT13_13490
+        - AOT13_07330
+        - AOT13_04860
+        - AOT13_07480
+        - AOT13_14895
+        - AOT13_16350
+        - AOT13_15310
+        - AOT13_03940
+        - AOT13_18670
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00614
@@ -42440,7 +42531,6 @@
     - name: RTMO01154
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_16355
         - AOT13_16355
       - sbo: SBO:0000243
   - !!omap
@@ -42653,8 +42743,8 @@
     - name: RTMO04344
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_14140
         - AOT13_02695
+        - AOT13_14140
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00367
@@ -42881,23 +42971,20 @@
     - id: RTMO00732
     - name: RTMO00732
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_14010
-        - AOT13_16125
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01098
     - name: RTMO01098
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_14010
-        - AOT13_16125
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02346
     - name: RTMO02346
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_03665
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01749
@@ -42919,12 +43006,18 @@
     - annotation: !!omap
       - kegg.genes:
         - AOT13_16440
+        - AOT13_15605
+        - AOT13_15615
+        - AOT13_16440
+        - AOT13_16440
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO04049
     - name: RTMO04049
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_16440
+        - AOT13_16440
         - AOT13_16440
       - sbo: SBO:0000243
   - !!omap
@@ -43088,8 +43181,8 @@
     - name: RTMO03966
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_11070
         - AOT13_03640
+        - AOT13_11070
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03335
@@ -43175,7 +43268,10 @@
     - name: RTMO02306
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_00410
+        - AOT13_14935
+        - AOT13_17895
+        - AOT13_08540
+        - AOT13_14910
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO04827
@@ -43491,92 +43587,79 @@
     - id: RTMO05835
     - name: RTMO05835
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01643
     - name: RTMO01643
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO05158
     - name: RTMO05158
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02260
     - name: RTMO02260
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01107
     - name: RTMO01107
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02259
     - name: RTMO02259
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03137
     - name: RTMO03137
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01041
     - name: RTMO01041
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO05206
     - name: RTMO05206
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02261
     - name: RTMO02261
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO05629
     - name: RTMO05629
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02545
     - name: RTMO02545
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00898
     - name: RTMO00898
     - annotation: !!omap
-      - kegg.genes:
-        - AOT13_01555
+      - kegg.genes: []
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03695
@@ -43602,11 +43685,6 @@
     - name: RTMO00873
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_08120
-        - AOT13_08295
-        - AOT13_14850
-        - AOT13_16345
-        - AOT13_08115
         - AOT13_08120
       - sbo: SBO:0000243
   - !!omap
@@ -43641,181 +43719,213 @@
     - id: RTMO00973
     - name: RTMO00973
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01417
     - name: RTMO01417
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01653
     - name: RTMO01653
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
+        - AOT13_11720
+        - AOT13_04155
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01763
     - name: RTMO01763
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02849
     - name: RTMO02849
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01418
     - name: RTMO01418
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01633
     - name: RTMO01633
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00292
     - name: RTMO00292
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03199
     - name: RTMO03199
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02812
     - name: RTMO02812
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02809
     - name: RTMO02809
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00506
     - name: RTMO00506
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01651
     - name: RTMO01651
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01415
     - name: RTMO01415
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01045
     - name: RTMO01045
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01762
     - name: RTMO01762
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00511
     - name: RTMO00511
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01785
     - name: RTMO01785
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01416
     - name: RTMO01416
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01493
     - name: RTMO01493
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02649
     - name: RTMO02649
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02653
     - name: RTMO02653
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00881
     - name: RTMO00881
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02654
     - name: RTMO02654
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03200
     - name: RTMO03200
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01761
     - name: RTMO01761
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01492
     - name: RTMO01492
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01652
     - name: RTMO01652
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03198
     - name: RTMO03198
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02850
     - name: RTMO02850
     - annotation: !!omap
-      - kegg.genes: []
+      - kegg.genes:
+        - AOT13_08095
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03810
@@ -44031,7 +44141,6 @@
     - name: RTMO03625
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_08830
         - AOT13_08830
       - sbo: SBO:0000243
   - !!omap
@@ -44392,18 +44501,18 @@
     - name: RTMO02723
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_07910
-        - AOT13_07930
         - AOT13_17715
         - AOT13_07940
+        - AOT13_07910
+        - AOT13_07930
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01876
     - name: RTMO01876
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_14395
         - AOT13_07945
+        - AOT13_14395
         - AOT13_07935
       - sbo: SBO:0000243
   - !!omap
@@ -44663,60 +44772,60 @@
     - name: RTMO04489
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_02085
         - AOT13_04015
         - AOT13_01660
         - AOT13_09595
         - AOT13_13625
         - AOT13_17860
-        - AOT13_02085
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03268
     - name: RTMO03268
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_02085
         - AOT13_04015
         - AOT13_01660
         - AOT13_09595
         - AOT13_13625
         - AOT13_17860
-        - AOT13_02085
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00252
     - name: RTMO00252
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_02085
         - AOT13_04015
         - AOT13_01660
         - AOT13_09595
         - AOT13_13625
         - AOT13_17860
-        - AOT13_02085
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02458
     - name: RTMO02458
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_02085
         - AOT13_04015
         - AOT13_01660
         - AOT13_09595
         - AOT13_13625
         - AOT13_17860
-        - AOT13_02085
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02726
     - name: RTMO02726
     - annotation: !!omap
       - kegg.genes:
+        - AOT13_02085
         - AOT13_04015
         - AOT13_01660
         - AOT13_09595
         - AOT13_13625
         - AOT13_17860
-        - AOT13_02085
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO04840
@@ -44803,10 +44912,10 @@
     - name: RTMO05107
     - annotation: !!omap
       - kegg.genes:
-        - AOT13_03255
-        - AOT13_04030
         - AOT13_07130
         - AOT13_15145
+        - AOT13_03255
+        - AOT13_04030
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00379
