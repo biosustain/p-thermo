@@ -61,7 +61,7 @@
     - name: Phosphatidylserine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C38.14H74.28NO10P
     - notes: !!omap
       - FORMULA: C38.14H74.28NO10P
       - NAME: L-1-Phosphatidylserine; 1,2-Diacyl-sn-glycerol 3-phospho-L-serine; O3-Phosphatidyl-L-serine;
@@ -15674,7 +15674,7 @@
     - name: Phosphatidate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C35.14H69.28O8P
     - notes: !!omap
       - FORMULA: C35.14H69.28O8P
       - NAME: Phosphatidic acid; 3-sn-Phosphatidate; Phosphatidate; 1,2-Diacyl-sn-glycerol
@@ -15688,7 +15688,7 @@
     - name: CDP-1,2-diacylglycerol
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C44.14H79.28N3O15P2
     - notes: !!omap
       - FORMULA: C44.14H79.28N3O15P2
       - NAME: CDP-1,2-diacylglycerol; 1,2-Diacyl-sn-glycero-3-cytidine-5’-diphosphate;
@@ -15797,7 +15797,7 @@
     - name: 1-Acyl-sn-glycerol 3-phosphate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C19.07H38.14O7P
     - notes: !!omap
       - FORMULA: C19.07H38.14O7P
     - annotation: !!omap
@@ -17994,7 +17994,7 @@
     - name: Phosphatidylglycerol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C38.14H75.28O10P
     - notes: !!omap
       - FORMULA: C38.14H75.28O10P
     - annotation: !!omap
@@ -18006,7 +18006,7 @@
     - name: Phosphatidylglycerophosphate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C38.14H76.28O13P2
     - notes: !!omap
       - FORMULA: C38.14H76.28O13P2
     - annotation: !!omap
@@ -18018,7 +18018,7 @@
     - name: Phosphatidylethanolamine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C37.14H74.28NO8P
     - notes: !!omap
       - FORMULA: C37.14H74.28NO8P
     - annotation: !!omap
@@ -18030,7 +18030,7 @@
     - name: Cardiolipin
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C73.28H142.56O17P2
     - notes: !!omap
       - FORMULA: C73.28H142.56O17P2
       - NOTES: Cardiolipin; Diphosphatidylglycerol; 1,3-Bis(1,2-diacyl-sn-glycero-3-phospho)-sn-glycerol
@@ -18877,7 +18877,7 @@
     - name: Generic Acyl-ACP fatty acid
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C27.07H51.14O8N2PRS
     - notes: !!omap
       - FORMULA: C27.07H51.14O8N2PRS
     - annotation: !!omap
@@ -18887,7 +18887,7 @@
     - name: Generic Acyl-CoA
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C37.07H63.14O17N7P3S
     - notes: !!omap
       - FORMULA: C37.07H63.14O17N7P3S
     - annotation: !!omap
@@ -39665,8 +39665,7 @@
     - name: RTMO04279
     - annotation: !!omap
       - kegg.genes: AOT13_00555
-      - ncbigi:
-        - ALF08657
+      - ncbigi: ALF08657
       - sbo: SBO:0000243
       - uniprot: A0A178TUW0
   - !!omap
@@ -39674,8 +39673,7 @@
     - name: RTMO03052
     - annotation: !!omap
       - kegg.genes: AOT13_00555
-      - ncbigi:
-        - ALF08657
+      - ncbigi: ALF08657
       - sbo: SBO:0000243
       - uniprot: A0A178TUW0
   - !!omap
@@ -39683,8 +39681,7 @@
     - name: RTMO03053
     - annotation: !!omap
       - kegg.genes: AOT13_00555
-      - ncbigi:
-        - ALF08657
+      - ncbigi: ALF08657
       - sbo: SBO:0000243
       - uniprot: A0A178TUW0
   - !!omap
@@ -39870,8 +39867,7 @@
     - name: RTMO03022
     - annotation: !!omap
       - kegg.genes: AOT13_17645
-      - ncbigi:
-        - ALF11697
+      - ncbigi: ALF11697
       - sbo: SBO:0000243
       - uniprot: A0A178U0Y1
   - !!omap
@@ -39879,8 +39875,7 @@
     - name: RTMO01074
     - annotation: !!omap
       - kegg.genes: AOT13_16040
-      - ncbigi:
-        - ALF11399
+      - ncbigi: ALF11399
       - sbo: SBO:0000243
       - uniprot: A0A369WWA5
   - !!omap
@@ -39888,8 +39883,7 @@
     - name: RTMO01076
     - annotation: !!omap
       - kegg.genes: AOT13_16040
-      - ncbigi:
-        - ALF11399
+      - ncbigi: ALF11399
       - sbo: SBO:0000243
       - uniprot: A0A369WWA5
   - !!omap
@@ -39902,8 +39896,7 @@
     - name: RTMO03024
     - annotation: !!omap
       - kegg.genes: AOT13_17655
-      - ncbigi:
-        - ALF11699
+      - ncbigi: ALF11699
       - sbo: SBO:0000243
       - uniprot: A0A369WX91
   - !!omap
@@ -40691,8 +40684,7 @@
     - name: RTMO03749
     - annotation: !!omap
       - kegg.genes: AOT13_08505
-      - ncbigi:
-        - ALF10042
+      - ncbigi: ALF10042
       - sbo: SBO:0000243
       - uniprot: A0A178TWA6
   - !!omap
@@ -40779,8 +40771,7 @@
     - name: RTMO04294
     - annotation: !!omap
       - kegg.genes: AOT13_15600
-      - ncbigi:
-        - ALF12104
+      - ncbigi: ALF12104
       - sbo: SBO:0000243
       - uniprot: A0A1B7KXZ0
   - !!omap
@@ -40788,8 +40779,7 @@
     - name: RTMO05248
     - annotation: !!omap
       - kegg.genes: AOT13_15600
-      - ncbigi:
-        - ALF12104
+      - ncbigi: ALF12104
       - sbo: SBO:0000243
       - uniprot: A0A1B7KXZ0
   - !!omap
@@ -40797,8 +40787,7 @@
     - name: RTMO05022
     - annotation: !!omap
       - kegg.genes: AOT13_18090
-      - ncbigi:
-        - ALF11781
+      - ncbigi: ALF11781
       - sbo: SBO:0000243
       - uniprot: A0A178U0N9
   - !!omap
@@ -40857,8 +40846,7 @@
     - name: RTMO04916
     - annotation: !!omap
       - kegg.genes: AOT13_17075
-      - ncbigi:
-        - ALF11589
+      - ncbigi: ALF11589
       - sbo: SBO:0000243
       - uniprot: A0A369WYP1
   - !!omap
@@ -40866,8 +40854,7 @@
     - name: RTMO04555
     - annotation: !!omap
       - kegg.genes: AOT13_09240
-      - ncbigi:
-        - ALF10181
+      - ncbigi: ALF10181
       - sbo: SBO:0000243
       - uniprot: A0A178TWR5
   - !!omap
@@ -40917,8 +40904,7 @@
     - name: RTMO05052
     - annotation: !!omap
       - kegg.genes: AOT13_18560
-      - ncbigi:
-        - ALF11873
+      - ncbigi: ALF11873
       - sbo: SBO:0000243
       - uniprot: A0A178U1H9
   - !!omap
@@ -40926,8 +40912,7 @@
     - name: RTMO05019
     - annotation: !!omap
       - kegg.genes: AOT13_18075
-      - ncbigi:
-        - ALF11778
+      - ncbigi: ALF11778
       - sbo: SBO:0000243
       - uniprot: A0A178U0N3
   - !!omap
@@ -40963,8 +40948,7 @@
     - name: RTMO02909
     - annotation: !!omap
       - kegg.genes: AOT13_02975
-      - ncbigi:
-        - ALF11981
+      - ncbigi: ALF11981
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PPB7
   - !!omap
@@ -40972,8 +40956,7 @@
     - name: RTMO02382
     - annotation: !!omap
       - kegg.genes: AOT13_17410
-      - ncbigi:
-        - ALF11651
+      - ncbigi: ALF11651
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PJ60
   - !!omap
@@ -41012,8 +40995,7 @@
     - name: RTMO02286
     - annotation: !!omap
       - kegg.genes: AOT13_17165
-      - ncbigi:
-        - ALF11606
+      - ncbigi: ALF11606
       - sbo: SBO:0000243
       - uniprot: A0A178U0P9
   - !!omap
@@ -41021,8 +41003,7 @@
     - name: RTMO02253
     - annotation: !!omap
       - kegg.genes: AOT13_18145
-      - ncbigi:
-        - ALF11791
+      - ncbigi: ALF11791
       - sbo: SBO:0000243
       - uniprot: A0A178TZP2
   - !!omap
@@ -41425,8 +41406,7 @@
     - name: RTMO02836
     - annotation: !!omap
       - kegg.genes: AOT13_03325
-      - ncbigi:
-        - ALF09129
+      - ncbigi: ALF09129
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PE57
   - !!omap
@@ -41434,8 +41414,7 @@
     - name: RTMO02835
     - annotation: !!omap
       - kegg.genes: AOT13_03325
-      - ncbigi:
-        - ALF09129
+      - ncbigi: ALF09129
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PE57
   - !!omap
@@ -41820,8 +41799,7 @@
     - name: RTMO01984
     - annotation: !!omap
       - kegg.genes: AOT13_15050
-      - ncbigi:
-        - ALF12098
+      - ncbigi: ALF12098
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PX92
   - !!omap
@@ -41829,8 +41807,7 @@
     - name: RTMO00422
     - annotation: !!omap
       - kegg.genes: AOT13_15755
-      - ncbigi:
-        - ALF11344
+      - ncbigi: ALF11344
       - sbo: SBO:0000243
       - uniprot: A0A178U4D9
   - !!omap
@@ -41838,8 +41815,7 @@
     - name: RTMO02528
     - annotation: !!omap
       - kegg.genes: AOT13_15755
-      - ncbigi:
-        - ALF11344
+      - ncbigi: ALF11344
       - sbo: SBO:0000243
       - uniprot: A0A178U4D9
   - !!omap
@@ -41847,8 +41823,7 @@
     - name: RTMO00400
     - annotation: !!omap
       - kegg.genes: AOT13_04800
-      - ncbigi:
-        - ALF09386
+      - ncbigi: ALF09386
       - sbo: SBO:0000243
       - uniprot: A0A178U739
   - !!omap
@@ -41856,8 +41831,7 @@
     - name: RTMO04469
     - annotation: !!omap
       - kegg.genes: AOT13_09720
-      - ncbigi:
-        - ALF10272
+      - ncbigi: ALF10272
       - sbo: SBO:0000243
       - uniprot: A0A178TVG1
   - !!omap
@@ -41985,8 +41959,7 @@
     - name: RTMO03809
     - annotation: !!omap
       - kegg.genes: AOT13_07260
-      - ncbigi:
-        - ALF09811
+      - ncbigi: ALF09811
       - sbo: SBO:0000243
       - uniprot: A0A369WKN8
   - !!omap
@@ -41994,8 +41967,7 @@
     - name: RTMO02705
     - annotation: !!omap
       - kegg.genes: AOT13_17770
-      - ncbigi:
-        - ALF11720
+      - ncbigi: ALF11720
       - sbo: SBO:0000243
       - uniprot: A0A178TYZ8
   - !!omap
@@ -42003,8 +41975,7 @@
     - name: RTMO02228
     - annotation: !!omap
       - kegg.genes: AOT13_18120
-      - ncbigi:
-        - ALF12129
+      - ncbigi: ALF12129
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYS7
   - !!omap
@@ -42012,8 +41983,7 @@
     - name: RTMO03224
     - annotation: !!omap
       - kegg.genes: AOT13_18675
-      - ncbigi:
-        - ALF11893
+      - ncbigi: ALF11893
       - sbo: SBO:0000243
       - uniprot: A0A369WWF3
   - !!omap
@@ -42092,8 +42062,7 @@
     - name: RTMO02543
     - annotation: !!omap
       - kegg.genes: AOT13_03970
-      - ncbigi:
-        - ALF09255
+      - ncbigi: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42101,8 +42070,7 @@
     - name: RTMO02542
     - annotation: !!omap
       - kegg.genes: AOT13_03970
-      - ncbigi:
-        - ALF09255
+      - ncbigi: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42110,8 +42078,7 @@
     - name: RTMO02540
     - annotation: !!omap
       - kegg.genes: AOT13_03970
-      - ncbigi:
-        - ALF09255
+      - ncbigi: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42119,8 +42086,7 @@
     - name: RTMO00242
     - annotation: !!omap
       - kegg.genes: AOT13_03970
-      - ncbigi:
-        - ALF09255
+      - ncbigi: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42128,8 +42094,7 @@
     - name: RTMO02020
     - annotation: !!omap
       - kegg.genes: AOT13_03970
-      - ncbigi:
-        - ALF09255
+      - ncbigi: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42165,8 +42130,7 @@
     - name: RTMO01748
     - annotation: !!omap
       - kegg.genes: AOT13_11570
-      - ncbigi:
-        - ALF10596
+      - ncbigi: ALF10596
       - sbo: SBO:0000243
       - uniprot: A0A178TSN2
   - !!omap
@@ -42174,8 +42138,7 @@
     - name: RTMO04698
     - annotation: !!omap
       - kegg.genes: AOT13_06805
-      - ncbigi:
-        - ALF09726
+      - ncbigi: ALF09726
       - sbo: SBO:0000243
       - uniprot: A0A369WHK3
   - !!omap
@@ -42183,8 +42146,7 @@
     - name: RTMO00945
     - annotation: !!omap
       - kegg.genes: AOT13_18250
-      - ncbigi:
-        - ALF11812
+      - ncbigi: ALF11812
       - sbo: SBO:0000243
       - uniprot: A0A178TZX6
   - !!omap
@@ -42192,8 +42154,7 @@
     - name: RTMO00593
     - annotation: !!omap
       - kegg.genes: AOT13_05555
-      - ncbigi:
-        - ALF09521
+      - ncbigi: ALF09521
       - sbo: SBO:0000243
       - uniprot: A0A369XE46
   - !!omap
@@ -42201,8 +42162,7 @@
     - name: RTMO02531
     - annotation: !!omap
       - kegg.genes: AOT13_08820
-      - ncbigi:
-        - ALF10101
+      - ncbigi: ALF10101
       - sbo: SBO:0000243
       - uniprot: A0A178TZV7
   - !!omap
@@ -42210,8 +42170,7 @@
     - name: RTMO05273
     - annotation: !!omap
       - kegg.genes: AOT13_08955
-      - ncbigi:
-        - ALF10127
+      - ncbigi: ALF10127
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q460
   - !!omap
@@ -42231,8 +42190,7 @@
     - name: RTMO05053
     - annotation: !!omap
       - kegg.genes: AOT13_18565
-      - ncbigi:
-        - ALF11874
+      - ncbigi: ALF11874
       - sbo: SBO:0000243
       - uniprot: A0A178TZV2
   - !!omap
@@ -42240,8 +42198,7 @@
     - name: RTMO02227
     - annotation: !!omap
       - kegg.genes: AOT13_18115
-      - ncbigi:
-        - ALF11786
+      - ncbigi: ALF11786
       - sbo: SBO:0000243
       - uniprot: A0A178TZK6
   - !!omap
@@ -42249,8 +42206,7 @@
     - name: RTMO00810
     - annotation: !!omap
       - kegg.genes: AOT13_08405
-      - ncbigi:
-        - ALF10024
+      - ncbigi: ALF10024
       - sbo: SBO:0000243
       - uniprot: A0A369WHC6
   - !!omap
@@ -42258,8 +42214,7 @@
     - name: RTMO02229
     - annotation: !!omap
       - kegg.genes: AOT13_18125
-      - ncbigi:
-        - ALF11787
+      - ncbigi: ALF11787
       - sbo: SBO:0000243
       - uniprot: A0A178TZV4
   - !!omap
@@ -42295,8 +42250,7 @@
     - name: RTMO03769
     - annotation: !!omap
       - kegg.genes: AOT13_17435
-      - ncbigi:
-        - ALF11656
+      - ncbigi: ALF11656
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03185
@@ -42331,8 +42285,7 @@
     - name: RTMO03651
     - annotation: !!omap
       - kegg.genes: AOT13_06595
-      - ncbigi:
-        - ALF12013
+      - ncbigi: ALF12013
       - sbo: SBO:0000243
       - uniprot: A0A369WJP6
   - !!omap
@@ -42340,8 +42293,7 @@
     - name: RTMO00353
     - annotation: !!omap
       - kegg.genes: AOT13_04405
-      - ncbigi:
-        - ALF11990
+      - ncbigi: ALF11990
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PVX3
   - !!omap
@@ -42419,8 +42371,7 @@
     - name: RTMO05209
     - annotation: !!omap
       - kegg.genes: AOT13_01565
-      - ncbigi:
-        - ALF08834
+      - ncbigi: ALF08834
       - sbo: SBO:0000243
       - uniprot: A0A178TT62
   - !!omap
@@ -42428,8 +42379,7 @@
     - name: RTMO02942
     - annotation: !!omap
       - kegg.genes: AOT13_02800
-      - ncbigi:
-        - ALF09041
+      - ncbigi: ALF09041
       - sbo: SBO:0000243
       - uniprot: A0A178U549
   - !!omap
@@ -42437,8 +42387,7 @@
     - name: RTMO04290
     - annotation: !!omap
       - kegg.genes: AOT13_15625
-      - ncbigi:
-        - ALF11320
+      - ncbigi: ALF11320
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PKG2
   - !!omap
@@ -42446,8 +42395,7 @@
     - name: RTMO01075
     - annotation: !!omap
       - kegg.genes: AOT13_16035
-      - ncbigi:
-        - ALF11398
+      - ncbigi: ALF11398
       - sbo: SBO:0000243
       - uniprot: A0A369WUZ1
   - !!omap
@@ -42455,8 +42403,7 @@
     - name: RTMO05423
     - annotation: !!omap
       - kegg.genes: AOT13_16065
-      - ncbigi:
-        - ALF11404
+      - ncbigi: ALF11404
       - sbo: SBO:0000243
       - uniprot: A0A369X2E9
   - !!omap
@@ -42464,8 +42411,7 @@
     - name: RTMO01083
     - annotation: !!omap
       - kegg.genes: AOT13_16065
-      - ncbigi:
-        - ALF11404
+      - ncbigi: ALF11404
       - sbo: SBO:0000243
       - uniprot: A0A369X2E9
   - !!omap
@@ -42473,8 +42419,7 @@
     - name: RTMO03094
     - annotation: !!omap
       - kegg.genes: AOT13_00220
-      - ncbigi:
-        - ALF08594
+      - ncbigi: ALF08594
       - sbo: SBO:0000243
       - uniprot: A0A178TY13
   - !!omap
@@ -42482,8 +42427,7 @@
     - name: RTMO01832
     - annotation: !!omap
       - kegg.genes: AOT13_14215
-      - ncbigi:
-        - ALF11074
+      - ncbigi: ALF11074
       - sbo: SBO:0000243
       - uniprot: A0A178U1W9
   - !!omap
@@ -42661,8 +42605,7 @@
     - name: RTMO04683
     - annotation: !!omap
       - kegg.genes: AOT13_06870
-      - ncbigi:
-        - ALF09737
+      - ncbigi: ALF09737
       - sbo: SBO:0000243
       - uniprot: A0A369X928
   - !!omap
@@ -42721,8 +42664,7 @@
     - name: RTMO04284
     - annotation: !!omap
       - kegg.genes: AOT13_15745
-      - ncbigi:
-        - ALF11342
+      - ncbigi: ALF11342
       - sbo: SBO:0000243
       - uniprot: A0A369X293
   - !!omap
@@ -42730,8 +42672,7 @@
     - name: RTMO03562
     - annotation: !!omap
       - kegg.genes: AOT13_15435
-      - ncbigi:
-        - ALF11284
+      - ncbigi: ALF11284
       - sbo: SBO:0000243
       - uniprot: A0A178U4N0
   - !!omap
@@ -42739,8 +42680,7 @@
     - name: RTMO04306
     - annotation: !!omap
       - kegg.genes: AOT13_15435
-      - ncbigi:
-        - ALF11284
+      - ncbigi: ALF11284
       - sbo: SBO:0000243
       - uniprot: A0A178U4N0
   - !!omap
@@ -42748,8 +42688,7 @@
     - name: RTMO03561
     - annotation: !!omap
       - kegg.genes: AOT13_15435
-      - ncbigi:
-        - ALF11284
+      - ncbigi: ALF11284
       - sbo: SBO:0000243
       - uniprot: A0A178U4N0
   - !!omap
@@ -42757,8 +42696,7 @@
     - name: RTMO00224
     - annotation: !!omap
       - kegg.genes: AOT13_03900
-      - ncbigi:
-        - ALF09241
+      - ncbigi: ALF09241
       - sbo: SBO:0000243
       - uniprot: A0A369WFY2
   - !!omap
@@ -42771,8 +42709,7 @@
     - name: RTMO04933
     - annotation: !!omap
       - kegg.genes: AOT13_17195
-      - ncbigi:
-        - ALF11612
+      - ncbigi: ALF11612
       - sbo: SBO:0000243
       - uniprot: A0A178TYP9
   - !!omap
@@ -42780,8 +42717,7 @@
     - name: RTMO00678
     - annotation: !!omap
       - kegg.genes: AOT13_05885
-      - ncbigi:
-        - ALF09582
+      - ncbigi: ALF09582
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PMS0
   - !!omap
@@ -42789,8 +42725,7 @@
     - name: RTMO03233
     - annotation: !!omap
       - kegg.genes: AOT13_02130
-      - ncbigi:
-        - ALF08940
+      - ncbigi: ALF08940
       - sbo: SBO:0000243
       - uniprot: A0A178U1F5
   - !!omap
@@ -42798,8 +42733,7 @@
     - name: RTMO02204
     - annotation: !!omap
       - kegg.genes: AOT13_08325
-      - ncbigi:
-        - ALF10010
+      - ncbigi: ALF10010
       - sbo: SBO:0000243
       - uniprot: A0A178TWA5
   - !!omap
@@ -42807,8 +42741,7 @@
     - name: RTMO02919
     - annotation: !!omap
       - kegg.genes: AOT13_08325
-      - ncbigi:
-        - ALF10010
+      - ncbigi: ALF10010
       - sbo: SBO:0000243
       - uniprot: A0A178TWA5
   - !!omap
@@ -42816,8 +42749,7 @@
     - name: RTMO04823
     - annotation: !!omap
       - kegg.genes: AOT13_03620
-      - ncbigi:
-        - ALF09186
+      - ncbigi: ALF09186
       - sbo: SBO:0000243
       - uniprot: A0A178U2W6
   - !!omap
@@ -42841,8 +42773,7 @@
     - name: RTMO04866
     - annotation: !!omap
       - kegg.genes: AOT13_02510
-      - ncbigi:
-        - ALF09002
+      - ncbigi: ALF09002
       - sbo: SBO:0000243
       - uniprot: A0A178TQP8
   - !!omap
@@ -42850,8 +42781,7 @@
     - name: RTMO04039
     - annotation: !!omap
       - kegg.genes: AOT13_08880
-      - ncbigi:
-        - ALF10113
+      - ncbigi: ALF10113
       - sbo: SBO:0000243
       - uniprot: A0A178TW99
   - !!omap
@@ -42963,8 +42893,7 @@
     - name: RTMO02318
     - annotation: !!omap
       - kegg.genes: AOT13_00740
-      - ncbigi:
-        - ALF08688
+      - ncbigi: ALF08688
       - sbo: SBO:0000243
       - uniprot: A0A178U422
   - !!omap
@@ -43000,8 +42929,7 @@
     - name: RTMO02760
     - annotation: !!omap
       - kegg.genes: AOT13_06970
-      - ncbigi:
-        - ALF09756
+      - ncbigi: ALF09756
       - sbo: SBO:0000243
       - uniprot: A0A369WGJ6
   - !!omap
@@ -43047,8 +42975,7 @@
     - name: RTMO00140
     - annotation: !!omap
       - kegg.genes: AOT13_14870
-      - ncbigi:
-        - ALF11191
+      - ncbigi: ALF11191
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PQM7
   - !!omap
@@ -43056,8 +42983,7 @@
     - name: RTMO00996
     - annotation: !!omap
       - kegg.genes: AOT13_17450
-      - ncbigi:
-        - ALF11659
+      - ncbigi: ALF11659
       - sbo: SBO:0000243
       - uniprot: A0A178U0U8
   - !!omap
@@ -43127,8 +43053,7 @@
     - name: RTMO04783
     - annotation: !!omap
       - kegg.genes: AOT13_05975
-      - ncbigi:
-        - ALF09597
+      - ncbigi: ALF09597
       - sbo: SBO:0000243
       - uniprot: A0A178U3X0
   - !!omap
@@ -43136,8 +43061,7 @@
     - name: RTMO04782
     - annotation: !!omap
       - kegg.genes: AOT13_05975
-      - ncbigi:
-        - ALF09597
+      - ncbigi: ALF09597
       - sbo: SBO:0000243
       - uniprot: A0A178U3X0
   - !!omap
@@ -43271,8 +43195,7 @@
     - name: RTMO00273
     - annotation: !!omap
       - kegg.genes: AOT13_05395
-      - ncbigi:
-        - ALF09491
+      - ncbigi: ALF09491
       - sbo: SBO:0000243
       - uniprot: A0A178TUQ8
   - !!omap
@@ -43280,8 +43203,7 @@
     - name: RTMO01696
     - annotation: !!omap
       - kegg.genes: AOT13_05395
-      - ncbigi:
-        - ALF09491
+      - ncbigi: ALF09491
       - sbo: SBO:0000243
       - uniprot: A0A178TUQ8
   - !!omap
@@ -43289,8 +43211,7 @@
     - name: RTMO01756
     - annotation: !!omap
       - kegg.genes: AOT13_05395
-      - ncbigi:
-        - ALF09491
+      - ncbigi: ALF09491
       - sbo: SBO:0000243
       - uniprot: A0A178TUQ8
   - !!omap
@@ -43298,8 +43219,7 @@
     - name: RTMO03797
     - annotation: !!omap
       - kegg.genes: AOT13_15540
-      - ncbigi:
-        - ALF11305
+      - ncbigi: ALF11305
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBS1
   - !!omap
@@ -43367,8 +43287,7 @@
     - name: RTMO01252
     - annotation: !!omap
       - kegg.genes: AOT13_14440
-      - ncbigi:
-        - ALF11112
+      - ncbigi: ALF11112
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYZ6
   - !!omap
@@ -43376,8 +43295,7 @@
     - name: RTMO01887
     - annotation: !!omap
       - kegg.genes: AOT13_14440
-      - ncbigi:
-        - ALF11112
+      - ncbigi: ALF11112
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYZ6
   - !!omap
@@ -43385,8 +43303,7 @@
     - name: RTMO03547
     - annotation: !!omap
       - kegg.genes: AOT13_14440
-      - ncbigi:
-        - ALF11112
+      - ncbigi: ALF11112
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYZ6
   - !!omap
@@ -43554,8 +43471,7 @@
     - name: RTMO05024
     - annotation: !!omap
       - kegg.genes: AOT13_18150
-      - ncbigi:
-        - ALF11792
+      - ncbigi: ALF11792
       - sbo: SBO:0000243
       - uniprot: A0A178TZF5
   - !!omap
@@ -43579,8 +43495,7 @@
     - name: RTMO02454
     - annotation: !!omap
       - kegg.genes: AOT13_01655
-      - ncbigi:
-        - ALF08851
+      - ncbigi: ALF08851
       - sbo: SBO:0000243
       - uniprot: A0A369WM27
   - !!omap
@@ -43588,8 +43503,7 @@
     - name: RTMO03964
     - annotation: !!omap
       - kegg.genes: AOT13_03650
-      - ncbigi:
-        - ALF09192
+      - ncbigi: ALF09192
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PDL3
   - !!omap
@@ -43597,8 +43511,7 @@
     - name: RTMO01048
     - annotation: !!omap
       - kegg.genes: AOT13_15930
-      - ncbigi:
-        - ALF11378
+      - ncbigi: ALF11378
       - sbo: SBO:0000243
       - uniprot: A0A369WUX1
   - !!omap
@@ -43606,8 +43519,7 @@
     - name: RTMO03239
     - annotation: !!omap
       - kegg.genes: AOT13_02100
-      - ncbigi:
-        - ALF08935
+      - ncbigi: ALF08935
       - sbo: SBO:0000243
       - uniprot: A0A178U0C4
   - !!omap
@@ -43643,8 +43555,7 @@
     - name: RTMO02851
     - annotation: !!omap
       - kegg.genes: AOT13_03260
-      - ncbigi:
-        - ALF09117
+      - ncbigi: ALF09117
       - sbo: SBO:0000243
       - uniprot: A0A178U2V6
   - !!omap
@@ -43652,8 +43563,7 @@
     - name: RTMO00243
     - annotation: !!omap
       - kegg.genes: AOT13_03260
-      - ncbigi:
-        - ALF09117
+      - ncbigi: ALF09117
       - sbo: SBO:0000243
       - uniprot: A0A178U2V6
   - !!omap
@@ -43661,8 +43571,7 @@
     - name: RTMO03882
     - annotation: !!omap
       - kegg.genes: AOT13_17155
-      - ncbigi:
-        - ALF11604
+      - ncbigi: ALF11604
       - sbo: SBO:0000243
       - uniprot: A0A369X6W2
   - !!omap
@@ -43687,8 +43596,7 @@
     - name: RTMO00597
     - annotation: !!omap
       - kegg.genes: AOT13_05575
-      - ncbigi:
-        - ALF09524
+      - ncbigi: ALF09524
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q433
   - !!omap
@@ -43696,8 +43604,7 @@
     - name: RTMO02808
     - annotation: !!omap
       - kegg.genes: AOT13_03415
-      - ncbigi:
-        - ALF09147
+      - ncbigi: ALF09147
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PMV6
   - !!omap
@@ -43854,8 +43761,7 @@
     - name: RTMO02508
     - annotation: !!omap
       - kegg.genes: AOT13_12560
-      - ncbigi:
-        - ALF10781
+      - ncbigi: ALF10781
       - sbo: SBO:0000243
       - uniprot: A0A369WKM1
   - !!omap
@@ -43897,8 +43803,7 @@
     - name: RTMO01003
     - annotation: !!omap
       - kegg.genes: AOT13_15650
-      - ncbigi:
-        - ALF11325
+      - ncbigi: ALF11325
       - sbo: SBO:0000243
       - uniprot: A0A369WZB2
   - !!omap
@@ -43906,8 +43811,7 @@
     - name: RTMO03692
     - annotation: !!omap
       - kegg.genes: AOT13_09875
-      - ncbigi:
-        - ALF10302
+      - ncbigi: ALF10302
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2R7
   - !!omap
@@ -43915,8 +43819,7 @@
     - name: RTMO02512
     - annotation: !!omap
       - kegg.genes: AOT13_15335
-      - ncbigi:
-        - ALF12100
+      - ncbigi: ALF12100
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBM6
   - !!omap
@@ -43924,8 +43827,7 @@
     - name: RTMO05124
     - annotation: !!omap
       - kegg.genes: AOT13_01090
-      - ncbigi:
-        - ALF08751
+      - ncbigi: ALF08751
       - sbo: SBO:0000243
       - uniprot: A0A369WZU3
   - !!omap
@@ -43961,8 +43863,7 @@
     - name: RTMO02039
     - annotation: !!omap
       - kegg.genes: AOT13_12365
-      - ncbigi:
-        - ALF10747
+      - ncbigi: ALF10747
       - sbo: SBO:0000243
       - uniprot: A0A178TV00
   - !!omap
@@ -44012,8 +43913,7 @@
     - name: RTMO03119
     - annotation: !!omap
       - kegg.genes: AOT13_00130
-      - ncbigi:
-        - ALF08578
+      - ncbigi: ALF08578
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q1P4
   - !!omap
@@ -44021,8 +43921,7 @@
     - name: RTMO05033
     - annotation: !!omap
       - kegg.genes: AOT13_00130
-      - ncbigi:
-        - ALF08578
+      - ncbigi: ALF08578
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q1P4
   - !!omap
@@ -44154,8 +44053,7 @@
     - name: RTMO02100
     - annotation: !!omap
       - kegg.genes: AOT13_12130
-      - ncbigi:
-        - ALF10704
+      - ncbigi: ALF10704
       - sbo: SBO:0000243
       - uniprot: A0A178TS99
   - !!omap
@@ -44163,8 +44061,7 @@
     - name: RTMO02130
     - annotation: !!omap
       - kegg.genes: AOT13_12005
-      - ncbigi:
-        - ALF10679
+      - ncbigi: ALF10679
       - sbo: SBO:0000243
       - uniprot: A0A369XDF7
   - !!omap
@@ -44172,8 +44069,7 @@
     - name: RTMO02325
     - annotation: !!omap
       - kegg.genes: AOT13_12615
-      - ncbigi:
-        - ALF10792
+      - ncbigi: ALF10792
       - sbo: SBO:0000243
       - uniprot: A0A178TRI7
   - !!omap
@@ -44181,8 +44077,7 @@
     - name: RTMO1234
     - annotation: !!omap
       - kegg.genes: AOT13_03745
-      - ncbigi:
-        - ALF09211
+      - ncbigi: ALF09211
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZJ4
   - !!omap
@@ -44300,8 +44195,7 @@
     - name: RTMO04131
     - annotation: !!omap
       - kegg.genes: AOT13_08750
-      - ncbigi:
-        - ALF10087
+      - ncbigi: ALF10087
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PN44
   - !!omap
@@ -44357,8 +44251,7 @@
     - name: RTMO03788
     - annotation: !!omap
       - kegg.genes: AOT13_15575
-      - ncbigi:
-        - ALF11312
+      - ncbigi: ALF11312
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBR7
   - !!omap
@@ -44383,8 +44276,7 @@
     - name: RTMO01667
     - annotation: !!omap
       - kegg.genes: AOT13_11200
-      - ncbigi:
-        - ALF10533
+      - ncbigi: ALF10533
       - sbo: SBO:0000243
       - uniprot: A0A178TS96
   - !!omap
@@ -44392,8 +44284,7 @@
     - name: RTMO02321
     - annotation: !!omap
       - kegg.genes: AOT13_00750
-      - ncbigi:
-        - ALF08690
+      - ncbigi: ALF08690
       - sbo: SBO:0000243
       - uniprot: A0A178U5D4
   - !!omap
@@ -44401,8 +44292,7 @@
     - name: RTMO04202
     - annotation: !!omap
       - kegg.genes: AOT13_15470
-      - ncbigi:
-        - ALF11291
+      - ncbigi: ALF11291
       - sbo: SBO:0000243
       - uniprot: A0A178U408
   - !!omap
@@ -44410,8 +44300,7 @@
     - name: RTMO01554
     - annotation: !!omap
       - kegg.genes: AOT13_07740
-      - ncbigi:
-        - ALF09901
+      - ncbigi: ALF09901
       - sbo: SBO:0000243
       - uniprot: A0A178TWR8
   - !!omap
@@ -44419,8 +44308,7 @@
     - name: RTMO03920
     - annotation: !!omap
       - kegg.genes: AOT13_07740
-      - ncbigi:
-        - ALF09901
+      - ncbigi: ALF09901
       - sbo: SBO:0000243
       - uniprot: A0A178TWR8
   - !!omap
@@ -44428,8 +44316,7 @@
     - name: RTMO02943
     - annotation: !!omap
       - kegg.genes: AOT13_02795
-      - ncbigi:
-        - ALF09040
+      - ncbigi: ALF09040
       - sbo: SBO:0000243
       - uniprot: A0A178U1S8
   - !!omap
@@ -44451,8 +44338,7 @@
     - name: RTMO00397
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44460,8 +44346,7 @@
     - name: RTMO04138
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44469,8 +44354,7 @@
     - name: RTMO03704
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44478,8 +44362,7 @@
     - name: RTMO03996
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44487,8 +44370,7 @@
     - name: RTMO00285
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44496,8 +44378,7 @@
     - name: RTMO04041
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44505,8 +44386,7 @@
     - name: RTMO03299
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44514,8 +44394,7 @@
     - name: RTMO04998
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44523,8 +44402,7 @@
     - name: RTMO04118
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44532,8 +44410,7 @@
     - name: RTMO03284
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44541,8 +44418,7 @@
     - name: RTMO02665
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44550,8 +44426,7 @@
     - name: RTMO01106
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44559,8 +44434,7 @@
     - name: RTMO04085
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44568,8 +44442,7 @@
     - name: RTMO04593
     - annotation: !!omap
       - kegg.genes: AOT13_16160
-      - ncbigi:
-        - ALF11421
+      - ncbigi: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44612,8 +44485,7 @@
     - name: RTMO00186
     - annotation: !!omap
       - kegg.genes: AOT13_03735
-      - ncbigi:
-        - ALF09209
+      - ncbigi: ALF09209
       - sbo: SBO:0000243
       - uniprot: A0A178U3Z5
   - !!omap
@@ -44621,8 +44493,7 @@
     - name: RTMO01099
     - annotation: !!omap
       - kegg.genes: AOT13_16130
-      - ncbigi:
-        - ALF11417
+      - ncbigi: ALF11417
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZE6
   - !!omap
@@ -44635,8 +44506,7 @@
     - name: RTMO04143
     - annotation: !!omap
       - kegg.genes: AOT13_16965
-      - ncbigi:
-        - ALF11572
+      - ncbigi: ALF11572
       - sbo: SBO:0000243
       - uniprot: A0A369WVH7
   - !!omap
@@ -44644,8 +44514,7 @@
     - name: RTMO04464
     - annotation: !!omap
       - kegg.genes: AOT13_09745
-      - ncbigi:
-        - ALF10277
+      - ncbigi: ALF10277
       - sbo: SBO:0000243
       - uniprot: A0A178TVN9
   - !!omap
@@ -44653,8 +44522,7 @@
     - name: RTMO03967
     - annotation: !!omap
       - kegg.genes: AOT13_03635
-      - ncbigi:
-        - ALF09189
+      - ncbigi: ALF09189
       - sbo: SBO:0000243
       - uniprot: A0A178U4M8
   - !!omap
@@ -44662,8 +44530,7 @@
     - name: RTMO05097
     - annotation: !!omap
       - kegg.genes: AOT13_00855
-      - ncbigi:
-        - ALF08709
+      - ncbigi: ALF08709
       - sbo: SBO:0000243
       - uniprot: A0A178U386
   - !!omap
@@ -44671,8 +44538,7 @@
     - name: RTMO00385
     - annotation: !!omap
       - kegg.genes: AOT13_04735
-      - ncbigi:
-        - ALF09373
+      - ncbigi: ALF09373
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PQW4
   - !!omap
@@ -44680,8 +44546,7 @@
     - name: RTMO03790
     - annotation: !!omap
       - kegg.genes: AOT13_15570
-      - ncbigi:
-        - ALF11311
+      - ncbigi: ALF11311
       - sbo: SBO:0000243
       - uniprot: A0A178U427
   - !!omap
@@ -44769,8 +44634,7 @@
     - name: RTMO00614
     - annotation: !!omap
       - kegg.genes: AOT13_05645
-      - ncbigi:
-        - ALF12005
+      - ncbigi: ALF12005
       - sbo: SBO:0000243
       - uniprot: A0A369WM13
   - !!omap
@@ -44778,8 +44642,7 @@
     - name: RTMO00380
     - annotation: !!omap
       - kegg.genes: AOT13_04710
-      - ncbigi:
-        - ALF09368
+      - ncbigi: ALF09368
       - sbo: SBO:0000243
       - uniprot: A0A178U511
   - !!omap
@@ -44787,8 +44650,7 @@
     - name: RTMO02415
     - annotation: !!omap
       - kegg.genes: AOT13_18220
-      - ncbigi:
-        - ALF11806
+      - ncbigi: ALF11806
       - sbo: SBO:0000243
       - uniprot: A0A178TZ71
   - !!omap
@@ -44796,8 +44658,7 @@
     - name: RTMO01154
     - annotation: !!omap
       - kegg.genes: AOT13_16355
-      - ncbigi:
-        - ALF11457
+      - ncbigi: ALF11457
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PWJ5
   - !!omap
@@ -44805,8 +44666,7 @@
     - name: RTMO02713
     - annotation: !!omap
       - kegg.genes: AOT13_17740
-      - ncbigi:
-        - ALF11715
+      - ncbigi: ALF11715
       - sbo: SBO:0000243
       - uniprot: A0A178TZD6
   - !!omap
@@ -44814,8 +44674,7 @@
     - name: RTMO02517
     - annotation: !!omap
       - kegg.genes: AOT13_15320
-      - ncbigi:
-        - ALF11264
+      - ncbigi: ALF11264
       - sbo: SBO:0000243
       - uniprot: A0A178U4H5
   - !!omap
@@ -44823,8 +44682,7 @@
     - name: RTMO02513
     - annotation: !!omap
       - kegg.genes: AOT13_15330
-      - ncbigi:
-        - ALF11266
+      - ncbigi: ALF11266
       - sbo: SBO:0000243
       - uniprot: A0A369WZ52
   - !!omap
@@ -44852,8 +44710,7 @@
     - name: RTMO00388
     - annotation: !!omap
       - kegg.genes: AOT13_04750
-      - ncbigi:
-        - ALF09376
+      - ncbigi: ALF09376
       - sbo: SBO:0000243
       - uniprot: A0A369WHM9
   - !!omap
@@ -44861,8 +44718,7 @@
     - name: RTMO02904
     - annotation: !!omap
       - kegg.genes: AOT13_03005
-      - ncbigi:
-        - ALF09074
+      - ncbigi: ALF09074
       - sbo: SBO:0000243
       - uniprot: A0A178U2L2
   - !!omap
@@ -44870,8 +44726,7 @@
     - name: RTMO02869
     - annotation: !!omap
       - kegg.genes: AOT13_03190
-      - ncbigi:
-        - ALF09105
+      - ncbigi: ALF09105
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PE01
   - !!omap
@@ -44907,8 +44762,7 @@
     - name: RTMO00343
     - annotation: !!omap
       - kegg.genes: AOT13_04370
-      - ncbigi:
-        - ALF09322
+      - ncbigi: ALF09322
       - sbo: SBO:0000243
       - uniprot: A0A178U0M0
   - !!omap
@@ -44916,8 +44770,7 @@
     - name: RTMO02555
     - annotation: !!omap
       - kegg.genes: AOT13_04080
-      - ncbigi:
-        - ALF09272
+      - ncbigi: ALF09272
       - sbo: SBO:0000243
       - uniprot: A0A369WH13
   - !!omap
@@ -44925,8 +44778,7 @@
     - name: RTMO01478
     - annotation: !!omap
       - kegg.genes: AOT13_04080
-      - ncbigi:
-        - ALF09272
+      - ncbigi: ALF09272
       - sbo: SBO:0000243
       - uniprot: A0A369WH13
   - !!omap
@@ -44934,8 +44786,7 @@
     - name: RTMO03129
     - annotation: !!omap
       - kegg.genes: AOT13_04080
-      - ncbigi:
-        - ALF09272
+      - ncbigi: ALF09272
       - sbo: SBO:0000243
       - uniprot: A0A369WH13
   - !!omap
@@ -44971,8 +44822,7 @@
     - name: RTMO04010
     - annotation: !!omap
       - kegg.genes: AOT13_00850
-      - ncbigi:
-        - ALF08708
+      - ncbigi: ALF08708
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PS98
   - !!omap
@@ -44980,8 +44830,7 @@
     - name: RTMO01155
     - annotation: !!omap
       - kegg.genes: AOT13_16360
-      - ncbigi:
-        - ALF11458
+      - ncbigi: ALF11458
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PUB7
   - !!omap
@@ -45029,8 +44878,7 @@
     - name: RTMO01987
     - annotation: !!omap
       - kegg.genes: AOT13_15040
-      - ncbigi:
-        - ALF11223
+      - ncbigi: ALF11223
       - sbo: SBO:0000243
       - uniprot: A0A178U4A8
   - !!omap
@@ -45038,8 +44886,7 @@
     - name: RTMO02722
     - annotation: !!omap
       - kegg.genes: AOT13_17720
-      - ncbigi:
-        - ALF11711
+      - ncbigi: ALF11711
       - sbo: SBO:0000243
       - uniprot: A0A369WZ18
   - !!omap
@@ -45047,8 +44894,7 @@
     - name: RTMO04195
     - annotation: !!omap
       - kegg.genes: AOT13_15445
-      - ncbigi:
-        - ALF11286
+      - ncbigi: ALF11286
       - sbo: SBO:0000243
       - uniprot: A0A178U7K7
   - !!omap
@@ -45056,8 +44902,7 @@
     - name: RTMO01996
     - annotation: !!omap
       - kegg.genes: AOT13_16455
-      - ncbigi:
-        - ALF11475
+      - ncbigi: ALF11475
       - sbo: SBO:0000243
       - uniprot: A0A369X9D0
   - !!omap
@@ -45093,8 +44938,7 @@
     - name: RTMO00049
     - annotation: !!omap
       - kegg.genes: AOT13_16610
-      - ncbigi:
-        - ALF11504
+      - ncbigi: ALF11504
       - sbo: SBO:0000243
       - uniprot: A0A178TYJ5
   - !!omap
@@ -45116,8 +44960,7 @@
     - name: RTMO00367
     - annotation: !!omap
       - kegg.genes: AOT13_04635
-      - ncbigi:
-        - ALF09356
+      - ncbigi: ALF09356
       - sbo: SBO:0000243
       - uniprot: A0A178U1V5
   - !!omap
@@ -45125,8 +44968,7 @@
     - name: RTMO00392
     - annotation: !!omap
       - kegg.genes: AOT13_04765
-      - ncbigi:
-        - ALF09379
+      - ncbigi: ALF09379
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PKD0
   - !!omap
@@ -45134,8 +44976,7 @@
     - name: RTMO01118
     - annotation: !!omap
       - kegg.genes: AOT13_16205
-      - ncbigi:
-        - ALF11429
+      - ncbigi: ALF11429
       - sbo: SBO:0000243
       - uniprot: A0A178U4M7
   - !!omap
@@ -45143,8 +44984,7 @@
     - name: RTMO00531
     - annotation: !!omap
       - kegg.genes: AOT13_05340
-      - ncbigi:
-        - ALF11999
+      - ncbigi: ALF11999
       - sbo: SBO:0000243
       - uniprot: A0A369XGZ9
   - !!omap
@@ -45187,8 +45027,7 @@
     - name: RTMO03304
     - annotation: !!omap
       - kegg.genes: AOT13_18615
-      - ncbigi:
-        - ALF11883
+      - ncbigi: ALF11883
       - sbo: SBO:0000243
       - uniprot: A0A178TZW3
   - !!omap
@@ -45196,8 +45035,7 @@
     - name: RTMO03752
     - annotation: !!omap
       - kegg.genes: AOT13_09820
-      - ncbigi:
-        - ALF10291
+      - ncbigi: ALF10291
       - sbo: SBO:0000243
       - uniprot: A0A369WJT0
   - !!omap
@@ -45205,8 +45043,7 @@
     - name: RTMO01944
     - annotation: !!omap
       - kegg.genes: AOT13_14645
-      - ncbigi:
-        - ALF11152
+      - ncbigi: ALF11152
       - sbo: SBO:0000243
       - uniprot: A0A178U1G3
   - !!omap
@@ -45214,8 +45051,7 @@
     - name: RTMO03337
     - annotation: !!omap
       - kegg.genes: AOT13_13870
-      - ncbigi:
-        - ALF11009
+      - ncbigi: ALF11009
       - sbo: SBO:0000243
       - uniprot: A0A178U6S8
   - !!omap
@@ -45237,8 +45073,7 @@
     - name: RTMO04123
     - annotation: !!omap
       - kegg.genes: AOT13_08720
-      - ncbigi:
-        - ALF12035
+      - ncbigi: ALF12035
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PK83
   - !!omap
@@ -45246,8 +45081,7 @@
     - name: RTMO02594
     - annotation: !!omap
       - kegg.genes: AOT13_07285
-      - ncbigi:
-        - ALF09816
+      - ncbigi: ALF09816
       - sbo: SBO:0000243
       - uniprot: A0A178TZL0
   - !!omap
@@ -45255,8 +45089,7 @@
     - name: RTMO01745
     - annotation: !!omap
       - kegg.genes: AOT13_11490
-      - ncbigi:
-        - ALF10585
+      - ncbigi: ALF10585
       - sbo: SBO:0000243
       - uniprot: A0A369WJT3
   - !!omap
@@ -45306,8 +45139,7 @@
     - name: RTMO03327
     - annotation: !!omap
       - kegg.genes: AOT13_02035
-      - ncbigi:
-        - ALF08922
+      - ncbigi: ALF08922
       - sbo: SBO:0000243
       - uniprot: A0A178U1P7
   - !!omap
@@ -45315,8 +45147,7 @@
     - name: RTMO03329
     - annotation: !!omap
       - kegg.genes: AOT13_02045
-      - ncbigi:
-        - ALF08924
+      - ncbigi: ALF08924
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PWJ8
   - !!omap
@@ -45324,8 +45155,7 @@
     - name: RTMO02322
     - annotation: !!omap
       - kegg.genes: AOT13_00755
-      - ncbigi:
-        - ALF08691
+      - ncbigi: ALF08691
       - sbo: SBO:0000243
       - uniprot: A0A178U3H1
   - !!omap
@@ -45333,8 +45163,7 @@
     - name: RTMO01320
     - annotation: !!omap
       - kegg.genes: AOT13_15825
-      - ncbigi:
-        - ALF11358
+      - ncbigi: ALF11358
       - sbo: SBO:0000243
       - uniprot: A0A178U641
   - !!omap
@@ -45342,8 +45171,7 @@
     - name: RTMO01865
     - annotation: !!omap
       - kegg.genes: AOT13_15825
-      - ncbigi:
-        - ALF11358
+      - ncbigi: ALF11358
       - sbo: SBO:0000243
       - uniprot: A0A178U641
   - !!omap
@@ -45351,8 +45179,7 @@
     - name: RTMO00769
     - annotation: !!omap
       - kegg.genes: AOT13_15825
-      - ncbigi:
-        - ALF11358
+      - ncbigi: ALF11358
       - sbo: SBO:0000243
       - uniprot: A0A178U641
   - !!omap
@@ -45360,8 +45187,7 @@
     - name: RTMO00568
     - annotation: !!omap
       - kegg.genes: AOT13_15825
-      - ncbigi:
-        - ALF11358
+      - ncbigi: ALF11358
       - sbo: SBO:0000243
       - uniprot: A0A178U641
   - !!omap
@@ -45397,8 +45223,7 @@
     - name: RTMO02320
     - annotation: !!omap
       - kegg.genes: AOT13_00745
-      - ncbigi:
-        - ALF08689
+      - ncbigi: ALF08689
       - sbo: SBO:0000243
       - uniprot: A0A369WZN2
   - !!omap
@@ -45420,8 +45245,7 @@
     - name: RTMO04040
     - annotation: !!omap
       - kegg.genes: AOT13_08875
-      - ncbigi:
-        - ALF10112
+      - ncbigi: ALF10112
       - sbo: SBO:0000243
       - uniprot: A0A369XFZ9
   - !!omap
@@ -45468,8 +45292,7 @@
     - name: RTMO02346
     - annotation: !!omap
       - kegg.genes: AOT13_03665
-      - ncbigi:
-        - ALF09195
+      - ncbigi: ALF09195
       - sbo: SBO:0000243
       - uniprot: A0A178U2X7
   - !!omap
@@ -45477,8 +45300,7 @@
     - name: RTMO01749
     - annotation: !!omap
       - kegg.genes: AOT13_11575
-      - ncbigi:
-        - ALF10597
+      - ncbigi: ALF10597
       - sbo: SBO:0000243
       - uniprot: A0A369WL95
   - !!omap
@@ -45486,8 +45308,7 @@
     - name: RTMO02376
     - annotation: !!omap
       - kegg.genes: AOT13_17615
-      - ncbigi:
-        - ALF11692
+      - ncbigi: ALF11692
       - sbo: SBO:0000243
       - uniprot: A0A369WVV1
   - !!omap
@@ -45512,8 +45333,7 @@
     - name: RTMO04049
     - annotation: !!omap
       - kegg.genes: AOT13_16440
-      - ncbigi:
-        - ALF11472
+      - ncbigi: ALF11472
       - sbo: SBO:0000243
       - uniprot: A0A369WH29
   - !!omap
@@ -45521,8 +45341,7 @@
     - name: RTMO04295
     - annotation: !!omap
       - kegg.genes: AOT13_15590
-      - ncbigi:
-        - ALF11314
+      - ncbigi: ALF11314
       - sbo: SBO:0000243
       - uniprot: A0A369XDH5
   - !!omap
@@ -45651,8 +45470,7 @@
     - name: RTMO04408
     - annotation: !!omap
       - kegg.genes: AOT13_11820
-      - ncbigi:
-        - ALF10646
+      - ncbigi: ALF10646
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PA68
   - !!omap
@@ -45660,8 +45478,7 @@
     - name: RTMO00067
     - annotation: !!omap
       - kegg.genes: AOT13_16685
-      - ncbigi:
-        - ALF11519
+      - ncbigi: ALF11519
       - sbo: SBO:0000243
       - uniprot: A0A178TYC4
   - !!omap
@@ -45669,8 +45486,7 @@
     - name: RTMO01669
     - annotation: !!omap
       - kegg.genes: AOT13_11210
-      - ncbigi:
-        - ALF10535
+      - ncbigi: ALF10535
       - sbo: SBO:0000243
       - uniprot: A0A178TSW3
   - !!omap
@@ -45678,8 +45494,7 @@
     - name: RTMO01728
     - annotation: !!omap
       - kegg.genes: AOT13_11465
-      - ncbigi:
-        - ALF10580
+      - ncbigi: ALF10580
       - sbo: SBO:0000243
       - uniprot: A0A369WK14
   - !!omap
@@ -45687,8 +45502,7 @@
     - name: RTMO01733
     - annotation: !!omap
       - kegg.genes: AOT13_11490
-      - ncbigi:
-        - ALF10585
+      - ncbigi: ALF10585
       - sbo: SBO:0000243
       - uniprot: A0A369WJT3
   - !!omap
@@ -45696,8 +45510,7 @@
     - name: RTMO03097
     - annotation: !!omap
       - kegg.genes: AOT13_00205
-      - ncbigi:
-        - ALF08591
+      - ncbigi: ALF08591
       - sbo: SBO:0000243
       - uniprot: A0A369X173
   - !!omap
@@ -45705,8 +45518,7 @@
     - name: RTMO03095
     - annotation: !!omap
       - kegg.genes: AOT13_00215
-      - ncbigi:
-        - ALF08593
+      - ncbigi: ALF08593
       - sbo: SBO:0000243
       - uniprot: A0A369XEP2
   - !!omap
@@ -45714,8 +45526,7 @@
     - name: RTMO02131
     - annotation: !!omap
       - kegg.genes: AOT13_12000
-      - ncbigi:
-        - ALF10678
+      - ncbigi: ALF10678
       - sbo: SBO:0000243
       - uniprot: A0A178TRL4
   - !!omap
@@ -45723,8 +45534,7 @@
     - name: RTMO00472
     - annotation: !!omap
       - kegg.genes: AOT13_05115
-      - ncbigi:
-        - ALF09443
+      - ncbigi: ALF09443
       - sbo: SBO:0000243
       - uniprot: A0A369X595
   - !!omap
@@ -45732,8 +45542,7 @@
     - name: RTMO04923
     - annotation: !!omap
       - kegg.genes: AOT13_17110
-      - ncbigi:
-        - ALF11595
+      - ncbigi: ALF11595
       - sbo: SBO:0000243
       - uniprot: A0A178TYQ1
   - !!omap
@@ -45741,8 +45550,7 @@
     - name: RTMO05123
     - annotation: !!omap
       - kegg.genes: AOT13_17110
-      - ncbigi:
-        - ALF11595
+      - ncbigi: ALF11595
       - sbo: SBO:0000243
       - uniprot: A0A178TYQ1
   - !!omap
@@ -45764,8 +45572,7 @@
     - name: RTMO03335
     - annotation: !!omap
       - kegg.genes: AOT13_16250
-      - ncbigi:
-        - ALF11438
+      - ncbigi: ALF11438
       - sbo: SBO:0000243
       - uniprot: A0A178U364
   - !!omap
@@ -45773,8 +45580,7 @@
     - name: RTMO03340
     - annotation: !!omap
       - kegg.genes: AOT13_16250
-      - ncbigi:
-        - ALF11438
+      - ncbigi: ALF11438
       - sbo: SBO:0000243
       - uniprot: A0A178U364
   - !!omap
@@ -45782,8 +45588,7 @@
     - name: RTMO04130
     - annotation: !!omap
       - kegg.genes: AOT13_08745
-      - ncbigi:
-        - ALF10086
+      - ncbigi: ALF10086
       - sbo: SBO:0000243
       - uniprot: A0A178TZW5
   - !!omap
@@ -45791,8 +45596,7 @@
     - name: RTMO04129
     - annotation: !!omap
       - kegg.genes: AOT13_08745
-      - ncbigi:
-        - ALF10086
+      - ncbigi: ALF10086
       - sbo: SBO:0000243
       - uniprot: A0A178TZW5
   - !!omap
@@ -45800,8 +45604,7 @@
     - name: RTMO04132
     - annotation: !!omap
       - kegg.genes: AOT13_08755
-      - ncbigi:
-        - ALF10088
+      - ncbigi: ALF10088
       - sbo: SBO:0000243
       - uniprot: A0A178TWB8
   - !!omap
@@ -45809,8 +45612,7 @@
     - name: RTMO04889
     - annotation: !!omap
       - kegg.genes: AOT13_16915
-      - ncbigi:
-        - ALF11563
+      - ncbigi: ALF11563
       - sbo: SBO:0000243
       - uniprot: A0A178TYL3
   - !!omap
@@ -45818,8 +45620,7 @@
     - name: RTMO00470
     - annotation: !!omap
       - kegg.genes: AOT13_05105
-      - ncbigi:
-        - ALF09441
+      - ncbigi: ALF09441
       - sbo: SBO:0000243
       - uniprot: A0A369WGS0
   - !!omap
@@ -45855,8 +45656,7 @@
     - name: RTMO02414
     - annotation: !!omap
       - kegg.genes: AOT13_18225
-      - ncbigi:
-        - ALF11807
+      - ncbigi: ALF11807
       - sbo: SBO:0000243
       - uniprot: A0A178U0R6
   - !!omap
@@ -45864,8 +45664,7 @@
     - name: RTMO02910
     - annotation: !!omap
       - kegg.genes: AOT13_02970
-      - ncbigi:
-        - ALF09069
+      - ncbigi: ALF09069
       - sbo: SBO:0000243
       - uniprot: A0A369WNS2
   - !!omap
@@ -45973,8 +45772,7 @@
     - name: RTMO04124
     - annotation: !!omap
       - kegg.genes: AOT13_08725
-      - ncbigi:
-        - ALF10082
+      - ncbigi: ALF10082
       - sbo: SBO:0000243
       - uniprot: A0A369X2Y5
   - !!omap
@@ -45982,8 +45780,7 @@
     - name: RTMO01702
     - annotation: !!omap
       - kegg.genes: AOT13_08725
-      - ncbigi:
-        - ALF10082
+      - ncbigi: ALF10082
       - sbo: SBO:0000243
       - uniprot: A0A369X2Y5
   - !!omap
@@ -46127,8 +45924,7 @@
     - name: RTMO00869
     - annotation: !!omap
       - kegg.genes: AOT13_08130
-      - ncbigi:
-        - ALF09974
+      - ncbigi: ALF09974
       - sbo: SBO:0000243
       - uniprot: A0A178TWF1
   - !!omap
@@ -46136,8 +45932,7 @@
     - name: RTMO01838
     - annotation: !!omap
       - kegg.genes: AOT13_08130
-      - ncbigi:
-        - ALF09974
+      - ncbigi: ALF09974
       - sbo: SBO:0000243
       - uniprot: A0A178TWF1
   - !!omap
@@ -46145,8 +45940,7 @@
     - name: RTMO01051
     - annotation: !!omap
       - kegg.genes: AOT13_15935
-      - ncbigi:
-        - ALF11379
+      - ncbigi: ALF11379
       - sbo: SBO:0000243
       - uniprot: A0A369X708
   - !!omap
@@ -46154,8 +45948,7 @@
     - name: RTMO03238
     - annotation: !!omap
       - kegg.genes: AOT13_02105
-      - ncbigi:
-        - ALF08936
+      - ncbigi: ALF08936
       - sbo: SBO:0000243
       - uniprot: A0A178U0I0
   - !!omap
@@ -46163,8 +45956,7 @@
     - name: RTMO01784
     - annotation: !!omap
       - kegg.genes: AOT13_11715
-      - ncbigi:
-        - ALF10625
+      - ncbigi: ALF10625
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PA88
   - !!omap
@@ -46172,8 +45964,7 @@
     - name: RTMO00981
     - annotation: !!omap
       - kegg.genes: AOT13_02895
-      - ncbigi:
-        - ALF09059
+      - ncbigi: ALF09059
       - sbo: SBO:0000243
       - uniprot: A0A369WNR0
   - !!omap
@@ -46181,8 +45972,7 @@
     - name: RTMO02920
     - annotation: !!omap
       - kegg.genes: AOT13_02895
-      - ncbigi:
-        - ALF09059
+      - ncbigi: ALF09059
       - sbo: SBO:0000243
       - uniprot: A0A369WNR0
   - !!omap
@@ -46190,8 +45980,7 @@
     - name: RTMO00980
     - annotation: !!omap
       - kegg.genes: AOT13_02895
-      - ncbigi:
-        - ALF09059
+      - ncbigi: ALF09059
       - sbo: SBO:0000243
       - uniprot: A0A369WNR0
   - !!omap
@@ -46199,8 +45988,7 @@
     - name: RTMO02101
     - annotation: !!omap
       - kegg.genes: AOT13_12125
-      - ncbigi:
-        - ALF10703
+      - ncbigi: ALF10703
       - sbo: SBO:0000243
       - uniprot: A0A178TRI9
   - !!omap
@@ -46213,8 +46001,7 @@
     - name: RTMO03213
     - annotation: !!omap
       - kegg.genes: AOT13_18725
-      - ncbigi:
-        - ALF11903
+      - ncbigi: ALF11903
       - sbo: SBO:0000243
       - uniprot: A0A178U004
   - !!omap
@@ -46222,8 +46009,7 @@
     - name: RTMO01371
     - annotation: !!omap
       - kegg.genes: AOT13_10075
-      - ncbigi:
-        - ALF10336
+      - ncbigi: ALF10336
       - sbo: SBO:0000243
       - uniprot: A0A369WM79
   - !!omap
@@ -46259,8 +46045,7 @@
     - name: RTMO03811
     - annotation: !!omap
       - kegg.genes: AOT13_07270
-      - ncbigi:
-        - ALF09813
+      - ncbigi: ALF09813
       - sbo: SBO:0000243
       - uniprot: A0A369WKU6
   - !!omap
@@ -46268,8 +46053,7 @@
     - name: RTMO04535
     - annotation: !!omap
       - kegg.genes: AOT13_09360
-      - ncbigi:
-        - ALF10204
+      - ncbigi: ALF10204
       - sbo: SBO:0000243
       - uniprot: A0A178TZJ1
   - !!omap
@@ -46277,8 +46061,7 @@
     - name: RTMO01096
     - annotation: !!omap
       - kegg.genes: AOT13_16120
-      - ncbigi:
-        - ALF11415
+      - ncbigi: ALF11415
       - sbo: SBO:0000243
       - uniprot: A0A178U4P5
   - !!omap
@@ -46300,8 +46083,7 @@
     - name: RTMO00081
     - annotation: !!omap
       - kegg.genes: AOT13_16730
-      - ncbigi:
-        - ALF12114
+      - ncbigi: ALF12114
       - sbo: SBO:0000243
       - uniprot: A0A369X4V7
   - !!omap
@@ -46309,8 +46091,7 @@
     - name: RTMO02641
     - annotation: !!omap
       - kegg.genes: AOT13_15080
-      - ncbigi:
-        - ALF11230
+      - ncbigi: ALF11230
       - sbo: SBO:0000243
       - uniprot: A0A178U0V9
   - !!omap
@@ -46318,8 +46099,7 @@
     - name: RTMO04918
     - annotation: !!omap
       - kegg.genes: AOT13_17085
-      - ncbigi:
-        - ALF11591
+      - ncbigi: ALF11591
       - sbo: SBO:0000243
       - uniprot: A0A178TYL4
   - !!omap
@@ -46327,8 +46107,7 @@
     - name: RTMO01727
     - annotation: !!omap
       - kegg.genes: AOT13_11460
-      - ncbigi:
-        - ALF10579
+      - ncbigi: ALF10579
       - sbo: SBO:0000243
       - uniprot: A0A369WN08
   - !!omap
@@ -46367,8 +46146,7 @@
     - name: RTMO04194
     - annotation: !!omap
       - kegg.genes: AOT13_15440
-      - ncbigi:
-        - ALF11285
+      - ncbigi: ALF11285
       - sbo: SBO:0000243
       - uniprot: A0A178U4K3
   - !!omap
@@ -46376,8 +46154,7 @@
     - name: RTMO05835
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46385,8 +46162,7 @@
     - name: RTMO01643
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46394,8 +46170,7 @@
     - name: RTMO05158
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46403,8 +46178,7 @@
     - name: RTMO02260
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46412,8 +46186,7 @@
     - name: RTMO01107
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46421,8 +46194,7 @@
     - name: RTMO02259
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46430,8 +46202,7 @@
     - name: RTMO03137
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46439,8 +46210,7 @@
     - name: RTMO01041
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46448,8 +46218,7 @@
     - name: RTMO05206
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46457,8 +46226,7 @@
     - name: RTMO02261
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46466,8 +46234,7 @@
     - name: RTMO05629
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46475,8 +46242,7 @@
     - name: RTMO02545
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46484,8 +46250,7 @@
     - name: RTMO00898
     - annotation: !!omap
       - kegg.genes: AOT13_01555
-      - ncbigi:
-        - ALF08832
+      - ncbigi: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46493,8 +46258,7 @@
     - name: RTMO03695
     - annotation: !!omap
       - kegg.genes: AOT13_09890
-      - ncbigi:
-        - ALF10305
+      - ncbigi: ALF10305
       - sbo: SBO:0000243
       - uniprot: A0A369WQG5
   - !!omap
@@ -46530,8 +46294,7 @@
     - name: RTMO00873
     - annotation: !!omap
       - kegg.genes: AOT13_08120
-      - ncbigi:
-        - ALF09972
+      - ncbigi: ALF09972
       - sbo: SBO:0000243
       - uniprot: A0A178TWI3
   - !!omap
@@ -46539,8 +46302,7 @@
     - name: RTMO01255
     - annotation: !!omap
       - kegg.genes: AOT13_14450
-      - ncbigi:
-        - ALF11114
+      - ncbigi: ALF11114
       - sbo: SBO:0000243
       - uniprot: A0A178U0V4
   - !!omap
@@ -46548,8 +46310,7 @@
     - name: RTMO01251
     - annotation: !!omap
       - kegg.genes: AOT13_14435
-      - ncbigi:
-        - ALF11111
+      - ncbigi: ALF11111
       - sbo: SBO:0000243
       - uniprot: A0A369WVI2
   - !!omap
@@ -46557,8 +46318,7 @@
     - name: RTMO01886
     - annotation: !!omap
       - kegg.genes: AOT13_14435
-      - ncbigi:
-        - ALF11111
+      - ncbigi: ALF11111
       - sbo: SBO:0000243
       - uniprot: A0A369WVI2
   - !!omap
@@ -46566,8 +46326,7 @@
     - name: RTMO01890
     - annotation: !!omap
       - kegg.genes: AOT13_14455
-      - ncbigi:
-        - ALF11115
+      - ncbigi: ALF11115
       - sbo: SBO:0000243
       - uniprot: A0A369WVL0
   - !!omap
@@ -46575,8 +46334,7 @@
     - name: RTMO00973
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46584,8 +46342,7 @@
     - name: RTMO01417
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46610,8 +46367,7 @@
     - name: RTMO01763
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46619,8 +46375,7 @@
     - name: RTMO02849
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46628,8 +46383,7 @@
     - name: RTMO01418
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46637,8 +46391,7 @@
     - name: RTMO01633
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46646,8 +46399,7 @@
     - name: RTMO00292
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46655,8 +46407,7 @@
     - name: RTMO03199
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46664,8 +46415,7 @@
     - name: RTMO02812
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46673,8 +46423,7 @@
     - name: RTMO02809
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46682,8 +46431,7 @@
     - name: RTMO00506
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46691,8 +46439,7 @@
     - name: RTMO01651
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46700,8 +46447,7 @@
     - name: RTMO01415
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46709,8 +46455,7 @@
     - name: RTMO01045
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46718,8 +46463,7 @@
     - name: RTMO01762
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46727,8 +46471,7 @@
     - name: RTMO00511
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46736,8 +46479,7 @@
     - name: RTMO01785
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46745,8 +46487,7 @@
     - name: RTMO01416
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46754,8 +46495,7 @@
     - name: RTMO01493
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46763,8 +46503,7 @@
     - name: RTMO02649
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46772,8 +46511,7 @@
     - name: RTMO02653
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46781,8 +46519,7 @@
     - name: RTMO00881
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46790,8 +46527,7 @@
     - name: RTMO02654
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46799,8 +46535,7 @@
     - name: RTMO03200
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46808,8 +46543,7 @@
     - name: RTMO01761
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46817,8 +46551,7 @@
     - name: RTMO01492
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46826,8 +46559,7 @@
     - name: RTMO01652
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46835,8 +46567,7 @@
     - name: RTMO03198
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46844,8 +46575,7 @@
     - name: RTMO02850
     - annotation: !!omap
       - kegg.genes: AOT13_08095
-      - ncbigi:
-        - ALF09967
+      - ncbigi: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46853,8 +46583,7 @@
     - name: RTMO03810
     - annotation: !!omap
       - kegg.genes: AOT13_07265
-      - ncbigi:
-        - ALF09812
+      - ncbigi: ALF09812
       - sbo: SBO:0000243
       - uniprot: A0A369WP21
   - !!omap
@@ -46862,8 +46591,7 @@
     - name: RTMO01147
     - annotation: !!omap
       - kegg.genes: AOT13_16330
-      - ncbigi:
-        - ALF11452
+      - ncbigi: ALF11452
       - sbo: SBO:0000243
       - uniprot: A0A369WR30
   - !!omap
@@ -46871,8 +46599,7 @@
     - name: RTMO00038
     - annotation: !!omap
       - kegg.genes: AOT13_01565
-      - ncbigi:
-        - ALF08834
+      - ncbigi: ALF08834
       - sbo: SBO:0000243
       - uniprot: A0A178TT62
   - !!omap
@@ -46880,8 +46607,7 @@
     - name: RTMO02911
     - annotation: !!omap
       - kegg.genes: AOT13_01565
-      - ncbigi:
-        - ALF08834
+      - ncbigi: ALF08834
       - sbo: SBO:0000243
       - uniprot: A0A178TT62
   - !!omap
@@ -46889,8 +46615,7 @@
     - name: RTMO03290
     - annotation: !!omap
       - kegg.genes: AOT13_01565
-      - ncbigi:
-        - ALF08834
+      - ncbigi: ALF08834
       - sbo: SBO:0000243
       - uniprot: A0A178TT62
   - !!omap
@@ -46898,8 +46623,7 @@
     - name: RTMO00845
     - annotation: !!omap
       - kegg.genes: AOT13_08225
-      - ncbigi:
-        - ALF09992
+      - ncbigi: ALF09992
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PWV3
   - !!omap
@@ -46907,8 +46631,7 @@
     - name: RTMO03106
     - annotation: !!omap
       - kegg.genes: AOT13_00175
-      - ncbigi:
-        - ALF08585
+      - ncbigi: ALF08585
       - sbo: SBO:0000243
       - uniprot: A0A178TU88
   - !!omap
@@ -46916,8 +46639,7 @@
     - name: RTMO01130
     - annotation: !!omap
       - kegg.genes: AOT13_16255
-      - ncbigi:
-        - ALF11439
+      - ncbigi: ALF11439
       - sbo: SBO:0000243
       - uniprot: A0A178U570
   - !!omap
@@ -46925,8 +46647,7 @@
     - name: RTMO04095
     - annotation: !!omap
       - kegg.genes: AOT13_08600
-      - ncbigi:
-        - ALF10060
+      - ncbigi: ALF10060
       - sbo: SBO:0000243
       - uniprot: A0A178TW85
   - !!omap
@@ -46934,8 +46655,7 @@
     - name: RTMO04100
     - annotation: !!omap
       - kegg.genes: AOT13_08585
-      - ncbigi:
-        - ALF10057
+      - ncbigi: ALF10057
       - sbo: SBO:0000243
       - uniprot: A0A369WLE2
   - !!omap
@@ -46943,8 +46663,7 @@
     - name: RTMO02965
     - annotation: !!omap
       - kegg.genes: AOT13_02685
-      - ncbigi:
-        - ALF09020
+      - ncbigi: ALF09020
       - sbo: SBO:0000243
       - uniprot: A0A178U1Q3
   - !!omap
@@ -46980,8 +46699,7 @@
     - name: RTMO03326
     - annotation: !!omap
       - kegg.genes: AOT13_02030
-      - ncbigi:
-        - ALF08921
+      - ncbigi: ALF08921
       - sbo: SBO:0000243
       - uniprot: A0A369WPQ5
   - !!omap
@@ -46989,8 +46707,7 @@
     - name: RTMO02971
     - annotation: !!omap
       - kegg.genes: AOT13_02655
-      - ncbigi:
-        - ALF09015
+      - ncbigi: ALF09015
       - sbo: SBO:0000243
       - uniprot: A0A178U300
   - !!omap
@@ -46998,8 +46715,7 @@
     - name: RTMO04296
     - annotation: !!omap
       - kegg.genes: AOT13_15585
-      - ncbigi:
-        - ALF11313
+      - ncbigi: ALF11313
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBS0
   - !!omap
@@ -47007,8 +46723,7 @@
     - name: RTMO00030
     - annotation: !!omap
       - kegg.genes: AOT13_16530
-      - ncbigi:
-        - ALF11490
+      - ncbigi: ALF11490
       - sbo: SBO:0000243
       - uniprot: A0A178TYC5
   - !!omap
@@ -47072,8 +46787,7 @@
     - name: RTMO02393
     - annotation: !!omap
       - kegg.genes: AOT13_18390
-      - ncbigi:
-        - ALF11840
+      - ncbigi: ALF11840
       - sbo: SBO:0000243
       - uniprot: A0A178U003
   - !!omap
@@ -47123,8 +46837,7 @@
     - name: RTMO03677
     - annotation: !!omap
       - kegg.genes: AOT13_06800
-      - ncbigi:
-        - ALF09725
+      - ncbigi: ALF09725
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q1X1
   - !!omap
@@ -47132,8 +46845,7 @@
     - name: RTMO04697
     - annotation: !!omap
       - kegg.genes: AOT13_06810
-      - ncbigi:
-        - ALF09727
+      - ncbigi: ALF09727
       - sbo: SBO:0000243
       - uniprot: A0A178TY82
   - !!omap
@@ -47141,8 +46853,7 @@
     - name: RTMO01874
     - annotation: !!omap
       - kegg.genes: AOT13_14385
-      - ncbigi:
-        - ALF11104
+      - ncbigi: ALF11104
       - sbo: SBO:0000243
       - uniprot: A0A369WX87
   - !!omap
@@ -47150,8 +46861,7 @@
     - name: RTMO03650
     - annotation: !!omap
       - kegg.genes: AOT13_14385
-      - ncbigi:
-        - ALF11104
+      - ncbigi: ALF11104
       - sbo: SBO:0000243
       - uniprot: A0A369WX87
   - !!omap
@@ -47159,8 +46869,7 @@
     - name: RTMO03625
     - annotation: !!omap
       - kegg.genes: AOT13_08830
-      - ncbigi:
-        - ALF10103
+      - ncbigi: ALF10103
       - sbo: SBO:0000243
       - uniprot: A0A178TWB0
   - !!omap
@@ -47168,8 +46877,7 @@
     - name: RTMO02636
     - annotation: !!omap
       - kegg.genes: AOT13_15055
-      - ncbigi:
-        - ALF11225
+      - ncbigi: ALF11225
       - sbo: SBO:0000243
       - uniprot: A0A178U0L4
   - !!omap
@@ -47177,8 +46885,7 @@
     - name: RTMO02378
     - annotation: !!omap
       - kegg.genes: AOT13_17430
-      - ncbigi:
-        - ALF11655
+      - ncbigi: ALF11655
       - sbo: SBO:0000243
       - uniprot: A0A369X362
   - !!omap
@@ -47186,16 +46893,14 @@
     - name: RTMO01592
     - annotation: !!omap
       - kegg.genes: AOT13_10885
-      - ncbigi:
-        - ALF10475
+      - ncbigi: ALF10475
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01591
     - name: RTMO01591
     - annotation: !!omap
       - kegg.genes: AOT13_10885
-      - ncbigi:
-        - ALF10475
+      - ncbigi: ALF10475
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00000
@@ -47207,8 +46912,7 @@
     - name: RTMO04648
     - annotation: !!omap
       - kegg.genes: AOT13_07255
-      - ncbigi:
-        - ALF09810
+      - ncbigi: ALF09810
       - sbo: SBO:0000243
       - uniprot: A0A369WIW6
   - !!omap
@@ -47216,8 +46920,7 @@
     - name: RTMO05096
     - annotation: !!omap
       - kegg.genes: AOT13_00845
-      - ncbigi:
-        - ALF08707
+      - ncbigi: ALF08707
       - sbo: SBO:0000243
       - uniprot: A0A178U3F9
   - !!omap
@@ -47225,8 +46928,7 @@
     - name: RTMO01077
     - annotation: !!omap
       - kegg.genes: AOT13_16045
-      - ncbigi:
-        - ALF11400
+      - ncbigi: ALF11400
       - sbo: SBO:0000243
       - uniprot: A0A178U6Q4
   - !!omap
@@ -47234,8 +46936,7 @@
     - name: RTMO04298
     - annotation: !!omap
       - kegg.genes: AOT13_15535
-      - ncbigi:
-        - ALF11304
+      - ncbigi: ALF11304
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PC71
   - !!omap
@@ -47243,8 +46944,7 @@
     - name: RTMO01875
     - annotation: !!omap
       - kegg.genes: AOT13_14390
-      - ncbigi:
-        - ALF12093
+      - ncbigi: ALF12093
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PVL5
   - !!omap
@@ -47252,8 +46952,7 @@
     - name: RTMO02818
     - annotation: !!omap
       - kegg.genes: AOT13_14390
-      - ncbigi:
-        - ALF12093
+      - ncbigi: ALF12093
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PVL5
   - !!omap
@@ -47261,8 +46960,7 @@
     - name: RTMO02973
     - annotation: !!omap
       - kegg.genes: AOT13_02645
-      - ncbigi:
-        - ALF09014
+      - ncbigi: ALF09014
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0N9
   - !!omap
@@ -47270,8 +46968,7 @@
     - name: RTMO02972
     - annotation: !!omap
       - kegg.genes: AOT13_02650
-      - ncbigi:
-        - ALF11978
+      - ncbigi: ALF11978
       - sbo: SBO:0000243
       - uniprot: A0A178U1N0
   - !!omap
@@ -47279,8 +46976,7 @@
     - name: RTMO03791
     - annotation: !!omap
       - kegg.genes: AOT13_15565
-      - ncbigi:
-        - ALF11310
+      - ncbigi: ALF11310
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBS6
   - !!omap
@@ -47288,8 +46984,7 @@
     - name: RTMO03792
     - annotation: !!omap
       - kegg.genes: AOT13_15560
-      - ncbigi:
-        - ALF11309
+      - ncbigi: ALF11309
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PKE7
   - !!omap
@@ -47302,8 +46997,7 @@
     - name: RTMO02502
     - annotation: !!omap
       - kegg.genes: AOT13_00335
-      - ncbigi:
-        - ALF08615
+      - ncbigi: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47311,8 +47005,7 @@
     - name: RTMO00794
     - annotation: !!omap
       - kegg.genes: AOT13_00335
-      - ncbigi:
-        - ALF08615
+      - ncbigi: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47320,8 +47013,7 @@
     - name: RTMO02241
     - annotation: !!omap
       - kegg.genes: AOT13_00335
-      - ncbigi:
-        - ALF08615
+      - ncbigi: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47329,8 +47021,7 @@
     - name: RTMO03065
     - annotation: !!omap
       - kegg.genes: AOT13_00335
-      - ncbigi:
-        - ALF08615
+      - ncbigi: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47338,8 +47029,7 @@
     - name: RTMO03469
     - annotation: !!omap
       - kegg.genes: AOT13_00335
-      - ncbigi:
-        - ALF08615
+      - ncbigi: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47347,8 +47037,7 @@
     - name: RTMO04943
     - annotation: !!omap
       - kegg.genes: AOT13_00335
-      - ncbigi:
-        - ALF08615
+      - ncbigi: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47356,8 +47045,7 @@
     - name: RTMO02154
     - annotation: !!omap
       - kegg.genes: AOT13_11915
-      - ncbigi:
-        - ALF10662
+      - ncbigi: ALF10662
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PIG6
   - !!omap
@@ -47449,8 +47137,7 @@
     - name: RTMO01439
     - annotation: !!omap
       - kegg.genes: AOT13_18660
-      - ncbigi:
-        - ALF11890
+      - ncbigi: ALF11890
       - sbo: SBO:0000243
       - uniprot: A0A369WXS5
   - !!omap
@@ -47458,8 +47145,7 @@
     - name: RTMO03228
     - annotation: !!omap
       - kegg.genes: AOT13_18660
-      - ncbigi:
-        - ALF11890
+      - ncbigi: ALF11890
       - sbo: SBO:0000243
       - uniprot: A0A369WXS5
   - !!omap
@@ -47467,8 +47153,7 @@
     - name: RTMO03936
     - annotation: !!omap
       - kegg.genes: AOT13_07800
-      - ncbigi:
-        - ALF09913
+      - ncbigi: ALF09913
       - sbo: SBO:0000243
       - uniprot: A0A369WJP5
   - !!omap
@@ -47476,8 +47161,7 @@
     - name: RTMO04005
     - annotation: !!omap
       - kegg.genes: AOT13_00825
-      - ncbigi:
-        - ALF08703
+      - ncbigi: ALF08703
       - sbo: SBO:0000243
       - uniprot: A0A369WWY7
   - !!omap
@@ -47485,8 +47169,7 @@
     - name: RTMO03026
     - annotation: !!omap
       - kegg.genes: AOT13_17665
-      - ncbigi:
-        - ALF11701
+      - ncbigi: ALF11701
       - sbo: SBO:0000243
       - uniprot: A0A178TYX8
   - !!omap
@@ -47494,8 +47177,7 @@
     - name: RTMO03957
     - annotation: !!omap
       - kegg.genes: AOT13_07915
-      - ncbigi:
-        - ALF09935
+      - ncbigi: ALF09935
       - sbo: SBO:0000243
       - uniprot: A0A178U0C5
   - !!omap
@@ -47503,8 +47185,7 @@
     - name: RTMO00389
     - annotation: !!omap
       - kegg.genes: AOT13_04755
-      - ncbigi:
-        - ALF09377
+      - ncbigi: ALF09377
       - sbo: SBO:0000243
       - uniprot: A0A369WJD8
   - !!omap
@@ -47512,8 +47193,7 @@
     - name: RTMO02149
     - annotation: !!omap
       - kegg.genes: AOT13_11940
-      - ncbigi:
-        - ALF10667
+      - ncbigi: ALF10667
       - sbo: SBO:0000243
       - uniprot: A0A369WRH8
   - !!omap
@@ -47521,8 +47201,7 @@
     - name: RTMO01623
     - annotation: !!omap
       - kegg.genes: AOT13_18665
-      - ncbigi:
-        - ALF11891
+      - ncbigi: ALF11891
       - sbo: SBO:0000243
       - uniprot: A0A178TZG0
   - !!omap
@@ -47530,8 +47209,7 @@
     - name: RTMO03226
     - annotation: !!omap
       - kegg.genes: AOT13_18665
-      - ncbigi:
-        - ALF11891
+      - ncbigi: ALF11891
       - sbo: SBO:0000243
       - uniprot: A0A178TZG0
   - !!omap
@@ -47599,8 +47277,7 @@
     - name: RTMO04186
     - annotation: !!omap
       - kegg.genes: AOT13_06740
-      - ncbigi:
-        - ALF09713
+      - ncbigi: ALF09713
       - sbo: SBO:0000243
       - uniprot: A0A369WIL2
   - !!omap
@@ -47608,8 +47285,7 @@
     - name: RTMO04203
     - annotation: !!omap
       - kegg.genes: AOT13_15475
-      - ncbigi:
-        - ALF11292
+      - ncbigi: ALF11292
       - sbo: SBO:0000243
       - uniprot: A0A369WXI8
   - !!omap
@@ -47617,8 +47293,7 @@
     - name: RTMO00386
     - annotation: !!omap
       - kegg.genes: AOT13_04740
-      - ncbigi:
-        - ALF09374
+      - ncbigi: ALF09374
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PT81
   - !!omap
@@ -47626,8 +47301,7 @@
     - name: RTMO02379
     - annotation: !!omap
       - kegg.genes: AOT13_17425
-      - ncbigi:
-        - ALF11654
+      - ncbigi: ALF11654
       - sbo: SBO:0000243
       - uniprot: A0A369X8Q0
   - !!omap
@@ -47635,8 +47309,7 @@
     - name: RTMO00387
     - annotation: !!omap
       - kegg.genes: AOT13_04745
-      - ncbigi:
-        - ALF09375
+      - ncbigi: ALF09375
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PJK2
   - !!omap
@@ -47644,8 +47317,7 @@
     - name: RTMO00846
     - annotation: !!omap
       - kegg.genes: AOT13_08220
-      - ncbigi:
-        - ALF09991
+      - ncbigi: ALF09991
       - sbo: SBO:0000243
       - uniprot: A0A369WID5
   - !!omap
@@ -47788,8 +47460,7 @@
     - name: RTMO00344
     - annotation: !!omap
       - kegg.genes: AOT13_04375
-      - ncbigi:
-        - ALF09323
+      - ncbigi: ALF09323
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PVX0
   - !!omap
@@ -47797,8 +47468,7 @@
     - name: RTMO00381
     - annotation: !!omap
       - kegg.genes: AOT13_04715
-      - ncbigi:
-        - ALF09369
+      - ncbigi: ALF09369
       - sbo: SBO:0000243
       - uniprot: A0A369WJI5
   - !!omap
@@ -47811,8 +47481,7 @@
     - name: RTMO04007
     - annotation: !!omap
       - kegg.genes: AOT13_00835
-      - ncbigi:
-        - ALF08705
+      - ncbigi: ALF08705
       - sbo: SBO:0000243
       - uniprot: A0A178U421
   - !!omap
@@ -47820,8 +47489,7 @@
     - name: RTMO02388
     - annotation: !!omap
       - kegg.genes: AOT13_15610
-      - ncbigi:
-        - ALF11317
+      - ncbigi: ALF11317
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PU27
   - !!omap
@@ -47829,16 +47497,14 @@
     - name: RTMO00339
     - annotation: !!omap
       - kegg.genes: AOT13_04350
-      - ncbigi:
-        - ALF11989
+      - ncbigi: ALF11989
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02155
     - name: RTMO02155
     - annotation: !!omap
       - kegg.genes: AOT13_11910
-      - ncbigi:
-        - ALF12068
+      - ncbigi: ALF12068
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PDD7
   - !!omap
@@ -47846,8 +47512,7 @@
     - name: RTMO02158
     - annotation: !!omap
       - kegg.genes: AOT13_11895
-      - ncbigi:
-        - ALF10659
+      - ncbigi: ALF10659
       - sbo: SBO:0000243
       - uniprot: A0A178TRU8
   - !!omap
@@ -47869,8 +47534,7 @@
     - name: RTMO02153
     - annotation: !!omap
       - kegg.genes: AOT13_11920
-      - ncbigi:
-        - ALF10663
+      - ncbigi: ALF10663
       - sbo: SBO:0000243
       - uniprot: A0A369WKS3
   - !!omap
@@ -47892,8 +47556,7 @@
     - name: RTMO01030
     - annotation: !!omap
       - kegg.genes: AOT13_15870
-      - ncbigi:
-        - ALF11366
+      - ncbigi: ALF11366
       - sbo: SBO:0000243
       - uniprot: A0A178U321
   - !!omap
@@ -47901,8 +47564,7 @@
     - name: RTMO02151
     - annotation: !!omap
       - kegg.genes: AOT13_11930
-      - ncbigi:
-        - ALF10665
+      - ncbigi: ALF10665
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PTM3
   - !!omap
@@ -47910,8 +47572,7 @@
     - name: RTMO02150
     - annotation: !!omap
       - kegg.genes: AOT13_11935
-      - ncbigi:
-        - ALF10666
+      - ncbigi: ALF10666
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PUM6
   - !!omap
@@ -47919,8 +47580,7 @@
     - name: RTMO02776
     - annotation: !!omap
       - kegg.genes: AOT13_07080
-      - ncbigi:
-        - ALF09776
+      - ncbigi: ALF09776
       - sbo: SBO:0000243
       - uniprot: A0A1B7KPL8
   - !!omap
@@ -47928,8 +47588,7 @@
     - name: RTMO02775
     - annotation: !!omap
       - kegg.genes: AOT13_07075
-      - ncbigi:
-        - ALF12020
+      - ncbigi: ALF12020
       - sbo: SBO:0000243
       - uniprot: A0A369WKX1
   - !!omap
@@ -47937,8 +47596,7 @@
     - name: RTMO02970
     - annotation: !!omap
       - kegg.genes: AOT13_02660
-      - ncbigi:
-        - ALF09016
+      - ncbigi: ALF09016
       - sbo: SBO:0000243
       - uniprot: A0A178U257
   - !!omap
@@ -47946,8 +47604,7 @@
     - name: RTMO04865
     - annotation: !!omap
       - kegg.genes: AOT13_02515
-      - ncbigi:
-        - ALF09003
+      - ncbigi: ALF09003
       - sbo: SBO:0000243
       - uniprot: A0A178TRR5
   - !!omap
@@ -47955,8 +47612,7 @@
     - name: RTMO03220
     - annotation: !!omap
       - kegg.genes: AOT13_18685
-      - ncbigi:
-        - ALF11895
+      - ncbigi: ALF11895
       - sbo: SBO:0000243
       - uniprot: A0A178U1L3
   - !!omap
@@ -47992,8 +47648,7 @@
     - name: RTMO04098
     - annotation: !!omap
       - kegg.genes: AOT13_08595
-      - ncbigi:
-        - ALF10059
+      - ncbigi: ALF10059
       - sbo: SBO:0000243
       - uniprot: A0A178TZY8
   - !!omap
@@ -48001,8 +47656,7 @@
     - name: RTMO04863
     - annotation: !!omap
       - kegg.genes: AOT13_02525
-      - ncbigi:
-        - ALF09005
+      - ncbigi: ALF09005
       - sbo: SBO:0000243
       - uniprot: A0A178TQT4
   - !!omap
@@ -48010,8 +47664,7 @@
     - name: RTMO02937
     - annotation: !!omap
       - kegg.genes: AOT13_02820
-      - ncbigi:
-        - ALF09045
+      - ncbigi: ALF09045
       - sbo: SBO:0000243
       - uniprot: A0A178U289
   - !!omap
@@ -48019,8 +47672,7 @@
     - name: RTMO04050
     - annotation: !!omap
       - kegg.genes: AOT13_16435
-      - ncbigi:
-        - ALF11471
+      - ncbigi: ALF11471
       - sbo: SBO:0000243
       - uniprot: A0A178TY73
   - !!omap
@@ -48028,8 +47680,7 @@
     - name: RTMO04864
     - annotation: !!omap
       - kegg.genes: AOT13_02520
-      - ncbigi:
-        - ALF09004
+      - ncbigi: ALF09004
       - sbo: SBO:0000243
       - uniprot: A0A178TQT8
   - !!omap
@@ -48037,8 +47688,7 @@
     - name: RTMO04551
     - annotation: !!omap
       - kegg.genes: AOT13_09260
-      - ncbigi:
-        - ALF10185
+      - ncbigi: ALF10185
       - sbo: SBO:0000243
       - uniprot: A0A369WLT2
   - !!omap
@@ -48181,8 +47831,7 @@
     - name: RTMO02323
     - annotation: !!omap
       - kegg.genes: AOT13_12605
-      - ncbigi:
-        - ALF10790
+      - ncbigi: ALF10790
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZT8
   - !!omap
@@ -48190,8 +47839,7 @@
     - name: RTMO00109
     - annotation: !!omap
       - kegg.genes: AOT13_16855
-      - ncbigi:
-        - ALF11551
+      - ncbigi: ALF11551
       - sbo: SBO:0000243
       - uniprot: A0A178TYF8
   - !!omap
@@ -48214,8 +47862,7 @@
     - name: RTMO04553
     - annotation: !!omap
       - kegg.genes: AOT13_09250
-      - ncbigi:
-        - ALF10183
+      - ncbigi: ALF10183
       - sbo: SBO:0000243
       - uniprot: A0A178TW01
   - !!omap
@@ -48223,8 +47870,7 @@
     - name: RTMO01033
     - annotation: !!omap
       - kegg.genes: AOT13_15885
-      - ncbigi:
-        - ALF11369
+      - ncbigi: ALF11369
       - sbo: SBO:0000243
       - uniprot: A0A369WW86
   - !!omap
@@ -48232,8 +47878,7 @@
     - name: RTMO01032
     - annotation: !!omap
       - kegg.genes: AOT13_15880
-      - ncbigi:
-        - ALF11368
+      - ncbigi: ALF11368
       - sbo: SBO:0000243
       - uniprot: A0A369WW72
   - !!omap
@@ -48285,8 +47930,7 @@
     - name: RTMO00379
     - annotation: !!omap
       - kegg.genes: AOT13_04705
-      - ncbigi:
-        - ALF09367
+      - ncbigi: ALF09367
       - sbo: SBO:0000243
       - uniprot: A0A369WJC8
   - !!omap
@@ -48336,8 +47980,7 @@
     - name: RTMO00097
     - annotation: !!omap
       - kegg.genes: AOT13_16800
-      - ncbigi:
-        - ALF11540
+      - ncbigi: ALF11540
       - sbo: SBO:0000243
       - uniprot: A0A178TZX3
   - !!omap
@@ -48345,8 +47988,7 @@
     - name: RTMO03744
     - annotation: !!omap
       - kegg.genes: AOT13_01220
-      - ncbigi:
-        - ALF08775
+      - ncbigi: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48354,8 +47996,7 @@
     - name: RTMO05952
     - annotation: !!omap
       - kegg.genes: AOT13_01220
-      - ncbigi:
-        - ALF08775
+      - ncbigi: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48363,8 +48004,7 @@
     - name: RTMO04828
     - annotation: !!omap
       - kegg.genes: AOT13_01220
-      - ncbigi:
-        - ALF08775
+      - ncbigi: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48372,8 +48012,7 @@
     - name: RTMO03840
     - annotation: !!omap
       - kegg.genes: AOT13_01220
-      - ncbigi:
-        - ALF08775
+      - ncbigi: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48381,8 +48020,7 @@
     - name: RTMO02554
     - annotation: !!omap
       - kegg.genes: AOT13_01220
-      - ncbigi:
-        - ALF08775
+      - ncbigi: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48404,8 +48042,7 @@
     - name: G_RTMO05953
     - annotation: !!omap
       - kegg.genes: AOT13_17715
-      - ncbigi:
-        - ALF11710
+      - ncbigi: ALF11710
       - sbo: SBO:0000243
       - uniprot: A0A178TYZ2
   - !!omap
@@ -48493,16 +48130,14 @@
     - name: G_RTMO05970
     - annotation: !!omap
       - kegg.genes: AOT13_06590
-      - ncbigi:
-        - ALF09686
+      - ncbigi: ALF09686
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO05971
     - name: G_RTMO05971
     - annotation: !!omap
       - kegg.genes: AOT13_06605
-      - ncbigi:
-        - ALF09688
+      - ncbigi: ALF09688
       - sbo: SBO:0000243
       - uniprot: A0A178TY58
   - !!omap
@@ -48530,8 +48165,7 @@
     - name: G_RTMO05973
     - annotation: !!omap
       - kegg.genes: AOT13_06610
-      - ncbigi:
-        - ALF09689
+      - ncbigi: ALF09689
       - sbo: SBO:0000243
       - uniprot: A0A178TXW9
   - !!omap
@@ -48539,8 +48173,7 @@
     - name: G_RTMO05974
     - annotation: !!omap
       - kegg.genes: AOT13_00415
-      - ncbigi:
-        - ALF08631
+      - ncbigi: ALF08631
       - sbo: SBO:0000243
       - uniprot: A0A369WWS0
   - !!omap
@@ -48548,8 +48181,7 @@
     - name: G_RTMO05975
     - annotation: !!omap
       - kegg.genes: AOT13_15450
-      - ncbigi:
-        - ALF11287
+      - ncbigi: ALF11287
       - sbo: SBO:0000243
       - uniprot: A0A178U6B2
   - !!omap
@@ -48557,8 +48189,7 @@
     - name: G_RTMO05976
     - annotation: !!omap
       - kegg.genes: AOT13_15450
-      - ncbigi:
-        - ALF11287
+      - ncbigi: ALF11287
       - sbo: SBO:0000243
       - uniprot: A0A178U6B2
   - !!omap
@@ -48566,8 +48197,7 @@
     - name: G_RTMO05977
     - annotation: !!omap
       - kegg.genes: AOT13_05340
-      - ncbigi:
-        - ALF11999
+      - ncbigi: ALF11999
       - sbo: SBO:0000243
       - uniprot: A0A369XGZ9
   - !!omap
@@ -48616,8 +48246,7 @@
     - name: G_RTMO05982
     - annotation: !!omap
       - kegg.genes: AOT13_05340
-      - ncbigi:
-        - ALF11999
+      - ncbigi: ALF11999
       - sbo: SBO:0000243
       - uniprot: A0A369XGZ9
   - !!omap
@@ -48644,8 +48273,7 @@
     - name: G_RTMO05985
     - annotation: !!omap
       - kegg.genes: AOT13_14385
-      - ncbigi:
-        - ALF11104
+      - ncbigi: ALF11104
       - sbo: SBO:0000243
       - uniprot: A0A369WX87
   - !!omap
@@ -48672,8 +48300,7 @@
     - name: G_RTMO05988
     - annotation: !!omap
       - kegg.genes: AOT13_15705
-      - ncbigi:
-        - ALF11335
+      - ncbigi: ALF11335
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PM86
   - !!omap
@@ -48681,8 +48308,7 @@
     - name: G_RTMO05989
     - annotation: !!omap
       - kegg.genes: AOT13_09255
-      - ncbigi:
-        - ALF10184
+      - ncbigi: ALF10184
       - sbo: SBO:0000243
       - uniprot: A0A178TXD4
   - !!omap
@@ -48690,8 +48316,7 @@
     - name: G_RTMO05990
     - annotation: !!omap
       - kegg.genes: AOT13_03670
-      - ncbigi:
-        - ALF09196
+      - ncbigi: ALF09196
       - sbo: SBO:0000243
       - uniprot: A0A369XGJ9
   - !!omap
@@ -48699,8 +48324,7 @@
     - name: G_RTMO05991
     - annotation: !!omap
       - kegg.genes: AOT13_03670
-      - ncbigi:
-        - ALF09196
+      - ncbigi: ALF09196
       - sbo: SBO:0000243
       - uniprot: A0A369XGJ9
   - !!omap
@@ -48718,8 +48342,7 @@
     - name: G_RTMO05994
     - annotation: !!omap
       - kegg.genes: AOT13_14240
-      - ncbigi:
-        - ALF11078
+      - ncbigi: ALF11078
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBY8
   - !!omap
@@ -48842,8 +48465,7 @@
     - name: G_RTMO06015
     - annotation: !!omap
       - kegg.genes: AOT13_18785
-      - ncbigi:
-        - ALF11914
+      - ncbigi: ALF11914
       - sbo: SBO:0000243
       - uniprot: A0A178U090
   - !!omap
@@ -48886,8 +48508,7 @@
     - name: G_RTMO06023
     - annotation: !!omap
       - kegg.genes: AOT13_05110
-      - ncbigi:
-        - ALF09442
+      - ncbigi: ALF09442
       - sbo: SBO:0000243
       - uniprot: A0A178U3G8
   - !!omap
@@ -48895,8 +48516,7 @@
     - name: G_RTMO06024
     - annotation: !!omap
       - kegg.genes: AOT13_05105
-      - ncbigi:
-        - ALF09441
+      - ncbigi: ALF09441
       - sbo: SBO:0000243
       - uniprot: A0A369WGS0
   - !!omap
@@ -48904,8 +48524,7 @@
     - name: G_RTMO06025
     - annotation: !!omap
       - kegg.genes: AOT13_05115
-      - ncbigi:
-        - ALF09443
+      - ncbigi: ALF09443
       - sbo: SBO:0000243
       - uniprot: A0A369X595
   - !!omap
@@ -48953,8 +48572,7 @@
     - name: G_RTMO06034
     - annotation: !!omap
       - kegg.genes: AOT13_08140
-      - ncbigi:
-        - ALF09976
+      - ncbigi: ALF09976
       - sbo: SBO:0000243
       - uniprot: A0A178TWU5
   - !!omap
@@ -49045,8 +48663,7 @@
     - name: G_RTMO06048
     - annotation: !!omap
       - kegg.genes: AOT13_13425
-      - ncbigi:
-        - ALF10932
+      - ncbigi: ALF10932
       - sbo: SBO:0000243
       - uniprot: A0A178U5F7
   - !!omap
@@ -49078,8 +48695,7 @@
     - name: G_RTMO06052
     - annotation: !!omap
       - kegg.genes: AOT13_02085
-      - ncbigi:
-        - ALF08932
+      - ncbigi: ALF08932
       - sbo: SBO:0000243
       - uniprot: A0A178U223
   - !!omap
@@ -49102,8 +48718,7 @@
     - name: G_RTMO06056
     - annotation: !!omap
       - kegg.genes: AOT13_05585
-      - ncbigi:
-        - ALF09526
+      - ncbigi: ALF09526
       - sbo: SBO:0000243
       - uniprot: A0A178TWN6
   - !!omap
@@ -49111,8 +48726,7 @@
     - name: G_RTMO06057
     - annotation: !!omap
       - kegg.genes: AOT13_05580
-      - ncbigi:
-        - ALF09525
+      - ncbigi: ALF09525
       - sbo: SBO:0000243
       - uniprot: A0A178TYL0
   - !!omap
@@ -49120,8 +48734,7 @@
     - name: G_RTMO06058
     - annotation: !!omap
       - kegg.genes: AOT13_05595
-      - ncbigi:
-        - ALF09528
+      - ncbigi: ALF09528
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYY1
   - !!omap
@@ -49129,8 +48742,7 @@
     - name: G_RTMO06059
     - annotation: !!omap
       - kegg.genes: AOT13_18185
-      - ncbigi:
-        - ALF11799
+      - ncbigi: ALF11799
       - sbo: SBO:0000243
       - uniprot: A0A178U0Q8
   - !!omap
@@ -49238,8 +48850,7 @@
     - name: G_RTMO06080
     - annotation: !!omap
       - kegg.genes: AOT13_11305
-      - ncbigi:
-        - ALF10551
+      - ncbigi: ALF10551
       - sbo: SBO:0000243
       - uniprot: A0A178TSU2
   - !!omap
@@ -49247,8 +48858,7 @@
     - name: G_RTMO06081
     - annotation: !!omap
       - kegg.genes: AOT13_11305
-      - ncbigi:
-        - ALF10551
+      - ncbigi: ALF10551
       - sbo: SBO:0000243
       - uniprot: A0A178TSU2
   - !!omap
@@ -49501,8 +49111,7 @@
     - name: G_RTMO06131
     - annotation: !!omap
       - kegg.genes: AOT13_05385
-      - ncbigi:
-        - ALF09489
+      - ncbigi: ALF09489
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZ13
   - !!omap
@@ -49559,8 +49168,7 @@
     - name: G_RTMO06140
     - annotation: !!omap
       - kegg.genes: AOT13_16685
-      - ncbigi:
-        - ALF11519
+      - ncbigi: ALF11519
       - sbo: SBO:0000243
       - uniprot: A0A178TYC4
   - !!omap
@@ -49568,8 +49176,7 @@
     - name: G_RTMO06141
     - annotation: !!omap
       - kegg.genes: AOT13_09890
-      - ncbigi:
-        - ALF10305
+      - ncbigi: ALF10305
       - sbo: SBO:0000243
       - uniprot: A0A369WQG5
   - !!omap
@@ -49582,8 +49189,7 @@
     - name: G_RTMO06143
     - annotation: !!omap
       - kegg.genes: AOT13_09450
-      - ncbigi:
-        - ALF10221
+      - ncbigi: ALF10221
       - sbo: SBO:0000243
       - uniprot: A0A369WJL7
   - !!omap
@@ -49591,8 +49197,7 @@
     - name: G_RTMO06144
     - annotation: !!omap
       - kegg.genes: AOT13_17105
-      - ncbigi:
-        - ALF11594
+      - ncbigi: ALF11594
       - sbo: SBO:0000243
       - uniprot: A0A178TYV3
   - !!omap
@@ -49717,8 +49322,7 @@
     - name: G_RTMO06163
     - annotation: !!omap
       - kegg.genes: AOT13_18710
-      - ncbigi:
-        - ALF11900
+      - ncbigi: ALF11900
       - sbo: SBO:0000243
       - uniprot: A0A369WWF2
   - !!omap
@@ -49726,8 +49330,7 @@
     - name: BioB
     - annotation: !!omap
       - kegg.genes: AOT13_14055
-      - ncbigi:
-        - ALF11045
+      - ncbigi: ALF11045
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PW76
   - !!omap
@@ -49740,8 +49343,7 @@
     - name: BioD
     - annotation: !!omap
       - kegg.genes: AOT13_00440
-      - ncbigi:
-        - ALF08636
+      - ncbigi: ALF08636
       - sbo: SBO:0000243
       - uniprot: A0A369WZJ6
   - !!omap
@@ -49749,8 +49351,7 @@
     - name: BioD
     - annotation: !!omap
       - kegg.genes: AOT13_00435
-      - ncbigi:
-        - ALF08635
+      - ncbigi: ALF08635
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYQ5
   - !!omap
@@ -49763,8 +49364,7 @@
     - name: G_RTMO06169
     - annotation: !!omap
       - kegg.genes: AOT13_15190
-      - ncbigi:
-        - ALF11248
+      - ncbigi: ALF11248
       - sbo: SBO:0000243
       - uniprot: A0A178TX27
   - !!omap
@@ -49811,8 +49411,7 @@
     - name: G_RTMO06176
     - annotation: !!omap
       - kegg.genes: AOT13_05520
-      - ncbigi:
-        - ALF12002
+      - ncbigi: ALF12002
       - sbo: SBO:0000243
       - uniprot: A0A178TUR1
   - !!omap
@@ -49820,8 +49419,7 @@
     - name: G_RTMO06177
     - annotation: !!omap
       - kegg.genes: AOT13_11885
-      - ncbigi:
-        - ALF10657
+      - ncbigi: ALF10657
       - sbo: SBO:0000243
       - uniprot: A0A369WRG7
   - !!omap
@@ -49829,8 +49427,7 @@
     - name: G_RTMO06178
     - annotation: !!omap
       - kegg.genes: AOT13_11890
-      - ncbigi:
-        - ALF10658
+      - ncbigi: ALF10658
       - sbo: SBO:0000243
       - uniprot: A0A369WN93
   - !!omap
@@ -49838,8 +49435,7 @@
     - name: CbiG
     - annotation: !!omap
       - kegg.genes: AOT13_11925
-      - ncbigi:
-        - ALF10664
+      - ncbigi: ALF10664
       - sbo: SBO:0000243
       - uniprot: A0A178TT07
   - !!omap
@@ -49847,8 +49443,7 @@
     - name: CbiD
     - annotation: !!omap
       - kegg.genes: AOT13_11905
-      - ncbigi:
-        - ALF10661
+      - ncbigi: ALF10661
       - sbo: SBO:0000243
       - uniprot: A0A1Y3P9W0
   - !!omap
@@ -49856,8 +49451,7 @@
     - name: CbiJ
     - annotation: !!omap
       - kegg.genes: AOT13_11895
-      - ncbigi:
-        - ALF10659
+      - ncbigi: ALF10659
       - sbo: SBO:0000243
       - uniprot: A0A178TRU8
   - !!omap
@@ -49865,8 +49459,7 @@
     - name: CobL
     - annotation: !!omap
       - kegg.genes: AOT13_11910
-      - ncbigi:
-        - ALF12068
+      - ncbigi: ALF12068
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PDD7
   - !!omap
@@ -49874,8 +49467,7 @@
     - name: CbiC
     - annotation: !!omap
       - kegg.genes: AOT13_11900
-      - ncbigi:
-        - ALF10660
+      - ncbigi: ALF10660
       - sbo: SBO:0000243
       - uniprot: A0A178TRW9
   - !!omap
@@ -49883,8 +49475,7 @@
     - name: CbiA
     - annotation: !!omap
       - kegg.genes: AOT13_11930
-      - ncbigi:
-        - ALF10665
+      - ncbigi: ALF10665
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PTM3
   - !!omap
@@ -49906,8 +49497,7 @@
     - name: G_RTMO06186
     - annotation: !!omap
       - kegg.genes: AOT13_12000
-      - ncbigi:
-        - ALF10678
+      - ncbigi: ALF10678
       - sbo: SBO:0000243
       - uniprot: A0A178TRL4
   - !!omap
@@ -49945,8 +49535,7 @@
     - name: G_RTMO06190
     - annotation: !!omap
       - kegg.genes: AOT13_14455
-      - ncbigi:
-        - ALF11115
+      - ncbigi: ALF11115
       - sbo: SBO:0000243
       - uniprot: A0A369WVL0
   - !!omap
@@ -49979,8 +49568,7 @@
     - name: G_RTMO06193
     - annotation: !!omap
       - kegg.genes: AOT13_14455
-      - ncbigi:
-        - ALF11115
+      - ncbigi: ALF11115
       - sbo: SBO:0000243
       - uniprot: A0A369WVL0
   - !!omap
