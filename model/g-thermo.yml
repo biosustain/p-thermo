@@ -39534,7 +39534,7 @@
       - kegg.genes:
         - ptl:AOT13_00875
         - ptl:AOT13_15820
-      - ncbigi:
+      - ncbiprotein:
         - ALF08712
         - ALF11357
       - sbo: SBO:0000243
@@ -39548,7 +39548,7 @@
       - kegg.genes:
         - ptl:AOT13_00875
         - ptl:AOT13_15820
-      - ncbigi:
+      - ncbiprotein:
         - ALF08712
         - ALF11357
       - sbo: SBO:0000243
@@ -39569,7 +39569,7 @@
         - ptl:AOT13_05400
         - ptl:AOT13_17730
         - ptl:AOT13_17735
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39604,7 +39604,7 @@
         - ptl:AOT13_05400
         - ptl:AOT13_17730
         - ptl:AOT13_17735
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39639,7 +39639,7 @@
         - ptl:AOT13_05400
         - ptl:AOT13_17730
         - ptl:AOT13_17735
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39666,7 +39666,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00555
-      - ncbigi: ALF08657
+      - ncbiprotein: ALF08657
       - sbo: SBO:0000243
       - uniprot: A0A178TUW0
   - !!omap
@@ -39675,7 +39675,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00555
-      - ncbigi: ALF08657
+      - ncbiprotein: ALF08657
       - sbo: SBO:0000243
       - uniprot: A0A178TUW0
   - !!omap
@@ -39684,7 +39684,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00555
-      - ncbigi: ALF08657
+      - ncbiprotein: ALF08657
       - sbo: SBO:0000243
       - uniprot: A0A178TUW0
   - !!omap
@@ -39698,7 +39698,7 @@
         - ptl:AOT13_01775
         - ptl:AOT13_08280
         - ptl:AOT13_08285
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39724,7 +39724,7 @@
         - ptl:AOT13_01775
         - ptl:AOT13_08280
         - ptl:AOT13_08285
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39750,7 +39750,7 @@
         - ptl:AOT13_01775
         - ptl:AOT13_08280
         - ptl:AOT13_08285
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39776,7 +39776,7 @@
         - ptl:AOT13_01775
         - ptl:AOT13_08280
         - ptl:AOT13_08285
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39802,7 +39802,7 @@
         - ptl:AOT13_01775
         - ptl:AOT13_08280
         - ptl:AOT13_08285
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39828,7 +39828,7 @@
         - ptl:AOT13_01775
         - ptl:AOT13_08280
         - ptl:AOT13_08285
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -39856,7 +39856,7 @@
         - ptl:AOT13_06545
         - ptl:AOT13_07860
         - ptl:AOT13_06350
-      - ncbigi:
+      - ncbiprotein:
         - ALF09677
         - ALF09925
         - ALF09642
@@ -39871,7 +39871,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17645
-      - ncbigi: ALF11697
+      - ncbiprotein: ALF11697
       - sbo: SBO:0000243
       - uniprot: A0A178U0Y1
   - !!omap
@@ -39880,7 +39880,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16040
-      - ncbigi: ALF11399
+      - ncbiprotein: ALF11399
       - sbo: SBO:0000243
       - uniprot: A0A369WWA5
   - !!omap
@@ -39889,7 +39889,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16040
-      - ncbigi: ALF11399
+      - ncbiprotein: ALF11399
       - sbo: SBO:0000243
       - uniprot: A0A369WWA5
   - !!omap
@@ -39903,7 +39903,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17655
-      - ncbigi: ALF11699
+      - ncbiprotein: ALF11699
       - sbo: SBO:0000243
       - uniprot: A0A369WX91
   - !!omap
@@ -39926,7 +39926,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -39978,7 +39978,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40030,7 +40030,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40082,7 +40082,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40134,7 +40134,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40186,7 +40186,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40238,7 +40238,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40290,7 +40290,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40342,7 +40342,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40394,7 +40394,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40446,7 +40446,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40498,7 +40498,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40550,7 +40550,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40602,7 +40602,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40654,7 +40654,7 @@
         - ptl:AOT13_03285
         - ptl:AOT13_04385
         - ptl:AOT13_16845
-      - ncbigi:
+      - ncbiprotein:
         - ALF11283
         - ALF09104
         - ALF09283
@@ -40692,7 +40692,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08505
-      - ncbigi: ALF10042
+      - ncbiprotein: ALF10042
       - sbo: SBO:0000243
       - uniprot: A0A178TWA6
   - !!omap
@@ -40702,7 +40702,7 @@
       - kegg.genes:
         - ptl:AOT13_18285
         - ptl:AOT13_07460
-      - ncbigi:
+      - ncbiprotein:
         - ALF11819
         - ALF09850
       - sbo: SBO:0000243
@@ -40716,7 +40716,7 @@
       - kegg.genes:
         - ptl:AOT13_18285
         - ptl:AOT13_07460
-      - ncbigi:
+      - ncbiprotein:
         - ALF11819
         - ALF09850
       - sbo: SBO:0000243
@@ -40731,7 +40731,7 @@
         - ptl:AOT13_10255
         - ptl:AOT13_10260
         - ptl:AOT13_05950
-      - ncbigi:
+      - ncbiprotein:
         - ALF10368
         - ALF10369
         - ALF09592
@@ -40748,7 +40748,7 @@
         - ptl:AOT13_10255
         - ptl:AOT13_10260
         - ptl:AOT13_05950
-      - ncbigi:
+      - ncbiprotein:
         - ALF10368
         - ALF10369
         - ALF09592
@@ -40765,7 +40765,7 @@
         - ptl:AOT13_10255
         - ptl:AOT13_10260
         - ptl:AOT13_05950
-      - ncbigi:
+      - ncbiprotein:
         - ALF10368
         - ALF10369
         - ALF09592
@@ -40780,7 +40780,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15600
-      - ncbigi: ALF12104
+      - ncbiprotein: ALF12104
       - sbo: SBO:0000243
       - uniprot: A0A1B7KXZ0
   - !!omap
@@ -40789,7 +40789,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15600
-      - ncbigi: ALF12104
+      - ncbiprotein: ALF12104
       - sbo: SBO:0000243
       - uniprot: A0A1B7KXZ0
   - !!omap
@@ -40798,7 +40798,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18090
-      - ncbigi: ALF11781
+      - ncbiprotein: ALF11781
       - sbo: SBO:0000243
       - uniprot: A0A178U0N9
   - !!omap
@@ -40809,7 +40809,7 @@
         - ptl:AOT13_11245
         - ptl:AOT13_11250
         - ptl:AOT13_11255
-      - ncbigi:
+      - ncbiprotein:
         - ALF10541
         - ALF10542
         - ALF10543
@@ -40826,7 +40826,7 @@
         - ptl:AOT13_11245
         - ptl:AOT13_11250
         - ptl:AOT13_11255
-      - ncbigi:
+      - ncbiprotein:
         - ALF10541
         - ALF10542
         - ALF10543
@@ -40843,7 +40843,7 @@
         - ptl:AOT13_11245
         - ptl:AOT13_11250
         - ptl:AOT13_11255
-      - ncbigi:
+      - ncbiprotein:
         - ALF10541
         - ALF10542
         - ALF10543
@@ -40858,7 +40858,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17075
-      - ncbigi: ALF11589
+      - ncbiprotein: ALF11589
       - sbo: SBO:0000243
       - uniprot: A0A369WYP1
   - !!omap
@@ -40867,7 +40867,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09240
-      - ncbigi: ALF10181
+      - ncbiprotein: ALF10181
       - sbo: SBO:0000243
       - uniprot: A0A178TWR5
   - !!omap
@@ -40877,7 +40877,7 @@
       - kegg.genes:
         - ptl:AOT13_15710
         - ptl:AOT13_09240
-      - ncbigi:
+      - ncbiprotein:
         - ALF11336
         - ALF10181
       - sbo: SBO:0000243
@@ -40891,7 +40891,7 @@
       - kegg.genes:
         - ptl:AOT13_09320
         - ptl:AOT13_14470
-      - ncbigi:
+      - ncbiprotein:
         - ALF10196
         - ALF11118
       - sbo: SBO:0000243
@@ -40905,7 +40905,7 @@
       - kegg.genes:
         - ptl:AOT13_09320
         - ptl:AOT13_14470
-      - ncbigi:
+      - ncbiprotein:
         - ALF10196
         - ALF11118
       - sbo: SBO:0000243
@@ -40918,7 +40918,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18560
-      - ncbigi: ALF11873
+      - ncbiprotein: ALF11873
       - sbo: SBO:0000243
       - uniprot: A0A178U1H9
   - !!omap
@@ -40927,7 +40927,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18075
-      - ncbigi: ALF11778
+      - ncbiprotein: ALF11778
       - sbo: SBO:0000243
       - uniprot: A0A178U0N3
   - !!omap
@@ -40937,7 +40937,7 @@
       - kegg.genes:
         - ptl:AOT13_12200
         - ptl:AOT13_00310
-      - ncbigi:
+      - ncbiprotein:
         - ALF10717
         - ALF08610
       - sbo: SBO:0000243
@@ -40951,7 +40951,7 @@
       - kegg.genes:
         - ptl:AOT13_12200
         - ptl:AOT13_00310
-      - ncbigi:
+      - ncbiprotein:
         - ALF10717
         - ALF08610
       - sbo: SBO:0000243
@@ -40964,7 +40964,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02975
-      - ncbigi: ALF11981
+      - ncbiprotein: ALF11981
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PPB7
   - !!omap
@@ -40973,7 +40973,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17410
-      - ncbigi: ALF11651
+      - ncbiprotein: ALF11651
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PJ60
   - !!omap
@@ -40983,7 +40983,7 @@
       - kegg.genes:
         - ptl:AOT13_02695
         - ptl:AOT13_17335
-      - ncbigi:
+      - ncbiprotein:
         - ALF09022
         - ALF11638
       - sbo: SBO:0000243
@@ -40998,7 +40998,7 @@
         - ptl:AOT13_02695
         - ptl:AOT13_14140
         - ptl:AOT13_17335
-      - ncbigi:
+      - ncbiprotein:
         - ALF09022
         - ALF11061
         - ALF11638
@@ -41013,7 +41013,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17165
-      - ncbigi: ALF11606
+      - ncbiprotein: ALF11606
       - sbo: SBO:0000243
       - uniprot: A0A178U0P9
   - !!omap
@@ -41022,7 +41022,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18145
-      - ncbigi: ALF11791
+      - ncbiprotein: ALF11791
       - sbo: SBO:0000243
       - uniprot: A0A178TZP2
   - !!omap
@@ -41049,7 +41049,7 @@
         - ptl:AOT13_16600
         - ptl:AOT13_16605
         - ptl:AOT13_16610
-      - ncbigi:
+      - ncbiprotein:
         - ALF10005
         - ALF11187
         - ALF11455
@@ -41109,7 +41109,7 @@
         - ptl:AOT13_14855
         - ptl:AOT13_10930
         - ptl:AOT13_01780
-      - ncbigi:
+      - ncbiprotein:
         - ALF10005
         - ALF11187
         - ALF11455
@@ -41164,7 +41164,7 @@
         - ptl:AOT13_16600
         - ptl:AOT13_16605
         - ptl:AOT13_16610
-      - ncbigi:
+      - ncbiprotein:
         - ALF10005
         - ALF11187
         - ALF11455
@@ -41224,7 +41224,7 @@
         - ptl:AOT13_14855
         - ptl:AOT13_10930
         - ptl:AOT13_01780
-      - ncbigi:
+      - ncbiprotein:
         - ALF10005
         - ALF11187
         - ALF11455
@@ -41279,7 +41279,7 @@
         - ptl:AOT13_16600
         - ptl:AOT13_16605
         - ptl:AOT13_16610
-      - ncbigi:
+      - ncbiprotein:
         - ALF10005
         - ALF11187
         - ALF11455
@@ -41339,7 +41339,7 @@
         - ptl:AOT13_14855
         - ptl:AOT13_10930
         - ptl:AOT13_01780
-      - ncbigi:
+      - ncbiprotein:
         - ALF10005
         - ALF11187
         - ALF11455
@@ -41389,7 +41389,7 @@
         - ptl:AOT13_14855
         - ptl:AOT13_10930
         - ptl:AOT13_01780
-      - ncbigi:
+      - ncbiprotein:
         - ALF10005
         - ALF11187
         - ALF11455
@@ -41426,7 +41426,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03325
-      - ncbigi: ALF09129
+      - ncbiprotein: ALF09129
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PE57
   - !!omap
@@ -41435,7 +41435,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03325
-      - ncbigi: ALF09129
+      - ncbiprotein: ALF09129
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PE57
   - !!omap
@@ -41445,7 +41445,7 @@
       - kegg.genes:
         - ptl:AOT13_10430
         - ptl:AOT13_14210
-      - ncbigi:
+      - ncbiprotein:
         - ALF12047
         - ALF11073
       - sbo: SBO:0000243
@@ -41459,7 +41459,7 @@
       - kegg.genes:
         - ptl:AOT13_10430
         - ptl:AOT13_14210
-      - ncbigi:
+      - ncbiprotein:
         - ALF12047
         - ALF11073
       - sbo: SBO:0000243
@@ -41476,7 +41476,7 @@
         - ptl:AOT13_18815
         - ptl:AOT13_18830
         - ptl:AOT13_18835
-      - ncbigi:
+      - ncbiprotein:
         - ALF12069
         - ALF11020
         - ALF11920
@@ -41496,7 +41496,7 @@
       - kegg.genes:
         - ptl:AOT13_18830
         - ptl:AOT13_18835
-      - ncbigi:
+      - ncbiprotein:
         - ALF11923
         - ALF11924
       - sbo: SBO:0000243
@@ -41513,7 +41513,7 @@
         - ptl:AOT13_18815
         - ptl:AOT13_18830
         - ptl:AOT13_18835
-      - ncbigi:
+      - ncbiprotein:
         - ALF12069
         - ALF11020
         - ALF11920
@@ -41536,7 +41536,7 @@
         - ptl:AOT13_18815
         - ptl:AOT13_18830
         - ptl:AOT13_18835
-      - ncbigi:
+      - ncbiprotein:
         - ALF12069
         - ALF11020
         - ALF11920
@@ -41559,7 +41559,7 @@
         - ptl:AOT13_18815
         - ptl:AOT13_18830
         - ptl:AOT13_18835
-      - ncbigi:
+      - ncbiprotein:
         - ALF12069
         - ALF11020
         - ALF11920
@@ -41579,7 +41579,7 @@
       - kegg.genes:
         - ptl:AOT13_18830
         - ptl:AOT13_18835
-      - ncbigi:
+      - ncbiprotein:
         - ALF11923
         - ALF11924
       - sbo: SBO:0000243
@@ -41595,7 +41595,7 @@
         - ptl:AOT13_06465
         - ptl:AOT13_12985
         - ptl:AOT13_14445
-      - ncbigi:
+      - ncbiprotein:
         - ALF09127
         - ALF12012
         - ALF12077
@@ -41614,7 +41614,7 @@
         - ptl:AOT13_06465
         - ptl:AOT13_12985
         - ptl:AOT13_14445
-      - ncbigi:
+      - ncbiprotein:
         - ALF09127
         - ALF12012
         - ALF12077
@@ -41637,7 +41637,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_01555
-      - ncbigi:
+      - ncbiprotein:
         - ALF09127
         - ALF12012
         - ALF12077
@@ -41664,7 +41664,7 @@
         - ptl:AOT13_06465
         - ptl:AOT13_12985
         - ptl:AOT13_14445
-      - ncbigi:
+      - ncbiprotein:
         - ALF09127
         - ALF12012
         - ALF12077
@@ -41683,7 +41683,7 @@
         - ptl:AOT13_06465
         - ptl:AOT13_12985
         - ptl:AOT13_14445
-      - ncbigi:
+      - ncbiprotein:
         - ALF09127
         - ALF12012
         - ALF12077
@@ -41700,7 +41700,7 @@
       - kegg.genes:
         - ptl:AOT13_13060
         - ptl:AOT13_03490
-      - ncbigi:
+      - ncbiprotein:
         - ALF10868
         - ALF09161
       - sbo: SBO:0000243
@@ -41716,7 +41716,7 @@
         - ptl:AOT13_18290
         - ptl:AOT13_18345
         - ptl:AOT13_11030
-      - ncbigi:
+      - ncbiprotein:
         - ALF11809
         - ALF11820
         - ALF11831
@@ -41736,7 +41736,7 @@
         - ptl:AOT13_18290
         - ptl:AOT13_18345
         - ptl:AOT13_11030
-      - ncbigi:
+      - ncbiprotein:
         - ALF11809
         - ALF11820
         - ALF11831
@@ -41756,7 +41756,7 @@
         - ptl:AOT13_18290
         - ptl:AOT13_18345
         - ptl:AOT13_11030
-      - ncbigi:
+      - ncbiprotein:
         - ALF11809
         - ALF11820
         - ALF11831
@@ -41776,7 +41776,7 @@
         - ptl:AOT13_18290
         - ptl:AOT13_18345
         - ptl:AOT13_11030
-      - ncbigi:
+      - ncbiprotein:
         - ALF11809
         - ALF11820
         - ALF11831
@@ -41794,7 +41794,7 @@
       - kegg.genes:
         - ptl:AOT13_03585
         - ptl:AOT13_11050
-      - ncbigi:
+      - ncbiprotein:
         - ALF09180
         - ALF10506
       - sbo: SBO:0000243
@@ -41808,7 +41808,7 @@
       - kegg.genes:
         - ptl:AOT13_03585
         - ptl:AOT13_11050
-      - ncbigi:
+      - ncbiprotein:
         - ALF09180
         - ALF10506
       - sbo: SBO:0000243
@@ -41821,7 +41821,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15050
-      - ncbigi: ALF12098
+      - ncbiprotein: ALF12098
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PX92
   - !!omap
@@ -41830,7 +41830,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15755
-      - ncbigi: ALF11344
+      - ncbiprotein: ALF11344
       - sbo: SBO:0000243
       - uniprot: A0A178U4D9
   - !!omap
@@ -41839,7 +41839,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15755
-      - ncbigi: ALF11344
+      - ncbiprotein: ALF11344
       - sbo: SBO:0000243
       - uniprot: A0A178U4D9
   - !!omap
@@ -41848,7 +41848,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04800
-      - ncbigi: ALF09386
+      - ncbiprotein: ALF09386
       - sbo: SBO:0000243
       - uniprot: A0A178U739
   - !!omap
@@ -41857,7 +41857,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09720
-      - ncbigi: ALF10272
+      - ncbiprotein: ALF10272
       - sbo: SBO:0000243
       - uniprot: A0A178TVG1
   - !!omap
@@ -41867,7 +41867,7 @@
       - kegg.genes:
         - ptl:AOT13_06990
         - ptl:AOT13_18555
-      - ncbigi:
+      - ncbiprotein:
         - ALF12019
         - ALF11872
       - sbo: SBO:0000243
@@ -41884,7 +41884,7 @@
         - ptl:AOT13_07275
         - ptl:AOT13_07280
         - ptl:AOT13_01070
-      - ncbigi:
+      - ncbiprotein:
         - ALF10083
         - ALF10084
         - ALF09814
@@ -41907,7 +41907,7 @@
         - ptl:AOT13_07275
         - ptl:AOT13_07280
         - ptl:AOT13_01070
-      - ncbigi:
+      - ncbiprotein:
         - ALF10083
         - ALF10084
         - ALF09814
@@ -41927,7 +41927,7 @@
       - kegg.genes:
         - ptl:AOT13_06990
         - ptl:AOT13_18555
-      - ncbigi:
+      - ncbiprotein:
         - ALF12019
         - ALF11872
       - sbo: SBO:0000243
@@ -41944,7 +41944,7 @@
         - ptl:AOT13_07275
         - ptl:AOT13_07280
         - ptl:AOT13_01070
-      - ncbigi:
+      - ncbiprotein:
         - ALF10083
         - ALF10084
         - ALF09814
@@ -41967,7 +41967,7 @@
         - ptl:AOT13_07275
         - ptl:AOT13_07280
         - ptl:AOT13_01070
-      - ncbigi:
+      - ncbiprotein:
         - ALF10083
         - ALF10084
         - ALF09814
@@ -41986,7 +41986,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07260
-      - ncbigi: ALF09811
+      - ncbiprotein: ALF09811
       - sbo: SBO:0000243
       - uniprot: A0A369WKN8
   - !!omap
@@ -41995,7 +41995,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17770
-      - ncbigi: ALF11720
+      - ncbiprotein: ALF11720
       - sbo: SBO:0000243
       - uniprot: A0A178TYZ8
   - !!omap
@@ -42004,7 +42004,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18120
-      - ncbigi: ALF12129
+      - ncbiprotein: ALF12129
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYS7
   - !!omap
@@ -42013,7 +42013,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18675
-      - ncbigi: ALF11893
+      - ncbiprotein: ALF11893
       - sbo: SBO:0000243
       - uniprot: A0A369WWF3
   - !!omap
@@ -42023,7 +42023,7 @@
       - kegg.genes:
         - ptl:AOT13_12015
         - ptl:AOT13_12335
-      - ncbigi:
+      - ncbiprotein:
         - ALF10681
         - ALF10741
       - sbo: SBO:0000243
@@ -42037,7 +42037,7 @@
       - kegg.genes:
         - ptl:AOT13_12015
         - ptl:AOT13_12335
-      - ncbigi:
+      - ncbiprotein:
         - ALF10681
         - ALF10741
       - sbo: SBO:0000243
@@ -42066,7 +42066,7 @@
       - kegg.genes:
         - ptl:AOT13_04195
         - ptl:AOT13_12460
-      - ncbigi:
+      - ncbiprotein:
         - ALF09293
         - ALF10763
       - sbo: SBO:0000243
@@ -42080,7 +42080,7 @@
       - kegg.genes:
         - ptl:AOT13_04195
         - ptl:AOT13_12460
-      - ncbigi:
+      - ncbiprotein:
         - ALF09293
         - ALF10763
       - sbo: SBO:0000243
@@ -42093,7 +42093,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03970
-      - ncbigi: ALF09255
+      - ncbiprotein: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42102,7 +42102,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03970
-      - ncbigi: ALF09255
+      - ncbiprotein: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42111,7 +42111,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03970
-      - ncbigi: ALF09255
+      - ncbiprotein: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42120,7 +42120,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03970
-      - ncbigi: ALF09255
+      - ncbiprotein: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42129,7 +42129,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03970
-      - ncbigi: ALF09255
+      - ncbiprotein: ALF09255
       - sbo: SBO:0000243
       - uniprot: A0A178U4U1
   - !!omap
@@ -42139,7 +42139,7 @@
       - kegg.genes:
         - ptl:AOT13_01410
         - ptl:AOT13_15315
-      - ncbigi:
+      - ncbiprotein:
         - ALF08806
         - ALF11263
       - sbo: SBO:0000243
@@ -42153,7 +42153,7 @@
       - kegg.genes:
         - ptl:AOT13_01410
         - ptl:AOT13_15315
-      - ncbigi:
+      - ncbiprotein:
         - ALF08806
         - ALF11263
       - sbo: SBO:0000243
@@ -42166,7 +42166,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11570
-      - ncbigi: ALF10596
+      - ncbiprotein: ALF10596
       - sbo: SBO:0000243
       - uniprot: A0A178TSN2
   - !!omap
@@ -42175,7 +42175,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06805
-      - ncbigi: ALF09726
+      - ncbiprotein: ALF09726
       - sbo: SBO:0000243
       - uniprot: A0A369WHK3
   - !!omap
@@ -42184,7 +42184,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18250
-      - ncbigi: ALF11812
+      - ncbiprotein: ALF11812
       - sbo: SBO:0000243
       - uniprot: A0A178TZX6
   - !!omap
@@ -42193,7 +42193,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05555
-      - ncbigi: ALF09521
+      - ncbiprotein: ALF09521
       - sbo: SBO:0000243
       - uniprot: A0A369XE46
   - !!omap
@@ -42202,7 +42202,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08820
-      - ncbigi: ALF10101
+      - ncbiprotein: ALF10101
       - sbo: SBO:0000243
       - uniprot: A0A178TZV7
   - !!omap
@@ -42211,7 +42211,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08955
-      - ncbigi: ALF10127
+      - ncbiprotein: ALF10127
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q460
   - !!omap
@@ -42221,7 +42221,7 @@
       - kegg.genes:
         - ptl:AOT13_07455
         - ptl:AOT13_17330
-      - ncbigi:
+      - ncbiprotein:
         - ALF09849
         - ALF11637
       - sbo: SBO:0000243
@@ -42232,7 +42232,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18565
-      - ncbigi: ALF11874
+      - ncbiprotein: ALF11874
       - sbo: SBO:0000243
       - uniprot: A0A178TZV2
   - !!omap
@@ -42241,7 +42241,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18115
-      - ncbigi: ALF11786
+      - ncbiprotein: ALF11786
       - sbo: SBO:0000243
       - uniprot: A0A178TZK6
   - !!omap
@@ -42250,7 +42250,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08405
-      - ncbigi: ALF10024
+      - ncbiprotein: ALF10024
       - sbo: SBO:0000243
       - uniprot: A0A369WHC6
   - !!omap
@@ -42259,7 +42259,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18125
-      - ncbigi: ALF11787
+      - ncbiprotein: ALF11787
       - sbo: SBO:0000243
       - uniprot: A0A178TZV4
   - !!omap
@@ -42269,7 +42269,7 @@
       - kegg.genes:
         - ptl:AOT13_15545
         - ptl:AOT13_15420
-      - ncbigi:
+      - ncbiprotein:
         - ALF11306
         - ALF11281
       - sbo: SBO:0000243
@@ -42283,7 +42283,7 @@
       - kegg.genes:
         - ptl:AOT13_15545
         - ptl:AOT13_15420
-      - ncbigi:
+      - ncbiprotein:
         - ALF11306
         - ALF11281
       - sbo: SBO:0000243
@@ -42296,7 +42296,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17435
-      - ncbigi: ALF11656
+      - ncbiprotein: ALF11656
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO03185
@@ -42305,7 +42305,7 @@
       - kegg.genes:
         - ptl:AOT13_18820
         - ptl:AOT13_03385
-      - ncbigi:
+      - ncbiprotein:
         - ALF11921
         - ALF09141
       - sbo: SBO:0000243
@@ -42319,7 +42319,7 @@
       - kegg.genes:
         - ptl:AOT13_18820
         - ptl:AOT13_03385
-      - ncbigi:
+      - ncbiprotein:
         - ALF11921
         - ALF09141
       - sbo: SBO:0000243
@@ -42332,7 +42332,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06595
-      - ncbigi: ALF12013
+      - ncbiprotein: ALF12013
       - sbo: SBO:0000243
       - uniprot: A0A369WJP6
   - !!omap
@@ -42341,7 +42341,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04405
-      - ncbigi: ALF11990
+      - ncbiprotein: ALF11990
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PVX3
   - !!omap
@@ -42351,7 +42351,7 @@
       - kegg.genes:
         - ptl:AOT13_09015
         - ptl:AOT13_09020
-      - ncbigi:
+      - ncbiprotein:
         - ALF10138
         - ALF10139
       - sbo: SBO:0000243
@@ -42365,7 +42365,7 @@
       - kegg.genes:
         - ptl:AOT13_09015
         - ptl:AOT13_09020
-      - ncbigi:
+      - ncbiprotein:
         - ALF10138
         - ALF10139
       - sbo: SBO:0000243
@@ -42379,7 +42379,7 @@
       - kegg.genes:
         - ptl:AOT13_17785
         - ptl:AOT13_17790
-      - ncbigi:
+      - ncbiprotein:
         - ALF11723
         - ALF11724
       - sbo: SBO:0000243
@@ -42393,7 +42393,7 @@
       - kegg.genes:
         - ptl:AOT13_17785
         - ptl:AOT13_17790
-      - ncbigi:
+      - ncbiprotein:
         - ALF11723
         - ALF11724
       - sbo: SBO:0000243
@@ -42407,7 +42407,7 @@
       - kegg.genes:
         - ptl:AOT13_17785
         - ptl:AOT13_17790
-      - ncbigi:
+      - ncbiprotein:
         - ALF11723
         - ALF11724
       - sbo: SBO:0000243
@@ -42420,7 +42420,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01565
-      - ncbigi: ALF08834
+      - ncbiprotein: ALF08834
       - sbo: SBO:0000243
       - uniprot: A0A178TT62
   - !!omap
@@ -42429,7 +42429,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02800
-      - ncbigi: ALF09041
+      - ncbiprotein: ALF09041
       - sbo: SBO:0000243
       - uniprot: A0A178U549
   - !!omap
@@ -42438,7 +42438,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15625
-      - ncbigi: ALF11320
+      - ncbiprotein: ALF11320
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PKG2
   - !!omap
@@ -42447,7 +42447,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16035
-      - ncbigi: ALF11398
+      - ncbiprotein: ALF11398
       - sbo: SBO:0000243
       - uniprot: A0A369WUZ1
   - !!omap
@@ -42456,7 +42456,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16065
-      - ncbigi: ALF11404
+      - ncbiprotein: ALF11404
       - sbo: SBO:0000243
       - uniprot: A0A369X2E9
   - !!omap
@@ -42465,7 +42465,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16065
-      - ncbigi: ALF11404
+      - ncbiprotein: ALF11404
       - sbo: SBO:0000243
       - uniprot: A0A369X2E9
   - !!omap
@@ -42474,7 +42474,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00220
-      - ncbigi: ALF08594
+      - ncbiprotein: ALF08594
       - sbo: SBO:0000243
       - uniprot: A0A178TY13
   - !!omap
@@ -42483,7 +42483,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14215
-      - ncbigi: ALF11074
+      - ncbiprotein: ALF11074
       - sbo: SBO:0000243
       - uniprot: A0A178U1W9
   - !!omap
@@ -42494,7 +42494,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42511,7 +42511,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42528,7 +42528,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42545,7 +42545,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42562,7 +42562,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42579,7 +42579,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42596,7 +42596,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42613,7 +42613,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42630,7 +42630,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42647,7 +42647,7 @@
         - ptl:AOT13_14220
         - ptl:AOT13_10855
         - ptl:AOT13_05485
-      - ncbigi:
+      - ncbiprotein:
         - ALF11075
         - ALF10471
         - ALF12001
@@ -42662,7 +42662,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06870
-      - ncbigi: ALF09737
+      - ncbiprotein: ALF09737
       - sbo: SBO:0000243
       - uniprot: A0A369X928
   - !!omap
@@ -42673,7 +42673,7 @@
         - ptl:AOT13_09365
         - ptl:AOT13_01615
         - ptl:AOT13_17805
-      - ncbigi:
+      - ncbiprotein:
         - ALF10205
         - ALF08843
         - ALF11727
@@ -42690,7 +42690,7 @@
         - ptl:AOT13_09365
         - ptl:AOT13_01615
         - ptl:AOT13_17805
-      - ncbigi:
+      - ncbiprotein:
         - ALF10205
         - ALF08843
         - ALF11727
@@ -42707,7 +42707,7 @@
         - ptl:AOT13_09365
         - ptl:AOT13_01615
         - ptl:AOT13_17805
-      - ncbigi:
+      - ncbiprotein:
         - ALF10205
         - ALF08843
         - ALF11727
@@ -42722,7 +42722,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15745
-      - ncbigi: ALF11342
+      - ncbiprotein: ALF11342
       - sbo: SBO:0000243
       - uniprot: A0A369X293
   - !!omap
@@ -42731,7 +42731,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15435
-      - ncbigi: ALF11284
+      - ncbiprotein: ALF11284
       - sbo: SBO:0000243
       - uniprot: A0A178U4N0
   - !!omap
@@ -42740,7 +42740,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15435
-      - ncbigi: ALF11284
+      - ncbiprotein: ALF11284
       - sbo: SBO:0000243
       - uniprot: A0A178U4N0
   - !!omap
@@ -42749,7 +42749,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15435
-      - ncbigi: ALF11284
+      - ncbiprotein: ALF11284
       - sbo: SBO:0000243
       - uniprot: A0A178U4N0
   - !!omap
@@ -42758,7 +42758,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03900
-      - ncbigi: ALF09241
+      - ncbiprotein: ALF09241
       - sbo: SBO:0000243
       - uniprot: A0A369WFY2
   - !!omap
@@ -42772,7 +42772,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17195
-      - ncbigi: ALF11612
+      - ncbiprotein: ALF11612
       - sbo: SBO:0000243
       - uniprot: A0A178TYP9
   - !!omap
@@ -42781,7 +42781,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05885
-      - ncbigi: ALF09582
+      - ncbiprotein: ALF09582
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PMS0
   - !!omap
@@ -42790,7 +42790,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02130
-      - ncbigi: ALF08940
+      - ncbiprotein: ALF08940
       - sbo: SBO:0000243
       - uniprot: A0A178U1F5
   - !!omap
@@ -42799,7 +42799,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08325
-      - ncbigi: ALF10010
+      - ncbiprotein: ALF10010
       - sbo: SBO:0000243
       - uniprot: A0A178TWA5
   - !!omap
@@ -42808,7 +42808,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08325
-      - ncbigi: ALF10010
+      - ncbiprotein: ALF10010
       - sbo: SBO:0000243
       - uniprot: A0A178TWA5
   - !!omap
@@ -42817,7 +42817,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03620
-      - ncbigi: ALF09186
+      - ncbiprotein: ALF09186
       - sbo: SBO:0000243
       - uniprot: A0A178U2W6
   - !!omap
@@ -42828,7 +42828,7 @@
         - ptl:AOT13_01310
         - ptl:AOT13_05370
         - ptl:AOT13_13745
-      - ncbigi:
+      - ncbiprotein:
         - ALF08789
         - ALF09487
         - ALF10985
@@ -42842,7 +42842,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02510
-      - ncbigi: ALF09002
+      - ncbiprotein: ALF09002
       - sbo: SBO:0000243
       - uniprot: A0A178TQP8
   - !!omap
@@ -42851,7 +42851,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08880
-      - ncbigi: ALF10113
+      - ncbiprotein: ALF10113
       - sbo: SBO:0000243
       - uniprot: A0A178TW99
   - !!omap
@@ -42869,7 +42869,7 @@
         - ptl:AOT13_08295
         - ptl:AOT13_14850
         - ptl:AOT13_16345
-      - ncbigi:
+      - ncbiprotein:
         - ALF09971
         - ALF09972
         - ALF10005
@@ -42889,7 +42889,7 @@
       - kegg.genes:
         - ptl:AOT13_07570
         - ptl:AOT13_05000
-      - ncbigi:
+      - ncbiprotein:
         - ALF09872
         - ALF09423
       - sbo: SBO:0000243
@@ -42904,7 +42904,7 @@
         - ptl:AOT13_05000
         - ptl:AOT13_02675
         - ptl:AOT13_14250
-      - ncbigi:
+      - ncbiprotein:
         - ALF09423
         - ALF09018
         - ALF11079
@@ -42921,7 +42921,7 @@
         - ptl:AOT13_05000
         - ptl:AOT13_02675
         - ptl:AOT13_14250
-      - ncbigi:
+      - ncbiprotein:
         - ALF09423
         - ALF09018
         - ALF11079
@@ -42937,7 +42937,7 @@
       - kegg.genes:
         - ptl:AOT13_01935
         - ptl:AOT13_15035
-      - ncbigi:
+      - ncbiprotein:
         - ALF08903
         - ALF11222
       - sbo: SBO:0000243
@@ -42951,7 +42951,7 @@
       - kegg.genes:
         - ptl:AOT13_01935
         - ptl:AOT13_15035
-      - ncbigi:
+      - ncbiprotein:
         - ALF08903
         - ALF11222
       - sbo: SBO:0000243
@@ -42964,7 +42964,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00740
-      - ncbigi: ALF08688
+      - ncbiprotein: ALF08688
       - sbo: SBO:0000243
       - uniprot: A0A178U422
   - !!omap
@@ -42974,7 +42974,7 @@
       - kegg.genes:
         - ptl:AOT13_03645
         - ptl:AOT13_03880
-      - ncbigi:
+      - ncbiprotein:
         - ALF09191
         - ALF09238
       - sbo: SBO:0000243
@@ -42988,7 +42988,7 @@
       - kegg.genes:
         - ptl:AOT13_03645
         - ptl:AOT13_03880
-      - ncbigi:
+      - ncbiprotein:
         - ALF09191
         - ALF09238
       - sbo: SBO:0000243
@@ -43001,7 +43001,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06970
-      - ncbigi: ALF09756
+      - ncbiprotein: ALF09756
       - sbo: SBO:0000243
       - uniprot: A0A369WGJ6
   - !!omap
@@ -43021,7 +43021,7 @@
       - kegg.genes:
         - ptl:AOT13_15550
         - ptl:AOT13_15555
-      - ncbigi:
+      - ncbiprotein:
         - ALF11307
         - ALF11308
       - sbo: SBO:0000243
@@ -43035,7 +43035,7 @@
       - kegg.genes:
         - ptl:AOT13_15550
         - ptl:AOT13_15555
-      - ncbigi:
+      - ncbiprotein:
         - ALF11307
         - ALF11308
       - sbo: SBO:0000243
@@ -43048,7 +43048,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14870
-      - ncbigi: ALF11191
+      - ncbiprotein: ALF11191
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PQM7
   - !!omap
@@ -43057,7 +43057,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17450
-      - ncbigi: ALF11659
+      - ncbiprotein: ALF11659
       - sbo: SBO:0000243
       - uniprot: A0A178U0U8
   - !!omap
@@ -43067,7 +43067,7 @@
       - kegg.genes:
         - ptl:AOT13_15545
         - ptl:AOT13_15420
-      - ncbigi:
+      - ncbiprotein:
         - ALF11306
         - ALF11281
       - sbo: SBO:0000243
@@ -43082,7 +43082,7 @@
         - ptl:AOT13_15545
         - ptl:AOT13_15420
         - ptl:AOT13_04080
-      - ncbigi:
+      - ncbiprotein:
         - ALF11306
         - ALF11281
         - ALF09272
@@ -43098,7 +43098,7 @@
       - kegg.genes:
         - ptl:AOT13_15545
         - ptl:AOT13_15420
-      - ncbigi:
+      - ncbiprotein:
         - ALF11306
         - ALF11281
       - sbo: SBO:0000243
@@ -43113,7 +43113,7 @@
         - ptl:AOT13_15545
         - ptl:AOT13_15420
         - ptl:AOT13_04080
-      - ncbigi:
+      - ncbiprotein:
         - ALF11306
         - ALF11281
         - ALF09272
@@ -43128,7 +43128,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05975
-      - ncbigi: ALF09597
+      - ncbiprotein: ALF09597
       - sbo: SBO:0000243
       - uniprot: A0A178U3X0
   - !!omap
@@ -43137,7 +43137,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05975
-      - ncbigi: ALF09597
+      - ncbiprotein: ALF09597
       - sbo: SBO:0000243
       - uniprot: A0A178U3X0
   - !!omap
@@ -43147,7 +43147,7 @@
       - kegg.genes:
         - ptl:AOT13_11145
         - ptl:AOT13_10105
-      - ncbigi:
+      - ncbiprotein:
         - ALF10523
         - ALF10342
       - sbo: SBO:0000243
@@ -43161,7 +43161,7 @@
       - kegg.genes:
         - ptl:AOT13_11145
         - ptl:AOT13_10105
-      - ncbigi:
+      - ncbiprotein:
         - ALF10523
         - ALF10342
       - sbo: SBO:0000243
@@ -43175,7 +43175,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -43189,7 +43189,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -43203,7 +43203,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -43217,7 +43217,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -43231,7 +43231,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -43245,7 +43245,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -43259,7 +43259,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -43272,7 +43272,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05395
-      - ncbigi: ALF09491
+      - ncbiprotein: ALF09491
       - sbo: SBO:0000243
       - uniprot: A0A178TUQ8
   - !!omap
@@ -43281,7 +43281,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05395
-      - ncbigi: ALF09491
+      - ncbiprotein: ALF09491
       - sbo: SBO:0000243
       - uniprot: A0A178TUQ8
   - !!omap
@@ -43290,7 +43290,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05395
-      - ncbigi: ALF09491
+      - ncbiprotein: ALF09491
       - sbo: SBO:0000243
       - uniprot: A0A178TUQ8
   - !!omap
@@ -43299,7 +43299,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15540
-      - ncbigi: ALF11305
+      - ncbiprotein: ALF11305
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBS1
   - !!omap
@@ -43311,7 +43311,7 @@
         - ptl:AOT13_16470
         - ptl:AOT13_18155
         - ptl:AOT13_18160
-      - ncbigi:
+      - ncbiprotein:
         - ALF11011
         - ALF11478
         - ALF11793
@@ -43331,7 +43331,7 @@
         - ptl:AOT13_16470
         - ptl:AOT13_18155
         - ptl:AOT13_18160
-      - ncbigi:
+      - ncbiprotein:
         - ALF11011
         - ALF11478
         - ALF11793
@@ -43351,7 +43351,7 @@
         - ptl:AOT13_16470
         - ptl:AOT13_18155
         - ptl:AOT13_18160
-      - ncbigi:
+      - ncbiprotein:
         - ALF11011
         - ALF11478
         - ALF11793
@@ -43368,7 +43368,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14440
-      - ncbigi: ALF11112
+      - ncbiprotein: ALF11112
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYZ6
   - !!omap
@@ -43377,7 +43377,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14440
-      - ncbigi: ALF11112
+      - ncbiprotein: ALF11112
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYZ6
   - !!omap
@@ -43386,7 +43386,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14440
-      - ncbigi: ALF11112
+      - ncbiprotein: ALF11112
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYZ6
   - !!omap
@@ -43398,7 +43398,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_03315
-      - ncbigi:
+      - ncbiprotein:
         - ALF09440
         - ALF09200
         - ALF11212
@@ -43418,7 +43418,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_03315
-      - ncbigi:
+      - ncbiprotein:
         - ALF09440
         - ALF09200
         - ALF11212
@@ -43438,7 +43438,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_03315
-      - ncbigi:
+      - ncbiprotein:
         - ALF09440
         - ALF09200
         - ALF11212
@@ -43458,7 +43458,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_03315
-      - ncbigi:
+      - ncbiprotein:
         - ALF09440
         - ALF09200
         - ALF11212
@@ -43478,7 +43478,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_03315
-      - ncbigi:
+      - ncbiprotein:
         - ALF09440
         - ALF09200
         - ALF11212
@@ -43498,7 +43498,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_03315
-      - ncbigi:
+      - ncbiprotein:
         - ALF09440
         - ALF09200
         - ALF11212
@@ -43518,7 +43518,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_03315
-      - ncbigi:
+      - ncbiprotein:
         - ALF09440
         - ALF09200
         - ALF11212
@@ -43538,7 +43538,7 @@
         - ptl:AOT13_03690
         - ptl:AOT13_14980
         - ptl:AOT13_03315
-      - ncbigi:
+      - ncbiprotein:
         - ALF09440
         - ALF09200
         - ALF11212
@@ -43555,7 +43555,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18150
-      - ncbigi: ALF11792
+      - ncbiprotein: ALF11792
       - sbo: SBO:0000243
       - uniprot: A0A178TZF5
   - !!omap
@@ -43566,7 +43566,7 @@
         - ptl:AOT13_11165
         - ptl:AOT13_11155
         - ptl:AOT13_11170
-      - ncbigi:
+      - ncbiprotein:
         - ALF10526
         - ALF10525
         - ALF10527
@@ -43580,7 +43580,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01655
-      - ncbigi: ALF08851
+      - ncbiprotein: ALF08851
       - sbo: SBO:0000243
       - uniprot: A0A369WM27
   - !!omap
@@ -43589,7 +43589,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03650
-      - ncbigi: ALF09192
+      - ncbiprotein: ALF09192
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PDL3
   - !!omap
@@ -43598,7 +43598,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15930
-      - ncbigi: ALF11378
+      - ncbiprotein: ALF11378
       - sbo: SBO:0000243
       - uniprot: A0A369WUX1
   - !!omap
@@ -43607,7 +43607,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02100
-      - ncbigi: ALF08935
+      - ncbiprotein: ALF08935
       - sbo: SBO:0000243
       - uniprot: A0A178U0C4
   - !!omap
@@ -43617,7 +43617,7 @@
       - kegg.genes:
         - ptl:AOT13_00055
         - ptl:AOT13_07035
-      - ncbigi:
+      - ncbiprotein:
         - ALF08565
         - ALF09768
       - sbo: SBO:0000243
@@ -43631,7 +43631,7 @@
       - kegg.genes:
         - ptl:AOT13_00055
         - ptl:AOT13_07035
-      - ncbigi:
+      - ncbiprotein:
         - ALF08565
         - ALF09768
       - sbo: SBO:0000243
@@ -43644,7 +43644,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03260
-      - ncbigi: ALF09117
+      - ncbiprotein: ALF09117
       - sbo: SBO:0000243
       - uniprot: A0A178U2V6
   - !!omap
@@ -43653,7 +43653,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03260
-      - ncbigi: ALF09117
+      - ncbiprotein: ALF09117
       - sbo: SBO:0000243
       - uniprot: A0A178U2V6
   - !!omap
@@ -43662,7 +43662,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17155
-      - ncbigi: ALF11604
+      - ncbiprotein: ALF11604
       - sbo: SBO:0000243
       - uniprot: A0A369X6W2
   - !!omap
@@ -43673,7 +43673,7 @@
         - ptl:AOT13_17155
         - ptl:AOT13_01935
         - ptl:AOT13_15035
-      - ncbigi:
+      - ncbiprotein:
         - ALF11604
         - ALF08903
         - ALF11222
@@ -43688,7 +43688,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05575
-      - ncbigi: ALF09524
+      - ncbiprotein: ALF09524
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q433
   - !!omap
@@ -43697,7 +43697,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03415
-      - ncbigi: ALF09147
+      - ncbiprotein: ALF09147
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PMV6
   - !!omap
@@ -43709,7 +43709,7 @@
         - ptl:AOT13_14460
         - ptl:AOT13_06490
         - ptl:AOT13_00540
-      - ncbigi:
+      - ncbiprotein:
         - ALF10856
         - ALF11116
         - ALF09666
@@ -43729,7 +43729,7 @@
         - ptl:AOT13_14460
         - ptl:AOT13_06490
         - ptl:AOT13_00540
-      - ncbigi:
+      - ncbiprotein:
         - ALF10856
         - ALF11116
         - ALF09666
@@ -43749,7 +43749,7 @@
         - ptl:AOT13_14460
         - ptl:AOT13_06490
         - ptl:AOT13_00540
-      - ncbigi:
+      - ncbiprotein:
         - ALF10856
         - ALF11116
         - ALF09666
@@ -43772,7 +43772,7 @@
       - kegg.genes:
         - ptl:AOT13_16295
         - ptl:AOT13_16300
-      - ncbigi:
+      - ncbiprotein:
         - ALF11446
         - ALF11447
       - sbo: SBO:0000243
@@ -43786,7 +43786,7 @@
       - kegg.genes:
         - ptl:AOT13_16295
         - ptl:AOT13_16300
-      - ncbigi:
+      - ncbiprotein:
         - ALF11446
         - ALF11447
       - sbo: SBO:0000243
@@ -43800,7 +43800,7 @@
       - kegg.genes:
         - ptl:AOT13_16295
         - ptl:AOT13_16300
-      - ncbigi:
+      - ncbiprotein:
         - ALF11446
         - ALF11447
       - sbo: SBO:0000243
@@ -43814,7 +43814,7 @@
       - kegg.genes:
         - ptl:AOT13_07045
         - ptl:AOT13_16220
-      - ncbigi:
+      - ncbiprotein:
         - ALF09770
         - ALF11432
       - sbo: SBO:0000243
@@ -43828,7 +43828,7 @@
       - kegg.genes:
         - ptl:AOT13_07045
         - ptl:AOT13_16220
-      - ncbigi:
+      - ncbiprotein:
         - ALF09770
         - ALF11432
       - sbo: SBO:0000243
@@ -43842,7 +43842,7 @@
       - kegg.genes:
         - ptl:AOT13_12560
         - ptl:AOT13_05255
-      - ncbigi:
+      - ncbiprotein:
         - ALF10781
         - ALF09467
       - sbo: SBO:0000243
@@ -43855,7 +43855,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12560
-      - ncbigi: ALF10781
+      - ncbiprotein: ALF10781
       - sbo: SBO:0000243
       - uniprot: A0A369WKM1
   - !!omap
@@ -43866,7 +43866,7 @@
         - ptl:AOT13_01760
         - ptl:AOT13_11640
         - ptl:AOT13_15105
-      - ncbigi:
+      - ncbiprotein:
         - ALF08870
         - ALF10610
         - ALF11232
@@ -43883,7 +43883,7 @@
         - ptl:AOT13_01760
         - ptl:AOT13_11640
         - ptl:AOT13_15105
-      - ncbigi:
+      - ncbiprotein:
         - ALF08870
         - ALF10610
         - ALF11232
@@ -43898,7 +43898,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15650
-      - ncbigi: ALF11325
+      - ncbiprotein: ALF11325
       - sbo: SBO:0000243
       - uniprot: A0A369WZB2
   - !!omap
@@ -43907,7 +43907,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09875
-      - ncbigi: ALF10302
+      - ncbiprotein: ALF10302
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2R7
   - !!omap
@@ -43916,7 +43916,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15335
-      - ncbigi: ALF12100
+      - ncbiprotein: ALF12100
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBM6
   - !!omap
@@ -43925,7 +43925,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01090
-      - ncbigi: ALF08751
+      - ncbiprotein: ALF08751
       - sbo: SBO:0000243
       - uniprot: A0A369WZU3
   - !!omap
@@ -43935,7 +43935,7 @@
       - kegg.genes:
         - ptl:AOT13_10235
         - ptl:AOT13_10245
-      - ncbigi:
+      - ncbiprotein:
         - ALF10364
         - ALF10366
       - sbo: SBO:0000243
@@ -43949,7 +43949,7 @@
       - kegg.genes:
         - ptl:AOT13_10235
         - ptl:AOT13_10245
-      - ncbigi:
+      - ncbiprotein:
         - ALF10364
         - ALF10366
       - sbo: SBO:0000243
@@ -43962,7 +43962,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12365
-      - ncbigi: ALF10747
+      - ncbiprotein: ALF10747
       - sbo: SBO:0000243
       - uniprot: A0A178TV00
   - !!omap
@@ -43972,7 +43972,7 @@
       - kegg.genes:
         - ptl:AOT13_02675
         - ptl:AOT13_14250
-      - ncbigi:
+      - ncbiprotein:
         - ALF09018
         - ALF11079
       - sbo: SBO:0000243
@@ -43986,7 +43986,7 @@
       - kegg.genes:
         - ptl:AOT13_02675
         - ptl:AOT13_14250
-      - ncbigi:
+      - ncbiprotein:
         - ALF09018
         - ALF11079
       - sbo: SBO:0000243
@@ -44000,7 +44000,7 @@
       - kegg.genes:
         - ptl:AOT13_02675
         - ptl:AOT13_14250
-      - ncbigi:
+      - ncbiprotein:
         - ALF09018
         - ALF11079
       - sbo: SBO:0000243
@@ -44013,7 +44013,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00130
-      - ncbigi: ALF08578
+      - ncbiprotein: ALF08578
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q1P4
   - !!omap
@@ -44022,7 +44022,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00130
-      - ncbigi: ALF08578
+      - ncbiprotein: ALF08578
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q1P4
   - !!omap
@@ -44032,7 +44032,7 @@
       - kegg.genes:
         - ptl:AOT13_10060
         - ptl:AOT13_12935
-      - ncbigi:
+      - ncbiprotein:
         - ALF12044
         - ALF12076
       - sbo: SBO:0000243
@@ -44046,7 +44046,7 @@
       - kegg.genes:
         - ptl:AOT13_11320
         - ptl:AOT13_11330
-      - ncbigi:
+      - ncbiprotein:
         - ALF10554
         - ALF12061
       - sbo: SBO:0000243
@@ -44060,7 +44060,7 @@
       - kegg.genes:
         - ptl:AOT13_11320
         - ptl:AOT13_11330
-      - ncbigi:
+      - ncbiprotein:
         - ALF10554
         - ALF12061
       - sbo: SBO:0000243
@@ -44076,7 +44076,7 @@
         - ptl:AOT13_08135
         - ptl:AOT13_14580
         - ptl:AOT13_03600
-      - ncbigi:
+      - ncbiprotein:
         - ALF10265
         - ALF09975
         - ALF11139
@@ -44096,7 +44096,7 @@
         - ptl:AOT13_08135
         - ptl:AOT13_14580
         - ptl:AOT13_03600
-      - ncbigi:
+      - ncbiprotein:
         - ALF10265
         - ALF09975
         - ALF11139
@@ -44114,7 +44114,7 @@
       - kegg.genes:
         - ptl:AOT13_00405
         - ptl:AOT13_09695
-      - ncbigi:
+      - ncbiprotein:
         - ALF08629
         - ALF10268
       - sbo: SBO:0000243
@@ -44128,7 +44128,7 @@
       - kegg.genes:
         - ptl:AOT13_00405
         - ptl:AOT13_09695
-      - ncbigi:
+      - ncbiprotein:
         - ALF08629
         - ALF10268
       - sbo: SBO:0000243
@@ -44142,7 +44142,7 @@
       - kegg.genes:
         - ptl:AOT13_00405
         - ptl:AOT13_09695
-      - ncbigi:
+      - ncbiprotein:
         - ALF08629
         - ALF10268
       - sbo: SBO:0000243
@@ -44155,7 +44155,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12130
-      - ncbigi: ALF10704
+      - ncbiprotein: ALF10704
       - sbo: SBO:0000243
       - uniprot: A0A178TS99
   - !!omap
@@ -44164,7 +44164,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12005
-      - ncbigi: ALF10679
+      - ncbiprotein: ALF10679
       - sbo: SBO:0000243
       - uniprot: A0A369XDF7
   - !!omap
@@ -44173,7 +44173,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12615
-      - ncbigi: ALF10792
+      - ncbiprotein: ALF10792
       - sbo: SBO:0000243
       - uniprot: A0A178TRI7
   - !!omap
@@ -44182,7 +44182,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03745
-      - ncbigi: ALF09211
+      - ncbiprotein: ALF09211
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZJ4
   - !!omap
@@ -44196,7 +44196,7 @@
         - ptl:AOT13_04860
         - ptl:AOT13_07100
         - ptl:AOT13_07095
-      - ncbigi:
+      - ncbiprotein:
         - ALF09824
         - ALF09398
         - ALF09825
@@ -44222,7 +44222,7 @@
         - ptl:AOT13_04860
         - ptl:AOT13_07100
         - ptl:AOT13_07095
-      - ncbigi:
+      - ncbiprotein:
         - ALF09824
         - ALF09398
         - ALF09825
@@ -44244,7 +44244,7 @@
       - kegg.genes:
         - ptl:AOT13_18715
         - ptl:AOT13_18720
-      - ncbigi:
+      - ncbiprotein:
         - ALF11901
         - ALF11902
       - sbo: SBO:0000243
@@ -44256,7 +44256,7 @@
       - kegg.genes:
         - ptl:AOT13_18715
         - ptl:AOT13_18720
-      - ncbigi:
+      - ncbiprotein:
         - ALF11901
         - ALF11902
       - sbo: SBO:0000243
@@ -44269,7 +44269,7 @@
         - ptl:AOT13_12380
         - ptl:AOT13_16130
         - ptl:AOT13_06360
-      - ncbigi:
+      - ncbiprotein:
         - ALF10750
         - ALF11417
         - ALF09644
@@ -44286,7 +44286,7 @@
         - ptl:AOT13_12380
         - ptl:AOT13_16130
         - ptl:AOT13_06360
-      - ncbigi:
+      - ncbiprotein:
         - ALF10750
         - ALF11417
         - ALF09644
@@ -44301,7 +44301,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08750
-      - ncbigi: ALF10087
+      - ncbiprotein: ALF10087
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PN44
   - !!omap
@@ -44311,7 +44311,7 @@
       - kegg.genes:
         - ptl:AOT13_08710
         - ptl:AOT13_03750
-      - ncbigi:
+      - ncbiprotein:
         - ALF10080
         - ALF09212
       - sbo: SBO:0000243
@@ -44325,7 +44325,7 @@
       - kegg.genes:
         - ptl:AOT13_08710
         - ptl:AOT13_03750
-      - ncbigi:
+      - ncbiprotein:
         - ALF10080
         - ALF09212
       - sbo: SBO:0000243
@@ -44358,7 +44358,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15575
-      - ncbigi: ALF11312
+      - ncbiprotein: ALF11312
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBR7
   - !!omap
@@ -44369,7 +44369,7 @@
         - ptl:AOT13_15575
         - ptl:AOT13_02665
         - ptl:AOT13_02670
-      - ncbigi:
+      - ncbiprotein:
         - ALF11312
         - ALF09017
         - ALF11979
@@ -44384,7 +44384,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11200
-      - ncbigi: ALF10533
+      - ncbiprotein: ALF10533
       - sbo: SBO:0000243
       - uniprot: A0A178TS96
   - !!omap
@@ -44393,7 +44393,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00750
-      - ncbigi: ALF08690
+      - ncbiprotein: ALF08690
       - sbo: SBO:0000243
       - uniprot: A0A178U5D4
   - !!omap
@@ -44402,7 +44402,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15470
-      - ncbigi: ALF11291
+      - ncbiprotein: ALF11291
       - sbo: SBO:0000243
       - uniprot: A0A178U408
   - !!omap
@@ -44411,7 +44411,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07740
-      - ncbigi: ALF09901
+      - ncbiprotein: ALF09901
       - sbo: SBO:0000243
       - uniprot: A0A178TWR8
   - !!omap
@@ -44420,7 +44420,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07740
-      - ncbigi: ALF09901
+      - ncbiprotein: ALF09901
       - sbo: SBO:0000243
       - uniprot: A0A178TWR8
   - !!omap
@@ -44429,7 +44429,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02795
-      - ncbigi: ALF09040
+      - ncbiprotein: ALF09040
       - sbo: SBO:0000243
       - uniprot: A0A178U1S8
   - !!omap
@@ -44439,7 +44439,7 @@
       - kegg.genes:
         - ptl:AOT13_01815
         - ptl:AOT13_14425
-      - ncbigi:
+      - ncbiprotein:
         - ALF08881
         - ALF11109
       - sbo: SBO:0000243
@@ -44452,7 +44452,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44461,7 +44461,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44470,7 +44470,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44479,7 +44479,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44488,7 +44488,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44497,7 +44497,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44506,7 +44506,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44515,7 +44515,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44524,7 +44524,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44533,7 +44533,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44542,7 +44542,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44551,7 +44551,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44560,7 +44560,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44569,7 +44569,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16160
-      - ncbigi: ALF11421
+      - ncbiprotein: ALF11421
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q2S4
   - !!omap
@@ -44613,7 +44613,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03735
-      - ncbigi: ALF09209
+      - ncbiprotein: ALF09209
       - sbo: SBO:0000243
       - uniprot: A0A178U3Z5
   - !!omap
@@ -44622,7 +44622,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16130
-      - ncbigi: ALF11417
+      - ncbiprotein: ALF11417
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZE6
   - !!omap
@@ -44636,7 +44636,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16965
-      - ncbigi: ALF11572
+      - ncbiprotein: ALF11572
       - sbo: SBO:0000243
       - uniprot: A0A369WVH7
   - !!omap
@@ -44645,7 +44645,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09745
-      - ncbigi: ALF10277
+      - ncbiprotein: ALF10277
       - sbo: SBO:0000243
       - uniprot: A0A178TVN9
   - !!omap
@@ -44654,7 +44654,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03635
-      - ncbigi: ALF09189
+      - ncbiprotein: ALF09189
       - sbo: SBO:0000243
       - uniprot: A0A178U4M8
   - !!omap
@@ -44663,7 +44663,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00855
-      - ncbigi: ALF08709
+      - ncbiprotein: ALF08709
       - sbo: SBO:0000243
       - uniprot: A0A178U386
   - !!omap
@@ -44672,7 +44672,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04735
-      - ncbigi: ALF09373
+      - ncbiprotein: ALF09373
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PQW4
   - !!omap
@@ -44681,7 +44681,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15570
-      - ncbigi: ALF11311
+      - ncbiprotein: ALF11311
       - sbo: SBO:0000243
       - uniprot: A0A178U427
   - !!omap
@@ -44713,7 +44713,7 @@
         - ptl:AOT13_16350
         - ptl:AOT13_15310
         - ptl:AOT13_18670
-      - ncbigi:
+      - ncbiprotein:
         - ALF09825
         - ALF09397
         - ALF11397
@@ -44770,7 +44770,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05645
-      - ncbigi: ALF12005
+      - ncbiprotein: ALF12005
       - sbo: SBO:0000243
       - uniprot: A0A369WM13
   - !!omap
@@ -44779,7 +44779,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04710
-      - ncbigi: ALF09368
+      - ncbiprotein: ALF09368
       - sbo: SBO:0000243
       - uniprot: A0A178U511
   - !!omap
@@ -44788,7 +44788,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18220
-      - ncbigi: ALF11806
+      - ncbiprotein: ALF11806
       - sbo: SBO:0000243
       - uniprot: A0A178TZ71
   - !!omap
@@ -44797,7 +44797,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16355
-      - ncbigi: ALF11457
+      - ncbiprotein: ALF11457
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PWJ5
   - !!omap
@@ -44806,7 +44806,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17740
-      - ncbigi: ALF11715
+      - ncbiprotein: ALF11715
       - sbo: SBO:0000243
       - uniprot: A0A178TZD6
   - !!omap
@@ -44815,7 +44815,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15320
-      - ncbigi: ALF11264
+      - ncbiprotein: ALF11264
       - sbo: SBO:0000243
       - uniprot: A0A178U4H5
   - !!omap
@@ -44824,7 +44824,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15330
-      - ncbigi: ALF11266
+      - ncbiprotein: ALF11266
       - sbo: SBO:0000243
       - uniprot: A0A369WZ52
   - !!omap
@@ -44853,7 +44853,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04750
-      - ncbigi: ALF09376
+      - ncbiprotein: ALF09376
       - sbo: SBO:0000243
       - uniprot: A0A369WHM9
   - !!omap
@@ -44862,7 +44862,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03005
-      - ncbigi: ALF09074
+      - ncbiprotein: ALF09074
       - sbo: SBO:0000243
       - uniprot: A0A178U2L2
   - !!omap
@@ -44871,7 +44871,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03190
-      - ncbigi: ALF09105
+      - ncbiprotein: ALF09105
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PE01
   - !!omap
@@ -44881,7 +44881,7 @@
       - kegg.genes:
         - ptl:AOT13_06850
         - ptl:AOT13_14350
-      - ncbigi:
+      - ncbiprotein:
         - ALF09734
         - ALF11097
       - sbo: SBO:0000243
@@ -44895,7 +44895,7 @@
       - kegg.genes:
         - ptl:AOT13_06850
         - ptl:AOT13_14350
-      - ncbigi:
+      - ncbiprotein:
         - ALF09734
         - ALF11097
       - sbo: SBO:0000243
@@ -44908,7 +44908,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04370
-      - ncbigi: ALF09322
+      - ncbiprotein: ALF09322
       - sbo: SBO:0000243
       - uniprot: A0A178U0M0
   - !!omap
@@ -44917,7 +44917,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04080
-      - ncbigi: ALF09272
+      - ncbiprotein: ALF09272
       - sbo: SBO:0000243
       - uniprot: A0A369WH13
   - !!omap
@@ -44926,7 +44926,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04080
-      - ncbigi: ALF09272
+      - ncbiprotein: ALF09272
       - sbo: SBO:0000243
       - uniprot: A0A369WH13
   - !!omap
@@ -44935,7 +44935,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04080
-      - ncbigi: ALF09272
+      - ncbiprotein: ALF09272
       - sbo: SBO:0000243
       - uniprot: A0A369WH13
   - !!omap
@@ -44945,7 +44945,7 @@
       - kegg.genes:
         - ptl:AOT13_03550
         - ptl:AOT13_11310
-      - ncbigi:
+      - ncbiprotein:
         - ALF09173
         - ALF10552
       - sbo: SBO:0000243
@@ -44959,7 +44959,7 @@
       - kegg.genes:
         - ptl:AOT13_03550
         - ptl:AOT13_11310
-      - ncbigi:
+      - ncbiprotein:
         - ALF09173
         - ALF10552
       - sbo: SBO:0000243
@@ -44972,7 +44972,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00850
-      - ncbigi: ALF08708
+      - ncbiprotein: ALF08708
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PS98
   - !!omap
@@ -44981,7 +44981,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16360
-      - ncbigi: ALF11458
+      - ncbiprotein: ALF11458
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PUB7
   - !!omap
@@ -44993,7 +44993,7 @@
         - ptl:AOT13_08135
         - ptl:AOT13_14580
         - ptl:AOT13_03600
-      - ncbigi:
+      - ncbiprotein:
         - ALF10265
         - ALF09975
         - ALF11139
@@ -45013,7 +45013,7 @@
         - ptl:AOT13_08135
         - ptl:AOT13_14580
         - ptl:AOT13_03600
-      - ncbigi:
+      - ncbiprotein:
         - ALF10265
         - ALF09975
         - ALF11139
@@ -45030,7 +45030,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15040
-      - ncbigi: ALF11223
+      - ncbiprotein: ALF11223
       - sbo: SBO:0000243
       - uniprot: A0A178U4A8
   - !!omap
@@ -45039,7 +45039,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17720
-      - ncbigi: ALF11711
+      - ncbiprotein: ALF11711
       - sbo: SBO:0000243
       - uniprot: A0A369WZ18
   - !!omap
@@ -45048,7 +45048,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15445
-      - ncbigi: ALF11286
+      - ncbiprotein: ALF11286
       - sbo: SBO:0000243
       - uniprot: A0A178U7K7
   - !!omap
@@ -45057,7 +45057,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16455
-      - ncbigi: ALF11475
+      - ncbiprotein: ALF11475
       - sbo: SBO:0000243
       - uniprot: A0A369X9D0
   - !!omap
@@ -45067,7 +45067,7 @@
       - kegg.genes:
         - ptl:AOT13_16600
         - ptl:AOT13_16605
-      - ncbigi:
+      - ncbiprotein:
         - ALF11502
         - ALF11503
       - sbo: SBO:0000243
@@ -45081,7 +45081,7 @@
       - kegg.genes:
         - ptl:AOT13_16600
         - ptl:AOT13_16605
-      - ncbigi:
+      - ncbiprotein:
         - ALF11502
         - ALF11503
       - sbo: SBO:0000243
@@ -45094,7 +45094,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16610
-      - ncbigi: ALF11504
+      - ncbiprotein: ALF11504
       - sbo: SBO:0000243
       - uniprot: A0A178TYJ5
   - !!omap
@@ -45104,7 +45104,7 @@
       - kegg.genes:
         - ptl:AOT13_02695
         - ptl:AOT13_14140
-      - ncbigi:
+      - ncbiprotein:
         - ALF09022
         - ALF11061
       - sbo: SBO:0000243
@@ -45117,7 +45117,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04635
-      - ncbigi: ALF09356
+      - ncbiprotein: ALF09356
       - sbo: SBO:0000243
       - uniprot: A0A178U1V5
   - !!omap
@@ -45126,7 +45126,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04765
-      - ncbigi: ALF09379
+      - ncbiprotein: ALF09379
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PKD0
   - !!omap
@@ -45135,7 +45135,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16205
-      - ncbigi: ALF11429
+      - ncbiprotein: ALF11429
       - sbo: SBO:0000243
       - uniprot: A0A178U4M7
   - !!omap
@@ -45144,7 +45144,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05340
-      - ncbigi: ALF11999
+      - ncbiprotein: ALF11999
       - sbo: SBO:0000243
       - uniprot: A0A369XGZ9
   - !!omap
@@ -45161,7 +45161,7 @@
         - ptl:AOT13_08135
         - ptl:AOT13_14580
         - ptl:AOT13_03600
-      - ncbigi:
+      - ncbiprotein:
         - ALF10265
         - ALF09975
         - ALF11139
@@ -45188,7 +45188,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18615
-      - ncbigi: ALF11883
+      - ncbiprotein: ALF11883
       - sbo: SBO:0000243
       - uniprot: A0A178TZW3
   - !!omap
@@ -45197,7 +45197,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09820
-      - ncbigi: ALF10291
+      - ncbiprotein: ALF10291
       - sbo: SBO:0000243
       - uniprot: A0A369WJT0
   - !!omap
@@ -45206,7 +45206,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14645
-      - ncbigi: ALF11152
+      - ncbiprotein: ALF11152
       - sbo: SBO:0000243
       - uniprot: A0A178U1G3
   - !!omap
@@ -45215,7 +45215,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_13870
-      - ncbigi: ALF11009
+      - ncbiprotein: ALF11009
       - sbo: SBO:0000243
       - uniprot: A0A178U6S8
   - !!omap
@@ -45225,7 +45225,7 @@
       - kegg.genes:
         - ptl:AOT13_12465
         - ptl:AOT13_17850
-      - ncbigi:
+      - ncbiprotein:
         - ALF10764
         - ALF11736
       - sbo: SBO:0000243
@@ -45238,7 +45238,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08720
-      - ncbigi: ALF12035
+      - ncbiprotein: ALF12035
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PK83
   - !!omap
@@ -45247,7 +45247,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07285
-      - ncbigi: ALF09816
+      - ncbiprotein: ALF09816
       - sbo: SBO:0000243
       - uniprot: A0A178TZL0
   - !!omap
@@ -45256,7 +45256,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11490
-      - ncbigi: ALF10585
+      - ncbiprotein: ALF10585
       - sbo: SBO:0000243
       - uniprot: A0A369WJT3
   - !!omap
@@ -45266,7 +45266,7 @@
       - kegg.genes:
         - ptl:AOT13_01925
         - ptl:AOT13_00210
-      - ncbigi:
+      - ncbiprotein:
         - ALF08902
         - ALF08592
       - sbo: SBO:0000243
@@ -45280,7 +45280,7 @@
       - kegg.genes:
         - ptl:AOT13_01925
         - ptl:AOT13_00210
-      - ncbigi:
+      - ncbiprotein:
         - ALF08902
         - ALF08592
       - sbo: SBO:0000243
@@ -45294,7 +45294,7 @@
       - kegg.genes:
         - ptl:AOT13_11950
         - ptl:AOT13_15855
-      - ncbigi:
+      - ncbiprotein:
         - ALF10669
         - ALF11364
       - sbo: SBO:0000243
@@ -45307,7 +45307,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02035
-      - ncbigi: ALF08922
+      - ncbiprotein: ALF08922
       - sbo: SBO:0000243
       - uniprot: A0A178U1P7
   - !!omap
@@ -45316,7 +45316,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02045
-      - ncbigi: ALF08924
+      - ncbiprotein: ALF08924
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PWJ8
   - !!omap
@@ -45325,7 +45325,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00755
-      - ncbigi: ALF08691
+      - ncbiprotein: ALF08691
       - sbo: SBO:0000243
       - uniprot: A0A178U3H1
   - !!omap
@@ -45334,7 +45334,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15825
-      - ncbigi: ALF11358
+      - ncbiprotein: ALF11358
       - sbo: SBO:0000243
       - uniprot: A0A178U641
   - !!omap
@@ -45343,7 +45343,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15825
-      - ncbigi: ALF11358
+      - ncbiprotein: ALF11358
       - sbo: SBO:0000243
       - uniprot: A0A178U641
   - !!omap
@@ -45352,7 +45352,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15825
-      - ncbigi: ALF11358
+      - ncbiprotein: ALF11358
       - sbo: SBO:0000243
       - uniprot: A0A178U641
   - !!omap
@@ -45361,7 +45361,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15825
-      - ncbigi: ALF11358
+      - ncbiprotein: ALF11358
       - sbo: SBO:0000243
       - uniprot: A0A178U641
   - !!omap
@@ -45371,7 +45371,7 @@
       - kegg.genes:
         - ptl:AOT13_03255
         - ptl:AOT13_04030
-      - ncbigi:
+      - ncbiprotein:
         - ALF09116
         - ALF09263
       - sbo: SBO:0000243
@@ -45385,7 +45385,7 @@
       - kegg.genes:
         - ptl:AOT13_03255
         - ptl:AOT13_04030
-      - ncbigi:
+      - ncbiprotein:
         - ALF09116
         - ALF09263
       - sbo: SBO:0000243
@@ -45398,7 +45398,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00745
-      - ncbigi: ALF08689
+      - ncbiprotein: ALF08689
       - sbo: SBO:0000243
       - uniprot: A0A369WZN2
   - !!omap
@@ -45408,7 +45408,7 @@
       - kegg.genes:
         - ptl:AOT13_07040
         - ptl:AOT13_16230
-      - ncbigi:
+      - ncbiprotein:
         - ALF09769
         - ALF11434
       - sbo: SBO:0000243
@@ -45421,7 +45421,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08875
-      - ncbigi: ALF10112
+      - ncbiprotein: ALF10112
       - sbo: SBO:0000243
       - uniprot: A0A369XFZ9
   - !!omap
@@ -45437,7 +45437,7 @@
         - ptl:AOT13_14010
         - ptl:AOT13_16125
         - ptl:AOT13_16120
-      - ncbigi:
+      - ncbiprotein:
         - ALF11036
         - ALF11416
         - ALF11415
@@ -45454,7 +45454,7 @@
         - ptl:AOT13_14010
         - ptl:AOT13_16125
         - ptl:AOT13_16120
-      - ncbigi:
+      - ncbiprotein:
         - ALF11036
         - ALF11416
         - ALF11415
@@ -45469,7 +45469,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03665
-      - ncbigi: ALF09195
+      - ncbiprotein: ALF09195
       - sbo: SBO:0000243
       - uniprot: A0A178U2X7
   - !!omap
@@ -45478,7 +45478,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11575
-      - ncbigi: ALF10597
+      - ncbiprotein: ALF10597
       - sbo: SBO:0000243
       - uniprot: A0A369WL95
   - !!omap
@@ -45487,7 +45487,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17615
-      - ncbigi: ALF11692
+      - ncbiprotein: ALF11692
       - sbo: SBO:0000243
       - uniprot: A0A369WVV1
   - !!omap
@@ -45498,7 +45498,7 @@
         - ptl:AOT13_16440
         - ptl:AOT13_15605
         - ptl:AOT13_15615
-      - ncbigi:
+      - ncbiprotein:
         - ALF11472
         - ALF11316
         - ALF11318
@@ -45513,7 +45513,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16440
-      - ncbigi: ALF11472
+      - ncbiprotein: ALF11472
       - sbo: SBO:0000243
       - uniprot: A0A369WH29
   - !!omap
@@ -45522,7 +45522,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15590
-      - ncbigi: ALF11314
+      - ncbiprotein: ALF11314
       - sbo: SBO:0000243
       - uniprot: A0A369XDH5
   - !!omap
@@ -45533,7 +45533,7 @@
         - ptl:AOT13_18370
         - ptl:AOT13_15580
         - ptl:AOT13_17455
-      - ncbigi:
+      - ncbiprotein:
         - ALF11836
         - ALF12103
         - ALF11660
@@ -45550,7 +45550,7 @@
         - ptl:AOT13_15580
         - ptl:AOT13_17455
         - ptl:AOT13_18370
-      - ncbigi:
+      - ncbiprotein:
         - ALF12103
         - ALF11660
         - ALF11836
@@ -45567,7 +45567,7 @@
         - ptl:AOT13_15580
         - ptl:AOT13_17455
         - ptl:AOT13_18370
-      - ncbigi:
+      - ncbiprotein:
         - ALF12103
         - ALF11660
         - ALF11836
@@ -45583,7 +45583,7 @@
       - kegg.genes:
         - ptl:AOT13_02665
         - ptl:AOT13_02670
-      - ncbigi:
+      - ncbiprotein:
         - ALF09017
         - ALF11979
       - sbo: SBO:0000243
@@ -45597,7 +45597,7 @@
       - kegg.genes:
         - ptl:AOT13_02040
         - ptl:AOT13_18680
-      - ncbigi:
+      - ncbiprotein:
         - ALF08923
         - ALF11894
       - sbo: SBO:0000243
@@ -45611,7 +45611,7 @@
       - kegg.genes:
         - ptl:AOT13_02040
         - ptl:AOT13_18680
-      - ncbigi:
+      - ncbiprotein:
         - ALF08923
         - ALF11894
       - sbo: SBO:0000243
@@ -45625,7 +45625,7 @@
       - kegg.genes:
         - ptl:AOT13_07860
         - ptl:AOT13_06350
-      - ncbigi:
+      - ncbiprotein:
         - ALF09925
         - ALF09642
       - sbo: SBO:0000243
@@ -45639,7 +45639,7 @@
       - kegg.genes:
         - ptl:AOT13_07860
         - ptl:AOT13_06350
-      - ncbigi:
+      - ncbiprotein:
         - ALF09925
         - ALF09642
       - sbo: SBO:0000243
@@ -45652,7 +45652,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11820
-      - ncbigi: ALF10646
+      - ncbiprotein: ALF10646
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PA68
   - !!omap
@@ -45661,7 +45661,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16685
-      - ncbigi: ALF11519
+      - ncbiprotein: ALF11519
       - sbo: SBO:0000243
       - uniprot: A0A178TYC4
   - !!omap
@@ -45670,7 +45670,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11210
-      - ncbigi: ALF10535
+      - ncbiprotein: ALF10535
       - sbo: SBO:0000243
       - uniprot: A0A178TSW3
   - !!omap
@@ -45679,7 +45679,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11465
-      - ncbigi: ALF10580
+      - ncbiprotein: ALF10580
       - sbo: SBO:0000243
       - uniprot: A0A369WK14
   - !!omap
@@ -45688,7 +45688,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11490
-      - ncbigi: ALF10585
+      - ncbiprotein: ALF10585
       - sbo: SBO:0000243
       - uniprot: A0A369WJT3
   - !!omap
@@ -45697,7 +45697,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00205
-      - ncbigi: ALF08591
+      - ncbiprotein: ALF08591
       - sbo: SBO:0000243
       - uniprot: A0A369X173
   - !!omap
@@ -45706,7 +45706,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00215
-      - ncbigi: ALF08593
+      - ncbiprotein: ALF08593
       - sbo: SBO:0000243
       - uniprot: A0A369XEP2
   - !!omap
@@ -45715,7 +45715,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12000
-      - ncbigi: ALF10678
+      - ncbiprotein: ALF10678
       - sbo: SBO:0000243
       - uniprot: A0A178TRL4
   - !!omap
@@ -45724,7 +45724,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05115
-      - ncbigi: ALF09443
+      - ncbiprotein: ALF09443
       - sbo: SBO:0000243
       - uniprot: A0A369X595
   - !!omap
@@ -45733,7 +45733,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17110
-      - ncbigi: ALF11595
+      - ncbiprotein: ALF11595
       - sbo: SBO:0000243
       - uniprot: A0A178TYQ1
   - !!omap
@@ -45742,7 +45742,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17110
-      - ncbigi: ALF11595
+      - ncbiprotein: ALF11595
       - sbo: SBO:0000243
       - uniprot: A0A178TYQ1
   - !!omap
@@ -45752,7 +45752,7 @@
       - kegg.genes:
         - ptl:AOT13_03640
         - ptl:AOT13_11070
-      - ncbigi:
+      - ncbiprotein:
         - ALF09190
         - ALF10509
       - sbo: SBO:0000243
@@ -45765,7 +45765,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16250
-      - ncbigi: ALF11438
+      - ncbiprotein: ALF11438
       - sbo: SBO:0000243
       - uniprot: A0A178U364
   - !!omap
@@ -45774,7 +45774,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16250
-      - ncbigi: ALF11438
+      - ncbiprotein: ALF11438
       - sbo: SBO:0000243
       - uniprot: A0A178U364
   - !!omap
@@ -45783,7 +45783,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08745
-      - ncbigi: ALF10086
+      - ncbiprotein: ALF10086
       - sbo: SBO:0000243
       - uniprot: A0A178TZW5
   - !!omap
@@ -45792,7 +45792,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08745
-      - ncbigi: ALF10086
+      - ncbiprotein: ALF10086
       - sbo: SBO:0000243
       - uniprot: A0A178TZW5
   - !!omap
@@ -45801,7 +45801,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08755
-      - ncbigi: ALF10088
+      - ncbiprotein: ALF10088
       - sbo: SBO:0000243
       - uniprot: A0A178TWB8
   - !!omap
@@ -45810,7 +45810,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16915
-      - ncbigi: ALF11563
+      - ncbiprotein: ALF11563
       - sbo: SBO:0000243
       - uniprot: A0A178TYL3
   - !!omap
@@ -45819,7 +45819,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05105
-      - ncbigi: ALF09441
+      - ncbiprotein: ALF09441
       - sbo: SBO:0000243
       - uniprot: A0A369WGS0
   - !!omap
@@ -45829,7 +45829,7 @@
       - kegg.genes:
         - ptl:AOT13_03545
         - ptl:AOT13_12595
-      - ncbigi:
+      - ncbiprotein:
         - ALF09172
         - ALF10788
       - sbo: SBO:0000243
@@ -45843,7 +45843,7 @@
       - kegg.genes:
         - ptl:AOT13_03545
         - ptl:AOT13_12595
-      - ncbigi:
+      - ncbiprotein:
         - ALF09172
         - ALF10788
       - sbo: SBO:0000243
@@ -45856,7 +45856,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18225
-      - ncbigi: ALF11807
+      - ncbiprotein: ALF11807
       - sbo: SBO:0000243
       - uniprot: A0A178U0R6
   - !!omap
@@ -45865,7 +45865,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02970
-      - ncbigi: ALF09069
+      - ncbiprotein: ALF09069
       - sbo: SBO:0000243
       - uniprot: A0A369WNS2
   - !!omap
@@ -45877,7 +45877,7 @@
         - ptl:AOT13_17895
         - ptl:AOT13_08540
         - ptl:AOT13_14910
-      - ncbigi:
+      - ncbiprotein:
         - ALF11203
         - ALF11745
         - ALF10049
@@ -45897,7 +45897,7 @@
         - ptl:AOT13_03590
         - ptl:AOT13_11040
         - ptl:AOT13_14920
-      - ncbigi:
+      - ncbiprotein:
         - ALF10267
         - ALF11984
         - ALF10504
@@ -45917,7 +45917,7 @@
         - ptl:AOT13_03590
         - ptl:AOT13_11040
         - ptl:AOT13_14920
-      - ncbigi:
+      - ncbiprotein:
         - ALF10267
         - ALF11984
         - ALF10504
@@ -45937,7 +45937,7 @@
         - ptl:AOT13_03590
         - ptl:AOT13_11040
         - ptl:AOT13_14920
-      - ncbigi:
+      - ncbiprotein:
         - ALF10267
         - ALF11984
         - ALF10504
@@ -45957,7 +45957,7 @@
         - ptl:AOT13_03590
         - ptl:AOT13_11040
         - ptl:AOT13_14920
-      - ncbigi:
+      - ncbiprotein:
         - ALF10267
         - ALF11984
         - ALF10504
@@ -45974,7 +45974,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08725
-      - ncbigi: ALF10082
+      - ncbiprotein: ALF10082
       - sbo: SBO:0000243
       - uniprot: A0A369X2Y5
   - !!omap
@@ -45983,7 +45983,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08725
-      - ncbigi: ALF10082
+      - ncbiprotein: ALF10082
       - sbo: SBO:0000243
       - uniprot: A0A369X2Y5
   - !!omap
@@ -45995,7 +45995,7 @@
         - ptl:AOT13_15750
         - ptl:AOT13_00475
         - ptl:AOT13_14050
-      - ncbigi:
+      - ncbiprotein:
         - ALF08701
         - ALF11343
         - ALF08643
@@ -46015,7 +46015,7 @@
         - ptl:AOT13_15750
         - ptl:AOT13_00475
         - ptl:AOT13_14050
-      - ncbigi:
+      - ncbiprotein:
         - ALF08701
         - ALF11343
         - ALF08643
@@ -46035,7 +46035,7 @@
         - ptl:AOT13_15750
         - ptl:AOT13_00475
         - ptl:AOT13_14050
-      - ncbigi:
+      - ncbiprotein:
         - ALF08701
         - ALF11343
         - ALF08643
@@ -46055,7 +46055,7 @@
         - ptl:AOT13_15750
         - ptl:AOT13_00475
         - ptl:AOT13_14050
-      - ncbigi:
+      - ncbiprotein:
         - ALF08701
         - ALF11343
         - ALF08643
@@ -46073,7 +46073,7 @@
       - kegg.genes:
         - ptl:AOT13_06525
         - ptl:AOT13_06520
-      - ncbigi:
+      - ncbiprotein:
         - ALF09673
         - ALF09672
       - sbo: SBO:0000243
@@ -46087,7 +46087,7 @@
       - kegg.genes:
         - ptl:AOT13_06525
         - ptl:AOT13_06520
-      - ncbigi:
+      - ncbiprotein:
         - ALF09673
         - ALF09672
       - sbo: SBO:0000243
@@ -46101,7 +46101,7 @@
       - kegg.genes:
         - ptl:AOT13_06525
         - ptl:AOT13_06520
-      - ncbigi:
+      - ncbiprotein:
         - ALF09673
         - ALF09672
       - sbo: SBO:0000243
@@ -46115,7 +46115,7 @@
       - kegg.genes:
         - ptl:AOT13_06525
         - ptl:AOT13_06520
-      - ncbigi:
+      - ncbiprotein:
         - ALF09673
         - ALF09672
       - sbo: SBO:0000243
@@ -46128,7 +46128,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08130
-      - ncbigi: ALF09974
+      - ncbiprotein: ALF09974
       - sbo: SBO:0000243
       - uniprot: A0A178TWF1
   - !!omap
@@ -46137,7 +46137,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08130
-      - ncbigi: ALF09974
+      - ncbiprotein: ALF09974
       - sbo: SBO:0000243
       - uniprot: A0A178TWF1
   - !!omap
@@ -46146,7 +46146,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15935
-      - ncbigi: ALF11379
+      - ncbiprotein: ALF11379
       - sbo: SBO:0000243
       - uniprot: A0A369X708
   - !!omap
@@ -46155,7 +46155,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02105
-      - ncbigi: ALF08936
+      - ncbiprotein: ALF08936
       - sbo: SBO:0000243
       - uniprot: A0A178U0I0
   - !!omap
@@ -46164,7 +46164,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11715
-      - ncbigi: ALF10625
+      - ncbiprotein: ALF10625
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PA88
   - !!omap
@@ -46173,7 +46173,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02895
-      - ncbigi: ALF09059
+      - ncbiprotein: ALF09059
       - sbo: SBO:0000243
       - uniprot: A0A369WNR0
   - !!omap
@@ -46182,7 +46182,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02895
-      - ncbigi: ALF09059
+      - ncbiprotein: ALF09059
       - sbo: SBO:0000243
       - uniprot: A0A369WNR0
   - !!omap
@@ -46191,7 +46191,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02895
-      - ncbigi: ALF09059
+      - ncbiprotein: ALF09059
       - sbo: SBO:0000243
       - uniprot: A0A369WNR0
   - !!omap
@@ -46200,7 +46200,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12125
-      - ncbigi: ALF10703
+      - ncbiprotein: ALF10703
       - sbo: SBO:0000243
       - uniprot: A0A178TRI9
   - !!omap
@@ -46214,7 +46214,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18725
-      - ncbigi: ALF11903
+      - ncbiprotein: ALF11903
       - sbo: SBO:0000243
       - uniprot: A0A178U004
   - !!omap
@@ -46223,7 +46223,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_10075
-      - ncbigi: ALF10336
+      - ncbiprotein: ALF10336
       - sbo: SBO:0000243
       - uniprot: A0A369WM79
   - !!omap
@@ -46233,7 +46233,7 @@
       - kegg.genes:
         - ptl:AOT13_05955
         - ptl:AOT13_17640
-      - ncbigi:
+      - ncbiprotein:
         - ALF09593
         - ALF11696
       - sbo: SBO:0000243
@@ -46247,7 +46247,7 @@
       - kegg.genes:
         - ptl:AOT13_05955
         - ptl:AOT13_17640
-      - ncbigi:
+      - ncbiprotein:
         - ALF09593
         - ALF11696
       - sbo: SBO:0000243
@@ -46260,7 +46260,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07270
-      - ncbigi: ALF09813
+      - ncbiprotein: ALF09813
       - sbo: SBO:0000243
       - uniprot: A0A369WKU6
   - !!omap
@@ -46269,7 +46269,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09360
-      - ncbigi: ALF10204
+      - ncbiprotein: ALF10204
       - sbo: SBO:0000243
       - uniprot: A0A178TZJ1
   - !!omap
@@ -46278,7 +46278,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16120
-      - ncbigi: ALF11415
+      - ncbiprotein: ALF11415
       - sbo: SBO:0000243
       - uniprot: A0A178U4P5
   - !!omap
@@ -46288,7 +46288,7 @@
       - kegg.genes:
         - ptl:AOT13_14010
         - ptl:AOT13_16125
-      - ncbigi:
+      - ncbiprotein:
         - ALF11036
         - ALF11416
       - sbo: SBO:0000243
@@ -46301,7 +46301,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16730
-      - ncbigi: ALF12114
+      - ncbiprotein: ALF12114
       - sbo: SBO:0000243
       - uniprot: A0A369X4V7
   - !!omap
@@ -46310,7 +46310,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15080
-      - ncbigi: ALF11230
+      - ncbiprotein: ALF11230
       - sbo: SBO:0000243
       - uniprot: A0A178U0V9
   - !!omap
@@ -46319,7 +46319,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17085
-      - ncbigi: ALF11591
+      - ncbiprotein: ALF11591
       - sbo: SBO:0000243
       - uniprot: A0A178TYL4
   - !!omap
@@ -46328,7 +46328,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11460
-      - ncbigi: ALF10579
+      - ncbiprotein: ALF10579
       - sbo: SBO:0000243
       - uniprot: A0A369WN08
   - !!omap
@@ -46339,7 +46339,7 @@
         - ptl:AOT13_08550
         - ptl:AOT13_06540
         - ptl:AOT13_17725
-      - ncbigi:
+      - ncbiprotein:
         - ALF10051
         - ALF09676
         - ALF11712
@@ -46355,7 +46355,7 @@
       - kegg.genes:
         - ptl:AOT13_08550
         - ptl:AOT13_06540
-      - ncbigi:
+      - ncbiprotein:
         - ALF10051
         - ALF09676
       - sbo: SBO:0000243
@@ -46368,7 +46368,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15440
-      - ncbigi: ALF11285
+      - ncbiprotein: ALF11285
       - sbo: SBO:0000243
       - uniprot: A0A178U4K3
   - !!omap
@@ -46377,7 +46377,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46386,7 +46386,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46395,7 +46395,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46404,7 +46404,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46413,7 +46413,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46422,7 +46422,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46431,7 +46431,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46440,7 +46440,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46449,7 +46449,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46458,7 +46458,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46467,7 +46467,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46476,7 +46476,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46485,7 +46485,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01555
-      - ncbigi: ALF08832
+      - ncbiprotein: ALF08832
       - sbo: SBO:0000243
       - uniprot: A0A369WNM2
   - !!omap
@@ -46494,7 +46494,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09890
-      - ncbigi: ALF10305
+      - ncbiprotein: ALF10305
       - sbo: SBO:0000243
       - uniprot: A0A369WQG5
   - !!omap
@@ -46504,7 +46504,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -46518,7 +46518,7 @@
       - kegg.genes:
         - ptl:AOT13_07750
         - ptl:AOT13_14925
-      - ncbigi:
+      - ncbiprotein:
         - ALF09903
         - ALF11201
       - sbo: SBO:0000243
@@ -46531,7 +46531,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08120
-      - ncbigi: ALF09972
+      - ncbiprotein: ALF09972
       - sbo: SBO:0000243
       - uniprot: A0A178TWI3
   - !!omap
@@ -46540,7 +46540,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14450
-      - ncbigi: ALF11114
+      - ncbiprotein: ALF11114
       - sbo: SBO:0000243
       - uniprot: A0A178U0V4
   - !!omap
@@ -46549,7 +46549,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14435
-      - ncbigi: ALF11111
+      - ncbiprotein: ALF11111
       - sbo: SBO:0000243
       - uniprot: A0A369WVI2
   - !!omap
@@ -46558,7 +46558,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14435
-      - ncbigi: ALF11111
+      - ncbiprotein: ALF11111
       - sbo: SBO:0000243
       - uniprot: A0A369WVI2
   - !!omap
@@ -46567,7 +46567,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14455
-      - ncbigi: ALF11115
+      - ncbiprotein: ALF11115
       - sbo: SBO:0000243
       - uniprot: A0A369WVL0
   - !!omap
@@ -46576,7 +46576,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46585,7 +46585,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46596,7 +46596,7 @@
         - ptl:AOT13_08095
         - ptl:AOT13_11720
         - ptl:AOT13_04155
-      - ncbigi:
+      - ncbiprotein:
         - ALF09967
         - ALF10626
         - ALF09287
@@ -46611,7 +46611,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46620,7 +46620,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46629,7 +46629,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46638,7 +46638,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46647,7 +46647,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46656,7 +46656,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46665,7 +46665,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46674,7 +46674,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46683,7 +46683,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46692,7 +46692,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46701,7 +46701,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46710,7 +46710,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46719,7 +46719,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46728,7 +46728,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46737,7 +46737,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46746,7 +46746,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46755,7 +46755,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46764,7 +46764,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46773,7 +46773,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46782,7 +46782,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46791,7 +46791,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46800,7 +46800,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46809,7 +46809,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46818,7 +46818,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46827,7 +46827,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46836,7 +46836,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46845,7 +46845,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08095
-      - ncbigi: ALF09967
+      - ncbiprotein: ALF09967
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYG7
   - !!omap
@@ -46854,7 +46854,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07265
-      - ncbigi: ALF09812
+      - ncbiprotein: ALF09812
       - sbo: SBO:0000243
       - uniprot: A0A369WP21
   - !!omap
@@ -46863,7 +46863,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16330
-      - ncbigi: ALF11452
+      - ncbiprotein: ALF11452
       - sbo: SBO:0000243
       - uniprot: A0A369WR30
   - !!omap
@@ -46872,7 +46872,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01565
-      - ncbigi: ALF08834
+      - ncbiprotein: ALF08834
       - sbo: SBO:0000243
       - uniprot: A0A178TT62
   - !!omap
@@ -46881,7 +46881,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01565
-      - ncbigi: ALF08834
+      - ncbiprotein: ALF08834
       - sbo: SBO:0000243
       - uniprot: A0A178TT62
   - !!omap
@@ -46890,7 +46890,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01565
-      - ncbigi: ALF08834
+      - ncbiprotein: ALF08834
       - sbo: SBO:0000243
       - uniprot: A0A178TT62
   - !!omap
@@ -46899,7 +46899,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08225
-      - ncbigi: ALF09992
+      - ncbiprotein: ALF09992
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PWV3
   - !!omap
@@ -46908,7 +46908,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00175
-      - ncbigi: ALF08585
+      - ncbiprotein: ALF08585
       - sbo: SBO:0000243
       - uniprot: A0A178TU88
   - !!omap
@@ -46917,7 +46917,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16255
-      - ncbigi: ALF11439
+      - ncbiprotein: ALF11439
       - sbo: SBO:0000243
       - uniprot: A0A178U570
   - !!omap
@@ -46926,7 +46926,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08600
-      - ncbigi: ALF10060
+      - ncbiprotein: ALF10060
       - sbo: SBO:0000243
       - uniprot: A0A178TW85
   - !!omap
@@ -46935,7 +46935,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08585
-      - ncbigi: ALF10057
+      - ncbiprotein: ALF10057
       - sbo: SBO:0000243
       - uniprot: A0A369WLE2
   - !!omap
@@ -46944,7 +46944,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02685
-      - ncbigi: ALF09020
+      - ncbiprotein: ALF09020
       - sbo: SBO:0000243
       - uniprot: A0A178U1Q3
   - !!omap
@@ -46954,7 +46954,7 @@
       - kegg.genes:
         - ptl:AOT13_15835
         - ptl:AOT13_18315
-      - ncbigi:
+      - ncbiprotein:
         - ALF11360
         - ALF11825
       - sbo: SBO:0000243
@@ -46968,7 +46968,7 @@
       - kegg.genes:
         - ptl:AOT13_15835
         - ptl:AOT13_18315
-      - ncbigi:
+      - ncbiprotein:
         - ALF11360
         - ALF11825
       - sbo: SBO:0000243
@@ -46981,7 +46981,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02030
-      - ncbigi: ALF08921
+      - ncbiprotein: ALF08921
       - sbo: SBO:0000243
       - uniprot: A0A369WPQ5
   - !!omap
@@ -46990,7 +46990,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02655
-      - ncbigi: ALF09015
+      - ncbiprotein: ALF09015
       - sbo: SBO:0000243
       - uniprot: A0A178U300
   - !!omap
@@ -46999,7 +46999,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15585
-      - ncbigi: ALF11313
+      - ncbiprotein: ALF11313
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBS0
   - !!omap
@@ -47008,7 +47008,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16530
-      - ncbigi: ALF11490
+      - ncbiprotein: ALF11490
       - sbo: SBO:0000243
       - uniprot: A0A178TYC5
   - !!omap
@@ -47018,7 +47018,7 @@
       - kegg.genes:
         - ptl:AOT13_17650
         - ptl:AOT13_11760
-      - ncbigi:
+      - ncbiprotein:
         - ALF11698
         - ALF10634
       - sbo: SBO:0000243
@@ -47032,7 +47032,7 @@
       - kegg.genes:
         - ptl:AOT13_17650
         - ptl:AOT13_11760
-      - ncbigi:
+      - ncbiprotein:
         - ALF11698
         - ALF10634
       - sbo: SBO:0000243
@@ -47046,7 +47046,7 @@
       - kegg.genes:
         - ptl:AOT13_07765
         - ptl:AOT13_08610
-      - ncbigi:
+      - ncbiprotein:
         - ALF09906
         - ALF10062
       - sbo: SBO:0000243
@@ -47060,7 +47060,7 @@
       - kegg.genes:
         - ptl:AOT13_07765
         - ptl:AOT13_08610
-      - ncbigi:
+      - ncbiprotein:
         - ALF09906
         - ALF10062
       - sbo: SBO:0000243
@@ -47073,7 +47073,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18390
-      - ncbigi: ALF11840
+      - ncbiprotein: ALF11840
       - sbo: SBO:0000243
       - uniprot: A0A178U003
   - !!omap
@@ -47083,7 +47083,7 @@
       - kegg.genes:
         - ptl:AOT13_11945
         - ptl:AOT13_05565
-      - ncbigi:
+      - ncbiprotein:
         - ALF10668
         - ALF12003
       - sbo: SBO:0000243
@@ -47097,7 +47097,7 @@
       - kegg.genes:
         - ptl:AOT13_11945
         - ptl:AOT13_05565
-      - ncbigi:
+      - ncbiprotein:
         - ALF10668
         - ALF12003
       - sbo: SBO:0000243
@@ -47111,7 +47111,7 @@
       - kegg.genes:
         - ptl:AOT13_11945
         - ptl:AOT13_05565
-      - ncbigi:
+      - ncbiprotein:
         - ALF10668
         - ALF12003
       - sbo: SBO:0000243
@@ -47124,7 +47124,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06800
-      - ncbigi: ALF09725
+      - ncbiprotein: ALF09725
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q1X1
   - !!omap
@@ -47133,7 +47133,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06810
-      - ncbigi: ALF09727
+      - ncbiprotein: ALF09727
       - sbo: SBO:0000243
       - uniprot: A0A178TY82
   - !!omap
@@ -47142,7 +47142,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14385
-      - ncbigi: ALF11104
+      - ncbiprotein: ALF11104
       - sbo: SBO:0000243
       - uniprot: A0A369WX87
   - !!omap
@@ -47151,7 +47151,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14385
-      - ncbigi: ALF11104
+      - ncbiprotein: ALF11104
       - sbo: SBO:0000243
       - uniprot: A0A369WX87
   - !!omap
@@ -47160,7 +47160,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08830
-      - ncbigi: ALF10103
+      - ncbiprotein: ALF10103
       - sbo: SBO:0000243
       - uniprot: A0A178TWB0
   - !!omap
@@ -47169,7 +47169,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15055
-      - ncbigi: ALF11225
+      - ncbiprotein: ALF11225
       - sbo: SBO:0000243
       - uniprot: A0A178U0L4
   - !!omap
@@ -47178,7 +47178,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17430
-      - ncbigi: ALF11655
+      - ncbiprotein: ALF11655
       - sbo: SBO:0000243
       - uniprot: A0A369X362
   - !!omap
@@ -47187,7 +47187,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_10885
-      - ncbigi: ALF10475
+      - ncbiprotein: ALF10475
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO01591
@@ -47195,7 +47195,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_10885
-      - ncbigi: ALF10475
+      - ncbiprotein: ALF10475
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO00000
@@ -47208,7 +47208,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07255
-      - ncbigi: ALF09810
+      - ncbiprotein: ALF09810
       - sbo: SBO:0000243
       - uniprot: A0A369WIW6
   - !!omap
@@ -47217,7 +47217,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00845
-      - ncbigi: ALF08707
+      - ncbiprotein: ALF08707
       - sbo: SBO:0000243
       - uniprot: A0A178U3F9
   - !!omap
@@ -47226,7 +47226,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16045
-      - ncbigi: ALF11400
+      - ncbiprotein: ALF11400
       - sbo: SBO:0000243
       - uniprot: A0A178U6Q4
   - !!omap
@@ -47235,7 +47235,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15535
-      - ncbigi: ALF11304
+      - ncbiprotein: ALF11304
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PC71
   - !!omap
@@ -47244,7 +47244,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14390
-      - ncbigi: ALF12093
+      - ncbiprotein: ALF12093
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PVL5
   - !!omap
@@ -47253,7 +47253,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14390
-      - ncbigi: ALF12093
+      - ncbiprotein: ALF12093
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PVL5
   - !!omap
@@ -47262,7 +47262,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02645
-      - ncbigi: ALF09014
+      - ncbiprotein: ALF09014
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0N9
   - !!omap
@@ -47271,7 +47271,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02650
-      - ncbigi: ALF11978
+      - ncbiprotein: ALF11978
       - sbo: SBO:0000243
       - uniprot: A0A178U1N0
   - !!omap
@@ -47280,7 +47280,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15565
-      - ncbigi: ALF11310
+      - ncbiprotein: ALF11310
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBS6
   - !!omap
@@ -47289,7 +47289,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15560
-      - ncbigi: ALF11309
+      - ncbiprotein: ALF11309
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PKE7
   - !!omap
@@ -47303,7 +47303,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00335
-      - ncbigi: ALF08615
+      - ncbiprotein: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47312,7 +47312,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00335
-      - ncbigi: ALF08615
+      - ncbiprotein: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47321,7 +47321,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00335
-      - ncbigi: ALF08615
+      - ncbiprotein: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47330,7 +47330,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00335
-      - ncbigi: ALF08615
+      - ncbiprotein: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47339,7 +47339,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00335
-      - ncbigi: ALF08615
+      - ncbiprotein: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47348,7 +47348,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00335
-      - ncbigi: ALF08615
+      - ncbiprotein: ALF08615
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZQ7
   - !!omap
@@ -47357,7 +47357,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11915
-      - ncbigi: ALF10662
+      - ncbiprotein: ALF10662
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PIG6
   - !!omap
@@ -47367,7 +47367,7 @@
       - kegg.genes:
         - ptl:AOT13_03525
         - ptl:AOT13_14430
-      - ncbigi:
+      - ncbiprotein:
         - ALF09168
         - ALF11110
       - sbo: SBO:0000243
@@ -47381,7 +47381,7 @@
       - kegg.genes:
         - ptl:AOT13_03525
         - ptl:AOT13_14430
-      - ncbigi:
+      - ncbiprotein:
         - ALF09168
         - ALF11110
       - sbo: SBO:0000243
@@ -47395,7 +47395,7 @@
       - kegg.genes:
         - ptl:AOT13_03525
         - ptl:AOT13_14430
-      - ncbigi:
+      - ncbiprotein:
         - ALF09168
         - ALF11110
       - sbo: SBO:0000243
@@ -47409,7 +47409,7 @@
       - kegg.genes:
         - ptl:AOT13_03525
         - ptl:AOT13_14430
-      - ncbigi:
+      - ncbiprotein:
         - ALF09168
         - ALF11110
       - sbo: SBO:0000243
@@ -47423,7 +47423,7 @@
       - kegg.genes:
         - ptl:AOT13_17705
         - ptl:AOT13_17710
-      - ncbigi:
+      - ncbiprotein:
         - ALF11708
         - ALF11709
       - sbo: SBO:0000243
@@ -47437,7 +47437,7 @@
       - kegg.genes:
         - ptl:AOT13_17705
         - ptl:AOT13_17710
-      - ncbigi:
+      - ncbiprotein:
         - ALF11708
         - ALF11709
       - sbo: SBO:0000243
@@ -47450,7 +47450,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18660
-      - ncbigi: ALF11890
+      - ncbiprotein: ALF11890
       - sbo: SBO:0000243
       - uniprot: A0A369WXS5
   - !!omap
@@ -47459,7 +47459,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18660
-      - ncbigi: ALF11890
+      - ncbiprotein: ALF11890
       - sbo: SBO:0000243
       - uniprot: A0A369WXS5
   - !!omap
@@ -47468,7 +47468,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07800
-      - ncbigi: ALF09913
+      - ncbiprotein: ALF09913
       - sbo: SBO:0000243
       - uniprot: A0A369WJP5
   - !!omap
@@ -47477,7 +47477,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00825
-      - ncbigi: ALF08703
+      - ncbiprotein: ALF08703
       - sbo: SBO:0000243
       - uniprot: A0A369WWY7
   - !!omap
@@ -47486,7 +47486,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17665
-      - ncbigi: ALF11701
+      - ncbiprotein: ALF11701
       - sbo: SBO:0000243
       - uniprot: A0A178TYX8
   - !!omap
@@ -47495,7 +47495,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07915
-      - ncbigi: ALF09935
+      - ncbiprotein: ALF09935
       - sbo: SBO:0000243
       - uniprot: A0A178U0C5
   - !!omap
@@ -47504,7 +47504,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04755
-      - ncbigi: ALF09377
+      - ncbiprotein: ALF09377
       - sbo: SBO:0000243
       - uniprot: A0A369WJD8
   - !!omap
@@ -47513,7 +47513,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11940
-      - ncbigi: ALF10667
+      - ncbiprotein: ALF10667
       - sbo: SBO:0000243
       - uniprot: A0A369WRH8
   - !!omap
@@ -47522,7 +47522,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18665
-      - ncbigi: ALF11891
+      - ncbiprotein: ALF11891
       - sbo: SBO:0000243
       - uniprot: A0A178TZG0
   - !!omap
@@ -47531,7 +47531,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18665
-      - ncbigi: ALF11891
+      - ncbiprotein: ALF11891
       - sbo: SBO:0000243
       - uniprot: A0A178TZG0
   - !!omap
@@ -47543,7 +47543,7 @@
         - ptl:AOT13_17895
         - ptl:AOT13_08540
         - ptl:AOT13_14910
-      - ncbigi:
+      - ncbiprotein:
         - ALF11203
         - ALF11745
         - ALF10049
@@ -47563,7 +47563,7 @@
         - ptl:AOT13_17895
         - ptl:AOT13_08540
         - ptl:AOT13_14910
-      - ncbigi:
+      - ncbiprotein:
         - ALF11203
         - ALF11745
         - ALF10049
@@ -47583,7 +47583,7 @@
         - ptl:AOT13_17895
         - ptl:AOT13_08540
         - ptl:AOT13_14910
-      - ncbigi:
+      - ncbiprotein:
         - ALF11203
         - ALF11745
         - ALF10049
@@ -47600,7 +47600,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06740
-      - ncbigi: ALF09713
+      - ncbiprotein: ALF09713
       - sbo: SBO:0000243
       - uniprot: A0A369WIL2
   - !!omap
@@ -47609,7 +47609,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15475
-      - ncbigi: ALF11292
+      - ncbiprotein: ALF11292
       - sbo: SBO:0000243
       - uniprot: A0A369WXI8
   - !!omap
@@ -47618,7 +47618,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04740
-      - ncbigi: ALF09374
+      - ncbiprotein: ALF09374
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PT81
   - !!omap
@@ -47627,7 +47627,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17425
-      - ncbigi: ALF11654
+      - ncbiprotein: ALF11654
       - sbo: SBO:0000243
       - uniprot: A0A369X8Q0
   - !!omap
@@ -47636,7 +47636,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04745
-      - ncbigi: ALF09375
+      - ncbiprotein: ALF09375
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PJK2
   - !!omap
@@ -47645,7 +47645,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08220
-      - ncbigi: ALF09991
+      - ncbiprotein: ALF09991
       - sbo: SBO:0000243
       - uniprot: A0A369WID5
   - !!omap
@@ -47657,7 +47657,7 @@
         - ptl:AOT13_07940
         - ptl:AOT13_07910
         - ptl:AOT13_07930
-      - ncbigi:
+      - ncbiprotein:
         - ALF11710
         - ALF09940
         - ALF09934
@@ -47676,7 +47676,7 @@
         - ptl:AOT13_07945
         - ptl:AOT13_14395
         - ptl:AOT13_07935
-      - ncbigi:
+      - ncbiprotein:
         - ALF09941
         - ALF12094
         - ALF09939
@@ -47693,7 +47693,7 @@
         - ptl:AOT13_04720
         - ptl:AOT13_04730
         - ptl:AOT13_04725
-      - ncbigi:
+      - ncbiprotein:
         - ALF09370
         - ALF09372
         - ALF09371
@@ -47710,7 +47710,7 @@
         - ptl:AOT13_04720
         - ptl:AOT13_04730
         - ptl:AOT13_04725
-      - ncbigi:
+      - ncbiprotein:
         - ALF09370
         - ALF09372
         - ALF09371
@@ -47727,7 +47727,7 @@
         - ptl:AOT13_04720
         - ptl:AOT13_04730
         - ptl:AOT13_04725
-      - ncbigi:
+      - ncbiprotein:
         - ALF09370
         - ALF09372
         - ALF09371
@@ -47743,7 +47743,7 @@
       - kegg.genes:
         - ptl:AOT13_15395
         - ptl:AOT13_03540
-      - ncbigi:
+      - ncbiprotein:
         - ALF11277
         - ALF09171
       - sbo: SBO:0000243
@@ -47757,7 +47757,7 @@
       - kegg.genes:
         - ptl:AOT13_15395
         - ptl:AOT13_03540
-      - ncbigi:
+      - ncbiprotein:
         - ALF11277
         - ALF09171
       - sbo: SBO:0000243
@@ -47771,7 +47771,7 @@
       - kegg.genes:
         - ptl:AOT13_02990
         - ptl:AOT13_02995
-      - ncbigi:
+      - ncbiprotein:
         - ALF09071
         - ALF09072
       - sbo: SBO:0000243
@@ -47789,7 +47789,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04375
-      - ncbigi: ALF09323
+      - ncbiprotein: ALF09323
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PVX0
   - !!omap
@@ -47798,7 +47798,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04715
-      - ncbigi: ALF09369
+      - ncbiprotein: ALF09369
       - sbo: SBO:0000243
       - uniprot: A0A369WJI5
   - !!omap
@@ -47812,7 +47812,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00835
-      - ncbigi: ALF08705
+      - ncbiprotein: ALF08705
       - sbo: SBO:0000243
       - uniprot: A0A178U421
   - !!omap
@@ -47821,7 +47821,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15610
-      - ncbigi: ALF11317
+      - ncbiprotein: ALF11317
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PU27
   - !!omap
@@ -47830,7 +47830,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04350
-      - ncbigi: ALF11989
+      - ncbiprotein: ALF11989
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO02155
@@ -47838,7 +47838,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11910
-      - ncbigi: ALF12068
+      - ncbiprotein: ALF12068
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PDD7
   - !!omap
@@ -47847,7 +47847,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11895
-      - ncbigi: ALF10659
+      - ncbiprotein: ALF10659
       - sbo: SBO:0000243
       - uniprot: A0A178TRU8
   - !!omap
@@ -47857,7 +47857,7 @@
       - kegg.genes:
         - ptl:AOT13_11455
         - ptl:AOT13_11900
-      - ncbigi:
+      - ncbiprotein:
         - ALF10578
         - ALF10660
       - sbo: SBO:0000243
@@ -47870,7 +47870,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11920
-      - ncbigi: ALF10663
+      - ncbiprotein: ALF10663
       - sbo: SBO:0000243
       - uniprot: A0A369WKS3
   - !!omap
@@ -47880,7 +47880,7 @@
       - kegg.genes:
         - ptl:AOT13_15875
         - ptl:AOT13_15860
-      - ncbigi:
+      - ncbiprotein:
         - ALF11367
         - ALF11365
       - sbo: SBO:0000243
@@ -47893,7 +47893,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15870
-      - ncbigi: ALF11366
+      - ncbiprotein: ALF11366
       - sbo: SBO:0000243
       - uniprot: A0A178U321
   - !!omap
@@ -47902,7 +47902,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11930
-      - ncbigi: ALF10665
+      - ncbiprotein: ALF10665
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PTM3
   - !!omap
@@ -47911,7 +47911,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11935
-      - ncbigi: ALF10666
+      - ncbiprotein: ALF10666
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PUM6
   - !!omap
@@ -47920,7 +47920,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07080
-      - ncbigi: ALF09776
+      - ncbiprotein: ALF09776
       - sbo: SBO:0000243
       - uniprot: A0A1B7KPL8
   - !!omap
@@ -47929,7 +47929,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_07075
-      - ncbigi: ALF12020
+      - ncbiprotein: ALF12020
       - sbo: SBO:0000243
       - uniprot: A0A369WKX1
   - !!omap
@@ -47938,7 +47938,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02660
-      - ncbigi: ALF09016
+      - ncbiprotein: ALF09016
       - sbo: SBO:0000243
       - uniprot: A0A178U257
   - !!omap
@@ -47947,7 +47947,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02515
-      - ncbigi: ALF09003
+      - ncbiprotein: ALF09003
       - sbo: SBO:0000243
       - uniprot: A0A178TRR5
   - !!omap
@@ -47956,7 +47956,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18685
-      - ncbigi: ALF11895
+      - ncbiprotein: ALF11895
       - sbo: SBO:0000243
       - uniprot: A0A178U1L3
   - !!omap
@@ -47966,7 +47966,7 @@
       - kegg.genes:
         - ptl:AOT13_04205
         - ptl:AOT13_17130
-      - ncbigi:
+      - ncbiprotein:
         - ALF09295
         - ALF11599
       - sbo: SBO:0000243
@@ -47980,7 +47980,7 @@
       - kegg.genes:
         - ptl:AOT13_04205
         - ptl:AOT13_17130
-      - ncbigi:
+      - ncbiprotein:
         - ALF09295
         - ALF11599
       - sbo: SBO:0000243
@@ -47993,7 +47993,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08595
-      - ncbigi: ALF10059
+      - ncbiprotein: ALF10059
       - sbo: SBO:0000243
       - uniprot: A0A178TZY8
   - !!omap
@@ -48002,7 +48002,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02525
-      - ncbigi: ALF09005
+      - ncbiprotein: ALF09005
       - sbo: SBO:0000243
       - uniprot: A0A178TQT4
   - !!omap
@@ -48011,7 +48011,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02820
-      - ncbigi: ALF09045
+      - ncbiprotein: ALF09045
       - sbo: SBO:0000243
       - uniprot: A0A178U289
   - !!omap
@@ -48020,7 +48020,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16435
-      - ncbigi: ALF11471
+      - ncbiprotein: ALF11471
       - sbo: SBO:0000243
       - uniprot: A0A178TY73
   - !!omap
@@ -48029,7 +48029,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02520
-      - ncbigi: ALF09004
+      - ncbiprotein: ALF09004
       - sbo: SBO:0000243
       - uniprot: A0A178TQT8
   - !!omap
@@ -48038,7 +48038,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09260
-      - ncbigi: ALF10185
+      - ncbiprotein: ALF10185
       - sbo: SBO:0000243
       - uniprot: A0A369WLT2
   - !!omap
@@ -48052,7 +48052,7 @@
         - ptl:AOT13_09595
         - ptl:AOT13_13625
         - ptl:AOT13_17860
-      - ncbigi:
+      - ncbiprotein:
         - ALF08932
         - ALF09260
         - ALF08852
@@ -48078,7 +48078,7 @@
         - ptl:AOT13_09595
         - ptl:AOT13_13625
         - ptl:AOT13_17860
-      - ncbigi:
+      - ncbiprotein:
         - ALF08932
         - ALF09260
         - ALF08852
@@ -48104,7 +48104,7 @@
         - ptl:AOT13_09595
         - ptl:AOT13_13625
         - ptl:AOT13_17860
-      - ncbigi:
+      - ncbiprotein:
         - ALF08932
         - ALF09260
         - ALF08852
@@ -48130,7 +48130,7 @@
         - ptl:AOT13_09595
         - ptl:AOT13_13625
         - ptl:AOT13_17860
-      - ncbigi:
+      - ncbiprotein:
         - ALF08932
         - ALF09260
         - ALF08852
@@ -48156,7 +48156,7 @@
         - ptl:AOT13_09595
         - ptl:AOT13_13625
         - ptl:AOT13_17860
-      - ncbigi:
+      - ncbiprotein:
         - ALF08932
         - ALF09260
         - ALF08852
@@ -48182,7 +48182,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12605
-      - ncbigi: ALF10790
+      - ncbiprotein: ALF10790
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZT8
   - !!omap
@@ -48191,7 +48191,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16855
-      - ncbigi: ALF11551
+      - ncbiprotein: ALF11551
       - sbo: SBO:0000243
       - uniprot: A0A178TYF8
   - !!omap
@@ -48215,7 +48215,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09250
-      - ncbigi: ALF10183
+      - ncbiprotein: ALF10183
       - sbo: SBO:0000243
       - uniprot: A0A178TW01
   - !!omap
@@ -48224,7 +48224,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15885
-      - ncbigi: ALF11369
+      - ncbiprotein: ALF11369
       - sbo: SBO:0000243
       - uniprot: A0A369WW86
   - !!omap
@@ -48233,7 +48233,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15880
-      - ncbigi: ALF11368
+      - ncbiprotein: ALF11368
       - sbo: SBO:0000243
       - uniprot: A0A369WW72
   - !!omap
@@ -48253,7 +48253,7 @@
       - kegg.genes:
         - ptl:AOT13_07130
         - ptl:AOT13_15145
-      - ncbigi:
+      - ncbiprotein:
         - ALF09786
         - ALF11239
       - sbo: SBO:0000243
@@ -48269,7 +48269,7 @@
         - ptl:AOT13_15145
         - ptl:AOT13_03255
         - ptl:AOT13_04030
-      - ncbigi:
+      - ncbiprotein:
         - ALF09786
         - ALF11239
         - ALF09116
@@ -48286,7 +48286,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_04705
-      - ncbigi: ALF09367
+      - ncbiprotein: ALF09367
       - sbo: SBO:0000243
       - uniprot: A0A369WJC8
   - !!omap
@@ -48296,7 +48296,7 @@
       - kegg.genes:
         - ptl:AOT13_16340
         - ptl:AOT13_16335
-      - ncbigi:
+      - ncbiprotein:
         - ALF11454
         - ALF11453
       - sbo: SBO:0000243
@@ -48310,7 +48310,7 @@
       - kegg.genes:
         - ptl:AOT13_16340
         - ptl:AOT13_16335
-      - ncbigi:
+      - ncbiprotein:
         - ALF11454
         - ALF11453
       - sbo: SBO:0000243
@@ -48324,7 +48324,7 @@
       - kegg.genes:
         - ptl:AOT13_03255
         - ptl:AOT13_04030
-      - ncbigi:
+      - ncbiprotein:
         - ALF09116
         - ALF09263
       - sbo: SBO:0000243
@@ -48337,7 +48337,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16800
-      - ncbigi: ALF11540
+      - ncbiprotein: ALF11540
       - sbo: SBO:0000243
       - uniprot: A0A178TZX3
   - !!omap
@@ -48346,7 +48346,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01220
-      - ncbigi: ALF08775
+      - ncbiprotein: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48355,7 +48355,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01220
-      - ncbigi: ALF08775
+      - ncbiprotein: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48364,7 +48364,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01220
-      - ncbigi: ALF08775
+      - ncbiprotein: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48373,7 +48373,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01220
-      - ncbigi: ALF08775
+      - ncbiprotein: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48382,7 +48382,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_01220
-      - ncbigi: ALF08775
+      - ncbiprotein: ALF08775
       - sbo: SBO:0000243
       - uniprot: A0A1Y3Q0H9
   - !!omap
@@ -48392,7 +48392,7 @@
       - kegg.genes:
         - ptl:AOT13_15605
         - ptl:AOT13_15615
-      - ncbigi:
+      - ncbiprotein:
         - ALF11316
         - ALF11318
       - sbo: SBO:0000243
@@ -48405,7 +48405,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17715
-      - ncbigi: ALF11710
+      - ncbiprotein: ALF11710
       - sbo: SBO:0000243
       - uniprot: A0A178TYZ2
   - !!omap
@@ -48494,7 +48494,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06590
-      - ncbigi: ALF09686
+      - ncbiprotein: ALF09686
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO05971
@@ -48502,7 +48502,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06605
-      - ncbigi: ALF09688
+      - ncbiprotein: ALF09688
       - sbo: SBO:0000243
       - uniprot: A0A178TY58
   - !!omap
@@ -48514,7 +48514,7 @@
         - ptl:AOT13_17440
         - ptl:AOT13_18305
         - ptl:AOT13_00335
-      - ncbigi:
+      - ncbiprotein:
         - ALF11627
         - ALF11657
         - ALF11823
@@ -48531,7 +48531,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_06610
-      - ncbigi: ALF09689
+      - ncbiprotein: ALF09689
       - sbo: SBO:0000243
       - uniprot: A0A178TXW9
   - !!omap
@@ -48540,7 +48540,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00415
-      - ncbigi: ALF08631
+      - ncbiprotein: ALF08631
       - sbo: SBO:0000243
       - uniprot: A0A369WWS0
   - !!omap
@@ -48549,7 +48549,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15450
-      - ncbigi: ALF11287
+      - ncbiprotein: ALF11287
       - sbo: SBO:0000243
       - uniprot: A0A178U6B2
   - !!omap
@@ -48558,7 +48558,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15450
-      - ncbigi: ALF11287
+      - ncbiprotein: ALF11287
       - sbo: SBO:0000243
       - uniprot: A0A178U6B2
   - !!omap
@@ -48567,7 +48567,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05340
-      - ncbigi: ALF11999
+      - ncbiprotein: ALF11999
       - sbo: SBO:0000243
       - uniprot: A0A369XGZ9
   - !!omap
@@ -48596,7 +48596,7 @@
         - ptl:AOT13_01775
         - ptl:AOT13_08280
         - ptl:AOT13_08285
-      - ncbigi:
+      - ncbiprotein:
         - ALF11189
         - ALF11190
         - ALF08872
@@ -48617,7 +48617,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05340
-      - ncbigi: ALF11999
+      - ncbiprotein: ALF11999
       - sbo: SBO:0000243
       - uniprot: A0A369XGZ9
   - !!omap
@@ -48627,7 +48627,7 @@
       - kegg.genes:
         - ptl:AOT13_15550
         - ptl:AOT13_15555
-      - ncbigi:
+      - ncbiprotein:
         - ALF11307
         - ALF11308
       - sbo: SBO:0000243
@@ -48645,7 +48645,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14385
-      - ncbigi: ALF11104
+      - ncbiprotein: ALF11104
       - sbo: SBO:0000243
       - uniprot: A0A369WX87
   - !!omap
@@ -48655,7 +48655,7 @@
       - kegg.genes:
         - ptl:AOT13_09485
         - ptl:AOT13_09490
-      - ncbigi:
+      - ncbiprotein:
         - ALF10228
         - ALF10229
       - sbo: SBO:0000243
@@ -48673,7 +48673,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15705
-      - ncbigi: ALF11335
+      - ncbiprotein: ALF11335
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PM86
   - !!omap
@@ -48682,7 +48682,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09255
-      - ncbigi: ALF10184
+      - ncbiprotein: ALF10184
       - sbo: SBO:0000243
       - uniprot: A0A178TXD4
   - !!omap
@@ -48691,7 +48691,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03670
-      - ncbigi: ALF09196
+      - ncbiprotein: ALF09196
       - sbo: SBO:0000243
       - uniprot: A0A369XGJ9
   - !!omap
@@ -48700,7 +48700,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_03670
-      - ncbigi: ALF09196
+      - ncbiprotein: ALF09196
       - sbo: SBO:0000243
       - uniprot: A0A369XGJ9
   - !!omap
@@ -48719,7 +48719,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14240
-      - ncbigi: ALF11078
+      - ncbiprotein: ALF11078
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PBY8
   - !!omap
@@ -48741,7 +48741,7 @@
         - ptl:AOT13_17895
         - ptl:AOT13_08540
         - ptl:AOT13_14910
-      - ncbigi:
+      - ncbiprotein:
         - ALF11203
         - ALF11745
         - ALF10049
@@ -48843,7 +48843,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18785
-      - ncbigi: ALF11914
+      - ncbiprotein: ALF11914
       - sbo: SBO:0000243
       - uniprot: A0A178U090
   - !!omap
@@ -48887,7 +48887,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05110
-      - ncbigi: ALF09442
+      - ncbiprotein: ALF09442
       - sbo: SBO:0000243
       - uniprot: A0A178U3G8
   - !!omap
@@ -48896,7 +48896,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05105
-      - ncbigi: ALF09441
+      - ncbiprotein: ALF09441
       - sbo: SBO:0000243
       - uniprot: A0A369WGS0
   - !!omap
@@ -48905,7 +48905,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05115
-      - ncbigi: ALF09443
+      - ncbiprotein: ALF09443
       - sbo: SBO:0000243
       - uniprot: A0A369X595
   - !!omap
@@ -48954,7 +48954,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_08140
-      - ncbigi: ALF09976
+      - ncbiprotein: ALF09976
       - sbo: SBO:0000243
       - uniprot: A0A178TWU5
   - !!omap
@@ -49014,7 +49014,7 @@
       - kegg.genes:
         - ptl:AOT13_06525
         - ptl:AOT13_06520
-      - ncbigi:
+      - ncbiprotein:
         - ALF09673
         - ALF09672
       - sbo: SBO:0000243
@@ -49028,7 +49028,7 @@
       - kegg.genes:
         - ptl:AOT13_17785
         - ptl:AOT13_17790
-      - ncbigi:
+      - ncbiprotein:
         - ALF11723
         - ALF11724
       - sbo: SBO:0000243
@@ -49046,7 +49046,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_13425
-      - ncbigi: ALF10932
+      - ncbiprotein: ALF10932
       - sbo: SBO:0000243
       - uniprot: A0A178U5F7
   - !!omap
@@ -49056,7 +49056,7 @@
       - kegg.genes:
         - ptl:AOT13_03785
         - ptl:AOT13_03795
-      - ncbigi:
+      - ncbiprotein:
         - ALF09219
         - ALF09221
       - sbo: SBO:0000243
@@ -49079,7 +49079,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_02085
-      - ncbigi: ALF08932
+      - ncbiprotein: ALF08932
       - sbo: SBO:0000243
       - uniprot: A0A178U223
   - !!omap
@@ -49103,7 +49103,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05585
-      - ncbigi: ALF09526
+      - ncbiprotein: ALF09526
       - sbo: SBO:0000243
       - uniprot: A0A178TWN6
   - !!omap
@@ -49112,7 +49112,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05580
-      - ncbigi: ALF09525
+      - ncbiprotein: ALF09525
       - sbo: SBO:0000243
       - uniprot: A0A178TYL0
   - !!omap
@@ -49121,7 +49121,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05595
-      - ncbigi: ALF09528
+      - ncbiprotein: ALF09528
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYY1
   - !!omap
@@ -49130,7 +49130,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18185
-      - ncbigi: ALF11799
+      - ncbiprotein: ALF11799
       - sbo: SBO:0000243
       - uniprot: A0A178U0Q8
   - !!omap
@@ -49239,7 +49239,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11305
-      - ncbigi: ALF10551
+      - ncbiprotein: ALF10551
       - sbo: SBO:0000243
       - uniprot: A0A178TSU2
   - !!omap
@@ -49248,7 +49248,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11305
-      - ncbigi: ALF10551
+      - ncbiprotein: ALF10551
       - sbo: SBO:0000243
       - uniprot: A0A178TSU2
   - !!omap
@@ -49502,7 +49502,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05385
-      - ncbigi: ALF09489
+      - ncbiprotein: ALF09489
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PZ13
   - !!omap
@@ -49547,7 +49547,7 @@
       - kegg.genes:
         - ptl:AOT13_12015
         - ptl:AOT13_12335
-      - ncbigi:
+      - ncbiprotein:
         - ALF10681
         - ALF10741
       - sbo: SBO:0000243
@@ -49560,7 +49560,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_16685
-      - ncbigi: ALF11519
+      - ncbiprotein: ALF11519
       - sbo: SBO:0000243
       - uniprot: A0A178TYC4
   - !!omap
@@ -49569,7 +49569,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09890
-      - ncbigi: ALF10305
+      - ncbiprotein: ALF10305
       - sbo: SBO:0000243
       - uniprot: A0A369WQG5
   - !!omap
@@ -49583,7 +49583,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_09450
-      - ncbigi: ALF10221
+      - ncbiprotein: ALF10221
       - sbo: SBO:0000243
       - uniprot: A0A369WJL7
   - !!omap
@@ -49592,7 +49592,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_17105
-      - ncbigi: ALF11594
+      - ncbiprotein: ALF11594
       - sbo: SBO:0000243
       - uniprot: A0A178TYV3
   - !!omap
@@ -49610,7 +49610,7 @@
         - ptl:AOT13_08125
         - ptl:AOT13_08925
         - ptl:AOT13_13490
-      - ncbigi:
+      - ncbiprotein:
         - ALF10217
         - ALF11804
         - ALF09973
@@ -49630,7 +49630,7 @@
       - kegg.genes:
         - ptl:AOT13_07325
         - ptl:AOT13_04865
-      - ncbigi:
+      - ncbiprotein:
         - ALF09824
         - ALF09398
       - sbo: SBO:0000243
@@ -49718,7 +49718,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_18710
-      - ncbigi: ALF11900
+      - ncbiprotein: ALF11900
       - sbo: SBO:0000243
       - uniprot: A0A369WWF2
   - !!omap
@@ -49727,7 +49727,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14055
-      - ncbigi: ALF11045
+      - ncbiprotein: ALF11045
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PW76
   - !!omap
@@ -49741,7 +49741,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00440
-      - ncbigi: ALF08636
+      - ncbiprotein: ALF08636
       - sbo: SBO:0000243
       - uniprot: A0A369WZJ6
   - !!omap
@@ -49750,7 +49750,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_00435
-      - ncbigi: ALF08635
+      - ncbiprotein: ALF08635
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PYQ5
   - !!omap
@@ -49764,7 +49764,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_15190
-      - ncbigi: ALF11248
+      - ncbiprotein: ALF11248
       - sbo: SBO:0000243
       - uniprot: A0A178TX27
   - !!omap
@@ -49799,7 +49799,7 @@
       - kegg.genes:
         - ptl:AOT13_05560
         - ptl:AOT13_05520
-      - ncbigi:
+      - ncbiprotein:
         - ALF09522
         - ALF12002
       - sbo: SBO:0000243
@@ -49812,7 +49812,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_05520
-      - ncbigi: ALF12002
+      - ncbiprotein: ALF12002
       - sbo: SBO:0000243
       - uniprot: A0A178TUR1
   - !!omap
@@ -49821,7 +49821,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11885
-      - ncbigi: ALF10657
+      - ncbiprotein: ALF10657
       - sbo: SBO:0000243
       - uniprot: A0A369WRG7
   - !!omap
@@ -49830,7 +49830,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11890
-      - ncbigi: ALF10658
+      - ncbiprotein: ALF10658
       - sbo: SBO:0000243
       - uniprot: A0A369WN93
   - !!omap
@@ -49839,7 +49839,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11925
-      - ncbigi: ALF10664
+      - ncbiprotein: ALF10664
       - sbo: SBO:0000243
       - uniprot: A0A178TT07
   - !!omap
@@ -49848,7 +49848,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11905
-      - ncbigi: ALF10661
+      - ncbiprotein: ALF10661
       - sbo: SBO:0000243
       - uniprot: A0A1Y3P9W0
   - !!omap
@@ -49857,7 +49857,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11895
-      - ncbigi: ALF10659
+      - ncbiprotein: ALF10659
       - sbo: SBO:0000243
       - uniprot: A0A178TRU8
   - !!omap
@@ -49866,7 +49866,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11910
-      - ncbigi: ALF12068
+      - ncbiprotein: ALF12068
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PDD7
   - !!omap
@@ -49875,7 +49875,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11900
-      - ncbigi: ALF10660
+      - ncbiprotein: ALF10660
       - sbo: SBO:0000243
       - uniprot: A0A178TRW9
   - !!omap
@@ -49884,7 +49884,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_11930
-      - ncbigi: ALF10665
+      - ncbiprotein: ALF10665
       - sbo: SBO:0000243
       - uniprot: A0A1Y3PTM3
   - !!omap
@@ -49894,7 +49894,7 @@
       - kegg.genes:
         - ptl:AOT13_00760
         - ptl:AOT13_18085
-      - ncbigi:
+      - ncbiprotein:
         - ALF08692
         - ALF11780
       - sbo: SBO:0000243
@@ -49907,7 +49907,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_12000
-      - ncbigi: ALF10678
+      - ncbiprotein: ALF10678
       - sbo: SBO:0000243
       - uniprot: A0A178TRL4
   - !!omap
@@ -49929,7 +49929,7 @@
         - ptl:AOT13_14460
         - ptl:AOT13_06490
         - ptl:AOT13_00540
-      - ncbigi:
+      - ncbiprotein:
         - ALF10856
         - ALF11116
         - ALF09666
@@ -49946,7 +49946,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14455
-      - ncbigi: ALF11115
+      - ncbiprotein: ALF11115
       - sbo: SBO:0000243
       - uniprot: A0A369WVL0
   - !!omap
@@ -49963,7 +49963,7 @@
         - ptl:AOT13_14460
         - ptl:AOT13_06490
         - ptl:AOT13_00540
-      - ncbigi:
+      - ncbiprotein:
         - ALF10856
         - ALF11116
         - ALF09666
@@ -49980,7 +49980,7 @@
     - annotation: !!omap
       - kegg.genes:
         - ptl:AOT13_14455
-      - ncbigi: ALF11115
+      - ncbiprotein: ALF11115
       - sbo: SBO:0000243
       - uniprot: A0A369WVL0
   - !!omap
