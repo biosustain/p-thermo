@@ -19461,8 +19461,8 @@
       - h2o_c: -1.0
       - h_c: 1.0
       - pi_c: 1.0
-    - lower_bound: 1.53
-    - upper_bound: 1000.0
+    - lower_bound: 3.141
+    - upper_bound: 1000
     - gene_reaction_rule: RTMO00197 or RTMO00196 or RTMO00193 or RTMO00194 or RTMO04075
         or RTMO00373 or RTMO03395 or RTMO02535 or RTMO04972 or RTMO03714 or RTMO00200
         or RTMO01034 or RTMO00201 or RTMO00199 or RTMO00198
@@ -32639,14 +32639,14 @@
       - Biomass_c: 1.0
       - accoa_c: -0.000249107142857144
       - adocbl_c: -0.000199107142857143
-      - adp_c: 104.9974
+      - adp_c: 152.28
       - ala__L_c: -0.514187446428571
       - amet_c: -0.000199107142857143
       - amp_c: -0.119274155357143
       - arg__L_c: -0.183080357142857
       - asn__L_c: -0.221941964285714
       - asp__L_c: -0.221941964285714
-      - atp_c: -105.027303042
+      - atp_c: -152.309903042
       - bacthiolbsh_c: -6.23441071428571e-05
       - bacthiolbssb_c: -1.55892857142857e-07
       - btn_c: -1.78571428571429e-06
@@ -32670,8 +32670,8 @@
       - glu__L_c: -0.322004464285714
       - gly_c: -0.407705357142857
       - gmp_c: -0.0914575678571428
-      - h2o_c: -104.9974
-      - h_c: 104.9974
+      - h2o_c: -152.28
+      - h_c: 152.28
       - hemeO_c: -0.000199107142857143
       - his__L_c: -0.0778214285714286
       - ile__L_c: -0.272794642857143
@@ -32688,7 +32688,7 @@
       - pg_c: -0.0277116071428571
       - phe__L_c: -0.145116071428571
       - pheme_c: -0.000199107142857143
-      - pi_c: 104.9856
+      - pi_c: 152.2682
       - ppi_c: -0.00107142857142857
       - pro__L_c: -0.166535714285714
       - ptrc_c: -0.00535714285714286
@@ -32742,8 +32742,8 @@
     - name: C00029 exchange
     - metabolites: !!omap
       - glc__D_e: -1.0
-    - lower_bound: -10.0
-    - upper_bound: 0.0
+    - lower_bound: -10
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -35953,8 +35953,8 @@
     - name: L-Cysteine exchange
     - metabolites: !!omap
       - cys__L_e: -1.0
-    - lower_bound: 0
-    - upper_bound: 1000
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -36026,8 +36026,8 @@
     - name: L-Lysine exchange
     - metabolites: !!omap
       - lys__L_e: -1.0
-    - lower_bound: 0
-    - upper_bound: 1000
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
