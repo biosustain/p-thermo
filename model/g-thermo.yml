@@ -19462,7 +19462,7 @@
       - h_c: 1.0
       - pi_c: 1.0
     - lower_bound: 3.141
-    - upper_bound: 1000.0
+    - upper_bound: 1000
     - gene_reaction_rule: RTMO00197 or RTMO00196 or RTMO00193 or RTMO00194 or RTMO04075
         or RTMO00373 or RTMO03395 or RTMO02535 or RTMO04972 or RTMO03714 or RTMO00200
         or RTMO01034 or RTMO00201 or RTMO00199 or RTMO00198
@@ -35953,8 +35953,8 @@
     - name: L-Cysteine exchange
     - metabolites: !!omap
       - cys__L_e: -1.0
-    - lower_bound: 0
-    - upper_bound: 1000
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -36026,8 +36026,8 @@
     - name: L-Lysine exchange
     - metabolites: !!omap
       - lys__L_e: -1.0
-    - lower_bound: 0
-    - upper_bound: 1000
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
