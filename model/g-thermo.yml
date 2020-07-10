@@ -26473,8 +26473,8 @@
       - dhap_c: 1.0
       - f1p_c: -1.0
       - glyald_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: RTMO03967
     - notes: !!omap
       - NAME: D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase
@@ -39479,11 +39479,11 @@
     - id: ASPO6s
     - name: L-aspartate:succinate oxidoreductase
     - metabolites: !!omap
-      - asp__L_c: -1
-      - fum_c: -1
-      - h_c: 1
-      - iasp_c: 1
-      - succ_c: 1
+      - asp__L_c: -1.0
+      - fum_c: -1.0
+      - h_c: 1.0
+      - iasp_c: 1.0
+      - succ_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: RTMO06195
@@ -49542,7 +49542,7 @@
       - sbo: SBO:0000243
   - !!omap
     - id: RTMO06195
-    - name: ''
+    - name: G_RTMO06195
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
