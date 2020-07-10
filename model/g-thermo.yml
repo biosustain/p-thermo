@@ -39493,6 +39493,21 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
+  - !!omap
+    - id: ASPO6s
+    - name: L-aspartate:succinate oxidoreductase
+    - metabolites: !!omap
+      - asp__L_c: -1
+      - fum_c: -1
+      - h_c: 1
+      - iasp_c: 1
+      - succ_c: 1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO06195
+    - annotation: !!omap
+      - ec-code: 1.4.3.16
+      - sbo: SBO:0000176
 - genes:
   - !!omap
     - id: RTMO00131
@@ -49543,6 +49558,9 @@
     - name: G_RTMO06194
     - annotation: !!omap
       - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO06195
+    - name: ''
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
