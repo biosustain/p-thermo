@@ -19446,7 +19446,7 @@
       - h_c: 1.0
       - pi_c: 1.0
     - lower_bound: 3.141
-    - upper_bound: 1000
+    - upper_bound: 1000.0
     - gene_reaction_rule: RTMO00197 or RTMO00196 or RTMO00193 or RTMO00194 or RTMO04075
         or RTMO00373 or RTMO03395 or RTMO02535 or RTMO04972 or RTMO03714 or RTMO00200
         or RTMO01034 or RTMO00201 or RTMO00199 or RTMO00198
@@ -20014,8 +20014,8 @@
       - coa_c: 1.0
       - h_c: -1.0
       - pi_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: RTMO04839
     - annotation: !!omap
       - ec-code: 2.3.1.8
@@ -20246,23 +20246,6 @@
       - rhea: '16833'
       - sbo: SBO:0000176
   - !!omap
-    - id: H202OR
-    - name: Carbon-monoxide:oxygen oxidoreductase
-    - metabolites: !!omap
-      - co2_c: -1.0
-      - co_c: 1.0
-      - h2o2_c: -1.0
-      - h2o_c: 1.0
-      - o2_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO01435 or RTMO01438 or RTMO01437
-    - annotation: !!omap
-      - ec-code: 1.2.2.4
-      - kegg.reaction: R00276
-      - metanetx.reaction: MNXR106447
-      - sbo: SBO:0000176
-  - !!omap
     - id: UDPGD
     - name: UDP-glucose:NAD+ 6-oxidoreductase
     - metabolites: !!omap
@@ -20357,8 +20340,8 @@
       - adp_c: 1.0
       - atp_c: -1.0
       - h_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: RTMO00945
     - annotation: !!omap
       - ec-code:
@@ -26490,8 +26473,8 @@
       - dhap_c: 1.0
       - f1p_c: -1.0
       - glyald_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: RTMO03967
     - notes: !!omap
       - NAME: D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase
@@ -32726,8 +32709,8 @@
     - name: C00029 exchange
     - metabolites: !!omap
       - glc__D_e: -1.0
-    - lower_bound: -10
-    - upper_bound: 1000
+    - lower_bound: -10.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -33483,24 +33466,6 @@
     - annotation: !!omap
       - ec-code: 1.1.1.60
       - kegg.reaction: R01745
-      - sbo: SBO:0000176
-  - !!omap
-    - id: ACOAD1
-    - name: butanoyl-CoA:NAD+ trans-2-oxidoreductase
-    - metabolites: !!omap
-      - b2coa_c: 1.0
-      - btcoa_c: -1.0
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: RTMO05996
-    - notes: !!omap
-      - NAME: butanoyl-CoA:NAD+ trans-2-oxidoreductase
-    - annotation: !!omap
-      - ec-code: 1.3.1.44
-      - kegg.reaction: R01171
       - sbo: SBO:0000176
   - !!omap
     - id: ECOAH1
@@ -39510,6 +39475,21 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
+  - !!omap
+    - id: ASPO6s
+    - name: L-aspartate:succinate oxidoreductase
+    - metabolites: !!omap
+      - asp__L_c: -1.0
+      - fum_c: -1.0
+      - h_c: 1.0
+      - iasp_c: 1.0
+      - succ_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: RTMO06195
+    - annotation: !!omap
+      - ec-code: 1.4.3.16
+      - sbo: SBO:0000176
 - genes:
   - !!omap
     - id: RTMO00131
@@ -49560,6 +49540,9 @@
     - name: G_RTMO06194
     - annotation: !!omap
       - sbo: SBO:0000243
+  - !!omap
+    - id: RTMO06195
+    - name: G_RTMO06195
 - id: GTModelBeata2015
 - name: Geobacillus thermoglucosidasius genome-scale model
 - compartments: !!omap
