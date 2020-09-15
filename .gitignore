@@ -112,3 +112,13 @@ venv.bak/
 # memote report auxiliary files
 *.js.download
 *.min.css
+
+
+# Multistrain model folders
+/notebooks/wip/Multi-strain model/*.ipynb
+/notebooks/wip/Multi-strain model/bbh/*.ipynb
+/notebooks/wip/Multi-strain model/genomes/*.ipynb
+/notebooks/wip/Multi-strain model/nucl/*.ipynb
+/notebooks/wip/Multi-strain model/prots/*.ipynb
+/notebooks/wip/Multi-strain model/Supplementary Tutorial_Resubmission*.ipynb
+/notebooks/wip/Multi-strain model/.ipynb_checkpoints/*.ipynb
