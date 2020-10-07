@@ -20014,8 +20014,8 @@
       - coa_c: 1.0
       - h_c: -1.0
       - pi_c: -1.0
-    - lower_bound: 0
-    - upper_bound: 1000
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: RTMO04839
     - annotation: !!omap
       - ec-code: 2.3.1.8
@@ -20340,8 +20340,8 @@
       - adp_c: 1.0
       - atp_c: -1.0
       - h_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: RTMO00945
     - annotation: !!omap
       - ec-code:
@@ -26473,8 +26473,8 @@
       - dhap_c: 1.0
       - f1p_c: -1.0
       - glyald_c: 1.0
-    - lower_bound: 0
-    - upper_bound: 1000
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
     - gene_reaction_rule: RTMO03967
     - notes: !!omap
       - NAME: D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase
