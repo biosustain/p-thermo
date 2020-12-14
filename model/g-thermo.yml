@@ -49543,8 +49543,8 @@
   - !!omap
     - id: RTMO06195
     - name: G_RTMO06195
-- id: GTModelBeata2015
-- name: Geobacillus thermoglucosidasius genome-scale model
+- id: p-thermo 1.0
+- name: Parageobacillus thermoglucosidasius NCIMB 11955 genome-scale model
 - compartments: !!omap
   - c: cytosol
   - e: extracellular space
