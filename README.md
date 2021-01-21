@@ -1,5 +1,5 @@
 
-# g-thermo
+# P-thermo
 
 Genome-scale metabolic model of _P. thermoglucosidasius_ NCIB 11955 (DSM 2542).
 
